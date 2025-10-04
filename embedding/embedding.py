@@ -95,10 +95,34 @@ print("\nGenerating t-SNE visualization...")
 tsne = TSNE(n_components=2, random_state=42, perplexity=min(30, len(df_clean)-1))
 embeddings_2d = tsne.fit_transform(embeddings)
 
-# Create visualization
-plt.figure(figsize=(12, 8))
+# Define cluster names
+cluster_names = {
+    0: "Space Sustainability & Microbial Adaptation",
+    1: "Human & Animal Physiology in Spaceflight",
+    2: "Plant Molecular Biology & Space Adaptation",
+    3: "Model Organisms & Experimental Methods in Space Biology"
+}
+
+# Create visualization with larger figure size
+plt.figure(figsize=(15, 10))
+
+# Create scatter plot
 scatter = plt.scatter(embeddings_2d[:, 0], embeddings_2d[:, 1], 
                      c=clusters, cmap='tab10', alpha=0.6, s=100)
+
+# Add labels for each cluster
+for cluster_id in range(optimal_k):
+    # Calculate centroid of each cluster
+    mask = clusters == cluster_id
+    centroid = embeddings_2d[mask].mean(axis=0)
+    
+    # Add text with cluster name
+    plt.annotate(cluster_names[cluster_id],
+                xy=(centroid[0], centroid[1]),
+                xytext=(10, 10), textcoords='offset points',
+                bbox=dict(facecolor='white', edgecolor='none', alpha=0.7),
+                fontsize=10, ha='center', va='center')
+
 plt.colorbar(scatter, label='Cluster')
 plt.title(f'Abstract Clusters Visualization (t-SNE)\n{len(df_clean)} abstracts in {optimal_k} clusters')
 plt.xlabel('t-SNE dimension 1')
