@@ -1,0 +1,2470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The multiscale structural and mechanical effects of mouse supraspinatus muscle unloading on the mature enthesis</title>
+				<funder ref="#_sGdRudK">
+					<orgName type="full">National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+				<funder ref="#_GqBsEqq #_NvFm9CP">
+					<orgName type="full">National Institute of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+				<funder ref="#_p3syFgh">
+					<orgName type="full">National Space Biomedical Research Institute</orgName>
+					<orgName type="abbreviated">NSBRI</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-01-01">2020 January 01.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Alix</forename><forename type="middle">C</forename><surname>Deymier</surname></persName>
+							<email>deymier@uchc.edu</email>
+							<idno type="ORCID">0000-0001-5187-4427</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biomedical Engineering</orgName>
+								<orgName type="institution">University of Connecticut</orgName>
+								<address>
+									<settlement>Farmington</settlement>
+									<region>CT</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrea</forename><forename type="middle">G</forename><surname>Schwartz</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Orthopaedic Surgery</orgName>
+								<orgName type="institution">Washington University</orgName>
+								<address>
+									<settlement>St. Louis</settlement>
+									<region>MO</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhounghou</forename><surname>Cai</surname></persName>
+							<email>cai@aps.anl.gov</email>
+							<affiliation key="aff2">
+								<orgName type="laboratory">Advanced Photon Source</orgName>
+								<orgName type="institution">Argonne National Lab</orgName>
+								<address>
+									<settlement>Argonne</settlement>
+									<region>IL</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tyrone</forename><forename type="middle">L</forename><surname>Daulton</surname></persName>
+							<email>tdaulton@wustl.edu</email>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Physics</orgName>
+								<orgName type="department" key="dep2">Institute of Materials Science and Engineering</orgName>
+								<orgName type="institution">Washington University</orgName>
+								<address>
+									<settlement>St. Louis</settlement>
+									<region>MO</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Physics</orgName>
+								<orgName type="department" key="dep2">Institute of Materials Science and Engineering</orgName>
+								<orgName type="institution">Washington University</orgName>
+								<address>
+									<settlement>St. Louis</settlement>
+									<region>MO</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jill</forename><forename type="middle">D</forename><surname>Pasteris</surname></persName>
+							<email>pasteris@wustl.edu</email>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Earth and Planetary Science</orgName>
+								<orgName type="institution">Washington University</orgName>
+								<address>
+									<settlement>St Louis</settlement>
+									<region>MO</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Guy</forename><forename type="middle">M</forename><surname>Genin</surname></persName>
+							<email>genin@wustl.edu</email>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Mechanical Engineering and Materials Science</orgName>
+								<orgName type="institution">Washington University</orgName>
+								<address>
+									<settlement>St Louis</settlement>
+									<region>MO</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Stavros</forename><surname>Thomopoulos</surname></persName>
+							<idno type="ORCID">0000-0003-1531-4849</idno>
+							<affiliation key="aff7">
+								<orgName type="department" key="dep1">Department of Orthopedic Surgery</orgName>
+								<orgName type="department" key="dep2">Department of Biomedical Engineering</orgName>
+								<orgName type="institution">Columbia University</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department" key="dep1">Department of Orthopedic Surgery</orgName>
+								<orgName type="department" key="dep2">Department of Biomedical Engineering</orgName>
+								<orgName type="institution">Columbia University</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff9">
+								<orgName type="department">Dept. Biomedical Engineering</orgName>
+								<orgName type="institution">University of Connecticut</orgName>
+								<address>
+									<addrLine>263 Farmington Ave Mail Code 1721</addrLine>
+									<postCode>06030</postCode>
+									<settlement>Farmington</settlement>
+									<region>CT</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff10">
+								<orgName type="department">Dept. of Orthopedic Surgery</orgName>
+								<orgName type="institution">Columbia University</orgName>
+								<address>
+									<addrLine>650 W 168 th St Black Building 14-1406</addrLine>
+									<postCode>10032</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The multiscale structural and mechanical effects of mouse supraspinatus muscle unloading on the mature enthesis</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Acta Biomaterialia</title>
+						<title level="j" type="abbrev">Acta Biomaterialia</title>
+						<idno type="ISSN">1742-7061</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">83</biblScope>
+							<biblScope unit="page" from="302" to="313"/>
+							<date type="published" when="2020-01-01">2020 January 01.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F4F36963E5F1B7FB128B91F0F055AD8E</idno>
+					<idno type="DOI">10.1016/j.actbio.2018.10.024</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:29+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Enthesis</term>
+					<term>Biomechanics</term>
+					<term>Paralysis</term>
+					<term>Unloading</term>
+					<term>Structure</term>
+					<term>Shoulder</term>
+					<term>Rotator Cuff</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The musculoskeletal system is sensitive to its loading environment; this is of particular concern under conditions such as disuse, paralysis, and extended-duration space flight. Although structural and mechanical changes to tendon and bone following paralysis and disuse are well understood, there is a pressing need to understand how this unloading affects the bone-tendon interface (enthesis); the location most prone to tears and injury. We therefore elucidated these effects of unloading in the entheses of adult mice shoulders that were paralyzed for 21 days by treatment with botulinum toxin A. Unloading significantly increased the extent of mechanical failure and</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>The musculoskeletal system is sensitive to its loading environment. Mechanical forces are necessary to maintain tissue structure and composition capable of bearing loads. Loss of these forces due to disuse, paralysis, or microgravity leads to significant functional deficit in these tissues. For example, bone unloading results in rapid resorption and loss of mass, leading to decreased mechanical properties <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref>. Likewise, unloading of tendon results in decreased collagen production, stiffness, and strength <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref>. Tendon near myotendinous junction is affected in response to muscle unloading <ref type="bibr" target="#b14">[15]</ref>. However, little is known about how protracted unloading affects the site of load transfer between bone and tendon and the most common site of rotator cuff tears, the enthesis. Previous work has demonstrated that muscle loading is necessary for the fetal and postnatal development of the enthesis <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref> and can affect the healing of injuries to the enthesis <ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref>. However, the effects of unloading on the homeostasis of the mature enthesis is not understood.</p><p>The healthy enthesis is a hierarchical composite structure optimized to efficiently transfer loads from tendon to bone to produce joint motion. At the millimeter length scale, tendon attaches to bone with a splayed morphology over a large surface area to minimize stresses <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref>. At the micrometer length scale, mineralized and unmineralized fibrocartilage interdigitate, providing a mechanism to increase the toughness of the attachment <ref type="bibr" target="#b24">[25]</ref>. In addition to interdigitations, gradients in mineral content, collagen orientation, and extracellular matrix composition exist across the interface to minimize stress singularities <ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref>. The width of the mineral gradient, however, does not vary with muscle force, as local stresses are invariant between species and during growth <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b25">26]</ref>. At the nanometer length scale, prior studies of the mineral gradient suggest that crystal organization and its location relative to the collagen fibrils are different in regions of high mineralization compared to regions of low mineralization <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b28">29]</ref>. Protracted unloading has been shown to change the composition and crystallinity of the mineral crystals within the gradient of developing entheses <ref type="bibr" target="#b17">[18]</ref>. These changes in the structure and organization of bioapatite crystals at the enthesis in healthy and unloaded tissues can have significant effects on the tendon-to-bone attachment mechanics <ref type="bibr" target="#b27">[28,</ref><ref type="bibr" target="#b29">30]</ref>. However, it is not known how mineral crystal composition and organization change as a function of loading. As hierarchical structures across multiple length scales participate in load transfer at the enthesis, it is important to establish which of these are compromised as a result of unloading. This understanding will allow for the development of focused and relevant therapeutic approaches.</p><p>In this study, we investigated the effects of unloading on adult shoulders at multiple hierarchical scales. We hypothesized that unloading would result in compromised mechanics and structural modifications at the nano-, micro-and macro-scales. To test this, the shoulders of adult mice were locally paralyzed via botulinum toxin A (botox) injections. Mechanical testing, spectroscopic, and imaging techniques were employed to examine the effects of extended unloading on the enthesis across a wide range of spatial scales. Our results provide the first multiscale description of how unloading affects the adult shoulder.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Experimental Procedures</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Sample preparation</head><p>The use of animals for this study was approved by the Animal Studies Committee at Washington University. Forty adult male CD-1 mice aged 30-34 weeks of age (Charles River labs, Wilmington, MA) were separated into two groups: control and injected. Control mice remained in normal cage activity conditions for the duration of the study. Injected mice received 2 U of botulinum toxin A (Botox; Allergan, Irvine, CA, 0.2 U/10μl) per 100 g of body weight in the left supraspinatus muscle and a matching volume of saline in the right supraspinatus muscle. A single injection maintained paralysis for the three-week duration of the study. Mice were euthanized 21 days after injection or after an equivalent period of normal cage activity. After sacrifice, the humerus-supraspinatus complexes were collected and separated for characterization by: (1) microcomputed tomography (μCT) and mechanical testing (N=12 per group), (2) Raman spectroscopy and synchrotron nano-X-ray diffraction and X-ray fluorescence (N=5 per group), or (3) μCT and scanning transmission electron microscopy-electron energy loss spectroscopy spectral imaging (TEM-EELS, N=3 per group).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Millimeter-scale assay -Mechanical properties</head><p>Uniaxial tensile testing to determine the mechanical properties of the entheses was performed on thawed, previously fresh-frozen supraspinatus tendon-humeral head specimens (N=12 per group). Prior to mechanical testing, thawed samples were imaged by μCT in a fresh state (see Section 2.3.1). After μCT analysis, the humerus was potted in epoxy up to the humeral head to stabilize the bone. A paperclip embedded in additional epoxy was placed over the articular surface of the humeral head to minimize the risk of fracture of the growth plate. Immediately before tensile testing, the tendons were cleaned of all attached muscle by gentle scraping and secured between two layers of thin paper with a drop of cyanoacrylate adhesive before being mounted in the top clamp grip of custom aluminum grips. The potted bone, while hanging from the gripped tendon was lowered into the bottom grip consisting of a hollow mount with three radially placed screws. The screws were tightened to grip the potted bone while maintaining alignment with the tendon. Samples were tested in a 37 °C saline bath attached to an Instron ElectroPuls E1000 (Instron Corp., Canton, MA) fitted with a 5 lb load cell. The tendon gauge length was determined optically.</p><p>The testing protocol (WaveMatrix software, Instron Corp., Canton, MA) consisted first of a 300 mN preload followed by 5 cycles of preconditioning using a triangle waveform at 0.1 Hz with a peak strain of 1%. Tendons were returned to the baseline state and held isometrically for 150 sec before loading to failure at 0.5%/s.</p><p>Estimates of the stiffness and maximum force were made from the load-displacement curves of each load-to-failure test. The stiffness of each sample was determined from the linear portion of each load-displacement curve. The linear portion was identified by adjusting a window of points within the load-deformation or stress-strain so as to maximize the R 2 value for a linear-least-squares regression of the data in the window.</p><p>To determine elastic and failure material properties, force values were normalized by a tissue cross-sectional area to obtain stress. Choosing a cross-sectional area for normalization is a difficult challenge in complex systems like the tendon-bone unit. For that reason we measured 3 cross-sectional areas for all samples: the tendon minimum cross-sectional area, the footprint area, and the failure area as discussed in Section 2.3.1. Historically, the minimum tendon cross-sectional area has been used in calculating material properties for these samples. We used it here in the measure of elastic properties to provide comparison with the literature; however, when it came to the failure properties it seemed unreasonable to use this value, as the entire tendon clearly does not participate in the failure. Visual inspection after failure showed that the tendon was surrounded by an exterior sheath, which remained intact even after bony avulsion at the enthesis. This structure was included in the cross-sectional area evaluation, but not in the mechanics. This spatial relation was similarly true of the footprint area, which remained mostly undamaged during failure. Instead, we felt that it was most accurate to use an area that is known to participate fully in the failure. Any cross-sectional area chosen would have been imperfect, but we determined that this was the most accurate measurement.</p><p>Strain was calculated as the displacement divided by the initial gage length. Maximum force, stiffness, strength (i.e., maximum stress), toughness, and energy-to-yield were determined from the stress-strain curves of each load-to-failure test. The energy-to-yield was defined as the total area under the stress-strain plot beginning from the point at which the tendon reached a load of 0.05 N and continuing until the yield stress was attained <ref type="bibr" target="#b30">[31]</ref>. The yield stress was defined as the stress value when the tangent modulus decreased to 50% of the maximum value in the load-to-failure tests. Note that yield is poorly defined in biological materials in general, and that the yield point noted by this criterion likely does not, as in metals, indicate a threshold at which inelastic deformation begins to take place. The toughness was defined as the total area under the stress-strain curve beginning at 0.05 N and continuing until this baseline value of stress was again attained. The strength was defined as the peak values on the stress-strain curves. Samples that failed either at the grip or the growth plate were excluded from analysis (exclusions: 2 Botox, 4 Saline). This resulted in a final sample size of N=10 for Botox, N=8 for Saline samples, and N=12 for Control.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">Micrometer-scale assays</head><p>2.3.1 Bone morphometry (microcomputed tomography)-Botox, Saline, and Control group samples (N=12 per group for subsequent mechanical testing and 3 per group for subsequent TEM-EELS analysis) were prepared and scanned for micro-computed tomography (μCT) analysis using a Scanco μCT40 scanner (ScancoMedical AG, Switzerland). The humerus-suprapintus complexes and the bone was embedded in agarose and mounted such that the bone, muscle, and tendon were in line and hung loosely within the micro-computed tomography system (μCT40; ScancoMedical AG, Switzerland). Scans were performed at X-ray tube settings of 55 kV and 145 μA with an isometric resolution of 20 μm. Following the initial μCT imaging of the specimens, 12 specimens were prepared for mechanical testing followed by subsequent μCT imaging (see section 2.2), and 3 were fixed for later analysis by STEM-EELS (see section 2.4.1).</p><p>Using μCT scans, measurements were made of the minimum tendon cross-sectional area, the footprint attachment area, and the bone morphometry in the humeral head adjacent to the tendon enthesis. Minimum cross-sectional tendon area was determined from thresholded cross-sectional areas of sagittal slices through the tendon. Since the absorption coefficient of the tendon did not change significantly between samples, a single set of threshold values was selected that visually encompassed the area of the tendon. In order to measure the footprint area of the tendon, two regions of interest were selected to calculate the surface area of the tendon attachment. The first region represents the surface of the bone, contoured using the manufacturer's semi-automated implementation of a snake contouring algorithm (Scanco, Zurich, Switzerland). The second region represents a volume that intersects the surface of the bone along the outer edge of the tendon attachment. The edge of this region was visually determined by an experienced operator as the location where the soft tissue thinned to the thickness of the periosteum. The outer surfaces of the bone and outer volume were then triangularly meshed using an implementation of the cgalsurf library in MATLAB <ref type="bibr" target="#b31">[32]</ref>. The triangles on the surface of the bone contained within the volume were considered as the attachment area.</p><p>Bone morphometry parameters such as bone volume/total volume (BV/TV), trabecular thickness (Tb.Th.), and trabecular spacing (Tb.Sp.) of the trabecular bone in the humeral head were measured using the commercial μCT analysis software of the instrument (Scanco, Zurich, Switzerland). The region of interest for bone histomorphometry was contoured by an experienced user to only include the trabecular space in slices above the growth plate but within the inner surface of the humeral head cortical bone. Bone within this volume was thresholded to a single set of values that visually covered the bone area.</p><p>After failure, all samples exhibited a failure crater at the attachment site where the mineralized tissue was fractured during mechanical testing. Stress-strain diagrams showed a single rapid drop in stress indicating that bone avulsion occurred very rapidly as a single catastrophic event. Thus, the failure crater did not appear to widen substantially after the peak load was reached. The area of the crater was measured by reconstructing the 3D volume of the humeral head and determining the area of the crater using Image J <ref type="bibr" target="#b32">[33]</ref>. In Image J, the outline of the crater was drawn manually, by an experienced operator; the area enclosed by the outline was measured using the program's built-in area measurement tool.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.2">Mineral gradient width (Raman Spectroscopy)-For</head><p>Raman spectroscopic analysis of the mineral gradient, freshly dissected samples were mounted in Optimal Cutting Temperature (OCT) compound, frozen at -80 °C, and sectioned to 20 μm on a cryostat (N=5 per group). Spectra were collected using a laser Raman microprobe (HoloLab Series 5000 fiberoptically coupled Raman Microscope, Kaiser Optical Systems, Inc.) using techniques described previously <ref type="bibr" target="#b26">[27]</ref>. A 532 nm laser was focused to a ~1 μm beam spot, delivering 10 mW of power to the surface of the sample. The scattered light was then collected as 32 4second acquisitions in a backscattered configuration. Raman spectra were collected across the enthesis from the unmineralized to the fully mineralized region with a step size of 3-5 μm.</p><p>Spectra were analyzed as previously described <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref>. Briefly, spectra were background corrected, and peaks within the spectral range 700-1200 Δcm -1 were deconvolved. The ratio of peak intensities between the ν 1 P-O stretching band of hydroxylapatite (~960 Δcm -1 ) and the aromatic ring stretching band of phenylalanine residues in collagen (~1003 Δcm -1 ) were determined at each measurement position to obtain relative mineral/matrix ratios. The width of the mineral gradient was calculated from the maximum spectral mineral-to-matrix ratio divided by the slope of the gradient.</p><p>For each set of measurements across the gradient, at least 5 of the data points fell in the region of high mineralization. Levels of carbonate concentration within the mineral were determined from these five points by taking the ratio of peak heights between the carbonate peak at 1070 Δcm -1 and the phosphate peak at 960 Δcm -1 . The ratios were averaged across the 5 locations for each sample.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">Nanometer-scale assays</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.1">Mineral crystal imaging (transmission electron microscopy)-</head><p>The nanometer-scale organization of the mineral at the enthesis was studied in 3 samples from each group. After dissection, humeral head-supraspinatus tendon complexes were fixed, embedded in Epon (Polysciences, INC., Warington, PA), and sectioned to a ~70 nm thickness using a Leica EM UC6 ultramicrotome. Sections were deposited onto copper TEM grids coated with holey carbon support film.</p><p>Enthesis sections were characterized using a JEOL JEM-2100F field-emission scanning transmission electron microscope equipped with high-resolution pole piece. This instrument was operated at 200 kV with a rated point resolution of 0.23 nm and a lattice resolution of 0.1 nm. Relative positions of the detectors allowed for simultaneous acquisition of STEM high-angle annular darkfield (HAADF) images along with STEM-EELS. Bone-tendon interfaces were located using conventional TEM bright-field (BF) imaging. Each interface was then imaged using STEM-HAADF/BF, and multiple images were stitched together to produce a montage image of the entire interface. From that image, typically four ROIs for each interface were selected for STEM-HAADF/EELS spectral imaging. Only ROIs that overhung holes in the amorphous-C support film that coated the TEM grids were examined to avoid C edge signal from the support film. The STEM-EELS spectral images were obtained by collecting an EELS spectrum at each pixel within a ROI area. The areas of the ROIs ranged from 13.6×10 4 to 21.9×10 4 in total pixels (spatial resolutions between 3.0 -5.7 nm/pixel). Each core-loss spectrum was collected with an energy dispersion of 0.3 eV/ channel over the energy range 200 -814.4 eV (2048 channels per spectrum). Raster dwell times were 2.5 s per pixel, corresponding to total acquisition times from 9.5 to 15.25 hrs per spectral image. From the core-loss spectra, the following elements were mapped using the specified absorption edge when present: C (K-edge), Ca (L 2,3 -edge), N (K-edge), and O (Kedge).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.2">Mineral crystal X-ray analysis</head><p>Sample preparation: Four botox samples and 5 control samples of cage activity, 56 day old, CD-1 mice (Charles River Labs) were frozen in OCT, sectioned, and deposited onto silicon nitride windows. Both XRD and XRF measurements were performed at beamline 2-ID-D of the Advanced Photon Source (Argonne National Lab) using the X-ray microprobe described elsewhere <ref type="bibr" target="#b33">[34]</ref>. Beam energies of 10.1 and 10.5 keV were employed for the control and botox-treated entheses, respectively. The area of attachment was positioned in the X-ray beam by observing radiographs of the specimen and translated such that the X-ray beam was at the interface between mineralized and unmineralized tissue. The beam was scanned across the attachment over a length of ~25 μm spanning the interface with XRF and XRD measurements taken every 200 and 250 nm for the control and botox-treated entheses, respectively. Exposure times for the diffraction measurements were 60-120 sec and 1-100 sec for fluorescence. This procedure was repeated three times for each sample with a spacing of 1 and 5 μm between line scans for the control and botox-treated entheses, respectively.</p><p>A Vortex-EX silicon drift detector (SII Nanotechnology USA, Northridge, CA) was used to capture X-ray fluorescence signals. The Ca peak was used to determine the location of hydroxylapatite mineral. A Mar165 detector was used to record the wide-angle X-ray scattering produced by the hydroxylapatite mineral. The detector was placed at a sample-todetector distance of ~50 mm such that the (002), (004) and unresolved (211)+(112)+(300) hydroxylapatite diffraction rings were recorded in their entirety.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fluorescence analysis:</head><p>To correct for variations in X-ray beam intensity, fluorescence intensity values were normalized to the incident beam fluence. Normalized fluorescence intensities from Ca were plotted as a function of position across the attachment area. The width of the gradient was determined by multiplying the slope by the highest measured Ca fluorescence intensity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Diffraction analysis: Orientation:</head><p>The analysis of the diffraction data was performed as described elsewhere <ref type="bibr" target="#b34">[35,</ref><ref type="bibr" target="#b35">36]</ref> and summarized here. A pseudo-Voigt type curve was used to fit the shape of the hydroxylapatite (002) diffraction peak. The FWHM of the peaks in the intensity vs. azimuth plots was calculated as a measure of mineral alignment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Diffraction analysis: Residual strains:</head><p>The radial position of the (002) diffraction ring, R, was determined from the location of the center of the pseudo-Voigt fit for the (002) peaks. These radial positions were then converted to d-spacings, d, using Bragg's law. The longitudinal residual strains in the hydroxylapatite mineral were calculated from</p><formula xml:id="formula_0">ε 1 = d 1 -d o d 0</formula><p>, where d o is the d-spacing for the unstrained mineral.</p><p>Diffraction analysis: Size and root mean square strain: Broadening of the diffraction peaks is caused by instrumental and specimen (e.g., size and strain) effects. The FWHM of the (002) and (004) diffraction rings were measured from the FWHM of the pseudo-Voigt fit peaks in the direction of maximum intensity. The root mean square (RMS) strain, ε rms , defined as distribution of hydroxylapatite strain in the sampled volume, and the crystal size D was calculated according to the equation:</p><formula xml:id="formula_1">Δ2θcosθ = 2ε rms sinθ -λ D ,</formula><p>where Δ2θ is the instrument corrected FWHM of the diffraction peak. At least two equations are needed to solve for both D and ε rms , and these were obtained from the (002) and (004) peaks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">Statistical Analysis</head><p>One-way analyses of variance (ANOVAs) were used to determinate statistically significant differences (defined as p&lt;0.05) between control, saline, and botox groups. Tukey's pairwise comparison was used to identify the significance between groups. For the synchrotron XRD data, statistical differences were determined by performing an analysis of covariance (ANCOVA) to control for the effect of the covariate position. The effects of heteroscedasticity were determined to be negligible after calculating the F statistics and finding F max to be less than 5 <ref type="bibr" target="#b36">[37]</ref>.All statistical analysis was performed using Minitab18 (Minitab Inc, State College, PA). Values are reported as means ± standard deviations.</p><p>Group sizes were estimated using our previous data sets for μCT and biomechanical analyses. For an ANOVA, a power of 0.8 and a significance level of 0.05, and coefficients of variation taken from our previous data sets, a sample size of 10 per group is sufficient to detect differences between groups of 25% in stiffness and 13% in max force. This was determined to be reasonable as our previous experiments using botox during development resulted in a changes in max force of 50-87% and in stiffness of 30-66% <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b37">38]</ref>. <ref type="bibr" target="#b14">15</ref> samples per group is sufficient to measure a 14% change for BV/TV, 7% change for trabecular thickness and a 0.3% change in trabecular spacing. This was considered reasonable, as our previous botox work on developing mice showed a 33% decrease in BV/TV and a 39% decrease in Trabecular spacing <ref type="bibr" target="#b37">[38]</ref>. A sample size of 5 per group is sufficient to detect differences between groups of 12% in carbonate content in bone mineral. This was considered adequate as previous botox studies showed a 20% decrease in carbonate content <ref type="bibr" target="#b17">[18]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Millimeter scale: Mechanical Properties</head><p>Botox-induced unloading had only marginal effects on the load-deformation behavior of the enthesis. The maximum force was unchanged between the control, botox, and saline samples (control: 5.0 ± 0.7 N, saline: 4.6 ± 0.8 N, botox: 4.1 ± 1.4 N, Fig <ref type="figure" target="#fig_0">1A</ref>). The stiffness of the enthesis was similar among the three groups: 9.2 ± 2.9 N/mm for control samples, 9.1 ± 2.5 for saline samples, and 8.7 ± 2.0 N/mm for botox-treated samples (Fig <ref type="figure" target="#fig_0">1B</ref>).</p><p>To determine the stresses underlying fracture of the entheses, three areas were measured before and after failure: tendon minimum cross-sectional area, attachment footprint area, and failure area. The tendon minimum cross-sectional area did not change significantly with unloading, from 0.68 ± 0.23 mm 2 for control, 0.56 ± 0.33 mm 2 in saline samples, and 0.44 ± 0.23 mm 2 in botox samples (Fig <ref type="figure" target="#fig_0">1C</ref>). The footprint area, which represents the area over which the tendon attaches to the humeral head, did not change significantly with unloading, from 1.39 ± 0.29 mm 2 for control samples, 1.50 ± 0.19 mm 2 saline samples, and 1.63 ± 0.31 mm 2 in botox samples (Fig <ref type="figure" target="#fig_0">1F</ref>).</p><p>In all cases, enthesis fracture occurred in the mineralized portion of the attachment, leading to removal of a disc-shaped plug of mineralized tissue during rupture (Fig <ref type="figure" target="#fig_0">1G</ref>). This bone plug formation resulted in a cylindrical crater that appeared to extend through the mineralized cartilage and subchondral bone, exposing the marrow space. The failure area of the crater increased with unloading when comparing control and saline samples to botox samples. Specifically, the average failure area increased significantly from 0.19 ± 0.11 mm 2 and 0.22 ± 0.13 mm 2 in the control and saline samples, respectively, to 0.43 ± 0.30 mm 2 in the botox samples (Fig <ref type="figure" target="#fig_0">1H</ref>). This failure area was used for estimating stresses associated with failure.</p><p>Protracted unloading had significant effects on the failure properties of the enthesis. The strength of the attachment trended towards a decrease, from 33 ± 35 MPa and 36 ± 20 MPa in the control and saline samples, respectively, to 12 ± 7 MPa in the botox-treated samples (Fig <ref type="figure" target="#fig_0">1D</ref>). The toughness of the enthesis was significantly decreased by unloading: botox samples exhibited an average toughness of 3.6 ± 2.5 MPa compared to 12 ± 10 and 14 ± 10 MPa for the control and saline samples, respectively (Fig <ref type="figure" target="#fig_0">1E</ref>). In contrast, energy-to-yield (the area under the stress-strain curve through the yield point) was not significantly affected by botox-induced unloading (1.3 ± 0.6, 2.2 ± 2.2, and 1.7 ± 1.4 MPa for the control, saline and botox samples, respectively).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Micrometer scale: Bone morphology and mineral gradient width</head><p>Unloading led to significant changes in the morphology of the humeral head, as measured by μCT. The ratio of bone volume to total volume (BV/TV) decreased with unloading compared to control samples (0.44 ± 0.08 for control samples, 0.39 ± 0.07 for saline samples, and 0.27±0.08 for botox samples; Fig. <ref type="figure" target="#fig_1">2A</ref>). Trabecular thickness decreased with unloading compared to control samples (0.080 ± 0.004 cm for control samples, 0.070 ± 0.006 for saline samples, and 0.060 ± 0.007 mm for botox samples; Fig. <ref type="figure" target="#fig_1">2B</ref>). Trabecular spacing increased significantly with unloading, from 0.14 ± 0.03 mm and 0.14 ± 0.02 mm in control and saline samples, respectively, to 0.16 ± 0.02 mm in botox samples (Fig <ref type="figure" target="#fig_1">2C</ref>).</p><p>To determine the local mineral concentration along the enthesis, XRD and XRF measurements were taken at positions ranging from the unmineralized fibrocartilage to the mineralized fibrocartilage in control and unloaded samples (saline samples were not examined). The XRF signal showed that Ca levels increased monotonically across the interface from unmineralized to mineralized regions of enthesis fibrocartilage, and that the associated slope in mineral content was significantly lower in the control samples (0.07 ± 0.03 μm -1 ) compared to the botox samples (0.13 ± 0.01 μm -1 ). Further, the width of the mineral gradient was 15.1 ± 5.5 μm for the control attachments and 8.0 ± 0.5 μm for the botox-treated samples (Fig. <ref type="figure" target="#fig_1">2D</ref>). In contrast, the Raman-determined mineral gradient width did not change with unloading: 18.7 ± 4.8, 19.2 ± 5.3, and 16.9 ± 10.8 μm for botox, saline, and control samples, respectively (Fig. <ref type="figure" target="#fig_1">2D</ref>). These values were similar to those measured in prior studies using synchrotron and Raman spectroscopy for control samples <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b38">39]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Nanometer scale: Mineral structure, organization, and composition</head><p>Diffraction patterns of the enthesis exhibited variations in azimuthal intensity for individual rings, which occur when crystals approximately share a common orientation but vary through a range of orientations. Assuming a Gaussian distribution, the FWHM of the peaks obtained by plotting this intensity as a function of azimuth for the 002 peak decreased with increased mineralization, showing that the alignment of mineral particles within the enthesis increased with increasing degree of mineralization (Fig <ref type="figure" target="#fig_2">3A</ref>). In the low mineralization region of the control attachments, the FWHM of the intensity peaks was ~72°. It decreased quickly in the first 4 μm of the gradient before reaching a plateau of ~63°. Although noisier, the FWHM of the botox-treated attachments exhibited a similar trend. The FWHM in the low mineralization region was ~100°. This decreased quickly to a value of ~80 ° in the first 4 μm of the gradient before reaching a plateau. The FWHM of the botox-treated attachments was significantly higher than the control attachments. The FWHMs of these samples were higher than those previously reported for bovine dentin and cortical bone, 60.0° ± 1.5° and 53.8° ± 1.6°, respectively <ref type="bibr" target="#b39">[40]</ref>.</p><p>The mean size of the mineral crystals increased with increasing mineral content (i.e., from unmineralized to mineralized fibrocartilage, Fig. <ref type="figure" target="#fig_2">3B</ref>) for both the control and botoxunloaded specimens. For the control samples, the length of the crystals along the c-axis increased from ~45 to ~80 nm. The botox-unloaded samples showed a similar trend, although the lengths tended to be smaller than those of the control samples (p=0.10). These values are in agreement with crystal sizes determined for bovine and chick bones <ref type="bibr" target="#b39">[40,</ref><ref type="bibr" target="#b40">41]</ref> and smaller than those found for dog and rat bone <ref type="bibr" target="#b35">[36,</ref><ref type="bibr" target="#b41">42]</ref>.</p><p>The control and botox-unloaded samples showed similar trends for the residual strain as a function of position (Fig. <ref type="figure" target="#fig_2">3C</ref>). The residual strain in the mineral platelets along the c-axis was initially tensile, with values ~600 με in the areas of low mineralization. For the first 4 μm of the enthesis, with increasing mineral content, the residual strain became more compressive. Beyond the first few micrometers, the residual strain plateaued to a compressive value of approximately -100 με. This is lower than the residual strain of ~2000 με typically reported for bulk bone and dentin <ref type="bibr" target="#b35">[36,</ref><ref type="bibr" target="#b42">43]</ref>but on the order of the strains measured for thin sections of bovine dentin <ref type="bibr" target="#b43">[44]</ref>.</p><p>The RMS strain, which describes the distributions of strains within the sampling volume, also decreased with increased mineralization for control and botox-unloaded samples (Fig <ref type="figure" target="#fig_2">3D</ref>). In the regions of low mineralization, the RMS strain was ~125,000 με and decreased to 90,000 με over the first 4 μm. The strain continued to decrease, but at a much slower rate, for the remainder of the enthesis width. These values are over one order of magnitude greater than the levels of RMS strain usually measured in bulk bone <ref type="bibr" target="#b42">[43]</ref>. A decrease in RMS strain may indicate increased crystallinity with increased mineral content or a more homogeneous crystal environment.</p><p>When examining mineral composition, the carbonate levels in bone mineral were significantly decreased with unloading compared to the contralateral saline controls. Carbonate levels were determined from Raman microscopy by comparing the ratio of the 1070/960 Δcm -1 carbonate/phosphate peak heights, and were 0.16 ± 0.02, 0.16 ± 0.02, and 0.15 ± 0.01 for the control, saline, and botox samples, respectively (Supplementary Figure <ref type="figure" target="#fig_0">S1</ref>).</p><p>The STEM-EELS spectral images acquired at varying locations within the depth of the gradient indicated that the mineral location relative to the collagen changed with depth (Fig. <ref type="figure" target="#fig_3">4</ref>). In both the botox-unloaded and saline-treated entheses, the mineral was predominantly outside the collagen fibrils in regions of low mineralization. In mineralized regions farthest from the bone, the mineral crystals were organized in random groupings or rosettes. As mineralization increased, the mineral was found predominantly in the long thin regions between the collagen fibrils. In regions of high mineralization, the mineral appeared as both intra-and extrafibrillar.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Unloading affects failure but not elastic properties of the enthesis</head><p>It is well known that the developing and adult musculoskeletal systems are sensitive to their mechanical environment. Previous studies demonstrated that muscle loading was necessary for enthesis development <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b44">45]</ref>. Numerous studies have shown that unloading can lead to decreased stiffness in knees and achilles tendons <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b45">[46]</ref><ref type="bibr" target="#b46">[47]</ref><ref type="bibr" target="#b47">[48]</ref>. In many cases, the decrease in stiffness is correlated to a decrease in tendon cross-sectional area. However, there are also reports that suggests that 2-3 weeks of unloading has no effect on the stiffness but does result in a decrease in tendon CSA <ref type="bibr" target="#b48">[49,</ref><ref type="bibr" target="#b49">50]</ref>. In the current study, we see change in neither the stiffness of the complex nor the tendon CSA nor footprint area. Furthermore, the elastic properties of the supraspinatus-humerus complex remained unchanged with unloading as did the macro-structure of the tendon. This suggests that the tendon structure remains relatively unchanged after 3 weeks of unloading resulting in a constant stiffness of the supraspinatushumerus complex irrespective of the loading condition. However, we show that muscle unloading of the tendon enthesis for only 21 days resulted in compromised failure properties, including decreasing trends in strength and decreasing toughness of the attachment. These results point to tendon-mediated elastic properties of the complex, whereas mineralized regions of the tissue control the failure properties.</p><p>Unloading also led to increases in the extent of tissue damage. All the entheses, irrespective of their loading environment prior to testing, failed by avulsion of mineralized tissue from the attachment site (Fig <ref type="figure" target="#fig_0">1G</ref>). Clinically, most rotator cuff injuries exhibit tears at the insertion site or within the tendon, especially in non-acute tears and in the elderly population <ref type="bibr" target="#b50">[51]</ref>. However, a small proportion of rotator cuff injuries present as bony avulsions of the supraspinatus <ref type="bibr" target="#b51">[52]</ref> or bony partial articular surface tendon avulsion lesions <ref type="bibr" target="#b52">[53]</ref>. These clinical cases often present with fractures of the greater tuberosity and supraspinatus tears, where the avulsed bone remains strongly attached to the tendon fibers <ref type="bibr" target="#b52">[53,</ref><ref type="bibr" target="#b53">54]</ref>. The fact that greater tuberosity fractures, compared to other proximal humeral fractures, tend to affect younger individuals <ref type="bibr" target="#b54">[55]</ref> and that multiple clinical reports of these injuries seem to occur in individuals younger than 25 years old <ref type="bibr" target="#b52">[53,</ref><ref type="bibr" target="#b53">54]</ref> have led to speculation that bony avulsions are more likely to occur in young patients <ref type="bibr" target="#b53">[54]</ref>. However, bony injuries have also been reported in more aged individuals <ref type="bibr" target="#b55">[56]</ref>. Bhatia et al. suggest that, instead of being directly affected by age, these injuries are most likely to occur in individuals that exhibit healthy tendon-to-bone attachments <ref type="bibr" target="#b52">[53]</ref>. This is in agreement with the fact that bony avulsions have been reported to occur after traumatic injuries and not due to chronic degradation <ref type="bibr" target="#b52">[53,</ref><ref type="bibr" target="#b53">54,</ref><ref type="bibr" target="#b56">57]</ref>. The mice in this study were healthy adults with no genetic predisposition to rotator cuff degeneration; thus, they are expected to have healthy tendon-to-bone attachment sites.</p><p>Although unloading had effects on the tissue at the failure site, these effects were not sufficient to change the mode of failure. The failure mechanism we observed has also been previously reported for healthy supraspinatus-to-humeral head attachments under a variety of loading conditions in other animal models <ref type="bibr" target="#b57">[58]</ref><ref type="bibr" target="#b58">[59]</ref><ref type="bibr" target="#b59">[60]</ref>. Although the failure mechanism was the same for all samples, the failure area was increased in the unloading group. This suggests that the mature enthesis is sensitive to loading and would be at risk for more extensive injury after even short durations of unloading. The increase in extent of failure may be a consequence of structural changes at several hierarchical scales.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Experimental results across hierarchical spatial scales</head><p>While numerous studies have examined the effects of unloading on tendon and bone <ref type="bibr">[1-13, 46, 47, 49, 61-63]</ref>, prior to this study, the effects of unloading on the structure and mechanics of the mature adult enthesis across multiple spatial scales were largely unknown.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4.2.1</head><p>Millimeter-scale bone loss may increase the extent of failure-At the millimeter length scale, changes in the bone architecture due to unloading can have significant mechanical consequences. It is well established that unloading results in bone loss <ref type="bibr">[1-10, 61, 62]</ref>. In the current study, as well as other examples of unloading, the bone loss occurred primarily in the region directly adjacent to the unloaded enthesis and lead to increased risk of avulsion failure <ref type="bibr" target="#b47">[48,</ref><ref type="bibr" target="#b59">60,</ref><ref type="bibr" target="#b62">63,</ref><ref type="bibr" target="#b63">64]</ref>. This loss of supporting trabecular bone was dramatic, with a nearly 40% decrease in BV/TV and a 14% increase in trabecular spacing (Fig 2A ,<ref type="figure">C</ref>). To determine the possible mechanical consequences of this bone loss, a plate-in-bending model was developed. In this model, we consider the mineralized fibrocartilage to be a circular plate that is clamped at its edges by the trabeculae. The maximum deflection of the plate, ωmax, is given by ω max = -qa 4</p><p>64D where q is the applied pressure, D is the flexural rigidity, and a is distance between clamps <ref type="bibr" target="#b64">[65]</ref>. In that the trabecular spacing increases with paralysis, as seen from μCT analysis, the distance between clamps will increase, resulting in an increase in deflection proportional to the 4th power. A 14% increase in trabecular spacing, from 0.14 to 0.16 mm as measured here, will thus result in a 70% increase in deflection. This increases the energy stored in the circular plate, and hence increases the energy available to fracture the circumference of the avulsed trabecular bone. In addition, stress concentrations that develop at the trabecular subchondral-bone junction clamping sites can induce failure at those locations. Increasing distance between trabeculae therefore will result in larger failure areas. These results agree with the experimentally observed avulsion of mineralized fibrocartilage as well as the increased failure area in botox samples (Fig 1G <ref type="figure">-H</ref>). Loss of the supporting trabecular bone may therefore increase the risk and extent of failure at the enthesis by compromising the underlying bony support structure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.2">Micrometer changes in crystal size and orientation may decrease</head><p>energy dissipation-At the micrometer length scale, three weeks of enthesis unloading led to changes in the organization and structure of the mineral within the mineral gradient zone. Both the botox and control entheses exhibited changes in crystal size and orientation with increased mineralization across mineral gradient zone (Fig <ref type="figure" target="#fig_2">3A-B</ref>). For both groups, the crystal size increased monotonically with distance from the unmineralized edge (Fig 3B <ref type="figure" target="#fig_3">and4</ref>). However, the crystal size of the mineral in the botox samples was significantly smaller than that in the control samples. Furthermore, the orientation of the crystals was also modified with unloading. For both groups, mineral crystals were misaligned in the areas of low mineralization and exhibited increased alignment with increasing distance from unmineralized edge (Fig 3A <ref type="figure" target="#fig_3">and4</ref>). However, unloading resulted in a significant increase in the misalignment of the crystals relative to the long axis of the tendon. This increase in misalignment may be associated with the increased collagen disorder seen at the enthesis with paralysis during development <ref type="bibr" target="#b17">[18]</ref>. The muscle-tendon junction is also known to exhibit an increase in collagen misalignment after several weeks of hind-limb unloading or space flight <ref type="bibr" target="#b65">[66]</ref>.</p><p>To clarify the role that changes in crystal size and orientation may have on enthesis mechanics, a rotation model was analyzed. Motion of mineral relative to collagen fibers requires work and can serve as a means of mechanical energy absorption <ref type="bibr" target="#b66">[67,</ref><ref type="bibr" target="#b67">68]</ref>. It has previously been shown that, even in densely mineralized tissues such as bone, mineral crystals rotate within the tissue during loading <ref type="bibr" target="#b39">[40]</ref>. This rotation may be in part responsible for the presence of a region of increased compliance previously measured within the mineral gradient zone <ref type="bibr" target="#b68">[69]</ref><ref type="bibr" target="#b69">[70]</ref><ref type="bibr" target="#b70">[71]</ref><ref type="bibr" target="#b71">[72]</ref>. The compliant zone can undergo significant deformation during loading, allowing it to absorb and dissipate mechanical energy and thus avoid catastrophic failure <ref type="bibr" target="#b27">[28,</ref><ref type="bibr" target="#b69">70,</ref><ref type="bibr" target="#b72">73]</ref>. Therefore, modifications to this compliant zone, such as the decreased mineral size and alignment in the unloaded group, may decrease the toughness of the enthesis and increase the extent of failure. To estimate the change between the botox and control samples in energy dissipation due to crystal rotation and sliding in the collagen matrix, an analytical model was developed (Supplementary Document). The model considers a crystal of length L o and width w sitting in a collagen matrix at an angle θ o from the direction of collagen fiber alignment (Fig 5A ). A load, σ, is applied to the system along the direction of collagen alignment, causing a deformation with a stretch ratio λ. The amount of energy dissipated from the rotation and sliding of the crystal can then be calculated from the equation:</p><formula xml:id="formula_2">W θ 0 , λ = ατL 0 2 w -1 + λ cos 2 θ 0 + λ -3 sin 2 θ 0</formula><p>where α is related to the displacement of a point on a crystal relative to the collagen beneath it, and τ is a friction factor between the collagen and mineral. The energy dissipation varies as a function of the original orientation of the crystal, with crystals aligned parallel and perpendicular to the fibrils resulting in the highest dissipation (Fig <ref type="figure" target="#fig_4">5B</ref>). Assuming a von Mises distribution for θ o , an orientation distribution was calculated from the measured FWHM. The total normalized energy dissipation, W tot , could then be calculated by integrating W(θ o ,λ) over the orientation distribution. Although the botox and control samples both exhibited an increase in W tot with increasing distance from the unmineralized edge, unloading resulted in an overall decrease in the W tot <ref type="bibr">(Fig 5C)</ref>. A decreased W tot suggests that, for the rotation mode, energy absorption could be deficient after unloading.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.3">Nanometer-scale crystal packing remains unclear-Changes in the mineral</head><p>size and orientation at the micrometer scale are likely caused by changes in mineral environment at the nanometer scale. Mineral crystals can be extrafibrillar, meaning that they lie outside of the collagen fibrils, or intrafibrillar, meaning that they grow within the gap zones of the fibrils <ref type="bibr" target="#b73">[74]</ref>. Previous work has shown that the mineral shifts from being uniquely extrafibrillar in regions of low mineralization to being both intra-and extrafibrillar in regions of high mineralization <ref type="bibr" target="#b28">[29]</ref>. To examine if changes in nanometer organization of the crystals might explain the micrometer changes in orientation and size, STEM-EELS spectral imaging was performed across loaded and unloaded entheses. In these composition maps, the mineral appears to transition from extrafibrillar to extrafibrillar/intrafibrillar with increasing mineral content across both the loaded and unloaded entheses (Fig <ref type="figure" target="#fig_3">4</ref>). Since extrafibrillar mineral is not constrained within the restrictive volume of the gap zones of the collagen fibrils as is intrafibrillar mineral, the former has a greater range in its possible alignment relative to the fibrils, resulting in a more disordered system. Conversely, as intrafibrillar mineralization increases, mineral crystals become more constrained within the aligned collagen network and thus, on average, the crystals become more aligned. However, because extrafibrillar mineral obscures intrafibrillar mineral in thin TEM sections, we were not able to determine if the transition between extra-and intra-fibrillar mineral was modified in unloaded samples compared to control samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.4">Atomic-scale compositional changes may increase compliant zone</head><p>stiffness-At the atomic scale, the composition of the mineral was altered with unloading; this would undoubtedly alter its physical properties and could contribute to mechanical changes at higher length scales. Specifically, the carbonate levels measured in the botox treated samples were significantly decreased compared to the saline controls (Supplementary Figure <ref type="figure" target="#fig_0">S1</ref>). Bone mineral, although often described as hydroxylapatite, is a highly substituted calcium apatite containing 2-8% carbonate <ref type="bibr" target="#b74">[75]</ref><ref type="bibr" target="#b75">[76]</ref><ref type="bibr" target="#b76">[77]</ref>. Even a small decrease in carbonate substitution can dramatically increase the modulus of bone mineral <ref type="bibr" target="#b77">[78]</ref>. Since the enthesis is a composite of mineral and collagen, an increase in the mineral stiffness will in turn increase the stiffness of the gradient region. An increase in the stiffness of a previously compliant zone could subsequently decrease the attachment's ability to dissipate energy and thereby increase failure risk and extent.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Conclusions</head><p>The musculoskeletal system dynamically responds to its loading environment to guide its development and maintain its structure. To develop targeted therapeutics to treat the effects of unloading (e.g., paralysis or microgravity), it is necessary to determine which features in the complex structural hierarchy of the enthesis are affected by unloading, and how those affected features may influence the mechanical response of the system. Botox was used as a local paralytic to unload the shoulders of adult mice. We found that even a short duration of unloading significantly increased extent of failure of the enthesis, possibly due to structural changes across hierarchical scales (Fig. <ref type="figure" target="#fig_5">6</ref>). At the millimeter scale, trabecular bone volume in the humeral head was significantly decreased, which could lead to increased bending of the subchondral bone and subsequently increased failure area (Fig 6 <ref type="figure">middle</ref>). At the micrometer scale, unloading led to decreases in crystal size and alignment (Fig 6 <ref type="figure">right</ref>). These changes can result in decreased energy absorption in the compliant zone, thus possibly increasing the risk and extent of failure. At the atomic scale, mineral carbonate content was decreased with protracted unloading. This change in composition has been shown to increase the stiffness of the crystals and thus the overall composite. A stiffer composite is less able to dissipate mechanical energy, thereby possibly increasing failure risk. Hierarchical changes at a variety of scales can affect the overall mechanical properties of the enthesis. Therefore, it is important to consider structures at a variety of scales when developing treatments.</p><p>by the Institute of Materials Science &amp; Engineering at Washington University. We would also like to thank Dan Leib at Washington University for his help in developing code to measure enthesis footprint area.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statement of Significance</head><p>The musculoskeletal system is sensitive to its loading environment; this is of particular concern under conditions such as disuse, paralysis, and extended-duration space flight. Although changes to tendon and bone following paralysis are understood, there is a pressing need to clarify how unloading affects the bone-tendon interface (enthesis), which is the location most prone to tears and injury. We elucidated the effects of enthesis unloading in adult mice shoulders showing, for the first time, that unloading significantly increased the risk and extent of mechanical failure and was associated with structural changes across hierarchical scales. These observations provide new insight into the hierarchical features of structure and composition that endow the enthesis with resilience. This knowledge can be used to develop more targeted treatments to improve mobility and function. Three weeks of unloading had no significant effect on the maximum force (A) or stiffness (B) of the enthesis. However, it decreased certain failure properties, including strength (D) and toughness (E). The minimum cross-sectional area of the tendon (C) and the footprint area of the tendon attachment (F) were unaffected by unloading. In all cases, the failure mechanism was avulsion of mineralized tissue at the attachment site, as shown in μCT images for saline and botox samples (G). The failure area, defined here as the area of the resultant crater after avulsion, was significantly larger for unloaded entheses (H). Horizontal bars represent significant differences between underlying groups (p &lt; 0.05). Unloading resulted in significant loss of trabecular bone (A), with decreased trabecular thickness (B) and increased trabecular spacing (C). With less bone supporting the tendon attachment, the enthesis would undergo greater deformation and increased stress concentrations during load transfer. The gradient width, measured using two independent techniques (XRD and Raman), was not affected by unloading (D). Horizontal bars represent significant differences between underlying groups (p &lt; 0.05). Synchrotron nano-X-ray diffraction measurements across the mineral gradient showed that the FWHM of the azimuthal peak which is inversely proportional to the mineral alignment, decreased with increasing mineralization (A). In addition, the crystal size increased with mineralization (B). Unloading significantly affected both measurements, with botox treatment decreasing alignment and crystal size. In both the control and botox samples, the residual strain (C) and strain distribution (D) decrease rapidly within the first 4 μm of the enthesis, followed by a plateau. This suggests that in an ~4 μm area, there is a change in the mechanical environment that results in a more homogeneous compressive residual strain. TEM-EELS was used to image the location of mineral relative to the collagen as a function of mineralization across the gradient. In both the saline and botox-treated samples, the mineral (represented by the calcium signal, in red) was located in clumps outside of the collagen (represented by the nitrogen signal, in cyan) at the start of the gradient. As mineralization increased, the mineral became intrafibrillar, as shown by the banding pattern in the calcium images at the end of the gradient. No apparent differences were noted between the botox-treated and saline samples. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)  Unloading of the enthesis had significant structural consequences at several hierarchical scales. At the millimeter-scale, unloading resulted in an increase failure area. At the micrometerscale, there was a significant decrease in trabecular bone volume and trabecular thickness, with an increase in trabecular spacing. At the nanometer-scale, the mineral exhibited changes in organization, structure, and composition, with overall decreases in crystallite size, carbonate content, and alignment. Together these changes led to significantly compromised fracture resistance.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1.</figDesc><graphic coords="22,109.04,62.00,453.93,414.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2.</figDesc><graphic coords="23,132.24,62.00,407.52,370.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3.</figDesc><graphic coords="24,84.00,62.00,504.00,384.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4.</figDesc><graphic coords="25,84.00,62.00,504.00,371.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5.(A) Energy dissipation was calculated by stretching a system containing a crystal oriented at an angle θ o from the direction of collagen fiber alignment and aligned collagen fibers. Stretch will induce rotation of the crystal relative to the collagen resulting in energy dissipation. (B) The energy dissipation of a single crystal varied as a function of the original angle of crystal and the strain level (λ). Crystals aligned either parallel or perpendicular to the collagen fibers exhibited the highest energy dissipation. (C) The total energy dissipation for all crystals, taking into account measured crystal sizes and orientation distributions, was significantly larger for the control samples than for the botox samples at all strain levels (shown: λ = 1.5).</figDesc><graphic coords="26,84.20,62.00,503.60,151.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6.</figDesc><graphic coords="27,134.40,62.00,403.20,504.00" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Acta Biomater. Author manuscript; available in PMC 2020 January 01.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments:</head><p>This project was funded by <rs type="funder">National Institute of Health (NIH)</rs> <rs type="grantNumber">R01 EB016422</rs> and <rs type="grantNumber">R01 AR057836</rs>. <rs type="person">Dr. Deymier</rs> was funded in part by the <rs type="funder">National Space Biomedical Research Institute (NSBRI)</rs> <rs type="grantNumber">NSBRI-RFA-13-01</rs> <rs type="grantName">Postdoctoral First Fellow Award</rs>. <rs type="person">Dr. Schwartz</rs> was funded by <rs type="funder">NIH</rs> <rs type="grantNumber">T32 AR060719</rs>. The TEM studies were partially supported</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_GqBsEqq">
+					<idno type="grant-number">R01 EB016422</idno>
+				</org>
+				<org type="funding" xml:id="_NvFm9CP">
+					<idno type="grant-number">R01 AR057836</idno>
+				</org>
+				<org type="funding" xml:id="_p3syFgh">
+					<idno type="grant-number">NSBRI-RFA-13-01</idno>
+					<orgName type="grant-name">Postdoctoral First Fellow Award</orgName>
+				</org>
+				<org type="funding" xml:id="_sGdRudK">
+					<idno type="grant-number">T32 AR060719</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Material</head><p>Refer to Web version on PubMed Central for supplementary material.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Review of roentgenographic bone demineralization studies of the Gemini space flights</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Vose</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Roentgenol Rad Therapy Nucl Med</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="1" to="4" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Space flight and bone formation</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Doty</surname></persName>
+		</author>
+		<idno type="PMID">15895501</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materwiss Werksttech</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="951" to="961" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Medical baseline data collection on bone and muscle change with space flight</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Miyamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shigematsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukunaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kawakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mukai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sekiguchi</surname></persName>
+		</author>
+		<idno type="PMID">9600758</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bone</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="79S" to="82S" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wakley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Szukalski</surname></persName>
+		</author>
+		<idno type="PMID">3834489</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physiologist</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">67</biblScope>
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Space flight effects on skeletal bones of rats</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>Yagodovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Trifaranidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Goroklova</surname></persName>
+		</author>
+		<idno type="PMID">971159</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aviat Space Environ Med</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="734" to="738" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Suppression of osteoblast differentiation during weightlessness</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Mozsary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Morey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiologist</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="75" to="S76" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Arrested bone formation during space flight results in hypomineralized skeletal defect</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Spector</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiologist</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="110" to="S111" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Adaptations of the skeletal system to spaceflight</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Cann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Introduction to space life science</title>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Churchill</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Weightlessness and skeleton homeostasis</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ziambaras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Civitelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Papavasiliou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hormones</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="18" to="27" />
+			<date type="published" when="2005">2005</date>
+			<pubPlace>Athens, Greece</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The current state of bone loss research: data from spaceflight and microgravity simulators</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Nagaraja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Risin</surname></persName>
+		</author>
+		<idno type="PMID">23150462</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of cellular biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1001" to="1008" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Influence of 90-day simulated microgravity on human tendon mechanical properties and the effect of resistive countermeasures</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Maganaris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ferretti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Narici</surname></persName>
+		</author>
+		<idno type="PMID">15705722</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2278" to="2286" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Reduction in tendon elasticity from unloading is unrelated to its hypertrophy</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kinugasa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hodgson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Edgerton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sinha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of applied physiology</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="870" to="877" />
+			<date type="published" when="1985">1985. 2010</date>
+			<pubPlace>Bethesda, Md.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Muscle and tendon connective tissue adaptation to unloading, exercise and NSAID, Connect</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dideriksen</surname></persName>
+		</author>
+		<idno type="PMID">24195606</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Tissue Res</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="61" to="70" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Differential strain patterns of the human gastrocnemius aponeurosis and free tendon, in vivo</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Magnusson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aagaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dyhre-Poulsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bojsen-Moller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kjaer</surname></persName>
+		</author>
+		<idno type="PMID">12558555</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta physiologica Scandinavica</title>
+		<imprint>
+			<biblScope unit="volume">177</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="185" to="195" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Myotendinous junction: Morphological changes and mechanical failure associated with muscle cell atrophy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Tidball</surname></persName>
+		</author>
+		<idno type="PMID">6607176</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Experimental and Molecular Pathology</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The role of muscle loading on bone (Re)modeling at the developing enthesis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Tatara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lipner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ntouvali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<idno type="PMID">24847982</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">97375</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The effect of unloading on gene expression of healthy and injured rotator cuffs</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Killian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Charlton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Galatz</surname></persName>
+		</author>
+		<idno type="PMID">23508698</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1240" to="1248" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Muscle loading is necessary for the formation of a functional tendon enthesis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lipner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Pasteris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Genin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<idno type="PMID">23542869</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bone</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="44" to="51" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Effects of selective paralysis of the supraspinatus muscle using botulinum neurotoxin a in rotator cuff healing in rats</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ficklscherer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Hartl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scharf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sievers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schroder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Milz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Niethammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Pietschmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Muller</surname></persName>
+		</author>
+		<idno type="PMID">23239559</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="716" to="723" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Healing of rotator cuff tendons using botulinum toxin A and immobilization in a rat model</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Gilotra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shorofsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Stein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Murthi</surname></persName>
+		</author>
+		<idno type="PMID">26979873</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Musculoskelet Disord</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">127</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Effect of intramuscular botulinum toxin-A in a rat rotator cuff repair model: an experimental study</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sahin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kalem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zehir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Songur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Demirtas</surname></persName>
+		</author>
+		<idno type="PMID">26312475</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta orthopaedica et traumatologica turcica</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="447" to="452" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Allometry of the Tendon Enthesis: Mechanisms of Load Transfer Between Tendon and Bone</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Deymier-Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Pasteris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Genin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech Eng</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Collagen fiber orientation at the tendon to bone insertion and its influence on stress concentrations</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Marquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Weinberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Birman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Genin</surname></persName>
+		</author>
+		<idno type="PMID">16024026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomech</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1842" to="1851" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The concentration of stress at the rotator cuff tendon-to-bone attachment site is conserved across species</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Saadat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Deymier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Birman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Genin</surname></persName>
+		</author>
+		<idno type="PMID">27161959</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mech. Behav. Biomed. Mater</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="24" to="32" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Stochastic interdigitation as a toughening mechanism at the interface between tendon and bone</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Birman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Deymier-Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Genin</surname></persName>
+		</author>
+		<idno type="PMID">25606690</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="431" to="437" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Mineral distributions at the developing tendon enthesis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Pasteris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Genin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Daulton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The tendon-to-bone transition of the rotator cuff: a preliminary raman spectroscopic study documenting the gradual mineralization across the insertion in rat tissue samples</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wopenka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Pasteris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<idno type="PMID">19094386</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied spectroscopy</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1285" to="1294" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Functional grading of mineral and collagen in the attachment of tendon to bone</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Genin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Birman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wopenka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Pasteris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Marquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<idno type="PMID">19686644</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="976" to="985" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The nanometre-scale physiology of bone: steric modelling and scanning transmission electron microscopy of collagen-mineral structure</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Daulton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Genin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lipner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Pasteris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wopenka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<idno type="PMID">22345156</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J R Soc Interface</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">73</biblScope>
+			<biblScope unit="page" from="1774" to="1786" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Modelling the mechanics of partially mineralized collagen fibrils, fibres and tissue</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Birman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Buehler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Genin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Royal Society Interface</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">92</biblScope>
+			<biblScope unit="page">20130835</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Campbell</surname></persName>
+		</author>
+		<title level="m">Elements of Metallurgy and Engineering Alloys</title>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Tetrahedral mesh generation from volumetric binary and gray-scale images</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Boas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Sixth IEEE international conference on Symposium on Biomedical Imaging: From Nano to Macro</title>
+		<meeting>the Sixth IEEE international conference on Symposium on Biomedical Imaging: From Nano to Macro<address><addrLine>Boston, Massachusetts, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE Press</publisher>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page" from="1142" to="1145" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Rasband</surname></persName>
+		</author>
+		<ptr target="http://rsb.info.nih.gov/ij/" />
+		<imprint>
+			<date type="published" when="1997">1997-2008</date>
+			<publisher>National Institutes of Health</publisher>
+			<pubPlace>Bethesda, Maryland, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Integration of a hard x-ray microprobe with a diffractometer for microdiffraction</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Libera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rev Sci Instrum</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="1506" to="1508" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Effect of high-energy X-ray doses on bone elastic properties and residual strains</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Singhal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Deymier-Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Almer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Dunand</surname></persName>
+		</author>
+		<idno type="PMID">22098877</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mech. Behav. Biomed. Mater</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1774" to="1786" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Internal Strains and stresses measured in cortical bone via high-energy Xradiation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Almer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Stock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Structrual Biology</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="14" to="27" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Using Multivariate Statistics</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Tabachnick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Fidell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>Pearson Education</publisher>
+			<pubPlace>Upper Saddle River, NJ</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Sixth Edition ed</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The developing shoulder has a limited capacity to recover after a short duration of neonatal paralysis</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Potter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Havlioglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<idno type="PMID">24831237</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomech</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2314" to="2320" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Allometry of the Tendon Enthesis: Mechanisms of Load Transfer Between Tendon and Bone</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Deymier-Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Pasteris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Genin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<idno type="PMID">26355607</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biomechanical Engineering</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="111005" to="111005" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Effect of stress and temperature on the micromechanics of creep in highly irradiated bone and dentin</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Singhal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Deymier-Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Almer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Dunand</surname></persName>
+		</author>
+		<idno type="PMID">23827597</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Engineering: C</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1467" to="1475" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Structural relations between collagen and mineral in bone as determined by high voltage electron microscopic tomography</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Landis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Hodgens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Arena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Mcewen</surname></persName>
+		</author>
+		<idno type="PMID">8845518</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microscopy Research and Technique</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="192" to="202" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Bone Crystal Sizes: A Comparison of Transmission Electron Microscopic and X-Ray Diffraction Line Width Broadening Techniques</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ziv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Weiner</surname></persName>
+		</author>
+		<idno type="PMID">8039384</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Connect. Tissue Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="165" to="175" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Effect of X-ray irradiation on the elastic strain evolution in the mineral phase of bovine bone under creep and load-free conditions</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Deymier-Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Singhal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Almer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Dunand</surname></persName>
+		</author>
+		<idno type="PMID">22871638</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="5305" to="5312" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Crystallographic texture and elemental composition mapped in bovine root dentin at the 200 nm level</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Deymier-Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Veis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Stock</surname></persName>
+		</author>
+		<idno type="PMID">23630059</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scanning</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="231" to="240" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Bone Ridge Patterning during Musculoskeletal Assembly Is Mediated through SCX Regulation of Bmp4 at the Tendon-Skeleton Junction</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Blitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Viukov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sharir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Galloway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Pryce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Tabin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schweitzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zelzer</surname></persName>
+		</author>
+		<idno type="PMID">20059955</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Developmental cell</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="861" to="873" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The temporal responses of protein synthesis, gene expression and cell signalling in human quadriceps muscle and patellar tendon to disuse</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>De Boer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Selby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Atherton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">R</forename><surname>Seynnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Maganaris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Maffulli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Movin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Narici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rennie</surname></persName>
+		</author>
+		<idno type="PMID">17901116</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">585</biblScope>
+			<biblScope unit="issue">Pt 1</biblScope>
+			<biblScope unit="page" from="241" to="251" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The effect of immobilization on the native and repaired tendon-to-bone interface</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Hettrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gasinu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Beamer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ying</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">H</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Rodeo</surname></persName>
+		</author>
+		<idno type="PMID">23677360</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="925" to="930" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The biomechanical and morphological changes in the medial collateral ligament of the rabbit after immobilization and remobilization</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Woo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Gomez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Sites</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">O</forename><surname>Newton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Orlando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Akeson</surname></persName>
+		</author>
+		<idno type="PMID">3667649</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1200" to="1211" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Immobilization of the knee joint alters the mechanical and ultrastructural properties of the rabbit anterior cruciate ligament</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">O</forename><surname>Newton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sly</forename><surname>Woo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Mackenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Akeson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Orthopaed. Res</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="191" to="200" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Unloaded rat Achilles tendons continue to grow, but lose viscoelasticity</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Eliasson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fahlgren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pasternak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aspenberg</surname></persName>
+		</author>
+		<idno type="PMID">17412787</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="459" to="463" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Age-related prevalence of rotator cuff tears in asymptomatic shoulders</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tempelhof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rupp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Seil</surname></persName>
+		</author>
+		<idno type="PMID">10471998</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Shoulder Elbow Surg</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="296" to="299" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Arthroscopic Treatment of Greater Tuberosity Avulsion Fractures</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Godin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Katthagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Fritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pogorzelski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Millett</surname></persName>
+		</author>
+		<idno type="PMID">28706831</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Arthroscopy Techniques</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="777" to="e783" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">The Bony Partial Articular Surface Tendon Avulsion Lesion: An Arthroscopic Technique for Fixation of the Partially Avulsed Greater Tuberosity Fracture</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Bhatia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>De Beer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Van Rooyen</surname></persName>
+		</author>
+		<idno type="PMID">17637417</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Arthroscopy: The Journal of Arthroscopic &amp; Related Surgery</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1" to="786" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Double-Pulley&quot; Technique for Arthroscopic Fixation of Partial Articular-Side Bony Avulsion of the Supraspinatus Tendon: A Rare Case of Bony PASTA Lesion</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Murena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Canton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Falvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Genovese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Surace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cherubino</surname></persName>
+		</author>
+		<author>
+			<persName><surname>The</surname></persName>
+		</author>
+		<idno type="PMID">23767005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Arthrosc Tech</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="9" to="e14" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Characteristics of an isolated greater tuberosity fracture of the humerus</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="PMID">16193353</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Orthopaedic Science</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="441" to="444" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Arthroscopic Transtendinous Modified Double-Row Suture Bridge Repair of a Bony PASTA Lesion</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Caldwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Pearson</surname></persName>
+		</author>
+		<idno type="PMID">25264507</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Arthroscopy Techniques</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="449" to="e453" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Arthroscopic treatment of symptomatic shoulders with minimally displaced greater tuberosity fracture</title>
+		<author>
+			<persName><forename type="first">S-H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K-I</forename><surname>Ha</surname></persName>
+		</author>
+		<idno type="PMID">11027752</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Arthroscopy: The Journal of Arthroscopic &amp; Related Surgery</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="695" to="700" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Tendon Enthesis Mechanical Failure Mechanisms</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Genin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>Orthopaedic Research Society</publisher>
+			<pubPlace>Orlando, FL</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">The morphology of ligament insertions after failure at low strain velocity: an evaluation of ligament entheses in the rabbit knee</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Räsänen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Persliden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Messner</surname></persName>
+		</author>
+		<idno type="PMID">8771403</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Anat</title>
+		<imprint>
+			<biblScope unit="volume">189</biblScope>
+			<biblScope unit="issue">Pt 1</biblScope>
+			<biblScope unit="page" from="127" to="133" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Biomechanics of anterior cruciate ligament failure: an analysis of strain-rate sensitivity and mechanisms of failure in primates</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Noyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Delucas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Torvik</surname></persName>
+		</author>
+		<idno type="PMID">4452684</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="236" to="253" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Effect of proton irradiation followed by hindlimb unloading on bone in mature mice: A model of long-duration spaceflight</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Lloyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Bandstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Willey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Riffle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tirado-Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Pecaut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Bateman</surname></persName>
+		</author>
+		<idno type="PMID">22789684</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bone</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="756" to="764" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Quantitative trait loci that modulate trabecular bone&apos;s risk of failure during unloading and reloading</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ozcivici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Donahue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Judex</surname></persName>
+		</author>
+		<idno type="PMID">24698783</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bone</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="25" to="32" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Decreased muscle loading delays maturation of the tendon enthesis during postnatal development</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Rothermich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Biederstadt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Galatz</surname></persName>
+		</author>
+		<idno type="PMID">17506506</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Res</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1154" to="1163" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of the scapholunate ligament correlate with bone mineral density measurements of the hand</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Small</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Bouxsein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Pichora</surname></persName>
+		</author>
+		<idno type="PMID">15183447</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Res</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="867" to="871" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<author>
+			<persName><forename type="first">V</forename><surname>Birman</surname></persName>
+		</author>
+		<title level="m">Plate Structures</title>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer Science and Business media</publisher>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Respective effects of hindlimb suspension, confinement and spaceflight on myotendinous junction ultrastructure</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Zamora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Carnino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roffino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Marini</surname></persName>
+		</author>
+		<idno type="PMID">11541005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta astronautica</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">8-12</biblScope>
+			<biblScope unit="page" from="693" to="706" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Toughening of fibrous scaffolds by mobile mineral deposits</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lipner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Boyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Birman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Genin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<idno type="PMID">28532898</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="492" to="501" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Unification through disarray</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Genin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<idno type="PMID">28541313</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Materials</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">607</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Variation of biomechanical, structural, and compositional properties along the tendon to bone insertion site</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Gimbel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Favata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Soslowsky</surname></persName>
+		</author>
+		<idno type="PMID">12706013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Res</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="413" to="419" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Micro-mechanical properties of the tendon-to-bone attachment</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Deymier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Boyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Birman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Genin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Barber</surname></persName>
+		</author>
+		<idno type="PMID">28088669</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="25" to="35" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Non-mineralized fibrocartilage shows the lowest elastic modulus in the rabbit supraspinatus tendon insertion: Measurement with scanning acoustic microscopy</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Saijo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kokubun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Shoulder Elb Surg</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="743" to="749" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">The Relationship Between Crimp Pattern and Mechanical Response of Human Patellar Tendon-Bone Units</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Stouffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hosny</surname></persName>
+		</author>
+		<idno type="PMID">3999712</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biomechanical Engineering</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="158" to="165" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">The microstructure and micromechanics of the tendon-bone insertion</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rossetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Kuntz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kunold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Grabmayr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stolberg-Stolberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Sieber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Burgkart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Bausch</surname></persName>
+		</author>
+		<idno type="PMID">28250445</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Mater</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="664" to="670" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Mechanical properties and the hierarchical structure of bone</title>
+		<author>
+			<persName><forename type="first">J-Y</forename><surname>Rho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kuhn-Spearing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zioupos</surname></persName>
+		</author>
+		<idno type="PMID">9679227</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med. Eng. Phys</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="92" to="102" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Novel synthesis and characterization of an AB-type carbonate-substituted hydroxyapatite</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Bonfield</surname></persName>
+		</author>
+		<idno type="PMID">11774332</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Mater Res</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="697" to="708" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Calcium phosphates in oral biology and medicine</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Z</forename><surname>Legeros</surname></persName>
+		</author>
+		<idno type="PMID">1870604</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Monographs in oral science</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1" to="201" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Calcium Phosphate Biominerals</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Elliott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Reviews in Mineralogy and Geochemistry</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="427" to="453" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Protein-free formation of bone-like apatite: New insights into the key role of carbonation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Deymier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Nair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Depalle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Arcot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Drouet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Yoder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Buehler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Genin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Pasteris</surname></persName>
+		</author>
+		<idno type="PMID">28279923</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="75" to="88" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

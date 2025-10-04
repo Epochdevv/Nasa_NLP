@@ -1,0 +1,1808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">IRE1: ER stress sensor and cell fate executor</title>
+				<funder ref="#_zTtYG92">
+					<orgName type="full">NASA</orgName>
+				</funder>
+				<funder ref="#_hv4b3e4">
+					<orgName type="full">National Institutes of Health</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2014-11-01">2014 November 01.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Yani</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Plant Biology</orgName>
+								<orgName type="laboratory">MSU-DOE Plant Research Laboratory</orgName>
+								<orgName type="institution">Michigan State University</orgName>
+								<address>
+									<addrLine>612 Wilson Rd. Room 122</addrLine>
+									<postCode>48824</postCode>
+									<settlement>East Lansing</settlement>
+									<region>MI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Federica</forename><surname>Brandizzi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Plant Biology</orgName>
+								<orgName type="laboratory">MSU-DOE Plant Research Laboratory</orgName>
+								<orgName type="institution">Michigan State University</orgName>
+								<address>
+									<addrLine>612 Wilson Rd. Room 122</addrLine>
+									<postCode>48824</postCode>
+									<settlement>East Lansing</settlement>
+									<region>MI</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">IRE1: ER stress sensor and cell fate executor</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Trends in Cell Biology</title>
+						<title level="j" type="abbrev">Trends in Cell Biology</title>
+						<idno type="ISSN">0962-8924</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">23</biblScope>
+							<biblScope unit="issue">11</biblScope>
+							<biblScope unit="page" from="547" to="555"/>
+							<date type="published" when="2014-11-01">2014 November 01.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">CB6318490C456274605A4B5BF3F40534</idno>
+					<idno type="DOI">10.1016/j.tcb.2013.06.005</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>unfolded protein response</term>
+					<term>ER stress</term>
+					<term>IRE1</term>
+					<term>cell fate</term>
+					<term>protein quality control</term>
+					<term>membrane trafficking system</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Cells operate a signaling network termed unfolded protein response (UPR) to monitor proteinfolding capacity in the endoplasmic reticulum (ER). IRE1 is an ER transmembrane sensor that activates UPR to maintain ER and cellular function. While mammalian IRE1 promotes cell survive, it can initiate apoptosis via decay of anti-apoptotic microRNAs. Convergent and divergent IRE1 characteristics between plants and animals underscore its significance in cellular homeostasis. This review provides an updated scenario of IRE1 signaling model, discusses emerging IRE1 sensing mechanisms, compares IRE1 features among species, and outlines exciting future directions in UPR research.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ER stress and unfolded protein response</head><p>The membrane trafficking system maintains operation of approximately one-third of the eukaryotic proteome. Most secretory proteins first enter the ER for folding and assembly. To maintain the fidelity of ER functions, cells coordinate a protein quality control system with a signaling network termed unfolded protein response (UPR) <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref>. UPR is triggered by ER transmembrane sensors upon ER stress, a cellular condition referring to the accumulation of unfolded proteins in the ER (Figure <ref type="figure" target="#fig_0">1</ref>) <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref>. The adaptive response occurring at the initial phase of UPR aims to rebalance the protein-folding homeostasis <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref>. If cells fail to recover from ER stress, UPR represses the adaptive response and triggers apoptosis <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b13">14]</ref>. The inositol-requiring enzyme (IRE1) is the only identified ER stress sensor in yeast and essential for UPR in animals and plants <ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref> (Figure <ref type="figure" target="#fig_0">1</ref>). As an ER transmembrane protein, IRE1 monitors ER homeostasis through an ER luminal stresssensing domain and triggers UPR through a cytoplasmic kinase domain and an RNase domain <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16]</ref>. Upon ER stress, IRE1 RNase is activated through conformational change, autophosphorylation, and higher order oligomerization <ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref>. Mammalian IRE1 initiates diverse downstream signaling of the UPR either through unconventional splicing of the transcription factor Xbp-1 or and through posttranscriptional modifications via Regulated IRE1-Dependent Decay (RIDD) of multiple substrates <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref>. In addition, PERK and ATF6 function as two distinct mammalian ER stress sensors to cope with complex UPR scenarios <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b25">26]</ref> (Figure <ref type="figure" target="#fig_0">1</ref>). Similar to IRE1, PERK and ATF6 are ER transmembrane proteins that contain an ER luminal stress-sensing domain and a cytoplasmic enzymatic domain. To prevent a further increase in protein-folding demand in the ER, PERK transiently inhibits general protein translation through phosphorylation of eukaryotic initiation factor 2 (elF2α). Phosphorylated elF2α can also selectively activate translation of mRNAs including ATF4 transcription factor to regulate UPR target genes <ref type="bibr" target="#b26">[27]</ref>. ER stress triggers relocation of ATF6 from the ER to the Golgi where it undergoes proteolytic cleavage. The cleaved transcription factor domain of ATF6 enters the nucleus for UPR regulation <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref> (Figure <ref type="figure" target="#fig_0">1</ref>).</p><p>The main molecular mechanisms underlying IRE1 unconventional splicing are conserved in eukaryotes. In budding yeast, mammals, and plants, there is only one transcription factor identified as a splicing target of IRE1 (Figure <ref type="figure" target="#fig_0">1</ref>). The stem-loop structure and cleavage site of the IRE1 splicing substrate are conserved among species. In contrast, RIDD appears more divergent in eukaryotes. In yeast, RIDD is only operated in fission yeast Schizosaccharomyces pombe, but not in budding yeast Saccharomyces cerevisiae <ref type="bibr" target="#b30">[31]</ref>.</p><p>Intriguingly, RIDD-mediated decrease in protein-folding demand is the only identified mechanism of UPR in fission yeast <ref type="bibr" target="#b30">[31]</ref>. While plant RIDD may potentially degrade a significant portion of mRNAs encoding secretory proteins <ref type="bibr" target="#b31">[32]</ref>, it is undetermined whether plant RIDD processes various substrates to direct UPR outputs like mammalian RIDD. Unlike mammalian UPR, plant PERK orthologs have not been yet identified; however, two functional homologs of ATF6, bZIP28 and bZIP17, exist in plants <ref type="bibr" target="#b32">[33]</ref> (Figure <ref type="figure" target="#fig_0">1</ref>). Moreover, a component of G-protein complex, AGB1, is essential for plant UPR <ref type="bibr" target="#b16">[17]</ref> while an alternative G-protein-coupled receptor is involved in noncanonical UPR in C.elegans <ref type="bibr" target="#b33">[34]</ref>. Due to large members of the mammalian G-protein complex, its roles in classical UPR might be more challenging to reveal. While IRE1 and ATF6 arms are partially conserved between plants and animals, it is interesting to establish the degree of UPR diversification between the two species. This review presents the latest advances and viewpoints on IRE1-dependent UPR research. We focus on the recent groundbreaking discoveries that define IRE1 as a master regulator in cell fate determination under ER stress. IRE1 was long considered as a positive regulator in cell survival. Thus, the repression of IRE1 was believed to potentiate apoptosis. The recent identification of novel IRE1 regulatory events reveals that IRE1 signaling is persistent during ER stress. Namely, IRE1 can no longer be considered simply as a driving force for cell survival, but rather as an administrator/executor of cell fate determination under ER stress. Through presentation of the recent evidence establishing that IRE1 triggers diverse signaling, we delineate current IRE1-signaling models. It has also become clear that IRE1 monitors cellular homeostasis beyond the protein-folding status in the ER; therefore, the functional relevance of the UPR within physiological processes will be discussed. Finally, we will compare convergent and divergent features of IRE1 between plants and mammals to provide an integrated view of IRE1 in multicellular eukaryotes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IRE1 signaling in cell fate determination</head><p>Life-versus-death determination is constantly scrutinized and tightly controlled. Prevalence of malfunctioning cells due to irremediable ER stress contributes to significant diseases, including cancer and diabetes. Conversely, over-commitment to cell death may result in organ damage or cell degenerative diseases <ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref>. To reach optimal fitness under ER stress, cell fates are determined through tight coordination of adaptive and apoptotic responses <ref type="bibr" target="#b36">[37,</ref><ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b40">41]</ref>. In mammals, PERK-eIF2α-ATF4 regulates the transcription factor CHOP to activate ER stress-triggered apoptosis. In parallel, IRE1 controls cell fate determination through mitogen protein kinase JNK under ER stress <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b41">42]</ref> (Figure <ref type="figure" target="#fig_0">1</ref>). In contrast, while ER stress can play a role in programmed cell death in plants <ref type="bibr" target="#b42">[43]</ref>, very little is known about ER stress-induced cell death in plants <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b43">44]</ref>. Furthermore, lack of sequence homologs of most mammalian apoptosis regulators in plants hints that divergent mechanisms of ER stress-induced cell death exist among organisms.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Revised model of IRE1α signaling network in mammals</head><p>The mammalian genome encodes two isoforms of IRE1, IRE1α and IRE1β. The IRE1α is expressed ubiquitously and IRE1α knockout mice exhibit embryonic lethality. On the contrary, the IRE1β expression is restricted and IRE1β knockout mice are viable <ref type="bibr" target="#b44">[45,</ref><ref type="bibr" target="#b45">46]</ref>; therefore, most mammalian UPR research conducts on the IRE1α. IRE1α was identified as a positive regulator for cell survival. It was believed that IRE1α signaling was terminated during irremediable ER stress to enable apoptosis <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b46">47,</ref><ref type="bibr" target="#b47">48]</ref>. Nevertheless, recent studies have challenged this concept by showing that IRE1α persistently adjusts proteinfolding capacity, actively directs UPR signaling, and executes cell fate determination <ref type="bibr" target="#b48">[49,</ref><ref type="bibr" target="#b49">50]</ref> (Figure <ref type="figure">2</ref>). IRE1α employs splicing and RIDD to direct cell fate throughout ER stress. Despite Xbp-1 being the only identified IRE1α splicing target, numerous types of RNA are proven to be RIDD substrates <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b48">49,</ref><ref type="bibr" target="#b49">50]</ref>. Even though the significance of RIDD targets is not completely understood, some RIDD events are critical for IRE1α-dependent cell fate determination. During the adaptive response, IRE1α conducts RIDD on mRNAs encoding ER-translocating proteins to prevent further increases in protein-folding demand in the ER <ref type="bibr" target="#b49">[50]</ref>. To augment protein-folding ability, IRE1α splices the transcription factor Xbp-1 mRNA to induce the transcription of ER quality control components. If attempts to restore ER homeostasis fail, IRE1α ceases to splice Xbp-1 mRNA. Alternatively, IRE1α represses adaptive responses and activates apoptosis through RIDD <ref type="bibr" target="#b48">[49,</ref><ref type="bibr" target="#b49">50]</ref>. During the transition phase, occurring between the adaptive and apoptotic response, RIDD increases ER stress intensity through degradation of selective UPR target genes including ER protein chaperone BiP <ref type="bibr" target="#b49">[50]</ref>. Once ER stress intensity reaches its threshold, RIDD initiates apoptosis through repression of anti-apoptotic pre-microRNAs <ref type="bibr" target="#b48">[49]</ref>. Caspase-2 (CASP2) is a proapoptotic protease essential for apoptosis execution <ref type="bibr" target="#b50">[51]</ref>. Upregulation of CASP2 is an indicator of apoptotic initiation. Through decay of anti-Casp2 pre-microRNAs (miRs), IRE1α activates apoptosis through upregulation of Casp2 (Figure <ref type="figure">2</ref>) <ref type="bibr" target="#b48">[49]</ref>. A close association of IRE1α activity and cell fate determination has been proposed for years <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b46">47,</ref><ref type="bibr" target="#b47">48]</ref>. These findings provide direct evidence that IRE1α is a molecular switch and apoptosis executioner during ER stress <ref type="bibr" target="#b48">[49]</ref>. It was previously proposed that the attenuation of IRE1 activity allows cells to initiate apoptosis <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b46">47,</ref><ref type="bibr" target="#b47">48]</ref>. The identification of the IRE1α-Casp2 pathway elaborates an intriguing IRE1α signaling model: IRE1α-Xbp-1 is active in the adaptive phase and attenuated in the apoptotic phase. In parallel, activation of IRE1α-Casp2 event initiates cell death in the apoptotic phase (Figure <ref type="figure" target="#fig_1">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Is mammalian IRE1α the only major trigger of ER stress-induced apoptosis?</head><p>IRE1α is necessary and sufficient to trigger apoptosis while PERK and ATF6 are dispensable in the apoptosis activation <ref type="bibr" target="#b48">[49]</ref>. Nonetheless, it cannot be excluded that distinct ER stress sensors may serve as major executioners of cell death in a context-specific manner. Using chemical genetic tools, the regulatory roles of the phosphor-transfer and RNase activity of IRE1α in UPR can be examined separately. The phosphor-transfer function is dispensable for Xbp-1 mRNA splicing and upregulation of CASP2 expression; however, it is required for the subsequent CASP2 cleavage and apoptosis activation, indicating that IRE1α phosphor-transfer function is essential for cell fate switch during ER stress <ref type="bibr" target="#b48">[49,</ref><ref type="bibr" target="#b49">50]</ref>. Notably, the phosphor-transfer function is mostly studied through an in vitro conditional IRE1α induction that mimics ER stress. While this experimental system is valuable to distinguish phosphor-transfer and RNase function of IRE1α, it is important to note that ATF6 and PERK are not activated through ER stress. A potentially compromised crosstalk among UPR arms raises a possibility that the IRE1α induction system might not completely resemble a genuinely biological scenario of ER stress. Hence, careful data interpretation from the conditional induction system and integration of in vivo analyses are necessary to determine whether IRE1α is the master trigger in ER stress-induced apoptosis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The substrate specificity of mammalian IRE1α</head><p>While the four identified IRE1α-cleaved microRNAs, miR-17, miR-34a, miR-96, and miR-125b repress the common substrate Casp2, TXNIP is another target of miR-17 <ref type="bibr" target="#b51">[52]</ref>.</p><p>TXNIP is involved in β-cell death and was selected to potentially regulate ER stress-induced apoptosis based on its rapidly elevated expression under severe ER stress. Similar to the IRE1α mutation, TXNIP mutation leads to compromised apoptosis activation, indicating that TXNIP is essential for ER stress-induced apoptosis <ref type="bibr" target="#b51">[52,</ref><ref type="bibr" target="#b52">53]</ref>. While PERK-eIF2α activates TXNIP transcription, IRE1α increases TXNIP expression by degradation of miR-17. Accordingly, it is conceivable that each of four IRE1α-cleaved microRNAs might have specific substrates such as TXNIP. Based on this scenario, IRE1α might differentially degrade its individual target microRNA for fine-tuning of UPR. Another interesting feature of mammalian RIDD is that distinct substrates comprise a degree of sequence similarity within the cleavage site, whereas the flanking sequences of the cleavage sites are relatively divergent <ref type="bibr" target="#b48">[49,</ref><ref type="bibr" target="#b53">54]</ref>. This suggests that the cleavage mechanisms are likely to be conserved while the flanking sequence determines the specificity of substrate recognition. This scenario would support the hypothesis that IRE1α adjust its RNase substrate specificity to activate diverse UPR. The flexibility of IRE1α to target different substrates might rely on combinations of phosphorylation status, conformational changes, and physical associations with IRE1α regulators. As alterations of IRE1α substrate specificity lead to opposite cell fates <ref type="bibr" target="#b49">[50]</ref>, further understanding of IRE1α substrate preferences will reveal how IRE1α coordinates cellular homeostasis to determine cell fate under ER stress. Currently the targetswitch of RIDD has only been reported in animals. Therefore, in order to gain a deeper understanding of UPR evolution in eukaryotes, further studies are needed to determine whether similar mechanisms exist in yeast and plants.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Plant IRE1 in ER stress response and cell fate determination</head><p>Despite the conservation of IRE1 among eukaryotes, divergent IRE1-dependent regulatory events have also been observed between plants and mammals. These evolutionarily conversed and divergent mechanisms are likely the reason for different ER stress and cell fate phenotypes observed between plants and mammals. Unlike mammalian IRE1 isoforms, the two Arabidopsis IRE1 isoforms are expressed ubiquitously with a limited tissue-specific expression pattern <ref type="bibr" target="#b54">[55,</ref><ref type="bibr" target="#b55">56]</ref>. There is no significant defect of UPR in single mutants of Arabidopsis IRE1A or IRE1B while Arabidopsis ire1 double mutants display compromised ER stress tolerance and a UPR activation phenotype <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b17">18]</ref>. These observations indicate that the two Arabidopsis IRE1 homologues share partially overlapping function during the UPR. Evidence for established, dominant or specific roles of individual Arabidopsis IRE1 isoforms during UPR and cell fate regulation need to be further elucidated. Notably, it is experimentally undetermined that viable Arabidopsis ire1b are knockouts or partial loss-offunction mutants. Failure to recover a homozygous plant of putative IRE1B knockout hints that Arabidopsis IRE1B might be an essential gene similar to mammalian IRE1α <ref type="bibr" target="#b56">[57]</ref>.</p><p>Interestingly, although mammalian IRE1α is essential for UPR in goblet cells, in other cell types, there is no detectable defect in UPR target gene induction in a mammalian ire1 double mutant likely due to partially overlapping function with ATF6 and PERK <ref type="bibr" target="#b45">[46,</ref><ref type="bibr" target="#b57">58]</ref>. In contrast, although two functional homologs of ATF6, bZIP28 and bZIP17, exist in Arabidopsis <ref type="bibr" target="#b32">[33]</ref> (Figure <ref type="figure" target="#fig_0">1</ref>), Arabidopsis ire1 double mutants exhibit dramatic reduction of UPR target gene activation <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b17">18]</ref>. These data indicate that the UPR is partially diversified between mammals and plants. On the contrary, similar IRE1 features are also observed between plants and mammals. For instance, ire1 and xbp1-1 mutants display differential phenotypes despite both being essential genes. Likewise, the mutant of Arabidopsis IRE1 splicing target, bZIP60, shows comparable ER stress tolerance with the wild type plants as opposed to Arabidopsis ire1 double mutant <ref type="bibr" target="#b16">[17]</ref>, supporting the hypothesis that the function of Arabidopsis IRE1 is not restricted to unconventional splicing like mammalian IRE1.</p><p>Interestingly, mutations of IRE1 in plants and mammals lead to opposite effects in ER stress-induced cell death phenotypes <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b31">32]</ref>. Ire1α -/-mouse embryonic fibroblasts (MEFs) exhibit a greater survival rate than Ire1α +/+ MEFs under ER stress, supporting that mammalian IRE1 is an apoptosis executioner. Contrarily, Arabidopsis ire1 double mutants display compromised ER stress tolerance, instead of a greater survival rate <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b17">18]</ref>. Consistently, DNA fragmentation and ion leakage are enhanced in the Arabidopsis ire1 double mutant during ER stress <ref type="bibr" target="#b31">[32]</ref>, suggesting that plant IRE1 might not function as an apoptosis executioner like its mammalian counterpart. Nevertheless, it cannot be excluded that the differences are related to dissimilar experimental settings: mammalian UPR research is mostly conducted in cell culture, while intact organisms are used in plant UPR studies. Moreover, except potential roles in protein loading reduction under ER stress <ref type="bibr" target="#b31">[32]</ref>, biological significance of the plant RIDD in cell fate determination is unknown. Further experimental validation will reveal whether the plant RIDD could process multiple substrates to control cell fate decisions similar to that seen in mammals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Shared components of UPRosome and apoptosis</head><p>IRE1α activation is tightly controlled by its interacting protein complex termed UPRosome <ref type="bibr" target="#b14">[15]</ref>. Most UPRosome components are involved in apoptosis, supporting that intense crosstalk exists between IRE1α activity and apoptosis activation (Table1). Specifically, although UPRosome comprises multiple components, loss-of-function mutation of the single component, such as PARP16, Bi-1, Aip-1, PTP-1B, NMHCIIB, Jab1, Nck1, and Ask1, is sufficient to alter the IRE1α splicing activity or apoptosis activation <ref type="bibr" target="#b58">[59]</ref><ref type="bibr" target="#b59">[60]</ref><ref type="bibr" target="#b60">[61]</ref><ref type="bibr" target="#b61">[62]</ref><ref type="bibr" target="#b62">[63]</ref><ref type="bibr" target="#b63">[64]</ref><ref type="bibr" target="#b64">[65]</ref><ref type="bibr" target="#b65">[66]</ref> (Table <ref type="table">1</ref>). Moreover, IRE1α-interactor mutants displaying either elevated or declined IRE1α splicing activity can show enhanced apoptosis, indicating that a precise activation level of IRE1α splicing is important for cell survival <ref type="bibr" target="#b58">[59]</ref><ref type="bibr" target="#b59">[60]</ref><ref type="bibr" target="#b60">[61]</ref><ref type="bibr" target="#b61">[62]</ref><ref type="bibr" target="#b62">[63]</ref><ref type="bibr" target="#b63">[64]</ref><ref type="bibr" target="#b64">[65]</ref><ref type="bibr" target="#b65">[66]</ref>. This further suggests IRE1α activation is controlled by a signaling network that maintains a delicate equilibrium of adaptive and apoptotic responses. A subtle imbalance of the equilibrium could disturb cellular homeostasis and thus alter cell fate determination <ref type="bibr" target="#b58">[59]</ref><ref type="bibr" target="#b59">[60]</ref><ref type="bibr" target="#b60">[61]</ref><ref type="bibr" target="#b61">[62]</ref><ref type="bibr" target="#b62">[63]</ref><ref type="bibr" target="#b63">[64]</ref><ref type="bibr" target="#b64">[65]</ref><ref type="bibr" target="#b65">[66]</ref><ref type="bibr" target="#b66">[67]</ref><ref type="bibr" target="#b67">[68]</ref><ref type="bibr" target="#b68">[69]</ref><ref type="bibr" target="#b69">[70]</ref><ref type="bibr" target="#b70">[71]</ref><ref type="bibr" target="#b71">[72]</ref><ref type="bibr" target="#b72">[73]</ref><ref type="bibr" target="#b73">[74]</ref><ref type="bibr" target="#b74">[75]</ref><ref type="bibr" target="#b75">[76]</ref>. Furthermore, the observation that a single mutation of UPRosome leads to significant defects in IRE1α signaling hints that IRE1α is differentially regulated in a context-specific manner (Table1). Because UPRosome analyses are conducted under various conditions, systematic and comparable analyses of UPRosome members will connect each hub and thus give a clearer view of IRE1α signaling network.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IRE1 sensing mechanisms</head><p>ER stress-sensing mechanisms are intensively studied in yeast and animals <ref type="bibr" target="#b76">[77]</ref>. The ER stress sensors are silent through physical association with BiP, the most abundant ERresident chaperone. Dissociation with BiP or interaction with unfolded proteins is the major trigger of IRE1 activation. Yeast IRE1 is activated through association with unfolded proteins rather than disassociation with BiP <ref type="bibr" target="#b77">[78]</ref>; however, the physical interaction of BiP is a fine-tuning mechanism to ensure that yeast IRE1 is appropriately activated <ref type="bibr" target="#b78">[79]</ref>. Unlike yeast IRE1, the activation mechanisms of mammalian IRE1α rely on its dissociation of BiP as opposed to a direct interaction with unfolded proteins <ref type="bibr" target="#b79">[80]</ref>. The differences in activation mechanisms between yeast and mammalian IRE1α can be partially explained by the dissimilarity in protein structure within the sensor domain <ref type="bibr" target="#b14">[15]</ref>. Surprisingly, a recent study revealed that mammalian IRE1β tends to interact with unfolded proteins like yeast IRE1 and it is unable to associate with BiP <ref type="bibr" target="#b80">[81]</ref>. Accordingly, it is possible that, like yeast IRE1, binding of unfolded proteins is the primary trigger of mammalian IRE1β activation. Despite intense studies in mammals and yeast, the plant IRE1 sensing mechanisms are completely undefined. Further structural and functional analyses in plant IRE1 will be instrumental to reveal ER stress sensing mechanisms in plants.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cell-type specific sensing mechanisms: the role of mammalian IRE1β</head><p>How the cellular homeostasis is maintained in a cell-type specific manner is a fundamental question of cell biology. It has been recently shown that IRE1β is essential for UPR specifically in goblet cells <ref type="bibr" target="#b45">[46]</ref>. In goblet cells, IRE1β is dispensable for Xbp-1 splicing and BiP induction. Instead, IRE1β mutation leads to enhance ER stress intensity evidenced by higher level of Xbp-1 splicing and BiP induction. Moreover, IRE1β-/-mice display a distended ER phenotype potentially due to over accumulation of Mucin2 (MUC2), the most prominent protein secreted from goblet cells. This suggests that IRE1β controls MUC2 expression in goblet cells. Thus, IRE1β mutation leads to MUC2 overload in the ER and in turns trigger ER stress <ref type="bibr" target="#b45">[46]</ref>. RIDD was proposed to be the mechanism underlying IRE1β regulation on MUC2 level in goblet cells <ref type="bibr" target="#b45">[46]</ref>. The cell-type-specific target of IRE1β provides a molecular explanation as to how the UPR maintains a dynamic and specific secretory ability in multicellular organisms. Consistent with the notion that unfolded proteins trigger IRE1β activation, IRE1β might physically interact with specific types of unfolded protein. In the case of goblet cells, IRE1β might specifically monitor the MUC2 level in the ER and adjusts its loading into the ER through RIDD. Based on this scenario, the mammalian ER stress sensors might distinguish the type of unfolded proteins accumulated in the ER and trigger differential UPR signaling. More specifically, if the unfolded proteins are dispensable for cell survival, ER stress sensors could repress the expression of unfolded proteins through RNA decay or translational repression. Conversely, if unfolded proteins are essential for cellular function, the UPR might preferentially augment the expression of chaperones to recover the production of unfolded proteins. While the ER stress duration and intensity are considered major factors in the apoptosis threshold, the type of misfolded protein might be also critical for determination of UPR signaling outputs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sensing mechanisms beyond protein-folding homeostasis</head><p>Emerging evidence shows that IRE1 monitors cellular homeostasis beyond sensing unfolded protein accumulation. For instance, CRY1/CRY2-mediated circadian rhythm regulates IRE1α activity in the liver <ref type="bibr" target="#b81">[82]</ref>, suggesting that IRE1α coordinates ER function to cope with circadian-related physiological processes. These observations provide a link between the IRE1α-dependent UPR, circadian regulation, and liver metabolic processes. More importantly, because circadian rhythm has a substantial influence on UPR activation, time course studies of the UPR will require diligent experimental design and appropriate controls to avoid biases. Recently, lipid homeostasis is proven to impact the UPR activation through an unconventional sensing mechanism as the unfolded-protein-sensing domain of IRE1α and PERK is dispensable for lipid-dependent UPR activation <ref type="bibr" target="#b82">[83]</ref>. All together, these observations support that the UPR perceives physiological and cellular signaling beyond ER protein folding homeostasis. Although it is unclear whether plant IRE1 senses signaling beyond protein-folding capacity, an Arabidopsis ire1 double mutant displaying a rootspecific phenotype under unstressed conditions hints that plant IRE1 also integrates physiological signals to maintain specific secretory activity <ref type="bibr" target="#b16">[17]</ref>; however, this hypothesis is still awaiting experimental validation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Concluding remarks</head><p>Significant progress on defining IRE1 mechanisms has been achieved. We now know that IRE1 activities are coordinated at a systemic level to cope with dynamic secretion activity. While in vitro experimental systems and conditional IRE1 induction approaches reveal groundbreaking discoveries in the basic UPR knowledge <ref type="bibr" target="#b48">[49,</ref><ref type="bibr" target="#b49">50,</ref><ref type="bibr" target="#b83">[84]</ref><ref type="bibr" target="#b84">[85]</ref><ref type="bibr" target="#b85">[86]</ref><ref type="bibr" target="#b86">[87]</ref>, we are still far from a comprehensive understanding of UPR in intact organisms. The lethality of the mammalian IRE1α mutant represents a challenge to gaining insights into the IRE1 function in vivo. In contrast, the viability of plant IRE1 mutants enables in vivo analyses to reveal its roles in organ growth, pathogen defense, and abiotic stress responses <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b87">88,</ref><ref type="bibr" target="#b88">89]</ref>. Moreover, with the ease of building high order plant mutants, in vivo phenotypic analyses show that Arabidopsis IRE1 and a conserved component of the G protein complex display a synergistic effect in both plant UPR activation and growth regulation. The study underscores that the UPR network can be built in intact organisms using plants as a model system <ref type="bibr" target="#b16">[17]</ref>. With more systematic and quantitative studies of UPR in vivo, there are certainly significant findings ahead that will decipher the dynamic UPR maps close to a genuinely physiological scenario.</p><p>• IRE1α degrades anti-Casp2 microRNA to initiate cell death.</p><p>• The phosphor-transfer function of IRE1α is essential for cell fate determination.</p><p>• IRE1 perceives developmental cues and protein folding homeostasis distinctly.</p><p>• Alterations of IRE1α substrate specificity determine cell fates.</p><p>• Conserved and unique features between plant and mammalian IRE1. The IRE1 arm is conserved in eukaryotes. IRE1 unconventionally splices bZIP transcription factors, Xbp-1, bZIP60, and Hac1 mRNA in mammals, plants, and yeast respectively. The spliced bZIP transcription factor enters into the nucleus to regulate UPR target genes. In addition, two distinct arms mediated by PERK and ATF6 regulate mammalian UPR. ATF6 is an ER transmembrane transcription factor. ER stress triggers the relocation of ATF6 from the ER to the Golgi apparatus where it is undergone proteolytic cleavage. Subsequently, the transcription factor domain of ATF6 enters into the nucleus to modulate transcription of UPR target genes. Two functional homologues of ATF6, bZIP17 and bZIP28, exist in plants. PERK, an ER transmembrane protein kinase is identified only in animals. Upon ER stress, PERK phosphorylates eukaryotic initiation factor 2 (elF2α), which leads to a transient inhibition of general protein translation and selective translation of the transcription factor ATF4. Under irremediable ER stress, PERK-elF2α-ATF4-CHOP and IRE1-JNK initiate apoptosis in mammals. Moreover, the beta subunit of the heterotrimeric G protein complex, AGB1, is essential for the plant UPR. Although the G protein complex is conserved in eukaryotes, its significance in UPR is unclear in other eukaryotic organisms. Color code: blue -eukaryotes; black -mammals; green -plants; red -yeast.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 2. IRE1α regulatory mechanisms during ER stress</head><p>Mammalian IRE1α is repressed through a physical interaction with BiP when demand and capacity of protein folding is balanced in the ER. A dissociation of IRE1α from BiP due to an elevated level of unfolded protein in the ER leads to activation of IRE1α. The IRE1α activating processes include its auto-phosphorylation, conformational change, and higher order assembly. IRE1α directs cell fate decision through unconventional splicing and Regulated IRE1-Dependent Decay (RIDD). To prevent increasing demand of ER protein folding, IRE1α conducts RIDD to degrade the transcripts of ER-translocating proteins. In parallel, IRE1α unconventionally splices the transcript of Xbp-1 transcription factor. The spliced XBP-1 enters into the nucleus to transcriptionally reprogram UPR target genes, including ER chaperones. Under irremediable ER stress, IRE1α ceases to splice Xbp-1 mRNA. Instead, IRE1α operates RIDD on selective UPR target genes including BiP to enhance the ER stress intensity. Once the ER stress intensity reaches its threshold, IRE1α represses anti-Casp2 microRNA, miR-17, miR-34a, miR-96, and miR-125b through RIDD. IRE1α-mediated degradation of anti-Casp2 microRNAs leads to activation of apoptotic initiator Casp2 and subsequently triggers the mitochondrion-dependent apoptosis. The UPR signaling aimed for cell survival is considered an adaptive response during ER stress. Under irremediable ER stress, UPR represses the adaptive response and triggers an apoptotic response. IRE1α and PERK are two ER stress sensors that decrease ER protein folding demand through mRNA decay and translational inhibition, respectively. Both PERK and IRE1α signaling appear to persist throughout ER stress. IRE1α differentially triggers diverse UPR according to need. In the adaptive phase, to increase protein folding capcity, IRE1α-mediated Xbp-1 mRNA splicing is activated for transcriptional regulation of UPR target genes. In a transition phase between the adaptive and apoptotic responses, the signaling mediated by IRE1α-Xbp-1 is attenuated. In parallel, IRE1α incrases ER stress intensity through mRNA decay of selective UPR target genes including ER chaperones. During the apoptotic phase, IRE1α-Casp2 signaling is activated to initate cell death.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Overview of UPR arms in eukaryotes</figDesc><graphic coords="13,111.04,61.00,449.92,503.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Updated model of IRE1α and PERK signaling in cell fate determination during ER stress</figDesc><graphic coords="17,184.55,61.00,302.89,155.52" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Trends Cell Biol. Author manuscript; available in PMC 2014 November 01.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We thank <rs type="person">Dr. Danielle Loughlin</rs> for helpful comments and suggestions. We apologize to those authors whose work could not be cited owing to space constraints. This work was supported by grants from the <rs type="funder">National Institutes of Health</rs> (<rs type="grantNumber">R01 GM101038-01</rs>) and <rs type="funder">NASA</rs> (<rs type="grantNumber">NNX12AN71G</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_hv4b3e4">
+					<idno type="grant-number">R01 GM101038-01</idno>
+				</org>
+				<org type="funding" xml:id="_zTtYG92">
+					<idno type="grant-number">NNX12AN71G</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Modulating stress responses by the UPRosome: a matter of life and death</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Woehlbier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hetz</surname></persName>
+		</author>
+		<idno type="PMID">21482118</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in biochemical sciences</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="329" to="337" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The unfolded protein response: from stress pathway to homeostatic regulation</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Walter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ron</forename><forename type="middle">D</forename></persName>
+		</author>
+		<idno type="PMID">22116877</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">334</biblScope>
+			<biblScope unit="page" from="1081" to="1086" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The UPR and cell fate at a glance</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">I</forename><surname>Merksamer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Papa</surname></persName>
+		</author>
+		<idno type="PMID">20332117</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="1003" to="1006" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Signaling cell death from the endoplasmic reticulum stress response</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Shore</surname></persName>
+		</author>
+		<idno type="PMID">21146390</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Current Opinion in Cell Biology</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="143" to="149" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Protein Folding and Modification in the Mammalian Endoplasmic Reticulum</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Braakman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Bulleid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Kornberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Biochemistry</title>
+		<imprint>
+			<biblScope unit="page" from="71" to="99" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Protein Quality Control in the Cytosol and the Endoplasmic Reticulum: Brothers in Arms</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Buchberger</surname></persName>
+		</author>
+		<idno type="PMID">20965419</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Cell</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="238" to="252" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The unfolded protein response: controlling cell fate decisions under ER stress and beyond</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Molecular Cell Biology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="89" to="102" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Unfolded protein response</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kaufman</surname></persName>
+		</author>
+		<idno type="PMID">22917505</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Current Biology</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="R622" to="R626" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Road to Ruin: Targeting Proteins for Degradation in the Endoplasmic Reticulum</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="PMID">22116878</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">334</biblScope>
+			<biblScope unit="page" from="1086" to="1090" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Mechanism and components of endoplasmic reticulum-associated degradation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hoseki</surname></persName>
+		</author>
+		<idno type="PMID">19923195</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="page" from="19" to="25" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Novel ubiquitin-dependent quality control in the endoplasmic reticulum</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Feldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Van Der Goot</surname></persName>
+		</author>
+		<idno type="PMID">19631546</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cell Biology</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="357" to="363" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Endoplasmic reticulum stress and pancreatic beta-cell death</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Fonseca</surname></persName>
+		</author>
+		<idno type="PMID">21458293</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Endocrinology and Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="266" to="274" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Bidirectional crosstalk between endoplasmic reticulum stress and mTOR signaling</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Appenzeller-Herzog</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Hall</surname></persName>
+		</author>
+		<idno type="PMID">22444729</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cell Biology</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="274" to="282" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The unfolded protein response at the crossroads of cellular life and death during endoplasmic reticulum stress</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jager</surname></persName>
+		</author>
+		<idno type="PMID">22268789</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biology of the Cell</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="259" to="270" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Fine-Tuning of the Unfolded Protein Response: Assembling the IRE1 alpha Interactome</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Glimcher</surname></persName>
+		</author>
+		<idno type="PMID">19748352</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Cell</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="551" to="561" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">THE UNFOLDED PROTEIN RESPONSE: INTEGRATING STRESS SIGNALS THROUGH THE STRESS SENSOR IRE1 alpha</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hetz</surname></persName>
+		</author>
+		<idno type="PMID">22013210</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="1219" to="1243" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">AtIRE1A/AtIRE1B and AGB1 independently control two essential unfolded protein response pathways in Arabidopsis</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Brandizzi</surname></persName>
+		</author>
+		<idno type="PMID">21914012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant J</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="266" to="277" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Arabidopsis IRE1 catalyses unconventional splicing of bZIP60 mRNA to produce the active transcription factor</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nagashima</surname></persName>
+		</author>
+		<idno type="PMID">22355548</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">29</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Structure of the Ire1 autophosphorylation complex and implications for the unfolded protein response</title>
+		<author>
+			<persName><forename type="first">Mmu</forename><surname>Ali</surname></persName>
+		</author>
+		<idno type="PMID">21317875</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Embo Journal</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="894" to="905" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Messenger RNA targeting to endoplasmic reticulum stress signalling sites</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Aragon</surname></persName>
+		</author>
+		<idno type="PMID">19079237</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">457</biblScope>
+			<biblScope unit="page" from="736" to="740" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The unfolded protein response signals through high-order assembly of Ire1</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Korennykh</surname></persName>
+		</author>
+		<idno type="PMID">19079236</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">457</biblScope>
+			<biblScope unit="page" from="687" to="693" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Regulated Ire1-dependent decay of messenger RNAs in mammalian cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hollien</surname></persName>
+		</author>
+		<idno type="PMID">19651891</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of cell biology</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page" from="323" to="331" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Silencing of Lipid Metabolism Genes through IRE1 alpha-Mediated mRNA Decay Lowers Plasma Lipids in Mice</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>So</surname></persName>
+		</author>
+		<idno type="PMID">23040070</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="487" to="499" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">RNA surveillance is required for endoplasmic reticulum homeostasis</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sakaki</surname></persName>
+		</author>
+		<idno type="PMID">22562797</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="8079" to="8084" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Decay of endoplasmic reticulum-localized mRNAs during the unfolded protein response</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hollien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Weissman</surname></persName>
+		</author>
+		<idno type="PMID">16825573</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">313</biblScope>
+			<biblScope unit="page" from="104" to="107" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The unfolded protein response in secretory cell function</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hollien</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual review of genetics</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="165" to="183" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Reinitiation involving upstream ORFs regulates ATF4 mRNA translation in mammalian cells</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Vattem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Wek</surname></persName>
+		</author>
+		<idno type="PMID">15277680</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="11269" to="11274" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A review of the mammalian unfolded protein response</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chakrabarti</surname></persName>
+		</author>
+		<idno type="PMID">21809331</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnology and bioengineering</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="2777" to="2793" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">PERK and PKR: old kinases learn new tricks</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Raven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Koromilas</surname></persName>
+		</author>
+		<idno type="PMID">18418049</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell cycle</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1146" to="1150" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Structural basis of the unfolded protein response</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Korennykh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Walter</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="251" to="277" />
+		</imprint>
+	</monogr>
+	<note>Annual review of cell and developmental biology</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The unfolded protein response in fission yeast modulates stability of select mRNAs to maintain protein homeostasis</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kimmig</surname></persName>
+		</author>
+		<idno type="PMID">23066505</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Elife</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">e00048</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Defects in IRE1 enhance cell death and fail to degrade mRNAs encoding secretory pathway proteins in the Arabidopsis unfolded protein response</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mishiba</surname></persName>
+		</author>
+		<idno type="PMID">23509268</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="5713" to="5718" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Plant transducers of the endoplasmic reticulum unfolded protein response</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Iwata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Koizumi</surname></persName>
+		</author>
+		<idno type="PMID">22796463</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="720" to="727" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Neuronal GPCR controls innate immunity by regulating noncanonical unfolded protein response genes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="PMID">21474712</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">332</biblScope>
+			<biblScope unit="page" from="729" to="732" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Endoplasmic reticulum stress and the inflammatory basis of metabolic disease</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Hotamisligil</surname></persName>
+		</author>
+		<idno type="PMID">20303879</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="900" to="917" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Aberrant lipid metabolism disrupts calcium homeostasis causing liver endoplasmic reticulum stress in obesity</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fu</surname></persName>
+		</author>
+		<idno type="PMID">21532591</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">473</biblScope>
+			<biblScope unit="page" from="528" to="531" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Endoplasmic reticulum stress in disease: mechanisms and therapeutic opportunities</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hosoi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ozawa</surname></persName>
+		</author>
+		<idno type="PMID">19780718</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Science</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="19" to="29" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Unfolded protein response in cancer: the physician&apos;s perspective</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="PMID">21345215</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of hematology &amp; oncology</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The impact of the unfolded protein response on human disease</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kaufman</surname></persName>
+		</author>
+		<idno type="PMID">22733998</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of cell biology</title>
+		<imprint>
+			<biblScope unit="volume">197</biblScope>
+			<biblScope unit="page" from="857" to="867" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Integrating the mechanisms of apoptosis induced by endoplasmic reticulum stress</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Tabas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ron</forename><forename type="middle">D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature cell biology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="184" to="190" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Integrating stress signals at the endoplasmic reticulum: The BCL-2 protein family rheostat</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rodriguez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochimica Et Biophysica Acta-Molecular Cell Research</title>
+		<imprint>
+			<biblScope unit="volume">1813</biblScope>
+			<biblScope unit="page" from="564" to="574" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">CHOP induces death by promoting protein synthesis and oxidation in the stressed endoplasmic reticulum</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Marciniak</surname></persName>
+		</author>
+		<idno type="PMID">15601821</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Dev</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="3066" to="3077" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Tunicamycin and Brefeldin A induce in plant cells a programmed cell death showing apoptotic features</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Crosti</surname></persName>
+		</author>
+		<idno type="PMID">11732194</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Protoplasma</title>
+		<imprint>
+			<biblScope unit="volume">216</biblScope>
+			<biblScope unit="page" from="31" to="38" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">BAX inhibitor-1 modulates endoplasmic reticulum stress-mediated programmed cell death in Arabidopsis</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lam</surname></persName>
+		</author>
+		<idno type="PMID">18039663</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">283</biblScope>
+			<biblScope unit="page" from="3200" to="3210" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Function of IRE1 alpha in the placenta is essential for placental development and embryonic viability</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Iwawaki</surname></persName>
+		</author>
+		<idno type="PMID">19805353</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="16657" to="16662" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Negative feedback by IRE1beta optimizes mucin production in goblet cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tsuru</surname></persName>
+		</author>
+		<idno type="PMID">23386727</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="2864" to="2869" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">IRE1 signaling affects cell fate during the unfolded protein response</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="PMID">17991856</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">318</biblScope>
+			<biblScope unit="page" from="944" to="949" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Divergent effects of PERK and IRE1 signaling on cell viability</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="PMID">19137072</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">4170</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">IRE1alpha cleaves select microRNAs during ER stress to derepress translation of proapoptotic Caspase-2</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Upton</surname></persName>
+		</author>
+		<idno type="PMID">23042294</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">338</biblScope>
+			<biblScope unit="page" from="818" to="822" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">IRE1 alpha Kinase Activation Modes Control Alternate Endoribonuclease Outputs to Determine Divergent Cell Fates</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Han</surname></persName>
+		</author>
+		<idno type="PMID">19665977</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="562" to="575" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The unpredictable caspase-2: what can it do?</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Vakifahmetoglu-Norberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhivotovsky</surname></persName>
+		</author>
+		<idno type="PMID">20061149</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cell Biology</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="150" to="159" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">IRE1alpha induces thioredoxin-interacting protein to activate the NLRP3 inflammasome and promote programmed cell death under irremediable ER stress</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Lerner</surname></persName>
+		</author>
+		<idno type="PMID">22883233</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="250" to="264" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">ER stress activates the NLRP3 inflammasome via an UPR-independent pathway</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Menu</surname></persName>
+		</author>
+		<idno type="PMID">22278288</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell death &amp; disease</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">e261</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Identification of a consensus element recognized and cleaved by IRE1 alpha</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Oikawa</surname></persName>
+		</author>
+		<idno type="PMID">20507909</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic acids research</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="6265" to="6273" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Characterization of two homologs of Ire1p, a kinase/endoribonuclease in yeast, in Arabidopsis thaliana</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Noh</surname></persName>
+		</author>
+		<idno type="PMID">12020828</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1575</biblScope>
+			<biblScope unit="page" from="130" to="134" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Molecular characterization of two Arabidopsis Ire1 homologs, endoplasmic reticulum-located transmembrane protein kinases</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Koizumi</surname></persName>
+		</author>
+		<idno type="PMID">11706177</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="949" to="962" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Endoplasmic reticulum stress activates the expression of a sub-group of protein disulfide isomerase genes and AtbZIP60 modulates the response in Arabidopsis thaliana</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Christopher</surname></persName>
+		</author>
+		<idno type="PMID">18574595</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular genetics and genomics</title>
+		<imprint>
+			<biblScope unit="volume">280</biblScope>
+			<biblScope unit="page" from="199" to="210" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note>MGG</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">IRE1 and efferent signaling from the endoplasmic reticulum</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Urano</surname></persName>
+		</author>
+		<idno type="PMID">11034898</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="issue">Pt 21</biblScope>
+			<biblScope unit="page" from="3697" to="3702" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">PARP16 is a tail-anchored endoplasmic reticulum protein required for the PERKand IRE1 alpha-mediated unfolded protein response</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature cell biology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">1223</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">BAX Inhibitor-1 Is a Negative Regulator of the ER Stress Sensor IRE1 alpha</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lisbona</surname></persName>
+		</author>
+		<idno type="PMID">19328063</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Cell</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="679" to="691" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">AIP1 is critical in transducing IRE1-mediated endoplasmic reticulum stress response</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Luo</surname></persName>
+		</author>
+		<idno type="PMID">18281285</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biological Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">283</biblScope>
+			<biblScope unit="page" from="11905" to="11912" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Protein-tyrosine phosphatase 1B potentiates IRE1 signaling during endoplasmic reticulum stress</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gu</surname></persName>
+		</author>
+		<idno type="PMID">15465829</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="49689" to="49693" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Nonmuscle myosin IIB links cytoskeleton to IRE1alpha signaling during ER stress</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>He</surname></persName>
+		</author>
+		<idno type="PMID">23237951</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Developmental cell</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1141" to="1152" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">JAB1 participates in unfolded protein responses by association and dissociation with IRE1</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Oono</surname></persName>
+		</author>
+		<idno type="PMID">15234121</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurochemistry international</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="765" to="772" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Nck-dependent activation of extracellular signal-regulated kinase-1 and regulation of cell survival during endoplasmic reticulum stress</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<idno type="PMID">15201339</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular biology of the cell</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="4248" to="4260" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">ASK1 is essential for endoplasmic reticulum stress-induced neuronal cell death triggered by expanded polyglutamine repeats</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nishitoh</surname></persName>
+		</author>
+		<idno type="PMID">12050113</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Dev</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1345" to="1355" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Proapoptotic BAX and BAK modulate the unfolded protein response by a direct interaction with IRE1alpha</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hetz</surname></persName>
+		</author>
+		<idno type="PMID">16645094</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">312</biblScope>
+			<biblScope unit="page" from="572" to="576" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Coupling of stress in the ER to activation of JNK protein kinases by transmembrane protein kinase IRE1</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Urano</surname></persName>
+		</author>
+		<idno type="PMID">10650002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="664" to="666" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Activation of caspase-12, an endoplastic reticulum (ER) resident caspase, through tumor necrosis factor receptor-associated factor 2-dependent mechanism in response to the ER stress</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yoneda</surname></persName>
+		</author>
+		<idno type="PMID">11278723</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="13935" to="13940" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">HSP72 Protects Cells from ER Stress-induced Apoptosis via Enhancement of IRE1 alpha-XBP1 Signaling through a Physical Interaction</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gupta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plos Biology</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Heat shock protein 90 modulates the unfolded protein response by stabilizing IRE1alpha</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Marcu</surname></persName>
+		</author>
+		<idno type="PMID">12446770</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular and cellular biology</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="8506" to="8513" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Tumour necrosis factor receptor 1 mediates endoplasmic reticulum stress-induced activation of the MAP kinase JNK</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="PMID">16680093</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO reports</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="622" to="627" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Synoviolin promotes IRE1 ubiquitination and degradation in synovial fibroblasts from mice with collagen-induced arthritis</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gao</surname></persName>
+		</author>
+		<idno type="PMID">18369366</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO reports</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="480" to="485" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">USP14 inhibits ER-associated degradation via interaction with IRE1 alpha</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nagai</surname></persName>
+		</author>
+		<idno type="PMID">19135427</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemical and Biophysical Research Communications</title>
+		<imprint>
+			<biblScope unit="volume">379</biblScope>
+			<biblScope unit="page" from="995" to="1000" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">A crucial role for RACK1 in the regulation of glucose-stimulated IRE1alpha activation in pancreatic beta cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qiu</surname></persName>
+		</author>
+		<idno type="PMID">20103773</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science signaling</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">BIM, and PUMA are essential for activation of the BAX-and BAK-dependent cell death program</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ren</surname></persName>
+		</author>
+		<idno type="PMID">21127253</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">330</biblScope>
+			<biblScope unit="page" from="1390" to="1393" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Endoplasmic reticulum stress sensing in the unfolded protein response</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Gardner</surname></persName>
+		</author>
+		<idno type="PMID">23388626</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb Perspect Biol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">13169</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Unfolded Proteins Are Ire1-Activating Ligands That Directly Induce the Unfolded Protein Response</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Walter</surname></persName>
+		</author>
+		<idno type="PMID">21852455</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">333</biblScope>
+			<biblScope unit="page" from="1891" to="1894" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">BiP binding to the ER-stress sensor Ire1 tunes the homeostatic behavior of the unfolded protein response</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pincus</surname></persName>
+		</author>
+		<idno type="PMID">20625545</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plos Biology</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1000415</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Activation of mammalian IRE1 alpha upon ER stress depends on dissociation of BiP rather than on direct interaction with unfolded proteins</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Oikawa</surname></persName>
+		</author>
+		<idno type="PMID">19538957</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Cell Research</title>
+		<imprint>
+			<biblScope unit="volume">315</biblScope>
+			<biblScope unit="page" from="2496" to="2504" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Direct association of unfolded proteins with mammalian ER stress sensor, IRE1beta</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Oikawa</surname></persName>
+		</author>
+		<idno type="PMID">23236464</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">51290</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Circadian clock-coordinated 12 Hr period rhythmic activation of the IRE1alpha pathway controls lipid metabolism in mouse liver</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cretenet</surname></persName>
+		</author>
+		<idno type="PMID">20074527</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="47" to="57" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Membrane lipid saturation activates endoplasmic reticulum unfolded protein response transducers through their transmembrane domains</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Volmer</surname></persName>
+		</author>
+		<idno type="PMID">23487760</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="4628" to="4633" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Measuring signaling by the unfolded protein response</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Cox</surname></persName>
+		</author>
+		<idno type="PMID">21329805</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods in enzymology</title>
+		<imprint>
+			<biblScope unit="volume">491</biblScope>
+			<biblScope unit="page" from="261" to="292" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">MONITORING AND MANIPULATING MAMMALIAN UNFOLDED PROTEIN RESPONSE</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hiramatsu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Unfolded Protein Response and Cellular Stress</title>
+		<imprint>
+			<biblScope unit="volume">491</biblScope>
+			<biblScope unit="page" from="183" to="198" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>Methods in Enzymology</note>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Methods for analyzing eIF2 kinases and translational control in the unfolded protein response</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Teske</surname></persName>
+		</author>
+		<idno type="PMID">21266259</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods in enzymology</title>
+		<imprint>
+			<biblScope unit="volume">490</biblScope>
+			<biblScope unit="page" from="333" to="356" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">MEASURING ER STRESS AND THE UNFOLDED PROTEIN RESPONSE USING MAMMALIAN TISSUE CULTURE SYSTEM</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Oslowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Urano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Conn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods in Enzymology: Unfolded Protein Response and Cellular Stress</title>
+		<imprint>
+			<biblScope unit="page" from="71" to="92" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Heat induces the splicing by IRE1 of a mRNA encoding a transcription factor involved in the unfolded protein response in Arabidopsis</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<idno type="PMID">21482766</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="7247" to="7252" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">IRE1/bZIP60-mediated unfolded protein response plays distinct roles in plant immunity and abiotic stress responses</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Moreno</surname></persName>
+		</author>
+		<idno type="PMID">22359644</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">31944</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

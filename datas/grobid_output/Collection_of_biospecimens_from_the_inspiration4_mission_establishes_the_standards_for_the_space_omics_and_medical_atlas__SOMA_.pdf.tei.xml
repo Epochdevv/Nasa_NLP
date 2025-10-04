@@ -1,0 +1,2201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)</title>
+				<funder>
+					<orgName type="full">Boryung</orgName>
+				</funder>
+				<funder ref="#_N7hqbtN">
+					<orgName type="full">Ministry of Education</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Research Foundation of Korea</orgName>
+					<orgName type="abbreviated">NRF</orgName>
+				</funder>
+				<funder ref="#_3vuYBFy">
+					<orgName type="full">MOGAM Science Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Global Space Healthcare Initiative, Humans In Space</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-06-11">2024-06-11</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Eliah</forename><forename type="middle">G</forename><surname>Overbey</surname></persName>
+							<idno type="ORCID">0000-0002-2866-8294</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Physiology and Biophysics</orgName>
+								<orgName type="department" key="dep2">Weill Cornell Medicine</orgName>
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">BioAstra, Inc</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Center for STEM</orgName>
+								<orgName type="institution">University of Austin</orgName>
+								<address>
+									<postCode>78701</postCode>
+									<settlement>Austin</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Krista</forename><surname>Ryon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Physiology and Biophysics</orgName>
+								<orgName type="department" key="dep2">Weill Cornell Medicine</orgName>
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jangkeun</forename><surname>Kim</surname></persName>
+							<idno type="ORCID">0000-0002-8733-9925</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Physiology and Biophysics</orgName>
+								<orgName type="department" key="dep2">Weill Cornell Medicine</orgName>
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Braden</forename><forename type="middle">T</forename><surname>Tierney</surname></persName>
+							<idno type="ORCID">0000-0002-7533-8802</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Physiology and Biophysics</orgName>
+								<orgName type="department" key="dep2">Weill Cornell Medicine</orgName>
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Remi</forename><surname>Klotz</surname></persName>
+							<idno type="ORCID">0000-0003-2100-0635</idno>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Stem Cell Biology and Regenerative Medicine</orgName>
+								<orgName type="department" key="dep2">Keck School of Medicine</orgName>
+								<orgName type="institution">University of Southern California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Pharmacology</orgName>
+								<orgName type="institution">University of Maryland School of Medicine</orgName>
+								<address>
+									<postCode>21201</postCode>
+									<settlement>Baltimore</settlement>
+									<region>MD</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Veronica</forename><surname>Ortiz</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Stem Cell Biology and Regenerative Medicine</orgName>
+								<orgName type="department" key="dep2">Keck School of Medicine</orgName>
+								<orgName type="institution">University of Southern California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sean</forename><surname>Mullane</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="institution">Space Exploration Technologies Corporation</orgName>
+								<address>
+									<settlement>Hawthorne</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Julian</forename><forename type="middle">C</forename><surname>Schmidt</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="institution">Sovaris Aerospace</orgName>
+								<address>
+									<settlement>Boulder</settlement>
+									<region>Colorado</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Advanced Pattern Analysis &amp; Human Performance Group</orgName>
+								<address>
+									<settlement>Boulder</settlement>
+									<region>Colorado</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matthew</forename><surname>Mackay</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Physiology and Biophysics</orgName>
+								<orgName type="department" key="dep2">Weill Cornell Medicine</orgName>
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Namita</forename><surname>Damle</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Physiology and Biophysics</orgName>
+								<orgName type="department" key="dep2">Weill Cornell Medicine</orgName>
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Deena</forename><surname>Najjar</surname></persName>
+							<idno type="ORCID">0009-0009-7950-2866</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Physiology and Biophysics</orgName>
+								<orgName type="department" key="dep2">Weill Cornell Medicine</orgName>
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Irina</forename><surname>Matei</surname></persName>
+							<idno type="ORCID">0000-0002-5712-8430</idno>
+							<affiliation key="aff9">
+								<orgName type="department" key="dep1">Children&apos;s Cancer and Blood Foundation Laboratories</orgName>
+								<orgName type="department" key="dep2">Departments of Pediatrics and Cell and Developmental Biology</orgName>
+								<orgName type="institution" key="instit1">Drukier Institute for Children&apos;s Health</orgName>
+								<orgName type="institution" key="instit2">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff10">
+								<orgName type="department">Meyer Cancer Center</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<postCode>10065</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Laura</forename><surname>Patras</surname></persName>
+							<affiliation key="aff9">
+								<orgName type="department" key="dep1">Children&apos;s Cancer and Blood Foundation Laboratories</orgName>
+								<orgName type="department" key="dep2">Departments of Pediatrics and Cell and Developmental Biology</orgName>
+								<orgName type="institution" key="instit1">Drukier Institute for Children&apos;s Health</orgName>
+								<orgName type="institution" key="instit2">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff11">
+								<orgName type="department" key="dep1">Department of Molecular Biology and Biotechnology</orgName>
+								<orgName type="department" key="dep2">Center of Systems Biology, Biodiversity and Bioresources</orgName>
+								<orgName type="department" key="dep3">Faculty of Biology and Geology</orgName>
+								<orgName type="institution">Babes-Bolyai University</orgName>
+								<address>
+									<settlement>Cluj-Napoca</settlement>
+									<country key="RO">Romania</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">Sebastian</forename><surname>Garcia Medina</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ashley</forename><forename type="middle">S</forename><surname>Kleinman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Physiology and Biophysics</orgName>
+								<orgName type="department" key="dep2">Weill Cornell Medicine</orgName>
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jeremy</forename><surname>Wain Hirschberg</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jacqueline</forename><surname>Proszynski</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Physiology and Biophysics</orgName>
+								<orgName type="department" key="dep2">Weill Cornell Medicine</orgName>
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><forename type="middle">Anand</forename><surname>Narayanan</surname></persName>
+							<affiliation key="aff12">
+								<orgName type="department" key="dep1">College of Education</orgName>
+								<orgName type="department" key="dep2">Health, and Human Sciences</orgName>
+								<orgName type="department" key="dep3">Department of Health</orgName>
+								<orgName type="institution" key="instit1">Florida State University</orgName>
+								<orgName type="institution" key="instit2">Nutrition, and Food Sciences</orgName>
+								<address>
+									<settlement>Tallahassee</settlement>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Caleb</forename><forename type="middle">M</forename><surname>Schmidt</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="institution">Sovaris Aerospace</orgName>
+								<address>
+									<settlement>Boulder</settlement>
+									<region>Colorado</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Advanced Pattern Analysis &amp; Human Performance Group</orgName>
+								<address>
+									<settlement>Boulder</settlement>
+									<region>Colorado</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff13">
+								<orgName type="department">Department of Systems Engineering</orgName>
+								<orgName type="institution">Colorado State University</orgName>
+								<address>
+									<settlement>Fort Collins</settlement>
+									<region>Colorado</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Evan</forename><forename type="middle">E</forename><surname>Afshin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Physiology and Biophysics</orgName>
+								<orgName type="department" key="dep2">Weill Cornell Medicine</orgName>
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lucinda</forename><surname>Innes</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Physiology and Biophysics</orgName>
+								<orgName type="department" key="dep2">Weill Cornell Medicine</orgName>
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mateo</forename><forename type="middle">Mejia</forename><surname>Saldarriaga</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">A</forename><surname>Schmidt</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="institution">Sovaris Aerospace</orgName>
+								<address>
+									<settlement>Boulder</settlement>
+									<region>Colorado</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Advanced Pattern Analysis &amp; Human Performance Group</orgName>
+								<address>
+									<settlement>Boulder</settlement>
+									<region>Colorado</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Richard</forename><forename type="middle">D</forename><surname>Granstein</surname></persName>
+							<affiliation key="aff15">
+								<orgName type="department">Department of Dermatology</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bader</forename><surname>Shirah</surname></persName>
+							<idno type="ORCID">0000-0001-6493-2155</idno>
+							<affiliation key="aff16">
+								<orgName type="department">Department of Neuroscience</orgName>
+								<orgName type="institution">King Faisal Specialist Hospital &amp; Research Centre</orgName>
+								<address>
+									<settlement>Jeddah</settlement>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Min</forename><surname>Yu</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Stem Cell Biology and Regenerative Medicine</orgName>
+								<orgName type="department" key="dep2">Keck School of Medicine</orgName>
+								<orgName type="institution">University of Southern California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Pharmacology</orgName>
+								<orgName type="institution">University of Maryland School of Medicine</orgName>
+								<address>
+									<postCode>21201</postCode>
+									<settlement>Baltimore</settlement>
+									<region>MD</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Lyden</surname></persName>
+							<idno type="ORCID">0000-0003-0193-4131</idno>
+							<affiliation key="aff9">
+								<orgName type="department" key="dep1">Children&apos;s Cancer and Blood Foundation Laboratories</orgName>
+								<orgName type="department" key="dep2">Departments of Pediatrics and Cell and Developmental Biology</orgName>
+								<orgName type="institution" key="instit1">Drukier Institute for Children&apos;s Health</orgName>
+								<orgName type="institution" key="instit2">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff10">
+								<orgName type="department">Meyer Cancer Center</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<postCode>10065</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jaime</forename><surname>Mateus</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="institution">Space Exploration Technologies Corporation</orgName>
+								<address>
+									<settlement>Hawthorne</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christopher</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+							<idno type="ORCID">0000-0002-1850-1642</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Physiology and Biophysics</orgName>
+								<orgName type="department" key="dep2">Weill Cornell Medicine</orgName>
+								<orgName type="institution">Cornell University</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">BioAstra, Inc</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff17">
+								<orgName type="institution" key="instit1">The Feil Family Brain and Mind Research Institute</orgName>
+								<orgName type="institution" key="instit2">Weill Cornell Medicine</orgName>
+								<address>
+									<postCode>10021</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff18">
+								<orgName type="department">WorldQuant Initiative for Quantitative Prediction</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<postCode>10021</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Nature Communications</title>
+						<title level="j" type="abbrev">Nat Commun</title>
+						<idno type="eISSN">2041-1723</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">15</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2024-06-11" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">ECD3E433F9A63C989ECC1913C0DA8933</idno>
+					<idno type="DOI">10.1038/s41467-024-48806-z</idno>
+					<note type="submission">Received: 2 May 2023 Accepted: 15 May 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The SpaceX Inspiration4 mission provided a unique opportunity to study the impact of spaceflight on the human body. Biospecimen samples were collected from four crew members longitudinally before (Launch: L-92, L-44, L-3 days), during (Flight Day: FD1, FD2, FD3), and after (Return: R + 1, R + 45, R + 82, R + 194 days) spaceflight, spanning a total of 289 days across 2021-2022. The collection process included venous whole blood, capillary dried blood spot cards, saliva, urine, stool, body swabs, capsule swabs, SpaceX Dragon capsule HEPA filter, and skin biopsies. Venous whole blood was further processed to obtain aliquots of serum, plasma, extracellular vesicles and particles, and peripheral blood mononuclear cells. In total, 2,911 sample aliquots were shipped to our central lab at Weill Cornell Medicine for downstream assays and biobanking. This paper provides an overview of the extensive biospecimen collection and highlights their processing procedures and long-term biobanking techniques, facilitating future molecular tests and evaluations.As such, this study details a robust framework for obtaining and preserving highquality human, microbial, and environmental samples for aerospace medicine in the Space Omics and Medical Atlas (SOMA) initiative, which can aid future human spaceflight and space biology experiments.</p><p>Our human space exploration efforts are at a unique transition point in history, with more crewed launches and human presence in space than ever before 1 . We can attribute this to the commercial spaceflight sector entering an industrial renaissance, with multiple companies forming collaborative and competitive networks to send commercial astronauts into space. The recent advancements in human space exploration offer a significant chance to gather more biological research samples and enhance our comprehension of spaceflight's effects on</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>human health. This is vital, as our knowledge of the biological reactions to the unique environment of space, marked by microgravity and the space radiation, remains incomplete <ref type="bibr" target="#b1">2</ref> . The impact of spaceflight on human health includes musculoskeletal deconditioning <ref type="bibr" target="#b2">3</ref> , cardiovascular adaptations <ref type="bibr" target="#b3">4</ref> , vision changes <ref type="bibr" target="#b4">5</ref> , space motion sickness <ref type="bibr" target="#b5">6</ref> , neurovestibular changes <ref type="bibr" target="#b6">7</ref> , immune dysfunction <ref type="bibr" target="#b7">8</ref> , and increased risk of rare cancers <ref type="bibr" target="#b8">9</ref> , among other changes <ref type="bibr" target="#b1">2</ref> . However, we are still at the initial stages of documenting biological responses to spaceflight exposure at the molecular and cellular resolution.</p><p>Prior work has characterized molecular changes that occur during spaceflight in astronauts. These include changes in cytokine profiles <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11</ref> , urinary albumin abundance <ref type="bibr" target="#b11">12</ref> , and hemolysis <ref type="bibr" target="#b12">13</ref> . Furthermore, multiomic assays have provided genomic maps of structural changes in DNA <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref> , RNA expression profiles <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18</ref> , sample-wide protein measurements <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20</ref> , and metabolomic status <ref type="bibr" target="#b16">17</ref> . Additionally, International Space Station (ISS) surfaces have been studied with longitudinal microbial profiles to track microbial pathogenicity and evolution to assess their potential influence on crew health <ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22</ref> . To better improve our understanding of both human and microbial biology in space, it is critical that these analyses continue and expand as more spacecraft and stations are built and flown.</p><p>Combining and comparing work from prior missions in these new spacecraft and stations is especially important to overcome the small sample sizes and highlights a need for standardization between missions. In addition, recruiting large cohorts of astronauts is difficult, as the ISS typically can only house up to six astronauts at a time. As of the time of writing, only 647 humans have been to space, starting with the launch of Yuri Gagarin in 1961. Studies have spanned the Vostok program, Project Mercury, the Voskhod program, Project Gemini, Project Apollo, the Soyuz program, the Salyut space stations, MIR, the Space Shuttle Program, SkyLab, Tiangong Space Station, and the ISS. From the breadth of experiments that have been performed on the ISS, only a minority have specifically been human research-oriented <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b23">24</ref> , and just a subset involve omics studies. The NASA Twin Study created the most indepth multi-omic study of astronauts prior to Inspiration4, but was limited to one astronaut and one ground control <ref type="bibr" target="#b16">17</ref> . These factors have limited the statistical power of astronaut omic experiments and increased the difficulty of providing robust scientific conclusions. Standardizing biospecimen collections across multiple missions will create larger sample sets needed to draw these conclusions.</p><p>Here, we establish the standard biospecimen sample collection and banking procedures for the Space Omics and Medical Atlas (SOMA). A key goal of SOMA is to standardize biospecimen collection and processing for spaceflight, to generate high-quality multi-omics data across spaceflight investigations, and to enable follow-up experiments with viably frozen cells and biobanked samples. This paper provides sample collection methods built for standardized field collections across different crews and missions. We cover the decentralized sample collection process from the Inspiration4 (I4) mission from the point of collection to the preservation of samples for downstream biochemical and omics processing at our centralized lab at Weill Cornell Medicine (WCM). These protocols can produce synchronized datasets with enhanced statistical strength, amplifying our scientific findings from spaceflight studies. Additionally, we showcase metrics related to sample collection outputs, references of past astronaut sample collections in scientific publications, and suggestions to refine sample collection for upcoming missions. In its inaugural use case, these samples were collected from the I4 astronaut cohort and are currently in use for several other missions (Polaris Dawn, Axiom-2), which will enable continued utilization for future crewed space missions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biospecimen collection overview</head><p>We formulated and executed a sampling plan that spans a wide range of biospecimen samples: venous blood, capillary dried blood spots (DBSs), saliva, urine, stool, skin swabs, skin biopsies, and environmental swabs (Fig. <ref type="figure" target="#fig_0">1a</ref>). The collection of various types of samples covered the scope of previous assays on astronaut samples (Supplementary Table <ref type="table">1</ref>), but also enabled newer omics technologies, such as spatially resolved, single-molecule, and single-cell assays.</p><p>For the I4 mission, sample collection spanned three-time points pre-launch (L-92, L-44, L-3 days), three-time points during flight (Flight Day 1 (FD1), FD2, FD3), and four-time points post-return (R + 1, R + 45, R + 82, R + 194 days). Venous blood, urine, stool, and skin biopsies were collected during ground timepoints only, while capillary DBSs, saliva, and skin swabs were collected both on the ground and during flight (Fig. <ref type="figure" target="#fig_0">1b</ref>). Environmental swabs of the Dragon capsule were collected pre-flight in the crew training capsule and during flight in the spacecraft launched from Cape Canaveral (Fig. <ref type="figure" target="#fig_0">1b</ref>).</p><p>Samples were collected across a variety of locations based on the crew's training and travel schedule. L-92 and L-44 were collected in Hawthorne, CA at SpaceX Headquarters, L-3 and R + 1 were collected at Cape Canaveral, FL at a facility near the launch site. FD1, FD2, and FD3 were collected inside the Dragon capsule while in orbit. R + 45 was collected at the crew members' individual locations (which spanned the US States NY, NJ, TN, and WA), R + 82 was collected at Weill Cornell Medicine, NY and R + 194 was collected at Baylor College of Medicine, TX (Fig. <ref type="figure" target="#fig_0">1c</ref>). All samples from ground timepoints were processed within 16 hours of collection. All samples from the flight were processed immediately after retrieval from the flight.</p><p>Samples were stored at -80 °C at each site immediately after processing and aliquoting (processing steps are outlined below). All samples were shipped via FedEx using Overnight Shipping to Weill Cornell Medicine for storage in the Cornell Aerospace Medicine Biobank (CAMbank) within 1 week of collection on dry ice in styrofoam boxes and spent &lt;2 days in transit. No samples were shipped on a Thursday or Friday to avoid weekend shipping delays. All samples arrived at Weill Cornell Medicine with dry-ice still in the packaging and samples frozen. Samples were immediately transferred to -80 °C for long-term storage and biobanking. Any exceptions to this process will be noted below. In total, we collected 2,911 sample aliquots, which were then processed in our central lab at Weill Cornell Medicine for downstream assays (Supplementary Table <ref type="table">2</ref>). Some samples were processed immediately at field laboratory facilities (Supplementary Data Fig. <ref type="figure" target="#fig_0">1</ref>). DNA and RNA yields are also reported below from collection kits (saliva and stool) after arrival at WCM.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Blood collection and derivatives</head><p>Blood was collected using a combination of venipuncture tubes to collect venous blood and contact-activated lancets to collect capillary blood from the fingertip. Each crew member provided blood samples, collected into one BD PAXgene blood RNA tube (bRNA), four BD Vacutainer K2 EDTA tubes, two BD Vacutainer cell preparation tubes (CPTs), one Streck cell-free DNA tube (cfDNA BCT), one BD Vacutainer serum separator tube (SST), and one DBS card per time point. Tubes were transported from the collection site to the field laboratory at room temperature. From these tubes, whole blood, plasma, PBMCs, serum, and cell pellet samples were collected (Supplementary Table <ref type="table">3</ref>). Sample yields are reported below. Samples were aliquoted for longterm storage and biobanking (Supplementary Table <ref type="table">4</ref>).</p><p>bRNA tubes were collected in order to isolate total RNA using the PAXgene blood RNA kit (Fig. <ref type="figure" target="#fig_1">2a</ref>). Yield ranged from 3.04 to 14.04 µg/ tube of total RNA across all samples, and the RNA integrity number (RIN) ranged from 3.2 to 8.5 (mean: 6.95) (Fig. <ref type="figure" target="#fig_1">2b</ref>). RNA was stored at -80 °C after extraction. The collection of total RNA enables a variety of downstream RNA profiling methods. It will allow comparative studies to prior RNA-sequencing performed on astronauts, particularly snoRNA &amp; lncRNA biomarkers analyzed from Space Shuttle era blood <ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b25">26</ref> , mRNA &amp; miRNA measured during the NASA Twin Study <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18</ref> , and whole blood RNA arrays from the ISS <ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28</ref> . Additionally, RNA yields are more than sufficient to perform direct-RNA sequencing using Oxford Nanopore Technologies (ONT) platforms, which require 500 ng of total RNA per library (Manufacturer's protocol, ONT kit SQK-RNA002). This enables the study of RNA modification changes during spaceflight to create epitranscriptomic profiles for the first time in astronauts.</p><p>Four K2 EDTA tubes were drawn at each timepoint from each crew member (Fig. <ref type="figure" target="#fig_1">2c</ref>). One K2 EDTA tube was submitted to Quest Diagnostics to perform a complete blood count (CBC, Quest Test Code: 6399). One tube was used to isolate extracellular vesicles and particles (EVPs) for proteomic quantification (Fig. <ref type="figure" target="#fig_2">3a</ref>). Total EVP quantities varied from 2.71-28.27 ug (Fig. <ref type="figure" target="#fig_1">2d</ref>). Two K2 EDTA tubes were used to isolate PBMCs for single-cell sequencing (10X Chromium Single Cell Multiome ATAC + Gene Expression and Chromium Single Cell Immune Profiling workflows). After collection, a Ficoll separation was performed to isolate PBMCs, which ranged from 340,000-975,000 cells per mL of blood (Fig. <ref type="figure" target="#fig_1">2e</ref>). One prior single-cell gene expression experiment, NASA Twin study, was performed on astronauts, which found immune cell population specific gene expression changes and a correlation with microRNA signatures <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b17">18</ref> .</p><p>Additional PBMCs, plasma, and serum were collected from CPTs (Fig. <ref type="figure">4a</ref>), cfDNA BCTs (Fig. <ref type="figure">4d</ref>), SSTs (Fig. <ref type="figure">4c</ref>), as well as red blood cell pellets. CPTs were spun and aliquoted according to the manufacturer's instructions (Fig. <ref type="figure" target="#fig_2">3b</ref>). Plasma volume per tube ranged from 3000-14,000 uL per tube (Fig. <ref type="figure">4d</ref>). Because of technical issues in the sample processing procedure, three instances occurred where plasma retrieval from the CPT tubes was not possible. Plasma can be used to validate or refute previous studies, including cytokine panel <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b28">29</ref> , exosomal RNA-seq <ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b25">26</ref> , extracellular vesicle microRNA <ref type="bibr" target="#b29">30</ref> , and proteomic <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref> results. PBMCs were also collected, aliquoted into 6 cryovials per CPT, and stored in liquid nitrogen after slowly cooled in a Mr. Frosty to -80 °C. These can be used to follow-up on previous studies on adaptive immunity, cell function, and immune dysregulation <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref> . The remaining red blood cell pellet mixtures from below the gel plug in each CPT Tube were stored at -20 °C. cfDNA BCT (Streck) tubes were collected to isolate high-quality cfDNA from plasma. cfDNA BCTs were spun and aliquoted according to the manufacturer's instructions (Fig. <ref type="figure" target="#fig_2">3c</ref>). The remaining cell pellet mixture was frozen at -20 °C. Plasma volume per timepoint ranged from 1500-5000 uL (Fig. <ref type="figure">4e</ref>). 500 uL aliquots were frozen at -80 °C. cfDNA extracted from these tubes can be analyzed for fragment length, mitochondrial or nuclear origin, and cell type or tissue of origin <ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref><ref type="bibr">[42]</ref> .</p><p>The SST was spun and aliquoted according to the manufacturer's instructions (Fig. <ref type="figure" target="#fig_2">3d</ref>). Serum volume ranged from 2000-8000 uL per timepoint (Fig. <ref type="figure">4f</ref>). Similar to plasma, serum can be allocated for cytokine analysis and can also be used to perform comprehensive metabolic panels, including one we used at Quest (CMP, Quest Test Code: 10231) for metrics on alkaline phosphatase, calcium, glucose, potassium, and sodium, among other metabolic markers. The remaining cell pellet mixture from each SST tube was stored at -20 °C.</p><p>In addition to venous blood, capillary blood was collected onto a DBS card using a contact-activated lancet pressed against the fingertip (Fig. <ref type="figure">5a</ref>). Capillary blood was collected onto a Whatman 903 Protein Saver DBS card to preserve nucleic acids and proteins. Each of the five spots on the DBS card hold 75-80uL of capillary blood, however, the amount of capillary blood collected across timepoints varied (Fig. <ref type="figure">5b</ref>, <ref type="figure">c</ref>) according to how much blood could be collected before the lancet-puncture closed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Saliva collection</head><p>Saliva was collected at the L-92, L-44, L-3, FD1, FD2, FD3, R + 1, R + 45, and R + 82 timepoints using two methods. First, saliva was collected using the OMNIgene Oral Kit (OME-505), which preserves nucleic acids (Fig. <ref type="figure">6a</ref>) during the ground timepoints. From these samples, DNA, RNA, and protein were extracted. DNA yield ranged from 28.1 to 3187.8 ng, RNA yield from 396.0 to 3544.2 ng (less the two samples had concentrations too low for measurement), and protein concentration from 92.97 to 93.15 ng. Second, crude saliva (i.e., saliva with no preservative added) was collected into a 5 mL DNase/RNase-free screw top tube during the ground and flight timepoints. Saliva volume varied from 150 to 4000 uL per tube (Fig. <ref type="figure">6b</ref>). Crude saliva was also collected during flight (FD2 and FD3), in addition to the ground timepoints.</p><p>Saliva collections have been conducted throughout spaceflight studies for assessing the immune state of crews, particularly in the context of viral reactivation. Previously identified viruses that reactivate during spaceflight include Epstein-Barr, varicella-zoster, and cytomegalovirus <ref type="bibr" target="#b42">43</ref> . Responses to reactivation of these viruses can be asymptomatic, debilitating, or even life-threatening, thus assessing these adaptations is beneficial in understanding viral spaceflight activity as well as crew health. In addition to viral nucleic acid quantification, numerous biochemical assays can also be performed, including measurements of C-reactive protein (CRP), cortisol, dehydroepiandrosterone (DHEA), and cytokines, among others <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref><ref type="bibr" target="#b44">[45]</ref><ref type="bibr" target="#b45">[46]</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Urine collection</head><p>Urine was collected in sterile specimen cups at the L-92, L-44, L-3, R + 1, R + 45, and R + 82 timepoints. Specimen cups were collected 1-2 times per day. For preservation, urine was aliquoted and stored at -80 °C.</p><p>Half the urine had Zymo Urine Conditioning Buffer (UCB) added before freezing, to preserve nucleic acids. Samples yielded 23-155.5 mL of crude urine and 21 -112 mL of UCB urine per specimen cup (Fig. <ref type="figure" target="#fig_4">7a</ref>). Urine was split into 1 mL -15 mL aliquots before freezing at -80 °C.</p><p>A wide variety of assays can be performed on urine samples. Previous studies have included viral reactivation <ref type="bibr" target="#b42">43,</ref><ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b46">47</ref> , urinary cortisol <ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b48">49</ref> , iron and magnesium measurements <ref type="bibr" target="#b49">[50]</ref><ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref><ref type="bibr" target="#b52">[53]</ref> , bone status <ref type="bibr" target="#b53">[54]</ref><ref type="bibr" target="#b54">[55]</ref><ref type="bibr" target="#b55">[56]</ref> , kidney stones <ref type="bibr" target="#b53">54,</ref><ref type="bibr" target="#b54">55</ref> , proteomics <ref type="bibr" target="#b10">11</ref> , telomere measurements <ref type="bibr" target="#b56">57</ref> , and various biomarkers and metabolites <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b48">49,</ref><ref type="bibr" target="#b57">[58]</ref><ref type="bibr" target="#b58">[59]</ref><ref type="bibr" target="#b59">[60]</ref><ref type="bibr" target="#b60">[61]</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stool collection</head><p>Stool was collected at the L-92, L-44, R + 1, R + 45, and R + 82 timepoints. Stool samples were stored into two collection containers at each timepoint, one DNA Genotek OMNIgene Gut (OMR-200) kit with a preservative for metagenomics and another (ME-200) with a preservative for metabolomics (Fig. <ref type="figure" target="#fig_4">7b</ref>). Stool was the least consistent sample collected due to the limited windows available for sampling during collection timeframes. DNA and RNA were extracted from aliquots of the OMNIgene Gut (OMR-200) tubes for downstream microbiome analysis. DNA yield ranged from 358.5 to 16,660 ng, RNA from 690 to 2010 ng (Fig. <ref type="figure" target="#fig_4">7c</ref>). Large variations in yield are attributable to variable stool mass collected between kits.</p><p>Stool samples enable various biochemical, immune, and microbiome changes studies. Previous metagenomic assays have found that shannon alpha diversity and richness during long-duration missions to the ISS <ref type="bibr" target="#b61">62</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Skin swabs</head><p>Body swabs were collected at all timepoints. Samples were collected by swabbing the body region of interest for 30 seconds, then placing the swab in a sterile 2D matrix tube (Thermo Scientific #3710) with Zymo DNA/RNA shield preservative. For the first two swab locations, the oral and nasal cavity, the swab was placed directly on the body after removal from its sterile packaging (dry-swab method; Fig. <ref type="figure">8a</ref>). For the remaining body locations, the swab was briefly dipped in nucleasefree, DNA/RNA-free water before proceeding (wet-swab method). Eight distinct sites were swabbed with the wet-swab method: postauricular, axillary vault, volar forearm, occiput, umbilicus, gluteal crease, glabella, and the toe-web space (Fig. <ref type="figure">8b</ref>). The astronaut microbiome has previously been studied in the forehead, forearm, nasal, armpit, navel, postauricular, and tongue body locations, and changes have been documented during flight. Changes in alpha diversity and beta diversity were documented, as well as shifts in microbial genera <ref type="bibr" target="#b61">62</ref> . However, the impact of these changes on skin health and immunological health are not well understood.</p><p>Acquiring extensive swab samples from the crew skin allows for characterization of the habitat environment, crew skin microbiome adaptations, and interactions with potential human health adaptations resulting from spaceflight exposure. This is very relevant for crew health, considering astronauts become more susceptible to infections during spaceflight missions <ref type="bibr" target="#b62">63</ref> , with the relationship between microbe-host interactions from spaceflight exposure, which may be a causative factor of astronauts immune dysfunction, which is still not well understood. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Skin Biopsies</head><p>A skin biopsy on the deltoid was obtained from the L-44 and R + 1 timepoint. Biopsies were also collected in advance of a flight to ensure the biopsy site is fully healed before the flight so there is no risk of complication. The wet-swab method was used to collect the skin microbiome before the skin biopsy. The skin biopsies were 3-4 millimeters in diameter and were collected for histology and spatially resolved transcriptomics (SRT) (Fig. <ref type="figure">8c</ref>). One-third of the sample was stored in formalin and kept at room temperature to perform histology. The remaining two-thirds of the sample was stored in a cryovial and placed at -80 °C for SRT (Fig. <ref type="figure">8c</ref>). This is the first sample collected from astronauts for spatially resolved transcriptomics. The skin is of high interest due to the inflammationrelated cytokine markers such as IL-12p40, IL-10, IL-17A, and IL-18 <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b16">17</ref> and skin rash's status as the most frequent clinical symptom reported during spaceflight <ref type="bibr" target="#b63">64</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Environmental swabs and HEPA filter</head><p>Environmental swabs were collected in flight during the F1 and F2 timepoint. Additionally, environmental swabs were collected from the flight simulation capsule at SpaceX headquarters after days of crew training during the L-92 and L-44 timepoints. Environmental swabs were collected using the wet-swab method. Ten environmental swabs were collected per time point at the following locations in the capsule: an ambient air/control swab, the execute button, the viewing dome, the side hatch mobility aid, the lid of the waste locker, the head section of one of the seats, the commode panel, the right and left sides of the control screen, and the g-meter button (Fig. <ref type="figure" target="#fig_6">9a-d</ref>). Additionally, the d f Cell-Free DNA Blood Collection Tube (cfDNA BCT) Cell Preparation Tube (CPT) cfDNA BCT Total Plasma (μL) μL Crew ID CPT Total Plasma (μL) Crew ID L μ L-92 L-44 L-3 R+1 R+45 R+82 L+194 L-92 L-44 L-3 R+1 R+45 R+82 L+194 e Serum Separator Tube (SST) Crew ID μL SST Total Serum (μL) a Red Blood Cell Pellet Plasma PBMCs Inert Gel Barrier Red Blood Cell Pellet Red Blood Cell Pellet Inert Gel Barrier Plasma Serum b c 8 mL / tube 2 tubes 10 mL / tube 1 tube 7.5 mL / tube 1 tube L-92 L-44 L-3 R+1 R+45 R+82 L+194 Subject C001 C002 C003 C004 a 1 Lancet 1 DBS Card Full Partial Empty DBS Card Yields Blood Spot Saturation L-92 L-44 L-3 R+1 R+45 R+82 FD1 FD2 b c Full: Partial: Empty: Blood Spot Saturation Tiers DBS Collection Materials Subject C001 C002 C003 C004 Fig. 5 | Dried Blood Spot (DBS) Collection Yields. a DBS cards were collected preflight, during flight, and postflight. There were five spots for blood collection per card. b Blood collections varied in saturation level across blood spots and timepoints. These were classified as "full", "partial", and occasionally "empty". c DBS card yields per blood spot, per timepoint, and per crew member. Preserved Saliva Yields a b DNA RNA Protein Crew ID Crew ID Crew ID Yield (ng) Yield (ng) Yield (ng) L-92 L-44 L-3 R+1 R+45 R+82 L-92 L-44 L-3 R+1 R+45 R+82 L-92 L-44 L-3 R+1 R+45 R+82 Crude Saliva Volumes Yield (uL) Crew ID Subject C001 C002 C003 C004 L-92 L-44 L-3 FD1 FD2 FD3 R+1 R+45 R+82 Fig. 6 | Saliva Collections. a DNA, RNA, and protein yields from the OMNIgene Oral kits. b Volume of crude saliva collected per timepoint.</p><p>spacecraft's high-efficiency particulate absorbing (HEPA) filter was acquired post-flight. This filter was cut into 127 rectangular pieces (1.2" x 1.6" x 4") and stored at -20 °C. Previous microbial profiling of spacecraft environments has revealed that equipment sterilized on the ground becomes coated in microbial life in space due to interactions with crew and the introduction of equipment that has not undergone sterilization <ref type="bibr" target="#b64">65</ref> . Subsequent microbial monitoring assays performed on the ISS have detected novel, spaceflight-specific species on the ISS <ref type="bibr" target="#b65">66</ref> . Once in space, surface microbes are subject to the unique microgravity and radiation environment of flight, which will influence evolutionary trajectory. The potential impact of this influence on pathogenesis is a concern for long-duration space missions, especially given that changes in hostpathogen interactions may also be affected during spaceflight <ref type="bibr" target="#b66">67</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>We report here on biospecimen samples collected from the SpaceX I4 Mission, the most comprehensive human biological specimen collection effort performed on an astronaut cohort to date. The extensive archive of biospecimens included venous blood, dried blood spot cards, saliva, urine, stool, microbiome body swabs, skin biopsies, and environmental capsule swabs. The study objective was to establish a foundational set of methods for biospecimen collection and banking on commercial spaceflight missions suitable for multi-omic and molecular analysis. Biospecimens were collected to enable comprehensive, multi-omic profiles, which can then be used to develop molecular catalogs with higher resolution of human responses to spaceflight. Select, targeted measures in clinical labs (CLIA) were also performed immediately after sample collection (CBC, CMP), and samples and viable cells were preserved in a long-term Cornell Aerospace Medicine Biobank, such that additional assays and measures can be conducted in the future.</p><p>Great care was put into the standardization of sample processing between field laboratories in Hawthorne, Cape Canaveral, and Houston. Despite our best efforts to control for all preanalytical variables <ref type="bibr" target="#b67">68</ref> , there are some inconsistencies in sample processing that were unavoidable during this mission. Of note, there was no access to cold stowage during flight, causing all samples to be stowed at room temperature until they arrived back on Earth. Of the three sample types collected during flight, two were stable at room temperature (skin/ capsule swabs stored in DNA/RNA shield and capillary blood collected on dried blood spot cards). The third (saliva samples), were not stored in a preservative and, for this reason, will have a distinct profile compared to other timepoints. This limits the context in which these samples will be useful, but will still provide biological insights in more targeted biological studies. We can imagine situations in the future where there will be tradeoffs between standardization of sample collection with previous missions and mission-specific constraints influencing the selection of biospecimen collection methods.</p><p>However, there are several reasons why rigorous biospecimen collection methods for commercial and private spaceflight missions must be developed, which are scalable and translational across populations, missions, and mission parameters. First, little is known about the biological and clinical responses that occur in civilians during and after space travel. While professional astronauts are generally young, healthy, and extensively trained, civilian astronauts have been, and likely will be, far more heterogeneous. They will possess a of phenotypes, including older ages, different health backgrounds, and greater medication use, and may experience different medical conditions, risks, and comorbidities. Careful molecular characterization will be beneficial for the development of appropriate baseline metrics and countermeasures and, therefore, beneficial for the individual spaceflight experience. In the future, such analyses may enable precision medicine applications aimed at optimizing countermeasures for each individual astronaut who enters and returns safely from space <ref type="bibr" target="#b68">69,</ref><ref type="bibr" target="#b69">70</ref> .</p><p>Second, multi-omic studies inherently present a large number of measurements within a small set of subjects. These high-dimensional datasets present numerous potential challenges with regard to the amplification of noise, risk of overfitting, and false discoveries <ref type="bibr" target="#b70">71</ref> . At all times, scientists engaged in multi-omic analyses must take special care that true biological variance is what has been measured. The introduction of experimental variance through the progression from sample collection, transport, and storage, to sequencing and analysis can introduce artifacts of variance that render the detection of true biological variance and interpretation of results more difficult. For this reason, tight adherence to experimental controls or annotation at every step of the experimental condition is crucial. Careful annotation allows for the assignment of class variables in post hoc analysis. Among such applications are the attempt to detect batch effects or determine the impact of variations in temperature (collection, storage, or transport) <ref type="bibr" target="#b71">72</ref> .</p><p>The necessary means to address experimental variance are longitudinal sampling and specimen aliquoting. Longitudinal sampling (i.e. collecting numerous serial samples from each test condition) from pre-flight, in-flight, and post-flight allows for greater statistical power when assessing changes attributable to spaceflight. In addition, each sample collected should be divided upon collection into multiple aliquots. This better assures that freeze-thaw cycles can be avoided in the analysis stage, as freeze-thaw events can introduce considerable experimental variance depending on the molecular class being measured. Maintaining all samples at their optimal storage temperature at all times, typically -80 °C or lower (e.g. liquid nitrogen for cells), is crucial <ref type="bibr" target="#b72">73</ref> . Special attention must be given to how the collection and storage methods in-flight vary in relation to the conditions on Earth. Spaceflight presents considerable differences in the operating environment, where ground conditions are far easier to control than flight. In practice, this may limit the types of samples that can be collected during flight.</p><p>Third, rigorous methods must be developed and followed to pursue comparisons across missions with varying design parameters. In this consideration, there is an argument for the development of specimen collection, transport, storage, processing, analysis, and reporting standards. At the same time, this must be balanced with the flexibility required for innovation since standards can sometimes limit advancement in methodology. In the present study, common methods were used for the I4 and the Polaris Dawn and Axiom-2 missions. However, selected methods may require optimization for Polaris Dawn-like missions, to increase the yields during sample processing and adapt to unique parameters imposed by the anticipated spacewalk (extravehicular activity; EVA). Moreover, within standards or best practices, unique research for each mission may require alteration of previously successful methods. With these considerations in mind, we must balance methodology standardization with advances in methodology options and missionspecific objectives.</p><p>As the commercial spaceflight sector gains momentum and more astronauts different health profiles and backgrounds have access to space, comprehensive data on the biological impact of shortduration spaceflight is of paramount importance. Such data will further expand our understanding and knowledge of how spaceflight affects human physiology, microbial adaptations, and environmental biology. The use of integrative omics technologies for civilian astronauts has revealed novel responses across genomics, proteomics, metabolomics, microbiome, and transcriptomics measures <ref type="bibr" target="#b73">[74]</ref><ref type="bibr" target="#b74">[75]</ref><ref type="bibr" target="#b75">[76]</ref><ref type="bibr" target="#b76">[77]</ref><ref type="bibr" target="#b77">[78]</ref><ref type="bibr" target="#b78">[79]</ref><ref type="bibr" target="#b79">[80]</ref><ref type="bibr" target="#b80">[81]</ref><ref type="bibr" target="#b81">[82]</ref><ref type="bibr" target="#b82">[83]</ref> . Creating multi-omic datasets from spaceflight studies on astronaut cohorts will further advance our understanding, inform future mission planning, and help discover what appropriate countermeasures can be developed to minimize future risk and enhance performance.</p><p>Validating sample collection methodologies initially in shortduration commercial spaceflight is a key step for future human health research in long-duration and exploration-class missions to the Moon and beyond. To help meet these challenges, we have established the SOMA protocols, which detail standard multi-omic measures of astronaut health and protocols for sample collection from astronaut cohorts. Although the all-civilian I4 crew pioneered the first use of the SOMA protocols, the methodology outlined here is robust and generalizable, making it applicable to future astronaut crews from any commercial mission provider (e.g., SpaceX, Axiom Space, Sierra Space, Blue Origin) or space agencies (NASA, ESA, JAXA, ROSCOSMOS). Furthermore, the SOMA banking, sequencing, and processing methods are a springboard for continuing biospecimen analysis and expanding our knowledge of multi-omic dynamics before, during, and after human spaceflight missions, providing a molecular roadmap for crew health, medical biometrics, and possible countermeasures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Venous blood draw</head><p>Venipuncture was performed on each subject using a BD Vacutainer® Safety-Lok™ blood collection set (BD Biosciences, #367281) and a Vacutainer one-use holder (BD Biosciences, 364815). The puncture site was located near the cubital fossa and was sterilized with a BZK antiseptic towelette (Dynarex, Reorder No. 1303). Blood was collected into 1 serum separator tube (SST, BD Biosciences: #367987, Lot: #1158449, #1034773), 2 cell processing tubes (CPT, BD Biosciences: #362753, Lot: #1133477, #1012161), 1 blood RNA tube (bRNA, PAXgene: #762165, Lot: #1021333), 1 cell-free DNA BCT (cfDNA BCT, Streck: #230470, Lot: #11530331), and 4 K2 EDTA blood collection tubes (BD Biosciences, #367844, Lot: #0345756) per crew member per time point. For samples collected in Hawthorne, blood was drawn at SpaceX headquarters, then immediately transported to USC for processing. Samples collected at Cape Canaveral were processed on-site. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Blood tube processing</head><p>For processing, serum separator tubes (SST) were centrifuged at 1300x g for 10 500uL aliquots of serum were aliquoted into 1 mL Matrix 2D Screw Tubes (ThermoFisher, 3741-WP1D-BR) and stored at -80 °C. SST tubes were recapped and stored at -20 °C to preserve the red blood cell pellet. Cell processing tubes were centrifuged at 1800xg for 30 minutes. Plasma was aliquoted into 1 mL Matrix 2D Screw Tubes and stored at -80 °C. 5 mL of 2% FBS (ThermoFisher, #26140079) in PBS (Thermo-Fisher, #10010023) was added to the CPT tube to resuspend PBMCs. PBMC suspension was transferred to a clean 15 mL conical tube. The total volume was brought to 15 mL with 2% FBS in PBS. The tube was centrifuged for 15 minutes at 300x g. Supernatant was discarded. PBMCs were resuspended 6 mL of 10% DMSO (Millipore Sigma, #D4540-500mL) in FBS. 1 mL of PBMCs were moved to 6 cryogenic vials (Corning, #8672). Cryovials were placed in a Mr. Frosty TM (Ther-moFisher, #5100-0001) and stored at -80 °C. CPTs were recapped and stored at -20 °C to preserve the red blood cell pellet. There was one outlier to this sample collection, the R + 194 timepoint, where CPT sodium citrate tubes were used (BD Biosciences, Cat no. 362760).</p><p>cfDNA BCTs were centrifuged at 300xg for 20 minutes. Plasma was transferred to a 15 mL conical tube. Plasma was centrifuged 5000xg for 10 minutes. 500uL aliquots of plasma were aliquoted into 1 mL Matrix 2D Screw Tubes and stored at -80 °C. cfDNA BCTs were recapped and stored at -20 °C to preserve the red blood cell pellet.</p><p>PAXgene blood RNA tubes were processed according to the manufacturer's instructions. Briefly, tubes were left upright for a minimum of 2 hours before freezing at -20 °C. For RNA extraction, tubes were thawed and processed with the PAXgene blood RNA kit (Qiagen, #762164).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Extracellular Vesicles and Particles (EVPs) Isolation</head><p>One 4 mL K2 EDTA tube was shipped on ice overnight to WCM for processing. Blood was centrifuged at 500x g for 10 minutes, then plasma was transferred to a new tube and centrifuged at 3000 x g for 20 minutes, and the supernatant was collected and stored at -80 °C for EVP isolation. Plasma volumes ranged between 0.6 -1.7 ml. Plasma was later thawed for downstream processing, when concentrations were measured. Plasma samples were thawed on ice, and EVPs were isolated by sequential ultracentrifugation (Hoshino et al., 2020). Samples were centrifuged at 12,000x g for 20 minutes to remove microvesicles, then EVPs were collected by ultracentrifugation in a Beckman Coulter Optima XE or XPE ultracentrifuge at 100,000x g for 70 minutes. EVPs were then washed in PBS and pelleted again by ultracentrifugation at 100,000x g for 70 minutes. The final EVP pellet was resuspended in PBS.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dried blood spot (DBS)</head><p>Crew members warmed their hands and massaged their finger towards the fingertip to enrich blood flow toward the puncture site. The puncture site was sterilized using a BZK antiseptic towelette (Dynarex, Reorder No. 1303). Skin was punctured using a contact-activated lancet (BD Biosciences, #366593) or a 21-gauge needle (BD Biosciences, #305167), depending on crew member preference. Capillary blood was collected onto the Whatman 903 Protein Saver DBS cards (Cytiva, #10534612). Blood was transferred by touching only the blood droplet to the surface of the DBS card. DBS cards were stored at room temperature with a desiccant pack (Cytiva, #10548239).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Saliva</head><p>To collect crude saliva, crew members uncapped and spit into a sterile, PCR-clean, 5 mL screw-cap tube (Eppendorf, 30122330). Crew spit repeatedly until at least 1 mL was collected. Saliva was transported to a sterile flow hood and separated into 500uL aliquots. Aliquots were frozen at -80 °C. To collect preserved saliva, crew members used the OMNIgene ORAL kit (OME-505). Crew members spit into the kit's tube until they reached the fill line. The tube was re-capped, which released the preservative liquid. Tubes were inverted to mix the saliva and preservative before being placed at -20 °C for storage. After all timepoints were collected, DNA, RNA, and protein were extracted using the AllPrep DNA/RNA/Protein kit (Qiagen, #47054). Sample concentrations were measured with Qubit high sensitivity dsDNA and RNA platform. Proteins were quantified with the Pierce™ Rapid Gold BCA Protein Assay Kit (Thermo Scientific, #A53225) on Promega GloMax Plate Reader.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Urine</head><p>Crew members urinated into sterile specimen containers (Thermo Scientific, #13-711-56). The container was stored at 4 C until it was prepared for long-term storage. To prepare urine samples for longterm storage, urine was aliquoted into 1 mL, 15 mL, and 50 mL tubes. Half of the urine was immediately placed at -80 °C. The other half had urine conditioning buffer (Zymo, #D3061-1-140) added to the sample before placing in the -80 °C freezer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stool collection</head><p>Crew members isolated a stool sample using a paper toilet accessory (DNA Genotek, OM-AC1). Stool was transferred into and OMNIgene•GUT tube (DNAgenotek, OMR-200) and an OMNImet•GUT tube (DNA Genotek, ME-200). Tubes were placed at -80 °C for long-term storage. For nucleic acid extraction, 200uL of each tube was allocated for DNA extraction with the QIAGEN PowerFecal Pro kit and 200uL was allocated to RNA extraction with the QIAGEN PowerViral kit. The remaining sample was split into 500uL aliquots and re-stored at -80 °C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Swab collection</head><p>Crew members put on gloves and remove a sterile DNA/RNA swab (Isohelix, SK-4S) from its packaging. For collection of the postauricular, axillary vault, volar forearm, occiput, umbilicus, gluteal crease, glabella, toe web space, and capsule environment regions, swabs were dipped in nuclease-free water (this step was skipped for oral and nasal swabs) for ground collections. For in-flight collections, HFactor hydrogen infused water was used in place of nuclease-free water. Each body location was swabbed for 30 seconds, using both sides of the swab. Swabs were then placed in 1 mL Matrix 2D Screw Tubes containing 400uL of DNA/RNA Shield (Zymo). The tip of the swab was broken off so that only the swab tip was stored in the Matrix 2D Screw Tube. Tubes were stored at 4 C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Skin biopsies</head><p>Skin biopsies were performed on the deltoid region of the arm. Each site was prepared by application of ChloraPrep and anesthesia was induced with administration of 1% lidocaine with 1:100,000 epinephrine. A trephine punch was used to remove a 3-or 4-mm diameter piece of skin. The resected piece was cut into approximately 1 / 3 and 2 / 3 sections. The smaller piece was added to a formalin-filled specimen jar. The larger piece was placed in a cryovial and stored at -80 °C. Surgical defects were closed with 1 or 2 5-0 or 4-0 nylon sutures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>HEPA filter</head><p>HEPA Filter was taken apart and sectioned under a chemical hood to avoid contamination. The filter contained two parts, an activated carbon component and a HEPA filter. The activated carbon component was discarded and the filter was sectioned using a sterile blade. Sections were placed in individual specimen containers and stored at -20 °C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Human subjects research</head><p>All subjects were consented and samples were collected and processed under the approval of the IRB at Weill Cornell Medicine, under Protocol 21-05023569.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 |</head><label>1</label><figDesc>Fig. 1 | Biospecimen Samples and Collection Locations. a List of biospecimen samples collected over the course of the study. b Timepoints for each biospecimen sample collection. "L-" denotes the number of days prior to launch. "R + " denotes the number of days after return to Earth. "FD" denotes which day of the flight a sample was collected. c Location of each collection timepoint.</figDesc><graphic coords="3,62.77,68.48,476.44,420.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 |</head><label>2</label><figDesc>Fig. 2 | bRNA and K2 EDTA Tubes. a One 2.5 mL bRNA tube was collected per crew member at each ground timepoint. b bRNA tube total RNA yields per sample (μg) and RINs. c Four K2 EDTA tubes were collected per member at each ground timepoint. One tube was used for a CBC, one tube was used to isolate EVPs, and two tubes were used for isolation of PBMCs. d Plasma and EVP yields from the "[2] EVPS" tube on Fig. 2c. e PBMC yields per mL from the "[3] PBMCs" tubes on Fig. 2c.</figDesc><graphic coords="4,88.33,66.17,450.28,358.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 |</head><label>3</label><figDesc>Fig. 3 | Tube Processing Steps. Centrifuge (brown circles) and aliquoting (white and green boxes and circles) protocols for a K2 EDTA tubes designated for EVP isolation b CPTs c cfDNA BCTs ans.d d SST.</figDesc><graphic coords="5,60.49,48.76,480.02,290.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 |Fig. 5 |Fig. 6 |</head><label>456</label><figDesc>Fig. 4 | CPT, cfDNA BCT, and SST Yields. a A spun CPT yields plasma, PBMCs, and a red blood cell pellet. PBMC from each tube were divided into 6 cryovials and viably frozen. Plasma was aliquoted and the pellet was frozen at -20C. b A spun cfDNA BCT yields plasma and a red blood cell pellet. Plasma was purified with an additional spin (see Fig. 4a) then aliquoted. The pellet was frozen at -20C. c A spun SST yields serum and a red blood cell pellet. Serum was aliquoted and the pellet was frozen at -20C. d CPT plasma volumes per timepoint are reported. e cfDNA (Streck) BCT plasma volumes per timepoint. f SST serum volumes per timepoint. An extra tube was drawn for C004 at R + 45, resulting in a higher serum yield.</figDesc><graphic coords="6,85.81,83.90,443.80,420.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 7 |</head><label>7</label><figDesc>Fig. 7 | Urine and Stool Sample Collections. a Urine volumes per timepoint. Volumes are reported for both crude urine and urine preserved with Zymo urine conditioning buffer (UCB). b Timepoints that stool tubes were collected. "Gut" tubes are OMNIgene•GUT tubes for microbiome preservation. "Met" tubes are OMNImet•GUT tubes for metabolome preservation. c Stool "Gut" tube DNA and RNA extraction quantities.</figDesc><graphic coords="8,98.08,58.46,439.48,316.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. |</head><label>|</label><figDesc>Fig. | Skin Collection Locations and Sample Types. a Dry swabs were collected from two body locations. b Wet swabs were collected from eight body locations. c Swabs were collected from the deltoid region. Immediately after, 3-or 4-mm skin biopsies were collected from the same area and divided for histology and spatially resolved transcriptomics.</figDesc><graphic coords="9,83.92,52.04,455.29,322.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 9 |</head><label>9</label><figDesc>Fig. 9 | Capsule Swab Locations. a Swab locations, descriptions, and label IDs. b Interior view of the SpaceX Dragon capsule. c View of the control panel located above the middle seats in the Dragon capsule. d View of the cupola (viewing dome) region from the outside. The rim of the dome was swabbed from the inside (ID 10).</figDesc><graphic coords="10,123.94,66.56,355.72,349.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="7,145.78,83.45,312.28,197.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="7,86.56,359.60,439.72,350.92" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Nature Communications | (2024) 15:4964</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank the <rs type="institution">Scientific Computing Unit (SCU)</rs> at WCM and the Genomics, Epigenomics, and <rs type="institution">Biorepository Cores</rs>. CEM thanks the <rs type="funder">NIH</rs> We thank <rs type="person">JJ Hastings</rs> for protocol work. JK thanks <rs type="funder">MOGAM Science Foundation</rs> and was supported by the <rs type="programName">Basic Science Research Program</rs> through the <rs type="funder">National Research Foundation of Korea (NRF)</rs> funded by the <rs type="funder">Ministry of Education</rs> (<rs type="grantNumber">RS-2023-00241586</rs>). JK acknowledges <rs type="funder">Boryung</rs> for their financial support and research enhancement ground, provided through their <rs type="funder">Global Space Healthcare Initiative, Humans In Space</rs>, including mentorship and access to relevant expert networks. We also thank <rs type="person">Jennifer Conrad</rs> for CPT photography.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_3vuYBFy">
+					<orgName type="program" subtype="full">Basic Science Research Program</orgName>
+				</org>
+				<org type="funding" xml:id="_N7hqbtN">
+					<idno type="grant-number">RS-2023-00241586</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>Images of the Inspiration4 and Dragon Capsule are available from the SpaceX Flickr Account (<ref type="url" target="https://www.flickr.com/people/spacex/">https://www.flickr.com/people/spacex/</ref>). This was the source image data used to label the Dragon swab location in Fig. <ref type="figure">9</ref>.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Manuscript preparation</head><p>Figures 1c, 2c, 3, 5a, 8 were created with BioRender.com released under a 'Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International license'. Plots generated in R using ggplot2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reporting summary</head><p>Further information on research design is available in the Nature Portfolio Reporting Summary linked to this article. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>CEM is co-Founder of Cosmica Biosciences. BTT is compensated for consulting with Seed Health and Enzymetrics Biosciences on microbiome study design and holds an ownership stake in the former. CMS, JCS, and MAS hold shares in Sovaris Holdings, LLC. MY is the founder and president of CanTraCer Biosciences Inc. Authors not listed here do not have competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head><p>Supplementary information The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1038/s41467-024-48806-z">https://doi.org/10.1038/s41467-024-48806-z</ref>.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">was a record year for space launches</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Witze</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">613</biblScope>
+			<biblScope unit="page">426</biblScope>
+			<date type="published" when="2022">2022. 2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Fundamental Biological Features of Spaceflight: Advancing the Field to Enable Deep-Space Exploration</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Afshinnekoo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="1162" to="1184" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Effects of Spaceflight on Musculoskeletal Health: A Systematic Review and Meta-analysis, Considerations for Interplanetary Travel</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Comfort</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="2097" to="2114" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Longterm spaceflight and the cardiovascular system</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Vernice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meydan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Afshinnekoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Precis Clin. Med</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="284" to="291" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Spaceflight associated neuro-ocular syndrome (SANS) and the neuro-ophthalmologic effects of microgravity: a review and an update</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">7</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Space motion sickness: A common neurovestibular dysfunction in microgravity</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Russomano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Da Rosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Dos Santos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurol. India</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="214" to="S218" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Challenges to the Vestibular System in Space: How the Brain Responds and Adapts to Microgravity</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Carriot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mackrous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Cullen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Neural Circuits</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">760313</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Immune system dysregulation following short-vs long-duration spaceflight</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Crucian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Stowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Sams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aviat. Space Environ. Med</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="835" to="843" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Carcinogenesis induced by space radiation: A systematic review</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neoplasia</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">100828</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Alterations in Saliva and Plasma Cytokine Concentrations During Long-Duration Spaceflight</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Krieger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">725748</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Multi-omic, Single-Cell, and Biochemical Profiles of Astronauts Guide Pharmacological Strategies for Returning to Gravity</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Gertz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">108429</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Low urinary albumin excretion in astronauts during space missions</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cirillo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nephron Physiol</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="102" to="105" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Hemolysis contributes to anemia during long-duration space flight</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Trudel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shahin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ramsay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Laneuville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Louati</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Med</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="59" to="62" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Retrospective analysis of somatic mutations and clonal hematopoiesis in astronauts</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brojakowska</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Commun. Biol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">828</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Clonal hematopoiesis before, during, and after human spaceflight</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mencia-Trinchant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page">108740</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Telomere Length Dynamics and DNA Damage Responses Associated with Long-Duration Spaceflight</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Luxton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">108457</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Garrett-Bakelman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">364</biblScope>
+			<biblScope unit="page">8650</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Circulating miRNA Spaceflight Signature Reveals Targets for Countermeasure Development</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Malkani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">108448</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The use of the multidimensional protein identification technology (MudPIT) to analyze plasma proteome of astronauts collected before, during, and after spaceflights</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Makedonas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Crucian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Peanlikhit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rithidech</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Astronaut</title>
+		<imprint>
+			<biblScope unit="volume">193</biblScope>
+			<biblScope unit="page" from="9" to="19" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Protein expression changes caused by spaceflight as measured for 18 Russian cosmonauts</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Larina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">8142</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Microbial Tracking-2, a metagenomics analysis of bacteria and fungi onboard the International Space Station</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urbaniak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">100</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Whole metagenome profiles of particulates collected from the International Space Station</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Be</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">81</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Astronauts have conducted nearly 3,000 science experiments aboard the ISS</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Witze</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/d41586-020-03085-8</idno>
+		<ptr target="https://doi.org/10.1038/d41586-020-03085-8" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The influence of spaceflight on the astronaut salivary microbiome and the search for a microbiome biomarker for viral reactivation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urbaniak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">56</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Emerging Role of Exosomal Long Non-coding RNAs in Spaceflight-Associated Risks in Astronauts</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bisserier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Genet</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">812188</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Spaceflight-Associated Changes of snoRNAs in Peripheral Blood Mononuclear Cells and Plasma Exosomes-A Pilot Study</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Rai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Cardiovasc. Med</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">886689</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Spaceflight modulates gene expression in the whole blood of astronauts</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Barrila</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">16039</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Alterations in hematologic indices during longduration spaceflight</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kunz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Hematol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">12</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Plasma Cytokine Concentrations Indicate That In Vivo Hormonal Regulation of Immunity Is Altered During Long-Duration Spaceflight</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Crucian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Interferon Cytokine Res</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="778" to="786" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Space flight associated changes in astronauts&apos; plasma-derived small extracellular vesicle microRNA: Biomarker identification</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Goukassian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Arakelyan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clinical</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">845</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The Effects of Spaceflight Factors on the Human Plasma Proteome, Including Both Real Space Missions and Ground-Based Experiments</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Brzhozovskiy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">3194</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The molecular mechanisms driving physiological changes after long duration space flights revealed by quantitative analysis of human blood proteins</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Kashirina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med. Genom</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">45</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Changes in the plasma protein composition in cosmonauts after space flight and its significance for endothelial functions</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Kashirina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Pastushkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Percy</surname></persName>
+		</author>
+		<idno type="DOI">10.1134/S0362119719010092</idno>
+		<ptr target="https://doi.org/10.1134/S0362119719010092" />
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Physiol</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Alterations in adaptive immunity persist during long-duration spaceflight</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Crucian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">15013</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Longitudinal metabolomic profiles reveal sexspecific adjustments to long-duration spaceflight and return to Earth</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Stroud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Mol. Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page">578</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Natriuretic Peptide Resetting in Astronauts</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Frings-Meuthen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="1593" to="1595" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">NK cell function is impaired during long-duration spaceflight</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Bigley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="842" to="853" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Immune system dysregulation occurs during short duration spaceflight on board the space shuttle</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Crucian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="456" to="465" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">B cell homeostasis is maintained during longduration spaceflight</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Spielmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="469" to="476" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Cell-Free Mitochondrial DNA as a Potential Biomarker for Astronauts</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bisserier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health J. Am. Heart Assoc</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">22055</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Cell-free DNA (cfDNA) and Exosome Profiling from a Year-Long Human Spaceflight Reveals Circulating Biomarkers</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bezdan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">iScience</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">101844</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The NASA Twins Study: The Effect of One Year in Space on Long-Chain Fatty Acid Desaturases and Elongases</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meydan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Afshinnekoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lifestyle Genom</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="107" to="121" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Multiple latent viruses reactivate in astronauts during Space Shuttle missions</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Mehta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Behav. Immun</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="210" to="217" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Stress Related Shift Toward Inflammaging in Cosmonauts After Long-Duration Space Flight</title>
+		<author>
+			<persName><forename type="first">J.-I</forename><surname>Buchheim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">85</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Increased core body temperature in astronauts during long-duration space missions</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Stahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">16180</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Salivary antimicrobial proteins and stress biomarkers are elevated during a 6-month mission to the International Space Station</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Agha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="264" to="275" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Dermatitis during Spaceflight Associated with HSV-1 Reactivation</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Mehta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Viruses</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">789</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Decreases in thymopoiesis of astronauts returning from space flight</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Benjamin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JCI Insight</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">88787</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Arterial structure and function during and after long-duration spaceflight</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M C</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="108" to="123" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Iron status and its relations with oxidative damage and bone loss during long-duration space flight on the International Space Station</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Zwart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L L</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Clin. Nutr</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="217" to="223" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Magnesium and Space Flight</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Zwart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="10209" to="10222" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Comprehensive Multi-omics Analysis Reveals Mitochondrial Stress as a Central Biological Hub for Spaceflight Impact</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Da Silveira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">Elevation of gut-derived p-cresol during spaceflight and its effect on drug metabolism and performance in astronauts</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meydan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Afshinnekoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/2020.11.10.374645</idno>
+		<ptr target="https://doi.org/10.1101/2020.11.10.374645" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Men and Women in Space: Bone Loss and Kidney Stone Risk After Long-Duration Spaceflight</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bone Miner. Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1639" to="1645" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Bone metabolism and renal stone risk during International Space Station missions</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bone</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="712" to="720" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Dietary acid load and bone turnover during longduration spaceflight and bed rest</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Zwart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Clin. Nutr</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="834" to="844" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Temporal Telomere and DNA Damage Responses in the Space Radiation Environment</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Luxton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">108435</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Pre-flight exercise and bone metabolism predict unloading-induced bone loss due to spaceflight</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gabel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br. J. Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="196" to="203" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Space Station conditions are selective but do not alter microbial characteristics relevant to human health</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mora</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">3990</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Investigation of Spaceflight Induced Changes to Astronaut Microbiomes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Morrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">659179</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Crewmember microbiome may influence microbial composition of ISS habitable surfaces</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Avila-Herrera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">231838</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Study of the impact of long-duration space missions at the International Space Station on the astronaut microbiome</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Voorhies</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">9911</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Impact of space flight on bacterial virulence and antibiotic susceptibility</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Drug Resist</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="249" to="262" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Incidence of clinical symptoms during longduration orbital spaceflight</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Crucian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Gen. Med</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="383" to="391" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Microbe-I: fungal biota analyses of the Japanese experimental module KIBO of the International Space Station before launch and after being in orbit for about 460 days</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Satoh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="823" to="829" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Methylobacterium ajmalii sp. nov., Isolated From the International Space Station</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bijlani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">639396</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Evaluating the effect of spaceflight on the hostpathogen interaction between human intestinal epithelial cells and Salmonella Typhimurium</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Barrila</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Preanalytical variables affecting the integrity of human biospecimens in biobanking</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ellervik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vaught</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Chem</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="914" to="934" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Metabolomics enables precision medicine: &apos;A White Paper, Community Perspective</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Beger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metabolomics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">149</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Why Personalized Medicine Is the Frontier of Medicine and Performance for Humans in Space</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Hubbard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N. Space</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="63" to="76" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Statistical strategies for avoiding false discoveries in metabolomics and related experiments</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Broadhurst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Kell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metabolomics</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="171" to="196" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">State of the Field in Multi-Omics Research: From Computational Needs to Data Mining and Sharing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krassowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Sahu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Misra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Genet</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">610798</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Preanalytical processing and biobanking procedures of biological samples for metabolomics research: A white paper, community perspective (for &quot;Precision Medicine and Pharmacometabolomics Task Group&quot;-The Metabolomics Society Initiative)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Kirwan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Brennan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Broadhurst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Fiehn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Chem</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="1158" to="1182" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<monogr>
+		<title level="m" type="main">The Space Omics and Medical Atlas (SOMA): A comprehensive data resource and biobank for astronauts</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Overbey</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The SpaceX Inspiration4 mission reveals inflight molecular and physiological metrics from an all-civilian crew</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note>In press</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Single-cell multi-ome and immune profiles of the Inspiration4 crew reveal conserved, cell-type, and sex-specific responses to spaceflight</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-024-49211-2</idno>
+		<ptr target="https://doi.org/10.1038/s41467-024-49211-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<monogr>
+		<title level="m" type="main">Longitudinal multi-omics analysis of host microbiome architecture and immune responses during short-term spaceflight</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tierney</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41564-024-01635-8</idno>
+		<ptr target="https://doi.org/10.1038/s41564-024-01635-8" />
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Spatial multi-omics of human skin reveals KRAS and inflammatory responses to spaceflight</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-024-48625-2</idno>
+		<ptr target="https://doi.org/10.1038/s41467-024-48625-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Direct RNA sequencing of astronauts reveals spaceflight-associated epitranscriptome changes and stressrelated transcriptional responses</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Grigorev</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-024-48929-3</idno>
+		<ptr target="https://doi.org/10.1038/s41467-024-48929-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Secretome profiling captures acute changes in oxidative stress, brain homeostasis and coagulation from spaceflight</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Houerbi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-024-48841-w</idno>
+		<ptr target="https://doi.org/10.1038/s41467-024-48841-w." />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Protective alleles and precision healthcare in crewed spaceflight</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rutter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note>In press</note>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Astronaut omics and the impact of space on the human body at scale</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rutter</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-024-47237-0</idno>
+		<ptr target="https://doi.org/10.1038/s41467-024-47237-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">A Second Space Age: Omics, Platforms, and Medicine Across Orbits</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-024-07586-8</idno>
+		<ptr target="https://doi.org/10.1038/s41586-024-07586-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">and the WorldQuant the GI Research Foundation (GIRF), the Radvinsky/Chudnovsky family</title>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+		<idno>80NSSC23K0832</idno>
+	</analytic>
+	<monogr>
+		<title level="m">NASA (NNX14AH50G, NNX17AB26G, 80NSSC22K0254, NNH18ZTT001N-FG2, 80NSSC23K0832), the LLS (MCL7001-18, LLS 9238-16</title>
+		<imprint>
+			<date>01</date>
+			<biblScope unit="page" from="7029" to="7052" />
+		</imprint>
+	</monogr>
+	<note>as well as Igor Tulchinsky R01ES032638 EGO thanks NASA BPS</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

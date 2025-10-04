@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Expressing and Characterizing Mechanosensitive Channels in Xenopus Oocytes</title>
+				<funder ref="#_uvnyPnv">
+					<orgName type="full">American Recovery and Reinvestment Act</orgName>
+					<orgName type="abbreviated">ARRA</orgName>
+				</funder>
+				<funder ref="#_HJJWKjm">
+					<orgName type="full">National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Institute of General Medical Sciences, National Institutes of Health</orgName>
+				</funder>
+				<funder ref="#_c9bAKJv">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer New York</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-01-01">2016 January 01.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Grigory</forename><surname>Maksaev</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">Washington University in Saint Louis</orgName>
+								<address>
+									<addrLine>One Brookings Drive Mail Code 1137</addrLine>
+									<postCode>63130</postCode>
+									<settlement>Saint Louis</settlement>
+									<region>MO</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elizabeth</forename><forename type="middle">S</forename><surname>Haswell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">Washington University in Saint Louis</orgName>
+								<address>
+									<addrLine>One Brookings Drive Mail Code 1137</addrLine>
+									<postCode>63130</postCode>
+									<settlement>Saint Louis</settlement>
+									<region>MO</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Expressing and Characterizing Mechanosensitive Channels in Xenopus Oocytes</title>
+					</analytic>
+					<monogr>
+						<title level="m">Methods in Molecular Biology</title>
+						<idno type="ISSN">1064-3745</idno>
+						<idno type="eISSN">1940-6029</idno>
+						<imprint>
+							<publisher>Springer New York</publisher>
+							<biblScope unit="page" from="151" to="169"/>
+							<date type="published" when="2016-01-01">2016 January 01.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B368EAF105070BE4FA8F1939DB7EB358</idno>
+					<idno type="DOI">10.1007/978-1-4939-2697-8_13</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Mechanosensitive ion channel</term>
+					<term>Heterologous expression</term>
+					<term>Xenopus laevis oocytes</term>
+					<term>Patch-clamp electrophysiology</term>
+					<term>Pressure-clamp</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The oocytes of the African clawed frog (Xenopus laevis) comprise one of the most widely used membrane protein expression systems. While frequently used for studies of transporters and ion channels, the application of this system to the study of mechanosensitive ion channels has been overlooked, perhaps due to a relative abundance of native expression systems. Recent advances, however, have illustrated the advantages of the oocyte system for studying plant and bacterial mechanosensitive channels. Here we describe in detail the methods used for heterologous expression and characterization of bacterial and plant mechanosensitive channels in Xenopus oocytes.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>Oocytes of the African clawed frog (Xenopus laevis) have been used for several decades for the expression of transporters and receptors from bacteria <ref type="bibr" target="#b11">[1]</ref>, plants <ref type="bibr" target="#b12">[2,</ref><ref type="bibr">3]</ref>, and mammals <ref type="bibr">[4]</ref><ref type="bibr">[5]</ref><ref type="bibr">[6]</ref> due to the simplicity and reliability of this experimental system <ref type="bibr">[7]</ref>. Relatively low background ion channel activity <ref type="bibr">[8]</ref>, large size (1-1.5 mm), low cost, and ease of handling make these cells a favored system for the expression of human, plant and bacterial channels. Xenopus oocytes have also been used as a model system for the study of processes unrelated to ion transport such as apoptosis <ref type="bibr">[9,</ref><ref type="bibr" target="#b20">10]</ref>, gene expression <ref type="bibr" target="#b21">[11]</ref>, the structure and function of the nuclear envelope <ref type="bibr" target="#b22">[12]</ref> and many others <ref type="bibr" target="#b23">[13]</ref>.</p><p>4. Patch-clamp rig: amplifier (Axopatch 200B, Molecular Devices), digitizer (Digidata 1440A, Molecular Devices), micromanipulator (Patchstar, Scientifica) and (preferably inverted) microscope with 20× lens (see Figs. <ref type="figure">3a</ref> and <ref type="figure">4</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.</head><p>Pressure-clamp machine (ALA Scientific Instruments HSPC-1) (see Note 2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>6.</head><p>Anti-vibration table (Technical Manufacturing Corporation, system 63-533) with a Faraday cage.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>7.</head><p>Noise filter/surge suppressor (Isobar 12 Ultra, Tripp-Lite).</p><p>8. Pipette puller (P97, Sutter Instrument Co).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>9.</head><p>Capillary glass for a patch-pipette. We use a 1.5 mm inner diameter, 1.8 mm outer diameter, 100 mm long borosilicate pipette (see Note 3).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Methods</head><p>Surgery is not performed until cRNA has been made and quantified (see <ref type="bibr">Subheading 3.3)</ref>. This prevents unnecessary surgeries. The surgery and oocyte isolation occur on the same day and injections are done the following day. Our protocol for surgery and oocyte isolation is based on <ref type="bibr" target="#b45">[34]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Frog Surgery</head><p>1. Immerse a frog in the MS-222/NaHCO 3 solution for 10-15 min, until she does not respond to pinching of the skin between the toes. 13 min is optimal in our hands.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.</head><p>Rinse the frog with pretreated animal facility water to remove the anesthetic from its skin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.</head><p>Put the frog on a wet paper towel and perform the surgery with sterile instruments, on a benchtop sterilized by spraying with 70 % ethanol, using sterile gloves. Keep the frog moist with sterile ND96 solution (see Note 4).</p><p>4. Make a small incision through the skin of the abdomen, using sharp scissors, followed by an incision of about 1 cm in the muscle layer. Rinse with ND96. (If the skin is slippery, grasp it with two fingers through a piece of clean paper towel). Place a sheet of Parafilm with a square cut in the middle over the incision, so that oocytes extracted from the abdomen will not come in contact with the surface of the frog's skin.</p><p>2 The advantage of using a pressure clamp machine is that it can be easily integrated into patch-clamp software (such as Clampex, Molecular Devices) and programmed to produce pressure signals of nearly any shape and length that can be synchronized with the applied voltage. Pressure could be also applied to the patch-pipette manually using a syringe. Pressure in this case may be measured using a manometer. 3 Pipettes should be made of alumosilicate or borosilicate glass. Pipettes with thicker walls made of harder glass usually produce lower noise. Additionally, the noise introduced by interactions at the glass-air-water interface could be decreased by coating the pipette tip with a silicone polymer. To do so, place a thin layer of Sylgard (Dow) on the pipette and induce polymerization with a stream of hot air or by contact with a heated metal coil. Capillaries containing an additional thin filament designed to facilitate filling with buffer are not recommended, as they typically result in higher noise levels and "patch creep" (upward movement of the membrane patch within the pipette tip) under applied pressure. <ref type="bibr">4</ref> One may also perform surgery on ice to enhance the anesthetic. Soaking a paper towel in anesthetic solution is not necessary and usually results in longer frog recovery time, but may be recommended for a beginner. Typically the surgery takes 15-20 min, from making the first incision to completed stitching.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.</head><p>Pull 2-4 ml of oocytes out of the body cavity with dull forceps and place in 25 ml of ND96 in a 50 ml conical tube.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>6.</head><p>Repair the incision with two sets of sutures, one for the muscle tissue (undyed) and one for skin (black). Each stitch is made with two loops of single knots and a third loop of double knots (three stitches) per 1-1.5 cm incision. The last knot should be pulled tight, and the ends trimmed closely.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>7.</head><p>Wash the frog with 0.5 L of clean water taken from the facility in order to get rid of any blood and anesthetic on her skin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>8.</head><p>Allow the frog to recover in 0.5 L of Pen Strep solution (5 ml of 100× Pen Strep stock in 0.5 L of treated water from the frog facility) for 40-60 min. Tilt the plastic bath 45° from the vertical so that most of the frog's body is submerged in the buffer. Care must be taken that the frog does not drown (keep her nostrils above the water level) but her skin stays wet. When she starts to move in response to pinching, she's almost recovered. Once the frog recovers, return her to a clean cage with fresh water.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>9.</head><p>Depending on institutional rules, a frog could be operated on up to 5 times, with the last operation terminal. The operations should be 4-6 weeks apart and alternating sides of the abdomen used. After the last operation the frog may be euthanized according to the rules of your institution (see Note 5).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Oocyte Isolation</head><p>1. Separate the ovarian tissue into clumps of 10-20 oocytes each in a petri dish, using forceps and working under a stereomicroscope. Transfer the clumps into Ca 2+ -free ND96. Try to avoid damage to the oocytes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.</head><p>Incubate the oocytes in a petri dish with slow shaking for 25-40 min at room temperature in 20 ml of Ca 2+ -free ND96 with collagenase. Ca 2+ -free medium is used to slow down the collagenase reaction as Ca 2+ strongly activates collagenase <ref type="bibr" target="#b47">[35]</ref>. Stop the process as soon as single oocytes are released.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.</head><p>Wash the oocytes 5 times with 25 ml ND96 + 0.1 % BSA in a 50 ml conical tube.</p><p>4. Add 25 ml 0.1 M potassium phosphate pH 6.5 buffer and incubate for 40-50 min on a slow shaker. At 15-min intervals, draw the oocytes into a wide-bore plastic pipette (made by trimming the tip) and pipette up and down to facilitate dispersal.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.</head><p>Wash the oocytes 5 times with 25 ml ND96 + 0.1 % BSA in a 50 ml conical tube.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>6.</head><p>Sort the oocytes in a petri dish under the microscope, selecting only mature oocytes (Dumont stage V-VI, <ref type="bibr" target="#b48">[36]</ref>) with clear animal-vegetal pole divisions and without any spots, markings or residual ovarian tissue on the surface. Manipulate single oocytes with plastic transfer pipettes (see Subheading 2). Store the selected oocytes in complete ND96 with 50 mg/ml gentamycin at 16-18°C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">RNA Preparation</head><p>The sequence of the RNA of interest should first be cloned into an expression vector appropriate for cRNA production and its translation in oocytes. We use pOO2, a vector that allows cloning of a cDNA in between the 5′-and 3′-untranslated β-globin sequences from Xenopus <ref type="bibr" target="#b49">[37]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1.</head><p>Linearize approximately 5 μg of template DNA in a 70 μl reaction. Use a restriction enzyme that recognizes a single site in the vector downstream of the sequence to be transcribed (see Note 6).</p><p>2. Run 4 μl of the sample on a gel to ensure linearity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.</head><p>Add 5 μl 0.5 M EDTA, 4 μl 5 M NaCl, 25 μl RNase-free water and mix well.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4.</head><p>Add 200 μl 100 % ethanol.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.</head><p>Mix well and place at -20°C for at least 20 min.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>6.</head><p>Spin for 15 min on a benchtop centrifuge at top speed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>7.</head><p>Carefully remove supernatant and dry the pellet.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>8.</head><p>Resuspend the pellet in 25 μl RNase-free water and calculate the concentration of DNA by measuring the OD 260 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>9.</head><p>Follow the protocol supplied with Ambion mMessage mMachine kit to produce the cRNA of interest (see <ref type="bibr">Note 7)</ref>.</p><p>10. Aliquot the cRNA solution (it should be approximately 1 μg/μl) into 3 μl aliquots and store at -20°C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">Oocyte Injection</head><p>1. Place 10-40 oocytes into a gridded petri dish (see Fig. <ref type="figure" target="#fig_0">1</ref>) filled with complete ND96. Place each oocyte into a square of the plastic grid with the light side (vegetal pole) up.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.</head><p>Thaw RNase-free water and cRNA on ice.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.</head><p>Pull long needles from 8 in. capillary glass on a puller. For a Sutter P-97 the following program may be a good starting point: heat = 560, pull = none, velocity = 120, time = 100. Trim the end of each needle with scissors 5-6 mm before the point where the pulled portion of the pipette becomes flexible.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4.</head><p>Backfill the needle with 13-15 μl of mineral oil using a micropipette, then apply the needle to the pipette or injector apparatus. Make sure there are no bubbles in the oil, then pull approximately 500 nl of RNase-free water into the tip from a drop placed on a petri dish, followed by all 3 μl of your cRNA sample (see Note 8).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.</head><p>Using a microinjector or a micropipette attached to the glass needle (see Fig. <ref type="figure" target="#fig_1">2</ref>), inject 50 nl of the cRNA solution into each oocyte, preferably into the light side and close to the animal/vegetative border (see Note 9).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>6.</head><p>Repeat steps 4 and 5 above with fresh oocytes and RNase-free water as a negative control.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>7.</head><p>Place the oocytes into a 6-well plate filled with complete ND96 with gentamycin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>8.</head><p>Change the solution and remove defective oocytes on a daily basis until analysis (see Notes 10 and<ref type="foot" target="#foot_8">foot_8</ref> ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">Patch-Clamp</head><p>The microscope stage setup, including a dish with bath medium, command and ground electrodes, patch pipette and a pressure clamp headstage, is presented in Figs. 3a (schematic view) and 4 (actual setup).</p><p>1. Conventional single-channel patch-clamp is carried out using pipettes with BN ("bubble number", see ref. <ref type="bibr" target="#b50">38</ref>) of 4-7 in symmetric and asymmetric buffers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.</head><p>Prior to patching, the transparent vitelline membrane of each oocyte should be removed with a pair of sharp forceps after 5-10 min incubation in hypertonic buffer, which makes the cell shrink and the vitelline membrane more visible (see <ref type="bibr">Note 12)</ref>. After removal of the vitelline membrane, the oocyte becomes very fragile, so it should not be exposed to the surface of the buffer and care should be taken when moving it. We suggest removing the vitelline membrane in the petri dish to be used for patch-clamp, already filled with patching bath buffer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.</head><p>A patch-pipette should be fabricated using a pipette puller (see appropriate manual for measuring glass melting temperature and initial proxy settings that can be adjusted to get the pipette of desired size and shape). Typically, a pipette with tip size between 0.5 and 2 µm is required, which corresponds to BN 4-6 and a resistance of several MΩ, depending on the tips' length and geometry.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4.</head><p>The command (or pipette) electrode is a small piece of Ag wire that has been chlorinated either by immersion into 6 % bleach for 15-25 min or by subjecting it to proper potential in KCl buffer <ref type="bibr" target="#b51">[ 39 ]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.</head><p>The ground electrode is an Ag/AgCl pellet, connected to the ground input of the amplifier's headstage through the common ground (such as a Faraday cage or antivibration table) via Ag wire (see Note 13, Figs. <ref type="figure">3a</ref> and <ref type="figure">4</ref>). It does not matter where the electrode is grounded, only that everything metal be grounded at a single common point, with a stable electrical contact between the wires and grounding point. This can be tested with a standard multimeter. The ground electrode could be immersed into the bath solution directly or via an agar salt bridge (see <ref type="bibr">Note 14)</ref>.</p><p>The Ag/AgCl pellet should be washed with distilled water after experiments are completed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>6.</head><p>Back-fill the patch-pipette with buffer, making sure it is free of air bubbles. If bubbles form, they can sometimes be eliminated by tapping the pipette. Bubbles can be prevented in the first place by pulling some buffer into the empty pipette with a syringe before back-filling the rest of the pipette.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>7.</head><p>Before and during immersion of the pipette into the bath buffer, a positive pressure of 20-30 mmHg should be applied to it. After the pipette tip is immersed, the pressure may be lowered to 5-10 mmHg (see Note 15).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>8.</head><p>Bring the pipette tip close to the oocyte membrane. The state of the pipette tip should be monitored by periodic application of low amplitude square voltage pulses of approximately 5 mV to the command electrode. In Axopatch amplifiers, use the "seal test mode", where steps are gated by the amplifier's internal line frequency oscillator. If the tip resistance grows (the current decreases) before the tip touches the oocyte membrane, replace the pipette, as its tip is likely obstructed with debris.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>9.</head><p>The moment of touching the oocyte membrane is observed electrically as a decrease of the measured current. When it decreases to 2/3-1/2 of its initial value, stop pipette motion and immediately decrease the pressure in the pipette from slightly positive to about -10 mmHg.</p><p>13 It is important that the anti-vibration table, Faraday cage, and microscope with its stage all be in good electric contact, which insures the absence of electric interference from external sources. Our recommendation is to physically connect all pieces with metal wires, preferably in a single place (see Fig. <ref type="figure">4</ref>). Noise levels may be monitored visually with a command electrode attached to the amplifier's headstage via acquisition software; noise should be at least 2-3 times lower than the expected signal from a single channel opening (see patch-clamp amplifier manual for typical acceptable noise levels). Induced low-frequency modulations (50 or 60 Hz) are typically caused by loopbacks and can be eliminated by connecting all power cables to the same noise filter/surge suppressor. In many cases, noise can be reduced with acquisition software suites such as Clampfit (Molecular Devices). However, these approaches may result in partial data loss, and it is preferable to make the initial recording with minimal noise. Note that any additional equipment (such as peristaltic pumps for a perfusion system, manipulators, etc.) most likely will require grounding too. A detailed step-by-step procedure for testing the amplifier's internal noise is usually described in the user manual and should be performed at least once during the initial amplifier setup. It is recommended to repeat this test from time to time during standard use. 14 An agar bridge is an L-shaped glass capillary (the same diameter as used for patch-pipettes and bent in the flame of a gas burner) filled with 2-3 % agar in a 1 M KCl solution <ref type="bibr" target="#b53">[41]</ref>. A heated agar solution is sucked into the capillary and then left to cool. The agar salt bridge should be rinsed with water and kept in salt solution in a fridge as it subject to bacterial invasion. If any signs of bacterial growth are detected, the bridge should be discarded and a new one made. 15 It is also often recommended that during immersion of the tip into the buffer, a stream of air should be applied to the buffer surface by blowing on it. This is intended to move away any debris and fragments of lipid monolayers from the water-air interface.</p><p>10. Observe the gradual formation of the "gigaseal" between the membrane and the pipette as the resistance of the pipettemembrane contact increases to 1 GΩ or more (see <ref type="bibr">Note 16)</ref>. After a gigaseal is reached you have obtained the cell-attached configuration (see <ref type="bibr">Note 17)</ref>. Next, bring the pipette pressure to between -1 and -3 mm Hg.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>11.</head><p>Excise the patch by rapid removal of the pipette away from the oocyte membrane. If the patch is not stable, this may result in patch rupture. Alternatively a membrane vesicle may form in the pipette tip and block it (usually when the pipette is not moved away from the cell quickly enough, see Note 18).</p><p>12. Once the patch is in the "excised" (in this particular case, "inside-out") patch configuration (see Notes 19 and 20 and Fig. <ref type="figure">3b</ref>), one can proceed to stimulation of MSCs. We recommend using a fixed transmembrane voltage of -20 to -40 mV and applying triangular 4-or 5-second-long symmetric ramps of negative pressure to the patch pipette, allowing for the gradual opening and closing of individual MSCs (see <ref type="bibr">Note 21)</ref>. A typical trace obtained from the membrane patch of an oocyte expressing MSL10 from A. thaliana <ref type="bibr" target="#b28">[18]</ref> is presented in Fig. <ref type="figure">3c</ref> for reference.</p><p>13. Once a tension-induced channel activity is detected and recorded, be sure to repeat patch excision and current measurement on water-injected oocytes to ensure the absence of artifacts or unusually high endogenous channel activity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>14.</head><p>We have observed that the localization of the channel usually is not uniform within the oocyte membrane and several patches from the same cell may be necessary to locate channel activity, especially if a small pipette diameter is used.</p><p>15. In our hands, the endogenous cation-selective MSCs that are often observed in the cell-attached configuration inactivate upon patch excision, especially in the presence of elevated MgCl 2 or in TEA-Cl buffer (see Notes 22-24 ).</p><p>16 If this does not happen in a reasonable period of time (30-60 s) or at least a slow but steady growth of patch resistance is not observed, additional suction may be applied to the pipette (usually -20 to -50 mmHg), but it should not be very high as high suction may result in patch rupture (or inactivation for some kinds of MSCs). Additionally, a slightly negative potential (-10 to -20 mV) may be applied to the command electrode to facilitate "sealing" of the patch. 17 At this point, it is already possible to carry out measurements of currents in response to increased membrane tension. However, to remove the complicating contributions of the cell's resting potential, series resistance, and endogenous MSCs we recommend proceeding to the excised patch configuration for further measurements. <ref type="bibr" target="#b28">18</ref> The production of such a vesicle typically can't be seen through the microscope (unless high magnification and DIC are used), but its formation results in a drop in current in response to high command potentials and the appearance of slow capacitive transient currents in response to voltage steps. Lifting the pipette tip into the air and then immediately immersing it into the bath buffer can disrupt the vesicle. If the vesicle collapses and the new seal is good, one can observe a slight increase of conductance. <ref type="bibr" target="#b29">19</ref> The inside-out excised patch preserves the orientation of the membrane leaflets-i.e., it is the same as it was in the moment the pipette touched the cell membrane. In certain cases the opposite orientation (when the outer leaflet of the patch faces the bath solution but not the inner volume of the pipette (outside-out configuration)) may be of interest. In order to achieve the outside-out configuration, one should obtain a proper gigaseal in the cell-attached mode and then rupture the patch with a short pulse of either high voltage or negative pressure, thus obtaining direct electric access to the inner volume of the cell (whole-cell mode). Rapid backward removal of the pipette from the cell in this case typically results in the production of a membrane patch in the outside-out configuration. Outside-out patches are often less stable than inside-out patches. 20 The whole-cell mode is not of particular interest for characterization of MSCs in ooctyes due to a very high level of noise (caused by a huge size of the oocyte membrane) and high probability of membrane rupture under applied tension. 21 Membrane tension for the patch in the pipette obeys the law of Laplas and therefore is proportional to transmembrane pressure and curvature radius of the membrane patch. Large patches formed in large pipettes require lower transmembrane pressure in order to be exposed to the same tension as small patches formed in small pipettes.</p><p>16. The rare appearance of an endogenous, large-conductance Ca 2+ -activated chloride channel (see ref. 8) should also be taken into account (see <ref type="bibr">Note 25)</ref>. However, it usually does not present a serious problem as long as small patch-pipettes are used, due to its relatively low expression.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>17.</head><p>A good starting point for recording settings would include the following: (1) acquisition at 20 kHz with the amplifier's low pass filter set to 5-10 kHz (depending on the available settings); (2) a 4-5 s pressure ramp of -20 to -80 mmHg (depending on the pipette size, see Note 26), which in most cases eliminates artifacts caused by a too rapid increase in tension; and (3) a holding potential of 20 mV to 40 mV (pipette voltage) for the inside-out configuration, which typically provides clean and artifact-free traces (see Notes 26 and 27 ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>18.</head><p>Once several channels are activated in the patch, one may study the channel's voltage dependence. To do so, repeat the measurement with the same transmembrane pressure but at various potentials (see <ref type="bibr">Note 28)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>19.</head><p>Pressure may be gradually increased by increments of -10 to -40 mmHg in order to activate more channels in the patch and obtain a dose-response curve (see Note 29).</p><p>22 The amount of endogenous MSC activity present in oocytes varies depending on the batch of oocytes, the frog, and the season of the year. Some scientists report that the season with the highest background activity is summer. Endogenous cation-selective MSCs may be inhibited by high concentrations of Mg 2+ ions (see ref. <ref type="bibr" target="#b32">22)</ref> or very low concentrations of lanthanides (approximately 10 μM La 3+ or Gd 3+ ), strong blockers of calcium, potassium and many mechanosensitive channels (see ref. <ref type="bibr" target="#b31">21</ref>). However, it has been shown in the latter case that the inhibition of at least some non-selective MSCs (like MscS) by gadolinium is mediated by membrane lipids and may affect all MSCs at high enough levels <ref type="bibr" target="#b54">[42]</ref>. <ref type="bibr" target="#b34">24</ref> The formation of a seal between the membrane patch and the pipette occurs more slowly in TEA-Cl buffer. In order to facilitate the process, the concentration of MgCl 2 in the buffer may be increased up to 20 mM. <ref type="bibr" target="#b35">25</ref> If this problem persists, the Ca 2+ -activated chloride channel may be inhibited by exclusion of Ca 2+ ions from the buffer, or the addition of chelators or specific blocking agents. If the channels of interest are expected to be cation-selective (or, in some cases, nonselective) large non-permeant molecules such as 2-(N-morpholino)-ethanesulfonic acid (MES) could be used instead of chloride. 26 Membrane potential is defined as the potential of the inner monolayer minus the potential of the outer monolayer, so that the membrane potential of a live cell is negative. For an insideout patch, a positive command potential (i.e., the potential applied through the amplifier to the command electrode in the patch-pipette) corresponds to a negative membrane potential. In case of the outside-out configuration, when the orientation of the monolayers is reversed (i.e., the inside one faces patchpipette), a positive command potential corresponds to a positive membrane potential of the same amplitude. 27 Higher membrane potentials (up to-100 mV for oocytes) on the one hand often result in better signal to noise ratio, but on the other hand may induce the appearance of multiple subconducting states of the channel and always reduce membrane stability. Positive membrane potentials, though they almost never appear in live cells (with an obvious exception of excitable ones), are still of interest as they allow one to characterize a channel's behavior under asymmetric conditions and may provide information on its gating mechanism and even molecular structure. 28 This may be done either by changing the amplifier settings manually before each recording, or by using the software suite programming capabilities. In the latter case, the program will automatically execute several consecutive measurements with different settings (in this case-by changing command potential) and record the data for further analysis. Subsequently, the channel characteristics (such as its conductance) may be extracted from the data file using dedicated or third party software and plotted against membrane potential to produce a current/voltage (I/V)-curve. If the curve goes through zero point (i.e., zero current at zero potential but not zero in the vicinity of 0 mV), the channel is not clearly voltage-gated. Otherwise, the channel requires a certain voltage threshold to open and is, to some degree, voltage-gated. In cases where the I/V-curve is not linear, the channel is considered to be a rectifier, i.e., membrane potential modulates its conductance. 29 If the current saturates (does not increase with tension after certain tension value is reached) one may wish to evaluate the channel's midpoint pressure, the pressure at which a half of the channel population is open, or its threshold tension, the tension at which the very first channel of the population opens. These are distinctive features of a mechanosensitive channel and generally speaking, characterize its tension sensitivity. It should be noted though, that these are statistical values, and several measurements under the same conditions (including membrane patch size) must be carried out in order to obtain an average value and standard deviation. Of course, patches containing more channels produce more reliable values. In our hands, oocytes can survive pressures as high as -160 mmHg with pipettes with BN 4-5, which is enough to reach saturation for MscS <ref type="bibr" target="#b27">[17]</ref>. However, the oocyte membrane seems to be more fragile than the membranes of giant E. coli spheroplasts previously used for characterization of MscS <ref type="bibr" target="#b24">[14]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>20.</head><p>For additional recommendations on data collection and statistical analysis, see Notes 30 and 31 . Image of a custom-made gridded petri dish. Plastic mesh is glued to the bottom of a 35-mm dish. Each cell of the grid accommodates a single oocyte Setup for oocyte injection. A manually driven micropipettor (on the right) should be capable of reproducibly and accurately injecting 50 nl of solution into a single oocyte. Inset: RNAsefree water is sucked into the pipette from a drop in a petri dish Fig. 4.</p><p>Experimental setup, shown from two angles. The glass patch pipette (1) is located above the ground electrode (2) immersed into a petri dish filled with bath buffer (3). The microscope objective is located underneath. Also shown are the pressure-clamp headstage (4), the pipette holder (5), the common ground point ( <ref type="formula">6</ref>), and the inverted microscope condenser (7) </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1.</figDesc><graphic coords="14,192.00,62.00,288.00,266.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2.</figDesc><graphic coords="15,192.00,62.00,288.00,264.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .Fig. 4 .</head><label>34</label><figDesc>Fig. 3. Diagram of the experimental setup and typical results. (a) Schematic representation of the patch-clamp setup. (b) Illustration of a membrane patch with applied suction and a single MSC opening in response to increased membrane tension. (c) Representative trace showing five opening and closing MSL10 channels. A 50 mV command potential and a -120 mmHg symmetric pressure ramp were used. The trace was sampled at 20 kHz with a 5 kHz lowpass Bessel filter (Axopatch 200B), then filtered at 1 kHz and exported as graphics via Clampfit software (Molecular Devices)</figDesc><graphic coords="16,132.96,62.00,406.08,320.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5.A laser-scanning confocal micrograph of the fluorescent signal from the periphery of an oocyte RNA 7 days after injection with MscS-GFP cRNA. An oocyte in ND96 buffer was placed onto a glass slide with concaved bottom and covered with a coverslip. Under bright field the lens was focused on the edge of the oocyte, then the confocal scan with GFP filters (488/510 nm) setup was performed. Inset: oocyte image in bright field</figDesc><graphic coords="18,192.00,62.00,288.00,288.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="17,132.96,62.00,406.08,151.68" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Methods Mol Biol. Author manuscript; available in PMC 2016 January 01.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_1"><p>Pipettes at this step could be pulled over a standard gas burner.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5" xml:id="foot_2"><p>Euthanasia may be performed in 5 g/L solution of MS-222 for at least 15 min. Note, that your institution regulations may require much longer treatment (up to an hour).</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6" xml:id="foot_3"><p>Linearity is essential for transcription and any uncut vector will greatly reduce the amount of cRNA produced.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="7" xml:id="foot_4"><p>NTP/CAP and 10× reaction buffer should be mixed very well before use, and vortexing for over a minute is recommended. At this stage, RNase-free technique should be used: use only RNase-free certified tubes, wipe working surfaces with alcohol or RNase removing solutions, minimize contact of gloves with any objects apart from the tubes of the kit and cover the working space with paper towel when not in use.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="8" xml:id="foot_5"><p>Care should be taken that the mineral oil does not directly contact the cRNA solution and is not injected into oocytes. To ensure this, approximately 500 nl of water should be pulled into the pipette tip prior to the cRNA solution.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9" xml:id="foot_6"><p>We have not observed a substantial difference in expression level depending on the location of cRNA injection. However, we do observe a higher number of channels per patch at the vegetal pole (light half).</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10" xml:id="foot_7"><p>Analysis can take place as early as 24 h and as late as 14 (up to 21 in rare cases) days after injection. Dead or damaged oocytes release substances that appear to damage the remaining healthy cells, so it may be useful to split the cells into several groups for longer storage times. The indications that an oocyte is damaged include, in order of increasing severity: the appearance of bright spots on the animal pole (dark half), blurring of the animal/vegetal pole dividing line, substantially increased cell size, and the appearance of white material extruded from the cell. If the damage is not too severe, patching is still possible as only a small fraction of intact membrane is required. In the case of a heavily damaged oocyte it becomes impossible to remove the vitelline membrane without oocyte rupture.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="11" xml:id="foot_8"><p>A good practice is to check for expression of the protein of interest. One option is to label the protein with a fluorescent tag (e.g., Green Fluorescent Protein (GFP)) and check for signal from the periphery of the oocyte using a confocal microscope (see Fig.5). This approach allows one to see if the fusion protein is localized to the plasma membrane. Another option is to use a tagged version and to detect it via Western blotting (using, for example, the isolation method described in ref.<ref type="bibr" target="#b52">40)</ref>. This approach allows one to evaluate level of expression more quantitatively, but is more time-consuming.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="12" xml:id="foot_9"><p>If proper care is taken, this procedure could be carried out in regular ND96 buffer.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>Our work on bacterial and plant MSC electrophysiology was supported in part by <rs type="funder">American Recovery and Reinvestment Act (ARRA)</rs> funds through grant number <rs type="grantNumber">R01GM084211</rs> to <rs type="person">Doug Rees</rs>, <rs type="person">Rob Phillips</rs> and E.S.H. from the <rs type="funder">National Institute of General Medical Sciences, National Institutes of Health</rs>, and continues under <rs type="funder">NIH</rs> <rs type="grantNumber">2R01GM084211</rs> to D.R., R.P. and E.S.H. and N.S.F. <rs type="grantNumber">MCB-1253103</rs> to E.S.H. We would also like to acknowledge <rs type="person">Daniel Schachtman</rs> for initial training in the use of oocytes.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_uvnyPnv">
+					<idno type="grant-number">R01GM084211</idno>
+				</org>
+				<org type="funding" xml:id="_HJJWKjm">
+					<idno type="grant-number">2R01GM084211</idno>
+				</org>
+				<org type="funding" xml:id="_c9bAKJv">
+					<idno type="grant-number">MCB-1253103</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">0.1 g collagenase A type I, in 20 ml Ca 2+ -free ND96. 3. 250 ml of 0.1 % BSA in Ca 2+ -free ND96. 4. 30 ml of 50 mM KH 2 PO 4 /50 mM K 2 HPO 4 with 0</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">% BSA in water, pH 6.5 (made in advance and stored</title>
+		<imprint/>
+	</monogr>
+	<note>as 45 mL aliquots at -20°C</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Complete ND96 buffer supplemented with 50 mg/ml gentamycin. 6. 50-ml conical tubes</title>
+		<imprint>
+			<biblScope unit="page" from="100" to="115" />
+		</imprint>
+	</monogr>
+	<note>mm petri dishes</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Plastic transfer pipettes</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+		</imprint>
+	</monogr>
+	<note>μl aperture, large bulb</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Incubator capable of maintaining 16-18°C</title>
+		<imprint/>
+	</monogr>
+	<note>such as a wine cooler). 2.3 RNA Preparation 1. mMessage mMachine kit (Ambion</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">2. RNase-free water. 3. RNase-free pipette tips and tubes. 4. Spectrophotometer suitable for measuring the concentration and purity of nucleic acids (e.g., NanoPhotometer, Implen). 2.4 Oocyte Injection 1. RNase-free water</title>
+		<imprint>
+			<publisher>Mineral oil</publisher>
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Gridded petri dish (</title>
+		<imprint/>
+	</monogr>
+	<note>a regular 35 mm petri dish with a polypropylene mesh glued to its bottom, see Fig. 1</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Capillary glass for an injection pipette</title>
+	</analytic>
+	<monogr>
+		<title level="m">We use a thin-walled</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+		</imprint>
+	</monogr>
+	<note>long pipette</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Micropipette or automatic injection system</title>
+		<imprint/>
+	</monogr>
+	<note>see Fig. 2</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Pipette puller</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Sutter Instrument Co</orgName>
+		</respStmt>
+	</monogr>
+	<note>see Note 1</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">RNase-free pipette tips. 8. 6-well tissue culture plates. 2.5 Patch-Clamp 1. 10 ml of hypertonic buffer: 200 mM K + -aspartate, 20 mM KCl, 1 mM MgCl 2 , 10 mM EGTA, 10 mM Hepes, pH 7.4. 2. 10 ml of ND96 with 10 mM of MgCl 2 . 3. 10 ml of TEA-Cl buffer: 98 mM TEA-Cl, 1.8 mM CaCl 2 , 1 mM MgCl 2 , 5 mM Hepes, pH 7.38 adjusted with TEA-OH, 0.2 μm filtered</title>
+	</analytic>
+	<monogr>
+		<title level="j">References</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Structural basis of open channel block in a prokaryotic pentameric ligand-gated ion channel</title>
+		<author>
+			<persName><forename type="first">Rjc</forename><surname>Hilf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bertozzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Zimmermann</surname></persName>
+		</author>
+		<idno type="PMID">21037567</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Struct Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1330" to="1337" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Heterologous expression and functional analysis of higher plant transport proteins in Xenopus oocytes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Schroeder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="70" to="81" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Xenopus oocytes as an expression system for plant transporters</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="PMID">10748264</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1465</biblScope>
+			<biblScope unit="page" from="343" to="358" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">TRPC1 forms the stretch-activated cation channel in vertebrate cells</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Maroto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Raso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Wood</surname></persName>
+		</author>
+		<idno type="PMID">15665854</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="179" to="185" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Four pharmacologically distinct subtypes of a4b2 nicotinic acetylcholine receptor expressed in Xenopus laevis oocytes</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zwart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Vijverberg</surname></persName>
+		</author>
+		<idno type="PMID">9855643</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="1124" to="1131" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Potency of GABA at human recombinant GABA A receptors expressed in Xenopus oocytes: a mini review</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Karim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wellendorph</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Absalom</surname></persName>
+		</author>
+		<idno type="PMID">23385381</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Amino Acids</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="1139" to="1149" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Use of frog eggs and oocytes for the study of messenger RNA and its translation in living cells</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Gurdon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Lane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Woodland</surname></persName>
+		</author>
+		<idno type="PMID">4939175</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">233</biblScope>
+			<biblScope unit="page" from="177" to="182" />
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Cave Canalem: how endogenous ion channels may interfere with heterologous expression in Xenopus oocytes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Terhag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Cavara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hollmann</surname></persName>
+		</author>
+		<idno type="PMID">20123125</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="66" to="74" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The Xenopus oocyte: a model for studying the metabolic regulation of cancer cell death</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Nutt</surname></persName>
+		</author>
+		<idno type="PMID">22507445</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Semin Cell Dev Biol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="412" to="418" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A voltage dependent non-inactivating Na + channel activated during apoptosis in Xenopus oocytes</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">H</forename><surname>Englund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gertow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kågedal</surname></persName>
+		</author>
+		<idno type="PMID">24586320</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">88381</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Using oocyte nuclei for studies on chromatin structure and gene expression</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sommerville</surname></persName>
+		</author>
+		<idno type="PMID">20138999</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="157" to="164" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Oocytes as an experimental system to analyze the ultrastructure of endogenous and ectopically expressed nuclear envelope components by field-emission scanning electron microscopy</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Goldberg</surname></persName>
+		</author>
+		<idno type="PMID">20085817</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="170" to="176" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A tribute to the Xenopus laevis oocyte and egg</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Brown</surname></persName>
+		</author>
+		<idno type="PMID">15308660</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="issue">44</biblScope>
+			<biblScope unit="page" from="45291" to="45299" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Bacterial mechanosensitive channels-MscS: evolution&apos;s solution to creating sensitivity in function</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Naismith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Booth</surname></persName>
+		</author>
+		<idno type="PMID">22404681</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Biophys</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="157" to="177" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Mechanosensitive channel of large conductance</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kloda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Petrov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Meyer</surname></persName>
+		</author>
+		<idno type="PMID">17350877</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Biochem Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="164" to="169" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Canonical TRP channels and mechanotransduction: from physiology to disease states</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sharif-Naeini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Folgering</surname></persName>
+		</author>
+		<idno type="PMID">20490539</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pflugers Arch</title>
+		<imprint>
+			<biblScope unit="volume">460</biblScope>
+			<biblScope unit="page" from="571" to="581" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Expression and characterization of the bacterial mechanosensitive channel MscS in Xenopus laevis oocytes</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Maksaev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Haswell</surname></persName>
+		</author>
+		<idno type="PMID">22084416</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Physiol</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="641" to="649" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">MscS-like10 is a stretch-activated ion channel from Arabidopsis thaliana with a preference for anions</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Maksaev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Haswell</surname></persName>
+		</author>
+		<idno type="PMID">23112188</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="19015" to="19020" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Characterization of stretch-activated ion channels in Xenopus oocytes</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sachs</surname></persName>
+		</author>
+		<idno type="PMID">1712839</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">431</biblScope>
+			<biblScope unit="page" from="103" to="122" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Mechanically gated channel activity in cytoskeleton-deficient plasma membrane blebs and vesicles from Xenopus oocytes</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Popov</surname></persName>
+		</author>
+		<idno type="PMID">10673548</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">523</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="117" to="130" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Block of stretchactivated ion channels in Xenopus oocytes by gadolinium and calcium ions</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sachs</surname></persName>
+		</author>
+		<idno type="PMID">2466333</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">243</biblScope>
+			<biblScope unit="page" from="1068" to="1071" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Mg 2+ block and inward rectification of mechanosensitive channels in Xenopus oocytes</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Mcbride</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">P</forename><surname>Hamill</surname></persName>
+		</author>
+		<idno type="PMID">9446706</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pflugers Arch</title>
+		<imprint>
+			<biblScope unit="volume">435</biblScope>
+			<biblScope unit="page" from="572" to="574" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Housing and husbandry of Xenopus laevis affect the quality of oocytes for heterologous expression studies</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Delpire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Gagnon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Ledford</surname></persName>
+		</author>
+		<idno type="PMID">21333163</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Assoc Lab Anim Sci</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="46" to="53" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Putting RNAs in the right place at the right time: RNA localization in the frog oocyte</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Messitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Mowry</surname></persName>
+		</author>
+		<idno type="PMID">15601255</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Cell</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="19" to="33" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Endogenous transport systems in the Xenopus laevis oocyte plasma membrane</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sobczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bangel-Ruland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Leier</surname></persName>
+		</author>
+		<idno type="PMID">19963061</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="183" to="189" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Expression of ion channels in Xenopus oocytes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Goldin</surname></persName>
+		</author>
+		<editor>Clare, JJ.</editor>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Expression and analysis of recombinant ion channels</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Trezise</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<publisher>Wiley-VCH Verlag GmbH &amp; Co. KgaA</publisher>
+			<pubPlace>Weinheim</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The Xenopus oocyte: system for the study of functional expression and modulation of proteins</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sigel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Minier</surname></persName>
+		</author>
+		<idno type="PMID">15704243</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Nutr Food Res</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="228" to="234" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Xenopus oocyte microinjection: from gene to protein</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Soreq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Seidman</surname></persName>
+		</author>
+		<idno type="PMID">1528119</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">207</biblScope>
+			<biblScope unit="page" from="225" to="265" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Highthroughput electrophysiology with Xenopus oocytes</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Papke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Smith-Maxwell</surname></persName>
+		</author>
+		<idno type="PMID">19149490</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comb Chem High Throughput Screen</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="38" to="50" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Using fluorometry and ion-sensitive microelectrodes to study the functional expression of heterologously-expressed ion channels and transporters in Xenopus oocytes</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Musa-Aziz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Boron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Parker</surname></persName>
+		</author>
+		<idno type="PMID">20051266</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="134" to="145" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Imaging Ca 2+ signals in Xenopus oocytes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Dargan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Demuro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Parker</surname></persName>
+		</author>
+		<idno type="PMID">16739719</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">322</biblScope>
+			<biblScope unit="page" from="103" to="119" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Xenopus oocytes as a heterologous expression system for studying ion channels with the patch-clamp technique</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tammaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shimomura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Proks</surname></persName>
+		</author>
+		<idno type="PMID">18998089</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">491</biblScope>
+			<biblScope unit="page" from="127" to="139" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Electrophysiological recor dings from Xenopus oocytes</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Stűhmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">207</biblScope>
+			<biblScope unit="page" from="317" to="339" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">Translation of eucaryotic messenger RNA in Xenopus oocytes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Colman</surname></persName>
+		</author>
+		<editor>Hames, BD.</editor>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Transcription and translation: a practical approach</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Higgins</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984">1984</date>
+			<publisher>IRL Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Chapter 10</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<ptr target="http://www.sigmaaldrich.com/content/dam/sigma-aldrich/docs/Sigma/Product_Information_Sheet/c0130pis.pdf" />
+		<title level="m">Product information</title>
+		<imprint>
+			<publisher>Sigma-Aldrich</publisher>
+			<date type="published" when="2014-06-05">05 June 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Oogenesis in Xenopus laevis (Daudin). I. Stages of oocyte development in laboratory maintained animals</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Dumont</surname></persName>
+		</author>
+		<idno type="PMID">4109871</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Morphol</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="153" to="179" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Uniport of NH 4 + by the root hair plasma membrane ammonium transporter LeAMT1;1</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Ludewig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Von Wirén</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Frommer</surname></persName>
+		</author>
+		<idno type="PMID">11821433</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="13548" to="13555" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Microinjection technique: routine system for characterization of microcapillaries by bubble pressure measurement</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schnorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Potrykus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Neuhaus</surname></persName>
+		</author>
+		<idno type="PMID">8299724</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="page" from="260" to="267" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Chloriding silver wire</title>
+		<ptr target="http://www.warnerinstrument.com/pdf/whitepapers/chloriding_wire.pdf" />
+		<imprint>
+			<date type="published" when="2014-06-05">05 June 2014</date>
+		</imprint>
+		<respStmt>
+			<orgName>Warner Instrument Corporation</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">The Brassica MIP-MOD gene encodes a functional water channel that is expressed in the stigma epidermis</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dixit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rizzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nasrallah</surname></persName>
+		</author>
+		<idno type="PMID">11247606</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="51" to="62" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title level="m" type="main">Salt bridge formation</title>
+		<ptr target="http://www.warneronline.com/pdf/whitepapers/agar_bridges.pdf" />
+		<imprint>
+			<date type="published" when="2014-06-05">05 June 2014</date>
+			<publisher>Warner Instrument Corporation</publisher>
+		</imprint>
+	</monogr>
+	<note>9.1.99</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Gadolinium ions block mechanosensitive channels by altering the packing and lateral pressure of anionic lipids</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Ermakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kamaraju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sengupta</surname></persName>
+		</author>
+		<idno type="PMID">20303859</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1018" to="1027" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Interaction of tetraethylammonium ion derivatives with the potassium channels of giant axons</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Armstrong</surname></persName>
+		</author>
+		<idno type="PMID">5112659</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Physiol</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="413" to="437" />
+			<date type="published" when="1971">1971. 2016 January 01</date>
+		</imprint>
+	</monogr>
+	<note>Maksaev and Haswell Page 13 Methods Mol Biol. Author manuscript</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Correction for Vangay et al., &quot;Microbiome Metadata Standards: Report of the National Microbiome Data Collaborative&apos;s Workshop and Follow-On Activities&quot;</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-05-04">4 May 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Pajau</forename><surname>Vangay</surname></persName>
+							<idno type="ORCID">0000-0002-9231-0692</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">Lawrence Berkeley National Laboratory</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Josephine</forename><surname>Burgin</surname></persName>
+							<idno type="ORCID">0000-0002-9818-1094</idno>
+							<affiliation key="aff1">
+								<orgName type="laboratory">European Molecular Biology Laboratory</orgName>
+								<orgName type="institution" key="instit1">European Bioinformatics Institute</orgName>
+								<orgName type="institution" key="instit2">Wellcome Genome Campus</orgName>
+								<address>
+									<settlement>Hinxton Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anjanette</forename><surname>Johnston</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">National Center for Biotechnology Information</orgName>
+								<orgName type="institution" key="instit1">National Library of Medicine</orgName>
+								<orgName type="institution" key="instit2">National Institutes of Health</orgName>
+								<address>
+									<settlement>Bethesda</settlement>
+									<region>Maryland</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kristen</forename><forename type="middle">L</forename><surname>Beck</surname></persName>
+							<idno type="ORCID">0000-0002-4603-0235</idno>
+							<affiliation key="aff3">
+								<orgName type="institution">IBM Almaden Research Center</orgName>
+								<address>
+									<settlement>San Jose</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><forename type="middle">C</forename><surname>Berrios</surname></persName>
+							<idno type="ORCID">0000-0003-4312-9552</idno>
+							<affiliation key="aff4">
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kai</forename><surname>Blumberg</surname></persName>
+							<idno type="ORCID">0000-0002-3410-4655</idno>
+							<affiliation key="aff5">
+								<orgName type="department">Biosystems Engineering Department</orgName>
+								<orgName type="institution">University of Arizona</orgName>
+								<address>
+									<settlement>Tucson</settlement>
+									<region>Arizona</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shane</forename><surname>Canon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Lawrence Berkeley National Laboratory</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Patrick</forename><surname>Chain</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="institution">Los Alamos National Laboratory</orgName>
+								<address>
+									<settlement>Los Alamos</settlement>
+									<region>New Mexico</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">John-Marc</forename><surname>Chandonia</surname></persName>
+							<idno type="ORCID">0000-0002-5153-9079</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">Lawrence Berkeley National Laboratory</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Danielle</forename><surname>Christianson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Lawrence Berkeley National Laboratory</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sylvain</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Joan</forename><surname>Damerow</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Lawrence Berkeley National Laboratory</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">William</forename><forename type="middle">D</forename><surname>Duncan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Lawrence Berkeley National Laboratory</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jose</forename><forename type="middle">Pablo</forename><surname>Dundore-Arias</surname></persName>
+							<idno type="ORCID">0000-0002-4944-0125</idno>
+							<affiliation key="aff7">
+								<orgName type="institution">California State University</orgName>
+								<address>
+									<settlement>Monterey Bay</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kjiersten</forename><surname>Fagnan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Lawrence Berkeley National Laboratory</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jonathan</forename><forename type="middle">M</forename><surname>Galazka</surname></persName>
+							<idno type="ORCID">0000-0002-4153-0249</idno>
+							<affiliation key="aff4">
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sean</forename><forename type="middle">M</forename><surname>Gibbons</surname></persName>
+							<idno type="ORCID">0000-0002-8724-7916</idno>
+							<affiliation key="aff8">
+								<orgName type="department">Institute for Systems Biology</orgName>
+								<address>
+									<settlement>Seattle</settlement>
+									<region>Washington</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="department">Department of Bioengineering</orgName>
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<settlement>Seattle</settlement>
+									<region>Washington</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Hays</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Lawrence Berkeley National Laboratory</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Judson</forename><surname>Hervey</surname></persName>
+							<idno type="ORCID">0000-0003-3285-6754</idno>
+							<affiliation key="aff10">
+								<orgName type="department">Center for Bio/Molecular Science &amp; Engineering</orgName>
+								<orgName type="institution">Naval Research Laboratory</orgName>
+								<address>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bin</forename><surname>Hu</surname></persName>
+							<idno type="ORCID">0000-0002-0278-8466</idno>
+							<affiliation key="aff6">
+								<orgName type="institution">Los Alamos National Laboratory</orgName>
+								<address>
+									<settlement>Los Alamos</settlement>
+									<region>New Mexico</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bonnie</forename><forename type="middle">L</forename><surname>Hurwitz</surname></persName>
+							<idno type="ORCID">0000-0001-8699-957X</idno>
+							<affiliation key="aff5">
+								<orgName type="department">Biosystems Engineering Department</orgName>
+								<orgName type="institution">University of Arizona</orgName>
+								<address>
+									<settlement>Tucson</settlement>
+									<region>Arizona</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Pankaj</forename><surname>Jaiswal</surname></persName>
+							<idno type="ORCID">0000-0002-1005-8383</idno>
+							<affiliation key="aff11">
+								<orgName type="department">Department of Botany and Plant Pathology</orgName>
+								<orgName type="institution">Oregon State University</orgName>
+								<address>
+									<settlement>Corvallis</settlement>
+									<region>Oregon</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marcin</forename><forename type="middle">P</forename><surname>Joachimiak</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Lawrence Berkeley National Laboratory</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Linda</forename><surname>Kinkel</surname></persName>
+							<affiliation key="aff12">
+								<orgName type="department">Department of Plant Pathology</orgName>
+								<orgName type="institution">University of Minnesota</orgName>
+								<address>
+									<settlement>St. Paul</settlement>
+									<region>Minnesota</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Joshua</forename><surname>Ladau</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Lawrence Berkeley National Laboratory</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Stanton</forename><forename type="middle">L</forename><surname>Martin</surname></persName>
+							<affiliation key="aff13">
+								<orgName type="institution">Oak Ridge National Laboratory</orgName>
+								<address>
+									<settlement>Oak Ridge</settlement>
+									<region>Tennessee</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ann</forename><surname>Lee</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Mccue</surname></persName>
+							<idno type="ORCID">0000-0003-4456-517X</idno>
+							<affiliation key="aff14">
+								<orgName type="institution">Pacific Northwest National Laboratory</orgName>
+								<address>
+									<settlement>Richland</settlement>
+									<region>Washington</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kayd</forename><surname>Miller</surname></persName>
+							<idno type="ORCID">0000-0002-0798-6605</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">Lawrence Berkeley National Laboratory</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nigel</forename><surname>Mouncey</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Lawrence Berkeley National Laboratory</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chris</forename><surname>Mungall</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Lawrence Berkeley National Laboratory</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Evangelos</forename><surname>Pafilis</surname></persName>
+							<idno type="ORCID">0000-0001-5079-0125</idno>
+							<affiliation key="aff15">
+								<orgName type="department">Institute of Marine Biology Biotechnology and Aquaculture</orgName>
+								<orgName type="institution">Hellenic Centre for Marine Research</orgName>
+								<address>
+									<settlement>Heraklion Crete</settlement>
+									<country key="GR">Greece</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><forename type="middle">B K</forename><surname>Reddy</surname></persName>
+							<idno type="ORCID">0000-0002-0871-5567</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">Lawrence Berkeley National Laboratory</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lorna</forename><surname>Richardson</surname></persName>
+							<idno type="ORCID">0000-0002-3655-5660</idno>
+							<affiliation key="aff1">
+								<orgName type="laboratory">European Molecular Biology Laboratory</orgName>
+								<orgName type="institution" key="instit1">European Bioinformatics Institute</orgName>
+								<orgName type="institution" key="instit2">Wellcome Genome Campus</orgName>
+								<address>
+									<settlement>Hinxton Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Simon</forename><surname>Roux</surname></persName>
+							<idno type="ORCID">0000-0002-5831-5895</idno>
+							<affiliation key="aff16">
+								<orgName type="department">Department of Energy Joint Genome Institute</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lynn</forename><forename type="middle">M</forename><surname>Schriml</surname></persName>
+							<affiliation key="aff22">
+								<orgName type="department">School of Medicine</orgName>
+								<orgName type="institution" key="instit1">University of Maryland</orgName>
+								<orgName type="institution" key="instit2">Institute for Genome Sciences</orgName>
+								<address>
+									<settlement>Baltimore</settlement>
+									<region>Maryland</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Justin</forename><forename type="middle">P</forename><surname>Shaffer</surname></persName>
+							<idno type="ORCID">0000-0002-9371-6336</idno>
+							<affiliation key="aff17">
+								<orgName type="department" key="dep1">Department of Pediatrics</orgName>
+								<orgName type="department" key="dep2">School of Medicine</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>San Diego</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jagadish</forename><forename type="middle">Chandrabose</forename><surname>Sundaramurthi</surname></persName>
+							<idno type="ORCID">0000-0002-6670-9157</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">Lawrence Berkeley National Laboratory</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Luke</forename><forename type="middle">R</forename><surname>Thompson</surname></persName>
+							<idno type="ORCID">0000-0002-3911-1280</idno>
+							<affiliation key="aff18">
+								<orgName type="institution" key="instit1">Northern Gulf Institute</orgName>
+								<orgName type="institution" key="instit2">Mississippi State University</orgName>
+								<address>
+									<settlement>Mississippi State</settlement>
+									<region>Mississippi</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff19">
+								<orgName type="department">Ocean Chemistry and Ecosystems Division</orgName>
+								<orgName type="institution" key="instit1">Atlantic Oceanographic and Meteorological Laboratory</orgName>
+								<orgName type="institution" key="instit2">National Oceanic and Atmospheric Administration</orgName>
+								<address>
+									<settlement>Miami</settlement>
+									<region>Florida</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ruth</forename><forename type="middle">E</forename><surname>Timme</surname></persName>
+							<idno type="ORCID">0000-0002-9705-5897</idno>
+							<affiliation key="aff20">
+								<orgName type="department">Center for Food Safety and Applied Nutrition</orgName>
+								<orgName type="institution">US Food and Drug Administration</orgName>
+								<address>
+									<settlement>College Park</settlement>
+									<region>Maryland</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jie</forename><surname>Zheng</surname></persName>
+							<idno type="ORCID">0000-0002-2999-0103</idno>
+							<affiliation key="aff21">
+								<orgName type="department" key="dep1">Department of Genetics</orgName>
+								<orgName type="department" key="dep2">Perelman School of Medicine</orgName>
+								<orgName type="institution">University of Pennsylvania</orgName>
+								<address>
+									<settlement>Philadelphia</settlement>
+									<region>Pennsylvania</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elisha</forename><forename type="middle">M</forename><surname>Wood-Charlson</surname></persName>
+							<idno type="ORCID">0000-0001-9557-7715</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">Lawrence Berkeley National Laboratory</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Emiley</forename><forename type="middle">A</forename><surname>Eloe-Fadrosh</surname></persName>
+							<email>eaeloefadrosh@lbl.gov</email>
+							<idno type="ORCID">0000-0002-8162-1276</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">Lawrence Berkeley National Laboratory</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Correction for Vangay et al., &quot;Microbiome Metadata Standards: Report of the National Microbiome Data Collaborative&apos;s Workshop and Follow-On Activities&quot;</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-05-04">4 May 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">10D370A781903F89CDF5C17BEDE15D2F</idno>
+					<idno type="DOI">10.1128/mSystems.01194-20.</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:41+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body/>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CORRECTION</head></div>			</div>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

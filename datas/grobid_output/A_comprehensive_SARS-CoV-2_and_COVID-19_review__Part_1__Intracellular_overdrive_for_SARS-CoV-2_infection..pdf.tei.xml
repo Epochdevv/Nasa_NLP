@@ -1,0 +1,2509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A comprehensive SARS-CoV-2 and COVID-19 review, Part 1: Intracellular overdrive for SARS-CoV-2 infection</title>
+				<funder ref="#_jj6bAYG">
+					<orgName type="full">NASA Cooperative</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Specialized Program of Research Excellence (SPORE) program</orgName>
+				</funder>
+				<funder ref="#_cCneYhw">
+					<orgName type="full">Translational Research Institute of Space Health</orgName>
+				</funder>
+				<funder ref="#_vpU7mfh">
+					<orgName type="full">NASA</orgName>
+				</funder>
+				<funder ref="#_CcTEqJ5">
+					<orgName type="full">Van Andel Research Institute -Stand Up</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">AACR</orgName>
+				</funder>
+				<funder ref="#_kcRvxmy">
+					<orgName type="full">The Dr. Miriam and Sheldon G. Adelson Medical Research Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Van Andel Research Institute</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Entertainment Industry Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Stand Up To Cancer</orgName>
+				</funder>
+				<funder ref="#_f9QTMn3">
+					<orgName type="full">National Cancer Institute</orgName>
+					<orgName type="abbreviated">NCI</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-05-16">16 May 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">David</forename><forename type="middle">A</forename><surname>Jamison</surname><genName>Jr</genName></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">COVID-19 International Research Team</orgName>
+								<address>
+									<settlement>Medford</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><surname>Anand Narayanan</surname></persName>
+							<idno type="ORCID">0000-0002-9783-5711</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Nídia</forename><forename type="middle">S</forename><surname>Trovão</surname></persName>
+							<idno type="ORCID">0000-0002-2106-1166</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">COVID-19 International Research Team</orgName>
+								<address>
+									<settlement>Medford</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Fogarty International Center</orgName>
+								<orgName type="institution">National Institutes of Health</orgName>
+								<address>
+									<settlement>Bethesda</settlement>
+									<region>MD</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Joseph</forename><forename type="middle">W</forename><surname>Guarnieri</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">COVID-19 International Research Team</orgName>
+								<address>
+									<settlement>Medford</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Center for Mitochondrial and Epigenomic Medicine</orgName>
+								<orgName type="institution">Children&apos;s Hospital of Philadelphia</orgName>
+								<address>
+									<settlement>Philadelphia</settlement>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Topper</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">COVID-19 International Research Team</orgName>
+								<address>
+									<settlement>Medford</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Oncology</orgName>
+								<orgName type="institution">The Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins</orgName>
+								<address>
+									<settlement>Baltimore</settlement>
+									<region>MD</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Pedro</forename><forename type="middle">M</forename><surname>Moraes-Vieira</surname></persName>
+							<idno type="ORCID">0000-0002-8263-786X</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">COVID-19 International Research Team</orgName>
+								<address>
+									<settlement>Medford</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Department of Genetics, Evolution, Microbiology and Immunology</orgName>
+								<orgName type="department" key="dep2">Institute of Biology</orgName>
+								<orgName type="institution">University of Campinas</orgName>
+								<address>
+									<settlement>Campinas</settlement>
+									<region>SP</region>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Obesity and Comorbidities research Center (OCRC)</orgName>
+								<orgName type="institution">University of Campinas</orgName>
+								<address>
+									<settlement>Campinas</settlement>
+									<region>SP</region>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department">Experimental Medicine Research Cluster</orgName>
+								<orgName type="institution">University of Campinas</orgName>
+								<address>
+									<settlement>Campinas</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Viktorija</forename><surname>Zaksas</surname></persName>
+							<idno type="ORCID">0000-0001-7916-4902</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">COVID-19 International Research Team</orgName>
+								<address>
+									<settlement>Medford</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Center for Translational Data Science</orgName>
+								<orgName type="institution">University of Chicago</orgName>
+								<address>
+									<settlement>Chicago</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Keshav</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+							<idno type="ORCID">0000-0002-0047-8616</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">COVID-19 International Research Team</orgName>
+								<address>
+									<settlement>Medford</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="department" key="dep1">Department of Genetics</orgName>
+								<orgName type="department" key="dep2">Heersink School of Medicine</orgName>
+								<orgName type="institution">University of Alabama at Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<region>AL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eve</forename><forename type="middle">Syrkin</forename><surname>Wurtele</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">COVID-19 International Research Team</orgName>
+								<address>
+									<settlement>Medford</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff10">
+								<orgName type="department">Center for Metabolic Biology, Bioinformatics and Computational Biology, and Genetics Development, and Cell Biology</orgName>
+								<orgName type="institution">Iowa State University</orgName>
+								<address>
+									<settlement>Ames</settlement>
+									<region>IA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Afshin</forename><surname>Beheshti</surname></persName>
+							<email>afshin.beheshti@nasa.gov</email>
+							<idno type="ORCID">0000-0003-4643-531X</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">COVID-19 International Research Team</orgName>
+								<address>
+									<settlement>Medford</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff11">
+								<orgName type="department">Stanley Center for Psychiatric Research</orgName>
+								<orgName type="institution">Broad Institute of MIT and Harvard</orgName>
+								<address>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff12">
+								<orgName type="department">Space Biosciences Division</orgName>
+								<orgName type="laboratory">KBR</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A comprehensive SARS-CoV-2 and COVID-19 review, Part 1: Intracellular overdrive for SARS-CoV-2 infection</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">European Journal of Human Genetics</title>
+						<title level="j" type="abbrev">Eur J Hum Genet</title>
+						<idno type="ISSN">1018-4813</idno>
+						<idno type="eISSN">1476-5438</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">30</biblScope>
+							<biblScope unit="issue">8</biblScope>
+							<biblScope unit="page" from="889" to="898"/>
+							<date type="published" when="2022-05-16">16 May 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">95B5898DFF077200082102C498C88776</idno>
+					<idno type="DOI">10.1038/s41431-022-01108-8</idno>
+					<note type="submission">Received: 24 November 2021 Revised: 20 March 2022 Accepted: 12 April 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T10:09+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>COVID-19, the disease caused by SARS-CoV-2, has claimed approximately 5 million lives and 257 million cases reported globally. This virus and disease have significantly affected people worldwide, whether directly and/or indirectly, with a virulent pathogen that continues to evolve as we race to learn how to prevent, control, or cure COVID-19. The focus of this review is on the SARS-CoV-2 virus' mechanism of infection and its proclivity at adapting and restructuring the intracellular environment to support viral replication. We highlight current knowledge and how scientific communities with expertize in viral, cellular, and clinical biology have contributed to increase our understanding of SARS-CoV-2, and how these findings may help explain the widely varied clinical observations of COVID-19 patients.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>As of November 21st, 2021, over 257 million cases of coronavirus disease 2019 (COVID-19) have been reported, and more than 5 million lives claimed globally <ref type="bibr" target="#b0">[1]</ref>. The disease is caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). Development of vaccines against SARS-CoV-2 provide a major step forward in reducing COVID-19's impact. However, the pandemic is ongoing, and the continued viral transmission allows for accumulation of mutations in the viral genome, which can provide advantages in replication, immune escape, increased transmissibility, or diagnostic detection failure <ref type="bibr" target="#b1">[2]</ref>. With the quickly evolving SARS-CoV-2 variants and the slow rate of vaccination globally, it is critical to fully understand this novel virus and disease.</p><p>Coronaviruses are named as such because the S proteins resemble a halo or corona on scanning electron microscope imagery <ref type="bibr" target="#b2">[3]</ref>. SARS-CoV-2 belongs to the genus Betacoronavirus. Of the human Betacoronavirus, including OC43, HKU1, SARS-CoV-1, and Middle East Respiratory Syndrome-Coronavirus (MERS-CoV) <ref type="bibr" target="#b3">[4]</ref>. SARS-CoV-2 bears the highest genetic sequence similarity to SARS-CoV-1 <ref type="bibr" target="#b4">[5]</ref>. Accordingly, COVID-19, caused by SARS-CoV-2, resembles SARS, caused by SARS-CoV-1, in many ways, but with some important differences <ref type="bibr" target="#b5">[6]</ref>. Key characteristics of SARS-CoV-1 and 2 include: 1) a positive-sense RNA virus with a large genome of ~30 kilobases; 2) a large, enveloped virus containing a helical nucleocapsid with the virus's genetic code, with an exterior studded in several spike proteins that facilitate the infection of host cells), and 3) similar genomic structures. The first 2/3 of both genomes encodes for two macro polypeptides pp1a/pp1b (see Fig. <ref type="figure" target="#fig_1">1</ref>). Pp1a/pp1b are auto-proteolytically processed to generate 16 non-structural proteins (NSP).</p><p>The main virus-specific functions of the SARS-CoV-2 NSPs are: NSP1 -cellular mRNA degradation, global translation inhibition; NSP2 -cell cycle progression disruption; NSP3 -formation of doublemembrane vesicles (DMVs; SARS-CoV-2 protease); NSP4 -formation of DMVs; NSP5 -main SARS-CoV-2 protease; NSP6 -formation of DMVs, NSP7 -replication complex; NSP8primase; NSP9 -RNA binding protein; NSP10 -cofactor of NSP14 &amp; NSP16; NSP11unknown, NSP12 -RNA-dependent RNA polymerase; NSP13 -RNA helicase, 5ʹ phosphatase, NSP14 -N7-MTase, 3ʹ-5ʹ exonuclease; NSP15endonuclease; and NSP16-2ʹ-O-MTase, mRNA capping.</p><p>The remaining 1/3 of the SARS-CoV-2 genome encodes for the structural proteins S (spike), E (envelope), M (membrane), and N (nucleocapsid), and several open reading frames (ORFs; (3a, 6, 7a, 7b, 8, 9b, and 10) <ref type="bibr" target="#b6">[7]</ref>. The S protein binds the host cell receptor, which for SARS-CoV-1/2 is the human angiotensin-converting enzyme 2 (hACE2) (see Fig. <ref type="figure" target="#fig_2">2</ref> and Supplementary Table <ref type="table">1</ref>). These proteins share homology and function with SARS-CoV-1.</p><p>There are two notable differences between SARS-CoV-1 and SARS-CoV-2. First is the presence of the ORF8 polypeptide found in SARS-CoV-2 but not in SARS-CoV-1. SARS-CoV-1 has a 29 nucleotide (nt) deletion (del) which splits it into ORF8a and ORF8b. Second, SARS-CoV-2 contains a gene encoding a novel orphan protein, ORF10, which is not present in SARS-CoV-1 <ref type="bibr" target="#b6">[7]</ref>.</p><p>SARS-CoV-2's evolutionary rate has been estimated to be around 9'×'10 -4 substitutions per site per year <ref type="bibr" target="#b7">[8]</ref>, while also having a high transmissibility, large portion of asymptomatic cases <ref type="bibr" target="#b8">[9]</ref>, large pool of susceptible hosts to replicate in <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b10">11]</ref>, and ongoing environmental pressures (e.g., low vaccination rates and changes in policies allowing human carriers to continue to transmit the virus), which have allowed SARS-CoV-2 to accumulate mutation in its genome.</p><p>Mutations have been detected in all parts of the viral genome, including in the leader 5ʹ untranslated region (UTR), orf1ab (NSP1, NSP2, NSP3, NSP6, NSP12, NSP13, and NSP14), spike, ORF3a, ORF8, nucleocapsid, and ORF10 <ref type="bibr" target="#b7">[8]</ref>. These genomic changes have been shown to influence viral immune evasion, inflammasome interaction, helicase, exonuclease proofreading mechanism, the activity of the RNA-dependent RNA polymerase (RdRp) and thereby viral replication, infectivity, and cell release <ref type="bibr" target="#b11">[12]</ref>.</p><p>Mutations associated with the spike are of particular interest, as they influence human-to-human transmission, as well as humanto-animal passage. Within the spike, mutations tend to fall into four general classes, those that affect the receptor-binding domain (RBD), which are of importance because some may provide both immune escape or a fitness advantage, as well as facilitate reverse zoonotic events. There are some mutations that occur in the N-terminal domain (NTD), which is the portion most exposed on the virus surface. There is evidence for immune selection in this region, and preliminary evidence that at least one of these changes (delH69/delV70) could improve fitness <ref type="bibr" target="#b12">[13]</ref>. Mutations in or near the furin cleavage site, and several groupings close to the D614G mutation, possibly affect infection efficiency and can also be important for neutralizing antibodies. The SARS-CoV-2 virus can exert physiological effects by directly infecting cells and via intercellular signaling by the infected cells. In this review, we provide insight into SARS-CoV-2 infection and intracellular host responses (targets, pathways, networks, biological processes, and functional adaptations) to viral invasion. We emphasize a canonical set of reactions induced by SARS-CoV-2, which we have organized for the reader's consideration. However, there is tremendous variation in cellular responses to SARS-CoV-2, depending on factors including the cell type, organ type, metabolic and physiological context, patient genetics, individual clinical characteristics (e.g., age, sex, comorbidities), and stage/ severity in the COVID-19 disease. This is the first of a three-part comprehensive series of linked reviews on SARS-CoV-2 covering: intracellular effects (present study); extracellular consequences (review 2); and current and potential therapeutics (review 3). This review and the two that will follow aim to provide a foundational understanding of the current knowledge on SARS-CoV-2, from basic biology to clinical outcome and therapy avenues, that highlight future areas of research and could help inform public health interventions across the world. Infected tissue and cell types SARS-CoV-2 targets the nasal cavity and lungs; however, the detailed cellular tropism remains unclear, and likely varies among individuals. Furthermore, there is increased variability of viral cellular tropism with the emergent SARS-CoV-2 variants, which include Alpha, Beta, Gamma, Epsilon, Eta, Iota, Kappa, 1.617.3, Mu, Zeta, and in particular, Delta and Omicron, as well as the various lineages of each variant <ref type="bibr" target="#b13">[14]</ref>. This is related with SARS-CoV-2's mutation ability affecting its antigenic phenotype to circumvent immunity. The spike protein mediates attachment of the virus to host cell-surface receptors and fusion between virus and cell membranes; it is also the principal target for neutralizing antibodies generated following infection, and is the component for both mRNA and adenovirus-based vaccines <ref type="bibr" target="#b14">[15]</ref>. Several studies have contributed to the current understanding of how mutations in the SARS-CoV-2 spike protein affect neutralization and emergence of new strains, which include studies of traditional escape mutation, targeted characterization of particular mutations, and wider investigations of large numbers of circulating variants <ref type="bibr" target="#b15">[16]</ref>. These are active areas of research, in particular given the continued emergence of new lineages of new variants. A study of human, bat, non-human primate, and mouse cell lines showed various cell types were susceptible to the virus. These included pulmonary, intestinal, hepatic, renal, and neuronal, with cell lines expressing the hACE-2 receptor (hACE-2) having a generally greater viral load <ref type="bibr" target="#b16">[17]</ref>. Although cell lines do not reflect physiological conditions, this research indicates that SARS-CoV-2 can infect many cell types, and that hACE-2 provides a critical entry mechanism <ref type="bibr" target="#b17">[18]</ref>. Epithelial, vascular endothelial, pancreas, and mucosal cell types can all be infected by the virus <ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref>.</p><p>Several investigations have employed 3D organoid cultures to simulate more physiological conditions than cell cultures <ref type="bibr" target="#b21">[22]</ref>. In one such study, lung and colonic organoid models showed SARS-CoV-2 infection was reduced when various SARS-CoV-2 entry inhibitors were applied <ref type="bibr" target="#b21">[22]</ref>. Another study illustrated the flexibility of different organoid models, such as pancreatic endocrine cells, liver organoids, cardiomyocytes, and dopaminergic neurons from human pluripotent stem cells, and adult primary cells (human islets, hepatocyte, and cholangiocytes) to test viral effects such as cytokine production, gene expression, and other physiological responses. The resultant data correlated well with some patient autopsy samples <ref type="bibr" target="#b21">[22]</ref> indicating organoids provide a valuable disease modeling tool <ref type="bibr" target="#b17">[18]</ref>.</p><p>In one study of post-mortem patients, immunohistochemistry and immunofluorescence revealed viral antigen (spike protein) in pneumocytes and hyperplastic cells around the bronchioles, mucosal epithelia, submucosal glands, gland ducts of the trachea, glands of the small intestine, distal tubules and collecting ducts of the kidneys, islets of Langerhans, glands and intra-islet ducts of the pancreas, and vascular tissues of the brain and heart <ref type="bibr" target="#b22">[23]</ref>. Few viral antigens were present in the large intestine and renal proximal tubules, and none in the liver. A follow-up colocalization analysis showed ACE2 and viral antigen in the lung, trachea, small intestine, kidney, pancreas, and heart. In the brain, ACE2-expressing cells were detected, but they were negative for the viral antigen <ref type="bibr" target="#b22">[23]</ref>. Endothelial cells of multiple organs were infected, supporting the clinical observations of endotheliitis in some COVID-19 patients.</p><p>Single-cell RNA sequencing (scRNA-seq) demonstrated ACE2 receptor expression was primarily restricted to lung pneumocytes, gut absorptive enterocytes, and nasal mucosa goblet secretory cells <ref type="bibr" target="#b23">[24]</ref>. In general, the distribution of ACE2 receptors may in part explain the systemic diversity and range of SARS-CoV-2's effects. Further research into infection of these cell types versus others in mucosal barrier organs will be important to determine cell-types that serve as initial entry ways for the virus into the body.</p><p>Human autopsy studies <ref type="bibr" target="#b20">[21]</ref> have shown that SARS-CoV-2 infects multiple organs including lungs, pharynx, liver, nasal mucosa, trachea, intestines, skin, pancreas, kidney, brain, and heart. A study of 27 patients showed multi-organ tropisms (lung, pharynx, heart, liver, brain, and kidneys), with the highest levels of SARS-CoV-2 copies per cell, as detected by in situ hybridization and indirect immunofluorescence, in the respiratory tract, and lower levels in the kidneys, liver, heart, and brain <ref type="bibr" target="#b20">[21]</ref>. Transcriptional profiling of nasopharyngeal swabs, patient autopsy, and body-wide tissues (e.g. heart, liver, lung, kidney, and lymph nodes), provided further evidence of the physiologically systemic effects of SARS-CoV-2 <ref type="bibr" target="#b23">[24]</ref>.</p><p>These studies suggest that the virus has a varying range of expression within each organ, which may be influenced by levels of the ACE2-receptor and related entry factors (Transmembrane protease, serine-2 [TMPRSS2], transferrin receptor protein 1 [TRFC1], cluster of differentiation 4 [CD4], and neuropilin-1 [NRP1]) within each organ-type <ref type="bibr" target="#b23">[24]</ref>. This further highlights the varied organ and tissues that are capable of being infected by the virus, and the resultant wide-range of patient symptoms.</p><p>The physiological status of the individual significantly affects COVID-19 morbidity and mortality <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b25">26]</ref>. Notably, patients with pre-existing conditions of obesity, hypertension, and diabetes have a less favorable disease outcome, likely in part due to the elevated levels of inflammation and metabolic disturbances associated with those conditions <ref type="bibr" target="#b24">[25]</ref>. Conversely, SARS-CoV-2 infection may exacerbate pre-existing conditions, leading to more severe COVID-19 outcome <ref type="bibr" target="#b26">[27]</ref>.</p><formula xml:id="formula_0">SARS-CoV-2 Receptors -Angiotensin Converting Enzyme-2 (ACE2)</formula><p>The cellular surface receptor ACE2, a key regulator of the Renin-Angiotensin Aldosterone System (RAAS). It is speculated to be the primary SARS-CoV-2 viral target for entry. SARS-CoV-2 is thought to infect multiple organs in part due to the widespread distribution, expression, and polymorphisms of ACE2 <ref type="bibr" target="#b27">[28,</ref><ref type="bibr" target="#b28">29]</ref>.</p><p>ACE2's molecular function in the human RAAS pathway is to cleave Angiotensin I to produce Angiotensin 1-9, and break down Angiotensin II into Angiotensin 1-7. RAAS moderates blood pressure and osmolarity by means of hormonal feedback control. In response to binding of ACE2 to the ACE2 receptor (ACE2R), blood vessels vasoconstrict. This process is mediated by Gprotein-signaling, activating phospholipase C and increasing cytosolic Ca 2+ concentrations. ACE2 also plays an important role in inactivating Des-Arg9-Bradykinin (DABK), a bradykinin involved in inflammation. This inactivation promotes C-X-C motif chemokine 5 (CXCL5), macrophage inflammatory protein-2 (MIPS2), keratinocytes-derived chemokine (KC), and tumor necrosis factor-〈 (TNF-α) activity, drawing leukocytes into the affected tissues <ref type="bibr" target="#b29">[30]</ref>.</p><p>Decreased ACE2 receptor expression can have detrimental effects. Computational models of COVID-19 suggest the role of a bradykinin storm in the pathophysiology of the disease. In this model, the Kallikrein-Kinin and Renin-Angiotensin-Aldosterone Systems are integrated, with cross-talk mediated by the degradation of bradykinin by ACE and prolylcarboxypeptidase <ref type="bibr" target="#b30">[31]</ref>. This behavior makes the SARS-CoV-2 spike protein behave akin to an ACE-inhibiting drug <ref type="bibr" target="#b31">[32]</ref>. Thus, disruption of ACE2 expression from SARS-CoV-2 binding can lead to altered tissue function and exacerbate disease.</p><p>The ~600-kDa trimeric S proteins can bind to ACE2 through the RBD required for membrane fusion (see Fig. <ref type="figure" target="#fig_2">2</ref>). The binding initiates viral internalization, with the cleavage of S1/S2 inducing a conformational change from prefusion into post-fusion. S1 consists of the NTD, the RBD, and subdomain 1 and 2 (SD1 and SD2). S2 contains the hydrophobic fusion peptide and is responsible for the viral and cell membrane fusion <ref type="bibr" target="#b32">[33]</ref>. SARS-CoV-2 S-protein shows varying states of conformational shifts of the RBD site progressing towards proteolytic processing, making the viral RBD more accessible to ACE2, with the cleavage at the S1/ S2 leading towards RBD open confirmation and viral internalization <ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b33">34]</ref>. The S-and RBD-viral sites are notable for affecting transmission and disease severity, and variants have been shown to accumulate mutations at these sites leading to increased S-and RBD affinity with ACE2 <ref type="bibr" target="#b34">[35]</ref>. Understanding the biology of the SARS-CoV-2 surface interactions will help elucidate how the virus can invade multiple organ systems and cell types.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Calcium Ion (Ca 2+ ) Signaling</head><p>The calcium ion (Ca 2+ ) is essential many aspects of cellular physiology and viral replication. Experimental data on the relation between Ca 2+ signaling and SARS-CoV-2 infection and replication is sparse. However, studies of other coronaviruses (e.g., SARS-CoV-1, MERS-CoV) have reported that these viruses utilize Ca 2+ for host fusion <ref type="bibr" target="#b35">[36]</ref>. The fusion protein (FP) of MERS-CoV binds to one Ca 2+ ion, while the SARS-CoV-2 spike (S) protein has two FP domains, FP1 and FP2, and binds to two Ca 2+ ions for host cell entry <ref type="bibr" target="#b36">[37]</ref>. SARS-CoV-2 appears to affect cellular function by altering the host Ca 2+ homeostasis in ways that promote viral infection and reproduction (see Fig. <ref type="figure" target="#fig_3">3</ref>). One mechanism is through disruption of calcium channels and pumps (e.g., voltage-gated calcium channels (VGCCs), receptor-operated calcium channels, storeoperated calcium channels, transient receptor-potential ion channels, and Ca 2+ -ATPase) <ref type="bibr" target="#b27">[28,</ref><ref type="bibr" target="#b36">37]</ref>. This leads to increased intracellular Ca 2+ concentrations, resulting in virus-induced cell lysis <ref type="bibr" target="#b27">[28,</ref><ref type="bibr" target="#b36">37]</ref>. The interaction between the virus and VGCCs may also promote virus-host cell fusion for entry <ref type="bibr" target="#b27">[28]</ref>.</p><p>Viroporins, transmembrane pore-forming proteins that alter membrane permeability to ions including Ca 2+ by forming membrane channels, are a characteristic of a diversity of virus. SARS-CoV-1/2 each encode viroporins. SARS-CoV-1 encodes for three viroporin proteins ORF3a, E and ORF8b, which alter ion homeostasis within the cell, and have important roles in pathogenesis and promoting viral fitness. SARS-CoV-2 encodes two of these viroporin proteins, E and ORF3a; however, the ORF8 protein of SARS-CoV-2 is highly divergent from SARS-CoV-1 ORF8b and lacks the viroporin sequence of SARS-CoV-1 ORF8b.</p><p>The E and ORF3a proteins of coronaviruses impact Ca 2+ homeostasis in the host, by acting as calcium ion channels, enhancing the virion's entry and replication potential <ref type="bibr" target="#b37">[38]</ref>. The SARS-CoV-2-E protein is a 76 amino acid (aa) integral membrane protein with one transmembrane domain (TMD) that allows the E protein to form protein-lipid channels in membranes that promote permeability to Ca 2+ ions. The SARS-CoV-2-ORF3a protein is 274 aa in length, harbors three helical TMD, and is a Na + or Ca 2+ ion channel protein. The alteration of Ca 2+ homeostasis by SARS-COV-1-E and SARS-COV-2-E proteins promotes SARS-CoV-1/2 fitness and elicits the production of chemokines and cytokines, contributing to pathogenesis. Ion channel activity modulation by the SARS-CoV-1-ORF3a protein also modulates viral release <ref type="bibr" target="#b38">[39]</ref>. Therefore, when SARS-CoV-2 infects the human body, the resultant dysregulation of Ca 2+ homeostasis may contribute to morbidity and mortality. COVID-19 patients have been noted to have low serum calcium levels overall <ref type="bibr" target="#b39">[40]</ref>.</p><p>We speculate that Ca 2+ dysregulation could lead to increased cellular oxidative stress and shifts in metabolic activity. Low Ca 2+ may also be coupled with viral infection and internalization through the ACE2R, which synergizes with Ca 2+ signaling pathways. Understanding these reverberations will increase our insight into the basic biology of the effects of SARS-CoV-2 infection on the various organ systems. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Intracellular signaling</head><p>Viral infection and hijacking of cell-surface receptors begin to trigger activation of multiple intracellular pathways in addition to Ca 2+  As infection proceeds, SARS-CoV-2 manipulates, or totally reprograms, the normal metabolism and signaling of the host cell, optimizing the molecular environment to enable the viral replication cycle. This involves interfering with signaling pathways that regulate processes of DNA repair and replication, immune response, transcription, metabolism, cell cycle, and apoptosis <ref type="bibr" target="#b38">[39]</ref>.</p><p>SARS-CoV-2 infection alters phosphoinositide 3-kinase (PI3K)/ protein kinase B (AKT), Type I and III interferon, transforming growth factor-β (TGF-β), Toll-like receptors (TLR), and nuclear factor kappalight chain enhancer (NF-κB) pathways. These pathways are dysregulated in the setting of SARS-CoV-2 to antagonize host antiviral responses and are vital for viral replication, entry, propagation, and/or apoptosis/viral release. For instance, severe COVID-19 is characterized by an inflammatory profile dominated by NF-κB activity <ref type="bibr" target="#b40">[41]</ref>. The SARS-CoV-2-encoded NSP13 and Open Reading Frame 9c (ORF9c) proteins can interact directly with elements of the transducin-like enhancer (TLE) family of proteins and thus regulate the NF-κB inflammatory response <ref type="bibr" target="#b41">[42]</ref>. While broad activation of NF-κB is induced by a variety SARS-CoV-2encoded products, Open Reading Frame 7a (ORF7a) specifically is a potent stimulator of NF-κB associated proinflammatory chemo-and cytokines, which are elevated in the presence of severe COVID-19. NF-κB plays a similar role in other coronavirus infections.</p><p>Host antiviral immunity requires an optimal and coordinated response to control viral infections; this immunity is mediated by several host sensors, notably pattern recognition receptors (PRR). PRRs identify damage-and pathogen-associated molecular patterns (DAMPs and PAMPs, respectively). SARS-CoV-2 infects the cell via the endosomal compartment, and may activate TLRs, such as TLR4, resulting in increased NF-κB activity and expression <ref type="bibr" target="#b41">[42,</ref><ref type="bibr" target="#b42">43]</ref>. The MyD88-mediated TRIF activation of TLR downstream pathways triggers the nuclear translocation of NF-κB, IFN regulatory factor 3 (IRF-3), and IFN regulatory factor 7 (IRF-7), resulting in the expression of innate immunity proinflammatory cytokines (interleukin-1 [IL-1], interleukin-6 [IL-6], TNF-α) and interferons (IFNs). Continuous activation of TLR can increase MyD88 and Interleukin-1β (IL-1β), which then can further activate NF-κB <ref type="bibr" target="#b42">[43]</ref>. RNA viruses are detected by several sensors, such as TLRs 3, 7 and 8. TLR3 recognizes double stranded RNA, while TLR7 and TLR8 single stranded RNA. In addition to ssRNA and dsRNA, viral proteins can act as PAMPS and potentiate inflammatory signaling through the stimulation of surface TLRs. Interestingly, in SARS-CoV-2, TLR2 is a critical mediator of envelope protein detection and driver of pathogenesis through inflammatory process augmentation <ref type="bibr" target="#b43">[44]</ref>. Some individuals with severe COVID-19 have mutations in genes associated with type I and III IFN pathways <ref type="bibr" target="#b44">[45]</ref>. Ten percent of individuals that progress to severe COVID-19 pneumonia display elevated amounts of neutralizing antibodies against type I IFN-α2 and IFN-ω <ref type="bibr" target="#b45">[46]</ref>; these antibodies are not present in healthy or asymptomatic individuals. Of note, albeit TLR3 activation is critical for viral clearance, TLR3 hyperactivation can lead to a cytokine storm and the subsequent severe COVID-19. Other receptors are also involved in SARS-CoV-2 recognition, such as the proteins of retinoic acid-inducible gene I (RIG-I) and melanoma differentiation-associated gene 5 (MDA-5). Once inside the cell, double strand viral RNA can be recognized by RIG-I/MDA5, thus initiating an antiviral response through mitochondrial antiviral signaling (MAVS). MAVS activated the downstream pathways, IκB kinase α/β (IKK) and TBK1/IKKε, leading to translocation of NF-κB and/or IRF3 into the nucleus and induction of genes involved with innate antiviral immunity and the subsequent induction of IFN-stimulated genes (ISGs).</p><p>Inhibition of IFNs and ISGs is a tactic used by several viruses to evade host antiviral responses <ref type="bibr" target="#b46">[47]</ref>, and SARS-CoV-2-mediated IFNs and ISGs dysregulation appears to be an important strategy used by this virus to replicate and disrupt immune homeostasis. Furthermore, therapies with type I and III IFNs alone or combined with other drugs suppressed SARS-CoV-2, ameliorating COVID-19 disease <ref type="bibr" target="#b47">[48]</ref>.</p><p>The cytokine TGF-β triggers the Janus kinases (JAKs) / signal transducer and activator of transcription (STAT) proteins (JAK/ STAT) pathway in certain contexts, while suppressing it in others <ref type="bibr" target="#b48">[49]</ref>. It has been proposed that SARS-CoV-2 proteins, particularly NSP1 and ORF6, may dysregulate STAT1 and STAT3, leading to a positive feedback loop where coagulopathy triggers TLR4 via PAI-1 binding, circularly activating STAT; for this reason, therapeutic targeting of the Janus kinase pathway has been proposed <ref type="bibr" target="#b49">[50]</ref>.</p><p>The innate immune response is a first step to protecting against pathogens, which stimulate the interferon signaling pathway and expression of IFN-I, leading to an antiviral cellular response <ref type="bibr" target="#b50">[51]</ref>.</p><p>Coronaviruses have developed mechanisms to hinder IFNexpression and reduce the production of IFN. This suppression has been shown to correlate with disease severity and mortality <ref type="bibr" target="#b51">[52]</ref>. This holds true for SARS-CoV-2, with recent studies showing that viral proteins ORF6, ORF8, and nucleocapsid being potent inhibitors of the IFN-I signaling pathway <ref type="bibr" target="#b52">[53]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metabolic adaptations</head><p>Viruses rely on host cell machinery to propagate, promoting anabolism for generation of macromolecules needed for virion replication and assembly (see Fig. <ref type="figure" target="#fig_2">2</ref>). Consequently, viral proteins (see Supplementary Table <ref type="table">1</ref>) affect intracellular pathways, leading to subsequent adaptations by the cellular metabolism where the mitochondria plays a central role.</p><p>We reported recently through study of COVID-19 patient samples (i.e., nasopharyngeal swab samples, various organs from autopsy COVID-19 samples, murine lung tissues, and various organs from hamsters being infected with SARS-CoV-2) that heavy suppression occurs of mitochondrial functions in various organs <ref type="bibr" target="#b53">[54]</ref>. Specifically, in the course of SARS-CoV-2 infection, the virus blocks the transcription of discrete groups of mitochondrial genes from major bioenergetic organs, while upregulation occurs in others as a compensatory mechanism to rescue the damage occurring in the major bioenergetic organs. This demonstrated a dynamic evolution of mitochondrial gene expression and cellular energetics as the virus progresses from one organ to the next. Transcriptomic changes in the nasopharyngeal infected samples revealed that during initial SARS-CoV-2 infection, nDNA coded mitochondrial genes are blocked and the co-inhibited genes were found to group together as components of preassembly modules of the mitochondrial oxidative phosphorylation (OXPHOS) complexes I, II, III, IV and V. At the time of death for COVID-19 patients, we showed virtually all mitochondrial function were inhibited in the heart, suggesting cardiac mitochondrial dysfunction in longer term COVID-19 pathology. In addition, mTOR signaling and the integrated stress response were highly dysregulated throughout all organs. Lastly, mitochondrial inhibition was shown to activate HIF-1α and its target genes shifting cellular metabolism away from catabolism and towards viral synthesis. Our results indicate that manipulation of mitochondrial function may be an important approach for mitigating the severity of COIVID-19.</p><p>SARS-CoV-2 infection of human monocytes <ref type="bibr" target="#b54">[55]</ref> and human pulmonary alveolar epithelial (HPAEpiC) cells <ref type="bibr" target="#b55">[56]</ref> induced mitochondrial reactive oxygen species (mROS) production, increased HIF-1α protein levels and upregulated expression of HIF-1α target genes <ref type="bibr" target="#b56">[57]</ref>. The stability of hypoxia inducible factor-1α (HIF-1α) during a SARS-CoV-2 infection was shown to increase the production of pro-inflammatory cytokines and SARS-CoV-2 replication <ref type="bibr" target="#b54">[55]</ref><ref type="bibr" target="#b55">[56]</ref><ref type="bibr" target="#b56">[57]</ref>. The expression of ORF3a in human embryonic kidney 293 T-antigen cells (HEK293T) cells increased the stability of HIF-1α and induced mROS production, which is an activator of HIF-1α. Together these results suggest that ORF3a induces mROS production to activate HIF-1α, which in turn a shift in cellular metabolism to favor glycolysis, resulting in increased viral replication and transcription of pro-inflammatory cytokines.</p><p>Following cell infection, the SARS-CoV-2 replication/ transcription complex synthesizes ~30 kb viral genomes as well as the subgenomic RNAs required to encode for viral structural and mechanistic proteins. Between 1-5 h post-infection, the percentage of coronavirus-encoded protein per total cellular protein translation may increase by as much as 20,000 times, with the fraction of viral to cellular RNA ultimately reaching as high as 90% intracellularly <ref type="bibr" target="#b57">[58]</ref>. To accommodate this huge shift towards viral replication, there is certainly a requirement of a shift in cellular metabolism to accommodate for viral synthesis. An investigation of SARS-CoV-2 metabolism during the initial 48hours post viral infection showed that amino acid availability and synthesis are altered, de novo purine synthesis intermediates are accumulated, intracellular glucose and folate are depleted, and lactate levels are elevated <ref type="bibr" target="#b58">[59]</ref>. This suggests a viral strategy of upregulating purine metabolism at the post-translational level to coincide with the shutting off of the majority of host proteins at translation levels.</p><p>Virus-infected cells also commonly exhibit the Warburg effectincreased glycolytic metabolism in the presence of inadequate oxygen for oxidative phosphorylation -to supply reducing equivalents and precursors for macromolecule biosynthesis, and to support generation of ATP needed for also increasing nucleotide and lipid biosynthesis. Metabolic shifts include dysregulated Ca 2+ signaling and increased mitochondrial generation of ROS. How SARS-CoV-2 induces host cell nucleotide metabolism remains unanswered.</p><p>Mitochondrial metabolism and function are highly impacted in multiple ways. With the shift towards glycolysis, there is a reduction in oxidative phosphorylation affecting the mitochondria and its function. SARS-CoV-2 may interact with the mitochondria to destabilize its oxidative phosphorylation capacity. replication requires the formation of double-membrane vesicles (DMVs) derived from endoplasmic reticulum (ER). These DMVs serve as a site for viral replication and help conceal the virus from host cellular defenses. Interestingly, mitochondrial stress is known to induce mitochondria-derived vesicles (MDVs) that communicate with the ER. It is conceivable that SARS-CoV-2 disruption of mitochondrial function results in the induction of (doublemembrane) MDVs. SARS-CoV-2 RNA present in the mitochondria induces mitochondrial dysfunction. Increased DMVs can provide opportunity for viruses to hide and replicate <ref type="bibr" target="#b59">[60]</ref>.</p><p>SARS-CoV-2 and all subgenomic RNAs are enriched in the host mitochondria, and viral genome's 5ʹ -and 3ʹ -UTRs contain distinct mitochondrial localization signals <ref type="bibr" target="#b60">[61]</ref>, indicating that the viral RNA may hijack the mitochondria, an interesting hypothesis for experimental validation <ref type="bibr" target="#b60">[61]</ref>. Other recent studies have mapped physical interactions of SARS-CoV-2 encoded proteins with mitochondrial localized proteins. These interactions include: NSP8 interaction with mitochondrial ribosomal protein s2 (MRPS2), mitochondrial ribosomal protein s5 (MRPS5), mitochondrial ribosomal protein s25 (MRPS25), and mitochondrial ribosomal protein s27 (MRPS27) ribosomal proteins; ORF9c interaction with mitochondrial NADH:Ubiquinone Oxidoreductase Complex Assembly Factor 1 (NDUFAF1) and NADH:Ubiquinone Oxidoreductase Complex Assembly Factor 9 (NDUFB9); ORF10 interaction with TIMM8; and NSP7 interaction with mitochondrial NADH:Ubiquinone Oxidoreductase Complex Assembly Factor 2 (NDUFAF2). NDUFAF1, NDUFAF2, NDUFB9, and NADH:Ubiquinone Oxidoreductase Complex Assembly Factor 10 (NDUFA10) are all key players in the assembly of complex I, and NDUFA10 is suggested as being one of the master regulators of the SARS-CoV-2 pathology <ref type="bibr" target="#b6">[7]</ref>. Interactions were also observed between viral M protein and ATPase Na + /K + Transporting Subunit Beta 1 (ATP1B1), ATPase H + Transporting V1 Subunit A (ATP6V1A), acyl-coenzyme A dehydrogenase (ACADM), Alpha-aminoadipic semialdehyde synthase (AASS), Peptidase, Mitochondrial Processing Subunit Beta (PMPCB), Pitrilysin Metallopeptidase 1 (PITRM1), Coenzyme Q8B (COQ8B), and Peptidase, Mitochondrial Processing Subunit Alpha (PMPCA); these proteins are each components of critical mitochondrial metabolic pathways. SARS-CoV-2-encoded ORF9b protein interacts and localizes with Translocase Of Outer Mitochondrial Membrane 70 (TOMM70) <ref type="bibr" target="#b6">[7]</ref>, a mitochondrial import receptor important for transporting proteins into mitochondria and, more importantly, in modulating anti-viral cellular defense pathways <ref type="bibr" target="#b61">[62]</ref>. These mitochondrial interactions offer glimpses of the viral effect on glycolytic and oxidative phosphorylation pathways and the potential side effects.</p><p>Another example of COVID-19's mitochondrial-related impacts is the over-production of cellular ROS <ref type="bibr" target="#b62">[63]</ref>. ROS and reactive nitrogen species have diverse functions in biological systems; oxidatively attacking pathogens, regulating cell proliferation, and key signaling functions <ref type="bibr" target="#b63">[64]</ref>. However, dysregulation of ROS is implicated in many diseases, including the hyper-inflammatory late phase of COVID-19 <ref type="bibr" target="#b64">[65]</ref>. As a part of normal redox metabolism, superoxide radicals are converted into hydrogen peroxide by the action of superoxide dismutase. The hydrogen peroxide is subsequently broken down into water by glutathione peroxidase. During COVID-19, isoforms of enzymes, including glutathione peroxidase and thioredoxin reductase, may be directly targeted and proteolyzed by the SARS-CoV-2 protease, Mpro. SARS-CoV-2 is thought to suppress the ROS-associated Nuclear factor erythroid 2-related factor 2 (Nrf2) pathway. Nrf2 is a transcription factor that regulates the expression of antioxidant proteins that protect against oxidative damage. Dysregulation of the Nrf2 pathway will exacerbate the pro-oxidative stress caused by the virus <ref type="bibr" target="#b65">[66]</ref>. SARS-CoV-2 may suppress the accumulation of the selenoprotein transcripts, which are crucial for the correct functioning of Phospholipid hydroperoxide glutathione peroxidase (GPX4) and mitochondria function <ref type="bibr" target="#b66">[67]</ref>. This redox impairment would lead to a buildup of hydrogen peroxide, which could trigger inflammation by promoting the activity of the mitogen-activated protein kinase (MAPK), NF-κB, and the nuclear NOD-like receptor (NLR) family pyrin domain containing 3 (NLRP3) inflammasome <ref type="bibr" target="#b67">[68]</ref>.</p><p>Due to the multiple effects of SARS-CoV-2 that alter cellular metabolic and oxidative states, there are multiple directions to deplete NAD+, loss of cellular ATP and reduced Poly-ADP-ribose polymerase (PARP) activity, each of which have cytotoxic effects of their own <ref type="bibr" target="#b68">[69]</ref>. In general, NADPH, synthesized from NAD+, is necessary for many key redox reactions; a reduced level of NADPH could play a mechanistic role in cellular metabolic changes from SARS-CoV-2 infection. SARS-CoV-2 mediated reduction in ATP and nitric oxide signaling induces cell stress Cellular metabolism adapts to the alterations induced by SARS-CoV-2 infection of the cell (see Fig. <ref type="figure" target="#fig_4">4</ref>). These adaptations depend on the cell and tissue type. Here, we focus on ATP signaling, which is relevant to epithelial cells, and nitric oxide (NO) signaling, which tends to be perturbed in endothelial cells <ref type="bibr" target="#b69">[70]</ref>. Activation of each pathway at low levels provides protection to the host.</p><p>ATP production from oxidative phosphorylation, glycolysis, and other pathways is critical to support cellular physiology, but this molecule also has signaling properties, which can be particularly beneficial in epithelial cells <ref type="bibr" target="#b69">[70]</ref>. Perturbations in ATP generation induced by the virus in epithelial cells <ref type="bibr" target="#b70">[71]</ref> can lead to ATP release from the apical or basolateral spaces, and subsequent extracellular ATP signaling <ref type="bibr" target="#b71">[72]</ref>. It can stimulate P2 receptors on neighboring epithelial cells to activate signal transduction pathways and alter cellular function in adjacent cells even if they are not infected, thus priming naive host cells for confrontation with the virus <ref type="bibr" target="#b70">[71,</ref><ref type="bibr" target="#b71">72]</ref>.</p><p>In the endothelium, nitric oxide directly affects mitochondrial metabolism through interaction with cytochrome C, providing cytoprotection against free radicals. However, reduction of NO bioavailability, due to the increased stress state caused by SARS-CoV-2-elevated superoxides, results in the formation of (ONOO-). The reduced NO diffusion to neighboring vascular smooth muscle may impair vascular function <ref type="bibr" target="#b72">[73]</ref>. Peroxynitrite also causes injury to the mitochondria and reduces ATP synthesis, with all of the concomitant negative effects. Therefore, loss of NO bioavailability has major cellular consequences, inducing shifts in multiple enzymatic pathways, cell injury, and death.</p><p>Like ATP, NO acts as a biological signaling molecule. This dissolved gas rapidly diffuses across cell membranes and regulates various functions across the body <ref type="bibr" target="#b72">[73]</ref>. The vascular endothelium is the predominant cellular source of NO production, and it plays a critical role in maintaining cardiovascular function. Factors that reduce endothelial NO production (increased oxidative stress, changes in NO synthase synthesis) negatively affect endothelial function <ref type="bibr" target="#b72">[73]</ref>. The cascade of inflammation and oxidative stress triggered by COVID-19 leads to the formation of superoxide free radicals, impairing biological processes and increasing cytotoxicity in the host cells <ref type="bibr" target="#b73">[74]</ref>. The instantaneous reaction of superoxide and NO yields ONOO-, a powerful, cytotoxic nitrating agent. This reaction effectively destroys the NO, rendering it unavailable for its normal regulatory purposes. Thus, the downregulation of NO bioavailability is thought to be a central factor in the severity of COVID-19-associated endotheliitis and the onset of endothelial dysfunction <ref type="bibr" target="#b74">[75]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSION</head><p>The causative agent of the COVID-19 the pandemic, SARS-CoV-2, has caused loss of incomes, economic crises, morbidities, and loss of life worldwide. Here, we describe the virus and review state-ofthe-art information about the processes it utilizes to enter and reprogram the human host machinery. We detail research on early infection using evidence from patient samples, organoids and cells, and non-human animal studies. Each of these has limitations but taken together provide unique observational and mechanistic insight on SARS-CoV-2 infection.</p><p>COVID-19 is a pleiotropic condition. Viral insults and subsequent cellular metabolic adaptations differ in the context of cell-type, genotype and environmental influences. Thus, much of what we have presented applies to specific cell types and contexts, and we have attempted to cover these contexts.</p><p>Key avenues of future research on SARS-CoV-2 infection and propagation include: 1) defining the mechanisms of how the virus enters cells, and the protein and receptor molecules that are critical to this process; 2) elucidating the dynamics of how protein machinery is captured and retrofitted for viral purposes in a cellspecific manner; 3) understanding how the host genetics and environment can affect the ability of the virus to infect; 4) understanding the impact of SARS-CoV-2 on glycolysis and oxidative phosphorylation; and 5) revealing how the mitochondria adapts to ultimately shift its physiology from steady-state.</p><p>In the best-case scenario for the SARS-CoV-2 virus, infection leads to a cascade of intracellular adaptations in which multiple networks are remodeled, from transcription to metabolism to signal transduction, shifting the invaded host cell its original physiology into a SARS-CoV-2 replication system, and causing the of new viral particles and signaling molecules. The subsequent disease events will reverberate across the body's cells and organs. This will be the subject of our Part 2 review (in preparation).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>This large SARS-CoV-2 genome diversity has been categorized by different nomenclature systems, describing variants of varied public health interest or concern. Pango lineages B.1.1.7 (Alpha), B.1.351 (Beta), P.1 (Gamma) and B.1.617.2 (Delta) have been classified as "variants of concern" (VOC) because they present mutations that have been shown to impact diagnostics, treatments, or vaccines, conferring increased transmissibility and increased disease severity. The impact of these mutations highlights the need for further research not only on the mechanisms of SARS-CoV-2 intracellular processes, but also how the extracellular environment may lead to further spread of the virus and subsequent public health burden.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 SARS-CoV-2 structure. Structural elements of the virus, including the spike protein, envelope, membrane, and internal components such as the viral single-stranded RNA and nucleocapsid proteins (above). SARS-CoV-2 genome components (below).</figDesc><graphic coords="2,122.34,59.30,360.00,302.17" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 SARS-CoV-2 binding, intracellular internalization, and intracellular processes. Structural interactions between the virus and target cell, including the viral spike protein, ACE2-receptor, TMPRSS2 reaction to cleave and begin the viral intracellular internalization (above, A), and consequent signal transduction pathways stimulated by the virus as it hijacks pathways to turn the infected cell into a SARS-CoV-2 producing factory (below, B).</figDesc><graphic coords="3,49.89,59.30,486.03,586.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 SARS-CoV-2 effects on Ca 2+ signaling. Structural elements of the virus, including the spike protein, envelope, membrane, and internal components such as the viral single-stranded RNA and nucleocapsid proteins (above).</figDesc><graphic coords="5,49.89,59.30,486.03,370.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4</head><label>4</label><figDesc>Fig. 4 SARS-CoV-2 viral internalization &amp; cellular hijacking. Metabolic pathways and shifts that lead to cellular dysregulation and viral activation to lead towards viral replication (above).</figDesc><graphic coords="8,59.36,59.30,486.03,364.71" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>European Journal of Human Genetics (2022) 30:889 -898</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>The opinions expressed in this article are those of the authors and do not reflect the view of the <rs type="institution">National Institutes of Health</rs>, the <rs type="institution">Department of Health and Human Services</rs>, or the <rs type="institution">United States government</rs>.</p></div>
+			</div>
+			<div type="funding">
+<div><head>FUNDING</head><p>This work was supported by supplemental funds for COVID- <ref type="bibr" target="#b18">19</ref> research from <rs type="funder">Translational Research Institute of Space Health</rs> through <rs type="funder">NASA Cooperative</rs> Agreement <rs type="grantNumber">NNX16AO69A</rs> (<rs type="grantNumber">T-0404</rs>) to AB, and by a <rs type="funder">NASA</rs> <rs type="grantName">Space Biology Postdoctoral Fellowship</rs> (<rs type="grantNumber">80NSSC19K0426</rs>) to SAN. MJT is a recipient of The <rs type="grantName">Evelyn Grollman Glick Scholar Award</rs> and supported by research funding from <rs type="funder">The Dr. Miriam and Sheldon G. Adelson Medical Research Foundation</rs>, <rs type="funder">Van Andel Research Institute</rs> through the <rs type="funder">Van Andel Research Institute -Stand Up</rs> <rs type="programName">To Cancer Epigenetics Dream Team</rs>. <rs type="funder">Stand Up To Cancer</rs> is a program of the <rs type="funder">Entertainment Industry Foundation</rs>, administered by <rs type="funder">AACR</rs>, and <rs type="funder">Specialized Program of Research Excellence (SPORE) program</rs>, through the <rs type="funder">National Cancer Institute (NCI)</rs>, grant <rs type="grantNumber">P50CA254897</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_cCneYhw">
+					<idno type="grant-number">COVID- 19</idno>
+				</org>
+				<org type="funding" xml:id="_jj6bAYG">
+					<idno type="grant-number">NNX16AO69A</idno>
+				</org>
+				<org type="funding" xml:id="_vpU7mfh">
+					<idno type="grant-number">T-0404</idno>
+					<orgName type="grant-name">Space Biology Postdoctoral Fellowship</orgName>
+				</org>
+				<org type="funding" xml:id="_kcRvxmy">
+					<idno type="grant-number">80NSSC19K0426</idno>
+					<orgName type="grant-name">Evelyn Grollman Glick Scholar Award</orgName>
+				</org>
+				<org type="funding" xml:id="_CcTEqJ5">
+					<orgName type="program" subtype="full">To Cancer Epigenetics Dream Team</orgName>
+				</org>
+				<org type="funding" xml:id="_f9QTMn3">
+					<idno type="grant-number">P50CA254897</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>Conceptualization: DAJ; Writing -Original Draft: DAJ, SN; Writing -Review and Editing: AB, ESW, KKS, JWG, MJT, VZ, PMMV, DAJ, SN, NST. Visualization: DAJ, SN, JWG; Supervision: AB; Funding Acquisition: AB.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>COMPETING INTERESTS</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ADDITIONAL INFORMATION Supplementary information</head><p>The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1038/s41431-022-01108-8">https://doi.org/10.1038/s41431-022-01108-8</ref>.</p><p>Correspondence and requests for materials should be addressed to S. Anand Narayanan or Afshin Beheshti.</p><p>Reprints and permission information is available at <ref type="url" target="http://www.nature.com/reprints">http://www.nature.com/  reprints</ref> Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">An interactive web-based dashboard to track COVID-19 in real time</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gardner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="533" to="534" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Risk of rapid evolutionary escape from biomedical interventions targeting SARS-CoV-2 spike protein</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Van Egeren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Novokhodko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stoddard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zetter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rogers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PloS One</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">250780</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Molecular architecture of the SARS-CoV-2 virus</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="730" to="738" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A comparative overview of COVID-19, MERS and SARS</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Surg</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A sequence homology and bioinformatic approach can predict candidate targets for immune responses to SARS-CoV-2</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Grifoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sidney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Scheuermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sette</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Host Microbe</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="671" to="680" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">COVID-19 and SARS: Differences and similarities</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caldaria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Conforti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Di</forename><surname>Meo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Dianzani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jafferany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dermatol Ther</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">13395</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A SARS-CoV-2 protein interaction map reveals targets for drug repurposing</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bouhaddou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Obernier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">583</biblScope>
+			<biblScope unit="page" from="459" to="468" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The global spread of 2019-nCoV: a molecular evolutionary analysis</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Benvenuto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Giovanetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Salemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Prosperi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Flora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Junior</forename><surname>Alcantara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Angeletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ciccozzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pathog Glob Health</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="64" to="67" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Magnitude of asymptomatic COVID-19 cases throughout the course of infection: A systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yismaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Assemie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Ketema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mengist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kassie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PloS One</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">e0249090</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">An overview of SARS-CoV-2 and animal infection</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mahdy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Younis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ewaida</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Vet Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">1084</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">GESS: a database of global evaluation of SARS-CoV-2/hCoV-19 sequences</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="706" to="714" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Evolution of SARS-CoV-2: Review of Mutations, Role of the Host Immune System</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Banoun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nephron</title>
+		<imprint>
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="page" from="392" to="403" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Recurrent emergence of SARS-CoV-2 spike deletion H69/V70 and its role in the Alpha variant B.1.1</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Kemp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Papa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Datir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iatm</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">109292</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">SARS-CoV-2 variant classifications and definitions</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+		<respStmt>
+			<orgName>Centers for Disease Control and Prevention</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Functional assessment of cell entry and receptor usage for SARS-CoV-2 and other lineage B betacoronaviruses</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Letko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Munster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="562" to="569" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Viral targets for vaccines against COVID-19</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Gao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Immunol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="73" to="82" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Dynamics of the ACE2-SARS-CoV-2/SARS-CoV spike protein interface reveal unique mechanisms</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vijayan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1" to="2" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Cryo-EM structure of the SARS coronavirus spike glycoprotein in complex with its host cell receptor ACE2</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">1007236</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Comparative tropism, replication kinetics, and cell damage profiling of SARS-CoV-2 and SARS-CoV with implications for clinical manifestations, transmissibility, and laboratory studies of COVID-19: an observational study</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Yuen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shuai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Microbe</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="14" to="23" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Structural basis for the different states of the spike protein of SARS-CoV-2 in complex with ACE2</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="717" to="719" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Multiorgan and renal tropism of SARS-CoV-2</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Puelles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lütgehetmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Lindenmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Sperhake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Allweiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N. Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">383</biblScope>
+			<biblScope unit="page" from="590" to="592" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Postmortem examination of COVID-19 patients reveals diffuse alveolar damage with severe capillary congestion and variegated findings in lungs and other organs suggesting vascular dysfunction</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Menter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Haslbauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nienhold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Savic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hopfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Deigendesch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Histopathology</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="198" to="209" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">SARS-CoV-2 receptor ACE2 is an interferon-stimulated gene in human airway epithelial cells and is detected in specific cell subsets across tissues</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Ziegler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Allon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Nyquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Mbano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">N</forename><surname>Miao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Tzouanas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">181</biblScope>
+			<biblScope unit="page" from="1016" to="1035" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">System-wide transcriptome damage and tissue identity loss in COVID-19 patients</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Foox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hether</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Danko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep Med</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">100522</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Identification of SARS-CoV-2 inhibitors using lung and colonic organoids</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Nilsson-Payant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Duan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">589</biblScope>
+			<biblScope unit="page" from="270" to="275" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">SARS-CoV-2, ACE2 expression, and systemic organ invasion</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">M</forename><surname>Ashraf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Abokor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Waigi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Royfman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Hasan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiological Genomics</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="51" to="60" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Human ACE2 receptor polymorphisms and altered susceptibility to SARS-CoV-2</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Suryamohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Diwanji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Stawiski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Miersch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Commun Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1" to="1" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">SARS-CoV-2 D614G spike mutation increases entry efficiency with enhanced ACE2-binding affinity</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ozono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Imai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Attenuation of pulmonary ACE2 activity impairs inactivation of des-Arg9 bradykinin/BKB1R axis and facilitates LPS-induced neutrophil infiltration</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Sodhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wohlford-Lenane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yamaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Prindle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Fulton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol-Lung Cell Mol Physiol</title>
+		<imprint>
+			<biblScope unit="volume">314</biblScope>
+			<biblScope unit="page" from="17" to="31" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Kinin B1 receptors: key G-protein-coupled receptors and their role in inflammatory and painful processes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Calixto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Medeiros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Cabrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Campos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="803" to="818" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Structural and functional properties of SARS-CoV-2 spike protein: potential antivirus drug development for COVID-19</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">F</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Pharmacologica Sin</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="1141" to="1149" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Structure of the SARS-CoV-2 spike receptor-binding domain bound to the ACE2 receptor</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">581</biblScope>
+			<biblScope unit="page" from="215" to="220" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Interaction of SARS-CoV-2 and other coronavirus with ACE (angiotensin-converting enzyme)-2 as their main receptor: therapeutic implications</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wysocki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Batlle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hypertension</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="1339" to="1349" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A ZDHHC5-GOLGA7 protein acyltransferase complex promotes nonapoptotic cell death</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Dubreuil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Skouta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Bassik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1716" to="1724" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Kinins and cytokines in COVID-19: a comprehensive pathophysiological approach</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van De Veerdonk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Netea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Deuren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Van</forename><surname>Der Meer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Mast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Bruggemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">SARS-CoV-2 ORF8 and SARS-CoV ORF8ab: genomic divergence and functional convergence</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mohammad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bouchama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohammad</forename><surname>Alharbi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rashid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Saleem</forename><surname>Khatlani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gaber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pathogens</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">677</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Role of severe acute respiratory syndrome coronavirus viroporins E, 3a, and 8a in replication and pathogenesis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Castaño-Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Honrubia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gutiérrez-Álvarez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Dediego</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Nieto-Torres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Jimenez-Guardeño</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MBio</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="2325" to="2342" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Coronavirus proteins as ion channels: Current and potential research</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mcclenaghan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Nichols</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Immunol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">2651</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Hypocalcemia is highly prevalent and predicts hospitalization in patients with COVID-19</title>
+		<author>
+			<persName><forename type="first">Di</forename><surname>Filippo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Formenti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rovere-Querini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Carlucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Conte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ciceri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Endocrine</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="475" to="478" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Caporali R COVID-19 revisiting inflammatory pathways of arthritis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Manger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Simon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="465" to="470" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">SARS-CoV-2 infection of pluripotent stem cell-derived human lung alveolar type 2 cells elicits a rapid epithelial-intrinsic inflammatory response</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Hume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Abo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Werder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Villacorta-Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Alysandratos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Stem Cell</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="962" to="973" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">TLR2 senses the SARS-CoV-2 envelope protein to produce inflammatory cytokines</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Karki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fitzpatrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vogel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Immunology</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="1" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Famotidine inhibits toll-like receptor 3-mediated inflammatory signaling in SARS-CoV-2 infection</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bhattacharya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bojkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Mehdipour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Khan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biolog Chem</title>
+		<imprint>
+			<biblScope unit="volume">297</biblScope>
+			<biblScope unit="page">100925</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Inborn errors of type I IFN immunity in patients with life-threatening COVID-19</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bastard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Pen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Moncada-</forename><surname>Velez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">370</biblScope>
+			<biblScope unit="page">4570</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Autoantibodies against type I IFNs in patients with life-threatening COVID-19</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bastard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Michailidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">370</biblScope>
+			<biblScope unit="page">4585</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Triple combination of interferon beta-1b, lopinavir-ritonavir, and ribavirin in the treatment of patients admitted to hospital with COVID-19: an open-label, randomised, phase 2 trial</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">F</forename><surname>Hung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Lung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Y</forename><surname>Tso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Chu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">395</biblScope>
+			<biblScope unit="page" from="1695" to="1704" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Effectiveness of Interferon Beta 1a, compared to Interferon Beta 1b and the usual therapeutic regimen to treat adults with moderate to severe COVID-19: structured summary of a study protocol for a randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Irvani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Golmohammadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Pourhoseingholi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shokouhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Darazam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trials</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1" to="3" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Clinical presentation and management of COVID-19</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Thevarajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Buising</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Cowie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med J Aust</title>
+		<imprint>
+			<biblScope unit="volume">213</biblScope>
+			<biblScope unit="page" from="134" to="139" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Lymphopenia predicts disease severity of COVID-19: a descriptive and predictive study</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wang</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ding</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Signal Transduct Target Ther</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1" to="3" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">TLR4 Cross-talk with NLRP3 inflammasome and complement signaling pathways in Alzheimer&apos;s disease</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wise</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">I</forename><surname>Fukuchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Immunol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">724</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The ORF6, ORF8 and nucleocapsid proteins of SARS-CoV-2 inhibit type I interferon signaling pathway</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qiu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virus Res</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page">198074</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Activation and evasion of type I interferon responses by SARS-CoV-2</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wang</forename><forename type="middle">W</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1" to="2" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Elevated glucose levels favor SARS-CoV-2 infection and monocyte response through a HIF-1α/glycolysis-dependent axis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Codo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Davanzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>De Brito Monteiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>De Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Muraro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Virgilio-Da-Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="437" to="446" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Targeted down regulation of core mitochondrial genes during SARS-CoV-2 infection</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Guarnieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Dybas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fazelinia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Frere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">bioRxiv</title>
+		<imprint>
+			<date type="published" when="2022-02-22">2022 Feb 22</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">A cross-talk between epithelium and endothelium mediates human alveolar-capillary injury during SARS-CoV-2 infection</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell death Dis</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">HIF-1α promotes SARS-CoV-2 infection and aggravates inflammatory responses to COVID-19</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Shereen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Signal Transduct Target Ther</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1" to="3" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">High-resolution analysis of coronavirus gene expression by RNA sequencing and ribosome profiling</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Irigoyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Firth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">Y</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Siddell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Brierley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">1005473</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Decoding SARS-CoV-2 hijacking of host mitochondria in COVID-19 pathogenesis</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chaubey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Suravajhala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol-Cell Physiol</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="page" from="258" to="267" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Mitochondrial metabolic manipulation by SARS-CoV-2 in peripheral blood mononuclear cells of patients with COVID-19</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ajaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcphail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mujib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Trovato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Napoli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol-Cell Physiol</title>
+		<imprint>
+			<biblScope unit="volume">320</biblScope>
+			<biblScope unit="page" from="57" to="65" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Multilevel proteomics reveals host perturbations by SARS-CoV-2 and SARS-CoV</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stukalov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Girault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Grass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Karayel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bergant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urban</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">594</biblScope>
+			<biblScope unit="page" from="246" to="252" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Viral hijacking of cellular metabolism</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Thaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ch'ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christofk</forename><surname>Hr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">SARS-CoV-2 infection pathogenesis is related to oxidative stress as a response to aggression</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cecchini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Cecchini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Hypotheses</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page">110102</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Role of oxidative stress on SARS-CoV (SARS) and SARS-CoV-2 (COVID-19) infection: a review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Suhail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zajac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fossum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lowater</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mccracken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Severson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The protein journal</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="644" to="656" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Understanding selenium and glutathione as antiviral factors in COVID-19: Does the viral Mpro protease target host selenoproteins and glutathione synthesis?</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Radding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Nutr</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">143</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">SARS-CoV-2 suppresses mRNA expression of selenoproteins associated with ferroptosis, endoplasmic reticulum stress and DNA synthesis</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stubbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Food Chem Toxicol</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page">112286</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Redox regulation of NLRP3 inflammasomes: ROS as trigger or effector?</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Abais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Boini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antioxid Redox Signal</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="1111" to="1129" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">SARS-CoV2-mediated suppression of NRF2-signaling reveals potent antiviral and antiinflammatory activity of 4-octyl-itaconate and dimethyl fumarate</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Olagnier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Farahani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Thyrsted</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Blay-Cadanet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Herengt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Idorn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1" to="2" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Coronavirus infection and PARP expression dysregulate the NAD metabolome: An actionable component of innate immunity</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Heer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Sanderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Voth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Alhammad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Trammell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">295</biblScope>
+			<biblScope unit="page" from="17986" to="17996" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">The phosphate makes a difference: cellular functions of NADP</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Agledal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Niere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ziegler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Redox Rep</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="2" to="10" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Extracellular ATP as a signaling molecule for epithelial cells</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Schwiebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zsembery</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochimica et Biophysica Acta (BBA)-Biomembranes</title>
+		<imprint>
+			<biblScope unit="volume">1615</biblScope>
+			<biblScope unit="page" from="7" to="32" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">ATP as a signaling molecule: the exocrine focus</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Novak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiology</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="12" to="17" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Covid-19 accelerates endothelial dysfunction and nitric oxide deficiency</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbes Infect</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">149</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Blood nitrate and nitrite modulating nitric oxide bioavailability: potential therapeutic functions in COVID-19</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yamasaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nitric Oxide</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="29" to="30" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">NF-κB in oxidative stress</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lingappan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Toxicol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="81" to="86" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Could the decrease in the endothelial nitric oxide (NO) production and NO bioavailability be the crucial cause of COVID-19 related deaths?</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ozdemir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yazici</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Hypotheses</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page">109970</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Predicting how varying moisture conditions impact the microbiome of dust collected from the International Space Station</title>
+				<funder ref="#_zsC5NmQ">
+					<orgName type="full">NASA Space Biology</orgName>
+				</funder>
+				<funder ref="#_wf56DbC">
+					<orgName type="full">National Aeronautics and Space Administration</orgName>
+					<orgName type="abbreviated">NASA</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-09-10">2024-09-10</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Nicholas</forename><surname>Nastasi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Environmental Science Graduate Program</orgName>
+								<orgName type="institution">Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Civil</orgName>
+								<orgName type="department" key="dep2">College of Engineering</orgName>
+								<orgName type="department" key="dep3">Environmental, and Geodetic Engineering</orgName>
+								<orgName type="institution">Ohio State University</orgName>
+								<address>
+									<addrLine>470 Hitchcock Hall 2050 Neil Ave</addrLine>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Division of Environmental Health Sci- ences</orgName>
+								<orgName type="department" key="dep2">College of Public Health</orgName>
+								<orgName type="institution">Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ashleigh</forename><surname>Bope</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Environmental Science Graduate Program</orgName>
+								<orgName type="institution">Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Civil</orgName>
+								<orgName type="department" key="dep2">College of Engineering</orgName>
+								<orgName type="department" key="dep3">Environmental, and Geodetic Engineering</orgName>
+								<orgName type="institution">Ohio State University</orgName>
+								<address>
+									<addrLine>470 Hitchcock Hall 2050 Neil Ave</addrLine>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Division of Environmental Health Sci- ences</orgName>
+								<orgName type="department" key="dep2">College of Public Health</orgName>
+								<orgName type="institution">Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marit</forename><forename type="middle">E</forename><surname>Meyer</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">NASA Glenn Research Center</orgName>
+								<address>
+									<postCode>44135</postCode>
+									<settlement>Cleveland</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><forename type="middle">M</forename><surname>Horack</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Mechanical and Aerospace Engineering</orgName>
+								<orgName type="department" key="dep2">College of Engineering and John Glenn College of Public Affairs</orgName>
+								<orgName type="institution">Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Karen</forename><forename type="middle">C</forename><surname>Dannemiller</surname></persName>
+							<email>dannemiller.70@osu.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Civil</orgName>
+								<orgName type="department" key="dep2">College of Engineering</orgName>
+								<orgName type="department" key="dep3">Environmental, and Geodetic Engineering</orgName>
+								<orgName type="institution">Ohio State University</orgName>
+								<address>
+									<addrLine>470 Hitchcock Hall 2050 Neil Ave</addrLine>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Division of Environmental Health Sci- ences</orgName>
+								<orgName type="department" key="dep2">College of Public Health</orgName>
+								<orgName type="institution">Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Sustainability Institute</orgName>
+								<orgName type="institution">The Ohio State University</orgName>
+								<address>
+									<postCode>43210</postCode>
+									<settlement>Columbus</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Predicting how varying moisture conditions impact the microbiome of dust collected from the International Space Station</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Microbiome</title>
+						<title level="j" type="abbrev">Microbiome</title>
+						<idno type="eISSN">2049-2618</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">12</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2024-09-10" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">A7887F3C55128BC28BA13CC2193ED352</idno>
+					<idno type="DOI">10.1186/s40168-024-01864-3</idno>
+					<note type="submission">Received: 23 February 2024 Accepted: 25 June 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Built environment</term>
+					<term>Fungi</term>
+					<term>Spacecraft</term>
+					<term>Relative humidity</term>
+					<term>Microbiome</term>
+					<term>Space biology</term>
+					<term>Moisture</term>
+					<term>Mold</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>The commercialization of space travel will soon lead to many more people living and working in unique built environments similar to the International Space Station, which is a specialized closed environment that contains its own indoor microbiome. Unintended microbial growth can occur in these environments as in buildings on Earth from elevated moisture, such as from a temporary ventilation system failure. This growth can drive negative health outcomes and degrade building materials. We need a predictive approach for modeling microbial growth in these critical indoor spaces.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Here, we demonstrate that even short exposures to varying elevated relative humidity can facilitate rapid microbial growth and microbial community composition changes in dust from spacecraft. We modeled fungal growth in dust from the International Space Station using the time-of-wetness framework with activation and deactivation limited growth occurring at 85% and 100% relative humidity, respectively. Fungal concentrations ranged from an average of 4.4 × 10 6 spore equivalents per milligram of dust in original dust with no exposure to relative humidity to up to 2.1 × 10 10 when exposed to 100% relative humidity for 2 weeks. As relative humidity and timeelevated increased, fungal diversity was significantly reduced for both alpha (Q &lt; 0.05) and beta (R 2 = 0.307, P = 0.001) diversity metrics. Bacteria were unable to be modeled using the time-of-wetness framework. However, bacterial communities did change based on constant relative humidity incubations for both beta (R 2 = 0.22, P = 0.001) and alpha diversity decreasing with increasing moisture starting at 85% relative humidity (Q &lt; 0.05).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>Our results demonstrate that moisture conditions can be used to develop and predict changes in fungal growth and composition onboard human-occupied spacecraft. This predictive model can be expanded upon to include other spacecraft environmental factors such as microgravity, elevated carbon dioxide conditions, and radiation exposure. Understanding microbial growth in spacecraft can help better protect astronaut health, fortify spacecraft integrity, and promote planetary protection as human activity increases in low-Earth orbit, the moon, Mars, and beyond.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>In the next decade, more people than ever will be working and living in space. This will be fueled in part by the National Aeronautics and Space Agency (NASA) Commercial Low-Earth Orbit Destination initiative that will support private companies such as Starlab Space, LLC, and Blue Origin to build and operate the next generation of space stations <ref type="bibr" target="#b0">[1]</ref>. In addition, NASA's Artemis missions will establish a lunar orbiting space station named Gateway, as well as a surface habitat, which will be the proving ground for technologies needed to live on Mars <ref type="bibr" target="#b1">[2]</ref>. One of the best analogs we have available to these future systems is the International Space Station (ISS).</p><p>The ISS is a unique built environment that is an almost completely closed indoor system continuously inhabited for over 20 years in low-Earth orbit. The ISS contains its own unique microbiome with over 12,000 species identified onboard <ref type="bibr" target="#b2">[3]</ref>, similar to indoor environments on Earth <ref type="bibr" target="#b3">[4]</ref>. These microbes originate from the astronauts, their food, onboard experiments, and other sources <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>. Similar to Earth, many microbes reside in the dust <ref type="bibr" target="#b6">[7]</ref>.</p><p>On Earth, indoor dust acts as a sink <ref type="bibr" target="#b7">[8]</ref> for microbes and a potential exposure source <ref type="bibr" target="#b8">[9]</ref> for occupants in the indoor environment. Dust is also generated onboard the ISS from the daily activities of the crew. The crew must use a vacuum to remove dust from the high-efficiency particulate air (HEPA) filter coverings, which are a part of the air ventilation system, on a weekly basis <ref type="bibr" target="#b9">[10]</ref>. The exposure risk for microbes in dust is not well understood in microgravity environments, but it differs from Earth due to the altered particle size distributions in the air and the absence of gravitational settling influences how they deposit in the lungs when inhaled <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref>.</p><p>Exposure to fungal growth indoors is associated with negative health outcomes such as asthma and allergies <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b14">15]</ref>. Understanding indoor microbial exposure risks is especially critical in the extreme conditions experienced during spaceflight that compromise the human immune system, potentially exacerbating any negative health effects <ref type="bibr" target="#b15">[16]</ref>. Additionally, the unique stressors of a spaceflight environment can cause changes in microbial communities such as increased virulence <ref type="bibr" target="#b16">[17]</ref> and antimicrobial resistance <ref type="bibr" target="#b4">[5]</ref>. Negative health impacts due to microbial exposure have impacted ISS crew members during flight with symptoms such as rhinitis, skin infections, urinary tract infections, and skin rashes <ref type="bibr" target="#b17">[18]</ref>. In addition to astronaut health, preventing microbial growth during spaceflight is important to maintain the structural integrity of the spacecraft as some microbes are able to degrade mission-critical spacecraft materials such as plastics <ref type="bibr" target="#b18">[19]</ref>, sealants <ref type="bibr" target="#b19">[20]</ref>, and fibers <ref type="bibr" target="#b20">[21]</ref> which can cause premature failure of spacecraft components. Microbial activity onboard has been known to cause issues in essential systems such as biofouling in water lines due to issues in the original design that has since been rectified <ref type="bibr" target="#b21">[22]</ref>. In addition, capture of bacterial-and fungal-related airborne particles is a major function of the ISS air filtration system <ref type="bibr" target="#b22">[23]</ref>.</p><p>Increased levels of relative humidity facilitate rapid microbial growth, especially for fungi. Elevated equilibrium relative humidity (ERH) in the air is sufficient to provide enough water availability to microbes to support growth in the dust <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b24">25]</ref>, which can be predicted even under varying relative humidity conditions using the time-of-wetness framework <ref type="bibr" target="#b25">[26]</ref>. These elevated ERH conditions significantly alter community composition and change microbial function in terrestrial house dust <ref type="bibr" target="#b23">[24,</ref><ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b26">27]</ref>. On the ISS, the current NASA operational guidelines for relative humidity is to maintain it between 25 and 75% <ref type="bibr" target="#b27">[28]</ref>, but pockets of elevated moisture conditions are possible during the daily operations onboard. Examples include fungal growth on plant experiments onboard due to a ventilation failure that caused high ERH <ref type="bibr" target="#b28">[29]</ref>, fungal growth on fabric panels where a wet towel was placed <ref type="bibr" target="#b29">[30]</ref> on various pieces of equipment used onboard <ref type="bibr" target="#b30">[31]</ref>, and microbial growth on free-floating condensate on the Russian station Mirin an unused section of the station <ref type="bibr" target="#b31">[32]</ref>. However, we do not yet understand if we are able to predict fungal growth in dust from the ISS as can be done on Earth.</p><p>The goal of this project is to predict fungal growth in dust from the ISS under varying moisture conditions using the time-of-wetness framework. To our knowledge, this is the first study to actively grow a collection of microbes directly from a substrate that is onboard the ISS to model unexpected high moisture conditions. The results have important implications for protecting human health and spacecraft integrity during future missions to the moon, Mars, and beyond.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methodology</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Overview</head><p>Dust samples were obtained from four vacuum bags that came from weekly housekeeping activities to clean the protective screen covers for the HEPA filters which are part of the ISS air ventilation system. Samples were returned to Earth, where they were incubated at varying constant ERH conditions (50%, 60%, 70%, 80%, 85%, 90%, and 100%) for 2 weeks. In addition, the time-of-wetness framework was used to model microbial growth at elevated (85% ERH) and saturated (100% ERH) conditions. Quantitative polymerase chain reaction (qPCR) was used for the quantification of bacteria and fungi for all samples. Illumina MiSeq sequencing was used to determine how microbial communities in the ISS dust changed for each ERH and time-of-wetness condition. In addition, a subset of these samples was observed via scanning electron microscopy to visualize microbial growth directly on the ISS dust samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ISS dust samples</head><p>All dust used in this study was obtained from vacuum bags (CELOC hypo-allergenic filter system Oreck# PKBB12DW) from the vacuum onboard the ISS which the astronauts use to clean the HEPA filter coverings that are part of the air ventilation system. It is important to note that we had no control over when, how much, or where these vacuums were used while onboard, which means other areas may have also been vacuumed in addition to the HEPA filter coverings. In total, ISS dust from four separate vacuum bags was returned to Earth and analyzed in this study. ISS vacuum bags 1-4 were collected by the ISS crew on GMT 264 (September 21, 2018), GMT 102 (April 12, 2019), GMT 243 (August 31, 2019), and GMT 286 (October 13, 2019) and returned to Earth on SpaceX16 (January 13, 2019), SpaceX-17 (July 3, 2019), and SpaceX-19 (January 7, 2020). In total, it took approximately 6, 5, 6, and 4 months for bags 1, 2, 3, and 4 to reach our lab at the Ohio State University from the actual collection date onboard ISS. For ISS vacuum bag 1, the full vacuum bag was sent directly to The Ohio State University Indoor Environmental Quality Laboratory. ISS vacuum bags 2-4 were first sent to the Toxicology and Environmental Chemistry group at NASA's Johnson Space Center (Houston, TX, USA), and then, a subsample of dust was sent to us for analysis. In addition, we received dust samples that were frozen onboard the ISS, returned in cold stowage, and sent directly to our laboratory, where they were stored at -80 °C until use (Additional file 1: Table <ref type="table">S1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Incubations</head><p>All incubation was completed in a sterilized 3.8 L glass chamber and placed in a VWR incubator (Model TFFU20F2QWA Radnor, PA USA) set to 25 °C. Sodium chloride (NaCl) and magnesium chloride (MgCl 2 ) solutions were used to simulate 50%, 60%, 70%, 80%, 85%, and 90% ERH conditions. Deionized (DI) water alone was used to create 100% ERH conditions. Salt solutions were measured for water activity (a w ) using an Aqualab ™ Dew Point Water Activity Meter (Decagon 125 Devices Pullman, WA, USA) and adjusted as needed. All incubation chambers contained approximately 50 mL of salt solution or DI for the desired ERH condition and an Onset ® HOBO ® Data logger (Onset Computer Corporation, Bourne, MA, USA) to monitor ERH and temperature. Dust samples were not sieved and measured out into approximately 25 mg portions that were placed on sterile aluminum foil on a plastic dish. Two-week incubations consisted of triplicate samples for each ISS bag and ERH condition (three samples from each bag per incubation chamber) similar to previous studies <ref type="bibr" target="#b23">[24]</ref>.</p><p>Time-of-wetness incubations followed a procedure previously outlined <ref type="bibr" target="#b24">[25]</ref>. Time-of-wetness refers to the time fraction per day when relative humidity conditions are above the 80% threshold <ref type="bibr" target="#b25">[26]</ref>. This framework was applied to microbial growth in ISS dust by calculating the relative growth rates at days 5, 10, 14, and 21 at elevated (85% ERH) and saturated (100% ERH) conditions which cycled between 50% ERH for 6, 12, 18, and 24 h during separate incubations. To obtain the relative growth rate (R/k), we first calculated the growth rates (k) for constant (24 h/day) elevated and saturated conditions. Next, the effective growth rates (R) were calculated for each condition (elevated and saturated) at 6-, 12-, and 18-h time points. The relative growth rate was calculated for each bag at each time of wetness first, then these values were averaged to obtain the averaged maximum relative growth rate for each time point and ERH condition. Samples were extracted and quantified on days 5, 10, 14, and 21 after incubation (one 25-mg dust sample per day per bag). All incubation chambers were covered with parafilm to retain ERH conditions and allow CO 2 to escape.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA extractions and qPCR</head><p>DNA was extracted from all dust samples using a DNeasy Powerlyzer Power Soil Kit (Qiagen, Hilden, Germany) with a modified bead mixture (1 g garnet, 0.3 g 100 µm glass beads, and 0.1 g 500 µm beads) to allow for more efficient lysis of cells in the dust substrate <ref type="bibr" target="#b32">[33]</ref>. Each DNA extraction run included a blank and was confirmed to contain no microbial DNA. A total of 50 µL of DNA extract was collected for each sample and stored at -20℃ until use.</p><p>qPCR was used to determine fungal and bacterial concentrations for all samples with an Applied Biosystems ™ QuantStudio ™ 6 Flex System (Fisher Scientific, Waltham, MA, USA) using QuantStudio Real-Time PCR Software version 1.3. All samples were diluted to a 50X solution in Tris-EDTA (TE) buffer solution, and triplicate qPCR measurements were made for each sample. For every plate run on qPCR, two wells of template controls were included, and all wells consisted of a 25-µL reaction volume, which included 2 µL of sample.</p><p>Total fungal and bacterial quantities in samples were determined by the use of universal assays that measured at the whole kingdom level. SYBR ® Green (Applied Biosystems ™ ), forward primer (FF2) 5′-GGT TCT ATT TTG TTG GTT TCTA-3′, and reverse primer (FR1) 5′-CTC TCA ATC TGT CAA TCC TTATT-3′ was used to quantify fungal concentration which targets the 18S rRNA gene <ref type="bibr" target="#b33">[34]</ref>. Aspergillus fumigatus was grown on Difco ™ Potato Dextrose Agar and after 14 days spores were collected, counted, and DNA extracted for use as standards for qPCR fungal quantification. For bacteria, TaqMan ® master mix (Applied Biosystems ™ ), forward primer 5′-TCC TAC GGG AGG CAG CAG T-3′, reverse prime 5′-GGA CTA CCA GGG TAT CTA ATC CTG TT-3′, and PROBE (6-FAM)-5′-CGT ATT ACC GCG GCT GCT GGCAC-3′-(BHQ) was used to target the 16S rRNA gene <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b34">35]</ref>. Bacillus atrophaeus was grown in Difco ™ Luria-Bertani Broth, Miller overnight, counted, and DNA extracted for qPCR bacterial quantification standards. Fungal and bacterial standards were counted using a Labomed microscope with a 20X air objective lens and InCyto DHC-N01-5 Neubauer Improved C-Chips. These standards were run in duplicate for each qPCR plate with a total of six dilutions ranging from 10 1 to 10 6 cells or spores/µL. For bacteria, this was reported as cells per milligram of dust, while fungi were reported as spore equivalents per milligram of dust. The term "spore equivalent" refers to the fact fungi are eukaryotic, and the DNA measured with qPCR could be from a spore or from another fungal structure present such as hyphae or different fungal propagules. qPCR cycling parameters for fungal and bacterial primer sets consisted of one cycle of 50℃ for 2 min and 95℃ for 10 min, followed by 40 cycles of 95℃ for 15 s and 60℃ for 1 min. All qPCR values were multiplied by a dilution factor (50X), and the 50 µL extraction volume was then divided by the dust mass of each sample. A subset of samples went through qPCR inhibition testing by spiking A. fumigatus and B. atrophaeus onto the dust with no inhibition of the reaction detected. The molecular methods used in this study, namely qPCR values are reported in cells/spore equivalents and will not account for differences in DNA extraction efficiency, amplification bias, or gene copy number between species <ref type="bibr" target="#b35">[36,</ref><ref type="bibr" target="#b36">37]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microbial sequencing</head><p>All sequencing for dust samples was performed on an Illumina MiSeq ™ at RTL Genomics (Lubbock, TX, USA). All samples were sequenced for fungi, and a smaller subset was sequenced for bacteria. For fungal sequencing, ITS1F (CTT GGT CAT TTA GAG GAA GTAA) and ITS2aR (GCT GCG TTC TTC ATC GAT GC) ribosomal DNA primers were used <ref type="bibr" target="#b37">[38]</ref>, while the bacteria used 515F (5′-GTG CCA GCMGCC GCG GTA) and 806R (5′-GGA CTA CHVHHHTWT CTA AT) primers <ref type="bibr" target="#b38">[39]</ref> with 2 × 300 bp sequencing reads.</p><p>The Quantitative Insights Into Microbial Ecology 2 (QIIME2), version 2021.8, bioinformatics pipeline was used to analyze raw FASTQ sequencing data <ref type="bibr" target="#b39">[40]</ref>. For fungi, primers and spacers were trimmed using the Cutadapt <ref type="bibr" target="#b40">[41]</ref> plug-in and paired-ends joined using the VSEARCH join-pairs method <ref type="bibr" target="#b41">[42]</ref>. Sequences were then trimmed to a Phred score of 30 with three low-quality base windows using the Quality-filter plugin <ref type="bibr" target="#b42">[43]</ref>. Fungal sequences were clustered using the vsearch open reference method with UNITE database reference sequences (version 9.0) <ref type="bibr" target="#b43">[44]</ref>. Bacterial sequences were run through the Dada2 pipeline <ref type="bibr" target="#b44">[45]</ref> and clustered by phylogeny <ref type="bibr" target="#b45">[46]</ref>. Beta diversity metrics for fungi were analyzed using Bray-Curtis dissimilarity while bacteria utilized unweighted and weighted UniFrac statistics with a principle coordinate analysis (PCoA) and Adonis function in QIIME2 <ref type="bibr" target="#b46">[47]</ref>. Richness and Shannon alpha diversity metrics were calculated for all incubations and significance determined using the Kruskal-Wallis test statistic from QIIME2.</p><p>The Basic Local Alignment Search Tool (BLAST) version 2.9.0 <ref type="bibr" target="#b47">[48]</ref>, the User-friendly Nordic Internal Transcribed spacer Ectomycorrhiza (UNITE) 2019 database <ref type="bibr" target="#b48">[49]</ref>, and Fungal High-throughput Taxonomic tool for use with Next-Generation Sequencing (FHitINGS) <ref type="bibr" target="#b49">[50]</ref> version 1.4 was used to identify fungal taxonomy. A note that an updated 2022 version of the UNITE database now exists, and we compared relative abundance data to our analyses of the 2019 database to which no significant differences for our samples were observed. Bacterial taxa were classified in QIIME2 using the feature-classifier plugin <ref type="bibr" target="#b50">[51]</ref> which utilized the Greengenes database version 13_8 <ref type="bibr" target="#b51">[52]</ref>. All sequencing data has been submitted to NASA's GeneLab database (GLDS-623) <ref type="bibr" target="#b52">[53]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microscopy and total organic carbon</head><p>A subset of dust samples from ISS bag 1 were observed using scanning electron microscopy. Approximately 1.25 mg of dust was placed on black double-sided carbon tape and attached to a SEM sample holder. These samples were then incubated in triplicates for several ERH conditions (50%, 85%, and 100%) for 2 weeks at 25 °C. After incubation, samples were coated with 25 nm of gold and placed in a Apreo ™ LoVac Scanning Electron Microscope (Thermo Scientific ™ Waltham, MA, USA) for visual observation. Microscopy preparation and analysis were completed at the Center for Electron Microscopy and Analysis (Ohio State University Columbus, OH, USA). In addition, we measured the total soluble organic carbon in the original dust and dust after incubation after 2 weeks at 85% and 100% ERH. A total of four samples were measured at each condition which included one from each bag. Each dust sample was placed into 35 mL of DI in a 50-mL falcon tube. The tubes were placed on a shaker table at 180 rpm for 30 min. After shaking, 30 mL of the solution was extracted and run through a 0.45-µm filter which was then used for analyses. Soluble organic carbon was measured on a Shimadzu TOC-V CSN (VELP Scientific, Inc. Deer Park, NY, USA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analyses</head><p>Microbial quantities for constant ERH incubations at each ERH condition tested were compared to quantities in the original dust (no incubation) samples using Satterthwaite two-sample t tests and a Spearman rank correlation coefficient utilizing STATA (Version 16.1). Statistical significance was considered (P&lt; 0.05). QIIME2 version 2021.8.0 was used to create a principal coordinate analysis (PCoA) plot using Bray-Curtis and UniFrac distance matrices. The Adonis function was also used to compare ERH and TOW conditions for microbial species beta diversity while Kruskal-Wallis was used to determine significance for alpha diversity. The PCoA plot was imported into R Studio (version 2021.09.0 Build 351) for visualization. Statistical Analysis System ® Studio, version 9.4, was used to compare taxonomic diversity between ERH conditions, time-of-wetness, frozen, and original dust samples. Species that did not occur in at least 10% of all samples were removed before analysis. All relative abundance data was transformed using the inverse hyperbolic sine function and combined with qPCR quantities to produce an absolute abundance value as previously described <ref type="bibr" target="#b24">[25]</ref>. Taxonomy among samples was analyzed using the PROC MULTTEST FDR Test Mean function in SAS. False discovery rate was used instead of positive false discovery rate due to the relatively small sample size <ref type="bibr" target="#b53">[54]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Increased relative humidity conditions lead to increased microbial growth</head><p>Dust was received from four vacuum bags from the ISS with an average initial fungal concentration of 4.39 × 10 6 spore equivalents (SE)/mg dust and an average bacterial load of 1.06 × 10 7 cells/mg dust. After incubating the dust samples for 2 weeks at different ERH conditions to simulate an unexpected high moisture event, the fungal concentration ranged from 4.22 × 10 6 SE/mg dust at 50% ERH to 2.10 × 10 10 SE/mg dust at 100% ERH (Fig. <ref type="figure" target="#fig_0">1</ref>, Table <ref type="table">S2</ref>). Increased fungal concentration was associated with elevated ERH conditions after 2 weeks (Spearman rank correlation (r s ) = 0.77, P &lt; 0.0001) with significantly more fungal growth at 80% (P &lt; 0.044) and 85-100% ERH (P &lt; 0.0001) (Table <ref type="table">S3</ref>). Bacterial concentration was significantly increased compared to the original load at 90% (P = 0.005) and 100% ERH (P = 0.0001) with a positive association between bacterial concentration and ERH (r s = 0.39, P = 0.0001) (Additional file 2: Figure <ref type="figure" target="#fig_0">S1A</ref>, Table <ref type="table">S2</ref>-S3). Dust was also collected by tweezers from the ISS HEPA filters and returned frozen for analysis with lower fungal and bacterial loads compared to bulk dust samples (Additional file 1: Table <ref type="table">S4</ref>). These results are similar to previous studies that showed significant growth under similar conditions for fungi <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b23">24]</ref> and bacteria <ref type="bibr" target="#b7">[8]</ref> in dust collected from Earth-based residential homes. The overall quantity of fungal growth is also comparable between these studies where house dust <ref type="bibr" target="#b23">[24]</ref> and ISS dust could both reach more than 10 9 spore equivalents per milligram of dust when exposed to 100% ERH for 2 weeks.</p><p>Original dust samples (no incubation or ERH exposure) and dust incubated at 50% ERH for 2 weeks showed no visible signs of microbial growth, in scanning electron microscopy images (Fig. <ref type="figure" target="#fig_1">2A</ref>,<ref type="figure">B</ref>). At elevated relative humidity conditions of 85% and 100% ERH, we observed indications of active fungal growth on the dust substrate (Fig. <ref type="figure" target="#fig_1">2C</ref>,<ref type="figure">D</ref>). This included elongated hyphae with conidia production prevalent on almost all dust surfaces, which indicates that fungal reproduction is occurring. In general, more of all of these structures were observed at 100% compared to 85% ERH, similar to other studies with Earth dust and carpet samples <ref type="bibr" target="#b23">[24]</ref>. Our previous microscopy analyses in residential carpets also concluded that almost no fungal growth occurred even at high ERH conditions if house dust was not present, indicating the nutrients in dust are essential for active growth <ref type="bibr" target="#b23">[24]</ref>.</p><p>Total soluble organic carbon was measured in ISS dust samples that included the original dust as well as dust incubated at 85% and 100% ERH for 2 weeks at 25℃ (Fig. <ref type="figure">3</ref>). For each condition, a total of four samples were measured that included one sample per ISS bag collected. In the original dust, total soluble organic carbon ranged from 12.55 to 36.79 mg/L with no significant changes after a 2-week incubation at 85% ERH (10.2-29.05 mg/L, P = 0.52). In contrast, there was a significant reduction in soluble organic carbon after 2-week incubations at 100% ERH (1.76-8.08 mg/L, P= 0.048). This is a soluble organic carbon utilization rate of approximately 1.2 and 0.3 mg soluble carbon per day for 100% and 85% ERH conditions, respectively. From the original ISS dust samples, we measured an average of 22 mg soluble organic carbon per milligram of dust. In comparison, house dust from Earth-based residential homes contains 35 mg of total soluble organic carbon per mg of dust <ref type="bibr" target="#b7">[8]</ref>. This indicates that dust from both the ISS and homes on Earth contains significantly more carbon than is required for fungal growth (~ 0.0072 mg soluble carbon/mg dust). Therefore, moisture continues to be the limiting factor for growth.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fungal growth predictions vary based on maximum ERH</head><p>Relative humidity often fluctuates in indoor spaces, so we applied the time-of-wetness framework to model fungal growth measured under varying ERH conditions (high moisture for 0, 6, 12, 18, and 24 h per day). We observed an activation-limited growth model for elevated (85% ERH) conditions, while at saturated (100% ERH), we observed a deactivation-limited growth model (Fig. <ref type="figure">4</ref>). At both elevated and saturated conditions, growth was associated with increasing time per day at higher moisture levels (r s = 0.68, P = 0.015). Bacterial growth showed no significant difference between elevated and saturated conditions and did not align with any time-of-wetness growth model (Additional file 2: Figure <ref type="figure" target="#fig_0">S1B</ref>). On Earth, fungi in house dust samples differed and showed a two-stage activation limited growth model for both elevated (85% ERH) and saturated (100% ERH) conditions, and bacteria also had insufficient growth to apply a model <ref type="bibr" target="#b24">[25]</ref>. Effective growth constants and total fungal growth rates for the model are available in Additional file 1: Tables S5-S9. The differences in fungal growth models for Earth and ISS-built environments may be due to different microbial and chemical compositions of the dust because even Earth-based buildings in close proximity can differ. These differences can be attributed to many environmental factors such as the occupants inside, cleaning habits, building materials, temperature, humidity, and other factors. Fig. 4 Fungal time-of-wetness modeling for elevated (85% ERH) and saturated (100% ERH) conditions. Elevated conditions (orange) show an activation-limited growth model, while saturated conditions (green) show a deactivation-limited growth model. Error bars shown represent the standard error between all four ISS bags sampled</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microbial diversity changes as ERH conditions are altered</head><p>We analyzed the fungal and bacterial communities in the samples via DNA amplicon sequencing (Table <ref type="table">S10</ref>). There was a total of 11,180,519 quality fungal reads and 2,502,228 quality bacterial reads present in all sequenced samples. A total of 107 fungal species and 127 bacterial species were present in at least 10% of samples. The most common fungal genera were Aspergillus (100% of samples), Penicilium (95%), and Rhodotorula (94%). The most common fungal species in all samples included Aspergillus sydowii (100%), Aspergillus unguis (100%), and Penicillium chrysogenum (90%). For bacteria, Bacillales (99%), Actinomycetales (99%), and Clostridiales (96%) were the most common order and the most common bacterial species were Corynebacterium kroppenstedtii (81%), Staphylococcus pettenkoferi (78%), and Lactobacillus helveticus (74%).</p><p>After incubation at constant ERH, fungal community composition differed by each bag (R 2 = 0.233, P = 0.001) and ERH condition (R 2 = 0.307, P = 0.001) (Fig. <ref type="figure">5A</ref>). In all varying ERH samples, fungal community composition also differed by bag (R 2 = 0.098, P = 0.001) and varying ERH conditions (R 2 = 0.090, P = 0.001) (Fig. <ref type="figure">5B</ref>), though to a lesser degree compared to the constant ERH incubation. These differences were more pronounced when limiting the analysis to a single maximum ERH level or time elevated. For example, considering the 24-h incubations only for elevated and saturated conditions shows a more distinct difference in species (R 2 = 0.201, P = 0.001). PCoA plots for all conditions is shown in Additional file 2: Figures <ref type="figure" target="#fig_1">S2-S4</ref> and Additional file 1: Table <ref type="table">S11</ref>). Bacterial beta diversity analyses showed similar trends of community composition changing with increased ERH and time-of-wetness conditions (Additional file 2: Figure <ref type="figure">S5</ref>, Additional file 1: Table <ref type="table">S12</ref>). Finally, frozen dust samples were compared to the original dust and constant ERH incubation samples at 50, 85, and 100% ERH. For both fungi and bacteria, frozen samples clustered close to the original dust and 50% ERH samples but were more dissimilar to 85 and 100% ERH samples (Additional file 1: Figure <ref type="figure">S6</ref>, Additional file 1: Table <ref type="table">S13</ref>).</p><p>Moisture also impacted sample diversity. For fungal constant ERH incubations, richness was significantly decreased (Q &lt; 0.05) compared to original dust samples starting at 85% ERH, while Shannon diversity differences appeared at 80% ERH (Fig. <ref type="figure">6A</ref>, <ref type="figure">B</ref>, Additional file 1: Table <ref type="table">S14</ref>). For time-of-wetness samples at saturated (100% ERH) conditions, there were significant changes in both fungal richness and Shannon diversity at extended times elevated (12, 18, and 24 h) compared to the shorter times tested (0 and 6 h) (Fig. <ref type="figure">6C</ref>,<ref type="figure">D</ref>). We also limited analyses to specific ERH conditions and times elevated (Additional file 1: Table <ref type="table">S15</ref>). Bacterial samples also showed significant changes in richness and Shannon diversity during constant ERH incubations at 85%, 90%, and 100% ERH compared to original dust samples, while timeof-wetness samples also showed significant differences between 50 and 100% ERH conditions for 24 h (Additional file 1: Figure <ref type="figure">S7A</ref>, Additional file 1: Table <ref type="table">S16</ref>). Finally, frozen samples were compared to original dust samples as well as samples from constant ERH incubations at 50%, 85%, and 100% ERH. For bacteria, there was a significant difference in both richness and Shannon diversity for all conditions tested; however, fungi only showed these differences at 85% and 100% ERH for 2 weeks compared to the frozen dust samples (Additional file 1: Figure <ref type="figure">S7B</ref>, Additional file 1: Table <ref type="table">S17</ref>).</p><p>Fig. <ref type="figure">5</ref> Principal coordinate analyses (PCoAs) of beta diversity fungal species present in ISS dust after 2-week incubations at varying ERH conditions (A) and time-of-wetness conditions (B). Both scenarios show as ERH increases (green to red) the fungal species composition is altered Differential abundance analyses were used to compare fungal species between all incubation conditions in this study. Comparing fungal species at non-elevated (original dust, 50, 60, 70% ERH) to elevated (80, 85, 90, 100% ERH) conditions identified a total of 77 species more abundant at non-elevated conditions compared to only six species more abundant at elevated conditions (Additional file 1: Table <ref type="table">S18</ref>). This indicates that at elevated ERH conditions (&gt; 80% ERH) fungi such as Aspergillus sydowii (P &lt; 0.0001), Aspergillus unguis (P &lt; 0.0001), Aspergillus nidulans (P &lt; 0.0001), Aspergiullus subversicolor (P &lt; 0.0001), Penicillium chrysogenum (P = 0.0016), and Aspegillus hongkongensis (P = 0.0071) may be growing, significantly reducing fungal diversity in the ISS dust. Under varying relative humidity conditions, there were generally more species associated with lower moisture conditions (Additional file 1: Tables <ref type="table">S19-S21</ref>). These analyses were also performed for bacteria and found no significant differences in bacterial species between any of the incubation times and ERH conditions tested (Additional file 1: Table <ref type="table">S23</ref>).</p><p>Aspergillus is the dominant genus, and it becomes more dominant as ERH and time elevated increases (Fig. <ref type="figure">7</ref>). A similar trend is also shown in the constant ERH incubations (Additional file 1: Figure <ref type="figure" target="#fig_3">S8</ref>), where Aspergillus is the most dominant at 85% and 90% ERH. Interestingly, at 100%, Penicillium starts to grow significantly more compared to other elevated ERH conditions (80%, 85%, and 90% ERH). Finally, we compared original dust samples (no incubation or ERH exposure) to frozen dust samples (Additional file 1: Figure <ref type="figure" target="#fig_4">S9</ref>). For relative abundance, the original dust samples contained more Aspergillus, Cyberlinda, and Alternaria, while the frozen samples appeared to contain more Rhodotorula, Malassezia, and Rhodosporidiobolus. There was also a significant difference in absolute abundance for all fungal genera with up to 10 4 spore eq/mg dust present in the original dust samples compared to the frozen samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>To date, all microbial studies that have been performed related to spaceflight samples have focused on characterizing what is there including water, surface, dust, and air samples <ref type="bibr" target="#b54">[55]</ref><ref type="bibr" target="#b55">[56]</ref><ref type="bibr" target="#b56">[57]</ref>, but not what happens when moisture becomes elevated and unintended growth occurs. To our knowledge, this is the first study to expose ISS dust to varying moisture conditions to show that increasing ERH alters microbial growth and community composition even for a short period of time. As mentioned above, NASA sets standards for ERH conditions onboard the ISS that ideally stay between 25 and 75% ERH <ref type="bibr" target="#b27">[28]</ref>. However, due to the airflow present in the ISS ventilation Fig. <ref type="figure">6</ref> Fungal alpha diversity plots for constant ERH, 2-week incubations (A, B), and time of wetness incubations (C, D). For constant incubations, the x-axis represents the original dust and ERH conditions after 2 weeks of incubation (A, B). Time-of-wetness incubations show the time elevated on the x-axis as well as the ERH conditions tested (50% = red, 85% = green, and 100% = blue). Note that 50% of ERH conditions for time-of-wetness samples were only performed at a time elevated of one (24 h per day) system, pockets of isolated moisture can occur in certain spots around the station especially during certain activities. For example, astronauts are required to exercise for 2.5 h daily to mitigate the many negative health impacts associated with long-duration spaceflight <ref type="bibr" target="#b57">[58]</ref> which creates excess moisture in the form of sweat. Personal hygiene is also a major source of potential elevated moisture exposure while showering, brushing teeth, or washing hands. Additionally, this moisture may originate from the crew dining area during meals or from unintended water release from several plant production systems onboard <ref type="bibr" target="#b58">[59,</ref><ref type="bibr" target="#b59">60]</ref>. In microgravity fluids such as water act differently compared to on Earth, such as capillary forces being more dominant on the ISS (microgravity) where Earth is governed by gravitational forces. Due to these many potential sources of daily elevated moisture conditions, it is critical to understand how fungal and bacterial communities in spacecraft dust will react when receiving ideal growth conditions, namely water availability, and how this can affect crew health, spacecraft integrity, and planetary protection plans.</p><p>In ISS dust after 2 weeks exposed to constant ERH conditions significant growth for fungi occurred at 80% RH, while for bacteria this occurred at 90% ERH compared to original dust samples (no ERH exposure). This is similar to previous studies that showed significant growth under similar conditions for fungi <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b7">8]</ref> and bacteria <ref type="bibr" target="#b4">[5]</ref> in dust collected from Earth-based residential homes. The overall quantity of fungal growth is also comparable between these studies where house dust <ref type="bibr" target="#b7">[8]</ref> and ISS dust could both reach more than 10 9 SE per milligram dust when exposed to 100% RH for 2 weeks. The timeof-wetness framework has also been applied to growth in Earth-based house dust samples that can be compared to samples from ISS dust. Time-of-wetness samples showed a two-stage activation limited growth model for fungi for both elevated (85% RH) and saturated (100% RH) conditions <ref type="bibr" target="#b8">[9]</ref>. These results differ in contrast to the ISS dust where elevated RH fungi showed an activation-limited growth model and at saturated conditions showed a deactivation-limited growth model (Fig. <ref type="figure">4</ref>). There may be several potential reasons for this difference in fungal growth models for Earth and ISS built environments. Generally, every indoor environment has a different microbial dust composition. For future missions, especially beyond low-Earth orbit, understanding the microbes present and how they may grow will be essential to mitigate any potential negative impacts on crew health and safety due to microbial-related illness or material degradation.</p><p>These results offer a path to improved prediction of fungal growth in specialized indoor spaces modeled on fluctuating ERH conditions. However, it is important to restate that these incubations were performed on Earth and not in environmental conditions experienced in Fig. <ref type="figure">7</ref> Mean relative (A) and absolute (B) abundance data for the fungal genus of time-of-wetness samples. Abundances represent elevated (85%) and saturated (100%) relative humidity conditions at 6-, 12-, 18-, and 24-h time-of-wetness samples as well as unmodified (50%) at 24 h. The mean abundances here represent the average for day 5, 10, 14, and 21 dust samples for each relative humidity and time-of-wetness condition for the four total ISS vacuum bags tested in this study (a total of 12 samples for each ERH/time-of-wetness condition) low-Earth orbit such as microgravity, elevated CO 2 , and low-dose radiation, all of which may affect microbial growth and microbial composition. The results are also affected by the dust sampling protocol for returned vacuum bags, which were triple-sealed and stored at room temperature while awaiting return to Earth in which time microbial communities may have been altered. Given the difficulty of procuring spaceflight samples, we have a relatively small sample size (dust from four ISS vacuum bags), but this should be sufficient to provide valuable information. These limitations highlight the need for future on-orbit studies to better understand this microbiology during actual spaceflight conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>Our results provide important foundational knowledge for the prediction of fungal growth in future spacecraft, space stations, and surface habitats. The time-of-wetness framework, which utilizes varying ERH conditions, as shown in this study can be expanded and refined to incorporate other key environmental factors present in spaceflight. With the appropriate model based on time exposure to elevated relative humidity levels, we can predict how much and what type of microbial growth will be present in spacecraft dust during long-duration human space missions. We can continue to refine moisture control on spacecraft to preserve a healthy environment. As crewed commercial spacecraft and missions beyond low-Earth orbit become a reality, a better understanding of microbes onboard a spacecraft will protect human health and spacecraft integrity and aid in developing planetary protection protocols to prevent forward and/or backward microbial contamination of Earth and the other celestial bodies we will visit in the future <ref type="bibr" target="#b60">[61]</ref>.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Fungal growth concentrations of original dust and after constant equilibrium relative humidity incubations at 50, 60, 70, 80, 85, 90, and 100% ERH at 25℃. Each fungal concentration represents the average value of four vacuum bags which included physical triplicates for each bag and triplicate qPCR concentrations for each sample for a total of 36 measurements per condition. Error bars represent the standard error of fungal quantities for each vacuum bag. * indicate statistically significant growth (P &lt; 0.05) compared to the original dust using Satterthwaite two-sample t test</figDesc><graphic coords="5,155.92,494.62,283.44,172.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 Scanning electron microscopy (SEM) images of ISS dust from the original dust (A) and incubations at 50% ERH (B) show fibrous dust materials, but no fungal growth. Fungal growth including spores, elongated hyphae, and different fungal propagules was observed in ISS dust incubated at 85% ERH (C) and 100% ERH (D) for 2 weeks at 25℃</figDesc><graphic coords="6,127.54,433.22,340.20,255.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 Fig. 4</head><label>34</label><figDesc>Fig.3Total soluble organic carbon (TOC) measured in ISS dust in the original dust as well as in dust incubated (25°C) for 2 weeks at 85% and 100% relative humidity conditions. Significant reductions in TOC were observed for 100% conditions but not 85% compared to original dust samples indicating potential fungal use of TOC in ISS dust. Each condition contained four samples (one from each ISS bag in this study), and error bars are the standard deviation of these four bags. * represents a statistically significant (P &lt; 0.05) reduction in total soluble organic carbon compared to original dust samples using Satterthwaite two-sample t test</figDesc><graphic coords="7,155.92,88.58,283.44,192.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure S8 :</head><label>S8</label><figDesc>FigureS8: Mean relative (A) and absolute (B) abundance data for fungal genus in constant equilibrium relative humidity (ERH) incubation samples. Original dust was not incubated and represents what was in the dust in the ISS vacuum bags with no ERH exposure. For each ERH condition, samples were incubated for 2 weeks at 25°C. Each condition (including original dust) represents the mean of 12 total dust samples which includes 3 physical triplicates from the 4 ISS vacuum bags used in this study. FigureS9: Mean relative (A) and absolute (B) abundance data for fungal genus of frozen ISS dust and original dust samples. Original dust was not incubated and represents what was in the dust in the ISS vacuum bags with no ERH exposure. Frozen dust samples were collected onboard the ISS via a tweezer (no vacuum), placed in a triple-sealed plastic bag, and stored at -80°C until use in this study. The abundance data represents of a total of 12 samples for original dust samples (3 for each ISS bag) and 8 frozen dust samples (1 for each location sampled).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure S9 :</head><label>S9</label><figDesc>FigureS8: Mean relative (A) and absolute (B) abundance data for fungal genus in constant equilibrium relative humidity (ERH) incubation samples. Original dust was not incubated and represents what was in the dust in the ISS vacuum bags with no ERH exposure. For each ERH condition, samples were incubated for 2 weeks at 25°C. Each condition (including original dust) represents the mean of 12 total dust samples which includes 3 physical triplicates from the 4 ISS vacuum bags used in this study. FigureS9: Mean relative (A) and absolute (B) abundance data for fungal genus of frozen ISS dust and original dust samples. Original dust was not incubated and represents what was in the dust in the ISS vacuum bags with no ERH exposure. Frozen dust samples were collected onboard the ISS via a tweezer (no vacuum), placed in a triple-sealed plastic bag, and stored at -80°C until use in this study. The abundance data represents of a total of 12 samples for original dust samples (3 for each ISS bag) and 8 frozen dust samples (1 for each location sampled).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="8,64.18,524.62,466.92,172.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="9,64.18,88.58,466.92,258.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="10,127.54,88.58,340.20,242.52" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We would like to thank the <rs type="funder">National Aeronautics and Space Administration (NASA)</rs> <rs type="grantName">Space Biology Grant</rs> (#<rs type="grantNumber">80NSSC19K0429</rs>) for funding and support for this study. We also greatly appreciate <rs type="person">Mark Ott</rs> as well as the staff at the <rs type="institution">NASA Microbiology Laboratory and Toxicology and Environmental Chemistry (TEC) group</rs> for their help in obtaining dust samples from the <rs type="institution">International Space Station</rs>.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>This project was funded by the <rs type="funder">NASA Space Biology</rs> Grant #<rs type="grantNumber">80NSSC19K0429</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_wf56DbC">
+					<idno type="grant-number">80NSSC19K0429</idno>
+					<orgName type="grant-name">Space Biology Grant</orgName>
+				</org>
+				<org type="funding" xml:id="_zsC5NmQ">
+					<idno type="grant-number">80NSSC19K0429</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Availability of data and materials</head><p>The sequencing data that supports the findings of this study are available in the NASA Open Science Data Repository (OSDR), also known as GeneLab, with identifiers <ref type="url" target="https://doi.org/10.26030/87vb-2280">https:// doi. org/ 10. 26030/ 87vb-2280</ref>, OSD-694, GLDS-623. All microbial quantification data used in this study can be found in the supplementary information.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abbreviations</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Information</head><p>The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1186/s40168-024-01864-3">https:// doi.  org/ 10. 1186/ s40168-024-01864-3</ref>.</p><p>Additional file 1: Table <ref type="table">S1</ref>: Frozen dust sample dates and location. These frozen samples were not vacuumed, instead they were picked from the location and placed into a sterile bag. They were then frozen at -80C until use in this study. Table <ref type="table">S2</ref>: Fungal and bacterial concentrations for 2-week incubation samples at 25℃ and each ERH condition tested. Table <ref type="table">S3</ref>: Summary of Satterthwaite two-sample t-test statistics for fungal and bacterial 2-week incubations. Table <ref type="table">S4</ref>: qPCR values for fungal and bacterial quantities for frozen dust sample and the original dust collected from the ISS vacuum bags. Table <ref type="table">S5</ref>: Total fungal growth rates for TOW incubations.</p><p>Values represent the average of the 4 ISS bags collected. Table <ref type="table">S6</ref>: qPCR values for all TOW samples. Table <ref type="table">S7</ref>: Effective growth rate constants (k) for TOW at constant (24 h per day) ERH conditions. Table <ref type="table">S8</ref>: Effective growth constants (R) for all TOW samples. Table <ref type="table">S9</ref>: Relative growth constants (R/k) for all TOW samples. Table <ref type="table">S10</ref>: Most common taxa that was present in all sequenced samples sorted by order, genus, and species for bacteria and fungi. Table <ref type="table">S11</ref>: Adonis values for fungal bray Curtis PCoA analysis for each time-of-wetness condition. Table <ref type="table">12:</ref> Adonis statistics for bacterial time of wetness beta diversity measurements. Table <ref type="table">S13</ref>: Adonis statistics for fungal and bacterial frozen sample comparisons. Frozen samples were compared to original dust samples (from ISS vacuum bag) as well as 2-week incubations at 50%, 85%, and 100% RH. Table <ref type="table">S14</ref>: Fungal alpha diversity Kruskal-Wallis statistics for richness and Shannon diversity for 2-week incubations at each RH conditions tested. Significant changes in both richness and Shannon diversity compared to the original dust began to occur at 80% RH (Q &lt; 0.05). Table <ref type="table">S15</ref>: Richness and Shannon diversity Kruskal-Wallis statistics for fungal time-of-wetness samples. Table <ref type="table">S16</ref>: Kruskal-Wallis test statistics for alpha diversity metrics for all sequenced bacterial samples. Table <ref type="table">S17</ref>: Kruskal-Wallis test statistics for fungal and bacterial frozen sample comparisons. Table <ref type="table">S18</ref>: Differential abundance fungal comparison between non-elevated (Original Dust, 50, 60, 70% RH) and elevated (80, 85, 90, 100% RH) after 2-week constant ERH incubations at 25℃. Table <ref type="table">S19</ref>: Differential abundance fungal comparison between original dust samples and 24-h TOW saturated (100% RH) conditions. There were 52 fungal species more abundant in the original dust compared to 6 species more abundant at saturated conditions. Table <ref type="table">S20</ref>: Differential abundance fungal comparison between unmodified (50% RH) 24-h TOW samples and 24-h TOW saturated (100% RH) conditions. There were 29 fungal species more abundant in the unmodified condition compared to 10 species more abundant at saturated conditions. Table <ref type="table">S21</ref>: Differential abundance fungal comparison between high (85% RH) 24-h TOW samples and 24-h TOW saturated (100% RH) conditions. There was 1 fungal species more abundant in the high condition compared to 8 species more abundant at saturated conditions. Table <ref type="table">S22</ref>: Differential abundance fungal comparison between high (85% RH) for all TOW samples and all TOW saturated (100% RH) conditions. There were 30 fungal species more abundant in the high condition compared to 4 species more abundant at saturated conditions. Table <ref type="table">23</ref>: Example of bacterial differential abundance analysis for non-elevated (original dust and 50% RH) and elevated (80, 85, 90, and 100% RH) conditions for 2-week incubations. No bacterial species were found to be more abundant in either condition. This was true for all time-of-wetness incubation comparisons as well (not shown). Additional file 1: Figure <ref type="figure">S1: A</ref>) Bacterial concentration of original dust and at each ERH condition tested <ref type="bibr">(50, 60, 70, 80, 85, 90, and 100%)</ref> after two weeks at 25℃. Quantities for each condition represent a total of 36 qPCR measurements from 4 vacuum bags with triplicate physical samples from each bag and triplicate qPCR measurements per sample. B) Time-of-Wetness models for bacterial growth in ISS dust for elevated (85% ERH) and saturated (100% ERH) conditions. Figure <ref type="figure">S2</ref>: Fungal principal coordinate analyses of time-of-wetness samples separated out by elevated (A) and saturated (B) relative humidity conditions. Figure <ref type="figure">S3</ref>: Fungal principal coordinate analyses of time-of-wetness samples separated out by time points of 6 h (A), 12 h (B), 18 h (C), and 24 h (D). Figure <ref type="figure">S4</ref>: Fungal principal coordinate analyses of 50% ERH time-of-wetness samples separated out by sample days. Figure <ref type="figure">S5: A</ref>) Bacterial PCoA plots for constant ERH 2-week incubations. Only original dust, 50%, 80%, 85%, 90%, and 100% ERH samples were sequenced. B) Bacterial PCoA plot for Time-of-Wetness incubations. Only constant 24-h samples for 50% and 100% ERH conditions were performed for days 5, 10, 14, and 21. Both figures represent weighted unifrac distance matrices. Figure <ref type="figure">S6</ref>: Principal coordinate analyses of frozen dust sample returned from the ISS. Frozen samples were compared to original dust samples (from ISS vacuum bag) as well as 2-week incubations at 50%, 85%, and 100% ERH. Fungi PCoA plots used the Bray-Curtis dissimilarity statistics (C), while bacteria used both weighted (A) and unweighted unifrac (B). Figure <ref type="figure">S7</ref>: Frozen sample alpha diversity plots for (A) bacteria and (B) fungi. Frozen dust samples were compared to original dust, 50% ERH 2-week, 85% ERH 2-week, and 100% ERH 2-week incubations.</p><p>Authors' contributions N.N: writing-original draft, visualization, software, methodology, and formal analyses. A.B.: writing-review and editing, methodology, and data analysis. M.E.M.: writing-review and editing and resources. J.M.H.: writing-review and editing and resources. K.C.D.: writing-original draft, supervision, project administration, methodology, funding acquisition, and conceptualization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declarations</head><p>Ethics approval and consent to participate. Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Consent for publication</head><p>Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare that they have no competing financial interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Publisher's Note</head><p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<ptr target="https://www.nasa.gov/leo-economy/commercial-destinations-in-low-earth-orbit" />
+		<title level="m">Commercial Destinations in Low-Earth Orbit (LEO)</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+		<respStmt>
+			<orgName>NASA</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Artemis Plan NASA&apos; s Lunar Exploration Program Overview</title>
+		<ptr target="https://www.nasa.gov/sites/default/files/atoms/files/artemis_plan-20200921.pdf" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+		<respStmt>
+			<orgName>National Aeronautics and Space Administration</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A microbial survey of the International Space Station (ISS)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Lang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">e4029</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Chapter 4 -microbial communities associated with house dus</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rintala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pitkäranta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Täubel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Applied Microbiology</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Laskin</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Sariaslani</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Gadd</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="75" to="120" />
+			<date type="published" when="2012">2012</date>
+			<publisher>Academic Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Investigation of spaceflight induced changes to astronaut microbiomes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Morrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">659179</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Microbiological and nutritional analysis of lettuce crops grown on the international space station</title>
+		<author>
+			<persName><forename type="first">Clm</forename><surname>Khodadad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">199</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">International Space Station environmental microbiome -microbial inventories of ISS filter debris</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Microbiol Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="6453" to="6466" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Fungal and bacterial growth in floor dust at elevated relative humidity levels</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Dannemiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Weschler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peccia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Indoor Air</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="354" to="363" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Size-resolved emission rates of airborne bacteria and fungi in an occupied classroom</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hospodsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Nazaroff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peccia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Indoor Air</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="339" to="351" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pultarova</surname></persName>
+		</author>
+		<ptr target="https://www.space.com/space-station-cleaning-tips-astronaut-thomas-pesquet" />
+		<title level="m">How do you clean a space station? Astronaut Thomas Pesquet shares orbital spring cleaning tips</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Results of the aerosol sampling experiment on the International Space Station</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Meyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Environmental Systems (ICES 2018)</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="1" to="8" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Invited review: microgravity and the lung</title>
+		<author>
+			<persName><forename type="first">Kim</forename><surname>Prisk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+		<idno type="DOI">10.1152/jappl.2000.89.1.385</idno>
+		<ptr target="https://doi.org/10.1152/jappl.2000.89.1.385" />
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Aerosol deposition in the human lung in reduced gravity</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Darquenne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Aerosol Med Pulm Drug Deliv</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="170" to="177" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Indoor microbial communities: influence on asthma severity in atopic and nonatopic children</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Dannemiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Gent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Leaderer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peccia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Allergy Clin Immunol</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="76" to="83" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Respiratory and allergic health effects of dampness, mold, and dampness-related agents: a review of the epidemiologic evidence</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mendell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Mirer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Douwes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ Health Perspect</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="748" to="756" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Immune system dysregulation occurs during short duration spaceflight on board the space shuttle</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Crucian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Immunol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="456" to="465" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="16299" to="16304" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Incidence of clinical symptoms during long-duration orbital spaceflight</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Crucian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Gen Med</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="383" to="391" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Microbial degradation and valorization of plastic wastes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">442</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The role of microbial biofilms in deterioration of space station candidate materials</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Roman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Esselman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mitchell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Biodeterior Biodegradation</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="25" to="33" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Nanoscale resolution of microbial fiber degradation in action</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tatli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Elife</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Status of ISS water management and recovery</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tobias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Y</forename><surname>Orozco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">43rd International Conference on Environmental Systems</title>
+		<imprint>
+			<publisher>American Institute of Aeronautics and Astronautics</publisher>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Perry</surname></persName>
+		</author>
+		<ptr target="https://ntrs.nasa.gov/api/citations/20190030376/downloads/20190030376.pdf" />
+		<title level="m">The impacts of cabin atmosphere quality standards and control loads on atmosphere revitalization process design</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Morphology and quantification of fungal growth in residential dust and carpets</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nastasi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Build Environ</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Modeling microbial growth in carpet dust exposed to diurnal variations in relative humidity using the &quot;Time-of-Wetness&quot; framework</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Haines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Siegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Dannemiller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Indoor Air</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="978" to="992" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<author>
+			<persName><forename type="first">Ocg</forename><surname>Adan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Samson</surname></persName>
+		</author>
+		<title level="m">Fundamentals of mold growth in indoor environments and strategies for healthy living</title>
+		<meeting><address><addrLine>Wageningen, The Netherlands</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wageningen Academic Publishers</publisher>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Gene expression of indoor fungal communities under damp building conditions: implications for human health</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hegarty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Dannemiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peccia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Indoor Air</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="548" to="558" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">2: human factors, habitability, and environmental health</title>
+		<ptr target="https://www.nasa.gov/wp-content/uploads/2020/10/2022-04-08_nasa-std-3001_vol_2_rev_c_final.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">NASA space flight human-system standard volume</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+		<respStmt>
+			<orgName>National Aeronautics and Space Agency (NASA)</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Mold species in dust from the International Space Station identified and quantified by mold-specific quantitative PCR</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Vesper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<biblScope unit="page" from="432" to="435" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Preventing infectious diseases in spacecraft and space habitats</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Oubre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Modeling the Transmission and Prevention of Infectious Disease</title>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Hurst</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="3" to="17" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Characterization of fungi isolated from the equipment used in the International Space Station or Space Shuttle</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Satoh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol Immunol</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="295" to="302" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Microbial characterization of free floating condensate aboard the Mir space station</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Bruce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microb Ecol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="133" to="136" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Accuracy, precision, and method detection limits of quantitative PCR for airborne bacteria and fungi</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hospodsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peccia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="7004" to="7012" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Development of a fungus-specific PCR assay for detecting low-level fungi in an indoor environment</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Z</forename><surname>Whong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell Probes</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="339" to="348" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Determination of bacterial load by real-time PCR using a broad-range (universal) probe and primers set</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Nadkarni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Jacques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hunter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">148</biblScope>
+			<biblScope unit="page" from="257" to="266" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Combining real-time PCR and next-generation DNA sequencing to provide quantitative comparisons of fungal aerosol populations</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Dannemiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lang-Yona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Rudich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peccia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Atmos Environ</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="113" to="121" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Straindependent variation in 18S ribosomal DNA copy numbers in Aspergillus fumigatus</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Herrera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Vallor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Gelfond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Patterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Wickes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="1325" to="1332" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Nuclear ribosomal internal transcribed spacer (ITS) region as a universal DNA barcode marker for fungi</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Schoch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="6241" to="6246" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The under-recognized dominance of Verrucomicrobia in soil bacterial communities</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Bergmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Soil Biol Biochem</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="1450" to="1455" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bolyen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="852" to="857" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Cutadapt removes adapter sequences from high-throughput sequencing reads</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBnet J</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="10" to="12" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">VSEARCH: a versatile open source tool for metagenomics</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rognes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Flouri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Quince</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mahé</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">e2584</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Quality-filtering vastly improves diversity estimates from Illumina amplicon sequencing</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Bokulich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="57" to="59" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Subsampled open-reference clustering creates consistent, comprehensive OTU definitions and scales to billions of sequences</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Rideout</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">e545</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">DADA2: high-resolution sample inference from Illumina amplicon data</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Callahan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="581" to="583" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">FastTree 2-approximately maximum-likelihood trees for large alignments</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Dehal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Arkin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">e9490</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">A new method for non-parametric multivariate analysis of variance</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Austral Ecol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="32" to="46" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Basic local alignment search tool</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Altschul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lipman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="page" from="403" to="410" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The UNITE database for molecular identification of fungi: handling dark taxa and parallel taxonomic classifications</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Nilsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="259" to="264" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Fungal highthroughput taxonomic identification tool for use with next-generation sequencing (FHiTINGS)</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Dannemiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bibby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peccia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Basic Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="315" to="321" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Optimizing taxonomic classification of marker-gene amplicon sequences with QIIME 2&apos;s q2-feature-classifier plugin</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Bokulich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">90</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">An improved Greengenes taxonomy with explicit ranks for ecological and evolutionary analyses of bacteria and archaea</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mcdonald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="610" to="618" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">NASA GeneLab: interfaces for the exploration of space omics data</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Berrios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Galazka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Grigorev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gebre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1515" to="1522" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Statistical significance for genomewide studies</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Storey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tibshirani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="9440" to="9445" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces</title>
+		<author>
+			<persName><forename type="first">Checinska</forename><surname>Sielaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">50</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Real-time culture-independent microbial profiling onboard the International Space Station Using Nanopore Sequencing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stahl-Rommel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genes</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">Microbial monitoring of the international space station</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<ptr target="https://ntrs.nasa.gov/api/citations/20130013534/downloads/20130013534.pdf" />
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="4" to="21" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Exercise in space: the European Space Agency approach to in-flight exercise countermeasures for long-duration missions on ISS</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Petersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Extrem Physiol Med</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">VEG-01: Veggie hardware validation testing on the International Space Station</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Massa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Open Agriculture</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="33" to="41" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Hardware validation of the advanced plant habitat on ISS: canopy photosynthesis in reduced gravity</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Monje</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">673</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title level="m" type="main">Implementing planetary protection requirements for space fight</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+		<respStmt>
+			<orgName>National Aeronautics and Space Administration</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

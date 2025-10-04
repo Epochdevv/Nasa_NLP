@@ -1,0 +1,2041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Multi-drug resistant Enterobacter bugandensis species isolated from the International Space Station and comparative genomic analyses with human pathogenic strains</title>
+				<funder ref="#_5Yqhce9">
+					<orgName type="full">Bert L</orgName>
+				</funder>
+				<funder ref="#_cHh45YA #_RDmcBW3">
+					<orgName type="full">NASA</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">N Kuggie Vallee Foundation</orgName>
+				</funder>
+				<funder ref="#_ZNVjvkN">
+					<orgName type="full">Alfred P. Sloan Foundation</orgName>
+				</funder>
+				<funder ref="#_b49D8zY">
+					<orgName type="full">Bill and Melinda Gates Foundation</orgName>
+				</funder>
+				<funder ref="#_R5fESxA">
+					<orgName type="full">National Institutes of Health</orgName>
+				</funder>
+				<funder ref="#_K6nhMbE #_SVvXgT2 #_tSXADGp">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">WorldQuant Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-11-23">2018-11-23</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Nitin</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Biotechnology and Planetary Protection Group</orgName>
+								<orgName type="laboratory" key="lab2">Jet Propulsion Laboratory</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<addrLine>M/S 89-2 4800 Oak Grove Dr</addrLine>
+									<postCode>91109</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory" key="lab1">Biotechnology and Planetary Protection Group</orgName>
+								<orgName type="laboratory" key="lab2">Jet Propulsion Laboratory</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<addrLine>M/S 89-2 4800 Oak Grove Dr</addrLine>
+									<postCode>91109</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniela</forename><surname>Bezdan</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Physiology and Biophysics</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aleksandra</forename><surname>Checinska Sielaff</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kevin</forename><surname>Wheeler</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">Allosource</orgName>
+								<address>
+									<settlement>Centennial</settlement>
+									<region>CO</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christopher</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Physiology and Biophysics</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">The Feil Family Brain and Mind Research Institute</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kasthuri</forename><surname>Venkateswaran</surname></persName>
+							<idno type="ORCID">0000-0002-6742-0873</idno>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Biotechnology and Planetary Protection Group</orgName>
+								<orgName type="laboratory" key="lab2">Jet Propulsion Laboratory</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<addrLine>M/S 89-2 4800 Oak Grove Dr</addrLine>
+									<postCode>91109</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory" key="lab1">Biotechnology and Planetary Protection Group</orgName>
+								<orgName type="laboratory" key="lab2">Jet Propulsion Laboratory</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<addrLine>M/S 89-2 4800 Oak Grove Dr</addrLine>
+									<postCode>91109</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department">Extension -Youth and Families Program</orgName>
+								<orgName type="institution" key="instit1">Washington State University (WSU)</orgName>
+								<orgName type="institution" key="instit2">WSU</orgName>
+								<address>
+									<settlement>Pullman</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Multi-drug resistant Enterobacter bugandensis species isolated from the International Space Station and comparative genomic analyses with human pathogenic strains</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">BMC Microbiology</title>
+						<title level="j" type="abbrev">BMC Microbiol</title>
+						<idno type="eISSN">1471-2180</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">18</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2018-11-23" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">26FE191C0C148F2DF5BD7E136C8108AA</idno>
+					<idno type="DOI">10.1186/s12866-018-1325-2</idno>
+					<note type="submission">Received: 12 March 2018 Accepted: 24 October 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:42+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Enterobacter</term>
+					<term>International Space Station</term>
+					<term>Phylogenomic analyses</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: The antimicrobial resistance (AMR) phenotypic properties, multiple drug resistance (MDR) gene profiles, and genes related to potential virulence and pathogenic properties of five Enterobacter bugandensis strains isolated from the International Space Station (ISS) were carried out and compared with genomes of three clinical strains. Whole genome sequences of ISS strains were characterized using the hybrid de novo assembly of Nanopore and Illumina reads. In addition to traditional microbial taxonomic approaches, multilocus sequence typing (MLST) analysis was performed to classify the phylogenetic lineage. Agar diffusion discs assay was performed to test antibiotics susceptibility. The draft genomes after assembly and scaffolding were annotated with the Rapid Annotations using Subsystems Technology and RNAmmer servers for downstream analysis.</p><p>Results: Molecular phylogeny and whole genome analysis of the ISS strains with all publicly available Enterobacter genomes revealed that ISS strains were E. bugandensis and similar to the type strain EB-247 T and two clinical isolates (153_ECLO and MBRL 1077). Comparative genomic analyses of all eight E. bungandensis strains showed, a total of 4733 genes were associated with carbohydrate metabolism (635 genes), amino acid and derivatives (496 genes), protein metabolism (291 genes), cofactors, vitamins, prosthetic groups, pigments (275 genes), membrane transport (247 genes), and RNA metabolism (239 genes). In addition, 112 genes identified in the ISS strains were involved in virulence, disease, and defense. Genes associated with resistance to antibiotics and toxic compounds, including the MDR tripartite system were also identified in the ISS strains. A multiple antibiotic resistance (MAR) locus or MAR operon encoding MarA, MarB, MarC, and MarR, which regulate more than 60 genes, including upregulation of drug efflux systems that have been reported in Escherichia coli K12, was also observed in the ISS strains.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>Enterobacter species are facultative anaerobic, Gram-stain-negative, and saprophytic microorganisms found in soil, sewage, and as a commensal enteric flora of the human gastrointestinal tract <ref type="bibr" target="#b0">[1]</ref>. They have been associated with nosocomial infection in humans, causing bacteremia, endocarditis, septic arthritis, osteomyelitis, skin and soft tissue infections, lower respiratory tract, urinary tract, and intra-abdominal infections <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>. Some Enterobacter have also been reported plant pathogens <ref type="bibr" target="#b3">[4]</ref>. Antibiotic resistance and its clinical implications have been extensively studied in genus Enterobacter, especially Enterobacter cloacae, which is resistant to cephalosporins, ampicillin, amoxicillin, and cefoxitin <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>.</p><p>In an ongoing effort of the International Space Station (ISS) Microbial Observatory investigation, the National Aeronautics and Space Administration (NASA) is cataloging the total and viable microbial communities of crew-associated environments using cultivation and molecular techniques of microbial detection <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref>. As a result, five isolates belonging to the Enterobacter bugandensis group of bacteria from two different locations of the ISS were isolated <ref type="bibr" target="#b8">[9]</ref>. Since the initial molecular screening identified these strains as Enterobacter but the identification was not able to resolve their taxonomy to species level, detailed genomic characterizations were warranted in addition to the traditional microbiological characterization. Due to its unstable taxonomic structure, methods utilized for the speciation of Enterobacter varied widely. Commercial biochemical typing systems such as API® 20E <ref type="bibr" target="#b9">[10]</ref> or Vitek® 2, and matrix-assisted laser desorption ionization-time of flight mass spectrometry (MALDI-TOF MS) <ref type="bibr" target="#b10">[11]</ref> methods have been used, but with limited success. On the basis of 16S rRNA analysis, Enterobacter was structured as a polyphyletic genus and most of the species could not be resolved <ref type="bibr" target="#b0">[1]</ref>. Therefore, multilocus sequence typing (MLST) analysis was found to be more appropriate for phylogenetic classification of Enterobacter species <ref type="bibr" target="#b11">[12]</ref>.</p><p>To resolve this question further, whole genome sequencing (WGS) and de novo assembly was performed on all five ISS E. bugandensis strains, creating MLST and genome variation profiles of the ISS strains <ref type="bibr" target="#b12">[13]</ref>. Furthermore, comparative genome alignment of the ISS strains with all publicly available 1291 Enterobacter genomes revealed that genomes of these five ISS strains were highly similar to only three clinical E. bugandensis with very high genome similarities and formed a unique ecotype. They are (a) EB-247 strain <ref type="bibr" target="#b12">[13]</ref>, isolated from neonatal blood of a patient from Tanzania, (b) 153_ECLO strain <ref type="bibr" target="#b13">[14]</ref>, isolated from the urine of a neonatal patient strain admitted to the University of Washington Medical Center, Seattle, WA and (c) MBRL 1077 strain, a carbapenemase-producing strain <ref type="bibr" target="#b14">[15]</ref> isolated from the wound of a 72-year-old woman with a history of cutaneous scleroderma, medically complicated obesity, and venous insufficiency. In this study, comparative genomic analyses of five ISS strains and three clinical isolates were carried out to elucidate antimicrobial resistance (AMR) phenotypic properties, MDR gene profiles, and genes related to potential virulence and pathogenic potential of the ISS Enterobacter strains.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Sample collection from ISS environmental surfaces, processing, cultivation of bacteria were already reported <ref type="bibr" target="#b8">[9]</ref>. When 105 bacterial strains isolated from various ISS locations were analyzed for their phylogenetic affiliations, five isolates were identified as Enterobacter bugandensis. The five Enterobacter isolates characterized during this study were isolated from two different locations of the ISS flight in March 2015. Four isolates were isolated from the waste and hygiene compartment (WHC), and one strain from the Advanced Resistive Exercise Device (ARED) foot platform of ISS.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phenotypic characterization</head><p>The isolates were biochemically identified using Vitek®2 Compact gram-negative (GN) cards (bioMerieux, Inc., Hazelwood, MO) <ref type="bibr" target="#b15">[16]</ref> and BioLog (Hayward, CA) carbon substrate utilization profile characterization <ref type="bibr" target="#b16">[17]</ref>. Sample preparation for MALDI-TOF MS protein analysis was carried out as previously established <ref type="bibr" target="#b17">[18]</ref>. MALDI-TOF mass spectra were obtained from an Ultraflex III instrument (Bruker Daltonik, Billerica, MA) operated in linear positive mode under Flex-Control 3.1 software. Mass spectra were processed using Flex Analysis (version 3.1; Bruker Daltonik) and BioTyper software (version 3.1; Bruker Daltonik).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genome sequence analysis</head><p>Genomic DNA extraction was performed as described previously <ref type="bibr" target="#b8">[9]</ref>. WGS was performed on the Oxford Nanopore MinION (Oxford, United Kingdom) and Illumina MiSeq sequencing platform (San Diego, CA). A hybrid approach was utilized for genome assembly using reads from both platforms. Nanopore reads were processed using Poretools <ref type="bibr" target="#b18">[19]</ref> toolkit for the purposes of quality control and downstream analysis. Error corrected Nanopore and MiSeq reads were assembled using SPAdes <ref type="bibr" target="#b19">[20]</ref>. Scaffolding of the assembled contigs was done using SSpace <ref type="bibr" target="#b20">[21]</ref> and gap filling was executed using GapFiller <ref type="bibr" target="#b21">[22]</ref>. The draft genomes after assembly and scaffolding were annotated with the help of the Rapid Annotations using Subsystems Technology (RAST) <ref type="bibr" target="#b22">[23]</ref> and RNAmmer servers <ref type="bibr" target="#b23">[24]</ref> for downstream analysis <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b25">26]</ref> ISS strains assembly characteristics are given in Additional file 1: Table <ref type="table" target="#tab_1">S1</ref>. The 16S rRNA, gyrB, and rpoB gene sequences were retrieved from the WGS and analyzed for their phylogenetic affiliations. The neighbor-joining phylogenetic analysis was performed using the MEGA7 software package <ref type="bibr" target="#b26">[27]</ref>. MLST analysis was carried out as described previously <ref type="bibr" target="#b27">[28]</ref>. The MLST scheme employed here uses seven house-keeping genes: dnaA (DNA replication initiator), fusA (codes Elongation factor G), gyrB (DNA replication and repair), leuS (Leucine tRNA ligase), pyrG (CTP synthase), rplB (50S ribosomal protein), and rpoB (β subunit of bacterial RNA polymerase) <ref type="bibr" target="#b28">[29]</ref>. The retrieved sequences were compared with the sequence types deposited at E. cloacae MLST database <ref type="bibr" target="#b29">[30]</ref>, concatenated according to the MLST scheme. The genes were analyzed independently, or as a single concatenate using neighbor-joining algorithms.</p><p>The SNP-based phylogenetic tree was generated using CSIPhylogeny <ref type="bibr" target="#b27">[28]</ref> version 1.4. Using genome sequences of multiple isolates CSIPhylogeny calls SNP, filters the SNPs, performs site validation, and infers a phylogeny based on the concatenated alignment of high-quality SNPs. The analysis included Enterobacter reference whole genome sequences which were downloaded from the NCBI GenBank database. This genome-wide SNP analysis allows for higher resolution phylogenetic analysis compared to other methods, which is necessary for comparing highly similar genomes. All positions containing gaps and missing data were eliminated. A total of 3832 positions in the dataset were used to confer the final tree.</p><p>Hybrid-genome-assembly (ONT and Illumina data) of strain IF3SW-P2 was nominated as reference genome of the 5 strains sequenced. The IF3SW-P2 genome was used to realign the Illumina MiSeq reads with reads of other 4 strains using bwa-mem (<ref type="url" target="http://bio-bwa.sourceforge.net">http://bio-bwa.source- forge.net</ref>/). Postprocessing of the BAM files was performed using SAMtools <ref type="bibr" target="#b30">[31]</ref> and picard (<ref type="url" target="https://github.com/broadinstitute/picard">https://  github.com/broadinstitute/picard</ref>). GATK HaplotypeCaller (<ref type="url" target="https://software.broadinstitute.org/gatk/">https://software.broadinstitute.org/gatk/</ref>) was used for SNP and indels identification.</p><p>Pairwise average nucleotide index (ANI) was calculated using the algorithm from Goris et al. 2007 <ref type="bibr" target="#b31">[32]</ref> and GC content was determined using EzTaxon-e <ref type="bibr" target="#b32">[33]</ref>. Digital DNA-DNA hybridization (dDDH) was performed using the Genome-to-Genome Distance Calculator 2.0 (GGDC 2.0) <ref type="bibr" target="#b33">[34]</ref>. Briefly, the genome sequences in FASTA format were submitted to GGDC 2.0 along with the sequences in FASTA format for the Enterobacter reference genome that were available:</p><p>E. aerogenes KCTC 2190, E. asburiae ATCC 35953, E. bugandensis EB-247 T , E. cancerogenus ATCC 35316, E. cloacae ATCC 13047, E. hormaechei ATCC 49162, E. kobei DSM 13645, E. lignolyticus SCF1, E. ludwigii EN119, E. massiliensis JC163, E. mori LMG25706, E. muelleri JM-458 T , E. xiangfangensis LMG 27195, and E. soli ATCC BAA-2102. The results were obtained by comparing query genomes (ISS isolates)</p><p>with each of the reference genomes to calculate dDDH and intergenomic distances. Global comparison of ISS isolates with other species was done using local BLAST <ref type="bibr" target="#b34">[35]</ref>. Genome sequence assemblies were aligned using BLASTN and the diagrammatic view was created using BLAST Ring Image Generator (BRIG) software <ref type="bibr" target="#b35">[36]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nucleotide sequence deposition</head><p>The WGS data submitted to the National Center for Biotechnology Information (NCBI) GenBank and NASA GenLab databases were downloaded and characterized during this study. The complete genome sequences of all ISS strains were deposited in NCBI under Bioproject PRJNA319366 as well as at the NASA GeneLab system (GLDS-67; <ref type="url" target="https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-67/">https://genelab-data.ndc.nasa.gov/genelab/ac- cession/GLDS-67/</ref>#). The GenBank/EMBL/DDBJ accession numbers for the 16S rRNA gene sequence of isolated strains are: IF2SW-B1 (KY218809), IF2SW-B5 (KY218813), IF2SW-P2 T (KY218815), IF2SW-P3 (KY218816), and IF3SW-P2 (KY218819).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phenotypic characteristics</head><p>The ISS strains showed aerobic, motile, rod shape, Gram stain negative characteristics; colonies were pale yellow in color, formed within 24-36 h at 35 °C on R2A, TSA, and blood agar. Growth was observed at 1-8% NaCl and in pH range 5-7. The Vitek and BioLog systems as well as MALDI-TOF profiles identified the ISS strains as E. ludwigii. The MALDI-TOF profile scores for the tested strains were 2.16 (E. ludwigii) and 2.10 (E. asburiae). In general, no noticeable phenotypic differences were observed among the Enterobacter species tested including E. bugandensis EB-247 T , whose genome is closer to ISS strains. As reported earlier, all these five ISS Enterobacter isolates were resistant to cefazolin, cefoxitin, oxacillin, penicillin and rifampin, while for ciprofloxacin and erythromycin, strains were either resistant or intermediate resistant. For gentamycin and tobramycin some strains were resistant, some intermediate resistant, and some susceptible <ref type="bibr" target="#b8">[9]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Molecular phylogeny</head><p>The 16S rRNA gene sequencing of all five isolates placed them within the Enterobacter group and showed maximum similarity (99.6%) with E. bugandensis EB-247 T , E. cancerogenus LMG 2693, E. ludwigii EN-119, and E. mori R18-2 (99 to 100%). Since 16S rRNA gene sequencing analysis is insufficient to differentiate Enterobacter species, polygenic and whole genome-based analyses were further attempted. All ISS strains were phylogenetically characterized by the gyrB locus (~1.9 kb) and showed that the ISS isolates form a close group with E. bugandensis EB-247 T and 153_ECLO strains (&gt; 99%) while MBRL 1077 isolate was exhibiting 97% similarity with high bootstrap value.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MLST analysis</head><p>The genomic contigs of the ISS isolates were searched for gene sequences of dnaA, fusA, gyrB. leuS, pyrG, rplB, and rpoB, which are standardized for the use of MLST analysis and reported for E. cloacae species <ref type="bibr" target="#b28">[29]</ref>. The good congruence between the single-gene reconstructions and the concatenate reinforced the stability of the genealogy were observed. The reconstruction was based on the RAxML algorithm <ref type="bibr" target="#b36">[37]</ref> and the resulting MLST tree (Fig. <ref type="figure">1</ref>) shows that the ISS isolates are phlylogenetically related to E. bugandensis clinical strains (EB-247, strain 153_ECLO, and isolate MBRL 1077).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SNP analysis</head><p>Even though MLST analysis was clearly able to genomically resolve the ISS isolates to species level and distinguish them from other members of the genus Enterobacter, whole genome SNP analysis, SNP tree analysis excluding plasmid sequences, was carried out to</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enterobacter bugandensis IF2SW-P3</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enterobacter bugandensis IF3SW-P2</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enterobacter bugandensis IF2SW-B5</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enterobacter bugandensis IF2SW-B1</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enterobacter bugandensis IF2SW-P2</head><p>Enterobacter bugandensis EB-247 T</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enterobacter bugandensis 153 ECLO</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enterobacter bugandensis MBRL1077</head><p>Enterobacter xiangfangensis LMG 27195 T Enterobacter hormaechei ATCC 49162 T Enterobacter cloacae ATCC13047 T Enterobacter kobei DSM 13645 T Enterobacter mori LMG 25706 T Enterobacter muelleri JM-458T Enterobacter ludwigii EN-119 T Enterobacter cancerogenus ATCC 35316 Enterobacter asburiae ATCC 35953 T Enterobacter soli ATCC BAA-2102 T Enterobacter lignolyticus SCF1 Enterobacter aerogenes KCTC 2190 Enterobacter massiliensis JC163 T Xenorhabdus nematophila ATCC 19061 T 100 76 100 96 100 58 27 27 30 97 94 82 100 66 100 100 0.020</p><p>Fig. <ref type="figure">1</ref> Multiple-locus sequence types (MLST) analysis of ISS strains and related species of the Enterobacter. The obtained genomic contigs of the ISS isolates (in bold) were searched for gene sequences of dnaA, fusA, gyrB, leuS, pyrG, rplB, and rpoB, which are standardized for the use in MLST analysis and reported for E. cloacae species <ref type="bibr" target="#b28">[29]</ref>. The retrieved sequences were compared with the sequence types deposited at the Enterobacter MLST database, concatenated according to the MLST scheme. The reconstruction was based on the RAxML algorithm <ref type="bibr" target="#b3">[4]</ref>, and the bootstrap values were calculated using 1000 replicates. The bar indicates 2% sequence divergence validate these results. The snpTree does not ignore any nucleotide positions and is able to consider 100% of the chromosomal genome. All the available WGS of the Enterobacter genus reference genomes from GenBank were used for SNP analysis with snpTree. Of the 22 total nucleotide sequences; 58,121 positions were found in all analyzed genomes and 3832 positions in the dataset were used to confer the final tree (Fig. <ref type="figure" target="#fig_1">2</ref>). The snpTree analyses confirmed and gave a strong validation to the MLST/gyrB data, confirming that all ISS isolates are E. bugandensis but strain MBRL 1077 grouped differently from the members of the E. bugandensis group.</p><p>SNP identification within ISS strains was carried out using GATK HaplotypeCaller. Filtered SNP calls and indels (after removal of false positives) are given in the Additional file 1: Table <ref type="table" target="#tab_1">S1</ref>. Post-filtration analyses showed that there were 9, 12, 15, 13, and 0 SNPs seen in IF2SWB1, IF2SWB5, IF2SWP2, IS2WP3 and IS3SWP2, respectively. Further 6, 0, 4, 6, and 0 indels were seen in IF2SWB1, IF2SWB5, IF2SWP2, IS2WP3 and IS3SWP2, respectively (Additional file 1: Table <ref type="table" target="#tab_1">S1</ref>). A maximum of 15 SNPs was observed among ISS isolates, probably being clonal in origin, with a very recent common ancestor. However, it should be noted that 4 strains were isolated from location #2 (space toilet) and one strain from the exercise platform (ARED).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ANI values and digital DNA-DNA hybridization</head><p>The ANI values for the ISS strains were maximum against E. bugandensis EB-247, 153_ECLO, and MBRL 1077 strains (&gt; 95%) as were those of MLST analyses, and the ANI values of rest of the Enterobacter genomes tested were &lt; 91% (Table <ref type="table" target="#tab_1">1</ref>). The digital DNA-DNA hybridization (dDDH) results of the ISS strain showed high similarity with E. bugandensis EB-247 (89.2%), 153_ECLO (89.4%), and MBRL 1077 (64%) strains whereas dDDH value was &lt; 44.6% to all the other available Enterobacter reference genomes (Table <ref type="table" target="#tab_1">1</ref>). Based on various molecular analyses attempted during this study all five ISS Enterobacter strains were phenotypically and genotypically identified as E. bugandensis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Functional characteristics</head><p>A detailed genome analysis of all five ISS strains and 3 clinical isolates were carried out to understand its genetic makeup. A total of 4733 genes were classified as carbohydrate metabolism (635 genes), amino acid and derivatives (496 genes), protein metabolism (291 genes), cofactors, vitamins, prosthetic groups, pigments (275</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enterobacter bugandensis IF2SW-P2</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enterobacter bugandensis IF2SW-P3</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enterobacter bugandensis IF2SW-B5</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enterobacter bugandensis IF2SW-B1</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enterobacter bugandensis IF3SW-P2</head><p>Enterobacter bugandensis EB-247 T</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enterobacter bugandensis 153 ECLO</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enterobacter bugandensis MBRL1077</head><p>Enterobacter hormaechei ATCC 49162  Fig. <ref type="figure">3</ref> Metabolic functional profiles and subsystem categories distribution of strain IF3SW-P2. 4733 genes were identified that dominated by carbohydrate metabolism followed by amino acid and derivatives  genes), membrane transport (247 genes), and RNA metabolism (239 genes) (Fig. <ref type="figure">3</ref>). To test antimicrobial resistance at genomic level, the ISS strains were further compared with nosocomial isolates (1291 genomes) having more than 95% ANI identity with the ISS strains, which taxonomically identified them as same species.</p><p>Genomes of the clinical strains of E. bugandensis 247, 153_ECLO, and MBRL-1077, whose ANI values were &gt; 95%, were used for the genetic comparison to further broaden the picture. Features playing a broad role and implemented by the same domain such as Spectinomycin 9-O-adenylyltransferase and Streptomycin 3-O-adenylyltransferase (EC 2.7.7.47) were only present in E. bugandensis 247 due to the probable lack of selective pressure that might have been encountered by the ISS isolates (Table <ref type="table" target="#tab_2">2</ref>). The predicted arsenic resistance (arsenic resistance protein, ArsH) noticed in E. bugandensis 247 but not in other strains should be phenotypically tested to confirm the resistance properties conferred in strain E. bugandensis 247 and cross checked with the ISS strains for their inability to degrade arsenic. Trace metals detected in ISS potable water samples, but typically below potability requirements, included arsenic, barium, chromium, copper, iron, manganese, molybdenum, nickel, lead, selenium, and zinc. No mercury or cadmium was detected and the arsenic levels varied from nondetectable in water samples to a maximum of 3.8 μg/L <ref type="bibr" target="#b37">[38]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Global comparison of ISS genomes with other Enterobacter genomes</head><p>A visualization program was reported to be invaluable <ref type="bibr" target="#b35">[36]</ref> in determining the genotypic differences between closely related prokaryotes. Visualizing a prokaryote genome as a circular image has become a powerful means of displaying informative comparisons of one genome to a number of others. Using BRIG, a global visual comparison of ISS isolates with other Enterobacter WGS from the GenBank Microbial Genomes Resource was carried out. The resulting output of the BRIG analysis <ref type="bibr" target="#b35">[36]</ref>, a visualization image, showed draft genome assembly information, read coverage, assembly breakpoints, and collapsed repeats. The mapping of unassembled sequencing reads of the ISS genomes against fully annotated E. cloacae central reference sequences is depicted in Fig. <ref type="figure" target="#fig_2">4</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>In summary, a comparative phenotypic and genotypic analyses of ISS isolates identified as E. bugandensis were carried out. Additional genomic analyses revealed a close genetic relatedness between ISS isolates and nosocomial earth isolates. MLST and whole genome SNP tree placed ISS and nosocomial isolates to a separate clade when phylogenetically aligned with other member of genus Enterobacter. A detailed functional and antimicrobial resistance analysis reveals that the ISS isolates have a 79% probability of being a human pathogen and share similar antimicrobial resistance pattern with E. bugandensis EB-247, MBRL-1077 and 153_ECLO strains, making them relevant for future missions and crew health considerations.</p><p>A total of 112 identified genes of the ISS strains were involved in virulence, disease, and defense. Genes associated with resistance to antibiotics and toxic compounds, including the multidrug resistance tripartite system (also known as 3-protein systems) as shown in a polychlorinated biphenyl-degrader, Burkholderia xenovorans LB400 <ref type="bibr" target="#b38">[39]</ref>, was noticed in the ISS strain. This protein forms the basic structure and plays a crucial role in, the functioning of an efflux pump rendering a microbe drug resistant <ref type="bibr" target="#b39">[40,</ref><ref type="bibr" target="#b40">41]</ref>. A multiple antibiotic resistance (MAR) locus or MAR operon was observed in ISS strains, which codes for protein MarA, MarB, MarC, and MarR, and regulate more than 60 genes, including upregulation of drug efflux systems that have been reported in Escherichia coli K12 <ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref>. Aminoglycoside adenylyltransferases, whose role is spectinomycin 9-O-adenylyltransferases, which confers microbial resistance to the aminoglycosides in Salmonella enterica, was also seen in ISS strains <ref type="bibr" target="#b44">[45]</ref>. Similarly, resistance to fluoroquinolones due to a mutation in gyrA gene in S. enterica <ref type="bibr" target="#b45">[46]</ref>, and fosfomycin resistance due to the presence of FosA protein-coding gene, which catalyzes the addition of glutathione to C1 of the oxirane in Serratia marcescens <ref type="bibr" target="#b46">[47]</ref>, were observed in ISS strains. Multiple copies of multi-drug resistance (MDR) genes highly homologous to S. marcescens, a pathogen, were identified in the ISS Enterobacter genomes, which gives an indication that these strains may be a potential human pathogen. When tested with PathogenFinder <ref type="bibr" target="#b47">[48]</ref> algorithm, strain IF2SW-P2 T had &gt; 77% probability to be a human pathogen. When compared with E. cloacae ATCC 13047, which is a well-described human pathogen <ref type="bibr" target="#b48">[49]</ref>, all five ISS strains showed a &gt; 79% probability score.</p><p>Astronauts have been taking beta-lactam based medical drugs for approximately two decades, and ß-lactamase (superfamily I [metal dependent hydrolases] and E.C.3.5.2.6) was present in all strains under study, while penicillin-binding proteins (PPB4B) were only present in MBRL-1077. Fluoroquinolone resistance due to gyrase and topoisomerase mutation was present in all the strains. Metal-dependent hydrolases, cation efflux system protein CusA, cobalt-zinc-cadmium resistance protein, cobalt-zinc-cadmium resistance protein CzcA, DNA-binding heavy metal response regulator, Co/Zn/Cd efflux system membrane fusion protein, zinc transporter ZitB were found in both ISS isolate and nosocomial organism understudy. These genes principally help in detoxification of periplasm by exporting toxic metal cation outside the cell. Determinants of the metal resistance are usually located on the plasmid and readily acquired from the environment and also complement antibiotic resistance <ref type="bibr" target="#b49">[50,</ref><ref type="bibr" target="#b50">51]</ref>. The plasmid encoded putative transcriptional regulators containing the CopG/Arc/ MetJ DNA-binding domain and a metal-binding domain were present in the ISS strains (Additional file 2: Table <ref type="table" target="#tab_4">S2</ref>). Further studies are required for phenotypic characterization to confirm this trait. Presence of active beta lactamase gene, efflux pump, and RND (resistance, nodulation and cell division protein family) protein family renders broad-spectrum resistance to ISS isolates from drugs and natural inhibitors.</p><p>We have recently observed that competency of bacteria to acquire foreign genetic material increases in microgravity (in preparation) and similar mechanism for metal resistance of ISS strain was also predicted. Antimicrobial and metal resistance is also conferred by RND genes <ref type="bibr" target="#b51">[52]</ref>, which were present in all the strains under study. Genomic analysis reveals the presence of genes associated with MDR efflux pump, belonging to RND, which are reported to be the major contributors of resistance to antibiotic and other toxic compounds to the bacteria <ref type="bibr" target="#b40">[41]</ref>. RND efflux system, inner membrane transporter CmeB, membrane fusion protein CmeA, outer membrane lipoprotein CmeC, outer membrane lipoprotein NodT family were found in all strains. These become important for the future space studies, as MDR has been reported to play role in the physiological function and confer resistance to the substances like bile, hormone and host defense molecule <ref type="bibr" target="#b52">[53]</ref>, which can make bacteria a dominant persistor and lead to pathogenicity in humans.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>The genomic characterizations showed that the ISS Enterobacter strains might potentially exhibit pathogenicity to human. However, the pathogenicity of the ISS strains compared to clinical strains isolated from patients should be explored in vivo experiments before making any assumption about whether these potential AMR gene markers are due to spaceflight changes or not. Moreover, the transit time and route for the organisms from the ISS may have some small impact on the response or physiological traits of the bacteria. WGS is still an important tool to monitor transmission routes of opportunistic pathogen bacteria <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b25">26]</ref>. To avoid this, future missions could utilize Nanopore sequencing directly in microgravity as well as additional function and taxonomic classification methods <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b53">54]</ref>, and then leverage the above detailed analytic steps to gauge relevance for crew health and safety.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>TFig. 2</head><label>2</label><figDesc>Fig.2Single nucleotide polymorphism (SNP) based phylogenetic tree, showing the relationship between the ISS isolates (in bold) and members of the Enterobacter genus. The tree was generated using CSI Phylogeny<ref type="bibr" target="#b27">[28]</ref> version1.4    </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4</head><label>4</label><figDesc>Fig. 4 Global comparison of ISS E. bugandensis with other Enterobacter WGS from NCBI Microbial Genomes Resource was done using BRIG. Genome sequence assemblies were aligned using BLASTN and the diagrammatic view was created using BRIG software. The innermost ring indicates the genomic position of the reference genome (E. bugandensis 247 T ), next ring indicates GC content, and the third ring indicates GC skewness. The remaining 21 rings indicate the presence or absence of BLASTN hits at that position. Each ring represents WGS of single Enterobacter species, each shown in different color. Positions covered by BLASTN alignments are indicated in solid colors and gaps (white spaces) represent genomic regions not covered by BLASTN alignments. Order of genome from inner ring to outer is as follow: E. aerogenes KCTC 2190, E. asburiae ATCC 35953 T, E. bugandensis EB-247 T , E. cancerogenus ATCC 35316, E. bugandensis 153_ECLO, E. cloacae ATCC 13047 T , E. bugandensis MBRL1077, E. hormaechei ATCC 49162 T , E. kobei DSM 13645 T , E. lignolyticus SCF1, E. ludwigii EN-119 T , E. massiliensis JC163 T , E. mori LMG 25706 T , E. muelleri JM-458 T , Enterobacter soli ATCC BAA-2102 T , Enterobacter xiangfangensis LMG 27195 T , E. bugandensis IF2SW-B1, E. bugandensis IF2SW-B5, E. bugandensis IF2SW-P2, E. bugandensis IF2SW-P3, E. bugandensis IF3SW-P2, Xenorhabdus nematophila ATCC 19061 T</figDesc><graphic coords="10,127.28,94.85,340.76,342.37" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="6,63.84,450.94,467.66,252.11" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1</head><label>1</label><figDesc>Digital DDH and ANI values of ISS strains and comparison with various Enterobacter species</figDesc><table><row><cell>Bacteria</cell><cell>Strain</cell><cell>Source</cell><cell>GenBank accession</cell><cell cols="2">ISS Enterobacter bugandensis isolates (n = 5)</cell></row><row><cell></cell><cell>number</cell><cell></cell><cell>number</cell><cell>dDDH</cell><cell>ANI (%)</cell></row><row><cell>E. bugandensis</cell><cell>IF2SW-P2</cell><cell>ISS-WHC</cell><cell>POUR00000000</cell><cell>100</cell><cell>100.00</cell></row><row><cell>E. bugandensis</cell><cell>IF2SW-B1</cell><cell>ISS-WHC</cell><cell>POUQ00000000</cell><cell>100</cell><cell>99.99</cell></row><row><cell>E. bugandensis</cell><cell>IF2SW-B5</cell><cell>ISS-WHC</cell><cell>RBVJ00000000</cell><cell>100</cell><cell>99.99</cell></row><row><cell>E. bugandensis</cell><cell>IF2SW-P3</cell><cell>ISS-WHC</cell><cell>POUP00000000</cell><cell>100</cell><cell>99.99</cell></row><row><cell>E. bugandensis</cell><cell></cell><cell>ISS-AREED</cell><cell>POUO00000000</cell><cell>100</cell><cell>99.99</cell></row><row><cell>E. bugandensis</cell><cell>EB-247 T</cell><cell>Nosocomial</cell><cell>FYBI00000000</cell><cell>89.2</cell><cell>98.66</cell></row><row><cell>E. bugandensis</cell><cell>153 ECLO</cell><cell>Nosocomial</cell><cell>NZ_JVSD00000000</cell><cell>89.4</cell><cell>98.73</cell></row><row><cell>E. bugandensis</cell><cell>MBRL1077</cell><cell>Nosocomial</cell><cell>PRJNA310238</cell><cell>63.9</cell><cell>95.26</cell></row><row><cell>E. aerogenes</cell><cell>KCTC 2190</cell><cell>Nosocomial</cell><cell>CP002824</cell><cell>22.7</cell><cell>78.74</cell></row><row><cell>E. asburiae</cell><cell>ATCC 35953 T</cell><cell>Nosocomial</cell><cell>NZ_CP011863</cell><cell>30.4</cell><cell>85.59</cell></row><row><cell>E. cancerogenus</cell><cell>ATCC 35316</cell><cell>Stool</cell><cell>NZ_ABWM00000000</cell><cell>31.8</cell><cell>86.10</cell></row><row><cell>E. cloacae</cell><cell>ATCC 13047 T</cell><cell>Spinal fluid</cell><cell>NC_014121</cell><cell>35.4</cell><cell>87.91</cell></row><row><cell>E. hormaechei</cell><cell>ATCC 49162 T</cell><cell>Sputum</cell><cell>AFHR01000000</cell><cell>35.4</cell><cell>87.82</cell></row><row><cell>E. kobei</cell><cell>DSM 13645 T</cell><cell>Blood</cell><cell>NZ_CP017181</cell><cell>42.8</cell><cell>90.54</cell></row><row><cell>E. lignolyticus</cell><cell>SCF1</cell><cell>Soil</cell><cell>CP002272</cell><cell>23.5</cell><cell>79.98</cell></row><row><cell>E. ludwigii</cell><cell>EN-119 T</cell><cell>Human</cell><cell>NZ_CP017279</cell><cell>34.4</cell><cell>87.57</cell></row><row><cell>E. massiliensis</cell><cell>JC163 T</cell><cell>Stool</cell><cell>NZ_CAEO00000000</cell><cell>22.8</cell><cell>79.07</cell></row><row><cell>E. mori</cell><cell>LMG 25706 T</cell><cell>Mulberry</cell><cell>NZ_AEXB00000000</cell><cell>37.0</cell><cell>88.59</cell></row><row><cell>E. muelleri</cell><cell>JM-458 T</cell><cell>Rhizosphere</cell><cell>FXLQ00000000</cell><cell>44.6</cell><cell>90.77</cell></row><row><cell>Xenorhabdus nematophila</cell><cell>ATCC 19061 T</cell><cell>Intestine</cell><cell>FN667742</cell><cell>22.8</cell><cell>69.41</cell></row></table><note><p>dDDH digital DNA-DNA hybridization, ANI Average Nucleotide Identity, WHC Waste and Hygiene Compartment, ARED Advanced resistive exercise device (ARED) foot platform</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2</head><label>2</label><figDesc>Comparative analyses of antimicrobial gene profiles of E. bungandensis isolated from ISS and clinical sources</figDesc><table><row><cell>AMR genes and its role</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 2</head><label>2</label><figDesc>Comparative analyses of antimicrobial gene profiles of E. bungandensis isolated from ISS and clinical sources (Continued)</figDesc><table><row><cell>AMR genes and its role</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 2</head><label>2</label><figDesc>Comparative analyses of antimicrobial gene profiles of E. bungandensis isolated from ISS and clinical sources (Continued)</figDesc><table><row><cell>AMR genes and its role</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>Part of the research described in this publication was carried out at the <rs type="institution">Jet Propulsion Laboratory, California Institute of Technology</rs>, under a contract with <rs type="funder">NASA</rs>. We would like to thank astronauts <rs type="person">Captain Terry Virts</rs> and <rs type="person">Commander Jeffrey Williams</rs> for collecting samples aboard the <rs type="institution">ISS</rs>, and the Implementation Team at <rs type="institution">NASA Ames Research Center</rs> for coordinating this effort. We would like to thank <rs type="person">Stephan Ossowski</rs> and <rs type="person">Mattia Bosio</rs> for their insights into hybrid de-novo assembly, <rs type="person">Alexa McIntyre</rs> for transferring data/ base-calling, and <rs type="person">Jason Wood</rs> for critically reading the manuscript. We thank <rs type="person">Dr. Patricio Jeraldo</rs>, <rs type="affiliation">Mayo Clinic, Rochester</rs>, MN for providing MBRL 1077 strain and <rs type="person">Dr. Stephen J. Salipante</rs>, <rs type="affiliation">Univ. of Washington, Seattle, WA</rs> for providing 153_ECLO strain. © 2018 California <rs type="institution">Institute of Technology</rs>. Government sponsorship acknowledged.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>This research was funded by a <rs type="programName">2012 Space Biology</rs> <rs type="grantNumber">NNH12ZTT001N</rs> grant no. <rs type="grantNumber">19-12829-26</rs> under Task Order <rs type="grantNumber">NNN13D111T</rs> award to KV, which also funded post-doctoral fellowship for ACS and NKS. We would also like to thank the <rs type="institution">Epigenomics Core Facility at Weill Cornell Medicine</rs>, the <rs type="funder">Bert L</rs> and <rs type="funder">N Kuggie Vallee Foundation</rs>, the <rs type="funder">WorldQuant Foundation</rs>, <rs type="funder">NASA</rs> (<rs type="grantNumber">NNX14AH50G</rs>, <rs type="grantNumber">NNX17AB26G</rs>), the <rs type="funder">National Institutes of Health</rs> (<rs type="grantNumber">R01ES021006</rs>, <rs type="grantNumber">1R21AI129851</rs>), the <rs type="funder">Bill and Melinda Gates Foundation</rs> (<rs type="grantNumber">OPP1151054</rs>), and the <rs type="funder">Alfred P. Sloan Foundation</rs> (<rs type="grantNumber">G-2015-13964</rs>). The funding bodies had no role in designing the study, sample collection, analysis, and interpretation of data or in writing the manuscript.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_K6nhMbE">
+					<idno type="grant-number">NNH12ZTT001N</idno>
+					<orgName type="program" subtype="full">2012 Space Biology</orgName>
+				</org>
+				<org type="funding" xml:id="_SVvXgT2">
+					<idno type="grant-number">19-12829-26</idno>
+				</org>
+				<org type="funding" xml:id="_5Yqhce9">
+					<idno type="grant-number">NNN13D111T</idno>
+				</org>
+				<org type="funding" xml:id="_cHh45YA">
+					<idno type="grant-number">NNX14AH50G</idno>
+				</org>
+				<org type="funding" xml:id="_RDmcBW3">
+					<idno type="grant-number">NNX17AB26G</idno>
+				</org>
+				<org type="funding" xml:id="_R5fESxA">
+					<idno type="grant-number">R01ES021006</idno>
+				</org>
+				<org type="funding" xml:id="_b49D8zY">
+					<idno type="grant-number">1R21AI129851</idno>
+				</org>
+				<org type="funding" xml:id="_ZNVjvkN">
+					<idno type="grant-number">OPP1151054</idno>
+				</org>
+				<org type="funding" xml:id="_tSXADGp">
+					<idno type="grant-number">G-2015-13964</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Availability of data and materials</head><p>The genome sequences used in the current study are available on the NCBI Genome Database under the accession numbers listed in Table <ref type="table">1</ref>. Detailed function(s) of all the AMR genes associated with 5 ISS strains mentioned in Additional file 3: Table <ref type="table">S3</ref>.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional files</head><p>Additional file 1: Table <ref type="table">S1</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authors' contributions</head><p>Conceived and designed the experiments: KV. Performed the experiments: NKS, DB, ACS and KW. Analyzed the data: NKS. CM structured and designed verification pipeline for carrying out sequencing, analysis of the de novo assemblies, including contig alignment, genome completion, and annotation checks. KW carried out the phenotypic assays of the antibiotic assays, Vitek-2 based biochemical characterization, and hemolytic characterization of the strains studied. Contributed reagents/materials/analysis tools and acquired funding: KV, CM. Wrote the paper: NKS, ACS, DB, CM, and KV. All authors read and approved the final manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics approval and consent to participate</head><p>No formal ethics approval was required in this particular study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Consent for publication</head><p>Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare that they have no competing interests Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Enterobacter cloacae complex: clinical impact and emerging antibiotic resistance</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Mezzatesta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stefani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Future Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="887" to="902" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Enterobacter bacteremia: clinical features and emergence of antibiotic resistance during therapy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Chow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Fine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Shlaes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Quinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Hooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ramphal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Wagener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Miyashiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Yu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="585" to="590" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Enterobacter aerogenes and Enterobacter cloacae; versatile bacterial pathogens confronting antibiotic treatment</title>
+		<author>
+			<persName><forename type="first">Davin-Regli A</forename><surname>Pages</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">392</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Enterobacter pyrinus sp. nov., an organism associated with Brown leaf spot disease of pear trees</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">R</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Brenner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Steigerwalt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Cho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Syst Evol Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="157" to="161" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The porin and the permeating antibiotic: a selective diffusion barrier in gram-negative bacteria</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Pages</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Winterhalter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="893" to="903" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Clinical significance of community-and healthcare-acquired carbapenemresistant Enterobacteriaceae isolates</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Hsieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Chao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Chuang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">151897</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Microbiomes of the dust particles collected from the international Space Station and spacecraft assembly facilities</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Checinska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Probst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vaishampayan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Nilsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Perry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">International Space Station environmental microbiomemicrobial inventories of ISS filter debris</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vaishampayan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cisneros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">O</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Perry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Microbiol Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="6453" to="6466" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Detection of antimicrobial resistance genes associated with the international Space Station environmental surfaces</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urbaniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Sielaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Frey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jaing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">814</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Particular distribution of Enterobacter cloacae strains isolated from urinary tract infection within clonal complexes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Akbari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bakhshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Najar</forename><surname>Peerayeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Iran Biomed J</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="49" to="55" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">MALDI-TOF MS as a tool to detect a nosocomial outbreak of extended-Spectrum-β-lactamase-and ArmA methyltransferase-producing Enterobacter cloacae clinical isolates in Algeria</title>
+		<author>
+			<persName><forename type="first">Nch</forename><surname>Khennouchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Loucif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Boutefnouchet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Allag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-M</forename><surname>Rolain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob Agents Chemother</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="6477" to="6483" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Taxonomic evaluation of the genus Enterobacter based on multilocus sequence analysis (MLSA): proposal to reclassify E. nimipressuralis and E. amnigenus into Lelliottia gen. nov. as Lelliottia nimipressuralis comb. nov. and Lelliottia amnigena comb. nov., respectively, E. gergoviae and E. pyrinus into Pluralibacter gen. nov. as Pluralibacter gergoviae comb. nov. and Pluralibacter pyrinus comb. nov., respectively, E. cowanii, E. radicincitans, E. oryzae and E. arachidis into Kosakonia gen. nov. as Kosakonia cowanii comb. nov., Kosakonia radicincitans comb. nov., Kosakonia oryzae comb. nov. and Kosakonia arachidis comb. nov., respectively, and E. turicensis, E. helveticus and E. pulveris into Cronobacter as Cronobacter zurichensis nom. nov., Cronobacter helveticus comb. nov. and Cronobacter pulveris comb. nov., respectively, and emended description of the genera Enterobacter and Cronobacter</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Cleenwerck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Venter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Coutinho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Vos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst Appl Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="309" to="319" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Enterobacter bugandensis sp. nov, isolated from neonatal blood</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Doijad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Imirzalioglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Pati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Falgenhauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">U</forename><surname>Foesel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Abt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Overmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Mirambo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Syst Evol Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="968" to="974" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A year of infection in the intensive care unit: prospective whole genome sequencing of bacterial clinical isolates reveals cryptic transmissions and novel microbiota</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Roach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Burton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stackhouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Butler-Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Cookson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shendure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Salipante</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">1005413</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Carbapenem-and Colistin-resistant Enterobacter cloacae from Delta, Colorado, in 2015</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Norgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Freese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Tuin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Jeraldo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Patel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob Agents Chemother</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="3141" to="3144" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Evaluation of the VITEK 2 system for rapid identification of medically relevant gramnegative rods</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Funke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Monnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>De Bernardis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Von</forename><surname>Graevenitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Freney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1948" to="1952" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Comparison of Biolog GEN III MicroStation semi-automated bacterial identification system with matrixassisted laser desorption ionization-time of flight mass spectrometry and 16S ribosomal RNA gene sequencing for the identification of bacteria of veterinary interest</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wragg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Randall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Whatmore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Microbiol Meth</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="16" to="21" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Chapter 13 -MALDI-TOF mass spectrometry applied to classification and identification of Bacteria</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Maier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods in Microbiology</title>
+		<editor>
+			<persName><forename type="first">Michael</forename><surname>Goodfellow</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Jongsik</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="275" to="306" />
+			<date type="published" when="2014">2014</date>
+			<publisher>Academic Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Poretools: a toolkit for analyzing nanopore sequence data</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Loman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="3399" to="3401" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bankevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nurk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Antipov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Gurevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dvorkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Kulikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Lesin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Nikolenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Prjibelski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Comput Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="455" to="477" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Scaffolding preassembled contigs using SSPACE</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Boetzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Henkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Jansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Pirovano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="578" to="579" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">GapFiller: a de novo assembly approach to fill the gap within paired reads</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Nadalin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vezzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Policriti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page">8</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The RAST server: rapid annotations using subsystems technology</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Aziz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bartels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Best</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dejongh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Disz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Formsma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gerdes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Glass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kubal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">75</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">RNAmmer: consistent and rapid annotation of ribosomal RNA genes</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lagesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hallin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Rodland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Staerfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rognes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Ussery</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Nanopore DNA sequencing and genome assembly on the international Space Station</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Castro-Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Stahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Rubins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abr</forename><surname>Mcintyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Dworkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Lupisella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Botkin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">bioRxiv</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Nanopore detection of bacterial DNA base modifications</title>
+		<author>
+			<persName><forename type="first">Abr</forename><surname>Mcintyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Burton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Castro-Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Stahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">bioRxiv</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">MEGA7: molecular evolutionary genetics analysis version 7.0 for bigger datasets</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stecher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tamura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Evol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1870" to="1874" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Multilocus sequence typing of total-genome-sequenced bacteria</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Larsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cosentino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rasmussen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Friis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hasman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Marvig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jelsbak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sicheritz-Ponten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Ussery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Aarestrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1355" to="1361" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Multilocus sequence typing (MLST) for characterization of Enterobacter cloacae</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyoshi-Akiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hayakawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ohmagari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shimojima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kirikae</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">66358</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">BIGSdb: scalable analysis of bacterial genome variation at the population level</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Jolley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Maiden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">595</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Genome project data processing S: the sequence alignment/ map format and SAMtools</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Handsaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wysoker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fennell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Homer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Marth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Abecasis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Durbin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="2078" to="2079" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">DNA-DNA hybridization values and their relationship to whole-genome sequence similarities</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Konstantinidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Klappenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Coenye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vandamme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Tiedje</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Syst Evol Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="81" to="91" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Introducing EzTaxon-e: a prokaryotic 16S rRNA gene sequence database with phylotypes that represent uncultured species</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Syst Evol Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">Pt 3</biblScope>
+			<biblScope unit="page" from="716" to="721" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Genome sequence-based species delimitation with confidence intervals and improved distance functions</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Meier-Kolthoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Auch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-P</forename><surname>Klenk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">60</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Basic local alignment search tool</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Altschul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lipman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="403" to="410" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">BLAST ring image generator (BRIG): simple prokaryote genome comparisons</title>
+		<author>
+			<persName><forename type="first">N-F</forename><surname>Alikhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Petty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ben</forename><surname>Zakour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Beatson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">402</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">RAxML-III: a fast program for maximum likelihood-based inference of large phylogenetic trees</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stamatakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ludwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Meier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="456" to="463" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Isolation: NASA experiments in closedenvironment living, advanced human life support enclosed system</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Lane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Sauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Feeback</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<publisher>American Astronautical Society</publisher>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="1" to="432" />
+			<pubPlace>San Diego, California</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Burkholderia xenovorans LB400 harbors a multi-replicon, 9.73-Mbp genome shaped for versatility</title>
+		<author>
+			<persName><forename type="first">Psg</forename><surname>Chain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">J</forename><surname>Denef</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Konstantinidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Vergez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Agulló</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Reyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Córdova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gómez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>González</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="issue">42</biblScope>
+			<biblScope unit="page" from="15280" to="15287" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Multidrug resistance mechanisms: drug efflux across two membranes</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">I</forename><surname>Zgurskaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nikaido</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="219" to="225" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Tripartite assembly of RND multidrug efflux pumps</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Daury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Orange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Taveau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Verchere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Monlezun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gounou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Marreddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Picard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Broutin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Pos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">10731</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The multiple antibiotic resistance regulator MarR is a copper sensor in Escherichia coli</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>He</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="21" to="28" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Molecular mechanisms of antibiotic resistance</title>
+		<author>
+			<persName><forename type="first">Jma</forename><surname>Blair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Webber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Baylay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">O</forename><surname>Ogbolu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ljv</forename><surname>Piddock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Micro</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="42" to="51" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The multiple antibiotic resistance (mar) locus and its significance</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Randall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res Vet Sci</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="87" to="93" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Nucleotide sequence of a spectinomycin adenyltransferase AAD(9) determinant from Staphylococcus aureus and its relationship to AAD(3″) (9)</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Murphy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Gen Genet</title>
+		<imprint>
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="33" to="39" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Relationship between mutations in the gyrA gene and quinolone resistance in clinical isolates of Corynebacterium striatum and Corynebacterium amycolatum</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Sierra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Martinez-Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vazquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Giralt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vila</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob Agents Chemother</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1714" to="1719" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Fosfomycin resistance proteins: a nexus of glutathione transferases and epoxide hydrolases in a metalloenzyme superfamily</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Rigsby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Fillgrove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Beihoffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Armstrong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">401</biblScope>
+			<biblScope unit="page" from="367" to="379" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">PathogenFinderdistinguishing friend from foe using bacterial whole genome sequence data</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cosentino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Voldby</forename><surname>Larsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Møller</forename><surname>Aarestrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">77302</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Complete genome sequence of Enterobacter cloacae subsp. cloacae type strain ATCC 13047</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">192</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2463" to="2464" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Review of antimicrobial resistance in the environment and its relevance to environmental regulators</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Singer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Rhodes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">1728</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Antibiotics and heavy metal resistance emergence in water borne Bacteria</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Investig Genomics</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Landscape of resistance-nodulation-cell division (RND)-type efflux pumps in Enterobacter cloacae Complex</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Guérin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lallement</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Isnard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dhalluin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Cattoir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-C</forename><surname>Giard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob Agents Chemother</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="2373" to="2382" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Bacterial multidrug efflux pumps: mechanisms, physiology and pharmacological exploitations</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yan</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Biophys Res Commun</title>
+		<imprint>
+			<biblScope unit="volume">453</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="254" to="267" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Nanopore DNA sequencing and genome assembly on the international Space Station</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Castro-Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Stahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Rubins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abr</forename><surname>Mcintyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Dworkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Lupisella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Botkin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">18022</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

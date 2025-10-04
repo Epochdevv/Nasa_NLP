@@ -1,0 +1,3065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Host-Microbe Interactions in Microgravity: Assessment and Implications</title>
+				<funder ref="#_zGkAuMC">
+					<orgName type="full">Florida Space Research Institute</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>MDPI AG</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2014-05-26">26 May 2014</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jamie</forename><forename type="middle">S</forename><surname>Foster</surname></persName>
+							<email>jfoster@ufl.edu</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Space Life Science Lab</orgName>
+								<orgName type="institution">University of Florida</orgName>
+								<address>
+									<addrLine>505 Odyssey Way</addrLine>
+									<postCode>32953</postCode>
+									<settlement>Merritt Island</settlement>
+									<region>FL</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Raymond</forename><forename type="middle">M</forename><surname>Wheeler</surname></persName>
+							<email>raymond.m.wheeler@nasa.gov</email>
+							<affiliation key="aff1">
+								<orgName type="institution">Kennedy Space Center</orgName>
+								<address>
+									<postCode>32899</postCode>
+									<region>FL</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Regine</forename><surname>Pamphile</surname></persName>
+							<email>reginep116@ufl.edu</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Space Life Science Lab</orgName>
+								<orgName type="institution">University of Florida</orgName>
+								<address>
+									<addrLine>505 Odyssey Way</addrLine>
+									<postCode>32953</postCode>
+									<settlement>Merritt Island</settlement>
+									<region>FL</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Host-Microbe Interactions in Microgravity: Assessment and Implications</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Life</title>
+						<title level="j" type="abbrev">Life</title>
+						<idno type="ISSN">2075-1729</idno>
+						<imprint>
+							<publisher>MDPI AG</publisher>
+							<biblScope unit="volume">4</biblScope>
+							<biblScope unit="issue">2</biblScope>
+							<biblScope unit="page" from="250" to="266"/>
+							<date type="published" when="2014-05-26">26 May 2014</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">13430C086D4D733E5FF65380F027D91E</idno>
+					<idno type="DOI">10.3390/life4020250</idno>
+					<note type="submission">Received: 8 February 2014; in revised form: 14 May 2014 / Accepted: 20 May 2014 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:35+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>host-microbe interactions</term>
+					<term>microgravity</term>
+					<term>microbiome</term>
+					<term>space flight</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Spaceflight imposes several unique stresses on biological life that together can have a profound impact on the homeostasis between eukaryotes and their associated microbes. One such stressor, microgravity, has been shown to alter host-microbe interactions at the genetic and physiological levels. Recent sequencing of the microbiomes associated with plants and animals have shown that these interactions are essential for maintaining host health through the regulation of several metabolic and immune responses. Disruptions to various environmental parameters or community characteristics may impact the resiliency of the microbiome, thus potentially driving host-microbe associations towards disease. In this review, we discuss our current understanding of host-microbe interactions in microgravity and assess the impact of this unique environmental stress on the normal physiological and genetic responses of both pathogenic and mutualistic associations. As humans move beyond our biosphere and undergo longer duration space flights, it will be essential to more fully understand microbial fitness in microgravity conditions in order to maintain a healthy homeostasis between humans, plants and their respective microbiomes.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Spaceflight impacts all living organisms from their genome to physiome. Whether it is the reduction in gravity, increased exposure to low dose radiation, chronic elevated CO 2 levels or time dislocation, the physical factors associated with the spaceflight environment presents a unique set of stresses on biological systems. Of these physical factors, the reduction in gravity, or microgravity, is one of the most widely studied <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>. Gravity represents one of the most constant evolutionary drivers of life on Earth <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref>, and understanding how organisms respond to the absence of this ever-present force not only provides information on how gravity has shaped life on Earth, but also provides key insight into potential mechanisms to mitigate the negative effects of microgravity during spaceflight. The large-scale physiological effects of microgravity-induced stress on animals and plants are relatively well known. For example, in humans, microgravity conditions result in bone loss, upwards to 3% per month <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11]</ref>, permutations to both the adaptive and innate immune systems <ref type="bibr" target="#b11">[12]</ref>, and an increased potential risk of bacterial and viral infections <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b13">14]</ref>. Plants also have an increased susceptibility to pathogenic colonization in microgravity <ref type="bibr" target="#b14">[15]</ref>, as well as altered rates of cell division, changes in morphological structures of cell tissues, such as root hairs, and induced chromosomal aberrations <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref>. Although these overarching phenotypes associated with microgravity exposure have been observed for decades, ascertaining whether the phenotypes are specific to microgravity or other environmental variables, as well as the underlying etiology of these effects at the cellular and biomolecular level are not yet fully delineated.</p><p>Compounding our understanding of the mechanisms underlying these physiological effects is the relatively unknown impact of microgravity on the microbiome associated with eukaryotic organisms. A microbiome is typically defined as the sum of the microbes, genomes and community interactions that occur in a particular environment. The term was first applied to humans to understand the ecology of those microbes that interact with the body <ref type="bibr" target="#b18">[19]</ref> but has been quickly adopted to represent a holistic approach to understanding the connectivity and interactions within any complex host-microbe association <ref type="bibr" target="#b19">[20]</ref>. In humans, the recent human microbiome sequencing project has revealed that the collective metagenome of those microbes that associate with humans dwarfs the size of the human genome and contains a consortia of bacteria, archaea, fungi and viruses, the specific contributions of which are not yet fully delineated (Figure <ref type="figure" target="#fig_0">1</ref>) <ref type="bibr" target="#b20">[21]</ref>. Initial surveys indicate that for every one human gene there are approximately 360 bacterial genes, thereby providing humans with millions of genes of additional metabolisms and cellular activities <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b22">23]</ref>.</p><p>Over the past decade, there has been a paradigm shift in our understanding of the importance the microbiome plays in maintaining plant and animal health <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b23">24]</ref>. Aspects previously attributed to the host are now recognized as being the result of interactions with microbes <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b25">26]</ref>. For example, analyses of germ-free and normally colonized mice have shown that the gut microbiota is responsible for most of the metabolites found in mammalian blood <ref type="bibr" target="#b26">[27]</ref>. Additionally, some species of bacteria within human gut have been recently correlated to the onset of several autoimmune diseases, such as rheumatoid arthritis and Type 1 diabetes <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref>; colorectal cancers <ref type="bibr" target="#b31">[32]</ref>; and obesity <ref type="bibr" target="#b32">[33]</ref> suggesting that perturbations to the gut environment (e.g., antibiotic treatments) can increase the potential risk of disease. However, in many of these same cases, modulations of the gut microbiota and probiotic therapies have been shown to attenuate the condition and treat the host organism <ref type="bibr" target="#b23">[24]</ref>. Relative gene abundance is derived from the human microbiome sequencing project <ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b21">22]</ref>. Question marks reflect uncertainty or potential underestimation of gene abundance.</p><p>Together, these studies indicate that stable diverse microbial communities and functional gene redundancies can provide resiliency to the host's microbiota to withstand temporary community disturbances and potentially resist invasion by exogenous pathogenic microbes <ref type="bibr" target="#b23">[24,</ref><ref type="bibr" target="#b33">34]</ref>. However, continuous or regular perturbations to the environment, such as exposure to microgravity, may result in loss of biodiversity or extirpation (i.e., the extinction of a species in localized areas of the microbiome), potentially driving the community towards disease.</p><p>Although the short-and long-term resilience (i.e., susceptibility of community to disturbances or extirpation) of animal and plant microbiomes in response to microgravity is virtually unknown, microbial exchange and transfers do occur between microbiomes during spaceflight <ref type="bibr" target="#b34">[35,</ref><ref type="bibr" target="#b35">36]</ref> and there is increasing evidence that microgravity induces physiological and developmental changes within specific host-microbe interactions as discussed below. Assessing the impact of microgravity on a host organism and its microbiota requires a comprehensive analysis that includes the study of both pathogenic and mutualistic bacteria as cultures and in situ to fully understand the requirements needed to maintain host health in the space flight environment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Spaceflight and Simulated Microgravity Environments</head><p>Experimentally testing the effects of microgravity on host-microbe interactions at the cellular and biomolecular level often requires a two-pronged approach. First, in ideal situations the impact of microgravity on both host and symbiont physiology can be investigated under a high-quality microgravity (10 -6 g) environment, such the International Space Station U.S. National Laboratory <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b36">37]</ref>. However, logistics with regard to access to the station, astronaut time, the need for specialized equipment and overall costs can impose limitations on experimental design and reproducibility. A second approach to microgravity research has been the development of Earth-based systems to simulate or model the microgravity environment. Examples include drop towers at various NASA facilities, and parabola flights in aircraft (e.g., Zero-G), which can provide several seconds of microgravity, albeit at a lower quality (10 -3 g). A new frontier in microgravity research is the emergence of numerous commercial suborbital companies such as Virgin Galactic, XCOR Aerospace, Blue Origin, and Masten Space Systems that in the next few years will offer lower flight cost, and more frequent and rapid flights rates for microgravity research.</p><p>Although these alternative approaches may provide up to several minutes of microgravity exposure, other ground-based tools have emerged over the past few decades that can model the low-shear, low-turbulent effects of microgravity over longer periods of time and will be discussed in this review. Two of these technologies, the clinostat and rotating wall vessel (RWV), provide a relatively low cost approach to investigate the cumulative effects of microgravity on both pathogenic and mutualistic microbes <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref>. Both technologies facilitate constant rotation that is perpendicular to the gravitational vector thus maintaining the cell cultures in a low shear suspension where the hydrodynamic forces offset gravitational settling, thus enabling the organism to be in a simulated microgravity state <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b38">39]</ref>.</p><p>Rotating bioreactors can effectively replicate the low shear environments of many parts of the human body where bacteria typically associate, such as the brush-border of epithelial cells, one of the most common sites for host-microbe interactions in animals <ref type="bibr" target="#b41">[42,</ref><ref type="bibr" target="#b42">43]</ref>. Although initially the reactors were used for bacterial suspensions, the technology has been successfully adapted to examine more complex aspects of host-microbe interactions. For example, the RWV bioreactors have been used to stimulate the formation of three-dimensional eukaryotic cell cultures that more realistically approximate the function and cellular tissue structure an exogenous microbe might encounter. More recently, RWV bioreactors have been used to look at the impact of microgravity on the colonization of host tissues in situ, where both the host and symbiotic partners are co-incubated within the rotating vessels <ref type="bibr" target="#b40">[41,</ref><ref type="bibr" target="#b43">44,</ref><ref type="bibr" target="#b44">45]</ref>. Although the shear forces increase when working with larger organisms in the RWV bioreactors, previous modeling experiments have shown that the fluid shear levels of objects up to 3 mm mimic those typically seen by microbes when they associate with host tissues <ref type="bibr" target="#b45">[46,</ref><ref type="bibr" target="#b46">47]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Impact of Microgravity on Animal-Microbe Associations</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Pathogenic Interactions with Animals</head><p>Over the past few decades, numerous studies have examined the effects of both natural and modeled microgravity on pathogenic microbes revealing several pronounced physiological responses <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b36">37,</ref><ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b43">44,</ref><ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b48">49]</ref>. These microgravity-induced changes include: changes in growth rate and higher cell densities; increased membrane integrity <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b49">50,</ref><ref type="bibr" target="#b50">51]</ref>; differential secondary metabolite production <ref type="bibr" target="#b51">[52]</ref>; elevated transfer rates of genetic material between cells <ref type="bibr" target="#b52">[53,</ref><ref type="bibr" target="#b53">54]</ref> and increased biofilm formation <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b54">55,</ref><ref type="bibr" target="#b55">56]</ref>.</p><p>In addition to these basic physiological responses, several well-characterized pathogenic microbes have also exhibited changes at the molecular level by altering expression of genes known to be associated with virulence in microgravity including: Salmonella enterica serovar Typhimurium cultures; Escherichia coli; and Pseudomonas aeruginosa <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b56">[57]</ref><ref type="bibr" target="#b57">[58]</ref><ref type="bibr" target="#b58">[59]</ref><ref type="bibr" target="#b59">[60]</ref>. In S. typhimurium cultures grown in both space flight and ground-based analog microgravity environments, there was faster colonization of mouse spleen and liver tissues and shortened time-to-death rates <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b56">57]</ref>. This enhanced pathogenicity in S. typhimurium has also been correlated to the overall fitness of the cultures in microgravity, including increased resistance to antibiotics, pH, temperature and osmotic stresses <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b36">37,</ref><ref type="bibr" target="#b54">55]</ref>. Transcriptional and proteomic analysis of microgravity-exposed S. typhimurium has revealed the differential expression of numerous genes and proteins associated with stress responses and virulence, such as lipopolysaccharide synthesis enzymes, cell invasion genes, and the global regulator Hfq <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b60">61,</ref><ref type="bibr" target="#b61">62]</ref>. Hfq, a RNA binding protein known to have a diverse role in bacterial physiology <ref type="bibr" target="#b62">[63]</ref>, has been shown to be essential for S. typhimurium virulence <ref type="bibr" target="#b63">[64]</ref> as well as numerous other pathogenic microbes <ref type="bibr" target="#b58">[59,</ref><ref type="bibr" target="#b61">62,</ref><ref type="bibr" target="#b64">65,</ref><ref type="bibr" target="#b65">66]</ref>. Of the many genes associated with microgravity exposure, the global Hfq regulator was one of the few differentially expressed genes to be identified in other pathogenic species, such as Pseudomonas aeruginosa and Staphylococcus aureus <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b58">59,</ref><ref type="bibr" target="#b61">62]</ref>, suggesting it plays a diverse and critical role in mediating the microgravity response in bacteria.</p><p>Although S. typhimurium clearly exhibited increased virulence in both natural and modeled microgravity, the response was environment-dependent <ref type="bibr" target="#b48">[49]</ref>. Altering the inorganic salt concentration of the surrounding media effectively inhibited the enhanced virulence <ref type="bibr" target="#b48">[49]</ref> suggesting that it may be possible to mitigate aspects of pathogenicity during space flight. Additionally, recent examination of the ability of several clinical pathogens to infect an animal host in situ, where both organisms were maintained under both space flight and modeled microgravity conditions, showed an overall decrease in virulence <ref type="bibr" target="#b43">[44]</ref>. In this study, four diverse pathogens including: Listeria monocytogens, a common food-borne pathogen; Staphylococcus aureus, associated with skin and respiratory infections; Enterococcus faecalis, a prevalent antibiotic resistant species associated with gastrointestinal track; and Candida albicans, a fungus known to associate with skin and mucus membranes, were incubated with the nematode Caenorhabditis elegans for up to 48 h and then the host was assessed for viability. The overall decrease in virulence may be the result of basic morphological (i.e., coccoid versus filamentous) or motility differences between the microbial ecotypes that alter the low-shear environment of space flight, thus impacting the ability of the pathogen to colonize and infect host tissues <ref type="bibr" target="#b66">[67]</ref>. These results may also simply reflect host-specific or even tissue-specific differential gene expression in response to various pathogens under microgravity conditions. Such studies reinforce the need to fully assess the environmental or community characteristics that predispose or drive host-microbe interactions towards disease.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Mutualistic Interactions with Animals</head><p>Although disease-causing microbes represent a potential risk to astronauts in microgravity conditions, it is also essential to have a corresponding understanding of mutualistic microbes to learn what drives microbial fitness in the spaceflight environment and how to maintain a healthy homeostasis between humans and their microbiome. To address these issues, one model system has recently emerged to assess the interactions between animal cells and beneficial microbes in situ under microgravity conditions (Figure <ref type="figure" target="#fig_1">2</ref>). The binary symbiosis between the Hawaiian bobtail squid Euprymna scolopes and its luminescent partner Vibrio fischeri was established over two decades ago as a tractable model for examining beneficial animal-microbe interactions <ref type="bibr" target="#b67">[68,</ref><ref type="bibr" target="#b68">69]</ref>. The site of symbiosis occurs in the host light organ, located within the squid's mantle cavity (Figure <ref type="figure" target="#fig_1">2A</ref>). The light organ contains a series of superficial invaginations that form long ciliated ducts, which terminate into a series of epithelial lined crypt spaces where the bacteria eventually reside and grow. On the surface of the light organ is a superficial field of epithelial cells overlaying a blood sinus that form two appendage-like structures and are critical for facilitating the initiation of the symbiosis (Figure <ref type="figure" target="#fig_1">2B</ref>). Studies have revealed that the colonization and maintenance of the light organ symbiosis is highly specific and requires a complex exchange of signaling molecules and cell-cell communication that is in part mediated by the host immune system <ref type="bibr" target="#b69">[70,</ref><ref type="bibr" target="#b70">71]</ref>.</p><p>One of the initial signals involved in establishing the symbiosis is the use of micro-associated molecular pattern (MAMP) molecules, such as lipopolysaccharides (LPS) and peptidoglycan. Originally characterized in pathogenic associations, LPS and peptidoglycan have been recently shown to be critical for maintaining gut homeostasis in mammals and insects <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b71">72]</ref>. The squid-vibrio symbiosis is initiated when upon hatching from their egg case the squid is exposed to bacteria-rich seawater. Peptidoglycan that is shed from these surrounding microbes induces mucus to be secreted by the surface epithelial appendage cells of the host light organ. The accumulation of mucus selectively enriches V. fischeri from the other surrounding microbes and within 2-3 h after hatching the V. fischeri begins to colonize the light organ by entering pores on the surface of the light organ then migrating through ducts until they reach the crypt spaces. During the colonization of the light organ, the bacteria induce a series of developmental events in the host squid that eventually results in a remodeling of the host light organ structure.</p><p>One of the first symbiont-induced phenotypes in the host squid is the activation of the host's innate immune response <ref type="bibr" target="#b68">[69,</ref><ref type="bibr" target="#b70">71,</ref><ref type="bibr" target="#b72">73]</ref>. With two hours of exposure to V. fischeri cells, host-derived hemocytes, a macrophage-like cell, are trafficked into the blood sinus of the superficial epithelial cell appendage (Figure <ref type="figure" target="#fig_1">2C</ref>). The precise role these host immune cells play in the symbiosis is not well defined, however, it is thought they facilitate the regression of superficial epithelial cells once colonization has been initiated <ref type="bibr" target="#b68">[69]</ref>. The regression event is triggered by a bacteria-induced apoptosis event by the synergistic activity of the bacterial MAMP molecules LPS and a derivative of peptidoglycan, tracheal cytotoxin (Figure <ref type="figure" target="#fig_1">2D</ref>) <ref type="bibr" target="#b73">[74,</ref><ref type="bibr" target="#b74">75]</ref>. The apoptosis event peaks 16 h after exposure to the V. fischeri MAMPS and regression of the epithelial appendages is visible by 24 h and takes approximately 96 h for complete regression (Figure <ref type="figure" target="#fig_1">2E</ref>) <ref type="bibr" target="#b75">[76]</ref><ref type="bibr" target="#b76">[77]</ref><ref type="bibr" target="#b77">[78]</ref>.</p><p>In modeled microgravity conditions, where both partners are co-incubated using RWV bioreactors, the bacteria-induced developmental time line in the host light organ is altered (Figure <ref type="figure" target="#fig_1">2F</ref>). One of the first observed differences is that the trafficking of host-derived hemocytes into the light organ blood sinus, which normally occurs within two hours of bacteria exposure, is delayed until 12 h in modeled microgravity <ref type="bibr" target="#b40">[41]</ref>. The cause for the delay is not known, but the amount of hemocyte cells in the blood sinus is significantly lower than in gravity controls suggesting that the low-shear, modeled microgravity environment suppresses the activation and transport of hemocytes to the light organ <ref type="bibr" target="#b40">[41]</ref>. One potential explanation is that the squid hemocytes proliferation or cytokine signaling may be reduced in microgravity-like conditions. Similar results have been seen in mammalian immune systems during space flight <ref type="bibr" target="#b78">[79,</ref><ref type="bibr" target="#b79">80]</ref>.</p><p>Another key phenotype that changes in the squid-vibrio system during modeled microgravity is the acceleration of the light organ morphogenesis; specifically, the LPS-induced apoptotic cell death event throughout the superficial field of epithelial cells. Normally, the LPS triggered apoptosis event peaks approximately 16 h after bacterial exposure, however, in modeled microgravity it occurs around 8 h after exposure <ref type="bibr" target="#b40">[41]</ref>. The epithelial cells comprising this structure appear to have an increased sensitivity to extracellular LPS in modeled microgravity conditions, although the mechanism is not fully understood <ref type="bibr" target="#b44">[45]</ref>. The acceleration of the LPS-induced apoptosis event may be tied to the global regulator Hfq, which similar to S. typhimurium and P. aeruginosa is down regulated in V. fischeri during modeled microgravity conditions <ref type="bibr" target="#b44">[45]</ref>. Additionally, mutants defective in the hfq gene exhibited attenuated levels of apoptotic cell death in microgravity although the timing was still accelerated compared to gravity controls <ref type="bibr" target="#b44">[45]</ref>. Experiments are currently underway to examine changes in microgravity-induced gene expression of wild-type V. fischeri and mutants defective in the hfq gene to assess the impact of modeled microgravity on the symbiont transcriptome (J. Foster unpublished).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Impact of Microgravity on Plant-Microbe Associations</head><p>As humans move beyond Earth's biosphere and undergo the long-term habitation of space, life support systems will inevitably require plants. Understanding the physical and genetic impact of microgravity on plant physiology and their associated microbes will be critical <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b17">18]</ref>. Much like the animal microbiome, plants are also colonized by trillions of microbial cells that form complex and metabolically diverse ecosystems influencing their health and growth <ref type="bibr" target="#b80">[81,</ref><ref type="bibr" target="#b81">82]</ref>. In terrestrial systems, these beneficial microbes are typically associated with the rhizosphere, a narrow zone surrounding the plant roots. Plants can exude up to 21% of their photosynthetically fixed carbon into the root-soil interface <ref type="bibr" target="#b82">[83]</ref>, which can influence the microbial activity and diversity, thereby enhancing seed germination rates, nutrient uptake, plant growth and development <ref type="bibr" target="#b81">[82,</ref><ref type="bibr" target="#b83">84]</ref>. Recent studies have shown that plants actively recruit disease-suppressive microbes that can protect the host from various infections through the production specific molecules, such as nonribosomal peptide synthases <ref type="bibr" target="#b84">[85,</ref><ref type="bibr" target="#b85">86]</ref>, and boost the plant immune system <ref type="bibr" target="#b86">[87]</ref>. For example, in Arabidopsis thaliana, the rhizobacterium Pseudomonas fluorescence can induce the induced systemic resistance (ISR) response of the host by the apoplastic secretion of low molecular weight molecules that locally suppress flagellin-triggered immune responses <ref type="bibr" target="#b87">[88]</ref>. Activation of ISR can accelerate defense-associated gene expression in the host, thus priming the plant immune system and facilitating resistance to a wide range of pathogens <ref type="bibr" target="#b88">[89]</ref>.</p><p>In spaceflight, however, the structural complexity and species richness of the plant rhizosphere can be reduced due to the limitations on using friable soils in microgravity and the lack of natural water drainage, which can result in poor aeration in the root zone <ref type="bibr" target="#b89">[90,</ref><ref type="bibr" target="#b90">91]</ref>. Plants cultivated in space flight conditions have been grown in various media, including agar plates, growth pouches, absorbent -floral foams‖, and in sub-irrigated porous arcillite (calcined clay chips) <ref type="bibr" target="#b91">[92,</ref><ref type="bibr" target="#b92">93]</ref>. These studies have often used specialized growth chambers (e.g., Astroculture, the Biomass Production System, Lada, and others), which typically control light, humidity, carbon dioxide and regulated temperature <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b89">90,</ref><ref type="bibr" target="#b91">92,</ref><ref type="bibr" target="#b93">[94]</ref><ref type="bibr" target="#b94">[95]</ref><ref type="bibr" target="#b95">[96]</ref><ref type="bibr" target="#b96">[97]</ref><ref type="bibr" target="#b97">[98]</ref>. Some of these chambers, such as the Russian Svet (on Mir) and the Lada on the International Space Station (ISS) are open to the cabin air <ref type="bibr" target="#b96">[97]</ref> and hence exposed to the organic volatiles and very high CO 2 levels of the cabin air, which can affect the plants in ways unrelated to microgravity <ref type="bibr" target="#b98">[99,</ref><ref type="bibr">100]</ref>. It is not unreasonable to assume that these other space environment effects could then also influence host-microbe interactions.</p><p>Several investigations have revealed that plants grown in microgravity exhibit an increased susceptibility to plant pathogens <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b95">96,</ref><ref type="bibr">101,</ref><ref type="bibr">102]</ref>. For example, soybeans cultivated under space flight conditions in the presence of the pathogenic fungus Phytophthora sojae showed high levels of disease symptoms (i.e., browning and maceration of the roots) compared to ground controls. Additionally, increased levels of fungal structures penetrating the vascular tissue of the plant were also observed suggesting that under microgravity conditions the pathogen more effectively colonized the host tissues <ref type="bibr" target="#b95">[96]</ref>. Microgravity exposure has also been shown to negatively impact plant cell wall integrity, as both cell wall regeneration and lignin biosynthesis can be repressed under spaceflight conditions thereby facilitating colonization of fungal pathogens <ref type="bibr" target="#b17">[18,</ref><ref type="bibr">102]</ref>. This increase in pathogenesis during spaceflight may reflect the disruption to the normal healthy rhizosphere microbiome.</p><p>Although the effects of microgravity appear to increase susceptibility of the plant host to disease, less is known of its impact on associations with beneficial microbes. One of the few known examples includes the symbioses between nitrogen-fixing bacteria and leguminous plants. Nitrogen fixation is a critical bacterial metabolism for future life support systems to help cycle inert dinitrogen to the more usable ammonia [103], however, the effects of microgravity on the major stages of root nodule formation and colonization are not well known. Early studies have shown that under modeled microgravity conditions, Rhizobium leguminosarum cells can increase binding of succinate, a key molecule in the differentiation of the bacteria to bacteroids, a distinct cell-type capable of fixing nitrogen <ref type="bibr">[103,</ref><ref type="bibr">104]</ref>. This increased binding, however, did not alter the developmental time line of the bacteroid formation and there were no statistical differences between microgravity and gravity controls <ref type="bibr">[103]</ref>. Similar experiments have been since replicated during spaceflight for longer durations using the partners Medicago truncatula, the barrel clover, and the bacterial symbiont Sinorhizobium meliloti (G. Stutte and M. Roberts unpublished). No developmental delays were observed between spaceflight and 1 × g gravity controls conditions. The S. meliloti cells were able to effectively colonize and induce normal nodule formation in the plant host suggesting this symbiosis may play an important role in future life support systems (G. Stutte and M. Roberts unpublished). Although additional work is required to characterize the impact of spaceflight on these rhizobia-legume symbioses and other members of the plant microbiome, especially at the genome-level, these initial results suggest that microgravity does not impair the initial colonization and cell-cell communication required by the host and microbial association. As the plant microbiome can, in turn, directly influence the human microbiome through the ingestion of raw plants or through environmental interactions in a closed life support system, it will become critical to expand our understanding of the effects of microgravity on these key plant-microbe interactions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Summary</head><p>The recent advance in our understanding of human and plant biology with respect to their microbiomes represents a new frontier for space biology research <ref type="bibr">[105]</ref>. It is increasingly clear that astronauts, and other eukaryotic hosts, should be considered as metaorganisms, whose crosstalk and interactions with their microbes at the genetic and cellular level have redefined our definition of health and disease <ref type="bibr">[106]</ref>. As manned exploration of space continues beyond the biosphere, it will be critical to examine the stability and resiliency of the human and plant metaorganism to spaceflight-induced stresses, including microgravity. For example, if keystone microbes are lost in the host community, this may result in a shift in species diversity and richness of the microbiome, thus potentially facilitating the rise of opportunistic pathogens that might otherwise be contained by the normal microbial community.</p><p>To the microbe, eukaryotes simply represent a complex environment in which it must perpetually navigate and adapt to maintain its fitness <ref type="bibr" target="#b21">[22]</ref>. This adaptation can occur through horizontal gene transfer events, and recent sequencing evidence suggests that in humans, the microbiome is a hotspot for genetic transfer, facilitating the exchange of antibiotic resistance, food digestion and nutrient metabolism genes that may provide the microbe a competitive advantage within the host community <ref type="bibr" target="#b2">[3,</ref><ref type="bibr">107]</ref>. Understanding the nature and frequency of such events, as well as the overall stability of the microbiome under microgravity conditions, will not only help elucidate how microgravity alters this dynamic microbial landscape but will help enable the formation of new strategies for maintenance and potential restoration of the healthy microbiome during spaceflight.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Overview of the complexity of human microbiome. Circle size reflects the approximate relative abundance of the various microbes known to associate with humans.Relative gene abundance is derived from the human microbiome sequencing project<ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b21">22]</ref>. Question marks reflect uncertainty or potential underestimation of gene abundance.</figDesc><graphic coords="3,360.90,166.50,73.83,77.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Impact of microgravity on the developmental time line of mutualistic symbiosis between the squid Euprymna scolopes and bacterial partner Vibrio fischeri. (A) Juvenile squid just after hatching. Blue rectangle marks the location within the host mantle cavity of light organ, the site of symbiosis. Bar, 0.25 mm (B) Light organ at hatching showing the elongated surface epithelium that forms appendage like structures on either side of the light organ. Bar, 75 μm. (C) One half of light organ depicting the movement of hemocytes (green) moving into the blood sinus contained within the surface epithelium upon exposure to bacteria. Bar, 30 μm. (D) Light organ exposed to bacterial lipopolysaccharide showing pronounced cell death staining pattern along the superficial epithelium. Bar, 30 µm. (E) Image of one half of light organ depicting the loss of the superficial epithelial appendage structures 96 h after colonization with V. fischeri. Bar, 30 µm. (F) Exposure to microgravity alters the developmental time line of the symbiosis under normal gravity and modeled microgravity conditions using a RWV bioreactor. Events listed in black do not change under microgravity conditions. Those events in red are delayed during modeled microgravity, where as those events in green are accelerated.</figDesc><graphic coords="6,277.19,384.30,68.71,97.06" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© 2014 by the authors; licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/).</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors would like to thank <rs type="person">Jennifer Mobberley</rs> for her useful comments on this manuscript. This work was supported by the <rs type="funder">Florida Space Research Institute</rs> and the <rs type="programName">NASA Space Biology program</rs> (<rs type="grantNumber">NNX13AM44G</rs>) awarded to J.S.F.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_zGkAuMC">
+					<idno type="grant-number">NNX13AM44G</idno>
+					<orgName type="program" subtype="full">NASA Space Biology program</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p>All authors contributed to the development, organization, and writing of this manuscript. All authors have read and approved the final manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest</head><p>The authors declare no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Microbial responses to microgravity and other low-shear environments</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nickerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ramamurthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol. Mol. Biol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="345" to="361" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Alterations in the virulence potential of enteric pathogens and bacterial-host cell interactions under simulated microgravity conditions</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Chopra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Fadl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chopra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Galindo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Chopra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Toxicol. Environ. Health A</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1345" to="1370" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Antibiotic efficacy and microbial virulence during space flight</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Klaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Howard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="131" to="136" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Travails of microgravity: Man and microbes in space</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Lynch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biologist</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="80" to="92" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Honer Zu Bentrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ramamurthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Quick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Porwollik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mcclelland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tsaprailis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="16299" to="16304" />
+			<date type="published" when="2007">2007</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Effect of simulated microgravity on growth and production of exopolymeric substances of Micrococcus luteus space and Earth isolates</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mauclaire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Egli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Immunol. Med. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="350" to="356" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Effect of modeled reduced gravity conditions on bacterial morphology and physiology</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vukanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Model</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Leff</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2180-12-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The Impact of Gravity on Life</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Morey-Holton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Evolution on Planet Earth: The Impact of the Physical Environment</title>
+		<editor>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Rothschild</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Lister</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="143" to="159" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Gravity: One of the driving forces for evolution</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Volkmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Baluska</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protoplasma</title>
+		<imprint>
+			<biblScope unit="volume">229</biblScope>
+			<biblScope unit="page" from="143" to="148" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Advances in understanding the skeletal biology of spaceflight</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Globus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Morey-Holton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Grav. Space Biol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="3" to="12" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Weight, muscle and bone loss during space flight: Another perspective</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Stein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Appl. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="2171" to="2181" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Could spaceflight-associated immune system weakening preclude the expansion of human presence beyond Earth&apos;s orbit?</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gué Guinou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huin-Schohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bascove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Bueb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tschirhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Legrand-Frossi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Frippiat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Leukoc. Biol</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="1027" to="1038" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Microbial Stress: Spaceflight-Induced Alterations in Microbial Virulence nad Infectious Disease Risks for the Crew</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crabbe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Barrila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nickerson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Stress Challenges and IMMUNITY in Space</title>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Chouker</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Berlin/Heidelberg, Gemany</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="203" to="225" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Infection prevention and control during prolonged human space travel</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Mermel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Infect. Dis</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="123" to="130" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Plants, plant pathogens, and microgravity-A deadly trio</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Leach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ryba-White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hilaire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gartner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Nedukha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kordyum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Keck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Leung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Grav. Space Biol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="15" to="23" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Plants in space</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Halstead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Dutcher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="317" to="345" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Binding of isolated plant lectin by rhizobia during episodes of reduced gravity obtained by parabolic flight</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Guikema</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="262" to="264" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Plants in space</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ferl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Levine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Paul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="258" to="263" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The scientis: ‗Ome sweet&apos; omics-A geneological treasury of words</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lederberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mccray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scientist</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Culturing captures members of the soil rare biosphere</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Hogan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Klimowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Linske</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Mcmanus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Handelsman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="2247" to="2252" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Structure, function and diversity of the healthy human microbiome</title>
+		<author>
+			<orgName type="collaboration">Human Microbiome Consortium</orgName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">486</biblScope>
+			<biblScope unit="page" from="207" to="214" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">An ecological and evolutionary perspective on human-microbe mutualism and disease</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dethlefsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mcfall-Ngai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Relman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">449</biblScope>
+			<biblScope unit="page" from="811" to="818" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The genome of a blood fluke associated with human cancer</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mitreva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Genet</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="116" to="118" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The human microbiome: At the interface of health and disease</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Blaser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Genet</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="260" to="270" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Recognition of commensal microflora by toll-like receptors is required for intestinal homeostasis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rakoff-Nahoum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Paglino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Eslami-Varzaneh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Edberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Medzhitov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="229" to="241" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">An immunomodulatory molecule of symbiotic bacteria directs maturation of the host immune system</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Mazmanian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Tzianabos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Kasper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="107" to="118" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Metabolomics analysis reveals large effects of gut microflora on mammalian blood metabolites</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Wikoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Anfora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Schultz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Lesley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Siuzdak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="3698" to="3703" />
+			<date type="published" when="2009">2009</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Innate immunity and intestinal microbiota in the development of type 1 diabetes</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Ley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Y</forename><surname>Volchkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Stranges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Avanesyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Stonebraker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Szot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Bluestone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">455</biblScope>
+			<biblScope unit="page" from="1109" to="1113" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Induction of intestinal Th17 cells by segmented filamentous bacteria</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">I</forename><surname>Ivanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Atarashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Manel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Brodie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Karaoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Goldfarb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Santee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Lynch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="485" to="498" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Gut microbiome metagenomics analysis suggests a functional model for the development of autoimmunity for type 1 diabetes</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Davis-Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Giongo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Gano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Crabb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Casella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Drew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ilonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Knip</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">25792</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Toward defining the autoimmune microbiome for type 1 diabetes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Giongo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Gano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Crabb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Novelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Casella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Drew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ilonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Knip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hyoty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="82" to="91" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Microbiome and malignancy</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Plottel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Blaser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Host Microbe</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="324" to="335" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Microbial ecology: Human gut microbes associated with obesity</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Ley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Turnbaugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Gordon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">444</biblScope>
+			<biblScope unit="page" from="1022" to="1023" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Biodiversity as a barrier to ecological invasion</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Naeem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Howe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Knops</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tilman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Reich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">417</biblScope>
+			<biblScope unit="page" from="636" to="638" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Recovery of medically important microorganisms from Apollo astronauts</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aerosp. Med</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="824" to="828" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Epidemiology of Staphylococcus aureus during space flight</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chidambaram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Heath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mallary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Weinstock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Immunol. Med. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="273" to="281" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Space flight and modeled microgravity effects on microbial growth and virulence</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Rosenzweig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Abogunde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lawal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sodipe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Jejelowo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="885" to="891" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Cell culture for three-dimensional modeling in rotating-wall vessels: An application of simulated microgravity</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Schwarz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Goodwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Wolf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Tissue Cult. Methods</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="51" to="58" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Clinostats and bioreactors</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Klaus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Grav. Space Biol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="55" to="64" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Space microbiology</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Horneck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Klaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Mancinelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol. Mol. Biol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="121" to="156" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Impact of simulated microgravity on the normal developmental time line of an animal-bacterial symbiosis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Khodadad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Ahrendt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Parrish</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep01340</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The winnowing: Establishing the squid-vibrio symbiosis</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Nyholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcfall-Ngai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="632" to="642" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Organotypic 3D cell culture models: Using the rotating wall vessel to study host-pathogen interactions</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Barrila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Radtke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crabbe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Sarker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Herbst-Kralovetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nickerson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="791" to="801" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Effects of Microgravity on the Virulence of Listeria monocytogenes, Enterococcus faecalis, Candida albicans, and Methicillin-Resistant Staphylococcus aureus</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stodieck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Birdsall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Koenig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Gunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Allen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1081" to="1090" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Role of Hfq in an animal-microbe symbiosis under simulated microgravity conditions</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Grant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Khodadad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Foster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Astrobiol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="53" to="61" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Effect of simulated microgravity and shear stress on microcin B17 production by Escherichia coli and on its excretion into the medium</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Koenig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Demain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="4090" to="4092" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Novel quantitative biosystem for modeling physiological fluid shear stress on cells</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Nauman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Tucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nickerson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="699" to="705" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Low-shear modeled microgravity: A global environmental regulatory signal affecting bacterial gene expression, physiology, and pathogenesis</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nickerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ramamurthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Leblanc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Honer Zu Bentrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Microbiol. Methods</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Media ion composition controls regulatory and virulence response of Salmonella in spaceflight</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Quick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Honer Zu Bentrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crabbe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sarker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Barrila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Porwollik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">3923</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Investigation of space flight effects on Escherichia coli and a proposed model of underlying physical mechanisms</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Klaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Simske</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stodieck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="449" to="455" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Bacterial growth in space flight: Logistic growth curve parameters for Eschechia coli and Bacillus subtilus</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Kacena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Merrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Manfredi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Klaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Todd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="229" to="234" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Secondary metabolism in simulated microgravity</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Demain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rec</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="333" to="346" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Effects of microgravity on genetic recombination in Escherichia coli</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ciferri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Tiboni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Di Pasquale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Orlandoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Marchesi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Naturwissenschaften</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="418" to="421" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Conjugation-mediated plasmid exchange between bacteria grown under space flight conditions</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>De Boever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mergeay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ilyin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Van Der Auwera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mahillon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microgravity Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="138" to="144" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Escherichia coli biofilms formed under low-shear modeled microgravity in a ground-based system</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Lynch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mukundakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Benoit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Ayyaswamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="7701" to="7710" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Modeled microgravity increases filamentation, biofilm formation, phenotypic switching, and antimicrobial resistance in Candida albicans</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Searles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Woolley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Hyman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Nielsen-Preiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="825" to="836" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Low-Shear modeled microgravity alters the Salmonella enterica serovar typhimurium stress response in an RpoS-independent manner</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ramamurthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Porwollik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mcclelland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nickerson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="5408" to="5416" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Effect of spaceflight on ability of monocytes to respond to endotoxins of gram-negative bacteria</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kaur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Simons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Kapadia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Vaccine Immunol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1523" to="1528" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Transcriptional and proteomic responses of Pseudomonas aeruginosa PAO1 to spaceflight conditions involve Hfq regulation and reveal a role for oxygen</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crabbé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Schurr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Monsieurs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Morici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schurr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tsaprailis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Stefanyshyn-Piper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="1221" to="1230" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Effect of simulated microgravity on E. coli K12 MG1655 growth and gene expression</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Arunasri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Adil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venu Charan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Suvro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Himabindu Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shivaji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">57860</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Microarray analysis identifies Salmonella genes belonging to the low-shear modeled microgravity regulon</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ramamurthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Porwollik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mcclelland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nickerson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="13807" to="13812" />
+			<date type="published" when="2002">2002</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Induction of attachmentindependent biofilm formation and repression of Hfq expression by low-fluid-shear culture of Staphylococcus aureus</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nelman-Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nickerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="6368" to="6378" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The bacterial Sm-like protein Hfq: A key player in RNA transactions</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Valentin-Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eriksen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Udesen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1525" to="1533" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">The RNA chaperone Hfq is essential for the virulence of Salmonella typhimurium</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sittka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tedin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vogel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="193" to="217" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">The Brucella abortus host factor I (HF-I) protein contributes to stress resistance during stationary phase and is a major determinant of virulence in mice</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Roop</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="690" to="700" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Hfq is essential for Vibrio cholerae virulence and downregulates sigma expression</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Waldor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="345" to="354" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Optimized suspension culture: The rotating-wall vessel</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hammond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="page" from="12" to="F25" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Symbiont recognition and subsequent morphogenesis as early events in an animal-bacterial mutualism</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcfall-Ngai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Ruby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">254</biblScope>
+			<biblScope unit="page" from="1491" to="1494" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">The role of the immune system in the initiation and persistence of the Euprymna scolopes-Vibrio fischeri symbiosis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mcfall-Ngai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Nyholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Castillo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semin. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="48" to="53" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Attenuation of host No production by MAMPs potentiates development of the host in the squid-vibrio symbiosis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Altura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stabb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Goldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Apicella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcfall-Ngai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="527" to="537" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">The secret languages of coevolved symbioses: Insights from the Euprymna scolopes-Vibrio fischeri symbiosis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mcfall-Ngai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Heath-Heckman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Gillette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Peyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Harvie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semin. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="3" to="8" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Gut homeostasis in a microbial world: Insights from Drosophila melanogaster</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Buchon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Broderick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lemaitre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="615" to="626" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Establishment of an animal-bacterial association: Recruiting symbiotic vibrios from the environment</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Nyholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Stabb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Ruby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcfall-Ngai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="10231" to="10235" />
+			<date type="published" when="2000">2000</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Vibrio fischeri lipopolysaccharide induces developmental apoptosis, but not complete morphogenesis, of the Euprymna scolopes symbiotic light organ</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Apicella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcfall-Ngai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Biol</title>
+		<imprint>
+			<biblScope unit="volume">226</biblScope>
+			<biblScope unit="page" from="242" to="254" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Microbial factor-mediated development in a host-bacterial mutualism</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Koropatnick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Engle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Apicella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Stabb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Goldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcfall-Ngai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">306</biblScope>
+			<biblScope unit="page" from="1186" to="1188" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Bacterial symbionts induce host organ morphogenesis during early postembryonic development of the squid Euprymna scolopes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Montgomery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mcfall-Ngai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Development</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="1719" to="1729" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Transient exposures to competent bacteria initiates symbiosisspecific squid light organ morphogenesis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Doino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mcfall-Ngai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Bull</title>
+		<imprint>
+			<biblScope unit="volume">189</biblScope>
+			<biblScope unit="page" from="347" to="355" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Induction of apoptosis by cooperative bacteria in the morphogenesis of host epithelial tissues</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcfall-Ngai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Genes Evol</title>
+		<imprint>
+			<biblScope unit="volume">208</biblScope>
+			<biblScope unit="page" from="295" to="303" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Immune system dysregulation following short-vs long-duration space flight</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Crucian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Stowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Sams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aviat. Space Environ. Med</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="835" to="843" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Effects of spaceflight on innate immune function and antioxidant gene expression</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Baqai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Gridley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Slater</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Luo-Owen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Stodieck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chapes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Pecaut</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="1935" to="1942" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Mycorrhizas and nutrient cycling in ecosystems-A journy towards relevance?</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Read</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Perez-Moreno</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">New Phytol</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page" from="475" to="492" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Signaling in the arbuscular mycorrhizal symbiosis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Harrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="19" to="42" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Effect of mineral nutritional status on shoot-root partitioning of photoassimilates and cycling of mineral nutrients</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Marschner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Kirkby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Cakmak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Bot</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="1255" to="1263" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">The rhizosphere microbiome: Significance of plant beneficial, plant pathogenic, and human pathogenic microorganisms</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mendes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Garbeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Raaijmakers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="634" to="663" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Deciphering the rhizosphere microbiome for disease-suppressive bacteria</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mendes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kruijt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>De Bruijn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dekkers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Der Voort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Piceno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Z</forename><surname>Desantis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Bakker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">332</biblScope>
+			<biblScope unit="page" from="1097" to="1100" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">The rhizosphere microbiome and plant health</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Berendsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Pieterse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Bakker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="478" to="486" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Modulation of host immunity by beneficial microbes</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zamioudis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Pieterse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Plant Microbe Interact</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="139" to="150" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Innate immune responses activated in Arabidopsis roots by microbe-associated molecular patterns</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Millet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Danna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Clay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Songnuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Werck-Reichhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Ausubel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="973" to="990" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Jasmonate signaling in plant interactions with resistance-inducing beneficial microbes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Der Ent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Van Wees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Pieterse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phytochemistry</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="1581" to="1588" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Astroculture root metabolism and cytochemical analysis</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Porterfield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="315" to="318" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Measurements and modeling of variable gravity effects on water distribution and flow in unsaturated ourous media</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Heinse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Steinberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Or</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vadose Zone J</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="713" to="724" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Microgravity effects on thylakoid, single leaf, and whole canopy photosynthesis of dwarf wheat</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Stutte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Monje</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Goins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Tripathy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Planta</title>
+		<imprint>
+			<biblScope unit="volume">223</biblScope>
+			<biblScope unit="page" from="46" to="56" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Fundamental plant biology enabled by the space shuttle</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Levine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ferl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Bot</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="226" to="234" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Structure of potato tubers formed during spaceflight</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Croxdale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Tibbitts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Wheeler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Bot</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="2037" to="2043" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Transgene expression patterns indicate that spaceflight affects stress signal perception and transduction in arabidopsis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Daugherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Bihn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Norwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ferl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="613" to="621" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Growth in microgravity increases susceptibility of soybean to a fungal pathogen</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ryba-White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Nedukha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hilaire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Guikema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kordyum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Leach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell Phyiol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="657" to="664" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<monogr>
+		<title level="m" type="main">The ISS Plant Substrate Microgravity Testbed</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Bingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Podolsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Topham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Mullholland</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Lada</surname></persName>
+		</author>
+		<idno>2002-01-187</idno>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<publisher>Society of Automotive Engineers (SAE)</publisher>
+			<pubPlace>Warrendale, PA, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">SAE Technical Paper</note>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Microbiological analysis of Lada vegetable units (VPU) to define critical control points and procedures to endure the safety of space grown vegetables</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Hummerick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Garland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Bingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">N</forename><surname>Sychev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Podolsky</surname></persName>
+		</author>
+		<idno>AIAA-2010-6253</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Internaitonal Conference on Environmental Systems</title>
+		<meeting>the Internaitonal Conference on Environmental Systems<address><addrLine>Barcelona, Spain</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010-07-15">11-15 July 2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">Effects of CO 2 on stomatal conductance: Do stomata open at very high CO 2 concentrations?</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Mackowiak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Yorio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Sager</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Bot</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page">100</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Transcriptional and metabolic insights into the differential physiological responses of Arabidopsis to optimal and supraoptimal atmospheric CO 2</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kaplan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Richards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Guy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Levine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="43583" to="43101" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">Seedborne fungal contamination: Consequences in space-grown wheat</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Levine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Kropp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phytopathology</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page">102</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title level="a" type="main">Possible mechanisms of plant cell wall changes at microgravity</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Nedukha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">103</biblScope>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title level="a" type="main">Effets of microgravity on the binding of acetylsalicylic acid by Rhizobium leguminosarum bv. trifolii</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Urban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gerren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zoelle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Astronaut</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page">104</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title level="a" type="main">Bacterial genes induced within the nodule during the Rhizobium-legume symbiosis</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Oke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Long</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">105</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<monogr>
+		<title level="m" type="main">Recapturing a Future for Space Exploration; Life and Physical Sciences Research for a New Era</title>
+		<editor>Council, N.R.</editor>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>The National Academies Press</publisher>
+			<biblScope unit="page">106</biblScope>
+			<pubPlace>Washington, DC, USA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>National Research Council</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<analytic>
+		<title level="a" type="main">Metaorganisms as the new frontier</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C G</forename><surname>Bosch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mcfall-Ngai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zoology</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page">107</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<title level="a" type="main">The human microbiome: A hot spot of microbial horizontal gene transfer</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Skogerbo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genomics</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="265" to="270" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

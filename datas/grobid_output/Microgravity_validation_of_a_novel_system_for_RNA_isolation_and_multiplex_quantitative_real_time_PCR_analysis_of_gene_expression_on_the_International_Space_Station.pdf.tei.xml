@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Microgravity validation of a novel system for RNA isolation and multiplex quantitative real time PCR analysis of gene expression on the International Space Station</title>
+				<funder ref="#_ubgkP4H">
+					<orgName type="full">National Aeronautics and Space Administration&apos;s International Space Station</orgName>
+					<orgName type="abbreviated">ISS</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Public Library of Science (PLoS)</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2017-09-06">September 6, 2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Macarena</forename><surname>Parra</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Space Biosciences Research Branch</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jimmy</forename><surname>Jung</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Engineering Systems Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">KBRWyle</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Travis</forename><forename type="middle">D</forename><surname>Boone</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Office of the Director</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Millenium Engineering &amp; Integration Co</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Luan</forename><surname>Tran</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Space Biosciences Research Branch</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">KBRWyle</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elizabeth</forename><forename type="middle">A</forename><surname>Blaber</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Space Biosciences Research Branch</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="institution">Universities Space Research Association</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mark</forename><surname>Brown</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Applications Development</orgName>
+								<orgName type="institution">Claremont Biosolutions</orgName>
+								<address>
+									<settlement>Upland</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matthew</forename><surname>Chin</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Engineering Systems Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Millenium Engineering &amp; Integration Co</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tori</forename><surname>Chinn</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Engineering Systems Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Millenium Engineering &amp; Integration Co</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jacob</forename><surname>Cohen</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Office of the Director</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Robert</forename><surname>Doebler</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Applications Development</orgName>
+								<orgName type="institution">Claremont Biosolutions</orgName>
+								<address>
+									<settlement>Upland</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dzung</forename><surname>Hoang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Engineering Systems Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Millenium Engineering &amp; Integration Co</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elizabeth</forename><surname>Hyde</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Engineering Systems Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Millenium Engineering &amp; Integration Co</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matthew</forename><surname>Lera</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">KBRWyle</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department">Flight Systems Implementation Branch</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Louie</forename><forename type="middle">T</forename><surname>Luzod</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Engineering Systems Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mark</forename><surname>Mallinson</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Engineering Systems Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Oana</forename><surname>Marcu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Space Biosciences Research Branch</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">KBRWyle</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Youssef</forename><surname>Mohamedaly</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Engineering Systems Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Millenium Engineering &amp; Integration Co</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Antonio</forename><forename type="middle">J</forename><surname>Ricco</surname></persName>
+							<affiliation key="aff8">
+								<orgName type="department">Mission Design Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="institution">Stanford University</orgName>
+								<address>
+									<settlement>Palo Alto</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kathleen</forename><surname>Rubins</surname></persName>
+							<affiliation key="aff10">
+								<orgName type="department">NASA Astronaut Corps</orgName>
+								<orgName type="institution">NASA Johnson Space Center</orgName>
+								<address>
+									<settlement>Houston</settlement>
+									<region>Texas</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gregory</forename><forename type="middle">D</forename><surname>Sgarlato</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Engineering Systems Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">KBRWyle</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rafael</forename><forename type="middle">O</forename><surname>Talavera</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Engineering Systems Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Millenium Engineering &amp; Integration Co</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><surname>Tong</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Engineering Systems Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Millenium Engineering &amp; Integration Co</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eddie</forename><surname>Uribe</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution">Universities Space Research Association</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jeffrey</forename><surname>Williams</surname></persName>
+							<affiliation key="aff10">
+								<orgName type="department">NASA Astronaut Corps</orgName>
+								<orgName type="institution">NASA Johnson Space Center</orgName>
+								<address>
+									<settlement>Houston</settlement>
+									<region>Texas</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Diana</forename><surname>Wu</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">KBRWyle</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Mission Design Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rukhsana</forename><surname>Yousuf</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Space Biosciences Research Branch</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">KBRWyle</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Charles</forename><forename type="middle">S</forename><surname>Richey</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution">Universities Space Research Association</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Julie</forename><surname>Schonfeld</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Engineering Systems Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Eduardo</forename><forename type="middle">A C</forename><surname>Almeida</surname></persName>
+							<email>e.almeida@nasa.gov</email>
+							<idno type="ORCID">0000-0002-3420-6651</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Space Biosciences Research Branch</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff11">
+								<orgName type="institution">University of Helsinki</orgName>
+								<address>
+									<country key="FI">FINLAND</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Microgravity validation of a novel system for RNA isolation and multiplex quantitative real time PCR analysis of gene expression on the International Space Station</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">PLOS ONE</title>
+						<title level="j" type="abbrev">PLoS ONE</title>
+						<idno type="eISSN">1932-6203</idno>
+						<imprint>
+							<publisher>Public Library of Science (PLoS)</publisher>
+							<biblScope unit="volume">12</biblScope>
+							<biblScope unit="issue">9</biblScope>
+							<biblScope unit="page">e0183480</biblScope>
+							<date type="published" when="2017-09-06">September 6, 2017</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">59A0A6951D333682A499CF70616FDCA9</idno>
+					<idno type="DOI">10.1371/journal.pone.0183480</idno>
+					<note type="submission">Received: January 6, 2017 Accepted: August 4, 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:41+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The International Space Station (ISS) National Laboratory is dedicated to studying the effects of space on life and physical systems, and to developing new science and technologies for space exploration. A key aspect of achieving these goals is to operate the ISS National Lab more like an Earth-based laboratory, conducting complex end-to-end experimentation, not limited to simple microgravity exposure. Towards that end NASA developed a novel suite of molecular biology laboratory tools, reagents, and methods, named WetLab-2, uniquely designed to operate in microgravity, and to process biological samples for realtime gene expression analysis on-orbit. This includes a novel fluidic RNA Sample Preparation Module and fluid transfer devices, all-in-one lyophilized PCR assays, centrifuge, and a real-time PCR thermal cycler. Here we describe the results from the WetLab-2 validation experiments conducted in microgravity during ISS increment 47/SPX-8. Specifically, quantitative PCR was performed on a concentration series of DNA calibration standards, and Reverse Transcriptase-quantitative PCR was conducted on RNA extracted and purified onorbit from frozen Escherichia coli and mouse liver tissue. Cycle threshold (Ct) values and PCR efficiencies obtained on-orbit from DNA standards were similar to Earth (1 g) controls. Also, on-orbit multiplex analysis of gene expression from bacterial cells and mammalian</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The ISS National Laboratory is a unique research environment whereby scientists from Academia, Government, and Industry seek to learn the effects of space on life and matter in their many forms. Although a great deal has already been learned about the effects of microgravity on biological systems, <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref> the large majority of on-orbit experiments do not yield scientific data until long after return of samples to Earth for analysis, creating concerns about timeliness of data availability, and quality of sample preservation <ref type="bibr" target="#b3">[4]</ref>. Ground analysis of on-orbit experiments has been necessary because of limited laboratory space, equipment, supplies, and astronaut time resources on ISS, but while this sample return approach maximizes efficient access to space by scientists, it fails to teach us how to conduct end-to-end scientific inquiries in microgravity. As human exploration of the solar system proceeds, human missions to Mars and deep space will require greater levels of autonomy and resourcefulness as outlined in the National Research Council's Space Exploration Decadal Survey for Life and Physical Sciences <ref type="bibr" target="#b4">[5]</ref> An important component of future traveling and living in space away from low Earth orbit will be the ability to perform modern molecular biology analyses, including purifying RNA and conducting Reverse Transcriptase-quantitative PCR (RT-qPCR) or other genomic analyses for disease diagnostics including viral and bacterial infection, environmental microorganism identification and monitoring of food and water, and in any other research application where monitoring gene expression is required.</p><p>Although there are increasing numbers of studies of gene expression in microgravity, there are no reports of any methodologies for RNA purification and RT-qPCR under microgravity conditions, effectively preventing on-orbit analysis of gene expression or PCR-based diagnostics from biological samples. Specifically, recent RNA isolation and PCR-based gene expression studies of biological samples on ISS, Space Shuttle and Biosatellites have been conducted on earth after preserved sample return from space <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref>. Recent efforts by various groups of investigators have sought to develop portions of an overall genomic and molecular biology experimental capability on ISS. Specifically, these include the NASA Genes in Space 1, miniPCR student experiment, <ref type="bibr" target="#b14">[15]</ref> and the "Biomolecular Sequencer" Nanopore DNA sequencing demonstration <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref> both conducted simultaneously with WetLab-2. Both experiments however, started with genomic DNA samples, not indicative of gene expression, and relied either on sample return to earth for PCR product analysis, (miniPCR), or complex sequencing library preparation on earth prior to nanopore sequencing in space (Biomolecular Sequencer). Neither of these experiments had the end-to-end on-orbit capability to extract RNA from tissue, convert mRNA to cDNA for RT-qPCR, or to generate quantitative gene expression data as we sought to achieve with the WetLab-2 system.</p><p>funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p><p>Competing interests: NASA provided both the funding and employs the majority of the authors that conducted this study, which may be perceived as a competing interest, however, the funding organization within NASA (ISS Program at Jonhson Space Center) is distinct from the performing organizations (Space Biosciences and Engineering Systems Divisions at NASA Ames Research Center), and the project leadership including the corresponding author (EACA) and project Managers (CSR and JS) are protected from funder influence by academic tenure-like civil service positions. In addition MB and RD are employed by Claremont Biosolutions and may benefit in their employment from the publication of their contributions.</p><p>To address the pressing ISS research and diagnostics need for novel on-orbit end-to-end molecular biology gene expression analysis methods and tools, we devised a robust microgravity fluidic system that can intake diverse biological sample (cells, tissue, surface swabs, blood, etc.) and using temperature-stable reagents, allow for the isolation and purification of nucleic acids, such as RNA, for molecular biology analysis. In addition, the system includes a microgravity compatible thermal cycler, lyophilized reagents and enzymes for PCR assays and methods for reverse transcription of RNA into cDNA, and capabilities for heat inactivation of enzymes such as proteinase K and PCR inhibitors, plus RT-qPCR gene expression analysis using fluorescent TaqMan probes. The WetLab2 suite of instruments and reagents we describe here is novel and unique methodology, substantially distinct from all other existing RNA isolation and RT-qPCR gene expression analysis systems, because of its ability to function in microgravity, with altered fluid flow, hydrostatic pressure, convection, and surface tension conditions of space, while still providing full reagent containment for safe operation on ISS. Using this system, schematically shown in Fig <ref type="figure" target="#fig_0">1</ref>, generic reagents and supplies can be prepositioned on ISS to flexibly support science opportunities such as optimizing plant growth, monitoring the evolution of bacterial communities in biofilms, or analyzing gene expression in immune cells from blood, among many other applications. In addition, the WetLab-2 system was also designed to be capable of purifying RNAs for return to Earth, or for other on-orbit molecular biology analyses such as nanopore array-based mRNA sequencing studies, greatly increasing the analysis capabilities of the system and possibilities for discovery in space.</p><p>In its validation flight, WetLab-2 successfully demonstrated its capabilities to conduct molecular biology experimentation in microgravity. This consisted of first demonstrating that qPCR functions in microgravity conditions, followed by demonstration of RNA isolation from bacterial cell and mammalian tissue and gene expression analysis by RT-qPCR. When gases evolved by thermal cycling accumulated in PCR tubes due to microgravity conditions interfered with data uniformity, the system demonstrated its flexibility and adaptability to on-orbit experiment modification and iteration in real-time. WetLab-2 also used volunteer astronaut time and spare supplies to design and execute follow-up experiments while on-orbit to resolve the gas bubble problem. Below we describe in detail the design and scientific validation of the WetLab-2 suite of methods, reagents, and hardware for RNA purification and gene expression analysis by RT-qPCR, enabling future molecular biology experimentation to be conducted end-to-end in real-time on ISS, and allowing data interpretation and experiment redesign while on-orbit.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head><p>In order to validate the system, a number of ground-based and on-orbit tests were performed including: validation of E. coli primer assays (ground), validation of lyophilized components (ground), validation of the SPM (ground), validation of all hardware (ground), validation of qPCR efficiency using pre-prepared assays (on-orbit), validation of RNA extracted from E. coli (on-orbit), and from mouse liver tissue (on-orbit) using the SPM. The methods used in these validation experiments are described in detail below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Primer and probe design</head><p>This study used three types of assays for different portions of the validation of the system. First, an E. coli genomic assay was used to demonstrate if qPCR was possible in microgravity and that the data matched 1 g controls. This was followed with a set of E. coli gene expression assays designed to validate the sample prep and RT-qPCR capabilities of the system. Finally, a set of mouse gene expression assays were used to validate the system with a mammalian tissue.</p><p>The E. coli primers and probes used in this study were designed in-house to target both genomic and exonic regions. The E. coli genomic assay consisted of primers targeting the 16S ribosomal DNA sequence for rrnH gene while the gene expression assays targeted the following genes: heat shock protein 70-2 (dnaK), RNA polymerase (rpoA), and a glucitol operon Operations for the WetLab-2 system. Isolation and purification of RNA from biological tissues on-orbit starts with introduction of cells or tissues for lysis and homogenization into the Sample Preparation Module (SPM), followed by RNA binding to an affinity column, washing, and elution from the module. A Pipette Loader (PL) tool is provided for bubble free fluid transfer to a repeater pipette. This is then used to dispense accurate volumes of purified RNA into a centrifuge rotor/rack of lyophilized reagent tubes with enzymes and regents for reverse transcription and Taqman RT-qPCR. Data is available on-orbit within 3h of initiating the experiment, and transmitted by ISS to NASA Marshall Space Flight Center for emailing to investigators within 2 h of clean-up. A more detailed description of the process can be found in the S1 Text.</p><p><ref type="url" target="https://doi.org/10.1371/journal.pone.0183480.g001">https://doi.org/10.1371/journal.pone.0183480.g001</ref> repressor (srlR). For mouse assays, pre-designed intron spanning assays targeting genes for glyceraldehyde 3-phosphate dehydrogenase (gapdh) and 60S ribosomal protein L19 (rpl19) were used for normalization and fibronectin 1 (fn1) was used to measure gene expression analysis. All primers and probes were produced by Integrated DNA Technologies (IDT, Coralville, Iowa). In all cases, TaqMan based technology was used <ref type="bibr" target="#b17">[18]</ref>. The corresponding fluorescent dye and its primer and probe sequences are shown in Table <ref type="table">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Assay formulation, preparation, and validation</head><p>To validate the E. coli genomic assay formulation, we analyzed qPCR performance using varying quantities of template in tenfold dilutions between 1 μg and 1 pg (inclusive). Assays were constituted using high molecular weight genomic DNA from E. coli type B cells (Affymetrix, Sunnyvale, CA), custom primers and probe targeting a 16S ribosomal DNA sequence (IDT, Coralville, Iowa), GoTaq Probe Master Mix (Promega, Madison, WI), and molecular biology grade water (TekNova, Hollister, CA). Amplification was achieved via a standard thermal protocol that included a hot-start activation step (95˚C, 2 min) and 45 cycles of denaturation (95˚C, 15 s) and annealing/extension (54˚C, 60 s). Samples were run in duplicate technical replicates and their average Ct values were plotted against template concentration to determine R-square and efficiency of amplification. Products were confirmed using a Bioanalyzer 2100 and an Agilent DNA chip, using a DNA 1000 protocol and reagent.</p><p>Genomic and gene expression assays for E. coli (dnaK, rpoA and srIR) and mouse tissue (gapdh, rpl19, and fn1) were validated using genomic E. coli DNA and RNA from E. coli K12</p><p>Table 1. E. coli and mouse liver primers and probes used in this study. Organism/ Assay type Gene Name Primer/Probe Sequence E. coli / genomic 16S genomic region Probe /56-FAM/ AC GTT TGA C/ZEN/C TCG TCT TTC GGT GTG T/3IABKFQ/ Forward GCC AAG ACC AAC CAA TGA CAG CAA Reverse ACC TGC TCT CTT CGC GTA CTG TTT E. coli / gene expression dnaK Probe /56-FAM/ TGC TGA GTT /ZEN/ CTT TGG TAA AGA GCC GCG T/3BHQ_1/ Forward TGG TGG TCA GAC TCG TAT GCC AAT Reverse ATT GCT ACA GCT TCG TCC GGG TTA rpoA Probe /5HEX/ TTC GTC GTG /ZEN/ CGG CAA CCA TT/3IABkFQ/ Forward TAG AAC AGC GTA CCG ACC TG Reverse CGA AAG CTT CCA GTT GTT CA srlR Probe /5Cy5/ CCA CAG GCA CAA CCA TTC GCA /3IAbRQSp/ Forward ATT GGC GCA ATA CTT TGA CA Reverse GCA TGT TCC AGA ATG ACC AG mouse liver / gene expression gapdh Probe /56-FAM/ TGC AAA TGG /ZEN/ CAG CCC TGG TG/3IABkFQ/ Forward GTG GAG TCA TAC TGG AAC ATG TAG Reverse AAT GGT GAA GGT CGG TGT G rpl19 Probe /5HEX/ TGA CCG CCA/Zen/T ATG TAT CAC AGC CTG /3IABkFQ/ Forward GAT GCG CTT GTT TTT GAA CAC Reverse CCG GCT TCT CAG GAG ATA C fn1 Probe /5Cy5/ CTG ATC GTT GCA TCT GTT TCT GGA GGT/3IAbRQSp/ Forward GTT TCC TCG GTT GTC CTT CT Reverse GAC TGT ACT TGT CTA GGC GAA G E. coli primers and probes were designed in-house, mouse assays were selected from those available from IDT. 56-FAM: 5' 6-FAM (Fluorescein), ZEN tm IDT Trademark dark quencher, 3IABKFQ: 3' Iowa Black Fluorescent Quencher, 3BHQ_1: 3' Black Hole Quencher, 5HEX: 5' Hexachlorofluorescein, 5Cy5: 5' Cyanine5; 3IAbRQSp: 3' Iowa Black ® RQ-Sp <ref type="url" target="https://doi.org/10.1371/journal.pone.0183480.t001">https://doi.org/10.1371/journal.pone.0183480.t001</ref> </p><p>TB1 (New England Biolabs Inc, Ipswich, MA) and whole livers from male C57BL/6 12-16 week perfused/snap frozen (Charles River, Wilmington, MA). Initial feasibility studies however utilized mouse liver tissues obtained under NASA Ames Research Center IACUC protocols NAS-14-002-Yr1-3 and NAS-15-008-Y1-2 (E. Almeida and E. Blaber). RNA was isolated using the RNeasy Mini kit (Qiagen, Valencia, CA) and tested to have a RNA Integrity Number (RIN) greater than 9.0 using a Bioanalyzer 2100 and RNA 6000 Pico Chip. Each assay was validated using the appropriate RNA template in a RT-qPCR cocktail. Singleplex, duplex and triplex reactions were validated for each organism. Amplification was achieved via a single step RT-qPCR thermal protocol that includes a Reverse Transcription (45˚C, 15 min), hot-start activation step (95˚C, 2 min) and 45 cycles of denaturation (95˚C, 15 s) and annealing/extension (54˚C, 60 s), further detailed online at protocols.io <ref type="bibr" target="#b18">[19]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Lyophilized assay validation</head><p>After successful validation of assay performance, all assay formulations were purchased as lyophilized sample-ready products in the Reaction Tubes (BioGX, Birmingham, AL). The protocol for lyophilized assay generation is detailed in online at protocols.io <ref type="bibr" target="#b19">[20]</ref>. To test the performance of the lyophilized assays, Ct values of lyophilized assays were compared to those of non-lyophilized controls. For the E. coli genomic assay three concentrations of template; high (100 ng), mid (1 ng), and low (10 pg), along with no template controls (NTC), were run for each group. Non-lyophilized controls were constituted as described above while lyophilized assays were re-hydrated with elution buffer (Claremont BioSolutions, Upland, CA). Lyophilized E. coli and mouse liver gene expression assays were tested by running singleplex, duplex, and triplex reactions. Individual, average, and standard deviation of Ct values were compared to corresponding controls, within template groups. Two individual lots were tested against a single benchtop control lot. BioGX also carried out independent validation of the lyophilized products.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microgravity compatible RNA extraction procedure</head><p>RNA isolation was performed utilizing an alcohol-free version of the RNA binding buffer and washes for Claremont BioSolutions' commercially available OmniLyse 1 <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22]</ref> and their RNAexpress™ column. The process was carried out in a SPM, an enclosed microgravity-compatible hardware module designed to require only simple manual manipulations that can be performed by an untrained user. The SPM contains syringes preloaded with wash and elution buffers and has an input port with a Luer-Lok 1 connection for the incoming Sample Transfer Tool (STT). The procedure consists of lysing the sample with the battery powered OmniLyse 1 and binding of RNA to the RNAexpress™ column. This is followed by two washes of the column with Claremont BioSolutions wash buffer in preloaded syringes. The RNA is then eluted into a removable syringe using the Claremont BioSolutions elution buffer.</p><p>To test the SPM performance, 100 million E. coli cells or 5 mg of mouse liver tissue were used for RNA extraction. Resulting RNA quantity and quality were assessed using a NanoDrop 2000 1 (Thermofisher, Waltham, MD) and a Bioanalyzer 2100 (Agilent, Santa Clara, CA), respectively. The SPM-derived RNA was also used as the template in RT-qPCR reactions prepared as stated above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hardware testing</head><p>To determine the compatibility of hardware components, reagents were stored in hardware for long duration testing and were assessed for compatibility with downstream molecular biology applications (e.g. qPCR, RNA Isolation, and RT-qPCR).</p><p>ACT 2 s (specialty microgravity compatible transfer hardware, Techshot, Greenville, IN) and Finger Loop syringes (BD, Franklin Lakes, NJ) were loaded and stored at -80˚C. Units were removed from the freezer at designated time points, allowed to thaw at ambient temperature (at least 1 h for the ACT 2 and 45 min for the Finger Loop syringe), then RNA was extracted using the SPM procedure described above. To test the SPMs for reagent compatibility, SPMs were assembled with the syringes preloaded with wash and elution buffers and stored at ambient temperatures. At designated time points, SPMs were used to isolate fresh samples of either 1x10 8 E. coli cells or 5 mg of mouse liver tissue. For all hardware tests, RNA quantity and quality were assessed as described previously. RT-qPCR using sample specific primers and probe were also used to test RNA quality as described previously.</p><p>Reaction Tubes containing lyophilized E. coli and mouse gene expression assays, master mixes and enzymes were packaged at BioGX (8 tubes per sealed pouch) and stored at 4˚C until tested. All lyophilized mixes were tested at designated time points and utilized 25 ng of E. coli or mouse Qiagen RNeasy purified RNA (as appropriate) in 25 μl of molecular biology grade water to rehydrate the assays. Amplification conditions used were described above. In all cases, results were compared to those from the t = 0 time point. The thermocycler to be flown to the ISS was also validated prior to use.</p><p>Details of all hardware testing results are shown in the S2 Text.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>On-orbit quantitative PCR analyses</head><p>Microgravity data generated in this study were attained from on-orbit operations onboard the ISS. All materials, hardware, and biology were transported during the SpaceX CRS-8 cargo resupply mission that launched to the ISS on April 8 th , 2016 and experiments were conducted on April 19 th , 22 nd , 26 th , 29 th and May 2 nd . Operations required the use of the WetLab-2 hardware suite consisting of microgravity-compatible STT (ACT 2 or Finger Loop syringe), SPM, bubble-removing Pipette Loader (PL), reaction tube centrifugation rotor and a Cepheid SmartCycler 1 for thermocycling/fluorescence readout, as described in S1 Text. 1 g control data were generated using identical protocols and hardware within 12 h of completion of ISS operations. The on-orbit operations consisted of three types of tests. First, the efficiency of qPCR in microgravity using pre-prepared reaction mixtures including E. coli genomic DNA was tested three times. Second, isolation of RNA on-orbit using the SPM and pre-frozen E. coli cells followed by analysis of gene expression was tested followed by testing of RNA isolation from mammalian tissue using the SPM and pre-frozen mouse liver tissue followed by analysis of gene expression.</p><p>For each experiment, one ISS and one ground kit were removed from their respective cold stowage (both 4˚C and -80˚C if applicable) and allowed to equilibrate at room temperature for 2-7 h. For ISS operations, experiments were performed within a RNase-free and cleaned Disposable Glove Bag (DGB) to prevent contamination. At the start of ISS operations, session materials contained in RNase-free bags were placed into the DGB and wiped with RNase AWAY™ wipes (Molecular BioProducts™, Waltham, MA). The 1 g control experiment was conducted in a standard molecular biology laboratory; all work surfaces were cleaned using RNase AWAY™ wipes and 70% ethanol. Data from the ISS experiments were downlinked within 2 h of completion of the clean-up activity and results were statistically compared with those from corresponding 1 g controls. A total of five ISS runs were performed; one dataset was lost due to a PL hardware malfunction. All five 1 g control experiments were performed nominally.</p><p>The efficiency of qPCR performed in microgravity was determined using reaction mixtures containing low, mid, or high concentrations of E. coli DNA template and a no template control (NTC) as described above. Reagents were lyophilized in custom capped SmartCycler 1 reaction tubes on December 1 st , 2015. Four tubes of each concentration were packaged into tube kits. All tube kits and the elution buffer were transported and stored at 4˚C to minimize loss of enzyme activity and maintain quality. On-orbit operations consisted of de-bubbling the buffer using the PL and loading it into a repeater pipette that was used to add 25 μl to each reaction tube. The tubes were centrifuged and loaded into the SmartCycler to analyze qPCR efficiency.</p><p>RNA isolation using the SPM in microgravity was validated using 1x10 8 E. coli cells grown on the ground and transferred into a STT (ACT 2 ) and stored at -80˚C or colder. E. coli RNA isolation and RT-qPCR was performed on April 29 th 2016. Tube kits for this study consisted of four tubes each of singleplex assay dnaK-FAM, singleplex rpoA-HEX, duplex (dnaK-FAM and rpoA-HEX), and triplex (dnaK-FAM, rpoA-HEX and srlR-Cy5). All assay and RT-qPCR reagents were lyophilized in SmartCycler 1 Reaction Tubes on Dec 1 st , 2015. The tube kits were transported and stored at 4˚C until used while other hardware and consumables were kept at ambient. On-orbit operations consisted of processing the bacterial culture through the SPM, followed by de-bubbling and tube loading as stated above. The tubes were centrifuged and loaded into the SmartCycler 1 for gene expression analysis with RT-qPCR.</p><p>To test isolation of RNA from mammalian tissue in microgravity using the SPM, 5 mg of mouse liver tissue were biopsied on the ground and transferred into a STT (10 ml finger loop syringe) with 2 ml of lysis buffer (Claremont BioSolutions, Upland, CA). Samples were flashfrozen in liquid nitrogen and stored at -80˚C on March 4 th , 2016. Mouse liver tissue RNA isolation and RT-qPCR was performed on May 2 nd 2016. Tube kits for this study consisted of four tubes each of singleplex assay gapdh-FAM, singleplex rpl19-HEX, duplex (gapdh-FAM and rpl19-HEX), and triplex (gapdh-FAM, rpl19-HEX and fn1-Cy5). The reagents were lyophilized and transported as described above. On-orbit operations were the same as those for the bacterial culture.</p><p>A follow on experiment was performed on October 19 th , 2016 during increment 49, using a spare E. coli kit. This experiment consisted of a repeat of the E. coli gene expression study, however, at the start of operations, modified septa caps were removed from 4 technical replicates of the singleplex reaction (dnaK-FAM) and 4 technical replicates of the duplex reaction (dnaK-FAM, rpoA-HEX) tubes. After addition of the RNA, the reaction tubes were closed using clipped tube caps from commercial Cepheid SmartTubes (Cepheid, Sunnyvale, CA). The 1 g control experiment was conducted with a 24 h delay. Statistical analyses were performed using JMP10 (SAAS Institute Inc, Cary, NC) and GraphPad Prism 5 (GraphPad Software Inc, La Jolla, CA). Comparisons made between microgravity and 1 g control data, or between lyophilized and benchtop control assays across different template concentrations were evaluated using ANOVA or Student's t-test as appropriate. In all cases, figures report the mean ± standard deviation (SD) and p 0.05 was considered the threshold for significance. Outliers were calculated using Grubb's test with alpha = 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analyses and statistics</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>qPCR in microgravity</head><p>Assay design and testing. In order to assess the functionality of PCR in microgravity conditions and to establish the dynamic range and efficiency of amplification, we designed a robust quality control qPCR assay to measure these parameters. We targeted a 16S ribosomal region of genomic E. coli DNA. The abundant target expression improved precision, sensitivity, and reproducibility, providing robust assay conditions.</p><p>Validation of the E. coli genomic DNA assay was performed using a standard thermal cycling protocol with controlled quantities of commercially available E. coli DNA as template. Assays were tested with template quantities between 1 pg and 1 μg, in duplicates (Fig 2A ), and evaluated based on amplification plot characteristics and reaction efficiency. Results show that assays successfully generated amplification products, as detected by qPCR, with fluorescence peaks between 300 and 600 units. Assay efficiency was determined to be at 96.8% with an R 2 greater than 0.99 (Fig 2A <ref type="figure">inset</ref>). Specificity and accuracy was confirmed by gel band migration analysis, with the product amplicon generating bands of the expected molecular size.</p><p>In order to minimize crew time and the need for refrigeration resources, pre-formulated reagents were lyophilized in the Cepheid SmartTube detection window. To validate that the lyophilized assay format and lyophilization process did not compromise assay performance <ref type="bibr" target="#b22">[23]</ref>, we tested the lyophilized products by assessing qPCR performance in comparison to commercial non-lyophilized reagents (control). This was performed using high, mid and low template concentrations and a NTC. Combined data between two lots of lyophilized product show that lyophilized assays were able to consistently generate Ct values similar to those generated by non-lyophilized controls (see Table <ref type="table">2</ref>).</p><p>Microgravity qPCR runs. Following transport to the ISS and an initial software and instrument setup, the system was tested with three runs of the E. coli genomic DNA assay. Data from the first run is shown in Fig <ref type="figure" target="#fig_2">2B</ref> and has a typical qPCR amplification curve, although an unusual amount of noise was observed in microgravity samples especially in later cycles. Furthermore, when the default SmartCycler software values were used, outliers were observed resulting in high standard deviations between replicate samples. These outliers did not impair the clustering of the on-orbit data with the respective DNA concentrations.</p><p>Data from a second run was similar to the first but a third repeat run did not yield results due to tube dispensing errors attributed to a PL malfunction. Post-run photos of the tubes showed that no liquid was transferred into most of the tubes.</p><p>Noise in the curves was attributed to degassing bubble formation in the tube detection windows during thermal cycling <ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref>, as confirmed by post-run photos of the tubes. Photos of all tubes were taken before and after thermal protocol completion, the inset in Fig <ref type="figure" target="#fig_2">2B</ref> shows pre-and post-run photos of a representative tube for reference. The pre and post photos of the tubes reveal significant bubble formation and microgravity-trapping during the heating cycles of the qPCR reaction. The bubbles were likely caused by degassing during thermocycling <ref type="bibr" target="#b25">[26]</ref> and their evolution and trapping may cause noise in fluorescence intensity detection. We used the SmartCycler software boxcar averaging to smooth out the amplification curve noise, but otherwise kept the default software values. All statistical comparisons for this study used this data.</p><p>Microgravity and 1 g control data comparisons. Shortly after the completion of each of the on-orbit operations, a 1 g control run was performed. Care was taken to match the removal time of the lyophilized assays from 4˚C to the start of operations. Fig 2C <ref type="figure" target="#fig_2">-2F</ref> shows side-byside comparisons of microgravity runs and their matched 1 g controls. Amplification curves from the corresponding 1 g control runs were smooth and similar to those obtained during previous testing. Non-specific amplification, as observed from the NTC tubes (black lines), were seen on both microgravity and 1 g control graphs. Given that the target gene is a 16S rRNA, non-specific amplification in the NTC samples may be seen when Taq polymerase is bacteria-derived <ref type="bibr" target="#b26">[27]</ref> or due to primer derived artifacts. Microgravity fluorescence intensity values also show a lower overall amplitude potentially due to bubbles blocking/reducing some of the collected fluorescence signal <ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref>. Raw background fluorescence data between microgravity and 1 g control were also compared and details can be found in the S1 File.</p><p>Comparison of microgravity and 1 g control Ct values revealed that despite the noise and reduced intensity in microgravity samples, the Ct values still appear to be comparable to 1 g control results as seen in Fig <ref type="figure" target="#fig_2">2G</ref> &amp; 2H and in S1 Table . 
+Efficiency plots for the microgravity and 1 g control samples (Fig 2C-2F insets) were generated with Ct values using a Boxcar averaging of 3 and otherwise default software settings. The efficiency for the 1 g control data was 105.1% for run 1 and 102.7% for run 2 and the linear standard curve R 2 = 0.9971 and 0.9985 respectively and microgravity data was 104.1% and 108.1% and R 2 = 0.9620 and 0.9865 respectively. One microgravity PCR efficiency was slightly outside of the optimal efficiency range of 90-105%, likely due to the effects of bubbles present in the detection window.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA sample prep and RT-qPCR analysis in microgravity</head><p>Assay design and testing. E. coli and mouse gene expression assays were tested and validated using Qiagen RNeasy derived RNA. For both species, genes were tested using the same singleplex, duplex, and triplex formats that were planned to be used on ISS. Table <ref type="table">3</ref> shows representative Ct value data. All primer and probe sets yielded consistent RT-qPCR reactions with resulting Ct values between 19 and 24 when 100 ng of starting RNA was used.</p><p>Lyophilized E. coli and mouse RNA gene expression assays, singleplex, duplex and triplex formulations, were tested as described above. All lyophilized assays generated similar PCR</p><p>Table 2. Validation of lyophilized assays. Genomic E. coli DNA Assay High DNA Template Medium DNA Template Low DNA Template Control 15.71 +/-0.16 23.55 +/-1.5 29.14 +/-0.15 Lyophilized 16.43 +/-0.51 22.87 +/-0.43 29.87 +/-0.32 E. coli RNA Assay dnaK-FAM Ct rpoA-HEX Ct srlR-Cy5 Ct Control 25.79 +/-0.31 24.4 +/-0.11 29.32 +/-0.33 Lyophilized 24.99 +/-1.52 23.27 +/-0.16 28.53 +/-0.56 Mouse Liver RNA Assay gapdh-FAM Ct rpl19-HEX Ct fn1-Cy5 Ct Control 21.11 +/-0.085 19.35 +/-0.092 21.57 +/-0.092 Lyophilized 21.59 +/-0.41 19.33 +/-0.33 21.17 +/-0.085 Lyophilized and non-lyophilized assay comparison of qPCR cycle threshold data for E. coli DNA Assay for (High, Mid, Low) DNA template amount, and RT-qPCR cycle threshold data for E. coli and mouse liver RNA. There are no statistical differences between lyophilized assays and commercial non-lyophilized assays. Data shows Ct values +/-SD. <ref type="url" target="https://doi.org/10.1371/journal.pone.0183480.t002">https://doi.org/10.1371/journal.pone.0183480.t002</ref> </p><p>amplification compared to the non-lyophilized controls indicating that the more labile Reverse Transcriptase enzyme <ref type="bibr" target="#b27">[28,</ref><ref type="bibr" target="#b28">29]</ref> remained active. Table <ref type="table">3</ref> shows the results from the triplex assays, results generated by the singleplex and duplex assays yielded similar results. ANOVA analyses of these results showed no statistical variation between lyophilized assays and their non-lyophilized controls, therefore indicating that lyophilized assays were suitable for use on ISS. SPM design and testing. An enclosed, simple RNA extraction procedure not requiring toxic chemicalsthat may complicate operation on ISS, was adapted (by removing alcohol) from commercially available Claremont BioSolutions products (Fig <ref type="figure" target="#fig_5">3A</ref>). The resulting SPM was tested to ensure that the RNA yield was of sufficient quantity and quality for RT-qPCR <ref type="bibr" target="#b29">[30]</ref>. Following optimization, RNA yields from the SPM were 2-10 μg for 1 x 10 8 E. coli and 1.5-8 μg for 5 mg mouse liver. The RNA quality was adequate with RINs of 7.9 ±1.2 for E. coli and 7.4 ±1.6 for mouse liver. Fig <ref type="figure" target="#fig_5">3B</ref> shows typical SPM extracted RNA quality at 1 g for both E. coli and mouse liver. Ct values from RT-qPCR runs using RNA isolated from the SPM were also similar to results from Qiagen purified RNA. Residual E. coli RNA purified in microgravity was returned to Earth on SpaceX CRS-8 for Bioanalyzer testing. The RNA extracted in microgravity (RIN 8.5) was compared to that of RNA extracted at 1 g on the same day (RIN 8) and is of comparable quality (Fig 3B ) showing that RNA was successfully purified on the ISS.</p><p>E. coli RNA isolation and RT-qPCR analyses. After confirming that qPCR in microgravity was possible and with results comparable to 1 g controls, we proceeded to test the capability of the hardware system to isolate and process samples in microgravity. An E. coli sample, used to test the system's capabilities with prokaryotic cells, was processed and analyzed on ISS as described previously. The RT-qPCR assays tested included singleplex (Fig <ref type="figure" target="#fig_5">3C</ref>  ), each performed in quadruplicate to improve statistical sampling. All microgravity and 1 g control reactions resulted in readable Ct data. In agreement with previous results, microgravity Ct values exhibited increased variability compared to 1 g controls. Despite the greater variability observed in microgravity Ct values, no statistically significant difference was found between the microgravity and 1 g control data. One outlier was identified in the microgravity data and was not used in statistical comparisons. Also, one microgravity triplex tube did not give data in the FAM channel (dnaK).</p><p>Mouse RNA isolation and RT-qPCR. The final study explored the system's capabilities to isolate RNA from a mammalian tissue, using the resulting RNA as the template in RT-qPCR analysis. Similar to the E. coli experiment, quadruplicates of singleplex (Fig 3F ), duplex (Fig 3G ), and triplex (Fig 3H ) RT-qPCR reactions were conducted. A significant correlation between the microgravity and 1 g control data was observed, however, microgravity data</p><p>Table 3. E. coli and mouse liver assay validation using 100 ng control RNA. E. coli RNA dnaK-FAM rpoA-HEX srlR-Cy5 Singleplex 19.8 +/-0.53 Singleplex 19.6 +/-0.40 Duplex 20.4 +/-0.80 20.3 +/-0.39 Triplex 19.6 +/-0.91 20.3 +/-0.47 26.8 +/-0.78 Mouse Liver RNA gapdh-FAM rpl19-HEX fn1-Cy5 Singleplex 21.5 +/-0.24 Singleplex 21.2 +/-0.19 Duplex 22.5 +/-0.41 21.3 +/-0.35 Triplex 23.9 +/-0.43 23.1 +/-0.36 25.8 +/-0.44 <ref type="url" target="https://doi.org/10.1371/journal.pone.0183480.t003">https://doi.org/10.1371/journal.pone.0183480.t003</ref> </p><p>exhibited increased variability. These results indicate that RNA was successfully isolated from mouse liver tissue during spaceflight. Singleplex and duplex assays of the reference genes gapdh and rpl19 showed no statistical differences between microgravity and 1 g control. However, in spaceflight, no gapdh-FAM signal was observed during triplex assays whilst 1 g control triplex assays resulted in detection of all three genes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Repeat run of E. coli RNA isolation and bubble mitigation</head><p>Following the completion of on-orbit activities, an opportunity arose several months later to test bubble formation mitigation strategies while repeating the E. coli isolation activity. To test this, half of the modified reaction tube septa caps were replaced with standard SmartTube caps. However, the age of the sample preparation reagents was past the latest longevity testing duration and this test resulted in compromised Ct values in the FAM and Cy5 channels. The HEX channel appeared to be unaffected as seen in  with standard caps. We hypothesize that the internal tube pressure created when inserting the standard caps helps mitigate bubble formation. This was corroborated by sideways and inverted (upside down) ground thermocycling experiments that also trapped bubbles.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>One of the major obstacles to space exploration going forward in the coming decades is the fact that microgravity research outposts such as ISS are so closely dependent on Earth support of everyday activities, and lack the ability to operate autonomously. The National Academies of Sciences in their Decadal Survey <ref type="bibr" target="#b4">[5]</ref> have identified some of these limitations as important concerns and offered direction that the ISS should operate more like Earth-based laboratories, allowing for experiments to be designed, conducted, modified and iterated in space. Despite the thousands of investigations already conducted on ISS [31], there are still overwhelming limitations <ref type="bibr" target="#b30">[32,</ref><ref type="bibr">33]</ref> that prevent science and specifically molecular biology measurements of gene expression from being conducted and analyzed on-orbit.</p><p>From its inception, the NASA WetLab-2 project has sought to address these concerns by introducing new, time-efficient, practical and flexible molecular biology gene expression analysis capabilities to the ISS. The WetLab-2 hardware system can now rapidly perform RNA isolation on-orbit and use those RNAs to immediately conduct RT-qPCR analyses, or other novel analyses such as nanopore-based RNA sequencing. The utility of WetLab-2 can be applied to many molecular biology experimental designs using a variety of sample types and provides investigators with improved insight and interactivity during experimentation. Overall, the onorbit process of total RNA isolation and gene expression analysis is accomplished in a span of approximately 3 h without the requirement for a highly experienced user and provides a new capability to ISS that will greatly expand the limits of possible on-orbit science. Successful development and deployment of the WetLab-2 system to the ISS depended on solving a number of challenges such as limited refrigeration availability, hazardous reagent use allowances, power consumption, and availability of crew time. In addition, the suite of hardware and fluidic components had to function in microgravity and provide ease of use for nonexpert operators.</p><p>In order to perform thermal cycling on-orbit, a suitable, commercially available thermal cycler that was capable of operating in a microgravity environment was identified. Specifically, the Cepheid SmartCycler best met the requirements without significant modifications. The instrument is modular, has reduced power requirements and offers assay wells with individual thermal protocol programming allowing for simultaneous running of assays with different optimal primer annealing temperatures. Validation testing of this instrument included physical durability tests and validation of all 16 sample sites.</p><p>TaqMan assays were selected because of the ability to multiplex assays with multiple color probes in a single tube, and because alternatives such as SYBRGreen DNA intercalating dyes are carcinogenic, resulting in safety concerns for the ISS crew and imposing elevated containment requirements.</p><p>Next we developed a RNA isolation and RT-qPCR workflow using non-hazardous reagents suitable for room temperature storage. A RNA binding column and cell lysis system for RNA purification was selected from Claremont BioSolutions for its ease of integration <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22]</ref>. In collaboration with Claremont, the RNA extraction protocol was modified to meet room temperature storage and low toxicity requirements. RNA extracted from the SPM proved to be of sufficient high quality and quantity for gene expression studies utilizing RT-qPCR (Fig <ref type="figure" target="#fig_5">3B</ref>). Longevity testing of loaded SPMs showed no degradation of the reagents for at least 26 weeks (S2 Text).</p><p>We proceeded to develop a lyophilized all-in-one detection assay to minimize crew time and storage requirements. Lacking instruments to evaluate RNA purity and potential gDNA contamination, intron-spanning primers that give a product approximately 100 bases in length were used in eukaryotic samples. In prokaryotic samples, DNase enzyme <ref type="bibr" target="#b31">[34]</ref> was included due to the lack of introns in the coding region <ref type="bibr" target="#b32">[35]</ref>. To ensure that lyophilized assays provided similar results to those obtained using wet bench chemistry, we performed extensive validation testing. Our results indicate no significant differences between lyophilized and commercial non-lyophilized assays (see Table <ref type="table">2</ref>). When refrigerated, the lyophilized assays were stable with a shelf life of at least 52 weeks (S2 Text). To provide longer shelf life and room temperature storage conditions in the future, we plan to use the standard commercial caps, as they appear to perform better in initial results from ongoing long-term storage tests.</p><p>Before the WetLab-2 system could be made available to researchers, the system was validated to ensure that the data obtained on-orbit was not affected or biased by microgravity conditions, including surface tension-dominated fluid dynamics and lack of convection <ref type="bibr" target="#b33">[36]</ref>. Specifically, because PCR consists of repeated cycles of rapid heating and cooling, lack of gravity-induced convection mixing in microgravity may limit heat transfer throughout the sample to only conduction which may require longer denaturation and annealing/extension times.</p><p>To validate PCR efficiency in microgravity, control qPCR reactions were conducted once the system was installed on-orbit. These tests included validation with a range of pre-prepared DNA template concentrations (low, mid and high) to assess PCR efficiency. Three replicate runs were conducted, of which two were successful in returning qPCR amplification curves that showed close correlation to 1 g controls. Furthermore, the microgravity Ct results were comparable to their respective 1 g controls (Fig 2 and S1 Table ). Although amplification was successful, microgravity data showed increased variability within replicate sets. Analysis of the amplification plots, post-assay tube windows, and follow up experiments suggest that this increased variability may be caused by degassing bubble formation that interferes with fluorescence detection. In subsequent ground-based experiments, we found that these bubbles rise out of the tube detection window under normal 1 g conditions. Conversely, in microgravity, bubbles form, are retained and expand in the tube optical window during thermocycling, creating noise (choppiness) in the resulting amplification curves. Despite higher variability when using septa caps, our data show that qPCR can be conducted in the SmartCycler using TaqMan assays in microgravity conditions, and that resulting Ct values are comparable to those of 1 g controls, albeit noisier (Fig 2G &amp; <ref type="figure" target="#fig_2">2H</ref>). These results indicate that the physical alterations of fluid and thermal dynamics in microgravity are not sufficient to alter enzymatic amplification of DNA during PCR thermal cycling in the SmartCycler.</p><p>To validate that the WetLab-2 system could successfully isolate RNA from intact cells and tissue, as well as perform RT-qPCR analyses on-orbit, we prepared and froze samples of E. coli and mouse liver tissue on the ground. Results show that RNA was successfully isolated onorbit using the SPM and that singleplex and multiplex RT-qPCR analyses from both E. coli cells and mouse liver tissues resulted in successful qPCR amplification (Fig <ref type="figure" target="#fig_5">3</ref>  ). Successful multiplex RT-qPCR allows for the use of ratiometric methods; expression of genes of interest can be measured relative to reference genes in the same tube, thereby effectively normalizing variability that may exist in RNA concentrations or other artifacts of microgravity PCR amplification.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>and S1 Table</head><p>Comparison of raw background fluorescence data showed significant differences between microgravity and 1 g control samples (S1 File), however, no significant differences in Ct values. In agreement with genomic DNA standards data, increased variability was also observed in the microgravity samples using SPM-derived E. coli and mouse RNA, likely due to bubble formation during thermal cycling.</p><p>As this variability in Ct values may limit the utility of the system for researchers, a follow up "volunteer science" experiment was conducted by astronaut Kate Rubins. This test was aimed at reducing or eliminating bubbles formed during thermal cycling and showed that the positive pressure formed in the tubes when closed using a standard cap drastically reduces bubbles and results in smooth amplification curves similar to those typically seen during RT-qPCR runs in 1 g (Fig <ref type="figure" target="#fig_6">4</ref>). This run yielded data with less variability; standard deviations up to 0.659 Ct for standard caps compared to 1.035 Ct for septa caps. Therefore, for future experiments, we intend to use standard commercial tubes to suppress degassing bubble formation.</p><p>Through these experiments, we have demonstrated that qPCR can be successfully performed in the microgravity environment of space and developed an system of molecular biology tools and reagents for extracting and quantitatively analyzing RNA from biological samples on-orbit and generating RT-qPCR Ct data (See photos of actual on-orbit operations in <ref type="bibr">Fig 5)</ref>.</p><p>In conclusion, the WetLab-2 ISS system is now validated and ready for future end-to-end gene expression analysis on-orbit, providing prompt results and data reporting from multiple cell and tissue biological samples. This new capability allows investigators unprecedented flexibility with ISS research and the opportunity to re-design and iterate experiments based on data received in almost real-time. The WetLab2 system is publicly available to investigators for research on ISS <ref type="bibr" target="#b34">[37]</ref> and can also potentially be used to analyze environmental samples, for medical diagnostics, or to provide purified RNA and cDNAs for expressome sequencing and global gene expression analysis using nanopore sequencing <ref type="bibr" target="#b16">[17]</ref> as our group recently demonstrated <ref type="bibr" target="#b35">[38]</ref>. Overall the novel molecular biology capabilities we describe here for for ISS, although trivial on earth, are an important step forward in the quest for making possible the exploration and development of space for human use. 100 ng, respectively. Singleplex assays were amplified independently of one another, while Duplex and Triplex assays were amplified in multiplex assays, combined as shown. p-values are from t-test analyses, Ɨ denotes statistical outliers not included in t-test analyses. (DOCX)</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig 1 .</head><label>1</label><figDesc>Fig 1.Operations for the WetLab-2 system. Isolation and purification of RNA from biological tissues on-orbit starts with introduction of cells or tissues for lysis and homogenization into the Sample Preparation Module (SPM), followed by RNA binding to an affinity column, washing, and elution from the module. A Pipette Loader (PL) tool is provided for bubble free fluid transfer to a repeater pipette. This is then used to dispense accurate volumes of purified RNA into a centrifuge rotor/rack of lyophilized reagent tubes with enzymes and regents for reverse transcription and Taqman RT-qPCR. Data is available on-orbit within 3h of initiating the experiment, and transmitted by ISS to NASA Marshall Space Flight Center for emailing to investigators within 2 h of clean-up. A more detailed description of the process can be found in the S1 Text.</figDesc><graphic coords="4,96.09,78.01,479.85,476.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Cepheid SmartCycler 2 .</head><label>2</label><figDesc>0d software was used to analyze all fluorescence intensities and generate Ct values. All pre-launch ground testing used the default software values (Background Subtraction: ON, Background Min: 5, Background Max: 40, Primary Curve Analysis, Manual Threshold: 30, Boxcar Averaging: 0), while microgravity to 1 g comparisons used slightly modified values with a Boxcar averaging of 3. Genomic DNA qPCR runs used: Background Subtraction: ON, Background Min: 5, Background Max: 40, Primary Curve Analysis, Manual Threshold: 30, Boxcar Averaging: 3; software values for the E. coli RT-qPCR runs: Background Subtraction: ON, Background Min: 1, Background Max: 40, Primary Curve Analysis, Manual Thresholds: (FAM: 15, HEX: 15, Cy5: 15) Boxcar Averaging: 3; and software values for the mouse liver RT-qPCR runs: Background Subtraction: ON, Background Min: 5, Background Max: 40, Primary Curve Analysis, Manual Thresholds: (FAM: 15, HEX: 30, Cy5: 15) Boxcar Averaging: 3; for the Increment 49 Bubble Mitigation run: Background Subtraction: ON, Background Min: 1, Background Max: 40, Primary Curve Analysis, Manual Thresholds: (FAM: 15, HEX: 15, Cy5: 15) Boxcar Averaging: 0. Amplification efficiency was calculated using the formula: E = (10 [-1/slope] -1) Ã 100.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig 2 .</head><label>2</label><figDesc>Fig 2. qPCR validation in microgravity. (A) qPCR assays targeting the E. coli 16S ribosomal gene were validated on the ground using seven tenfold dilutions of template to measure sensitivity and efficiency (inset). (B) Amplification curve from qPCR run conducted on the ISS with photo of a representative tube pre-and post-run in microgravity (inset). (C-F) qPCR amplification curves from the microgravity (C &amp; D) and 1 g control (E &amp; F) runs. All curves use the default SmartCycler values with the exception that the boxcar correction is set to 3. Efficiency graphs are shown on the insets. (G &amp; H) Ct values for low (0.01 ng/test), mid (1 ng/test), and high (100 ng/test) assays during both experimental runs are shown using scatter plots with jitter. μg = microgravity. https://doi.org/10.1371/journal.pone.0183480.g002</figDesc><graphic coords="10,108.00,78.01,467.94,563.19" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc>), duplex (Fig 3D), and triplex (Fig 3E) reactions (S1 Table</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><figDesc>Fig 4. A reduction in noise was observed with the use of standard caps (Fig 4B) as compared to the typical noise seen when septa caps are used (Fig 4A). Additionally, photos taken of the tubes after completion of the RT-qPCR run show an increase in the number of bubbles in the septa capped tubes as compared to those</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig 3 .</head><label>3</label><figDesc>Fig 3. RNA isolation and RT-qPCR in microgravity. (A) Photo of SPM. (B) Typical RNA quality from SPM with E. coli (left panel) and mouse liver (right panel), control Qiagen (left lane) SPM (right lane). Center panel shows RNA quality from the 1 g control (left lane) and the returned microgravity sample from ISS (right lane). (C-E) Scatter plots with jitter of the microgravity and 1 g control E. coli singleplex (C), duplex (D) and triplex (E) reactions. One outlier is indicated by the open marker in C. One of the microgravity triplex tubes did not give a dnaK-FAM signal (E). (F-H) Scatter plots with jitter of the microgravity and 1 g control mouse liver singleplex (F), duplex (G) and triplex (H) reactions. One outlier from the microgravity triplex fn1 plot is indicated by the open marker and no gapdh-FAM signal was seen in the microgravity triplex reactions (H). https://doi.org/10.1371/journal.pone.0183480.g003</figDesc><graphic coords="13,95.98,78.01,479.91,297.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig 4 .</head><label>4</label><figDesc>Fig 4. HEX amplification curves and photos from microgravity reactions comparing different caps. (A) HEX amplification curves when our modified septa caps are used. (B) HEX amplification curves from tubes sealed with the standard commercial SmartTube Caps. Post run photos of representative tubes are shown above. https://doi.org/10.1371/journal.pone.0183480.g004</figDesc><graphic coords="14,95.98,78.01,479.91,256.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="17,95.98,78.01,479.91,398.32" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>PLOS ONE | https://doi.org/10.1371/journal.pone.0183480 September 6, 2017</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors would like to thank the <rs type="institution">Center for the Advancement of Science in Space, Inc. (CASIS)</rs> for the <rs type="institution">ISS National Laboratory</rs> statement of support for the WetLab-2 project and allocation of <rs type="institution">ISS National Laboratory</rs> resources for the conduct of these experiments. The project would like to thank commercial collaborators <rs type="person">Andy Kurk</rs> and <rs type="person">Ken Barton</rs> from <rs type="affiliation">Tech-Shot</rs> for developing the ACT 2 , <rs type="person">Bill Marion</rs>, <rs type="person">Michael Vickery</rs>, and <rs type="person">George Blackstone</rs> from <rs type="affiliation">BioGX LLC</rs> for the manufacturing of the Sample Ready™ assays, <rs type="person">John Maveety</rs> from Clare-montBiosolutions for the customized RNA isolation products. The authors would like to thank <rs type="person">John Woebcke</rs> for graphics support of the <rs type="institution">Concept of Operations</rs>; <rs type="person">Mike Henschke</rs> for documentation management; the JSC integration office: <rs type="person">Jenna Ruddock</rs>, <rs type="person">Jennifer Scott Williams</rs>, <rs type="person">Jessica Curry</rs>, <rs type="person">Laura Holcomb</rs> and <rs type="person">Lisa Prendergast</rs>; <rs type="person">Leonard Hee</rs> for safety assurance; <rs type="person">BJ Navarro</rs>, <rs type="person">Satyanand Narayan</rs>, <rs type="person">Francis Laxamana</rs>, <rs type="person">Sheree Kimura</rs>, and <rs type="person">Cherise Fields</rs> for logistic support; <rs type="person">Visal Hak</rs>, <rs type="person">Brian Johnson</rs>, <rs type="person">Susan Blumenberg</rs>, <rs type="person">Brian Yu</rs>, <rs type="person">Brett Stroozas</rs>, <rs type="person">Jennifer Murphy</rs>, <rs type="person">Marla Smithwick</rs> and <rs type="person">Nancy Rustemeyer</rs> for operations support; <rs type="person">Sean Sharif</rs>, <rs type="person">Al Howard</rs>, and <rs type="person">Ed Houston</rs> for early engineering help; <rs type="person">Adrianna Aguilar</rs> for performing laboratory tests; <rs type="person">Gina Figliozzi</rs> for public affairs and outreach; <rs type="person">Dominic Hart</rs> for photography; and all the members of the ISS support offices and programs that assisted in the communication, data downlinking, and coordination for our project. Finally, we thank <rs type="person">Ken Souza</rs>, whose efforts and leadership at <rs type="institution">NASA</rs> were essential during the inception of this project.</p></div>
+			</div>
+			<div type="funding">
+<div><p>Funding for this research was provided by the <rs type="funder">National Aeronautics and Space Administration's International Space Station (ISS) Program</rs> at <rs type="institution">Johnson Space Center</rs> for development of a <rs type="projectName">microgravity RT-qPCR analysis facility</rs>. The project was independently conducted by <rs type="institution">NASA Ames Research Center Space Biosciences and Engineering Systems Divisions</rs>. The <rs type="institution">NASA ISS</rs></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_ubgkP4H">
+					<orgName type="project" subtype="full">microgravity RT-qPCR analysis facility</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The data are all contained within the paper.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">How microgravity affects the biology of living systems</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bizzarri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Monici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Van Loon</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2015/863075</idno>
+		<ptr target="https://doi.org/10.1155/2015/863075PMID:25667927" />
+	</analytic>
+	<monogr>
+		<title level="j">Biomed Res Int</title>
+		<imprint>
+			<biblScope unit="volume">2015</biblScope>
+			<biblScope unit="page">863075</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Biology in Space and Life on Earth: Effects of Spaceflight on Biological Systems</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brinckmann</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>Wiley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cle ´ment</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Slenzka</surname></persName>
+		</author>
+		<title level="m">Fundamentals of Space Biology: Research on Cells, Animals, and Plants in Space</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Transcriptome and proteome responses in RNAlater preserved tissue of Arabidopsis thaliana</title>
+		<author>
+			<persName><forename type="first">Cps</forename><surname>Kruse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Basu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Luesse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Wyatt</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0175943</idno>
+		<idno type="PMID">28423006</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0175943" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">175943</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Committee for the Decadal Survey on Biological and Physical Sciences in Space</title>
+		<author>
+			<persName><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Recapturing a future for space exploration: life and physical sciences research for a new era</title>
+		<meeting><address><addrLine>Washington, D.C.</addrLine></address></meeting>
+		<imprint>
+			<publisher>National Academies Press</publisher>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page">444</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>National Research Council (U ; National Research Council (U.S.) ; Space Studies Board., National Research Council (U.S. ; Aeronautics and Space Engineering Board</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Mechanical unloading of bone in microgravity reduces mesenchymal and hematopoietic stem cell-mediated tissue regeneration</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Blaber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Dvorochkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Torres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yousuf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Globus</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scr.2014.05.005</idno>
+		<idno type="PMID">25011075</idno>
+		<ptr target="https://doi.org/10.1016/j.scr.2014.05.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Stem Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="181" to="201" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Microgravity induces pelvic bone loss through osteoclastic activity, osteocytic osteolysis, and osteoblastic cell cycle inhibition by CDKN1a/p21</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Blaber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Dvorochkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Alwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yousuf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pianetta</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0061372</idno>
+		<idno type="PMID">23637819</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0061372" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">61372</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Microgravity Reduces the Differentiation and Regenerative Potential of Embryonic Stem Cells</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Blaber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Finkelstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Dvorochkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yousuf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Burns</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/scd.2015.0218</idno>
+		<ptr target="https://doi.org/10.1089/scd.2015.0218PMID:26414276" />
+	</analytic>
+	<monogr>
+		<title level="j">Stem Cells Dev</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="2605" to="2621" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Cellular responses and gene expression profile changes due to bleomycin-induced DNA damage in human fibroblasts in space</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kidane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Feiveson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stodieck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Karouia</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0170358</idno>
+		<idno type="PMID">28248986</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0170358" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">170358</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Gene Expression Profiling in Slow-Type Calf Soleus Muscle of 30 Days Space-Flown Mice</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gambara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Salanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ciciliot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Furlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gutsmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schiffl</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0169314</idno>
+		<idno type="PMID">28076365</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0169314" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">169314</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Comprehensive analysis of the skin fungal microbiota of astronauts during a half-year stay at the International Space Station</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sugita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamazaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Makimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ohshima</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/mmy/myv121</idno>
+		<ptr target="https://doi.org/10.1093/mmy/myv121PMID:26773135" />
+	</analytic>
+	<monogr>
+		<title level="j">Med Mycol</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="232" to="239" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Spaceflight alters expression of microRNA during Tcell activation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hughes-Fulford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1096/fj.15-277392</idno>
+		<ptr target="https://doi.org/10.1096/fj.15-277392PMID:26276131" />
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="4893" to="4900" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The influence of microgravity on Euglena gracilis as studied on Shenzhou 8</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nasir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Strauch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sperling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schuster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Richter</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/plb.12067</idno>
+		<ptr target="https://doi.org/10.1111/plb.12067PMID:23926886" />
+	</analytic>
+	<monogr>
+		<title level="j">Plant Biol (Stuttg)</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">Suppl 1</biblScope>
+			<biblScope unit="page" from="113" to="119" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Microarray analysis of spaceflown murine thymus tissue reveals changes in gene expression regulating stress and glucocorticoid receptors</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Lebsack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gruener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Manziello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Pecaut</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcb.22547</idno>
+		<ptr target="https://doi.org/10.1002/jcb.22547PMID:20213684" />
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biochem</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="372" to="381" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Genes in Space-1</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Copeland</surname></persName>
+		</author>
+		<ptr target="https://www.nasa.gov/mission_pages/station/research/experiments/1913.html" />
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Nanopore sequencing in microgravity</title>
+		<author>
+			<persName><forename type="first">Abr</forename><surname>Mcintyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rizzardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Botkin</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/npjmgrav.2016.35</idno>
+		<ptr target="https://doi.org/10.1038/npjmgrav.2016.35PMID:28725742" />
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">16035</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Nanopore DNA Sequencing and Genome Assembly on the International Space Station</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Castro-Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Stahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Rubins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abr</forename><surname>Mcintyre</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/077651</idno>
+		<ptr target="https://doi.org/10.1101/077651" />
+	</analytic>
+	<monogr>
+		<title level="j">bioRxiv</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Detection of specific polymerase chain reaction product by utilizing the 5&apos;--3&apos; exonuclease activity of Thermus aquaticus DNA polymerase</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Holland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Abramson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Gelfand</surname></persName>
+		</author>
+		<idno type="PMID">1871133</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="7276" to="7280" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">WetLab-2 RT-qPCR procedure</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Parra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jung</surname></persName>
+		</author>
+		<ptr target="https://www.protocols.io/view/wetlab-2-rt-qpcr-procedure-i86chze" />
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">WetLab-2 Preparation of Lyophilized Reagents</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Parra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jung</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Novel Applications for Sample Preparation</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dutton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetic Engineering &amp; Biotechnology News</title>
+		<imprint>
+			<date type="published" when="2011-05-15">2011 May 15, 2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Mechanical disruption of lysis-resistant bacterial cells by use of a miniature, low-power, disposable device</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Vandeventer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Weigel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Salazar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Erwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Irvine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Doebler</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/JCM.02171-10</idno>
+		<ptr target="https://doi.org/10.1128/JCM.02171-10PMID:21543569" />
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2533" to="2539" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Sample-ready multiplex qPCR assay for detection of malaria</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kamau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Alemayehu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Feghali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Juma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Blackstone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Marion</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1475-2875-13-158</idno>
+		<idno type="PMID">24767409</idno>
+		<ptr target="https://doi.org/10.1186/1475-2875-13-158" />
+	</analytic>
+	<monogr>
+		<title level="j">Malar J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">158</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">An optimal design method for preventing air bubbles in high-temperature microfluidic devices</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Hiep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Furui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yonezawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Takamura</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00216-009-3160-7</idno>
+		<ptr target="https://doi.org/10.1007/s00216-009-3160-7PMID:19841913" />
+	</analytic>
+	<monogr>
+		<title level="j">Anal Bioanal Chem</title>
+		<imprint>
+			<biblScope unit="volume">396</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="457" to="464" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Circumventing air bubbles in microfluidic systems and quantitative continuous-flow PCR applications</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kurosawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Furui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Rao</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00216-006-0688-7</idno>
+		<ptr target="https://doi.org/10.1007/s00216-006-0688-7PMID:16896609" />
+	</analytic>
+	<monogr>
+		<title level="j">Anal Bioanal Chem</title>
+		<imprint>
+			<biblScope unit="volume">386</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1327" to="1333" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Digital droplet PCR on disk</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schuler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Trotter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Geltman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schwemmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wadle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dominguez-Garrido</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c5lc01068c</idno>
+		<ptr target="https://doi.org/10.1039/c5lc01068cPMID:26610263" />
+	</analytic>
+	<monogr>
+		<title level="j">Lab Chip</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="208" to="216" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Contamination and sensitivity issues with a real-time universal 16S rRNA PCR</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Corless</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Guiver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Borrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Edwards-Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Kaczmarski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Fox</surname></persName>
+		</author>
+		<idno type="PMID">10790092</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1747" to="1752" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Novel mutations in Moloney Murine Leukemia Virus reverse transcriptase increase thermostability through tighter binding to template-primer</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Arezi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hogrefe</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkn952</idno>
+		<ptr target="https://doi.org/10.1093/nar/gkn952PMID:19056821" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="473" to="481" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Reverse transcriptase. The use of cloned Moloney murine leukemia virus reverse transcriptase to synthesize DNA from RNA</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Gerard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D'</forename><surname>Alessio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1007/BF02762340</idno>
+		<ptr target="https://doi.org/10.1007/BF02762340PMID:9327398" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="61" to="77" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">RNA integrity and the effect on the real-time qRT-PCR performance</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fleige</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Pfaffl</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mam.2005.12.003</idno>
+		<ptr target="https://doi.org/10.1016/j.mam.2005.12.003PMID:16469371" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol Aspects Med</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<biblScope unit="page" from="126" to="139" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m">Reference Guide to the International Space Station</title>
+		<imprint>
+			<publisher>National Aeronautics and Space Administration</publisher>
+			<date type="published" when="2015-09">2015 September 2015</date>
+			<biblScope unit="page">116</biblScope>
+		</imprint>
+	</monogr>
+	<note>Utilization Edition ed</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Comparing protocols for preparation of DNA-free total yeast RNA suitable for RT-PCR</title>
+		<author>
+			<persName><forename type="first">Del</forename><surname>Aguila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Dutra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Paschoalin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2199-6-9</idno>
+		<ptr target="https://doi.org/10.1186/1471-2199-6-9PMID:15833107" />
+	</analytic>
+	<monogr>
+		<title level="j">BMC Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The nature and dynamics of bacterial genomes</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ochman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Davalos</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1119966</idno>
+		<ptr target="https://doi.org/10.1126/science.1119966PMID:16556833" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">311</biblScope>
+			<biblScope unit="issue">5768</biblScope>
+			<biblScope unit="page" from="1730" to="1733" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Surface tension and microgravity</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Meseguer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sanz-Andre ´s</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pe</forename><surname>´rez-Grande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Pindado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Franchini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Alonso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+		<idno>14/055010+20$33.0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Physics</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="143" to="0807" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<ptr target="http://www.spacestationresearch.com/hardware/wet-lab-smartcycler-wetlab2/" />
+		<title level="m">WetLab2</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+		<respStmt>
+			<orgName>Laboratory IUSN</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Novel End-to-End Molecular Biology Approach for Direct Nanopore 1D cDNA Sequencing of Reverse Transcribed mRNAs Purified from Cell Cultures by the NASA ISS WetLab2 SPM</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Juran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eac</forename><surname>Almeida</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Editors</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Space Station Research and Development Conference</title>
+		<imprint>
+			<date type="published" when="2017">2017. 2017</date>
+			<biblScope unit="page" from="7" to="20" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Washinghton</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

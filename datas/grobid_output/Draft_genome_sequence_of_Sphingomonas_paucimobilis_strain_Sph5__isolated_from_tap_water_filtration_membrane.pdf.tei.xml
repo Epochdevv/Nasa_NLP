@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Draft genome sequence of &lt;i&gt;Sphingomonas paucimobilis&lt;/i&gt; strain Sph5, isolated from tap water filtration membrane</title>
+				<funder ref="#_PSs6P3t">
+					<orgName type="full">NASA Space Biology</orgName>
+				</funder>
+				<funder ref="#_PmwF8ME">
+					<orgName type="full">National Aeronautics and</orgName>
+				</funder>
+				<funder ref="#_FKWC6mE">
+					<orgName type="full">NASA BAC</orgName>
+				</funder>
+				<funder ref="#_xhd8NnQ">
+					<orgName type="full">National Aeronautics and Space Administration</orgName>
+					<orgName type="abbreviated">NASA</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>American Society for Microbiology</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-12-01">1 December 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Sara</forename><surname>Koroli</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Biodesign Center for Fundamental and Applied Microbiomics</orgName>
+								<orgName type="institution" key="instit1">Biodesign Institute</orgName>
+								<orgName type="institution" key="instit2">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>Arizona</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">College of Medicine</orgName>
+								<orgName type="institution">University of Arizona</orgName>
+								<address>
+									<settlement>Phoenix</settlement>
+									<region>Arizona</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kristina</forename><surname>Buss</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Bioinformatics Core Facility, Biosciences, Knowledge Enterprise</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>Arizona</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Joy</forename><forename type="middle">M</forename><surname>Blain</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Genomics Core Facility, Biosciences, Knowledge Enterprise</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>Arizona</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gautam</forename><forename type="middle">Sai</forename><surname>Nakka</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mina</forename><surname>Hong</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Biodesign Center for Fundamental and Applied Microbiomics</orgName>
+								<orgName type="institution" key="instit1">Biodesign Institute</orgName>
+								<orgName type="institution" key="instit2">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>Arizona</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Robert</forename><forename type="middle">Jc</forename><surname>Mclean</surname></persName>
+							<idno type="ORCID">0000-0002-0610-6143</idno>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">Texas State University</orgName>
+								<address>
+									<settlement>San Marcos</settlement>
+									<region>Texas</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Caroline</forename><forename type="middle">M</forename><surname>Plugge</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Wetsus</orgName>
+								<orgName type="institution">European Centre of Excellence for Sustainable Water Technology</orgName>
+								<address>
+									<settlement>Leeuwarden</settlement>
+									<country key="NL">the Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jiseon</forename><surname>Yang</surname></persName>
+							<idno type="ORCID">0000-0002-5393-7062</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Biodesign Center for Fundamental and Applied Microbiomics</orgName>
+								<orgName type="institution" key="instit1">Biodesign Institute</orgName>
+								<orgName type="institution" key="instit2">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>Arizona</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Delaware College of Engineering</orgName>
+								<address>
+									<settlement>Newark</settlement>
+									<region>Delaware</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Draft genome sequence of &lt;i&gt;Sphingomonas paucimobilis&lt;/i&gt; strain Sph5, isolated from tap water filtration membrane</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Microbiology Resource Announcements</title>
+						<title level="j" type="abbrev">Microbiol Resour Announc</title>
+						<idno type="eISSN">2576-098X</idno>
+						<imprint>
+							<publisher>American Society for Microbiology</publisher>
+							<biblScope unit="volume">13</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2023-12-01">1 December 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9B5ED26D5ABA82B927C11B0C8829E5A7</idno>
+					<idno type="DOI">10.1128/mra.00345-23</idno>
+					<note type="submission">funding table on p. 3. Received 24 April 2023 Accepted 24 October 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>draft genome</term>
+					<term>WGS</term>
+					<term>water</term>
+					<term>Sphingomonas</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Sphingomonadaceae are common membrane colonizers and biofilm formers. As part of our studies on long-term genetic changes in drinking water biofilm species, we report the draft genome sequence of Sphingomonas strain Sph5, isolated from a tap water filtration membrane. The isolate was determined as Sphingomonas paucimobilis through whole genome sequencing and de novo assembly.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Annotations were predicted with Prokka [v1. <ref type="bibr">14.6 (12)</ref>], given S. sanguinis and S. paucimobilis references (Table <ref type="table" target="#tab_0">1</ref>), and used for orthogroup-based phylogeny construc tion with Orthofinder [v2. <ref type="bibr">5.4 (13)</ref>], <ref type="bibr">MAFFT [v7.490 (14)</ref>], and FastTree [v. <ref type="bibr">2.1.10 (15)</ref>].</p><p>The WGS phylogeny (Fig. <ref type="figure" target="#fig_0">1</ref>) confirms that Sph5 is closest to S. paucimobilis while related to S. sanguinis. As a result, S. paucimobilis reference genomes were used for RagTag [v2. <ref type="bibr">1.0 (16)</ref>] scaffolding of Sph5 contigs. ASM1602843v1 was the best scaffold (93.6% total length in three longest contigs of resulting assembly). Realignment of raw reads to ASM1602843v1scaffolded Sph5 assembly with BWA [v0.7.17 <ref type="bibr" target="#b16">(17)</ref>], SamTools [v1.12 (18)], and Picard [v2.25.0 <ref type="bibr" target="#b18">(19)</ref>], evaluated by Mosdepth [v0. <ref type="bibr">3.3 (20)</ref>], supports this (99.48% reads aligned, 1,089× coverage).</p><p>Re-annotation with Prokka predicts 4,321 CDS, 3 rRNAs, 54 tRNAs, 1 tmRNA, and 1 repeat region. Of the CDS, 3,342 could be functionally annotated.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG 1</head><label>1</label><figDesc>FIG 1Orthofindergenerated rooted tree of 50 complete Sphingomonas genomes with the Sph5 strain. Branch lengths represent evolutionary distance. We used the multiple-sequence alignment option with MAFFT and used FastTree to infer the trees. The mathematical parameters used are built in to the OrthoFinder tool, and we did not alter them from the default.</figDesc><graphic coords="2,67.05,72.00,450.90,435.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1</head><label>1</label><figDesc>Summary of the draft whole genome sequences of Sphingomonas paucimobilis Sph5 from the tap water filtration membrane</figDesc><table><row><cell>Variable</cell><cell>Data</cell></row><row><cell>Genus and species</cell><cell>Sphingomonas paucimobilis</cell></row><row><cell>Strain</cell><cell>Sph5</cell></row><row><cell>NCBI accession no.</cell><cell>JAMRJL000000000</cell></row><row><cell>Country</cell><cell>The Netherlands</cell></row><row><cell>Source</cell><cell>Biofilm on Nadir MP005 microfiltration membrane</cell></row><row><cell>Feed water source</cell><cell>Tap water from the city of Leeuwarden</cell></row><row><cell>Genome size (bp)</cell><cell>4680620</cell></row><row><cell>N 50 (bp)</cell><cell>4016723</cell></row><row><cell>Scaffold reference</cell><cell>ASM1602843v1</cell></row><row><cell>Scaffolds ≥50,000 bp</cell><cell>29, 4</cell></row><row><cell>Mean coverage</cell><cell>1,089×</cell></row><row><cell>G + C content (%)</cell><cell>65.30</cell></row><row><cell>No. of annotated CDS</cell><cell>3,342</cell></row><row><cell>No. of raw reads</cell><cell>19,032,602</cell></row><row><cell>No. of reads used for assembly</cell><cell>19,032,602</cell></row><row><cell>No. of coding sequences</cell><cell>4,321</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>January 2024 Volume 13 Issue 1 10.1128/MRA.00345-23 2</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>January 2024 Volume 13 Issue 1 10.1128/MRA.00345-23 4</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>This research was funded by <rs type="funder">NASA Space Biology</rs>, grant number <rs type="grantNumber">80NSSC19K1597</rs>, and <rs type="funder">NASA BAC</rs>, grant number <rs type="grantNumber">HS5HWWK1AAU5</rs>.</p></div>
+			</div>
+			<div type="funding">
+<div><p><rs type="grantName">FUNDING Funder Grant</rs>(s) Author(s) <rs type="funder">National Aeronautics and Space Administration (NASA)</rs> <rs type="grantNumber">80NSSC19K1597</rs> <rs type="person">Jiseon Yang Sara Koroli Mina Hong Gautam Sai Nakka</rs> <rs type="funder">National Aeronautics and</rs> <rs type="affiliation">Space Administration</rs> (<rs type="affiliation">NASA</rs>) <rs type="grantNumber">80NSSC19K1597</rs>, <rs type="person">HS5HWWK1AAU5 Robert JC McLean</rs></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_PSs6P3t">
+					<idno type="grant-number">80NSSC19K1597</idno>
+				</org>
+				<org type="funding" xml:id="_FKWC6mE">
+					<idno type="grant-number">HS5HWWK1AAU5</idno>
+				</org>
+				<org type="funding" xml:id="_xhd8NnQ">
+					<idno type="grant-number">80NSSC19K1597</idno>
+					<orgName type="grant-name">FUNDING Funder Grant</orgName>
+				</org>
+				<org type="funding" xml:id="_PmwF8ME">
+					<idno type="grant-number">80NSSC19K1597</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY</head><p>The assembly and raw data are deposited at NCBI through the SRA genome submission portal under the accession numbers JAMRJL000000000 and SRR25337554. The version deposited in this paper is the first version.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><note type="other">Sara</note></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Isolation and characterization of Sphingomonadaceae from fouled membranes</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>De Vries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Beyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jarzembowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lipińska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Van Den Brink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zwijnenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pha</forename><surname>Timmers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ajm</forename><surname>Stams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Plugge</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C5AY02550H</idno>
+		<ptr target="https://doi.org/10.1038/s41522-018-0074-1" />
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Biofilms Microbiomes</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Characterization of Sphingomonas isolates from Finnish and Swedish drinking water distribution systems</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Koskinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ali</forename><forename type="middle">-</forename><surname>Vehmas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kämpfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Laurikkala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tsitko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kostyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Atroshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Salkinoja-Salonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1039/C5AY02550H</idno>
+		<ptr target="https://doi.org/10.1046/j.1365-2672.2000.01167.x" />
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="687" to="696" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Biofilm formation on reverse osmosis membranes is initiated and dominated by Sphingomonas spp</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Bereschenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ajm</forename><surname>Stams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gjw</forename><surname>Euverink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mcm</forename><surname>Van Loosdrecht</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C5AY02550H</idno>
+		<ptr target="https://doi.org/10.1128/AEM.01998-09" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="2623" to="2632" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Chlorine inactivation of Sphingomonas cells attached to goethite particles in drinking water</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gauthier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Redercher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Block</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C5AY02550H</idno>
+		<ptr target="https://doi.org/10.1128/AEM.65.1.355-357.1999" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="355" to="357" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">In-situ Biofilm characterization in membrane systems using optical coherence tomography: formation, structure, detachment and impact of flux change</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dreszer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Wexler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Drusová</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Overdijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zwijnenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-C</forename><surname>Flemming</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kruithof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Vrouwenvelder</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C5AY02550H</idno>
+		<ptr target="https://doi.org/10.1016/j.watres.2014.09.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Water Res</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="243" to="254" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">FastQC: a quality control tool for high throughput sequence data</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Andrews</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C5AY02550H</idno>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bankevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nurk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Antipov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Gurevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dvorkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Kulikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Lesin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Nikolenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Prjibelski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Pyshkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Sirotkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vyahhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tesler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Alekseyev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Pevzner</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C5AY02550H</idno>
+		<ptr target="https://doi.org/10.1089/cmb.2012.0021" />
+	</analytic>
+	<monogr>
+		<title level="j">J Comput Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="455" to="477" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Fast and sensitive protein alignment using DIAMOND</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Buchfink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Huson</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C5AY02550H</idno>
+		<ptr target="https://doi.org/10.1038/nmeth.3176" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="59" to="60" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">BUSCO: assessing genome assembly and annotation complete ness with single-copy orthologs</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Simão</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Waterhouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ioannidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Kriventseva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Zdobnov</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C5AY02550H</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/btv351" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="3210" to="3212" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Genomics and taxonomy in diagnostics for food security: soft-rotting enterobacterial plant pathogens</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pritchard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Glover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Humphris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Elphinstone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">K</forename><surname>Toth</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C5AY02550H</idno>
+		<ptr target="https://doi.org/10.1039/C5AY02550H" />
+	</analytic>
+	<monogr>
+		<title level="j">Anal Methods</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="12" to="24" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">MUMmer4: a fast and versatile genome alignment system</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Marçais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Delcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Phillippy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Coston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Salzberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zimin</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btu153</idno>
+		<ptr target="https://doi.org/10.1371/journal.pcbi.1005944" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Comput Biol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">1005944</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Prokka: rapid prokaryotic genome annotation</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Seemann</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btu153</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/btu153" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="2068" to="2069" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Orthofinder: phylogenetic orthology inference for comparative genomics</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Emms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kelly</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13059-019-1832-y</idno>
+		<ptr target="https://doi.org/10.1186/s13059-019-1832-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">238</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">MAFFT multiple sequence alignment software version 7: improvements in performance and usability</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Katoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Standley</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13059-019-1829-6</idno>
+		<ptr target="https://doi.org/10.1093/molbev/mst010" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Evol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="772" to="780" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">FastTree: computing large minimum evolution trees with profiles instead of a distance matrix</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Dehal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Arkin</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13059-019-1829-6</idno>
+		<ptr target="https://doi.org/10.1093/molbev/msp077" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Evol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1641" to="1650" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">RaGOO: fast and accurate referenceguided scaffolding of draft genomes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alonge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Soyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ramakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goodwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Sedlazeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">B</forename><surname>Lippman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Schatz</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13059-019-1829-6</idno>
+		<ptr target="https://doi.org/10.1186/s13059-019-1829-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">224</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Fast and accurate short read alignment with Burrows-Wheeler transform</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Durbin</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btp324</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/btp324" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1754" to="1760" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Twelve years of SAMtools and BCFtools</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Danecek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Bonfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liddle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">O</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Whitwham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Keane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Mccarthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/gigascience/giab008</idno>
+		<ptr target="https://doi.org/10.1093/gigascience/giab008" />
+	</analytic>
+	<monogr>
+		<title level="j">Gigascience</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">8</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<idno type="DOI">10.1039/C5AY02550H</idno>
+		<ptr target="http://broadinstitute.github.io/picard" />
+		<title level="m">Broad Institute, Github repository</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>Internet Picard Toolkit</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Mosdepth: quick coverage calculation for genomes and exomes</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btx699</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/btx699" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="867" to="868" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

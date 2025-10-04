@@ -1,0 +1,1964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Designing a Novel Monitoring Approach for the Effects of Space Travel on Astronauts’ Health</title>
+				<funder ref="#_6jb9yeD">
+					<orgName type="full">University of Saskatchewan (Saskatoon, Saskatchewan, Canada)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">President&apos;s NSERC Research Fund</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>MDPI AG</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-02-18">18 February 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Anurag</forename><surname>Sakharkar</surname></persName>
+							<idno type="ORCID">0000-0002-4873-1932</idno>
+							<affiliation key="aff0">
+								<orgName type="department">College of Arts and Science</orgName>
+								<orgName type="institution">University of Saskatchewan</orgName>
+								<address>
+									<addrLine>9 Campus Drive</addrLine>
+									<postCode>S7N 5A5</postCode>
+									<settlement>Saskatoon</settlement>
+									<region>SK</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Jian</forename><surname>Yang</surname></persName>
+							<email>jian.yang@usask.ca</email>
+							<affiliation key="aff1">
+								<orgName type="department">College of Pharmacy and Nutrition</orgName>
+								<orgName type="institution">University of Saskatchewan</orgName>
+								<address>
+									<addrLine>107 Wiggins Road</addrLine>
+									<postCode>S7N 5E5</postCode>
+									<settlement>Saskatoon</settlement>
+									<region>SK</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Designing a Novel Monitoring Approach for the Effects of Space Travel on Astronauts’ Health</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Life</title>
+						<title level="j" type="abbrev">Life</title>
+						<idno type="eISSN">2075-1729</idno>
+						<imprint>
+							<publisher>MDPI AG</publisher>
+							<biblScope unit="volume">13</biblScope>
+							<biblScope unit="issue">2</biblScope>
+							<biblScope unit="page">576</biblScope>
+							<date type="published" when="2023-02-18">18 February 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DFBA240E44ED2C9E5B1A73FF43F1F48E</idno>
+					<idno type="DOI">10.3390/life13020576</idno>
+					<note type="submission">Received: 9 January 2023 Revised: 2 February 2023 Accepted: 6 February 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>space biology</term>
+					<term>diagnostic assay</term>
+					<term>health</term>
+					<term>transcriptome</term>
+					<term>space flight</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Space exploration and extraterrestrial civilization have fascinated humankind since the earliest days of human history. It was only in the last century that humankind finally began taking significant steps towards these goals by sending astronauts into space, landing on the moon, and building the International Space Station. However, space voyage is very challenging and dangerous, and astronauts are under constant space radiation and microgravity. It has been shown that astronauts are at a high risk of developing a broad range of diseases/disorders. Thus, it is critical to develop a rapid and effective assay to monitor astronauts' health in space. In this study, gene expression and correlation patterns were analyzed for 10 astronauts (8 male and 2 female) using the publicly available microarray dataset E-GEOD-74708. We identified 218 differentially expressed genes between In-flight and Pre-flight and noticed that space travel decreased genome regulation and gene correlations across the entire genome, as well as individual signaling pathways. Furthermore, we systematically developed a shortlist of 32 genes that could be used to monitor astronauts' health during space travel. Further studies, including microgravity experiments, are warranted to optimize and validate the proposed assay.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>"Space: the final frontier." <ref type="bibr" target="#b0">[1]</ref>. Every fan of the American science fiction TV series Star Trek is likely to remember this cardinal line of the opening monologue. Indeed, space exploration and extraterrestrial civilization have continually fascinated humankind; however, it was only in the last century that humankind finally took a solid step forward by sending astronauts into space and landing on the moon <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>. In the 21 st century, humankind has made another great leap forward in space exploration: expediting the International Space Station (ISS) program <ref type="bibr" target="#b3">[4]</ref>, sending unmanned rovers to seek signs of life on Mars <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>, and starting private space ventures <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref>. In addition, NASA (The National Aeronautics and Space Administration) is planning to send astronauts back to the moon in 2024 and to Mars in the 2030s <ref type="bibr" target="#b8">[9]</ref>. Through all these endeavors, we have seen the twilight of crewed space missions going beyond our harbor (Earth) and into deep space.</p><p>Space travel is challenging, dangerous, and full of uncertainty. Astronauts are under sustained microgravity and cosmic radiation. Prolonged exposure to microgravity and cosmic radiation has been shown to cause a series of health problems, including loss of muscle mass <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b10">11]</ref>, reduced bone density <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b12">13]</ref>, compromised immune responses <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b14">15]</ref>, impaired renal functions <ref type="bibr" target="#b15">[16]</ref>, neurological system irresponsiveness <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b17">18]</ref>, and development of cardiovascular diseases <ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b19">20]</ref>. Furthermore, microgravity and cosmic radiation can cause several types of cancer, such as leukemia, likely due to compromised immunity <ref type="bibr" target="#b20">[21]</ref>. However, studies under simulated microgravity also show that microgravity affects cell proliferation and apoptosis and can change cancer cells into less malignant Life 2023, 13, 576 2 of 15 phenotypes <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref>. These studies indicate that the impact of microgravity and cosmic radiation on human health is profound, and it is unlikely that this impact is due to changes in one gene or a small group of genes. Therefore, genomic, transcriptomic, and/or proteomic studies are crucial to fully understand the effects of microgravity and cosmic radiation on human health. These studies can lead to the development of effective strategies to monitor, prevent, and/or alleviate the effects on human health caused by space travel.</p><p>Approximately 12 years ago, NASA and JAXA (Japan Aerospace Exploration Agency) undertook a microarray study on 10 astronauts (8 male and 2 female) who had a six-month mission at the ISS <ref type="bibr" target="#b24">[25]</ref>. <ref type="bibr">Terada et al. used</ref> qPCR to confirm that space flight changed gene expression in astronauts <ref type="bibr" target="#b24">[25]</ref>. Several genes, including FGF18, ANGPTL7, and COMP, were upregulated and might play a role in inhibiting cell proliferation in hair follicles. However, they neither discussed the potential effects of the differentially expressed genes on the astronauts' health nor provided any strategy to monitor these effects. Thus, in the current study, we reanalyzed this microarray dataset, conceptualized a method that could monitor the effects of space travel on astronauts' health, and searched for potential intervention options.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Data Acquisition</head><p>Microarray dataset E-GEOD-74708, which is the largest publicly available space gene expression dataset, was downloaded from the NASA GeneLab Database (<ref type="url" target="https://genelab-data.ndc.nasa.gov/genelab">https://genelab- data.ndc.nasa.gov/genelab</ref>, accessed on 15 March 2021). It contains gene expression profiles for 10 astronauts (8 male and 2 female) that stayed in the ISS between July 2009 and February 2013. For each astronaut, 2 profiles were collected at each of the three time points, Pre-flight (prior to departing for the ISS), In-flight (while staying at the ISS), and Post-flight (after return to the ground).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Data Processing</head><p>Individual gene expression profiles were combined into three DataFrames: Pre-flight, In-flight, and Post-flight using the Pandas package (version 1.3.0) in Python <ref type="bibr" target="#b25">[26]</ref>. These DataFrames were analyzed for possible outliers and verified for accuracy. Gene expression readings with null values were removed. Then, Agilent IDs in the data were mapped to gene names using the Ensembl BioMart database (<ref type="url" target="https://www.ensembl.org/biomart/martview">https://www.ensembl.org/biomart/  martview</ref>, accessed on 15 March 2021).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">DEG Identification and Signaling Pathway Analysis</head><p>Differentially expressed genes (DEGs: |log 2 FC| ≥ 3.00 and p &lt; 0.05) were identified between the In-flight and the Pre-flight DataFrames using the DEGseq package (version 1.42.0) in R <ref type="bibr" target="#b26">[27]</ref>. The Likelihood Ratio Test (LRT) function was applied in the calculation. No DEGs were identified between the Post-flight and the In-flight DataFrames. The DEGs between In-flight and Pre-flight were then subjected to signaling pathway analysis using the InnateDB tool <ref type="bibr" target="#b27">[28]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Calculation of Gene Pair Correlation Matrices</head><p>Pairwise Pearson correlation coefficient matrices for the 3 gene expression DataFrames were calculated using formula r =</p><formula xml:id="formula_0">Σ (x i -x) (yi-y) Σ (x i -x) 2 Σ(y i -y) 2 .</formula><p>The correlation matrices were subsequently transferred to be visualized using an R platform. To analyze gene pair correlations for the signaling pathways, the expression profiles of the genes for the pathways were extracted from the DataFrames to produce the DataFrame subsets. For each signaling pathway, pairwise Pearson correlation coefficients were calculated and visualized as outlined above between the In-flight and Pre-flight subsets and between the Post-flight and In-flight subsets. Positive and negative correlations were represented in blue and red, respectively. Additionally, gene pair correlation coefficient differentials, ∆CC (In-Pre) =</p><p>Life 2023, 13, 576 </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Protein-Protein Interaction Network and Disease Network Constructions</head><p>The BioGrid database <ref type="bibr" target="#b28">[29]</ref> and DisGeNET database <ref type="bibr" target="#b29">[30]</ref> were downloaded in March 2021 to create a protein-protein interaction (PPI) network and extract the disease interaction information, respectively, for the DEGs. The networks were then constructed using Python and visualized using Cytoscape <ref type="bibr" target="#b30">[31]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Drug and miRNA Screenings</head><p>The Drugbank <ref type="bibr" target="#b31">[32]</ref> and miRTARBase <ref type="bibr" target="#b32">[33]</ref> databases were also downloaded in March 2021 to extract the drug and miRNA interaction information for the DEGs. The networks were subsequently constructed using Python and visualized using Cytoscape. From these two networks, we identified potential drugs and miRNAs targeting the 32 genes that were identified to be used in a rapid RT 2 -PCR assay for space travel.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Differentially Expressed Genes (DEGs)</head><p>NASA and JAXA undertook Study GLDS-174: "Effects of a closed space environment on gene expression in hair follicles of astronauts in the International Space Station" between 2009 and 2013. Hair follicles were chosen for this study because they are the easiest attainable and noninvasive samples that are understood to be representative of most large-scale changes in the body <ref type="bibr" target="#b24">[25]</ref>. However, Terada et al. only reported the expression of selected genes in this study and did not undertake further analysis <ref type="bibr" target="#b24">[25]</ref>. To better understand how space travel affects astronauts' health, we downloaded the microarray dataset (E-GEOD-74708) from the NASA GeneLab open data repository. The microarray dataset includes gene expression information for three stages: Pre-flight (6 months to 2 weeks before launch), In-flight (while staying in the ISS), and Post-flight (2 days to 3 months after returning from the ISS). We then analyzed the dataset for gene expression and gene pair correlation. Using cut-off criteria of |log 2 FC| ≥ 3.00 and p &lt; 0.05, 218 DEGs were identified between In-flight and Pre-flight (Supplementary File S1: DEG_list.xls). The top 20 up-and downregulated genes are summarized in Table <ref type="table" target="#tab_0">1</ref>. However, no DEGs were detected between Post-flight and In-flight, suggesting that the astronauts may need a longer time than current guidelines for the body to adjust to the ground environment. Furthermore, astronauts have a much higher risk of developing various types of diseases than normal people and precautionary measures are critical to protect their health after returning to ground.</p><p>As expected, the DEGs between In-flight and Pre-flight regulate a broad spectrum of biological and physiological functions. For example, the most up-regulated gene LIMCH1, encoding LIM and calponin-homology domains 1, activates the non-muscle myosin Iia complex, stabilizes focal adhesion, and inhibits cell migration <ref type="bibr" target="#b33">[34,</ref><ref type="bibr" target="#b34">35]</ref>. Thus, the upregulation of LIMCH1 may explain observations that microgravity exposure can change cancer cells into less malignant phenotypes <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref>. The second most up-regulated gene IER3 encodes Immediate Early Response 3 and regulates cell apoptosis <ref type="bibr" target="#b35">[36]</ref>, inflammation <ref type="bibr" target="#b36">[37]</ref>, and tumorigenesis <ref type="bibr" target="#b37">[38]</ref>. Upregulation of IER3 has been observed in several types of cancer and may regulate cancer progression <ref type="bibr" target="#b38">[39,</ref><ref type="bibr" target="#b39">40]</ref>. This implies another possible reason, other than radiation exposure, that increases the risk of astronauts developing cancer during a prolonged period of space travel. The most down-regulated gene, NFATC1, encodes Nuclear Factor of Activated T Cells 1 and plays an important role in osteoblast differentiation <ref type="bibr" target="#b40">[41]</ref>, osteoclastogenesis <ref type="bibr" target="#b41">[42]</ref>, T-cell differentiation <ref type="bibr" target="#b42">[43]</ref>, lymphatic endothelial development <ref type="bibr" target="#b43">[44]</ref>, cardiac valve morphogenesis <ref type="bibr" target="#b44">[45]</ref>, and tumorigenesis <ref type="bibr" target="#b45">[46]</ref>. The downregulation of NFATC1 may result in osteoporosis, immunocompromised conditions, and prostate cancer in astro-nauts during a prolonged space stay. The second most down-regulated gene, KIDINS220, encoding Kinase D Interacting Substrate 220, modulates the development and function of the nerve and cardiovascular systems <ref type="bibr" target="#b46">[47,</ref><ref type="bibr" target="#b47">48]</ref>. The downregulation of KIDINS220 may contribute to the development of neurological disorders and cardiovascular diseases in astronauts. In summary, the large variation of the biological processes regulated by the DEGs provides a valuable resource of genes for us to develop a rapid assay kit (~20-30 genes) to monitor astronauts' health conditions in space. However, it is noteworthy that the three genes reported by Terada et al., FGF18, ANGPTL7, and COMP, are not in the aforementioned DEG list because they failed to meet the cut-off criteria. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Gene Pair Correlations</head><p>As mentioned above, the effect of space travel on an astronaut's health is comprehensive and involves the regulation of many genes. It is also well-known that any biological, physiological, or pathophysiological change requires a delicate coordination of multiple genes. Therefore, we decided to carry out a gene pair correlation analysis for the whole genome (30,645 transcripts for 23,115 genes) among the Pre-flight, In-flight, and Post-flight expression profiles. As shown in Figure <ref type="figure" target="#fig_2">1A</ref>, the genes are highly correlated in the Pre-flight, which is consistent with previous studies showing that gene expressions are correlated in normal human tissues <ref type="bibr" target="#b48">[49]</ref>. Upon staying in the ISS for an extended period of 6 months, the genome significantly lost its regulation of the gene expression and gene coordination was scrambled (Figure <ref type="figure" target="#fig_2">1B</ref>). Our previous studies have shown that loss of gene pair correlations is a hallmark of carcinogenesis and/or cancer progression <ref type="bibr" target="#b49">[50]</ref><ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref>. Therefore, loss of coordination of gene expression, other than cosmic radiation and compromised immune system, is likely to be another factor that increases the risk of cancer development in astronauts. Analysis of the Post-flight dataset showed that returning to ground did not significantly improve genome regulation and coordination of gene expression (Figure <ref type="figure" target="#fig_2">1C</ref>), implying that the effect of space travel on human health is more profound and longer lasting than currently thought. Extended care is necessary for astronauts to minimize the risk of disease development. As we progress towards crewed missions into outer space (for example, to the Moon and Mars) and other prolonged space stays, it is critical to develop rapid ap-proaches to monitor genome regulation and establish corresponding protocols to alleviate the effects of space travel on human health. Another important question that needs to be addressed is whether the human body could establish a new "routine" for prolonged space stays and what this would look like in terms of astronauts' health. We speculate that loss of gene expression coordination might also be responsible for other diseases/conditions astronauts experience, such as muscle loss and compromised immune system. Extensive further studies in space biomedicine and space pharmacology are warranted to prepare us for longer-term outer space exploration. development in astronauts. Analysis of the Post-flight dataset showed that returning to ground did not significantly improve genome regulation and coordination of gene expression (Figure <ref type="figure" target="#fig_2">1C</ref>), implying that the effect of space travel on human health is more profound and longer lasting than currently thought. Extended care is necessary for astronauts to minimize the risk of disease development. As we progress towards crewed missions into outer space (for example, to the Moon and Mars) and other prolonged space stays, it is critical to develop rapid approaches to monitor genome regulation and establish corresponding protocols to alleviate the effects of space travel on human health. Another important question that needs to be addressed is whether the human body could establish a new "routine" for prolonged space stays and what this would look like in terms of astronauts' health. We speculate that loss of gene expression coordination might also be responsible for other diseases/conditions astronauts experience, such as muscle loss and compromised immune system. Extensive further studies in space biomedicine and space pharmacology are warranted to prepare us for longer-term outer space exploration. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Signaling Pathway and Disease Network of the DEGs</head><p>Because DEGs are the most altered genes during a biological process, we conducted a signaling pathway analysis of the 218 DEGs between In-flight and Pre-flight to figure out which biological functions are regulated by these genes. The top 11 signaling pathways were identified to be signal transduction, immune system, gene expression, metabolism, metabolism of proteins, generic transcription pathway, developmental biology, metabolism of lipids and lipoproteins, axon guidance, innate immune system, and disease (Table <ref type="table" target="#tab_1">2</ref>). In total, 48 genes were found to be involved in the regulation of these top 11 signaling pathways. Moreover, it is obvious that most of these DEGs are involved in the regulation of multiple signaling pathways, and that these signaling pathways regulate a broad range of biological, physiological, and/or pathophysiological processes. This analysis reconfirms that space travel imposes comprehensive effects on the human system rather than affecting an individual organ or tissue. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Signaling Pathway and Disease Network of the DEGs</head><p>Because DEGs are the most altered genes during a biological process, we conducted a signaling pathway analysis of the 218 DEGs between In-flight and Pre-flight to figure out which biological functions are regulated by these genes. The top 11 signaling pathways were identified to be signal transduction, immune system, gene expression, metabolism, metabolism of proteins, generic transcription pathway, developmental biology, metabolism of lipids and lipoproteins, axon guidance, innate immune system, and disease (Table <ref type="table" target="#tab_1">2</ref>). In total, 48 genes were found to be involved in the regulation of these top 11 signaling pathways. Moreover, it is obvious that most of these DEGs are involved in the regulation of multiple signaling pathways, and that these signaling pathways regulate a broad range of biological, physiological, and/or pathophysiological processes. This analysis reconfirms that space travel imposes comprehensive effects on the human system rather than affecting an individual organ or tissue. We further analyzed the disease network for the 218 DEGs between the In-flight and Pre-flight expression profiles to identify the major disease/disorder conditions associated with space travel (Supplementary File S2: Disease_DEG.xls). As shown in Table <ref type="table" target="#tab_2">3</ref>, the top 20 disease/disorder conditions can broadly be divided into three categories: neoplasia/carcinoma, neurological disorder, and liver function, with the top three conditions being malignant neoplasm of the breast, colorectal carcinoma, and malignant neoplasm of the prostate. More DEGs were associated with tumor development than other diseases/disorders. In 2019, Reynolds et al. reported the effect of space radiation on astronauts' death using a statistical analysis <ref type="bibr" target="#b52">[53]</ref>. Of the astronauts who traveled to space between 1960 and 2018, 53 NASA astronauts have died, with 16 of those deaths (30.2%) being caused by cancer. Nevertheless, their study indicates that space radiation does not strongly impact the mortality of astronauts. This implies that weakened genome regulation (i.e., reduced gene expression correlation) is likely to be another key factor, in addition to compromised immune function, in causing tumor development in astronauts. However, these tumors may be less malignant or even benign <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref>. Moreover, consistent with previous studies <ref type="bibr" target="#b53">[54,</ref><ref type="bibr" target="#b54">55]</ref>, our results showed that space travel significantly affects astronauts' liver function and liver metabolism. Key genes identified from our analysis, such as GPT and UBA5, might serve as valuable monitoring biomarkers of astronauts' liver function and even possible medical intervention points to protect astronauts' health. Because liver is a major organ for drug metabolism, a systematic space pharmacology study is needed to establish drug profiles-including dosing, ADMET (absorption, distribution, metabolism, excretion, and toxicity), and even formulation-in preparation for future voyages into outer space. Space drug usage based on current information may be less effective or even detrimental to astronauts' health. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Design of a Rapid Assay for Space Travel</head><p>Any biological or physiological process requires a delicate regulation of genes, including gene expression levels, interactions, and correlations. However, most genomics/genetic studies are focused on gene expression level rather than gene pair correlation. Although gene co-expressions and protein co-localizations are commonly studied in biomedical research, our research laboratory, to the best of our knowledge, is the first to apply gene pair correlation coefficient (a mathematical term) to describe and explain biological and medical questions <ref type="bibr" target="#b49">[50]</ref><ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref>. Thus, to design a rapid assay to monitor astronauts' health, we selected a set of genes with expression levels and gene pair correlations significantly altered by space travel.</p><p>We calculated gene pair correlation coefficients (designated as CC) of the DEGs associated with the top 11 signaling pathways for the Pre-flight, In-flight, and Post-flight datasets, and analyzed the gene pair correlation coefficient differentials (designated as ∆CC) between the In-flight and Pre-flight and between the Post-flight and In-flight (Figure <ref type="figure" target="#fig_3">2</ref>). The changes in gene pair CCs between the In-flight and Pre-flight datasets were obvious for every signaling pathway, except the generic transcription pathway. However, the changes between Post-flight and In-flight CCs were minimal. Thus, using |∆CC| &gt; 0.70 as a cut-off, we identified gene pairs with their correlation coefficients significantly altered between the In-flight and Pre-flight datasets and summarized them in Table <ref type="table" target="#tab_4">4</ref>. These gene pairs were then classified into four categories based on changes in correlation coefficients: Category 1-positive to more/less positive (highlighted in blue), Category 2-positive to negative (highlighted in green), Category 3-negative to positive (highlighted in brown), and Category 4-negative to more/less negative (highlighted in red). It is noteworthy that Categories 2 and 3 contained more gene pairs than Categories 1 and 4, implying that many genes lost their coordination and even started counteractive processes in space. This observation supports previous studies that found that spaceflight significantly affects gene expression and homeostasis <ref type="bibr" target="#b55">[56]</ref>. This dramatic change in gene expression coordination is thought to affect normal biological and physiological functions in the human body and is likely detrimental to astronauts' health.</p><p>In a previous study, correlation was classified into three categories based on correlation coefficients: strong (0.68 ≤ |CC| ≤ 1.00), moderate (0.36 ≤ |CC| ≤ 0.67), and weak (|CC| ≤ 0.35) <ref type="bibr" target="#b56">[57]</ref>. To increase the sensitivity of the assay for space travel, it is rational to only include gene pairs with correlations changing from strong to weak, weak to strong, or strong to opposite strong with |∆CC| &gt; 0.70. Using this guideline, we identified the following gene pairs: 12 gene pairs from signal transduction, 11 gene pairs from immune system, 2 gene pairs from gene expression, 5 gene pairs from metabolism, 6 gene pairs from metabolism of proteins, 1 gene pair from developmental biology, 2 gene pairs from metabolism of lipids and lipoprotein, 1 gene pair from axon guidance, 2 gene pairs from innate immune system, and 1 gene pair from disease (Table <ref type="table">5</ref>). In total, 32 genes were selected, and they are AARS2, ACSL4, ATF2, BIRC2, CCL2, CCNC, CHMP4C, COL4A4, CREB1, CRHR1, CTNNBIP1, DPP4, EIF4E2, GNE, GPT, IL7, KIDINS220, MAGT1, NDUFA1, NFATC1, PCSK1, PDPK1, PIKFYVE, PSAT1, RRN3, SOS2, SPON2, THBS3, UBR4, XAF1, YES1, and ZNF606.</p><p>To get a global view of the 32 genes regulating biological functions, we constructed the protein-protein interaction (PPI), disease-gene, drug-gene, and miRNA-gene networks for the 218 DEGs and labelled the 32 genes in the networks (Supplementary Figure <ref type="figure" target="#fig_2">S1</ref>). Genes that were present in the 32-gene list but not in the networks were not labelled. Most of the 32 identified genes have high degrees of connectivity and are likely to be biological hubs. Thus, we propose that an RT 2 -PCR assay of these 32 genes could be a novel, effective, and comparatively cheap way to continuously monitor astronauts' health in space. Validation of this assay under microgravity simulation conditions is warranted for further optimization of the gene list before sending an assay kit for practical tests in space. Finally, we extracted the drug molecules (both approved and experimental, listed in Supplementary File S3: Drug_list.xls) and miRNAs (listed in Supplementary File S4: miRNA_list.xls) that potentially target these 32 genes from the drug-gene and miRNA-gene networks. These drugs and miRNAs could be applied as possible medical interventions for health conditions associated with space travel.</p><p>between the In-flight and Pre-flight datasets and summarized them in Table <ref type="table" target="#tab_4">4</ref>. These gene pairs were then classified into four categories based on changes in correlation coefficients: Category 1-positive to more/less positive (highlighted in blue), Category 2-positive to negative (highlighted in green), Category 3-negative to positive (highlighted in brown), and Category 4-negative to more/less negative (highlighted in red). It is noteworthy that Categories 2 and 3 contained more gene pairs than Categories 1 and 4, implying that many genes lost their coordination and even started counteractive processes in space. This observation supports previous studies that found that spaceflight significantly affects gene expression and homeostasis <ref type="bibr" target="#b55">[56]</ref>. This dramatic change in gene expression coordination is thought to affect normal biological and physiological functions in the human body and is likely detrimental to astronauts' health.     GENE PAIRS CC Pre-flight CC In-flight ∆CC Signal transduction ARHGAP9-COL4A4 -0.51 0.28 0.79 ARHGAP9-THBS3 0.39 -0.48 -0.87 CCL2-COL4A4 -0.95 -0.07 0.88 CCL2-CREB1 0.93 -0.09 -1.02 CCL2-CRHR1 0.68 -0.11 -0.79 CCL2-THBS3 0.68 -0.19 -0.87 CCNC-COL4A4 0.46 -0.65 -1.11 CCNC-CRHR1 -0.58 0.65 1.23 CCNC-THBS3 -0.41 0.34 0.75 CHN1-CRHR1 0.43 -0.59 -1.02 CHN1-HIF1A -0.36 0.34 0.70 COL4A4-CREB1 -0.93 -0.03 0.90 COL4A4-NFATC1 -0.77 0.50 1.27 COL4A4-PDPK1 0.41 -0.50 -0.91 CREB1-CRHR1 0.80 -0.03 -0.83 CREB1-THBS3 0.79 0.05 -0.74 CRHR1-KIDINS220 0.59 -0.14 -0.73 CRHR1-NFATC1 0.83 -0.47 -1.30 CRHR1-PDPK1 -0.57 0.34 0.91 CRHR1-YES1 0.40 -0.71 -1.11 CTNNBIP1-NFATC1 0.07 0.85 0.78 KIDINS220-PDPK1 -0.74 0.30 1.04 KIDINS220-SOS2 -0.86 0.29 1.15 KIDINS220-YES1 0.70 0.00 -0.70 NFATC1-THBS3 0.72 -0.34 -1.06 PDPK1-SOS2 0.63 -0.22 -0.85 SOS2-YES1 -0.61 0.17 0.78 Table 5. Gene pairs with criteria of |∆CC| &gt; 0.70 and correlation changing from strong to weak, weak to strong, or strong to opposite strong from the top 11 signaling pathways.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Signaling Pathways Gene Pairs</head><p>Signal transduction CCL2-COL4A4, CCL2-CREB1, CCL2-CRHR1, CCL2-THBS3, COL4A4-CREB1, CREB1-CRHR1, CREB1-THBS3, CTNNBIP1-NFATC1, KIDINS220-PDPK1, KIDINS220-SOS2, KIDINS220-YES1, NFATC1-THBS3</p><p>Immune system ATF2-NFATC1, BIRC2-PDPK1, CREB1-EIF4E2, CREB1-IL7, CREB1-UBR4, CREB1-XAF1, EIF4E2-IL7, EIF4E2-XAF1, IL7-UBR4, NFATC1-UBR4, UBR4-XAF1 </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gene expression</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p>In this study, we analyzed the effects of space travel on gene expression and correlation using the publicly available microarray dataset E-GEOD-74708, and systematically developed a shortlist of genes for a novel rapid assay that could be used to monitor astronauts' health in space. However, this study faces a few limitations. First, the sample size (10 astronauts) is small due to the nature of space travel and unstandardized space biology research. More sample collection is needed to optimize the monitoring assay. Secondly, there were only two female astronauts in the microarray dataset. To get better representation and higher accuracy in the analysis, more gene expression profiles from a diverse population of astronauts should be obtained. Future studies in simulated microgravity conditions will allow for the optimization and validation of the proposed assay. It is noteworthy that this assay may address only one facet of a complete monitoring and treatment approach for astronauts' health in space. In practice, other factors such as biomarkers and physiological metrics should also be included in the approach. Despite these drawbacks, our current study proposes a new strategy to develop genome-based rapid assays. This strategy could also be applied to other research fields such as cancer diagnostic assays.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Materials:</head><p>The following supporting information can be downloaded at: <ref type="url" target="https://www.mdpi.com/article/10.3390/life13020576/s1">https:  //www.mdpi.com/article/10.3390/life13020576/s1</ref>, File S1: DEG_list.xls; File S2: Disease_DEG.xls; File S3: Drug_list.xls; File S4: miRNA_list.xls; Supplementary Figure <ref type="figure" target="#fig_2">S1</ref>: Protein-protein interaction (A), disease-gene (B), drug-gene (C) and miRNA-gene (D) networks for the 218 differentially expressed genes (DEGs) between Pre-flight and In-flight gene expression datasets collected from 10 astronauts (8 males and 2 females). Nodes with higher degrees of connectivity were shown in larger size and darker color. Genes identified for the rapid RT2-PCR assay kit were labelled in the networks. Genes CCNC, CTNNBIP1, EIF4E2 and RRN3 are not present in the disease-gene network; genes BIRC2, CCNC, CHMP4C, CTNNBIP1, EIF4E2, IL7, KIDINS220, MAGT1, PIKFYVE, RRN3, SOS2, SPON2, THBS3, XAF1 and ZNF606 are not present in the drug-gene network; and genes CRHR1, DPP4, GPT and SPON2 are not present in the miRNA-gene network, respectively.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>flight -CC Pre-flight and ∆CC (Post-In) = CC Post-flight -CC In-flight were calculated by matrix subtraction between the In-flight and Pre-flight subsets and between the Post-flight and In-flight subsets. These were subsequently visualized with correlation difference plots with positive and negative ∆CCs shown in green and red, respectively.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Gene pair correlations of the whole genome (30,645 transcripts for 23,115 genes) for 10 astronauts during Pre-flight (A), In-flight (B), and Post-flight (C). Positive and negative correlations are represented in blue and red, respectively.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Gene pair correlations of the whole genome (30,645 transcripts for 23,115 genes) for 10 astronauts during Pre-flight (A), In-flight (B), and Post-flight (C). Positive and negative correlations are represented in blue and red, respectively.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Cont.</figDesc><graphic coords="8,50.51,147.10,497.50,438.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Cont.</figDesc><graphic coords="9,50.62,96.18,497.50,548.57" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Gene pair correlations ((1): Pre-flight, (2): In-flight, and (3): Post-flight) and differentials of gene pair correlations (4): between In-flight and Pre-flight and (5): between Post-flight and In-flight for the differentially expressed genes (DEGs) in the top 11 signaling pathways. The top 11 signaling pathways are signal transduction, immune system, gene expression, metabolism, metabolism of proteins, generic transcription pathway, developmental biology, metabolism of lipids and lipoproteins, axon guidance, innate immune system, and disease. The top 11 signaling pathways were identified from InnateDB analysis of the 218 DEGs (|log2FC| ≥ 3.00 and p &lt; 0.05). Positive and negative gene pair correlations are represented in blue and red, respectively; and positive and negative differentials of gene pair correlations are represented in green and red, respectively.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Table 4 .</head><label>4</label><figDesc>Gene pairs with significantly altered correlation coefficients between In-flight and Preflight (i.e., |ΔCC (CCIn-flight -CCPre-flight)| &gt; 0.70) in the top 11 signaling pathways identified from signaling pathway analysis of the 218 DEGs between In-flight and Pre-flight. Gene pairs with correlation coefficients changed from positive to less/more positive (Category 1), positive to negative (Category 2), negative to positive (Category 3), and negative to less/more negative (Category 4) were highlighted in blue, green, brown, and red, respectively.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 2 .Table 4 .</head><label>24</label><figDesc>Figure 2. Gene pair correlations ((1): Pre-flight, (2): In-flight, and (3): Post-flight) and differentials of gene pair correlations (4): between In-flight and Pre-flight and (5): between Post-flight and In-flight for the differentially expressed genes (DEGs) in the top 11 signaling pathways. The top 11 signaling pathways are signal transduction, immune system, gene expression, metabolism, metabolism of proteins, generic transcription pathway, developmental biology, metabolism of lipids and lipoproteins, axon guidance, innate immune system, and disease. The top 11 signaling pathways were identified from InnateDB analysis of the 218 DEGs (|log 2 FC| ≥ 3.00 and p &lt; 0.05). Positive and negative gene pair correlations are represented in blue and red, respectively; and positive and negative differentials of gene pair correlations are represented in green and red, respectively. Table 4. Gene pairs with significantly altered correlation coefficients between In-flight and Preflight (i.e., |∆CC (CC In-flight -CC Pre-flight )| &gt; 0.70) in the top 11 signaling pathways identified from signaling pathway analysis of the 218 DEGs between In-flight and Pre-flight.Gene pairs with correlation coefficients changed from positive to less/more positive (Category 1), positive to negative (Category 2), negative to positive (Category 3), and negative to less/more negative (Category 4) were highlighted in blue, green, brown, and red, respectively.</figDesc><graphic coords="10,50.62,241.20,497.50,73.07" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><figDesc>AARS2-ZNF606, RRN3-ZNF606Metabolism ACSL4-CCNC, ACSL4-NDUFA1, ACSL4-PIKFYVE, CCNC-PSAT1, GPT-PIKFYVE Metabolism of proteins CCL2-DPP4, CCL2-PCSK1, CCL2-SPON2, DPP4-GNE, MAGT1-PCSK1, PCSK1-SPON2 Developmental biology COL4A4-CREB1Metabolism of lipids and lipoproteins ACSL4-CCNC, ACSL4-PIKFYVE</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Top 20 up-and down-regulated DEGs (differentially expressed genes) between In-flight and Pre-flight. The cut-off criteria for DEGs are |log 2 FC| ≥ 3.00 and p &lt; 0.05.</figDesc><table><row><cell cols="2">Up-Regulated Genes</cell><cell></cell><cell cols="2">Down-Regulated Genes</cell><cell></cell></row><row><cell>Gene Name</cell><cell>Log 2 FC</cell><cell>p-Value</cell><cell>Gene Name</cell><cell>Log 2 FC</cell><cell>p-Value</cell></row><row><cell>LIMCH1</cell><cell>7.59</cell><cell>0.03</cell><cell>NFATC1</cell><cell>-10.40</cell><cell>0.00</cell></row><row><cell>IER3</cell><cell>7.45</cell><cell>0.03</cell><cell>KIDINS220</cell><cell>-10.35</cell><cell>0.03</cell></row><row><cell>ZNF664</cell><cell>6.57</cell><cell>0.03</cell><cell>ZCCHC9</cell><cell>-7.82</cell><cell>0.00</cell></row><row><cell>NDUFA1</cell><cell>6.27</cell><cell>0.03</cell><cell>IGSF9</cell><cell>-6.08</cell><cell>0.03</cell></row><row><cell>AL391650.1</cell><cell>5.28</cell><cell>0.03</cell><cell>HSD11B1L</cell><cell>-5.76</cell><cell>0.00</cell></row><row><cell>TUBGCP5</cell><cell>5.07</cell><cell>0.03</cell><cell>CLTB</cell><cell>-5.69</cell><cell>0.00</cell></row><row><cell>GAPVD1</cell><cell>5.03</cell><cell>0.03</cell><cell>YIPF2</cell><cell>-5.68</cell><cell>0.03</cell></row><row><cell>AARS2</cell><cell>4.81</cell><cell>0.03</cell><cell>BTBD9</cell><cell>-5.49</cell><cell>0.00</cell></row><row><cell>AC004080.5</cell><cell>4.77</cell><cell>0.03</cell><cell>LINC00668</cell><cell>-5.41</cell><cell>0.00</cell></row><row><cell>NAA60</cell><cell>4.72</cell><cell>0.03</cell><cell>AL096711.2</cell><cell>-4.97</cell><cell>0.03</cell></row><row><cell>IGBP1P1</cell><cell>4.41</cell><cell>0.03</cell><cell>EIF4E2</cell><cell>-4.97</cell><cell>0.03</cell></row><row><cell>FANCD2</cell><cell>4.28</cell><cell>0.03</cell><cell>SHE</cell><cell>-4.41</cell><cell>0.03</cell></row><row><cell>AMT</cell><cell>4.20</cell><cell>0.03</cell><cell>HOXC4</cell><cell>-4.27</cell><cell>0.00</cell></row><row><cell>PNPLA4</cell><cell>4.11</cell><cell>0.03</cell><cell>THBS3</cell><cell>-4.17</cell><cell>0.00</cell></row><row><cell>RABGAP1</cell><cell>4.10</cell><cell>0.03</cell><cell>PGM2L1</cell><cell>-3.95</cell><cell>0.00</cell></row><row><cell>MAPKAPK5</cell><cell>3.89</cell><cell>0.03</cell><cell>TCEANC</cell><cell>-3.93</cell><cell>0.03</cell></row><row><cell>DFFBP1</cell><cell>3.83</cell><cell>0.03</cell><cell>ARHGAP9</cell><cell>-3.91</cell><cell>0.00</cell></row><row><cell>STAG1</cell><cell>3.71</cell><cell>0.03</cell><cell>ZNF451</cell><cell>-3.80</cell><cell>0.03</cell></row><row><cell>SPON2</cell><cell>3.62</cell><cell>0.04</cell><cell>NCEH1</cell><cell>-3.73</cell><cell>0.00</cell></row><row><cell>CHN1</cell><cell>3.59</cell><cell>0.04</cell><cell>AC010531.1</cell><cell>-3.71</cell><cell>0.03</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Differentially expressed genes (DEGs) present in the top 11 signaling pathways.</figDesc><table><row><cell>Signaling Pathways</cell><cell>Gene Names</cell></row><row><cell>Signal transduction</cell><cell>ARHGAP9, CCL2, CCNC, CHN1, CLTB, COL4A4, CREB1, CRHR1, CTNNBIP1, HIF1A, KIDINS220, NFATC1, PDPK1, SOS2, THBS3, YES1</cell></row><row><cell>Immune system</cell><cell>ATF2, BIRC2, CREB1, EIF4E2, IL7, NFATC1, PDPK1, UBA5, UBR4, XAF1, YES1</cell></row><row><cell>Gene expression</cell><cell>AARS2, CCNC, RRN3, ZNF184, ZNF253, ZNF529, ZNF606, ZNF664, ZNF699, ZNF711</cell></row><row><cell>Metabolism</cell><cell>ACSL4, ARSK, CCNC, GM2A, GPT, HACL1, NDUFA1, PIKFYVE, PSAT1</cell></row><row><cell>Metabolism of proteins</cell><cell>ARSK, CCL2, DPP4, GNE, MAGT1, PCSK1, SPON2, XRN2</cell></row><row><cell>Generic transcription pathway</cell><cell>CCNC, ZNF184, ZNF253, ZNF529, ZNF606, ZNF664, ZNF699, ZNF711</cell></row><row><cell>Developmental biology</cell><cell>CCNC, CLTB, COL4A4, CREB1, SCN2B, SOS2, YES1</cell></row><row><cell>Metabolism of lipids and lipoproteins</cell><cell>ACSL4, ARSK, CCNC, GM2A, HACL1, PIKFYVE</cell></row><row><cell>Axon guidance</cell><cell>CLTB, COL4A4, CREB1, SCN2B, SOS2, YES1</cell></row><row><cell>Innate immune system</cell><cell>ATF2, BIRC2, CREB1, NFATC1, PDPK1, YES1</cell></row><row><cell>Disease</cell><cell>CCNC, CHMP4C, CREB1, CTNNBIP1, HIF1A, PDPK1</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Top 20 disease/disorder conditions and their respectively associated DEGs based on disease network analysis of 218 DEGs between In-flight and Pre-flight.</figDesc><table><row><cell>Disease/Disorder</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 4 .</head><label>4</label><figDesc>Cont.</figDesc><table><row><cell>GENE PAIRS</cell><cell>CC Pre-flight</cell><cell>CC In-flight</cell><cell>∆CC</cell></row><row><cell></cell><cell>Immune system</cell><cell></cell><cell></cell></row><row><cell>ATF2-NFATC1</cell><cell>-0.03</cell><cell>-0.75</cell><cell>-0.72</cell></row><row><cell>BIRC2-PDPK1</cell><cell>-0.73</cell><cell>0.13</cell><cell>0.86</cell></row><row><cell>CREB1-EIF4E2</cell><cell>-0.94</cell><cell>0.07</cell><cell>1.01</cell></row><row><cell>CREB1-IL7</cell><cell>0.91</cell><cell>-0.03</cell><cell>-0.94</cell></row><row><cell>CREB1-UBR4</cell><cell>0.90</cell><cell>-0.28</cell><cell>-1.18</cell></row><row><cell>CREB1-XAF1</cell><cell>0.71</cell><cell>-0.03</cell><cell>-0.74</cell></row><row><cell>EIF4E2-IL7</cell><cell>-0.87</cell><cell>0.10</cell><cell>0.97</cell></row><row><cell>EIF4E2-NFATC1</cell><cell>-0.87</cell><cell>0.46</cell><cell>1.33</cell></row><row><cell>EIF4E2-UBR4</cell><cell>-0.95</cell><cell>0.40</cell><cell>1.35</cell></row><row><cell>EIF4E2-XAF1</cell><cell>-0.72</cell><cell>0.10</cell><cell>0.82</cell></row><row><cell>IL7-UBR4</cell><cell>0.88</cell><cell>-0.34</cell><cell>-1.22</cell></row><row><cell>NFATC1-UBR4</cell><cell>0.85</cell><cell>-0.18</cell><cell>-1.03</cell></row><row><cell>PDPK1-UBR4</cell><cell>-0.55</cell><cell>0.34</cell><cell>0.89</cell></row><row><cell>UBA5-UBR4</cell><cell>0.59</cell><cell>-0.27</cell><cell>-0.86</cell></row><row><cell>UBR4-XAF1</cell><cell>0.88</cell><cell>-0.16</cell><cell>-1.04</cell></row><row><cell>UBR4-YES1</cell><cell>0.35</cell><cell>-0.59</cell><cell>-0.94</cell></row><row><cell></cell><cell>Gene expression</cell><cell></cell><cell></cell></row><row><cell>AARS2-ZNF253</cell><cell>-0.57</cell><cell>0.23</cell><cell>0.80</cell></row><row><cell>AARS2-ZNF606</cell><cell>-0.91</cell><cell>0.21</cell><cell>1.12</cell></row><row><cell>AARS2-ZNF711</cell><cell>-0.60</cell><cell>0.31</cell><cell>0.91</cell></row><row><cell>RRN3-ZNF184</cell><cell>-0.51</cell><cell>0.34</cell><cell>0.85</cell></row><row><cell>RRN3-ZNF606</cell><cell>-0.06</cell><cell>0.87</cell><cell>0.93</cell></row><row><cell>RRN3-ZNF711</cell><cell>-0.22</cell><cell>0.50</cell><cell>0.72</cell></row><row><cell></cell><cell>Metabolism</cell><cell></cell><cell></cell></row><row><cell>ACSL4-ARSK</cell><cell>0.56</cell><cell>-0.66</cell><cell>-1.22</cell></row><row><cell>ACSL4-CCNC</cell><cell>0.75</cell><cell>-0.74</cell><cell>-1.49</cell></row><row><cell>ACSL4-GPT</cell><cell>-0.66</cell><cell>0.85</cell><cell>1.61</cell></row><row><cell>ACSL4-NDUFA1</cell><cell>0.81</cell><cell>0.05</cell><cell>-0.76</cell></row><row><cell>ACSL4-PIKFYVE</cell><cell>-0.22</cell><cell>0.69</cell><cell>0.91</cell></row><row><cell>ARSK-GM2A</cell><cell>0.48</cell><cell>-0.34</cell><cell>-0.82</cell></row><row><cell>CCNC-GM2A</cell><cell>0.65</cell><cell>-0.44</cell><cell>-1.09</cell></row><row><cell>CCNC-PSAT1</cell><cell>0.88</cell><cell>-0.23</cell><cell>-1.11</cell></row><row><cell>GPT-NDUFA1</cell><cell>-0.59</cell><cell>0.24</cell><cell>0.83</cell></row><row><cell>GPT-PIKFYVE</cell><cell>-0.05</cell><cell>0.79</cell><cell>0.84</cell></row><row><cell>GPT-PSAT1</cell><cell>-0.65</cell><cell>0.46</cell><cell>1.11</cell></row><row><cell></cell><cell cols="2">Metabolism of proteins</cell><cell></cell></row><row><cell>ARSK-DPP4</cell><cell>-0.27</cell><cell>0.57</cell><cell>0.84</cell></row><row><cell>CCL2-DPP4</cell><cell>0.79</cell><cell>-0.26</cell><cell>-1.05</cell></row><row><cell>CCL2-PCSK1</cell><cell>0.90</cell><cell>-0.16</cell><cell>-1.06</cell></row><row><cell>CCL2-SPON2</cell><cell>0.77</cell><cell>-0.03</cell><cell>-0.80</cell></row><row><cell>DPP4-GNE</cell><cell>0.74</cell><cell>-0.21</cell><cell>-0.95</cell></row><row><cell>DPP4-MAGT1</cell><cell>-0.57</cell><cell>0.37</cell><cell>0.94</cell></row><row><cell>MAGT1-PCSK1</cell><cell>-0.85</cell><cell>0.21</cell><cell>1.06</cell></row><row><cell>PCSK1-SPON2</cell><cell>0.84</cell><cell>0.01</cell><cell>-0.83</cell></row><row><cell></cell><cell cols="2">Developmental biology</cell><cell></cell></row><row><cell>CCNC-COL4A4</cell><cell>0.46</cell><cell>-0.65</cell><cell>-1.11</cell></row><row><cell>CLTB-SCN2B</cell><cell>-0.39</cell><cell>0.37</cell><cell>0.76</cell></row><row><cell>COL4A4-CREB1</cell><cell>-0.93</cell><cell>-0.03</cell><cell>0.90</cell></row><row><cell>SOS2-YES1</cell><cell>-0.61</cell><cell>0.17</cell><cell>0.78</cell></row><row><cell></cell><cell cols="2">Metabolism of lipids and lipoproteins</cell><cell></cell></row><row><cell>ACSL4-ARSK</cell><cell>0.56</cell><cell>-0.66</cell><cell>-1.22</cell></row><row><cell>ACSL4-CCNC</cell><cell>0.75</cell><cell>-0.74</cell><cell>-1.49</cell></row><row><cell>ACSL4-PIKFYVE</cell><cell>-0.22</cell><cell>0.69</cell><cell>0.91</cell></row><row><cell>ARSK-GM2A</cell><cell>0.48</cell><cell>-0.34</cell><cell>-0.82</cell></row><row><cell>CCNC-GM2A</cell><cell>0.65</cell><cell>-0.44</cell><cell>-1.09</cell></row><row><cell></cell><cell>Axon guidance</cell><cell></cell><cell></cell></row><row><cell>CLTB-SCN2B</cell><cell>-0.39</cell><cell>0.37</cell><cell>0.76</cell></row><row><cell>COL4A4-CREB1</cell><cell>-0.93</cell><cell>-0.03</cell><cell>0.90</cell></row><row><cell>SOS2-YES1</cell><cell>-0.61</cell><cell>0.17</cell><cell>0.78</cell></row><row><cell></cell><cell cols="2">Innate immune system</cell><cell></cell></row><row><cell>ATF2-NFATC1</cell><cell>-0.03</cell><cell>-0.75</cell><cell>-0.72</cell></row><row><cell>BIRC2-PDPK1</cell><cell>-0.73</cell><cell>0.13</cell><cell>0.86</cell></row><row><cell></cell><cell>Disease</cell><cell></cell><cell></cell></row><row><cell>CCNC-CHMP4C</cell><cell>0.60</cell><cell>-0.38</cell><cell>-0.98</cell></row><row><cell>CHMP4C-CREB1</cell><cell>-0.85</cell><cell>0.31</cell><cell>1.16</cell></row><row><cell>CHMP4C-PDPK1</cell><cell>0.44</cell><cell>-0.63</cell><cell>-1.07</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><head>Funding:</head><p>The APC was funded by a <rs type="funder">President's NSERC Research Fund</rs> from the <rs type="funder">University of Saskatchewan (Saskatoon, Saskatchewan, Canada)</rs>, grant number <rs type="grantNumber">424844</rs> (J.Y.).</p><p>Institutional Review Board Statement: Not applicable.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_6jb9yeD">
+					<idno type="grant-number">424844</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data Availability Statement: Not applicable.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Author Contributions: Conceptualization, J.Y.; methodology, A.S. and J.Y.; software, A.S.; validation, A.S. and J.Y.; formal analysis, A.S. and J.Y.; investigation, A.S. and J.Y.; resources, J.Y.; data curation, A.S. and J.Y.; writing-original draft preparation, A.S.; writing-review and editing, J.Y.; visualization, A.S. and J.Y.; supervision, J.Y.; project administration, J.Y.; funding acquisition, J.Y. All authors have read and agreed to the published version of the manuscript.</p><p>Informed Consent Statement: Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>The authors declare no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Star Trek: The Next Generation 1</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Fontana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Roddenberry</surname></persName>
+		</author>
+		<ptr target="http://www.leethomson.myzen.co.uk/Star_Trek/2_The_Next_Generation/Star_Trek_-_The_Next_Generation_Season_1/Star_Trek_-_The_Next_Generation_1x01-102_-_Encounter_at_Farpoint.pdf" />
+		<imprint>
+			<date type="published" when="1987-02-07">1987. 7 February 2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Cole</surname></persName>
+		</author>
+		<title level="m">Vostok 1: First Human in Space</title>
+		<meeting><address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Enslow Publishing LLC</publisher>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Apollo 11 Mission Overview</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Loff</surname></persName>
+		</author>
+		<ptr target="https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html" />
+		<imprint>
+			<date type="published" when="2015-03-24">2015. 24 March 2022</date>
+		</imprint>
+		<respStmt>
+			<orgName>NASA</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">International Space Station</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Garcia</surname></persName>
+		</author>
+		<ptr target="https://www.nasa.gov/mission_pages/station/main" />
+		<imprint>
+			<date type="published" when="2015-03-24">2015. 24 March 2022</date>
+		</imprint>
+		<respStmt>
+			<orgName>NASA</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Mars Perseverance Rover</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Greicius</surname></persName>
+		</author>
+		<ptr target="https://www.nasa.gov/perseverance" />
+		<imprint>
+			<date type="published" when="2016-03-24">2016. 24 March 2022</date>
+		</imprint>
+		<respStmt>
+			<orgName>NASA</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Mars Curiosity Rover</title>
+		<ptr target="https://mars.nasa.gov/msl/" />
+		<imprint>
+			<date type="published" when="2021-03-24">2021. 24 March 2022</date>
+			<publisher>Mars Exploration Program</publisher>
+		</imprint>
+		<respStmt>
+			<orgName>NASA</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Commercial Space Transportation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Loff</surname></persName>
+		</author>
+		<ptr target="https://www.nasa.gov/exploration/commercial" />
+		<imprint>
+			<date type="published" when="2015-03-24">2015. 24 March 2022</date>
+		</imprint>
+		<respStmt>
+			<orgName>NASA</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Low-Earth Orbit Economy</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guzman</surname></persName>
+		</author>
+		<ptr target="https://www.nasa.gov/leo-economy" />
+		<imprint>
+			<date type="published" when="2021-03-24">2021. 24 March 2022</date>
+		</imprint>
+		<respStmt>
+			<orgName>NASA</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Nasa</forename><surname>Gateway</surname></persName>
+		</author>
+		<ptr target="https://www.nasa.gov/gateway" />
+		<imprint>
+			<date type="published" when="2019-03-24">2019. 24 March 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Muscle volume, strength, endurance, and exercise loads during 6-month missions in space</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gopalakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">O</forename><surname>Genc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Rice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Maender</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ilaslan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Cavanagh</surname></persName>
+		</author>
+		<idno type="DOI">10.3357/ASEM.2583.2010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aviat. Space Environ. Med</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="91" to="102" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Exercise in space: Human skeletal muscle after 6 months aboard the International Space Station</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Trappe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Costill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gallagher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Creer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Riley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Fitts</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.91578.2008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="1159" to="1168" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Proceedings: Bone mineral content changes in the Skylab astronauts</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Vogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Whittle</surname></persName>
+		</author>
+		<idno type="DOI">10.2214/ajr.126.6.1296</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Roentgenol</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="1296" to="1297" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Skeletal changes during and after spaceflight</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hargens</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrrheum.2018.37</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="229" to="245" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">How does spaceflight affect the acquired immune system?</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Akiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Horie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hinoi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hiraiwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Maekawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Furukawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41526-020-0104-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">14</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Immune System Dysregulation During Spaceflight: Potential Countermeasures for Deep Space Exploration Missions</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Crucian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Choukèr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Zwart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ponomarev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Whitmire</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fimmu.2018.01437</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1437</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Bone metabolism and renal stone risk during International Space Station missions</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Shackelford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Sibonga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Spatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Pietrzyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Hudson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Zwart</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bone.2015.10.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bone</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="712" to="720" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A review of alterations to the brain during spaceflight and the potential relevance to crew in long-duration space exploration</title>
+		<author>
+			<persName><forename type="first">Roy-O'</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mulavara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/s41526-021-00133-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Space exploration, Mars, and the nervous system</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kalb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Solomon</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/archneur.64.4.485</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Neurol</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="485" to="490" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Long-term spaceflight and the cardiovascular system</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Vernice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meydan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Afshinnekoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/pcmedi/pbaa022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Precis. Clin. Med</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="284" to="291" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Heart in space: Effect of the extraterrestrial environment on the cardiovascular system</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Hughson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Helm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Durante</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrcardio.2017.157</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="167" to="180" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Space radiation cancer risks and uncertainties for Mars missions</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Cucinotta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Schimmerling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Badhwar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Saganti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Dicello</surname></persName>
+		</author>
+		<idno type="DOI">10.1667/0033-7587(2001)156[0682:SRCRAU]2.0.CO;2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Radiat. Res</title>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="page" from="682" to="688" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Simulated microgravity with floating environment promotes migration of non-small cell lung cancers</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Son</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-019-50736-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">14553</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Spaceflight alters microtubules and increases apoptosis in human lymphocytes (Jurkat)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Cubano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Hatton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Lawless</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Piepmeier</surname></persName>
+		</author>
+		<idno type="DOI">10.1096/fasebj.12.11.1007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1007" to="1018" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Fighting Thyroid Cancer with Microgravity Research</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krüger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Melnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kopp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Buken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sahana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wehland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hemmersbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Corydon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Infanger</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijms20102553</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">2553</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Effects of a Closed Space Environment on Gene Expression in Hair Follicles of Astronauts in the International Space Station</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Terada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Seki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Majima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sudoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mukai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ishioka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PloS one</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">150801</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Data Structures for Statistical Computing in python</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Mckinney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Python in Science Conference</title>
+		<meeting>the Python in Science Conference<address><addrLine>Austin TX, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010-06">June 2010</date>
+			<biblScope unit="page" from="28" to="30" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">DEGseq: An R package for identifying differentially expressed genes from RNA-seq data</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btp612</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="136" to="138" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">InnateDB: Facilitating systems-level analyses of the mammalian innate immune response</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lynn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Winsor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Laird</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Gardy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Roche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shah</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/msb.2008.55</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Syst. Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">218</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">BioGRID: A general repository for interaction datasets</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Stark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Breitkreutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Reguly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boucher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Breitkreutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tyers</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkj109</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="535" to="D539" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The DisGeNET knowledge platform for disease genomics: 2019 update</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Piñero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Ramírez-Anguita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Saüch-Pitarch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ronzano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Centeno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sanz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Furlong</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkz1021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="845" to="D855" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Cytoscape: A software environment for integrated models of biomolecular interaction networks</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shannon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Markiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ozier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Baliga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ramage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Amin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schwikowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ideker</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gr.1239303</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="2498" to="2504" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">DrugBank: A comprehensive resource for in silico drug discovery and exploration</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Wishart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Knox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shrivastava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hassanali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Stothard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Woolsey</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkj067</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="668" to="D672" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Updates to the experimentally validated microRNA-target interaction database</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shrestha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">G</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkz896</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="148" to="D154" />
+			<date type="published" when="2020">2020. 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">LIMCH1 regulates nonmuscle myosin-II activity and suppresses cell migration</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Zhen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Chien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Pai</surname></persName>
+		</author>
+		<idno type="DOI">10.1091/mbc.e15-04-0218</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Bio. Cell</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1054" to="1065" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Myosin II in mechanotransduction: Master and commander of cell migration, morphogenesis, and cancer</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Aguilar-Cuenca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Juanes-García</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vicente-Manzanares</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00018-013-1439-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Mol. Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="479" to="492" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">IEX-1, an immediate early gene, increases the rate of apoptosis in keratinocytes</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schilling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Pittelkow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kumar</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/sj.onc.1204965</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Oncogene</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="7992" to="7997" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Role of the immediate early response 3 (IER3) gene in cellular stress response, inflammation and tumorigenesis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Arlt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schäfer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ejcb.2010.10.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="545" to="552" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">IEX-1 deficiency protects against colonic cancer</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Ustyugova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Abramowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Birnbaumer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">X</forename><surname>Wu</surname></persName>
+		</author>
+		<idno type="DOI">10.1158/1541-7786.MCR-11-0556</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="760" to="767" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Resistance of Sézary cells to TNF-α-induced apoptosis is mediated in part by a loss of TNFR1 and a high level of the IER3 expression</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">E</forename><surname>Akilov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">X</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Ustyugova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Falo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Geskin</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1600-0625.2012.01452.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Exp. Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="287" to="292" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Prolactin and oestrogen synergistically regulate gene expression and proliferation of breast cancer cells</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Rasmussen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Frederiksen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Din</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Galsgaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Berchtold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Panina</surname></persName>
+		</author>
+		<idno type="DOI">10.1677/ERC-09-0326</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Endocr. Relat. Cancer</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="809" to="822" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Expression and function of the P2X7 receptor in human osteoblasts: The role of NFATc1 transcription factor</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Bergamin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Penolazzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lambertini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Falzoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Sarti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Molle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Gendron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>De Bonis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Di Virgilio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Piva</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcp.29891</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Physiol</title>
+		<imprint>
+			<biblScope unit="volume">236</biblScope>
+			<biblScope unit="page" from="641" to="652" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Calcineurin/NFAT signaling in osteoblasts regulates bone mass</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Winslow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Starbuck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Gallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Karsenty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Crabtree</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.devcel.2006.04.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Cell</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="771" to="782" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">NFATc1 controls the cytotoxicity of CD8 + T cells</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Klein-Hessling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Muhammad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pusch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rudolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Flöter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qureischi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beilhack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vaeth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kummerow</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-017-00612-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">511</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">NFATc1 regulates lymphatic endothelial development</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Kulkarni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Greenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Akeson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mod.2009.02.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mech. Dev</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="350" to="365" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A field of myocardialendocardial NFAT signaling underlies heart valve morphogenesis</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Neilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Bayle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Gestwicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Stankunas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Graef</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Crabtree</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2004.08.010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="649" to="663" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">NFATC1 promotes cell growth and tumorigenesis in ovarian cancer up-regulating c-Myc through ERK1/2/p38 MAPK signal pathway</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s13277-015-4245-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Tumour Biol</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="4493" to="4500" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Kidins220/ARMS is an essential modulator of cardiovascular and nervous system development</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cesca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Spencer-Dene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Arrigoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Al-Qatari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Koltzenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Benfenati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schiavo</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/cddis.2011.108</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Dis</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">e226</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Kidins220/ARMS mediates the integration of the neurotrophin and VEGF pathways in the vascular and nervous systems</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cesca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Spencer-Dene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Scholz-Starke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Medrihan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Maden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gerhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Orriss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Baldelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Al-Qatari</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/cdd.2011.141</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Differ</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="194" to="208" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Gene co-expression analysis for functional classification and gene-disease predictions</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Dam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Võsa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Van Der Graaf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Franke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>De Magalhães</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bib/bbw139</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Brief. Bioinform</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="575" to="592" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Gene Pair Correlation Coefficients in Sphingolipid Metabolic Pathway as a Potential Prognostic Biomarker for Breast Cancer</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Sakharkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Dhillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Chidambaram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Essa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/cancers12071747</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cancers</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">1747</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Alteration in Gene Pair Correlations in Tryptophan Metabolism as a Hallmark in Cancer Diagnosis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Sakharkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Dhillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rajamanickam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Heng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Braidy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Guillemin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1178646920977013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Tryptophan Res</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">1178646920977013</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Pairwise correlation of genes involved in glucose metabolism: A potential diagnostic marker of cancer?</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Sakharkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rajamanickam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Dhillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.18632/genesandcancer.216</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Cancer</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="69" to="76" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Contrapositive logic suggests space radiation not having a strong impact on mortality of US astronauts and Soviet and Russian cosmonauts</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Bukhtiyarov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Tikhonova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Day</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">B</forename><surname>Ushakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gorchakova</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-019-44858-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">8583</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chakravarty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fogle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fazelinia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Silveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Boyko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Polo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Saravia-Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hardiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-019-55869-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">19195</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Impact of spaceflight and artificial gravity on sulfur metabolism in mouse liver: Sulfur metabolomic and transcriptomic analysis</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kurosawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sugimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Imai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Atsuji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ohtsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Suzuki</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-021-01129-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">21786</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">The NASA Twins Study: A multidimensional analysis of a year-long human spaceflight</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Garrett-Bakelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Darshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Gur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Macias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mckenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meydan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nasrini</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aau8650</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">364</biblScope>
+			<biblScope unit="page">8650</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Interpretation of the correlation coefficient: A basic review</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Diagn. Med. Sonogr</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="35" to="39" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1177/875647939000600106</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title level="m">The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of</title>
+		<imprint/>
+	</monogr>
+	<note>Disclaimer/Publisher&apos;s Note MDPI and/or the editor(s MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

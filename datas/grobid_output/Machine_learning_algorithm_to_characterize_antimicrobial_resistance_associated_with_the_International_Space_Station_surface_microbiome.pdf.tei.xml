@@ -1,0 +1,2125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Machine learning algorithm to characterize antimicrobial resistance associated with the International Space Station surface microbiome</title>
+				<funder ref="#_G4trHez">
+					<orgName type="full">WorldQuant Foundation</orgName>
+				</funder>
+				<funder ref="#_WNmnnUZ">
+					<orgName type="full">Translational Research Institute for Space Health</orgName>
+				</funder>
+				<funder ref="#_muERFKu">
+					<orgName type="full">NASA Cooperative</orgName>
+				</funder>
+				<funder ref="#_G24kVpG">
+					<orgName type="full">ESA Space Omics Topical Team</orgName>
+				</funder>
+				<funder ref="#_jCHsFqx #_qRUkmV9 #_pqV4Qp4 #_faS5fs4">
+					<orgName type="full">NASA</orgName>
+				</funder>
+				<funder ref="#_VQ4phYb">
+					<orgName type="full">ESA</orgName>
+				</funder>
+				<funder ref="#_vzmvZK3 #_w9wTzVm">
+					<orgName type="full">National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+				<funder ref="#_P6pEYcN #_6q6dpyR #_3egEwBz">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-08-24">2022-08-24</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Pedro</forename><surname>Madrigal</surname></persName>
+							<email>pmadrigal@ebi.ac.uk</email>
+							<idno type="ORCID">0000-0003-1959-8199</idno>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Jeffrey Cheah Biomedical Centre</orgName>
+								<orgName type="department" key="dep2">Wellcome-MRC Cambridge Stem Cell Insti- tute</orgName>
+								<orgName type="department" key="dep3">Cambridge Biomedical Campus</orgName>
+								<orgName type="institution">University of Cambridge</orgName>
+								<address>
+									<addrLine>Puddicombe Way</addrLine>
+									<postCode>CB2 0AW</postCode>
+									<settlement>Cambridge</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="laboratory">European Molecular Biology Laboratory</orgName>
+								<orgName type="institution" key="instit1">European Bioinformatics Institute</orgName>
+								<orgName type="institution" key="instit2">EMBL-EBI</orgName>
+								<address>
+									<postCode>CB10 1SD</postCode>
+									<settlement>Hinxton</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nitin</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="laboratory" key="lab1">Biotechnology and Planetary Protection Group</orgName>
+								<orgName type="laboratory" key="lab2">Jet Propulsion Laboratory</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<postCode>91109</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jason</forename><forename type="middle">M</forename><surname>Wood</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="laboratory" key="lab1">Biotechnology and Planetary Protection Group</orgName>
+								<orgName type="laboratory" key="lab2">Jet Propulsion Laboratory</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<postCode>91109</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elena</forename><surname>Gaudioso</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Artificial Intelligence</orgName>
+								<orgName type="department" key="dep2">Computer Science School</orgName>
+								<orgName type="institution">Universidad Nacional de Educación a Distancia (UNED)</orgName>
+								<address>
+									<postCode>28040</postCode>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Félix</forename><surname>Hernández-Del-Olmo</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Artificial Intelligence</orgName>
+								<orgName type="department" key="dep2">Computer Science School</orgName>
+								<orgName type="institution">Universidad Nacional de Educación a Distancia (UNED)</orgName>
+								<address>
+									<postCode>28040</postCode>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christopher</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Physiol- ogy and Biophysics</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<postCode>10065</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Bin Talal Bin Abdulaziz Alsaud Institute for Computa- tional Biomedicine</orgName>
+								<orgName type="institution" key="instit1">The HRH Prince Alwaleed</orgName>
+								<orgName type="institution" key="instit2">Weill Cornell Medicine</orgName>
+								<address>
+									<postCode>10065</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department">The WorldQuant Initiative for Quantitative Prediction</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<postCode>10065</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">The Feil Family Brain and Mind Research Institute</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<postCode>10065</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kasthuri</forename><surname>Venkateswaran</surname></persName>
+							<idno type="ORCID">0000-0002-6742-0873</idno>
+							<affiliation key="aff3">
+								<orgName type="laboratory" key="lab1">Biotechnology and Planetary Protection Group</orgName>
+								<orgName type="laboratory" key="lab2">Jet Propulsion Laboratory</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<postCode>91109</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Afshin</forename><surname>Beheshti</surname></persName>
+							<idno type="ORCID">0000-0003-4643-531X</idno>
+							<affiliation key="aff9">
+								<orgName type="department" key="dep1">KBR</orgName>
+								<orgName type="department" key="dep2">Space Biosciences Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<postCode>94035</postCode>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff10">
+								<orgName type="department">Stanley Center for Psychiatric Research</orgName>
+								<orgName type="institution">Broad Institute of MIT and Harvard</orgName>
+								<address>
+									<postCode>02142</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">European Molecular Biology Laboratory</orgName>
+								<orgName type="institution" key="instit1">European Bioinformatics Institute</orgName>
+								<orgName type="institution" key="instit2">EMBL-EBI</orgName>
+								<address>
+									<postCode>CB10 1SD</postCode>
+									<settlement>Hinxton</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Machine learning algorithm to characterize antimicrobial resistance associated with the International Space Station surface microbiome</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Microbiome</title>
+						<title level="j" type="abbrev">Microbiome</title>
+						<idno type="eISSN">2049-2618</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">10</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2022-08-24" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">BE65B58AEBD7A037E1258401499323C6</idno>
+					<idno type="DOI">10.1186/s40168-022-01332-w</idno>
+					<note type="submission">Received: 23 December 2021 Accepted: 22 July 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:39+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>ISS</term>
+					<term>Metagenomics</term>
+					<term>Antibiotic resistance</term>
+					<term>Machine learning</term>
+					<term>Space Omics</term>
+					<term>Microbiome</term>
+					<term>Built-environment</term>
+					<term>Microbial Tracking-1</term>
+					<term>NGS</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Antimicrobial resistance (AMR) has a detrimental impact on human health on Earth and it is equally concerning in other environments such as space habitat due to microgravity, radiation and confinement, especially for long-distance space travel. The International Space Station (ISS) is ideal for investigating microbial diversity and virulence associated with spaceflight. The shotgun metagenomics data of the ISS generated during the Microbial Tracking-1 (MT-1) project and resulting metagenome-assembled genomes (MAGs) across three flights in eight different locations during 12 months were used in this study. The objective of this study was to identify the AMR genes associated with whole genomes of 226 cultivable strains, 21 shotgun metagenome sequences, and 24 MAGs retrieved from the ISS environmental samples that were treated with propidium monoazide (PMA; viable microbes).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results:</head><p>We have analyzed the data using a deep learning model, allowing us to go beyond traditional cut-offs based only on high DNA sequence similarity and extending the catalog of AMR genes. Our results in PMA treated samples revealed AMR dominance in the last flight for Kalamiella piersonii, a bacteria related to urinary tract infection in humans. The analysis of 226 pure strains isolated from the MT-1 project revealed hundreds of antibiotic resistance genes from many isolates, including two top-ranking species that corresponded to strains of Enterobacter bugandensis and Bacillus cereus. Computational predictions were experimentally validated by antibiotic resistance profiles in these two species, showing a high degree of concordance. Specifically, disc assay data confirmed the high resistance of these two pathogens to various beta-lactam antibiotics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion:</head><p>Overall, our computational predictions and validation analyses demonstrate the advantages of machine learning to uncover concealed AMR determinants in metagenomics datasets, expanding the understanding of the ISS environmental microbiomes and their pathogenic potential in humans.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>threats to human health, food security, and development <ref type="bibr" target="#b57">[58]</ref>. Accordingly, with NASA setting the course to return to the Moon with the Artemis mission and eventually venture out to Mars, maintaining the health of astronauts during long-term spaceflight is of paramount importance <ref type="bibr" target="#b0">[1]</ref>. One area of particular concern is the reported increase in virulence and antibiotic resistance of microorganisms in space experiments <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b48">49,</ref><ref type="bibr" target="#b50">51,</ref><ref type="bibr" target="#b55">56,</ref><ref type="bibr" target="#b60">61]</ref>. Combined with a depressed or altered immune response in astronauts <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b45">46]</ref>, there is an increased risk of opportunistic microbial infection. Spaceflight promotes biofilm formation <ref type="bibr" target="#b31">[32]</ref>, and bacteria cultured from astronauts during flight were more resistant than isolates obtained from the same individual either pre-or post-flight <ref type="bibr" target="#b49">[50]</ref>. Mutations also occurred more frequently in long-term spaceflights <ref type="bibr" target="#b23">[24]</ref>. An alternative non-mutually exclusive hypothesis to increased virulence or microbial resistance to antibiotics is that spaceflight conditions might alter the stability of pharmaceuticals <ref type="bibr" target="#b22">[23]</ref>. In any case, bacterial infections might be more challenging to treat in space.</p><p>The International Space Station (ISS) is a closed-built environment with its own environmental microbiome shaped by microgravity, radiation, and limited human presence <ref type="bibr" target="#b52">[53]</ref>. We and others have shown that microbiomes are dynamic, diverse and sometimes intertwined at the ISS. Be et al. <ref type="bibr" target="#b7">[8]</ref> analyzed antibiotic resistance and virulence genes from dust and vacuum filter samples of ISS (treated with propidium monoazide, or PMA), demonstrating that human skin-associated microbes impact the ISS microbiome. Indeed, the skin and intestinal microbiomes of astronauts that spent 6 to 12 months in the ISS have been shown to be altered <ref type="bibr" target="#b54">[55]</ref>. In addition, the salivary microbiome of astronauts changed as a result of spaceflight, potentially activating microbes that promote viral replication <ref type="bibr" target="#b51">[52]</ref> and altering the abundance of some antimicrobial resistance (AMR) genes <ref type="bibr" target="#b34">[35]</ref>. The ISS itself also presents specific core microbiome signatures on its surfaces that we characterized recently using shotgun metagenome and amplicon sequencing <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b42">43,</ref><ref type="bibr" target="#b50">51]</ref>, analogous to microbiome signatures found in specific geographies on Earth <ref type="bibr" target="#b17">[18]</ref>.</p><p>Further analyses across several missions have revealed that the microbiome of the crew's skin resembled those of the surfaces inside the ISS collected by the crewmember on the same flight <ref type="bibr" target="#b4">[5]</ref>. To better understand the composition of these bacterial populations we and others have characterized shotgun whole-genome sequencing (WGS) of several ISS microorganisms <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b44">45]</ref>. Although most of them have been found to be non-pathogenic to humans, there are exceptions such as antibiotic-resistant Enterobacter bugandensis strains that could have an increased chance of pathogenicity <ref type="bibr" target="#b43">[44]</ref>.</p><p>Computational analyses of microbiome data collected in Earth have shown that AMR can be predicted from genomic sequence of pure cultures alone <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b46">47]</ref>, but a consensus approach on the best way to detect AMRs in metagenomic datasets has yet to be established <ref type="bibr" target="#b40">[41]</ref>. Generally, predictions are restricted to high identity (high sequence similarity to databases) cut-offs, requiring a 'best-hit' on an appropriate AMR database with a sequence identity greater than 80% by many programs such as ResFinder <ref type="bibr" target="#b59">[60]</ref>. Although the 'best-hit' approach has a low false-positive rate, the false-negative rate can be very high, and a large number of actual Antibiotic Resistance Genes (ARGs) are predicted as non-ARGs, thus concealing the identification of potentially functional ARGs <ref type="bibr" target="#b2">[3]</ref>. Another method of identification is to link the immune repertoire of the astronaut to the peptides of the microbes on the ISS, but this requires complex coordination with crew sampling and is rare <ref type="bibr" target="#b18">[19]</ref>. However, it has been shown recently that deep learning, a class of machine learning algorithms, can expand the catalog of AMR genes and increase the accuracy of the predictions based on metagenomic data <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b26">27]</ref>. We then hypothesized that the characterization of AMR from sequencing data at the ISS could be investigated from an artificial intelligence perspective using a robust deep learning framework. For that, we analyzed whole-genome sequences of 226 pure strains (cultivable microbes), metagenome sequences of 21 environmental samples, and 24 MAGs retrieved from PMA treated samples (Fig. <ref type="figure">1</ref>) using the supervised deep learning approach proposed by Arango-Argoty et al. <ref type="bibr" target="#b2">[3]</ref>, which has shown high sensitivity for detection of AMR genes in an independent benchmark <ref type="bibr" target="#b56">[57]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Predictions based on short metagenomics sequences and ORFs partly overlap with previous analyses and reveal new AMR determinants at the ISS surface microbiome</head><p>The first shotgun metagenome sequencing of intact microbial cells (Propidium monoazide-PMA treated) without whole-genome amplification was performed by Singh et al. <ref type="bibr" target="#b42">[43]</ref>. There, samples were taken in 8 locations across three flights (F1, F2, F3) during a period of 12 months. A detailed description of sampling procedures and locations, species diversity and functional characterization can be found in Singh et al. <ref type="bibr" target="#b42">[43]</ref>. To deploy a deep learning approach for predicting antibiotic resistance genes from metagenomic data, we used DeepARG, a computational resource proven to be more accurate than traditional approaches <ref type="bibr" target="#b2">[3]</ref>. We first run DeepARG-SS (DeepARG for short reads) using the recommended prediction probability cut-off of 0.8 to obtain read counts of AMR genes (Fig. <ref type="figure">2a</ref>). As in the seminal paper <ref type="bibr" target="#b42">[43]</ref>, quantification of antibiotics associated with AMR revealed 'beta lactams' ranking first and 'peptide' second, and generally more AMR reads counts observed in Flight 3 (F3) than in previous two flights (Fig. <ref type="figure">2a</ref>). However, reads counts in certain antibiotics such as pleuromutilin, mupirocin and rifamycin were found largely in Flight 2 (Fig. <ref type="figure">2a</ref>). Our read counts correlate (r = 0.86, p = 6.879e-7; Pearson's product-moment correlation) with read counts obtained for antimicrobial resistance by Singh et al. <ref type="bibr" target="#b42">[43]</ref> (Fig. <ref type="figure">2b</ref>). Taken together, these suggest a partial overlap with results obtained in Singh et al. <ref type="bibr" target="#b42">[43]</ref> analyzed using the traditional approach.</p><p>While more AMR reads counts were found in Flight 3, we also observed variability between the different locations and flights, and an increasing number of read counts associated with time. For instance, location 4 (L4, surface of the dining table) increased the number of AMR reads counts with successive flights (Fig. <ref type="figure">2b</ref>, <ref type="figure">c</ref>). While resistance to 'beta lactams' was evenly distributed across flights and locations, resistance to 'polymyxin' and especially 'peptide' represents a more significant proportion of AMR counts in locations of Flight 3 (Fig. <ref type="figure">2c</ref>). In addition, we also observed the widespread presence of reads related to Macrolides, Lincosamides, Streptogamines (MLS), and tetracycline resistance.</p><p>To investigate the possible association between AMR patterns and specific microbes, we assembled the short reads into Metagenome-Assembled Genomes (MAGs; see Methods), identified their Open Reading Frames (ORFs), and repeated the prediction of ARGs using DeepARG-LS <ref type="bibr" target="#b2">[3]</ref>. Figure <ref type="figure" target="#fig_1">3a</ref> shows the distribution of DeepARG classification probabilities and best-hit identity of ARGs in MAGs from the ISS. As we can retrieve highly probable ARGs (probability &gt; 0.8) presenting low sequence identity (for many ARGs, identity is &lt; 40%), this method is likely more advantageous than using the 'besthit' approach only. Compared to DeepARG-SS results obtained previously, the analysis of MAGs did not reveal significant differences in the number of ARGs predicted in the ORFs for the different flights (Fig. <ref type="figure" target="#fig_1">3b</ref>). However, interestingly the results show a smaller number bacterial species having ARGs in Flight #1 (F1) when compared to Flights #2 and #3 (Fig. <ref type="figure" target="#fig_1">3b</ref>, <ref type="figure">c</ref>) (data is shown for MAGs with at least 1 predicted ARG; the total number of MAGs analyzed is 24). Specifically, the number of locations is smaller in Flight 1 (n = 3) than in F2 (n = 6) and F3 (n = 7) (Fig. <ref type="figure" target="#fig_1">3b</ref>). Many ARGs were identified in Kalamiella piersonii MAGs in multiple locations during F3, showing AMR patterns related to (glyco)peptide, fluoroquinolone and MLS (Fig. <ref type="figure" target="#fig_1">3c</ref>). Of note, the K. piersonii strain closely related to one found at the ISS has been associated to human urinary tract infection <ref type="bibr" target="#b39">[40]</ref>. The potentially very pathogenic microbe E. bugandensis was found in location 2 (forward side panel wall of the Waste and Hygiene Compartment) in Flight 1, presenting more than 40 ARGs. In addition, in the original study, Pantoea species were found to be the dominant genus in samples in 5 out of 7 locations sampled from Flight 3, especially at Fig. 2 Prediction of ARGs using a pre-trained DeepARG-SS model. a Distribution of ARG read counts across antibiotic classes for the three flights (F1, F2, F3). b Correlation of read counts found by DeepARG-SS and those in Singh et al. <ref type="bibr" target="#b42">[43]</ref>. Pearson's product-moment correlation r = 0.86, (p = 6.879e-07) for the three flights and their locations. c Read counts of ARG class across flights for each location for PMA-treated samples in Singh et al. <ref type="bibr" target="#b42">[43,</ref><ref type="bibr" target="#b43">44]</ref>. The antibiotic class (multi-drug) is not shown. Results are for ARGs with probability &gt; 0.8 location 5 (surface rack). In our re-analysis, we observed Pantoea brenneri and Pantoea dispersa having ARGs related to beta-lactams and peptide <ref type="bibr" target="#b42">[43]</ref>, as well as to triclosan and polymyxin resistance.</p><p>Overall, our results partially agree with earlier findings while providing new insights into previously unobserved antibiotic resistance classes (of the 30 antibiotic resistance categories included in the model). Specifically, the re-analysis of short sequences and MAGs from the ISS reveals dominance of K. piersonii antibiotic resistance in different locations of Flight 3 (Fig. <ref type="figure" target="#fig_1">3c</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Distribution of antibiotic resistance genes in scaffolds of Microbial Tracking-1 strains isolated from the ISS</head><p>We then applied DeepARG-LS to 226 Microbial Tracking-1 (MT-1) isolates (Mason and Venkateswaran labs, published and unpublished WGS of MT-1 pure strains isolated from ISS environment). We found a range of 2 to 92 ARGs in 184 out of 226 isolates (Fig. <ref type="figure">4a</ref>; Table <ref type="table">S1</ref>). This machine learning approach allowed us to go beyond the traditional cut-off based only on high sequence DNA similarity (Figure <ref type="figure">S1</ref>). These results suggest a widespread presence of potential ARGs in the isolates, with 'multi-drug' class being first, followed by glycopeptides, beta-lactams, bacitracin, and tetracyclines. The 'multi-drug' antibiotic class was defined by aggregating several antibiotic names from the CARD and ARDB databases (efflux, multi-drug and na_antimicrobials). We then used BLAST to match isolates showing AMR sequences predicted by Deep-ARG to microbial species (Fig. <ref type="figure">4a</ref>) and identified Bacillus cereus and E. bugandensis, which were previously profiled organisms on the ISS <ref type="bibr" target="#b43">[44,</ref><ref type="bibr" target="#b53">54]</ref> as the top 2 ranking species with a high number of ARGs. We have previously shown that five E. bugandensis isolates were almost equivalent to nosocomial earth isolates showing resistance to multi-drug antibiotic compounds, fluoroquinolones, and fosfomycin <ref type="bibr" target="#b43">[44]</ref>. In addition, E. bugandensis strains were shown to be resistant to 9 antibiotics <ref type="bibr" target="#b50">[51]</ref>. Our results reinforce the potential pathogenicity of this microbe. Nonetheless, antimicrobial resistance was not examined for B. cereus strains in Venkateswaran et al. <ref type="bibr" target="#b53">[54]</ref>. B. cereus is a food poisoning microorganism that might be a concern for crew members' health. In addition, we found novel ARGs associated with other species such as K. pneumoniae, Pantoea, Paenibacillus polymyxa, Bacillus velezensis, Enterococcus faecalis, Sphingomonas, and, with a lower number of ARGs, several species of Staphylococcus. E. faecalis virulence was previously shown to be affected by microgravity <ref type="bibr" target="#b27">[28]</ref>. We then used the tool Prokka <ref type="bibr" target="#b41">[42]</ref> to fully annotate the bacterial isolates, finding as expected that the number of coding sequences, but not the number of ARGs, increased in proportion to genome sizes (Figure <ref type="figure">S2a</ref>). Then, we ran the pangenome analysis tool Roary <ref type="bibr" target="#b37">[38]</ref> to compare isolates of E. bugandensis <ref type="bibr" target="#b9">(10)</ref> and B. cereus <ref type="bibr" target="#b9">(10)</ref> finding that the core set of genes was highly conserved among strains of the same species (Figure <ref type="figure">S2b</ref>).</p><p>To experimentally validate machine learning predictions on previously unobserved AMR patterns above, we performed Antibacterial Susceptibility Tests (AST) for the species found to be potentially most pathogenic, in our case E. bugandensis and B. cereus as they have a higher number of ARGs (Table <ref type="table">S1</ref>; Fig. <ref type="figure">4a</ref>). For that, we use disc diffusion on strains isolated at the ISS for the following antimicrobials: Cefazolin (beta-lactam), Cefoxitin (beta-lactam), Ciprofloxacin (quinolone), Erythromycin (MLS), Gentamycin (aminoglycoside), Oxacillin (beta-lactam), Penicillin (beta-lactam), Rifampin (rifamycin), and Tobramycin (aminoglycoside) (Fig. <ref type="figure">4b</ref>). The prediction patterns closely matched the AST results (Fig. <ref type="figure">4b</ref>), although DeepARG failed to detect Rifampin resistance, especially for E. bugandensis.</p><p>Although different antibiotics have different inhibitory zone cut-offs for a strain to be considered as resistant (Table <ref type="table">S2</ref>), remarkably we found an inverse correlation between the zone of inhibition and ARG count for B. cereus (r = -0.637, Pearson's product-moment correlation, p = 2.2e-7) and E. bugandensis (r = -0.517; p = 0.0002765) (Fig. <ref type="figure">4c</ref>), demonstrating the applicability and high accuracy of computational prediction of AMR for microbiome data obtained in space.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Many ARGs that present high probability but low sequence identity to known sequences will be missed using traditional 'best-hit' approaches that require a high degree of sequence identity. To solve this, computational methods have been developed to identify AMR in genomes and metagenomes <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b40">41]</ref>. Despite these developments, a consensus approach to detect AMR in metagenomics datasets is yet to be defined <ref type="bibr" target="#b40">[41]</ref>. The objective of this study was to identify the AMR genes associated with cultivated strains and metagenomes generated from the ISS environmental surfaces using an accurate deep learning approach (Fig. <ref type="figure">1</ref>).</p><p>Firstly, we re-analyzed shotgun metagenome sequences of 21 environmental samples that were treated with PMA (viable microbes), and their associated 24 MAGs retrieved from the PMA-treated samples. The re-analysis showed increased read counts associated with AMR and Fig. 4 (See legend on previous page.)</p><p>in more locations for flight 3 when considering MAGs (Fig. <ref type="figure">2</ref>). This could be explained due to the ISS crew being replaced during Flight 3. The abundance of Enterobacteriaceae in Flight 3 was discussed in Singh et al. <ref type="bibr" target="#b42">[43]</ref>. We have not observed any differences between early vs. late ISS microbiome cultures. For example, Enterobacter bugandansis strains were isolated from F2 and F3 sample sets, but the genome comparison and phenotype analyses revealed limited change, with a maximum of 15 SNPs among ISS isolates <ref type="bibr" target="#b43">[44]</ref>. In addition, K. piersonii spread across four different locations (L1, L5, L7, L8) at Flight 3, presenting resistance to specific antibiotics (glyco/ peptide, fluoroquinolone and MLS) (Fig. <ref type="figure" target="#fig_1">3c</ref>). We have previously isolated strains from Locations 1, 2, 5, 6, and 7, defining a novel bacterial genus from the ISS samples <ref type="bibr" target="#b44">[45]</ref>. While K. piersonii do have virulence genes in the genome, a dichotomy was found as disc diffusion tests revealed multi-drug resistance, while the PathogenFinder algorithm predicted K. piersonii strains as non-human pathogens. All seven K. piersonii isolates were resistant to cefoxitin (beta_lactam class in DeepARG), erythromycin (MLS), oxacillin (beta_lactam), penicillin (beta_lactam), and rifampin. At the same time, all strains were susceptible to cefazolin, ciprofloxacin (quinolone), and tobramycin (aminoglycoside) <ref type="bibr" target="#b44">[45]</ref>. The DeepARG database does not include some of these antibiotics, but we found AMR sequences related to resistance to (glyco)peptide, fluoroquinolone, and MLS, validating some previous results. Therefore, PathogenFinder <ref type="bibr" target="#b16">[17]</ref> results in Singh et al. <ref type="bibr" target="#b44">[45]</ref> suggesting K. piersonii as a non-human pathogen should be treated with caution. Furthermore, the strain YU22 (closest match is IIIF1SW-P2 T detected as ISS) isolated in urine microbiome of a kidney stone patient has shown to be an uropathogenic bacteria, showing many virulence factors that are needed for host cell invasion and colonization <ref type="bibr" target="#b39">[40]</ref>.</p><p>Secondly, the whole-genome sequences (WGS) of 226 pure strains (cultivable microbes) were analyzed to identify AMR genes (Fig. <ref type="figure">4a</ref>). We found the human pathogens E. bugandensis and B. cereus presenting many potential ARGs in the MT-1 scaffolds. Up to five strains isolated from the ISS have been closely related to the type strain EB-247 T and two clinical isolates (153_ECLO and MBRL 1077) and share similar AMR patterns <ref type="bibr" target="#b43">[44]</ref>. One hundred twelve genes were found to be involved in virulence, disease, and defence in the ISS strains <ref type="bibr" target="#b43">[44]</ref>. Our re-analysis confirms the multi-drug resistance (MDR) to antibiotics for the ISS isolates, which is the highest among all the isolates. Our previous research uncovered the presence of genes associated with MDR efflux pump <ref type="bibr" target="#b43">[44]</ref>, belonging to RND (resistance, nodulation and cell division) protein family, which are reported to be the major contributors of resistance to antibiotic and other toxic compounds to the bacteria <ref type="bibr" target="#b19">[20]</ref>. MDR has been reported to play role in the physiological function and confer resistance to substances like host defense molecule and bile, which can lead to pathogenicity in humans <ref type="bibr" target="#b47">[48]</ref>. Unlike in Singh et al. <ref type="bibr" target="#b42">[43]</ref>, we found fluoroquinolone resistance low, and null for fosfomycin. Conversely, B. cereus is a gram-positive bacterium commonly found in food. After infection, most emetic patients recover within 24 hours, but in some cases, the toxin can be fatal via a fulminant hepatic failure <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b33">34]</ref>. Overall, multi-drug resistance was found widespread in many microbes.</p><p>Third, phenotypic antibiotic resistance testing data obtained from traditional antibiotic tests generated for biosafety level 2 strains were compared with the computational approaches that predicted the presence of the AMR genes, showing an excellent agreement for the antibiotics tested (Fig. <ref type="figure">4b</ref>, <ref type="figure">c</ref>). A disadvantage of the deep learning model developed by Arango-Argoty et al. <ref type="bibr" target="#b2">[3]</ref> is that the prediction can disentangle the family of antibiotics but not specific compounds.</p><p>Many studies have shown the association between several microorganisms (bacterial, as well as phage and non-phase viral sequences) and several cancer features. Although it is unclear whether this corresponds to correlation or causation, the microbiome can undoubtedly be used as a cancer biomarker. For instance, certain strains of Fusobacterium sp. can be utilized as an independent diagnostic assay for colon cancer <ref type="bibr" target="#b61">[62]</ref>. Therefore, a better understanding of the microbial communities and their degree of pathogenicity in surface-human microbiomes in space could also be useful for human health monitorization with detection and prognostic values in long term space travel. Rather than the gather-and-return sampling model currently used for the ISS, new developments in sequencing technologies in combination with Artificial Intelligence will allow for efficient analysis onboard the ISS and in long-duration space missions.</p><p>We are currently collecting more data for Microbial Tracking-2 (MT-2) and MT-3 missions. We plan to extend the AMR catalog, characterize microbial diversity, and monitor the evolution of AMR in longer time periods to discover new factors involved in pathogenicity of microorganisms exposed to space conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metagenome-Assembled Genomes (MAGs) methodology</head><p>The paired-end 100-bp metagenomic reads from NCBI Short Read Archive (SRA) under the bio-project number PRJNA438545 were processed with Trimmomatic <ref type="bibr" target="#b11">[12]</ref> to trim adapter sequences and low-quality ends, with a minimum Phred score of 20 across the entire length of the read used as a quality cut-off. Reads shorter than 80 bp were removed after trimming. Remaining high-quality reads were subsequently assembled using metaSPAdes <ref type="bibr" target="#b36">[37]</ref>. Contigs were binned using Metabat2 v2.11.3 <ref type="bibr" target="#b30">[31]</ref>. Recovered genomes were evaluated with CheckM <ref type="bibr" target="#b38">[39]</ref>, and a recovered genome was considered good with at least 90% completeness and at most 10% contamination. Each genome was subsequently annotated with the help of Rapid Annotations using Subsystems Technology (RAST), and near identifications were predicted <ref type="bibr" target="#b5">[6]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample collection for Microbial Tracking 1 mission</head><p>During the microbial tracking investigation to characterize airborne and surface-associated microbial population aboard the International Space Station, samples were collected from ISS locations, and ground samples were collected from the Crew resupply vehicle. A sterile polyester wipe premoistened with Phosphate buffered saline (PBS) was used to collect the samples from various areas across these ISS locations, and the details and description of the sample collection and cultivation have already been reported in Checinska Sielaff et al. <ref type="bibr" target="#b13">[14]</ref> and Singh et al. <ref type="bibr" target="#b42">[43]</ref>. Pure isolates were selected and sub-cultured, and the sub-cultures were sequenced.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Isolates from Microbial Tracking 1 mission</head><p>To create the whole-genome sequences (WGS) of these strains, libraries were prepared using the Illumina Nextera Flex protocol <ref type="bibr" target="#b43">[44]</ref>, using NovaSeq 6000 S4 flow cell 2150 paired-end (PE) sequencing. Verification of the quality of the raw sequencing data was carried out using FastQC v0.11.7 <ref type="bibr" target="#b1">[2]</ref>. Quality control for adapter trimming and quality filtering were performed using fastp v0.20.0 <ref type="bibr" target="#b14">[15]</ref>, and then SPAdes v3.11.1 <ref type="bibr" target="#b6">[7]</ref> was used to assemble all the cleaned sequences. Fastp quality control was based on the following three parameters: (i) correction of mismatches in overlapped regions of paired-end reads, (ii) trimming of autodetected adapter sequences, and (iii) quality trimming at the 59 and 39 ends. To determine the quality of the assembled sequences, the number of contigs, the N50 value, and the total length were calculated using QUAST v5.0.2 <ref type="bibr" target="#b25">[26]</ref>. Default parameters were used for all software. The average nucleotide identity (ANI) <ref type="bibr" target="#b58">[59]</ref> was calculated using OrthoANIu by comparing each of the scaffolds to the WGS of the respective type strains.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Identification of ORFs in microbial DNA sequences</head><p>Glimmer (Gene Locator and Interpolated Markov Mod-elER) v3.02 was used with default parameters to identify the coding regions and distinguish them from noncoding DNA in MAGs and MT-1 scaffolds that could be used as an input in DeepARG-LS. Minimum gene length was indicated as 50 bp ('glimmer3 -g50'). Glimmer reads DNA sequences in a FASTA file format and predicts genes in them using an Interpolated Context Model <ref type="bibr" target="#b20">[21]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Prediction of antibiotic resistance genes in short reads and full-gene length sequences</head><p>DeepARG version 2 <ref type="bibr" target="#b2">[3]</ref>, a deep learning-based approach for predicting ARGs and annotation, was run with the '--reads' option (DeepARG-SS) for NGS reads and the '--genes' option (DeepRG-LS) for longer gene-like sequences obtained with Glimmer. The DeepARG model consists of four dense hidden layers of 2000, 1000, 500, and 100 units that propagate a bit score distribution. The output layer of the deep neural network consists of 30 units that correspond to the antibiotic resistance categories (102 antibiotics consolidated into 30 antibiotic categories). The model was trained with a curated database of 14,933 genes from three databases (CARD, ARDB, and UNIPROT) <ref type="bibr" target="#b2">[3]</ref>. Default options were used: 50% minimum percentage of identity to consider, significance of the prediction probability cut-off of 0.8 as recommended <ref type="bibr" target="#b2">[3]</ref>, and E-value of alignments (default 1e-10). The software was downloaded from <ref type="url" target="https://bitbucket.org/gusphdproj/deeparg-ss">https:// bitbu cket. org/ gusph dproj/  deepa rg-ss</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microbial nucleotide BLAST</head><p>Nucleotide-Nucleotide BLAST 2.10.1+ (<ref type="url" target="https://blast.ncbi.nlm.nih.gov/Blast.cgi">https:// blast.  ncbi. nlm. nih. gov/ Blast. cgi</ref>) was used to identify microbial species associated to MT-1 scaffolds. Sequences producing significant alignments were ranked and the species associated to maximum Score (bits) and minimum E value was deemed as the closest match.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gene annotations and pan-genome analysis of MT-1 scaffolds</head><p>A Docker image with the software tool Prokka v1.14.5 <ref type="bibr" target="#b41">[42]</ref> was pulled and used with default parameters to annotate bacterial isolates. The master annotations in GFF3 format for the 226 isolates have been deposited at the Zenodo platform [DOI: 10.5281/zenodo.6518836]. Using the annotated assemblies in GFF3 format for E. bugandensis and B. cereus strains, Roary v3.13.0 was run with default parameters to compare isolates based on genes and the number of isolates they are present in.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phenotypic antibiotic resistance testing</head><p>Disc assays experiments were performed and reported in Urbaniak et al. <ref type="bibr" target="#b50">[51]</ref>. The isolates were streaked from glycerol stocks onto R2A plates. A single colony was inoculated into 5 mL Tryptic Soy Broth (TSB) and grown overnight at 30°C. Aliquots of 100 μL were plated on TSA. Agar diffusion discs (BD BBLTM Sensi-DiscTM, Franklin Lakes, NJ) were placed aseptically on a plate and the strains were incubated at 37 °C for 24 h. The tested antibiotics included: 30-μg cefazolin (CZ-30); 30-μg cefoxitin (FOX-30), 5 μg ciprofloxacin (CIP-5), 15 μg erythromycin (E-15), 10-μg gentamicin (GM-10), 1-μg oxacillin (OX), 10-μg penicillin (P-10), 5-μg rifampin (RA-5), and 10 μg tobramycin (NN-10). The diameter of inhibition zones was measured for each antibiotic disk and recorded in millimeters. The resistance results were compared with the zone diameter interpretive charts provided by the manufacturer. When the spontaneous mutants were present in response to some antibiotics, they were isolated, subcultured and tested for the specific antibiotic resistance.</p><p>• fast, convenient online submission • thorough peer review by experienced researchers in your field • rapid publication on acceptance</p><p>• support for research data, including large and complex data types • gold Open Access which fosters wider collaboration and increased citations maximum visibility for your research: over 100M website views per year</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p>At BMC, research is always in progress.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Learn more biomedcentral.com/submissions</head><p>Ready to submit your research Ready to submit your research ? Choose BMC and benefit from:</p><p>? Choose BMC and benefit from:</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 Fig. 2</head><label>12</label><figDesc>Fig.1Overview of sample collection and data analysis for the characterization of antibiotic resistance at the ISS using deep learning. The data are processed in a step-wise fashion including data QC, mapping, quantification, and matching to time of collection and mission. The figure has been generated using BioRender (http:// biore nder. com)</figDesc><graphic coords="3,64.43,94.83,466.92,224.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 ARGs detected in ORFs in metagenome-assembled genomes (MAGs) from PMA-treated samples. a Distribution of DeepARG classification probability and best-hit identity in MAGs retrieved from the ISS. b Total number of ARGs predicted for each flight and location. c Number of ARGs precited for each MAG. Most common antibiotic class (multi-drug) not shown. The black arrows indicate Kalamiella piersonii</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4 Fig. 4 (</head><label>44</label><figDesc>Fig. 4 Heatmap and clustering of ARG counts detected in MT-1 pure strains isolated from the ISS and AST validations. a Heatmap with ARG count. The barplots illustrate the number of ARGs across rows and across columns. Species were identified using BLAST. Only ARGs with probability &gt; 0.8 were considered, as recommended. b Antibacterial susceptibility tests (AST) on E. bugandensis and B cereus strains for several antibiotics (top), and comparison with machine learning predictions shown in (a) (bottom). c Scatterplot of zone of inhibition value (in mm.) and ARG count shown in (b), together with a linear model fit. Pearson's product-moment correlation values are indicated (See figure on next page.)</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank <rs type="person">Dr. Sylvain Costes</rs>, <rs type="person">Dr. Jonathan Galazka</rs>, and <rs type="person">Dr. Daniel C. Berrios</rs> for the initial conversations that inspired this project. The authors would like to acknowledge the members of the <rs type="institution">Microbiome and Multi-Omics/Systems Biology Analysis Working Groups of NASA GeneLab</rs>. Part of the research described in this manuscript was performed at the <rs type="institution">Jet Propulsion Laboratory, California Institute of Technology</rs> under a contract with <rs type="funder">NASA</rs>. We would like to thank Microbial Tracking -1 and 2 members for isolating the strain and generating draft assembly of genomes. We thank <rs type="institution">Biotechnology and Planetary Protection Group members</rs> for supporting sample analyses. We also acknowledge the <rs type="institution">Jet Propulsion Laboratory supercomputing facility</rs> staff, notably <rs type="person">Narendra J. Patel</rs> (<rs type="person">Jimmy</rs>) and <rs type="person">Edward Villanueva</rs>, for their continuous support in providing the best possible infrastructure for BIG-DATA analysis.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>AB was supported and funded by <rs type="funder">NASA</rs> grant <rs type="grantNumber">16-ROSBFP_GL-0005</rs>: <rs type="grantNumber">NNH16Z-TT001N-FG</rs> Appendix G: <rs type="projectName">Solicitation of Proposals for Flight and Ground Space Biology Research</rs> (Award Number: <rs type="grantNumber">80NSSC19K0883</rs>) and The <rs type="funder">Translational Research Institute for Space Health</rs> through <rs type="funder">NASA Cooperative</rs> Agreement <rs type="grantNumber">NNX16AO69A</rs> (<rs type="grantNumber">T-0404</rs>). This work was partially supported by the <rs type="funder">ESA Space Omics Topical Team</rs>, funded by the <rs type="funder">ESA</rs> grant/contract <rs type="grantNumber">4000131202/20/NL/ PG/</rs>pt "<rs type="projectName">Space Omics: Towards an integrated ESA/NASA -omics database for spaceflight and ground facilities experiments</rs>". CEM was supported by <rs type="funder">NASA</rs> grants (<rs type="grantNumber">NNX16AO69A</rs>, <rs type="grantNumber">NNX14AH50G</rs>, <rs type="grantNumber">NNX17AB26G</rs>), the <rs type="funder">NIH</rs> (<rs type="grantNumber">R01AI151059</rs>, <rs type="grantNumber">U01DA053941</rs>) and <rs type="person">Igor Tulchinsky</rs> and the <rs type="funder">WorldQuant Foundation</rs>. This research was funded by a <rs type="programName">2012 Space Biology</rs> <rs type="grantNumber">NNH12ZTT001N</rs> grant no. <rs type="grantNumber">19-12829-26</rs> under Task Order <rs type="grantNumber">NNN13D111T</rs> award to KV, which also funded the post<rs type="grantName">-doctoral fellowships for NKS</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_jCHsFqx">
+					<idno type="grant-number">16-ROSBFP_GL-0005</idno>
+				</org>
+				<org type="funded-project" xml:id="_P6pEYcN">
+					<idno type="grant-number">NNH16Z-TT001N-FG</idno>
+					<orgName type="project" subtype="full">Solicitation of Proposals for Flight and Ground Space Biology Research</orgName>
+				</org>
+				<org type="funding" xml:id="_WNmnnUZ">
+					<idno type="grant-number">80NSSC19K0883</idno>
+				</org>
+				<org type="funding" xml:id="_muERFKu">
+					<idno type="grant-number">NNX16AO69A</idno>
+				</org>
+				<org type="funding" xml:id="_G24kVpG">
+					<idno type="grant-number">T-0404</idno>
+				</org>
+				<org type="funded-project" xml:id="_VQ4phYb">
+					<idno type="grant-number">4000131202/20/NL/ PG/</idno>
+					<orgName type="project" subtype="full">Space Omics: Towards an integrated ESA/NASA -omics database for spaceflight and ground facilities experiments</orgName>
+				</org>
+				<org type="funding" xml:id="_qRUkmV9">
+					<idno type="grant-number">NNX16AO69A</idno>
+				</org>
+				<org type="funding" xml:id="_pqV4Qp4">
+					<idno type="grant-number">NNX14AH50G</idno>
+				</org>
+				<org type="funding" xml:id="_faS5fs4">
+					<idno type="grant-number">NNX17AB26G</idno>
+				</org>
+				<org type="funding" xml:id="_vzmvZK3">
+					<idno type="grant-number">R01AI151059</idno>
+				</org>
+				<org type="funding" xml:id="_w9wTzVm">
+					<idno type="grant-number">U01DA053941</idno>
+				</org>
+				<org type="funding" xml:id="_G4trHez">
+					<idno type="grant-number">NNH12ZTT001N</idno>
+					<orgName type="program" subtype="full">2012 Space Biology</orgName>
+				</org>
+				<org type="funding" xml:id="_6q6dpyR">
+					<idno type="grant-number">19-12829-26</idno>
+				</org>
+				<org type="funding" xml:id="_3egEwBz">
+					<idno type="grant-number">NNN13D111T</idno>
+					<orgName type="grant-name">-doctoral fellowships for NKS</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>Raw metagenomics reads from three flights on multiple locations were downloaded from NASA GeneLab repository <ref type="url" target="https://genelab.nasa.gov">https:// genel ab. nasa. gov</ref> (GLDS-69). The ISS MAGs datasets are available at the SRA database under the accession number: PRJNA438545 [<ref type="url" target="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA438545/">https://  www</ref>. ncbi. nlm. nih. gov/ biopr oject/ PRJNA 438545/]. Microbial tracking-1 (MT-1) datasets (raw sequencing data and sequence assembly files) were obtained from GLDS-67, GLDS-302, GLDS-303, GLDS-309, GLDS-311 and GLDS-350. The rest of the samples are deposited at DDBJ/ ENA/GenBank or are unpublished.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Availability of data and materials</head><p>The code use for the analysis is available at <ref type="url" target="https://github.com/pmb59/AMRISS">https:// github. com/ pmb59/  AMRISS</ref>.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abbreviations</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Information</head><p>The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1186/s40168-022-01332-w">https:// doi.  org/ 10. 1186/ s40168-022-01332-w</ref>. Additional file 3: Table <ref type="table">S1</ref>. Rank of MT-1 isolates, ordered by number of ARGs predicted, shown in Fig. <ref type="figure">4a</ref>. Species information obtained from Microbial Nucleotide BLAST. <ref type="table">S2</ref>. Phenotypic antibiotic resistance testing results for E. bugandensis and B cereus.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional file 4: Table</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional file 5: File S1. Raw results of the DeepARG analyses (zip compressed).</head><p>Authors' contributions PM performed the computational analyses and led the writing. NKS, KV, JMW, and CEM provided data, exchange of ideas, and edits to the manuscript. EG and FHdO contributed to machine learning aspects. AB supervised and supported the study, wrote and provided final approval of the manuscript. All authors provided feedback and contributed to the research and final manuscript. All authors read and approved the final manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declarations</head><p>Ethics approval and consent to participate Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Consent for publication</head><p>All authors have read and agreed with the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare that they have no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Publisher's Note</head><p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Fundamental Biological Features of Spaceflight: Advancing the Field to Enable Deep-Space Exploration</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Afshinnekoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mackay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pariset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cekanaviciute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Barker</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2020.10.050</idno>
+		<ptr target="https://doi.org/10.1016/j.cell.2020.10.050" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1162" to="1184" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Andrews</surname></persName>
+		</author>
+		<ptr target="http://www.bioinformatics.babraham.ac.uk/projects/fastqc/" />
+		<title level="m">FastQC: a quality tool for high throughput sequence data</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">DeepARG: a deep learning approach for predicting antibiotic resistance genes from metagenomic data</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Arango-Argoty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Garner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pruden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Heath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vikesland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40168-018-0401-z</idno>
+		<ptr target="https://doi.org/10.1186/s40168-018-0401-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">23</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Spaceflight modifies escherichia coli gene expression in response to antibiotic exposure and reveals role of oxidative stress response</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Aunins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Erickson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Prasad</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2018.00310</idno>
+		<ptr target="https://doi.org/10.3389/fmicb.2018.00310" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">310</biblScope>
+			<date type="published" when="2018-03-16">2018. 2018 Mar 16</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Crewmember microbiome may influence microbial composition of ISS habitable surfaces</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Avila-Herrera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Thissen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urbaniak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">231838</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The RAST Server: rapid annotations using subsystems technology</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Aziz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bartels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Best</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dejongh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Disz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Edwards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">75</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bankevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nurk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Antipov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Gurevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dvorkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Kulikov</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/cmb.2012.0021</idno>
+		<ptr target="https://doi.org/10.1089/cmb.2012.0021" />
+	</analytic>
+	<monogr>
+		<title level="j">J Comput Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="455" to="477" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Whole metagenome profiles of particulates collected from the International Space Station</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Be</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Avila-Herrera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Allen</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40168-017-0292-4</idno>
+		<ptr target="https://doi.org/10.1186/s40168-017-0292-4Published2017Jul17" />
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">81</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Identification and reconstruction of novel antibiotic resistance genes from metagenomes</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Berglund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Österlund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Boulund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Marathe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dgj</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kristiansson</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40168-019-0670-1</idno>
+		<ptr target="https://doi.org/10.1186/s40168-019-0670-1Published2019Apr1" />
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">52</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Draft Genome Sequences of Sphingomonas Species Associated with the International Space Station</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bijlani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ccc</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/MRA.00578-20</idno>
+		<ptr target="https://doi.org/10.1128/MRA.00578-20Published2020Jun18" />
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol Resour Announc</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">25</biblScope>
+			<biblScope unit="page" from="578" to="598" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Draft Genome Sequences of Tremellomycetes Strains Isolated from the International Space Station</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bijlani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ccc</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/MRA.00504-20</idno>
+		<ptr target="https://doi.org/10.1128/MRA.00504-20Published2020Jun25" />
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol Resour Announc</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page" from="504" to="520" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Trimmomatic: a flexible trimmer for Illumina sequence data</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Bolger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lohse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Usadel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="2114" to="2120" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Sequencing-based methods and resources to study antimicrobial resistance</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Boolchandani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D'</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Dantas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/s41576-019-0108-4</idno>
+		<ptr target="https://doi.org/10.1038/s41576-019-0108-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Genet</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="356" to="370" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces</title>
+		<author>
+			<persName><forename type="first">Checinska</forename><surname>Sielaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Urbaniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gbm</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1186/s40168-019-0666-x</idno>
+		<ptr target="https://doi.org/10.1186/s40168-019-0666-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">50</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">fastp: an ultra-fast all-in-one FASTQ preprocessor</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gu</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/bty560</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/bty560" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="884" to="890" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Antimicrobial resistance prediction for gram-negative bacteria via game theory-based feature evaluation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Chowdhury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Call</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Broschat</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-019-50686-z</idno>
+		<ptr target="https://doi.org/10.1038/s41598-019-50686-zPublished2019Oct9" />
+		<imprint>
+			<date type="published" when="2020-01-30">2020 Jan 30</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">14487</biblScope>
+		</imprint>
+	</monogr>
+	<note>published correction appears in Sci Rep Sci Rep. 2019</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Pathogen-Finder--distinguishing friend from foe using bacterial whole genome sequence data [published correction appears in</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cosentino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Voldby</forename><surname>Larsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Møller</forename><surname>Aarestrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0077302</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0077302" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">77302</biblScope>
+			<date type="published" when="2013">2013. 2013</date>
+		</imprint>
+	</monogr>
+	<note>PLoS One</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">International MetaSUB Consortium. A global metagenomic map of urban microbiomes and antimicrobial resistance</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Danko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bezdan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Afshin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ahsanuddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bhattacharya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Butler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">184</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="3376" to="3393" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Genetic and immunological evidence for microbial transfer between the international space station and an astronaut</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Danko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mozsary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Keshavarzian</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/2020.11.10.376954</idno>
+		<ptr target="https://doi.org/10.1101/2020.11.10.376954" />
+	</analytic>
+	<monogr>
+		<title level="j">bioRxiv</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">376954</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Tripartite assembly of RND multidrug efflux pumps</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Daury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Orange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Taveau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Verchere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Monlezun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gounou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">10731</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Identifying bacterial genes and endosymbiont DNA with Glimmer</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Delcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Bratke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Powers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Salzberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btm009</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/btm009" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="673" to="679" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Fatal family outbreak of Bacillus cereus-associated food poisoning</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dierick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Van Coillie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Swiecicka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Meyfroidt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="4277" to="4279" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Evaluation of physical and chemical changes in pharmaceuticals flown on space missions</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Daniels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Vaksman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Crady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Putcha</surname></persName>
+		</author>
+		<idno type="DOI">10.1208/s12248-011-9270-0</idno>
+		<ptr target="https://doi.org/10.1208/s12248-011-9270-0" />
+	</analytic>
+	<monogr>
+		<title level="j">AAPS J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="299" to="308" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Analysis of deletion mutations of the rpsL gene in the yeast Saccharomyces cerevisiae detected after longterm flight on the Russian space station Mir</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fukuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Takahashi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s1383-5742(00)00054-5</idno>
+		<ptr target="https://doi.org/10.1016/s1383-5742(00)00054-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Mutat Res</title>
+		<imprint>
+			<biblScope unit="volume">470</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="125" to="132" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The NASA twins study: a multidimensional analysis of a year-long human spaceflight</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Garrett-Bakelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Darshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Gur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Macias</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aau8650</idno>
+		<ptr target="https://doi.org/10.1126/science.aau8650" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">364</biblScope>
+			<biblScope unit="issue">6436</biblScope>
+			<biblScope unit="page">8650</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">QUAST: quality assessment tool for genome assemblies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gurevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Saveliev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vyahhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tesler</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btt086</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/btt086" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1072" to="1075" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">How to discover new antibiotic resistance genes?</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hadjadj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Baron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Diene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Rolain</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14737159.2019.1592678</idno>
+		<ptr target="https://doi.org/10.1080/14737159.2019.1592678" />
+	</analytic>
+	<monogr>
+		<title level="j">Expert Rev Mol Diagn</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="349" to="362" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Effects of microgravity on the virulence of Listeria monocytogenes, Enterococcus faecalis, Candida albicans, and methicillin-resistant Staphylococcus aureus</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stodieck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Birdsall</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/ast.2013.0986</idno>
+		<ptr target="https://doi.org/10.1089/ast.2013.0986" />
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1081" to="1090" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Using Genomics to Track Global Antimicrobial Resistance</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Hendriksen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bortolaia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Tyson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Aarestrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcdermott</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpubh.2019.00242</idno>
+		<ptr target="https://doi.org/10.3389/fpubh.2019.00242Published2019" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Public Health</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">242</biblScope>
+			<date type="published" when="2019-09-04">2019. Sep 4</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Long-term exposure to spaceflight conditions affects bacterial response to antibiotics</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Juergensmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Juergensmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Guikema</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microgravity Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">41</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">MetaBAT, an efficient tool for accurately reconstructing single genomes from complex microbial communities</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Froula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Egan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">e1165</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Spaceflight promotes biofilm formation by Pseudomonas aeruginosa</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">K</forename><surname>Tengra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Young</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">62437</biblScope>
+			<date type="published" when="2013-04-29">2013. 2013 Apr 29</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Hierarchical Hidden Markov models enable accurate and diverse detection of antimicrobial resistance sequences</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Lakin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kuhnle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Alipanahi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s42003-019-0545-9</idno>
+		<ptr target="https://doi.org/10.1038/s42003-019-0545-9Published2019Aug6" />
+	</analytic>
+	<monogr>
+		<title level="j">Commun Biol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">294</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Fulminant liver failure in association with the emetic toxin of Bacillus cereus</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mahler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Kramer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schulte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="1142" to="1148" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Investigation of Spaceflight Induced Changes to Astronaut Microbiomes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Thissen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Karouia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urbaniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2021.659179</idno>
+		<ptr target="https://doi.org/10.3389/fmicb.2021.659179" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">659179</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Microbial responses to microgravity and other low-shear environments</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nickerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ramamurthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/MMBR.68.2.345-361.2004</idno>
+		<ptr target="https://doi.org/10.1128/MMBR.68.2.345-361.2004" />
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol Mol Biol Rev</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="345" to="361" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">metaSPAdes: a new versatile metagenomic assembler</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nurk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Meleshko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Korobeynikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Pevzner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="824" to="834" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Roary: rapid large-scale prokaryote pan genome analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Cummins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Reuter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Holden</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btv421</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/btv421" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="3691" to="3693" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Parks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Imelfort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Skennerton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hugenholtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Tyson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1043" to="1055" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">First Report of Pathogenic Bacterium Kalamiella piersonii Isolated from Urine of a Kidney Stone Patient: Draft Genome and Evidence for Role in Struvite Crystallization</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Rekha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hameed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Map</forename><surname>Manzoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Suryavanshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Ghate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Arun</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/pathogens9090711</idno>
+		<idno type="PMID">32872396</idno>
+		<idno type="PMCID">PMC7558591</idno>
+		<ptr target="https://doi.org/10.3390/pathogens9090711" />
+	</analytic>
+	<monogr>
+		<title level="j">Pathogens</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">711</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Prediction of the intestinal resistome by a three-dimensional structure-based method</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ruppé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ghozlane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tap</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41564-018-0292-6</idno>
+		<ptr target="https://doi.org/10.1038/s41564-018-0292-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="112" to="123" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Prokka: rapid prokaryotic genome annotation</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Seemann</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btu153</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/btu153" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="2068" to="2069" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Karouia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40168-018-0585-2</idno>
+		<ptr target="https://doi.org/10.1186/s40168-018-0585-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">204</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Multi-drug resistant Enterobacter bugandensis species isolated from the International Space Station and comparative genomic analyses with human pathogenic strains</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bezdan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Checinska</forename><surname>Sielaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Venkateswaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">175</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Metagenome to phenome approach enables isolation and genomics characterization of Kalamiella piersonii gen. nov., sp. nov. from the International Space Station</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Mhatre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00253-019-09813-z</idno>
+		<ptr target="https://doi.org/10.1007/s00253-019-09813-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Microbiol Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="4483" to="4497" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Immune function during space flight</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sonnenfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Shearer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0899-9007(02)00903-6</idno>
+		<ptr target="https://doi.org/10.1016/s0899-9007(02)00903-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Nutrition</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="899" to="903" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Genome-based prediction of bacterial antibiotic resistance</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Satola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Read</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/JCM.01405-18</idno>
+		<ptr target="https://doi.org/10.1128/JCM.01405-18" />
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1405" to="1418" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Bacterial multidrug efflux pumps: mechanisms, physiology and pharmacological exploitations</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yan</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Biophys Res Commun</title>
+		<imprint>
+			<biblScope unit="volume">453</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="254" to="267" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Impact of space flight on bacterial virulence and antibiotic susceptibility</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno type="DOI">10.2147/IDR.S67275</idno>
+		<ptr target="https://doi.org/10.2147/IDR.S67275Published2015Jul30" />
+	</analytic>
+	<monogr>
+		<title level="j">Infect Drug Resist</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="249" to="262" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Study of minimal inhibitory concentration of antibiotics on bacteria cultivated in vitro in space (Cytos 2 experiment)</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tixador</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Richoilley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gasset</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aviat Space Environ Med</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="748" to="751" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Detection of antimicrobial resistance genes associated with the International Space Station environmental surfaces</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urbaniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Sielaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Frey</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-18506-4</idno>
+		<ptr target="https://doi.org/10.1038/s41598-017-18506-4Published2018Jan16" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">814</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">The influence of spaceflight on the astronaut salivary microbiome and the search for a microbiome biomarker for viral reactivation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urbaniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lorenzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Thissen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">56</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">International Space Station environmental microbiome -microbial inventories of ISS filter debris</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vaishampayan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cisneros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">O</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Perry</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00253-014-5650-6</idno>
+		<ptr target="https://doi.org/10.1007/s00253-014-5650-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Microbiol Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="6453" to="6466" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Non-Toxin-Producing Bacillus cereus Strains Belonging to the B. anthracis Clade Isolated from the International Space Station</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Checinska</forename><surname>Sielaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1128/mSystems.00021-17</idno>
+		<ptr target="https://doi.org/10.1128/mSystems.00021-17Published2017Jun27" />
+	</analytic>
+	<monogr>
+		<title level="j">mSystems</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="21" to="38" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Study of the impact of long-duration space missions at the International Space Station on the astronaut microbiome</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Voorhies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">9911</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Höner Zu Bentrup</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0707155104</idno>
+		<ptr target="https://doi.org/10.1073/pnas.0707155104" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">41</biblScope>
+			<biblScope unit="page" from="16299" to="16304" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Benchmarking software to predict antibiotic resistance phenotypes in shotgun metagenomes using simulated data</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Wissel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Talbot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Petit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hertzberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dunlop</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/2022.01.13.476279</idno>
+		<ptr target="https://doi.org/10.1101/2022.01.13.476279" />
+	</analytic>
+	<monogr>
+		<title level="j">bioRxiv</title>
+		<imprint>
+			<biblScope unit="volume">01</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page">476279</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Global Action Plan on Antimicrobial Resistance</title>
+		<ptr target="https://apps.who.int/iris/bitstream/handle/10665/193736/9789241509763_eng.pdf" />
+		<imprint>
+			<date type="published" when="2015-08-27">2015. 27 Aug 2021</date>
+			<publisher>World Health Organization</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">A large-scale evaluation of algorithms to calculate average nucleotide identity</title>
+		<author>
+			<persName><forename type="first">S-H</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S-M</forename><surname>Ha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kwon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chun</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10482-017-0844-4</idno>
+		<ptr target="https://doi.org/10.1007/s10482-017-0844-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Antonie Van Leeuwenhoek</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="1281" to="1286" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Identification of acquired antimicrobial resistance genes</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zankari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hasman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cosentino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Antimicrob Chemother</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="2640" to="2644" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Phenotypic Changes Exhibited by E. coli Cultured in Space</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Larsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Estante</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2017.01598</idno>
+		<ptr target="https://doi.org/10.3389/fmicb.2017.01598" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1598</biblScope>
+			<date type="published" when="2017-08-28">2017. 2017 Aug 28</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Fecal fusobacterium nucleatum for the diagnosis of colorectal tumor: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Med</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="480" to="491" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

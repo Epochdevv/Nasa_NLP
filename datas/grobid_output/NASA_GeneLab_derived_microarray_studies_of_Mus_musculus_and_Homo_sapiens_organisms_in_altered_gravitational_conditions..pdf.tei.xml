@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">NASA GeneLab derived microarray studies of Mus musculus and Homo sapiens organisms in altered gravitational conditions</title>
+				<funder ref="#_HBGRBYt">
+					<orgName type="full">Fulbright Foundation in Greece</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-04-26">2024-04-26</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Konstantinos</forename><forename type="middle">I</forename><surname>Adamopoulos</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Electrical and Computer Engineering</orgName>
+								<orgName type="institution" key="instit1">National Technical University of Athens</orgName>
+								<orgName type="institution" key="instit2">Biomedical Engineering Laboratory</orgName>
+								<address>
+									<settlement>Zografou Athens</settlement>
+									<country key="GR">Greece</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Space Biosciences Division</orgName>
+								<orgName type="institution" key="instit1">Blue Marble Space Institute of Science</orgName>
+								<orgName type="institution" key="instit2">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lauren</forename><forename type="middle">M</forename><surname>Sanders</surname></persName>
+							<idno type="ORCID">0000-0001-9393-0861</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Space Biosciences Division</orgName>
+								<orgName type="institution" key="instit1">Blue Marble Space Institute of Science</orgName>
+								<orgName type="institution" key="instit2">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">NASA Space Biosciences Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sylvain</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+							<idno type="ORCID">0000-0002-8542-2389</idno>
+						</author>
+						<title level="a" type="main">NASA GeneLab derived microarray studies of Mus musculus and Homo sapiens organisms in altered gravitational conditions</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">npj Microgravity</title>
+						<title level="j" type="abbrev">npj Microgravity</title>
+						<idno type="eISSN">2373-8065</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">10</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2024-04-26" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">5A53571EE9E0C7591F188F57E06F4330</idno>
+					<idno type="DOI">10.1038/s41526-024-00392-6</idno>
+					<note type="submission">Received: 3 December 2022; Accepted: 3 April 2024;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:43+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>One of the greatest challenges of humanity for deep space exploration is to fully understand how altered gravitational conditions affect human physiology. It is evident that the spaceflight environment causes multiple alterations to musculoskeletal, cardiovascular, immune and central nervous systems, to name a few known effects. To better characterize these biological effects, we compare gene expression datasets from microarray studies found in NASA GeneLab, part of the NASA Open Science Data Repository. In this review, we summarize these archived results for various tissues, emphasizing key genes which are highly reproducible in different mice or human experiments. Such exhaustive mining shows the potential of NASA Open Science data to identify and validate mechanisms taking place when mammalian organisms are exposed to microgravity or other spaceflight conditions. Our comparative meta-analysis findings highlight certain degrees of overlap and reproducibility in genes identified as differentially expressed within musculoskeletal tissues in each species across a variety of altered gravity conditions. However, the level of overlap between species was found to be significantly limited, partly attributed to the limited availability of human samples.</p><p>NASA GeneLab platform, part of the NASA Open Science Data Repository (OSDR; <ref type="url" target="https://osdr.nasa.gov/bio">https://osdr.nasa.gov/bio</ref>) constitutes an omics (e.g., genomics, transcriptomics, proteomics, metabolomics) interactive open-access database where users are able to upload, download, share, store and analyze data from spaceflight and space-relevant experiments. Approximately half of the datasets in the GeneLab repository consist of transcription profiling assays. The most prevalent transcription study assay type is microarray with RNA sequencing data being the fastest-growing assay in the database. Other assay types include genome sequencing, protein expression, metabolite profiling, epigenomics, metagenomics, and epitranscriptomics 1,2 .</p><p>There are still many unknown mechanisms regarding the biological effects taking place during spaceflight. Discovering these mechanisms is essential for NASA's goal to keep its astronauts healthy, especially with the planned human deep space exploration missions, which are near the horizon. From the very first space missions, it became evident that microgravity causes physiological changes to mammals, including significant abnormalities presented in the cardiovascular, immune, vestibular and musculoskeletal systems <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4</ref> . There are multiple and intricate hazards to human health and performance in spaceflight caused by a combination of environmental stressors such as gravitational alterations, ionizing radiation, high level of carbon dioxide, changes in diet and physiological stress. Appropriate countermeasures must be developed in order to effectively minimize the aforementioned impairments <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref> . Due to the small size of the astronaut cohort and privacy concerns surrounding human data collection and sharing, most spaceflight data originate from model organisms rather than Homo sapiens. An example of a model organism is Mus musculus, a suitable model for studying the effects of altered gravitational conditions. Current knowledge of the effects of spaceflight is derived from experimental models in vivo, ex vivo (e.g., tissue) and in vitro (e.g., cell culture) 8 .</p><p>Opportunities for actual microgravity experiments are rare and challenging to access due to the infrequency of spaceflights and the various associated restrictions, including expenses, equipment requirements, and the need for volunteers. Thus, space analogs, such as random positioning machines, clinostats, head-down bedrest, hindlimb unloading rodent</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>model, and rotating wall vessel, have been developed aiming to simulate altered gravity conditions <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref> .</p><p>In this study, we review the effects of microgravity and other spaceflight environmental factors on Homo sapiens and Mus musculus based on microarray studies and experiments housed in the NASA GeneLab repository <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> . We primarily focus on experiments that have been conducted in either actual or simulated microgravity in order to determine the affected functionalities at the gene, cellular or organ levels.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Review of effects of altered gravitational conditions on Mus musculus It has been shown that the central nervous system (CNS) of Mus musculus exhibits severe abnormalities after exposure to spaceflight. For example, neuroinflammation has been identified following ionizing radiation individually or combined with microgravity exposure <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13</ref> . Santucci et al. (OSD-33, <ref type="url" target="https://doi.org/10.26030/7btg-6q49">https://doi.org/10.26030/7btg-6q49</ref>) studied the effects on gene and protein expression level in mouse brain tissue following a 3-month mission on the International Space Station (ISS). They found that the expression of nerve growth factor (Ngf) was decreased in hippocampus, cortex and adrenal gland during spaceflight conditions, whereas brain-derived neurotrophic factor (Bdnf) did not show consistent changes across the brain regions and the adrenal gland. Both proteins are involved in learning and memory via regulating neural plasticity. Genes related to various metabolic and catabolic processes were downregulated as well, while proteins related to mitochondrial and calcium metabolism, synthesis and hydrolysis of ATP, and amino acid transportation were upregulated <ref type="bibr" target="#b13">14</ref> . Frigeri et al. (OSD-32, <ref type="url" target="https://doi.org/10.26030/jpyz-fn46">https://doi.org/10.26030/jpyz-fn46</ref>) performed mRNA expression analysis in brain tissue of mice that were hindlimb-unloaded for 2 weeks. Hindlimb unloading (HU) is a microgravity analog in which a rodent's hind limbs are suspended and in disuse. Genes related to the transport of small molecules and ions into cells were upregulated in the HU group. An increased risk of venous thrombosis, as well as changes in functional pathways such as immune response, learning and memory performance, and cell junction were also noted <ref type="bibr" target="#b14">15</ref> . Holley et al. (OSD-536, <ref type="url" target="https://doi.org/10.26030/bg5q-t229">https://doi.org/10.26030/bg5q- t229</ref>) highlighted significant alterations in gene expression profiles associated with neuronal function, immune regulation, growth and metabolic function in brain tissue of mice that were housed on the ISS for thirty-five days. In particular, genes supporting neuronal synaptic signaling and migration were significantly downregulated <ref type="bibr" target="#b15">16</ref> .</p><p>The detrimental consequences of microgravity exposure on the musculoskeletal system have also been extensively documented. Fitzgerald et al. (OSD-232, <ref type="url" target="https://doi.org/10.26030/9626-w275">https://doi.org/10.26030/9626-w275</ref>) studied articular and sternal cartilage from mice that had experienced spaceflight conditions for 30 days. Genes that encode structural extracellular matrix components, such as Fmod, Ogn, Omd, Dcn, Dpt, Prelp, Col10a1, Tsp4, and Comp were downregulated in articular cartilage. Proteoglycan levels were lowered in the spaceflight articular cartilage, while there was no proteoglycan loss in the sternal cartilage. The authors concluded that this is because in microgravity, articular cartilage experiences near-complete biomechanical unloading, but sternal cartilage still experiences biomechanical loading <ref type="bibr" target="#b16">17</ref> . Gambara et al. (OSD-135, <ref type="url" target="https://doi.org/10.26030/rjyq-x751">https://doi.org/10.26030/rjyq-x751</ref>) found that in longissimus dorsi from mice flown for 30 days on the BION-M1 biosatellite, genes linked to insulin sensitivity and metabolism of skeletal muscle were significantly dysregulated, while myofiber cross-sectional area and myosin heavy chain subtype patterns were not altered <ref type="bibr" target="#b17">18</ref> . Chakraborty et al. (OSD-396, <ref type="url" target="https://doi.org/10.26030/ce4f-xx71">https://  doi.org/10.26030/ce4f-xx71</ref>) examined the procedure of bone fracture healing (using a segmental bone defect model) in mice housed on the ISS for 4 weeks. Micro-computed tomography (μCT) analysis of callus tissue after spaceflight indicated increased trabecular spacing and decreased trabecular connectivity, while an apoptosis and cellular morbidity gene-network signal was activated in the spaceflight callus tissue compared to controls <ref type="bibr" target="#b18">19</ref> . Gambara et al. (OSD-111, <ref type="url" target="https://doi.org/10.26030/9580-9n52">https://doi.org/10.26030/9580-9n52</ref>) assessed changes in gene expression in mouse soleus and extensor digitorum longus following 30 days on the BION-M1 capsule. They identified differentially expressed genes related to key biological processes such as contractile machinery, calcium homeostasis, muscle development, cell metabolism, and inflammatory and oxidative stress response <ref type="bibr" target="#b7">8</ref> . Based on data from the same mice, Blottner et al. studied the Homer gene, which is thought to be downregulated during muscle atrophy. They found the short Homer1a isoform was upregulated, while the long Homer2 isoform was downregulated in the soleus muscle after microgravity exposure. This isoform sensitivity appears to be regulated by muscle activity or inactivity at the neuromuscular junction <ref type="bibr" target="#b19">20</ref> . Däpp et al. (OSD-228, <ref type="url" target="https://doi.org/10.26030/bfmx-z866">https://doi.org/10.26030/bfmx-z866</ref>) examined transcriptome alterations in soleus tissue of mice that underwent hindlimb suspension (HLS). HLS is a microgravity analog in which a rodent's hind limbs are suspended, resulting in disuse similar to microgravity exposure. They found increased myogenic factors, contractile genes, and metabolic genes during reloading, as well as indications that sarcomere regulation is sensitive to mechanic loading <ref type="bibr" target="#b20">21</ref> . Flück et al. recommended that especially in tissue plasticity studies, we should normalize gene expression levels using tissue-relevant references (e.g., muscle weight, volume, nuclear content) <ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22</ref> . Mazzati et al. (OSD-227, <ref type="url" target="https://doi.org/10.26030/vk0m-0558">https://doi.org/10.26030/vk0m-0558</ref>) also used HLS to detect differential expression of genes associated with lipid and glucose metabolism in soleus and gastrocnemius tissue <ref type="bibr" target="#b22">23</ref> . Allen et al. (OSD-21, <ref type="url" target="https://doi.org/10.25966/c36b-3g68">https://doi.org/10.25966/c36b-3g68</ref>) stated that spaceflight significantly alters expression of gastrocnemius tissue genes that are associated with muscle growth (e.g., phosphatidylinositol 3-kinase regulatory subunit p85a, MAFbx/atrogin1, insulin response substrate-1, and forkhead box O1 transcription factor) and muscle fiber type <ref type="bibr" target="#b23">24</ref> .</p><p>Furthermore, weightlessness causes a decrease in bone formation by osteoblasts and an increase in osteolytic functions of osteoclasts. Pardo et al. examined gene expression profiles of 2T3 preosteoblast cells to find genes particularly sensitive to gravity changes, and found that simulated microgravity downregulated alkaline phosphatase, run-related transcription factor 2, osteomodulin and parathyroid hormone receptor 1, while cathepsin K was upregulated <ref type="bibr" target="#b24">25</ref> . Patel et al. (OSD-30, <ref type="url" target="https://doi.org/10.25966/90vx-bf79">https://doi.org/10.25966/90vx-bf79</ref>) compared preosteoblast exposure to two different simulators of altered gravity: Rotating Wall Vessel and Random Positioning Machine. They found similar results from each method, including altered expression of the same 14 skeletal remodeling genes. In particular, they found inhibited alkaline phosphatase enzyme activity in both, demonstrating that both methods inhibit preosteoblast differentiation, consistent with microgravityinduced bone mass decrease. Parathyroid hormone-related protein (PthR1) involved in calcium mobilization and bone morphogenetic protein 4 (BMP4) associated with skeleton development (e.g., cartilage formation) were downregulated in the Rotating Wall Vessel conditions <ref type="bibr" target="#b25">26</ref> . The role of parathyroid hormone-related protein was also studied by Camirand et al. (OSD-107, <ref type="url" target="https://doi.org/10.26030/2x2z-6w28">https://doi.org/10.26030/2x2z-6w28</ref>) using trabecular and calvarial cells. They confirmed that PthR protein has anti-apoptotic function under microgravity, and as a result it could be defined as an anabolic agent to prevent cell death in trabecular osteoblasts <ref type="bibr" target="#b26">27</ref> . Uda et al. (OSD-324, <ref type="url" target="https://doi.org/10.26030/s7kj-h383">https://  doi.org/10.26030/s7kj-h383</ref>) studied altered gravity effects on osteocytic cell line Ocy454 for 2, 4 and 6 days onboard the ISS, concluding that glucose metabolism and oxygen consumption were increased during spaceflight <ref type="bibr" target="#b27">28</ref> . Wang et al. (OSD-547, <ref type="url" target="https://doi.org/10.26030/y2af-c498">https://doi.org/10.26030/y2af-c498</ref>) examined gene expression profiles of osteocyte-like cell line MLO-Y4 under simulated altered gravitational conditions via large gradient high magnetic field, showing that this environment affected the expression of genes related to enzyme, peptide, G-protein coupled receptors and glucose metabolic process <ref type="bibr" target="#b28">29</ref> . Sambandam et al. (OSD-18, <ref type="url" target="https://doi.org/10.25966/j6hy-d340">https://doi.org/10.25966/j6hy-d340</ref>) investigated the differentiation procedure of osteoclasts using a rotary cell culture system to simulate microgravity. In particular, they highlighted increased expression of genes associated with enhanced osteoclast differentiation and function, such as cytokines/growth factors, proteases and signaling proteins <ref type="bibr" target="#b29">30</ref> .</p><p>Osteoblast precursors such as Bone Marrow Stromal Cells (BMSC) are sensitive to mechanical loading. Monticone et al. (OSD-29, <ref type="url" target="https://doi.org/10.25966/6rr8-r017">https://doi.org/  10.25966/6rr8-r017</ref>) studied murine BMSC cultures that were onboard the ISS for 8 days, while half of them were stimulated with osteo-inductive <ref type="url" target="https://doi.org/10.1038/s41526-024-00392-6">https://doi.org/10.1038/s41526-024-00392-6</ref> medium. They found that cell proliferation was inhibited in spaceflight conditions and that differentially expressed genes were related to neural development, neuron morphogenesis, transmission of nerve impulse and synapse <ref type="bibr" target="#b30">31</ref> . Ortega et al. (OSD-50, <ref type="url" target="https://doi.org/10.26030/69kd-nx87">https://doi.org/10.26030/69kd-nx87</ref>) differentiated murine bone marrow cells (mBMC) in the presence of recombinant macrophage colony-stimulating factor (rM-CSF) for 14 days during spaceflight, detecting significant increase in cell proliferation and differential expression of genes related to the coagulation pathway. They found that the macrophages that differentiate during spaceflight express slightly different markers, and that the post-spaceflight population may be slightly more differentiated <ref type="bibr" target="#b31">32</ref> . In addition, Chapes and Ortega (OSD-50, <ref type="url" target="https://doi.org/10.26030/69kd-nx87">https://doi.org/  10.26030/69kd-nx87</ref>) highlighted the importance of ground-based experiments before spaceflight in order to assess macrophage differentiation <ref type="bibr" target="#b32">33</ref> .</p><p>Astronauts suffer from skin dryness, itching, coarsening of epidermis and decreased skin elasticity. Neutelings et al. (OSD-61, <ref type="url" target="https://doi.org/10.26030/2zjp-sj35">https://doi.org/10.  26030/2zjp-sj35</ref>) reported a fifteen percent reduction of dermal thickness of cutaneous tissue collected from mice exposed to spaceflight conditions for 90 days. They also reported deregulated hair follicle cycle and upregulated myogenesis <ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b34">35</ref> . Mao et al. (OSD-116, <ref type="url" target="https://doi.org/10.26030/ya5a-e896">https://doi.org/10.26030/ya5a-e896</ref>) confirmed the increased risk for pathophysiology damage and carcinogenesis in skin tissue during a 13-day spaceflight mission as they observed upregulation in cellular antioxidants, ROS production and tissue remodeling <ref type="bibr" target="#b35">36</ref> .</p><p>Weightlessness induces severe effects on the immune system as well. Lebsack et al. (OSD-4, <ref type="url" target="https://doi.org/10.25966/qq9p-pc28">https://doi.org/10.25966/qq9p-pc28</ref>) reported alterations in the expression of genes regulating stress, T-cell signaling activity and glucocorticoid receptors following the exposure of mice to spaceflight for 13 days. In particular, Rbm3, Ctla-4, IFN-a2a genes were upregulated and Hsph110, Hsp90aa1, Cxcl10, Strip1, Fkbp4m, and CD44 genes were downregulated in the thymus tissue of spaceflown mice <ref type="bibr" target="#b36">37</ref> .</p><p>Beheshti et al. <ref type="bibr" target="#b37">38</ref> utilized the NASA GeneLab database to analyze transcriptomic data from different rodent datasets (e.g., OSD-4, <ref type="url" target="https://doi.org/10.25966/qq9p-pc28">https://doi.  org/10.25966/qq9p-pc28</ref>, OSD-21, <ref type="url" target="https://doi.org/10.25966/c36b-3g68">https://doi.org/10.25966/c36b-3g68</ref>, OSD-25, <ref type="url" target="https://doi.org/10.25966/kzxa-s692">https://doi.org/10.25966/kzxa-s692</ref>, OSD-48, <ref type="url" target="https://doi.org/10.26030/jq04-0n51">https://doi.org/10.  26030/jq04-0n51</ref>, OSD-61, <ref type="url" target="https://doi.org/10.26030/2zjp-sj35">https://doi.org/10.26030/2zjp-sj35</ref>, OSD-63, <ref type="url" target="https://doi.org/10.26030/gsmt-8e70">https://doi.org/10.26030/gsmt-8e70</ref>, OSD-111, <ref type="url" target="https://doi.org/10.26030/9580-9n52">https://doi.org/10.26030/  9580-9n52</ref>), revealing critical genes, signaling pathways and circulating micro-RNA signatures as key biomarkers for astronauts' health. Particularly, they identified TP53 and transforming growth factor beta one (TGF-β1) as the most prevalent regulators across all tissues, and TGF-β1 was the most connected gene across all tissues, suggesting it is a key driver gene for spaceflight response <ref type="bibr" target="#b33">34</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Review of effects of altered gravitational conditions on Homo sapiens</head><p>Experiments of human muscle tissue exposed to microgravity validated the aforementioned findings concerning the musculoskeletal system's vulnerability to altered gravity. Chopard et al. (OSD-51, <ref type="url" target="https://doi.org/10.26030/3w73-jn41">https://doi.org/10.26030/  3w73-jn41</ref>) examined gene expression profiles of soleus and vastus lateralis muscles during long-term (60 days) bedrest conditions, as well as evaluating potential countermeasures such as protein supplementation and combined resistance-aerobic exercise. They reported an induction of metallothioneins, genes involved in antioxidant stress response, in the non-countermeasures groups. They also reported limited counteracting effects of the nutritional countermeasure, while aerobic training significantly counteracted the negative effects on muscle metabolism <ref type="bibr" target="#b38">39</ref> . Rullman et al. (OSD-198, <ref type="url" target="https://doi.org/10.26030/kcrr-p336">https://  doi.org/10.26030/kcrr-p336</ref>) added the hypoxia variable into the equation, studying effects on micro-RNA (miRNA) expression of horizontal bedrest with normal level of oxygen, bedrest in hypoxia, and ambulation in hypoxia. Few miRNAs were modestly differentially regulated, such as let-7, miR-15, miR-25, miR-199, and miR-133, thus only minor alterations could be detected. The Planetary Habitat Simulation study aimed to clarify biological effects of prolonged (21-day) musculoskeletal unloading combined with hypoxia. Rullman et al. (OSD-195, <ref type="url" target="https://doi.org/10.26030/r6bv-rk07">https://doi.org/10.26030/r6bv-rk07</ref>) identified upregulation of genes associated with denervation (e.g., acetylcholine receptor subunit delta and perinatal myosin) and a robust inhibition of the myocyte enhancer factor-2 (MEF2) family <ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b40">41</ref> . Alibegovic et al. (OSD-370, <ref type="url" target="https://doi.org/10.26030/zyy0-6497">https://doi.org/10.26030/zyy0-6497</ref>) investigated muscle biopsies taken from healthy young men before and after bedrest, in basal or insulin-stimulated states collected from vastus lateralis as well. They confirmed downregulation of mitochondrial function pathways and increased muscle insulin resistance induced by bedrest conditions, which were only partially recovered after muscle retraining <ref type="bibr" target="#b41">42</ref> .</p><p>In addition, several studies have aimed to determine how human bone marrow stem cells react and differentiate in altered gravitational conditions. Mayer-Wagner et al. (OSD-124, <ref type="url" target="https://doi.org/10.26030/6fwd-2p79">https://doi.org/10.26030/6fwd-2p79</ref>) studied how chondrogenesis is affected during simulated reduced gravity and low-frequency electromagnetic fields, concluding that microgravity conditions significantly downregulated COLXA1, COL2A1, and aggrecan, representing decreased chondrogenic potential <ref type="bibr" target="#b42">43</ref> . Bradamante et al. (OSD-546, <ref type="url" target="https://doi.org/10.26030/mg6a-qv31">https://doi.org/10.26030/mg6a-qv31</ref>) examined the effects in terms of growth and differentiation of human bone marrow stem cells (hBMSCs) housed on the ISS for 2 weeks. They identified upregulation of genes that are related to osteogenesis (BGLAP, CHRDL1, and SPP1) and metabolism of steroid hormones and vitamins A, D pathway (CYP19A1, CYP24A1, AKR1B1, HSD11B1). Cell proliferation, motility and cell-cell communication seemed also to be affected as evidenced by downregulation of CSNK2A2, ITGAV, NRCAM, and NRP2, while the RAB27b gene associated with microvesicle formation was significantly upregulated. Moreover, they reported stemness loss, no evidence of apoptosis or senescene, notable upregulation of collagen genes, and notable downregulation of matrix metallopeptidases <ref type="bibr" target="#b43">44</ref> .</p><p>Terada et al. (OSD-174, <ref type="url" target="https://doi.org/10.26030/6sg0-ng36">https://doi.org/10.26030/6sg0-ng36</ref>) analyzed data from a JAXA (Japan Aerospace Exploration Agency) experiment conducted on a 6-month mission on the ISS, where both hair follicles and shafts were collected from ten astronauts. They reported altered expression of genes associated with cell cycle disruption in hair follicles (e.g., COMP and CDK1) and hair growth (e.g., ANGPTL7 and FGF18) <ref type="bibr" target="#b44">45</ref> . Zhang et al. (OSD-118, <ref type="url" target="https://doi.org/10.26030/rcyt-qp10">https://doi.org/10.26030/rcyt-qp10</ref>) investigated miRNA expression in non-proliferating human fibroblast cells in response to spaceflight environment (ISS). Minor effects were observed on gene or miRNA expression on day 14, whilst most of the differentially expressed genes were related to cell growth on day 3 (see ref. 46). Lu et al. (OSD-114, <ref type="url" target="https://doi.org/10.26030/yssj-bg68">https://doi.org/10.  26030/yssj-bg68</ref>) studied human fibroblasts housed on ISS with and without treatment of bleomycin (a compound which induces DNA damage), to better understand the effects of microgravity on cellular DNA damage response. Although several genes were altered between treatment and control groups in flight and on Earth, including some of the same genes, there was no significant change when comparing flight treatment to Earth treatment. The authors also concluded that cell type and cell growth condition influence whether microgravity affects DNA damage response <ref type="bibr" target="#b46">47</ref> .</p><p>Spaceflight causes profound effects on lymphocyte functions that are well documented. Ward et al. (OSD-5, <ref type="url" target="https://doi.org/10.25966/qq4z-4m04">https://doi.org/10.25966/qq4z- 4m04</ref>) detected ten downregulated genes (e.g., GNLY, PSME2, PrX4, HLA-DRA, LY75, IL18, and DOCK2) related to immune response in activated T lymphocytes that were exposed to simulated microgravity (Rotating Wall Vessel) for 24 h <ref type="bibr" target="#b47">48</ref>  .26030/ r0md-de60, OSD-172, <ref type="url" target="https://doi.org/10.26030/jx41-b816">https://doi.org/10.26030/jx41-b816</ref>, OSD-188, <ref type="url" target="https://doi.org/10.26030/3jq1-s218">https://doi.org/10.26030/3jq1-s218</ref>) identified ATP6V1A/D, IGHD3-3/ IGHDE-10, and LINC00837 as genes that are significantly affected by gravity, as they investigated non-activated human Jurkat T cells in both microgravity and hypergravity conditions. They also found that chromosomal region 11p15.4 seems to be particularly robust to altered gravity <ref type="bibr" target="#b50">51,</ref><ref type="bibr" target="#b51">52</ref> . Vogel et al. and Tauber et al. focused on the effects of altered gravity on immune signaling, as captured by the OSD-283 (<ref type="url" target="https://doi.org/10.26030/ge2v-wr94">https://doi.org/  10.26030/ge2v-wr94</ref>) and OSD-297 (<ref type="url" target="https://doi.org/10.26030/bb5k-1h18">https://doi.org/10.26030/bb5k-1h18</ref>) datasets. In particular, Vogel et al. identified hypoxia-inducible factor 1 (HIF1) as a potential pharmacological target for counteracting deterioration of immune system, and PDK1 as sensitive in Jurkat T and U937 myelomonocytic cells exposed to altered gravitational conditions. In addition, Tauber et al. described well-regulated homeostasis and transcriptional stability of oxidative stress-related pathways <ref type="bibr" target="#b52">53,</ref><ref type="bibr" target="#b53">54</ref> . U937 myelomonocytic cells were also studied by Thiel et al. (OSD-283, <ref type="url" target="https://doi.org/10.26030/ge2v-wr94">https://doi.org/10.26030/ge2v- wr94</ref>, OSD-297, <ref type="url" target="https://doi.org/10.26030/bb5k-1h18">https://doi.org/10.26030/bb5k-1h18</ref>), who detected significant gene expression alterations after only 20 s of altered gravitational conditions (both microgravity and hypergravity). However, all initially differentially expressed transcripts adjusted rapidly afterward, verifying the existence of immediate adaptation mechanisms <ref type="bibr" target="#b54">55</ref> . Long noncoding RNAs (lncRNAs) and miRNAs seem to regulate effects, associated with apoptosis and immune response, in human lymphoblastoid TK6 cells under simulated microgravity and ionizing radiation according to Fu et al. (OSD-545, <ref type="url" target="https://doi.org/10.26030/7ta4-ga35">https://doi.org/10.26030/7ta4-ga35</ref>) <ref type="bibr" target="#b55">56</ref> .</p><p>Chakraborty et al. (OSD-54, <ref type="url" target="https://doi.org/10.26030/8mfb-wa73">https://doi.org/10.26030/8mfb-wa73</ref>) customized a cell culture module for human dermal microvascular endothelial cell growth in order to examine the impact of spaceflight environment on endothelial cells treated with lipopolysaccharide. They found that long-term lipopolysaccharide exposure resulted in a delayed host response, inefficient in pathogens' potential invasion <ref type="bibr" target="#b56">57</ref> . Human umbilical vein endothelial cells' exposure to microgravity showed significant altered transcripts related to oxidative phosphorylation, stress response, cell cycle and apoptosis. Findings from Versari et al. (OSD-52, <ref type="url" target="https://doi.org/10.26030/nt3p-p547">https://doi.org/10.  26030/nt3p-p547</ref>) suggested that microgravity affects inflammatory response and endothelial behavior, while promoting senescence <ref type="bibr" target="#b57">58</ref> .</p><p>Girardi et al. (OSD-55, <ref type="url" target="https://doi.org/10.26030/9thk-dv75">https://doi.org/10.26030/9thk-dv75</ref>, OSD-56, <ref type="url" target="https://doi.org/10.26030/nc96-xp67">https://doi.org/10.26030/nc96-xp67</ref>, OSD-128, <ref type="url" target="https://doi.org/10.26030/73sd-9a85">https://doi.org/10.26030/  73sd-9a85</ref>, OSD-129, <ref type="url" target="https://doi.org/10.26030/sec3-y188">https://doi.org/10.26030/sec3-y188</ref>) examined mRNA and miRNA expression profiles in peripheral blood lymphocytes (PBL) exposed to simulated microgravity through a miRNA-mRNA integration analysis, detecting effects on inflammatory response, apoptosis and cell proliferation decrease <ref type="bibr" target="#b58">59</ref> . Let-7i, miR-7, miR-7-1, miR-27a, miR-144, miR-200a, miR-598, and miR-650 were found to be deregulated in human PBLs exposed to radiation and simulated microgravity (Rotating Wall Vessel) <ref type="bibr" target="#b59">60</ref> . Wei et al. also investigated effects of simulated weightlessness on human PBLs. Microgravity seemed to inhibit DNA replication and downregulate DNA-repair gene, enhancing structural chromosome instability <ref type="bibr" target="#b60">61</ref> . Moreover, Fuentes et al. found that the effect of microgravity in cardiovascular progenitors is age-dependent, since endothelial and cardiomyogenic differentiation markers were highly expressed in adults whereas neonatal progenitors acquired dedifferentiating cellular features <ref type="bibr" target="#b61">62</ref> . In a recent study, Bisserier et al. investigated spaceflight effect on small extracellular vesicles (sEVs) isolated from three astronauts' blood plasma. Significant downregulation of miR-214, miR-128 and promotion of PRC2 complex activation and elevated H3K27me3 levels were observed in human cardiomyocytes during spaceflight, leading to epigenetic suppression of Vitamin D receptor expression <ref type="bibr" target="#b62">63</ref> .</p><p>The effects of altered gravitational conditions on lymphoblast leukemic cells and colorectal cancer cells were studied by Vidyasekar et al. (OSD-125, <ref type="url" target="https://doi.org/10.26030/6dnk-x507">https://doi.org/10.26030/6dnk-x507</ref>). They reported multiple microgravityinduced consequences observed in both cell lines such as reduced cell viability, altered cell morphology and diverging cell cycle. Dysregulation of oncogenes and cancer progression markers (JUNB, CD44, MYC and CD117) were detected as well <ref type="bibr" target="#b63">64</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparative analysis of microgravity effects on musculoskeletal systems</head><p>We present a differential gene expression analysis in response to microgravity vs control conditions. To gain insight into the molecular mechanisms underlying these conditions we generated volcano plots per each tissue which depict both the statistical significance and the level of differentially expressed genes (DEGs). In addition to that, we evaluated the Gene Ontology functions of the top over-expressed and underexpressed genes.</p><p>Figure <ref type="figure" target="#fig_1">1</ref> shows volcano plots of all musculoskeletal mouse muscle microarray datasets from OSDR. These plots show the variation and diversity of differential gene expression results even between the same types of muscle. For example, Fig. <ref type="figure" target="#fig_1">1b</ref>, g are both from gastrocnemius datasets but the differentially expressed genes and distribution are very different.</p><p>Figure <ref type="figure" target="#fig_3">2</ref> shows volcano plots for all human musculoskeletal microarray datasets from OSDR. Similar to the mouse datasets, there is widespread variation in both distribution and differentially expressed genes between datasets of the same tissue type.</p><p>We then evaluated the Gene Ontology functions of the genes that were significantly upregulated in four or more mouse musculoskeletal tissues across experiments: Fbxo32, Cdkn1a, Lcn2, Pnmt, Fkbp5, and Cebpd (Fig. <ref type="figure" target="#fig_2">3</ref>). We also evaluated the Gene Ontology functions of the genes that were significantly downregulated in four mouse musculoskeletal tissues across experiments: Col1a1 and Dbp (Fig. <ref type="figure" target="#fig_6">4</ref>). We performed a similar analysis using all datasets from human musculoskeletal tissue (Figs. <ref type="figure" target="#fig_5">5</ref> and <ref type="figure" target="#fig_4">6</ref>).</p><p>We further expanded the analysis by incorporating all available data from literature derived from the same tissue and organism, utilizing similar experimental conditions, without imposing any specific inclusion criteria (e.g. P value, log2-fold change). Consequently, we proceeded with the computation of Pearson correlation coefficients for all these genes across experiments that evaluated comparable factors. First, we investigated the concordance of gene expression levels between two male human bedrest experiments studying vastus lateralis tissue (OSD-195 and OSD-370). The most notable difference between these two datasets is that OSD-195 studied 21 days of bedrest while OSD-370 studied 9 days of bedrest. The correlation coefficient was calculated to assess the gene-by-gene relationship between the two datasets. Our analysis revealed a moderate positive correlation with a coefficient of 0.47. This indicates that there is a tendency for the gene expression levels to increase together across the two experiments.</p><p>We extended our investigation to include the OSD-51 experiment, female human bedrest study which shared 1225 common unique genes with both OSD-195 and OSD-370 experiments from the larger merged list of 17,402 genes. For OSD-51 compared to OSD-195, a correlation coefficient of 0.26 was observed, indicating a weak positive correlation between the gene expression levels of the two experiments. Similarly, between OSD-51 and OSD-370, a correlation coefficient of 0.23 was found, also indicating a weak positive correlation. However, notably, the correlation between OSD-195 and OSD-370 experiments was significantly higher, with a coefficient of 0.64, even using the reduced number of genes, indicating a moderate positive correlation. This suggests that these two experiments exhibit more similar gene expression patterns when compared to OSD-51. The increase in correlation between OSD-195 and OSD-370 compared to the larger merged dataset (Fig. <ref type="figure" target="#fig_7">7</ref>).</p><p>We then examined the correlation coefficient between two mouse gastrocnemius datasets (OSD-21 and OSD-227), focusing on 12,385 unique common genes. The greatest difference between these two experiments is that OSD-21 studied female mice flown on an 11-day space shuttle flight while OSD-227 studied male mice subjected to hindlimb suspension for 24 h. The calculated correlation coefficient was close to 0.2, falling within the range of a weak positive correlation.</p><p>We also calculated the correlation coefficient between OSD-227 soleus and OSD-111 soleus, where OSD-111 studied male mice flown on the BION-M1 biosatellite for 30 days. The Pearson correlation coefficient calculated for the shared genes between OSD-111 and OSD-227 was found to be 0.02 (Fig. <ref type="figure" target="#fig_9">8</ref>). This correlation coefficient indicates minimal linear relationship between the gene expression patterns in the two experiments.</p><p>Overall, we observe higher correlation coefficient between datasets which studied subjects of the same sex under similar experimental conditions. Several factors can contribute to the correlation coefficient, including biological variability, technical factors, and the complexity of gene expression regulation. Even with the same tissue and similar experimental conditions, gene expression can exhibit considerable variation between samples and experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Studies from spaceflight and ground analog experiments confirmed that altered gravity environment causes multiple physiological alterations to both mouse and human musculoskeletal, immune, cardiovascular, vestibular, integumentary, and nervous system, including biological processes such as metabolism of skeletal muscle, bone formation response, inflammatory response, apoptosis and cell proliferation in PBLs, impaired activation of T cells, stem cell differentiation, cell cycle disruption in hair follicles, neuron morphogenesis, neuronal synaptic signaling and migration, cell morphology and diverging cell cycle in cancer cell lines.</p><p>In our study, we initially incorporate all available literature data derived from the same tissue and organism with similar experimental conditions, without considering specific inclusion criteria. Subsequently, we computed Pearson correlation coefficients for all genes across experiments that evaluated comparable factors. Initially, we focused on Homo sapiens' Vastus lateralis tissue. The analysis revealed a moderate positive correlation indicating a tendency for gene expression levels to increase together across OSD-195 and OSD-370 experiments. We expanded our investigation to include the OSD-51 experiment. We observed a correlation coefficient of 0.26, showing a weak positive correlation between the gene expression levels between OSD-51 vs OSD-370, and OSD-51 vs OSD-195. However, the correlation between OSD-195 and OSD-370 experiments was notably higher, with a coefficient of 0.64, suggesting a more pronounced association and similarity in gene expression patterns when compared to OSD-51. The increased correlation between OSD-195 and OSD-370, despite a reduced number of common genes, indicates potential biologically relevant similarities between these two experiments, which may not be evident when considering the larger gene set. The calculated correlation coefficient between experiments regarding Mus musculus Gastrocnemius and Soleus tissues indicated weak positive and close to zero correlation, respectively. Furthermore, we were interested in characterizing how reproducible these experimental results are within each species. We focused on the musculoskeletal system for a comparative analysis because this physiological system contains the greatest number of comparable tissue types between human and mouse datasets. We evaluated the Gene Ontology functions of the genes that were significantly upregulated in 4 or more mouse musculoskeletal tissues across experiments: Fbxo32, Cdkn1a, Lcn2, Pnmt, Fkbp5, and Cebpd. This analysis revealed a consistent trend of  Genes with a log2-fold change above 1 are represented in red, signifying upregulated expression, while genes with a log2-fold change below -1 are depicted in blue, indicating downregulated expression. The horizontal dashed line corresponds to the adjusted P value threshold of less than 0.05, highlighting genes with statistically significant expression changes. upregulation of several biological processes including protein binding, ubiquitin activity and transferase activity in mouse muscle tissues exposed to microgravity. We also evaluated the Gene Ontology functions of the genes that were significantly downregulated in two mouse musculoskeletal tissues across experiments: Col1a1 and Dbp. This analysis shows consistent downregulation of several biological processes across experiments, including metal ion binding, DNA binding and RNA polymerase activity. Interestingly, several of the same biological processes were found to be associated with both upregulated genes and downregulated genes.</p><p>We performed a similar analysis using all datasets from human musculoskeletal tissue (Figs. <ref type="figure" target="#fig_5">5</ref> and <ref type="figure" target="#fig_4">6</ref>). There were fewer datasets to compare, and three upregulated and nine downregulated genes overlapped between    datasets. The CHRND gene (associated with acetylcholine binding, acetylcholine receptor activity, acetylcholine-activated cation-selective channel activity, ligand-gated ion channel activity), CHAD gene (related to protein kinase inhibitor activity), and RRAD gene (associated with GTP binding, GTPase activity, calmodulin binding, protein binding) were significant upregulated on two different human experiments, OSD-195 and OSD-370 both studying vastus lateralis tissue. The aforementioned experiments also share nine common downregulated genes MYOZ2 (associated with actin, and protein binding), COLQ (associated with protein binding), along with KLHL40, CA14, CASQ2, KLHL34, ACOT11, COQ10A, and PPP1R1C. Overall, in the human musculoskeletal datasets we find consistency in the biological process of protein binding. OSD-195 and OSD-370 have the greatest overlap, even though the other two datasets also studied the same tissue type.</p><p>It was challenging to perform a direct comparison between the human and mouse results, due to the small sample size in the human datasets. However, we did note that the protein binding Gene Ontology term was related to several upregulated mouse and downregulated human genes.</p><p>We assess gene expression results from a variety of tissues in both Mus musculus and Homo sapiens exposed to altered gravity in spaceflight or ground analogs. We report some overlap and reproducibility in genes identified as differentially expressed in musculoskeletal tissues within each species, and very limited overlap between species, partially due to the small amount of human samples. To ensure the comprehensiveness of our analysis, we took an inclusive approach by incorporating all relevant literature data derived from the same tissue and organism, with similar experimental conditions. This inclusive approach may help to identify potential patterns or trends across a wider range of studies, which may not be apparent when focusing solely on a subset of data. The elevated correlation observed between OSD-195 and OSD-370, despite a reduced number of shared genes, implies the presence of potential biologically relevant similarities between these two experiments. Further research is needed to understand which differentially expressed gene signatures from Mus musculus are truly reflective of Homo sapiens response to altered gravity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data and literature mining</head><p>We identified all the microarray studies and datasets housed in NASA GeneLab, part of the NASA Open Science Data Repository (<ref type="url" target="https://osdr.nasa.gov/bio">https://osdr.  nasa.gov/bio</ref>) by applying the following search filters: "Assay Type: Microarray", "Tissue: All", "Factor: All", "Organisms: Mus musculus OR Furthermore, the GeneLab repository federates search with the Gene Expression Omnibus (GEO) of National Center for Biotechnology Information (NCBI). The GeneLab repository encompasses the entirety of the relevant datasets present in the GEO database. A more comprehensive search had to be done though using the following query: "(microgravity OR spaceflight OR gravity) AND "Homo sapiens") and "(microgravity OR spaceflight OR gravity) AND "Mus musculus") and applying the following filter criteria: "Study type: Expression profiling by array". Academic research databases, such as PubMed, and ScienceDirect were also used with the keywords "microgravity and microarray", "spaceflight and microarray", "gravity and microarray" and "weightlessness and microarray". Because GeneLab ingests datasets from GEO and provides an option to search through the GEO database, no new datasets were found in this search, but research articles found in this search were used to inform the discussion section in this manuscript. We describe the differences and similarities between the findings of the original studies for each tissue type in Mus musculus and Homo sapiens.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Differential gene expression comparative meta-analysis on the musculoskeletal system</head><p>We also performed a comparative meta-analysis of differentially expressed genes from transcriptomics datasets between Mus musculus and Homo sapiens, specifically concentrated on the musculoskeletal system (Fig. <ref type="figure" target="#fig_10">9</ref>). This choice was driven by the fact that the musculoskeletal system encompasses a wide range of tissue types that are highly comparable between human and mouse datasets. By focusing on this physiological system, we aimed to evaluate the consistency of findings and identify commonly upregulated and downregulated genes within each species, as well as between the two species.</p><p>To demonstrate the concordance on a gene-by-gene level between experiments we calculated Pearson correlation coefficient between gene counts in different datasets from the same tissue type. To avoid duplicate genes per experiment we calculated the average expression value for each common gene and removed null values.</p><p>To identify differentially expressed genes that are reproducible between experiments, we focused on experiments which fulfill these inclusion criteria: (1) case-control study, (2) derived from musculoskeletal tissue of the same species, (3) untreated samples, (4) microgravity vs control group comparison. We identified in each study genes which were differentially expressed between microgravity-exposed samples and control samples with an adjusted P value (Benjamini-Hochberg method) threshold of below 0.05 and |log2FC| threshold above 1, which reflects a substantial change in gene expression.</p><p>The data preprocessing and differential expression analysis procedures were conducted using the R programming language. Normalization was performed using the affy or oligo packages in the R Bioconductor environment <ref type="bibr" target="#b64">[65]</ref><ref type="bibr" target="#b65">[66]</ref><ref type="bibr" target="#b66">[67]</ref> . Specifically, for the Affymetrix datasets, we employed the Robust Multiarray Analysis (RMA) algorithm through the R/Bioconductor packages affy and oligo which performs background correction, log2 transformation, quantile normalization, and the summarization of all probe sets into a single expression value for each gene. For the Agilent datasets, we performed normalization using the R/Bioconductor package limma. Following this preprocessing pipeline, each normalized dataset underwent quality control checks, incorporating an outlier removal approach. Quality control procedures were executed using the R/Bioconductor package arrayQualityMetrics, which involved generating boxplots of logarithm ratios, PCA and MA plots. Any samples identified as outliers in both MA and PCA plots during the quality control assessment were excluded from their respective datasets. Comparative meta-analysis findings highlight certain degrees of overlap and reproducibility in genes identified as differentially expressed within musculoskeletal tissues in each species.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>. Chang et al. (OSD-13, https://doi.org/10.26030/4an8-r968) studied T cells housed on the ISS and stimulated with the T-cell mitogen ConA and anti-CD28. They found impaired T-cell activation as well as profound downregulation of Rel/NF-κB, CREB, SRF and immediate early genes' expression, indicating very early effects of microgravity on T-cell gene expression 49 . Boonyaratanakornkit et al. (OSD-484, https://doi. org/10.26030/semj-9y19) revealed that Protein Kinase A (PKA) is a key regulator factor regarding NF-κB, AP-1, CREB and T-cell activation in simulated microgravity 50 . Thiel et al. (OSD-189, https://doi.org/10</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 |</head><label>1</label><figDesc>Fig. 1 | Volcano plots showing gene expression between microgravity and control conditions in mouse muscle datasets. a OSD-21 calf; b OSD-21 gastrocnemius; c OSD-125 tongue; d OSD-111 soleus; e OSD-135 longissimus dorsi; f OSD-111 extensor digitorum longus; g OSD-227 gastrocnemius; h OSD-227 soleus. Genes with a log2-fold change above 1 are represented in red, signifying upregulated expression, while genes with a log2-fold change below -1 are depicted in blue, indicating downregulated expression. The horizontal dashed line corresponds to the adjusted P value threshold of less than 0.05, highlighting genes with statistically significant expression changes.</figDesc><graphic coords="5,51.48,49.72,497.99,421.91" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 |</head><label>3</label><figDesc>Fig.3| Gene Ontology functions of all differentially expressed genes upregulated in four or more tissue types in mouse musculoskeletal datasets. Dark green shadowed genes are differentially expressed in five tissue types; light green shadowed genes are differentially expressed in four tissue types. sc sternal cartilage, ld longissimus dorsi, sol soleus, edl extensor digitorum longus, g gastrocnemius.</figDesc><graphic coords="6,213.28,395.77,347.98,284.37" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 2 |</head><label>2</label><figDesc>Fig. 2 | Volcano plots showing gene expression between microgravity and control conditions in human muscle datasets. a OSD-51 soleus; b OSD-51 vastus lateralis; c OSD-370 vastus lateralis; d OSD-195 vastus lateralis.Genes with a log2-fold change above 1 are represented in red, signifying upregulated expression, while genes with a log2-fold change below -1 are depicted in blue, indicating downregulated expression. The horizontal dashed line corresponds to the adjusted P value threshold of less than 0.05, highlighting genes with statistically significant expression changes.</figDesc><graphic coords="6,213.28,47.79,347.98,312.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 6 |</head><label>6</label><figDesc>Fig.6| Gene Ontology functions of all differentially expressed genes downregulated in two human musculoskeletal datasets. MYOZ2, COLQ, KLHL40, CA14, CASQ2, KLHL34, ACOT11, COQ10A, and PPP1R1C downregulated genes in Homo sapiens' vastus lateralis tissues appear to be involved in multiple enriched GO terms.</figDesc><graphic coords="7,213.28,290.89,347.98,106.53" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5 |</head><label>5</label><figDesc>Fig. 5 | Gene Ontology functions of differentially expressed genes upregulated in two human musculoskeletal datasets. CHRND, CHAD, and RRAD upregulated genes in Homo sapiens' vastus lateralis tissues appear to be involved in multiple enriched GO terms.</figDesc><graphic coords="7,213.28,194.23,347.98,64.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 4 |</head><label>4</label><figDesc>Fig.4| Gene Ontology functions of all differentially expressed genes downregulated in four tissue types in mouse musculoskeletal datasets. sc sternal cartilage, ld longissimus dorsi, sol soleus, edl extensor digitorum longus, g gastrocnemiussc sternal cartilage, t tongue, ld longissimus dorsi, sol soleus, sol soleus, g gastrocnemius, edl extensor digitorum longus.</figDesc><graphic coords="7,213.28,47.79,347.98,114.69" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 7 |</head><label>7</label><figDesc>Fig. 7 | Forest plot depicting the correlation coefficients for four comparisons including OSD-195 vs OSD-370, OSD-51 vs OSD-195, OSD-51 vs OSD-370, and OSD-195 vs OSD-370 from a larger merged dataset (17402 genes) in Homo sapiens.The correlation coefficient for each comparison is represented by a black point on the line. The dashed vertical line at the center denotes the point of no correlation (correlation coefficient = 0). The confidence level employed for computing the confidence intervals (CIs) is configured to be 95%, equivalent to an alpha level of 0.05.</figDesc><graphic coords="7,237.26,440.22,324.00,215.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><figDesc>Human (Homo sapiens)". The search was limited to studies published up to January 2023 to ensure the inclusion of the most recent research. We obtained the following datasets: OSD-4, OSD-18, OSD-21, OSD-29, OSD-30, OSD-32, OSD-33, OSD-50, OSD-61, OSD-79, OSD-80, OSD-87, OSD-88, OSD-89, OSD-93, OSD-94, OSD-107, OSD-109, OSD-111, OSD-116, OSD-117, OSD-131, OSD-135, OSD-148, OSD-153, OSD-156, OSD-158, OSD-159, OSD, 160, OSD-183, OSD-202, OSD-222, OSD-232, OSD-227, OSD-228, OSD-324, OSD-342, OSD-396, OSD-432, OSD-455, from Mus musculus and OSD-5, OSD-9, OSD-13, OSD-51, OSD-52, OSD-54, OSD-55, OSD-56, OSD-71, OSD-73, OSD-78, OSD-92, OSD-114, OSD-115, OSD-118, OSD-124, OSD-125, OSD-128, OSD-129, OSD-130, OSD-140, OSD-149, OSD-152, OSD-151, OSD-154, OSD-155, OSD-157, OSD-172, OSD-174, OSD-175, OSD-176, OSD-178, OSD-182, OSD-188, OSD-189, OSD-195, OSD-198, OSD-283, OSD-285, OSD-297, OSD-317, OSD-354, OSD-367, OSD-368, OSD-369, OSD-370, OSD-410, OSD-484, OSD-542, OSD-544, OSD-545, OSD-546 from Homo sapiens.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 8 |</head><label>8</label><figDesc>Fig.8| The figure displays the correlation coefficients for two comparisons including OSD-21 vs OSD-227 (Gastrocnemius), OSD-111 vs OSD-227 (Soleus) in Mus musculus. The correlation coefficient for each comparison is represented by a black point on the line. The dashed vertical line at the center denotes the point of no correlation (correlation coefficient = 0). The confidence level employed for computing the confidence intervals (CIs) is configured to be 95%, equivalent to an alpha level of 0.05.</figDesc><graphic coords="8,213.28,47.79,347.98,218.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 9 |</head><label>9</label><figDesc>Fig.9| An overview of the effects of altered gravity environment on various physiological aspects in both mouse and human systems incudes musculoskeletal, immune, cardiovascular, vestibular, integumentary, and nervous system alterations. Comparative meta-analysis findings highlight certain degrees of overlap and reproducibility in genes identified as differentially expressed within musculoskeletal tissues in each species.</figDesc><graphic coords="9,237.26,47.79,324.00,218.38" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>npj Microgravity | (2024) 10:49</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>https://doi.org/10.1038/s41526-024-00392-6</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work was supported by both the <rs type="funder">Fulbright Foundation in Greece</rs> and the <rs type="grantName">Fulbright Program fellowship</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_HBGRBYt">
+					<orgName type="grant-name">Fulbright Program fellowship</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>Data used in the preparation during the current research article were obtained from NASA GeneLab Open Science Data Repository (OSDR; osdr.nasa.gov/bio). (Accession codes, DOIs): (OSD-33, <ref type="url" target="https://doi.org/10.26030/7btg-6q49">https://doi.org/10.   26030/7btg-6q49</ref>), (OSD-32, <ref type="url" target="https://doi.org/10.26030/jpyz-fn46">https://doi.org/10.26030/jpyz-fn46</ref>), (OSD-536, <ref type="url" target="https://doi.org/10.26030/bg5q-t229">https://doi.org/10.26030/bg5q-t229</ref>), (OSD-232, <ref type="url" target="https://doi.org/10.26030/9626-w275">https://doi.org/10.  26030/9626-w275</ref>), (OSD-135, <ref type="url" target="https://doi.org/10.26030/rjyq-x751">https://doi.org/10.26030/rjyq-x751</ref>), (OSD-396, <ref type="url" target="https://doi.org/10.26030/ce4f-xx71">https://doi.org/10.26030/ce4f-xx71</ref>), (OSD-111, <ref type="url" target="https://doi.org/10.26030/9580-9n52">https://doi.org/  10.26030/9580-9n52</ref>), (OSD-228, <ref type="url" target="https://doi.org/10.26030/bfmx-z866">https://doi.org/10.26030/bfmx-z866</ref>), (OSD-227, <ref type="url" target="https://doi.org/10.26030/vk0m-0558">https://doi.org/10.26030/vk0m-0558</ref>), (OSD-21, <ref type="url" target="https://doi.org/10.25966/c36b-3g68">https://doi.org/  10.25966/c36b-3g68</ref>), (OSD-30, <ref type="url" target="https://doi.org/10.25966/90vx-bf79">https://doi.org/10.25966/90vx-bf79</ref>), (OSD-107, <ref type="url" target="https://doi.org/10.26030/2x2z-6w28">https://doi.org/10.26030/2x2z-6w28</ref>), (OSD-324, <ref type="url" target="https://doi.org/10.26030/s7kj-h383">https://doi.  org/10.26030/s7kj-h383</ref>), (OSD-547, <ref type="url" target="https://doi.org/10.26030/y2af-c498">https://doi.org/10.26030/y2af-c498</ref>), (OSD-18, <ref type="url" target="https://doi.org/10.25966/j6hy-d340">https://doi.org/10.25966/j6hy-d340</ref>), (OSD-29, <ref type="url" target="https://doi.org/10.25966/6rr8-r017">https://doi.org/  10.25966/6rr8-r017</ref>), (OSD-50, <ref type="url" target="https://doi.org/10.26030/69kd-nx87">https://doi.org/10.26030/69kd-nx87</ref>), (OSD-61, <ref type="url" target="https://doi.org/10.26030/2zjp-sj35">https://doi.org/10.26030/2zjp-sj35</ref>), (OSD-116, <ref type="url" target="https://doi.org/10.26030/ya5a-e896">https://doi.org/  10.26030/ya5a-e896</ref>), (OSD-4, <ref type="url" target="https://doi.org/10.25966/qq9p-pc28">https://doi.org/10.25966/qq9p-pc28</ref>), (OSD-25, <ref type="url" target="https://doi.org/10.25966/kzxa-s692">https://doi.org/10.25966/kzxa-s692</ref>), (OSD-48, <ref type="url" target="https://doi.org/10.26030/jq04-0n51">https://doi.org/  10.26030/jq04-0n51</ref>), (OSD-63, <ref type="url" target="https://doi.org/10.26030/gsmt-8e70">https://doi.org/10.26030/gsmt-8e70</ref>), (OSD-51, <ref type="url" target="https://doi.org/10.26030/3w73-jn41">https://doi.org/10.26030/3w73-jn41</ref>), (OSD-198, <ref type="url" target="https://doi.org/10.26030/kcrr-p336">https://doi.org/  10.26030/kcrr-p336</ref>), (OSD-195, <ref type="url" target="https://doi.org/10.26030/r6bv-rk07">https://doi.org/10.26030/r6bv-rk07</ref>), (OSD-370, <ref type="url" target="https://doi.org/10.26030/zyy0-6497">https://doi.org/10.26030/zyy0-6497</ref>), (OSD-124, <ref type="url" target="https://doi.org/10.26030/6fwd-2p79">https://doi.  org/10.26030/6fwd-2p79</ref>), (OSD-546, <ref type="url" target="https://doi.org/10.26030/mg6a-qv31">https://doi.org/10.26030/mg6a- qv31</ref>), (OSD-174, <ref type="url" target="https://doi.org/10.26030/6sg0-ng36">https://doi.org/10.26030/6sg0-ng36</ref>), (OSD-118, <ref type="url" target="https://doi.org/10.26030/rcyt-qp10">https://  doi.org/10.26030/rcyt-qp10</ref>), (OSD-114, <ref type="url" target="https://doi.org/10.26030/yssj-bg68">https://doi.org/10.26030/yssj- bg68</ref>), (OSD-5, <ref type="url" target="https://doi.org/10.25966/qq4z-4m04">https://doi.org/10.25966/qq4z-4m04</ref>), (OSD-13, <ref type="url" target="https://doi.org/10.26030/4an8-r968">https://  doi.org/10.26030/4an8-r968</ref>), (OSD-484, <ref type="url" target="https://doi.org/10.26030/semj-9y19">https://doi.org/10.26030/semj- 9y19</ref>), (OSD-189, <ref type="url" target="https://doi.org/10.26030/r0md-de60">https://doi.org/10.26030/r0md-de60</ref>), (OSD-172, <ref type="url" target="https://doi.org/10.26030/jx41-b816">https://doi.org/10.26030/jx41-b816</ref>), (OSD-188, <ref type="url" target="https://doi.org/10.26030/3jq1-s218">https://doi.org/10.26030/  3jq1-s218</ref>), (OSD-283, <ref type="url" target="https://doi.org/10.26030/ge2v-wr94">https://doi.org/10.26030/ge2v-wr94</ref>), (OSD-297, <ref type="url" target="https://doi.org/10.26030/bb5k-1h18">https://doi.org/10.26030/bb5k-1h18</ref>), (OSD-545, <ref type="url" target="https://doi.org/10.26030/7ta4-ga35">https://doi.org/10.26030/  7ta4-ga35</ref>), (OSD-54, <ref type="url" target="https://doi.org/10.26030/8mfb-wa73">https://doi.org/10.26030/8mfb-wa73</ref>), (OSD-52, <ref type="url" target="https://doi.org/10.26030/nt3p-p547">https://doi.org/10.26030/nt3p-p547</ref>), (OSD-55, <ref type="url" target="https://doi.org/10.26030/9thk-dv75">https://doi.org/10.26030/  9thk-dv75</ref>), (OSD-56, <ref type="url" target="https://doi.org/10.26030/nc96-xp67">https://doi.org/10.26030/nc96-xp67</ref>), (OSD-128, <ref type="url" target="https://doi.org/10.26030/73sd-9a85">https://doi.org/10.26030/73sd-9a85</ref>), (OSD-129, <ref type="url" target="https://doi.org/10.26030/sec3-y188">https://doi.org/10.26030/  sec3-y188</ref>), (OSD-125, <ref type="url" target="https://doi.org/10.26030/6dnk-x507">https://doi.org/10.26030/6dnk-x507</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Code availability</head><p>The code for the bioinformatics methods can be made available upon reasonable request to the corresponding author.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Omics database for spaceflight experiments</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1753" to="1759" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">NASA GeneLab: interfaces for the exploration of space omics data</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Berrios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Galazka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Grigorev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gebre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1515" to="D1522" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Gravitational influence on human living systems and the evolution of species on Earth</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Adamopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Koutsouris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zaravinos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Lambrou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">2784</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">9-The impact of gravity on life</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Morey-Holton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Evolution on Planet Earth</title>
+		<editor>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Rothschild</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Lister</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="143" to="159" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Global transcriptomic analysis suggests carbon dioxide as an environmental stressor in spaceflight: a systems biology GeneLab case study</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cekanaviciute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">4191</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Validating causal diagrams of human health risks for spaceflight: an example using bone data from rodents</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Reynolds</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomedicines</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">2187</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Rad-Bio-App: a discovery environment for biologists to explore spaceflight-related radiation exposures</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Barker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">15</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Gene expression profiling in slow-type calf soleus muscle of 30 days space-flown mice</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gambara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">169314</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Hindlimb unloading rodent model: technical aspects</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Morey-Holton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Globus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="1367" to="1377" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Facilities for simulation of microgravity in the ESA ground-based facility programme</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brungs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microgravity Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="191" to="203" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Comparison of microgravity analogs to spaceflight in studies of plant growth and development</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Kiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wolverton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Wyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Hasenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J W A</forename><surname>Van Loon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">485372</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Stress response and humoral immune system alterations related to chronic hypergravity in mice</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Guéguinou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychoneuroendocrinology</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="137" to="147" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Neuro-consequences of the spaceflight environment</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Mhatre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurosci. Biobehav. Rev</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="908" to="935" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Evaluation of gene, protein and neurotrophin expression in the brain of mice exposed to space environment for 91 days</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Santucci</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">40112</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Effect of microgravity on gene expression in mouse brain</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Frigeri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp. Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="289" to="300" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Characterization of gene expression profiles in the mouse brain after 35 days of spaceflight mission</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Holley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">35</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Articular cartilage and sternal fibrocartilage respond differently to extended microgravity</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fitzgerald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Endicott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Janowitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">3</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Microgravity-induced transcriptome adaptation in mouse paraspinal longissimus dorsi muscle highlights insulin resistance-linked genes</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gambara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">279</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Gene-metabolite networks associated with impediment of bone fracture repair in spaceflight</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chakraborty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Struct. Biotechnol. J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="3507" to="3520" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Reciprocal Homer1a and Homer2 isoform expression is a key mechanism for muscle soleus atrophy in spaceflown mice</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Blottner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">75</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Transcriptional profiling of tissue plasticity: role of shifts in gene expression and technical limitations</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Flück</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Däpp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schmutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hoppeler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="397" to="413" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Transcriptional reprogramming and ultrastructure during atrophy and recovery of mouse soleus muscle</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Däpp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schmutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hoppeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Flück</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Genomics</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="97" to="107" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Muscle unloading-induced metabolic remodeling is associated with acute alterations in PPARδ and UCP-3 expression</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mazzatti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Genomics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="149" to="161" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Effects of spaceflight on murine skeletal muscle gene expression</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Allen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="582" to="595" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Simulated microgravity using the random positioning machine inhibits differentiation and alters gene expression profiles of 2T3 preosteoblasts</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Pardo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol. Cell Physiol</title>
+		<imprint>
+			<biblScope unit="volume">288</biblScope>
+			<biblScope unit="page" from="1211" to="C1221" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Identification of mechanosensitive genes in osteoblasts by comparative microarray studies using the rotating wall vessel and the random positioning machine</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Patel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biochem</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="587" to="599" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The role of parathyroid hormone-related protein (PTHrP) in osteoblast response to microgravity: mechanistic implications for osteoporosis development</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Camirand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">160034</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Global transcriptomic analysis of a murine osteocytic cell line subjected to spaceflight</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Uda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">21578</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">GeneChip expression profiling reveals the alterations of energy metabolism related genes in osteocytes under large gradient high magnetic fields</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">116359</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Microarray profile of gene expression during osteoclast differentiation in modelled microgravity</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sambandam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biochem</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="1179" to="1187" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Activation of nervous system development genes in bone marrow derived mesenchymal stem cells following spaceflight exposure</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Monticone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pujic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cancedda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biochem</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="442" to="452" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Evaluation of in vitro macrophage differentiation during space flight</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chapes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1441" to="1455" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Understanding macrophage differentiation during space flight: the importance of ground-based experiments before space flight</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chapes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ortega</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Recent Pat. Space Technol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="40" to="47" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Change in skin physiological parameters in space-report on and results of the first study on man</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tronnier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wiebusch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Heinrich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ski. Pharm. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="283" to="292" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Skin physiology in microgravity: a 3-month stay aboard ISS induces dermal atrophy and affects cutaneous muscle and hair follicles cycling in mice</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Neutelings</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">15002</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Biological and metabolic response in STS-135 space-flown mouse skin</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">W</forename><surname>Mao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Free Radic. Res</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="890" to="897" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Microarray analysis of spaceflown murine thymus tissue reveals changes in gene expression regulating stress and glucocorticoid receptors</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Lebsack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biochem</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="372" to="381" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">A microRNA signature and TGF-β1 response were identified as the key master regulators for spaceflight response</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fogle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Berrios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Large-scale mRNA analysis of female skeletal muscles during 60 days of bed rest with and without exercise or dietary protein supplementation as countermeasures</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chopard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Genomics</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="291" to="302" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">MEF2 as upstream regulator of the transcriptome signature in human skeletal muscle during unloading</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rullman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fernandez-Gonzalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">B</forename><surname>Mekjavić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gustafsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Eiken</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol. Regulatory, Integr. Comp. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">315</biblScope>
+			<biblScope unit="page" from="R799" to="R809" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">planetary habitat simulation): the combined and separate effects of 21 days bed rest and hypoxic confinement on human skeletal muscle miRNA expression</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rullman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">B</forename><surname>Mekjavic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Eiken</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Planhab</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Rep</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">12753</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Insulin resistance induced by physical inactivity is associated with multiple transcriptional changes in skeletal muscle in young men</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Alibegovic</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41526-024-00392-6</idno>
+		<ptr target="https://doi.org/10.1038/s41526-024-00392-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol. Endocrinol. Metab</title>
+		<imprint>
+			<biblScope unit="volume">299</biblScope>
+			<biblScope unit="page" from="752" to="E763" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Effects of single and combined low frequency electromagnetic fields and simulated microgravity on gene expression of human mesenchymal stem cells during chondrogenesis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mayer-Wagner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Med. Sci</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="608" to="616" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">SCD-stem cell differentiation toward osteoblast onboard the international space station</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bradamante</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microgravity Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="713" to="729" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Effects of a closed space environment on gene expression in hair follicles of astronauts in the international space station</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Terada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Transient gene and microRNA expression profile changes of confluent human fibroblast cells in spaceflight</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="2211" to="2224" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Cellular responses and gene expression profile changes due to bleomycin-induced DNA damage in human fibroblasts in space</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Gene expression alterations in activated human T-cells induced by modeled microgravity</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Pellis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Risin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Risin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biochem</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="1187" to="1202" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The Rel/NF-κB pathway and transcription of immediate early genes in T cell activation are inhibited by microgravity</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Leukoc. Biol</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="1133" to="1145" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Key gravity-sensitive signaling pathways drive T-cell activation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Boonyaratanakornkit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="2020" to="2022" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Stability of gene expression in human T cells in different gravity environments is clustered in chromosomal region 11p15.4</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Thiel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">22</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Dynamic gene expression response to altered gravity in human cells</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Thiel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">5204</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Expression of hypoxia-inducible factor 1α (HIF-1α) and genes of related pathways in altered gravity</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vogel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">436</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Transcriptional homeostasis of oxidative stress-related pathways in altered gravity</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tauber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Christoffel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Thiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ullrich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">2814</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Rapid coupling between gravitational forces and the transcriptome in human myelomonocytic U937 cells</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Thiel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">13267</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Effect of simulated microgravity and ionizing radiation on expression profiles of miRNA, lncRNA, and mRNA in human lymphoblastoid cells</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Life Sci. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">An integrated omics analysis: impact of microgravity on host response to lipopolysaccharide in vitro</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chakraborty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">659</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">The challenging environment on board the International Space Station affects endothelial cell function by triggering oxidative stress through thioredoxin interacting protein overexpression: the ESA-SPHINX experiment</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Versari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Longinotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Barenghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A M</forename><surname>Maier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bradamante</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="4466" to="4475" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Integration analysis of microRNA and mRNA expression profiles in human peripheral blood lymphocytes cultured in modeled microgravity</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Girardi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed. Res. Int</title>
+		<imprint>
+			<biblScope unit="volume">2014</biblScope>
+			<biblScope unit="page">296747</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Analysis of miRNA and mRNA expression profiles highlights alterations in ionizing radiation response of human lymphocytes under modeled microgravity</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Girardi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Experimental study on effect of simulated microgravity on structural chromosome instability of human peripheral blood lymphocytes</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Simulated microgravity exerts an age-dependent effect on the differentiation of cardiovascular progenitors isolated from the human heart</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">I</forename><surname>Fuentes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Astronauts plasma-derived exosomes induced aberrant EZH2-mediated H3K27me3 epigenetic regulation of the vitamin D receptor</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bisserier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Cardiovasc. Med</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">855181</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Genome wide expression profiling of cancer cell lines cultured in microgravity reveals significant dysregulation of cell cycle and microRNA gene networks</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vidyasekar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1" to="20" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">A framework for oligonucleotide microarray preprocessing</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Irizarry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="2363" to="2367" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">limma powers differential expression analyses for RNA-sequencing and microarray studies</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Ritchie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="47" to="e47" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">affy-analysis of Affymetrix GeneChip data at the probe level</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gautier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Bolstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Irizarry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="307" to="315" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

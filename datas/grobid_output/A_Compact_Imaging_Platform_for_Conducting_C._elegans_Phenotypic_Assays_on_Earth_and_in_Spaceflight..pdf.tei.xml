@@ -1,0 +1,2144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Compact Imaging Platform for Conducting C. elegans Phenotypic Assays on Earth and in Spaceflight</title>
+				<funder ref="#_a2hAHHm">
+					<orgName type="full">NIH Office of Research Infrastructure Programs</orgName>
+				</funder>
+				<funder ref="#_vYaJpcg">
+					<orgName type="full">NASA</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>MDPI AG</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-01-10">10 January 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Taslim</forename><surname>Anupom</surname></persName>
+							<idno type="ORCID">0000-0001-8944-9004</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Electrical Engineering</orgName>
+								<orgName type="institution">Texas Tech University</orgName>
+								<address>
+									<postCode>79409</postCode>
+									<settlement>Lubbock</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Siva</forename><forename type="middle">A</forename><surname>Vanapalli</surname></persName>
+							<email>siva.vanapalli@ttu.edu</email>
+							<idno type="ORCID">0000-0001-6036-1949</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Chemical Engineering</orgName>
+								<orgName type="institution">Texas Tech University</orgName>
+								<address>
+									<postCode>79409</postCode>
+									<settlement>Lubbock</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Compact Imaging Platform for Conducting C. elegans Phenotypic Assays on Earth and in Spaceflight</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Life</title>
+						<title level="j" type="abbrev">Life</title>
+						<idno type="eISSN">2075-1729</idno>
+						<imprint>
+							<publisher>MDPI AG</publisher>
+							<biblScope unit="volume">13</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<biblScope unit="page">200</biblScope>
+							<date type="published" when="2023-01-10">10 January 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">23D890DB29614E334745EAB910FFDE04</idno>
+					<idno type="DOI">10.3390/life13010200</idno>
+					<note type="submission">Received: 12 July 2022 Revised: 11 December 2022 Accepted: 30 December 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T10:09+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>C. elegans</term>
+					<term>phenotyping</term>
+					<term>microfluidics</term>
+					<term>spaceflight imaging</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The model organism Caenorhabditis elegans is used in a variety of applications ranging from fundamental biological studies, to drug screening, to disease modeling, and to space-biology investigations. These applications rely on conducting whole-organism phenotypic assays involving animal behavior and locomotion. In this study, we report a 3D printed compact imaging platform (CIP) that is integrated with a smart-device camera for the whole-organism phenotyping of C. elegans. The CIP has no external optical elements and does not require mechanical focusing, simplifying the optical configuration. The small footprint of the system powered with a standard USB provides capabilities ranging from plug-and-play, to parallel operation, and to housing it in incubators for temperature control. We demonstrate on Earth the compatibility of the CIP with different C. elegans substrates, including agar plates, liquid droplets on glass slides and microfluidic chips. We validate the system with behavioral and thrashing assays and show that the phenotypic readouts are in good agreement with the literature data. We conduct a pilot study with mutants and show that the phenotypic data collected from the CIP distinguishes these mutants. Finally, we discuss how the simplicity and versatility offered by CIP makes it amenable to future C. elegans investigations on the International Space Station, where science experiments are constrained by system size, payload weight and crew time. Overall, the compactness, portability and ease-of-use makes the CIP desirable for research and educational outreach applications on Earth and in space.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Whole-organism phenotypic assays are a foundational tool for basic biology investigations, drug screening and disease-focused studies <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref>. The nematode Caenorhabditis elegans is particularly relevant for phenotypic screening due to its small size (≈1 mm), fast reproductive cycle (≈3 days), short lifespan (≈3 weeks), amenability to genetic manipulation and significant translational relevance <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>. Its small size and ease of culture offer the ability to phenotype large populations offering statistical power, which can be a challenge with vertebrate models. Whole-organism phenotypic readouts in C. elegans typically involve examining animal behavior, locomotory prowess and survival in response to changes in environment <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref>.</p><p>The numerous advantages that underscore the use of C. elegans as a genetic model on Earth also translate to its use in spaceflight as a cost-effective organism to understand the mechanisms underlying the effects of microgravity and radiation exposure on astronaut health. Indeed, C. elegans have been flown several times to the International Space Station (ISS) <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref>. The conducting of animal experiments on the ISS is associated with stringent operational requirements on payload size, weight, crew time and safety <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22]</ref>. C. elegans offers a facile means to address these requirements, making it an efficient model for spacebiology investigations.</p><p>Standard microscopes have been the workhorse for image-based whole-organism phenotyping in C. elegans. The need to increase assay throughout and reduce costs has led to the development of a variety of bespoke imaging solutions. Approaches range from the use of scanners for parallel imaging of nematodes on agar plates <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b23">24]</ref> to compact do-ityourself (DIY) systems based on Raspberry Pi cameras <ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref> and smartphones <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29]</ref>. Scanners offer a convenient means to increase C. elegans assay throughout, but are bulky and generate heat that requires significant customization to maintain temperature during the assay <ref type="bibr" target="#b22">[23]</ref>. The Raspberry Pi camera approach offers on-board computation, making it attractive; however, it requires an external display for viewing and keyboard, which can be cumbersome, especially for ISS experiments.</p><p>The smartphone microscopy approach has promise to create compact, portable C. elegans imaging systems with high-resolution displays and on-board computation. Current methods focus on high-magnification and multi-contrast imaging of C. elegans, lending to the inclusion of optical and mechanical elements <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29]</ref>. These elements increase the complexity of the optical configuration and system size/weight. Considerations on power requirements, parallel experimentation and assay temperature control have received less attention, which are essential for spaceflight studies. Since C. elegans assays are conducted in a variety of substrates, compatibility with these substrates will broaden the utility of such compact systems. Finally, thorough validation and mutant phenotypic data needs to be generated from smartphone microscopy studies that will lower barriers for adoption in research and educational settings.</p><p>In this study, we report a small foot-print smart-device imaging system called Compact Imaging Platform (CIP) that can acquire videos of C. elegans in agar plates, liquid droplets on a glass slide and microfluidic devices. The system has no external optical or mechanical elements, thereby reducing the complexity for imaging. The CIP is powered by USB and can be housed in standard incubators offering a plug-and-play approach for science investigations on Earth and in space. We conducted validation and mutant studies on Earth to show the promise of CIP for C. elegans phenotypic assays.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Results and Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Description of the Compact Imaging Platform and Its Components</head><p>Design considerations such as light weight, compactness and low power consumption are not only relevant for Earth-based C. elegans applications, but become essential for spaceflight studies. For example, the ISS is a closed environment with limited workspace for conducting experimental investigations; moreover, payload size and weight become crucial factors dictating whether an experiment should be launched. Considering these needs, we designed and built a compact imaging platform (CIP). As shown in Figure <ref type="figure" target="#fig_0">1</ref>, CIP is a small unit with length L = 7.5 , width W = 4.5 and height, H = 5.5 , occupying a footprint area of ≈34 in 2 and weighing ≈ 700 g. The footprint is primarily determined by the need to accommodate the smartphone system, a fan for temperature control and the C. elegans substrate. The mechanical design of the CIP is simple. It consists of two sections made from Polyamide 12 nylon material and printed using a multi-jet fusion 3D printer (HUBS, Chicago, IL, USA). The two sections are connected by hinges that allows their opening and closing (Figure <ref type="figure" target="#fig_1">1a</ref>). The top section houses the iPod Touch camera (Apple Inc, Cupertino, CA, USA), and the bottom section houses the C. elegans substrate, 6500 k pure white LED lights (Power Practical Inc., Salt Lake City, UT, USA) and a 6000-rpm cooling fan (Wathai, China) (Figure <ref type="figure" target="#fig_1">1b</ref>). Thin rectangular slots of 20 mm × 2 mm are provided on the top and bottom sections, acting as air vents to achieve thermal equilibrium when the CIP is placed in a temperature-controlled environment. The thermal management system of the CIP works independently of the gravitational environment (ground or microgravity), due to active cooling and proper ventilation present in the system.</p><p>The imaging configuration of the CIP involves dark-field imaging of C. elegans samples by using a fixed-height illumination source and the iPod Touch camera. The white LED lights in the bottom section are secured along the four walls, providing sidewise illumination to the specimen. No external optical elements or mechanical focusing is needed, making the design simple and user friendly. Autofocusing is achieved using a 3rd-party app (FiLMiC Pro, Seattle, WA, USA) on the iPod Touch. This app also allows for adjustment of the magnification, field of view and frame rate of video acquisition. The fixed focal distance configuration gives a field of view of 15 mm × 23 mm to 38 mm × 68 mm depending on the optical 3x zoom available on the app. Videos can be acquired at 1080p resolution with a frame rate of 3-30 fps, or time-lapse imaging can be performed with a delay ranging from 1-60 s. The mechanical design of the CIP is simple. It consists of two sections made from Polyamide 12 nylon material and printed using a multi-jet fusion 3D printer (HUBS, Chicago, IL, USA). The two sections are connected by hinges that allows their opening and closing (Figure <ref type="figure" target="#fig_1">1a</ref>). The top section houses the iPod Touch camera (Apple Inc, Cupertino, CA, USA), and the bottom section houses the C. elegans substrate, 6500 k pure white LED lights (Power Practical Inc., Salt Lake City, UT, USA) and a 6000-rpm cooling fan (Wathai, China) (Figure <ref type="figure" target="#fig_1">1b</ref>). Thin rectangular slots of 20 mm × 2 mm are provided on the top and bottom sections, acting as air vents to achieve thermal equilibrium when the CIP is placed in a temperature-controlled environment. The thermal management system of the CIP works independently of the gravitational environment (ground or microgravity), due to active cooling and proper ventilation present in the system.</p><p>The imaging configuration of the CIP involves dark-field imaging of C. elegans samples by using a fixed-height illumination source and the iPod Touch camera. The white LED lights in the bottom section are secured along the four walls, providing sidewise illumination to the specimen. No external optical elements or mechanical focusing is needed, making the design simple and user friendly. Autofocusing is achieved using a 3rd-party app (FiLMiC Pro, Seattle, WA, USA) on the iPod Touch. This app also allows for adjustment of the magnification, field of view and frame rate of video acquisition. The fixed focal distance configuration gives a field of view of 15 mm × 23 mm to 38 mm × 68 mm depending on the optical 3x zoom available on the app. Videos can be acquired at 1080p resolution with a frame rate of 3-30 fps, or time-lapse imaging can be performed with a delay ranging from 1-60 s.</p><p>A smart-device camera such as the iPod Touch was chosen not only because of its ease of use on Earth, but also because of the specific advantages it provides for C. elegans experiments on the ISS. Unlike bulky conventional microscopy systems, it is a compact integrated imaging system that not only has optical elements for visualization, but also has a display (rather than a computer monitor) that allows the crew to inspect the animals and image quality. Additionally, the iPod Touch has the capacity to store up to ≈250 GB worth of data, allowing for recording of up to ≈810,000 images which enables short-term (e.g., about 1800 movies of 1.5 min duration at 5 fps) and long-term behavioral assays (e.g., about 45 h at 5 fps). Image acquisition aspects such as autofocusing and video capture rate can be easily controlled using the installed app. Finally, conducting science experiments with specialized hardware on the ISS requires significant astronaut training; however, the crew is familiar with using smartphone devices and associated apps, making our smart-device approach crew-friendly for spaceflight experiments.</p><p>The CIP, integrated with the smart-device camera, is a 3 W (5 V, 0.6 A) low-powered system that can be battery operated if needed. The electrical requirement involves powering the LED lights and the cooling fan. Both elements are powered by a 5 V USB wall charger and a USB Type-A to Type-A cable. We chose this method because battery packs are available that can directly power our CIP using USB cables. This makes the CIP unit portable for field, educational and outer space applications. Thus, the operational simplicity of the CIP makes it attractive, compared to standard microscopes, to pursue phenotypic studies in C. elegans on Earth and for spaceflight studies.</p><p>A major advantage of the USB-powered CIP unit is that multiple units can be powered simultaneously using a multi-port hub without the need for individual wall chargers (Figure <ref type="figure" target="#fig_1">1c</ref>). In addition, a programmable timer can be added that controls illumination intervals for long-term assays. The plug-and-play nature of the CIP and its small footprint allows the parallel operation of several units inside a standard incubator (Figure <ref type="figure" target="#fig_1">1d</ref>) with desired temperature control. This new capability allows multiple assays with the same or different strains to be conducted simultaneously in the same substrate or in different substrates (plates, microfluidic chips etc.). The ability to house the CIP in an incubator is also conducive for spaceflight investigations, as the ISS accommodates several incubators. For example, the Space Automated Bioproducts Laboratory (BioServe Space Technologies, Boulder, CO, USA) is a dual-function freezer/incubator that supports life-sciences experiments on the ISS with a temperature control of -5 to 43 • C and accommodates 2 USB ports <ref type="bibr" target="#b29">[30]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Compatibility of the CIP with Different C. elegans Substrates</head><p>Phenotypic assays in C. elegans often involve imaging animals placed on a variety of substrates, ranging from agar plates to liquid drops on glass slides to microfluidic devices. Here, we imaged wild-type animals crawling on agar plates, which is a translucent medium of thickness ≈ 5 mm (Figure <ref type="figure" target="#fig_3">2a</ref>); animals swimming in sessile liquid drops of peak height ≈ 2 mm that partially wet a glass-slide (Figure <ref type="figure" target="#fig_3">2b</ref>); and animals crawling in a microfluidic pillar chip that is filled with a liquid (Figure <ref type="figure" target="#fig_3">2c</ref>) <ref type="bibr" target="#b11">[12]</ref>. Each of these substrates have different refractive indices, optical path lengths and interfaces, which can alter the transmission of light and therefore can affect image contrast. Versatile imaging systems need to be capable of visualizing animals in these different substrates. We therefore tested the ability of the CIP to obtain sufficient-quality images when adult animals are housed in different substrates. An important aspect of image-based assays in C. elegans is the analysis of images to quantify phenotypic readouts. Standard image processing techniques, for example, based on thresholding the intensity of the target objects against background intensity, work best when there is sufficient intensity contrast between the object and the background, and the objects occupy enough pixels for successful detection. Figure <ref type="figure" target="#fig_2">2</ref> shows representative images obtained from the three substrates using the CIP. We find that the images from these substrates are of sufficient quality such that the adult animals can be easily segmented using standard image processing software (ImageJ <ref type="bibr" target="#b30">[31,</ref><ref type="bibr" target="#b31">32]</ref>, wrMTrck plugin <ref type="bibr" target="#b32">[33]</ref>). Under optimal imaging conditions, we find day 1 gravid adults to occupy 50 pixels when housed in the three substrates. This resolution allows these animals to be segmented easily against the background. Because of the field of view and the types of substrates, we find that the CIP is well suited to obtain phenotypic data from 20-50 animals, with the largearena microfluidic chip providing data on more animals. An important aspect of image-based assays in C. elegans is the analysis of images to quantify phenotypic readouts. Standard image processing techniques, for example, based on thresholding the intensity of the target objects against background intensity, work best when there is sufficient intensity contrast between the object and the background, and the objects occupy enough pixels for successful detection. Figure <ref type="figure" target="#fig_2">2</ref> shows representative images obtained from the three substrates using the CIP. We find that the images from these substrates are of sufficient quality such that the adult animals can be easily segmented using standard image processing software (ImageJ <ref type="bibr" target="#b30">[31,</ref><ref type="bibr" target="#b31">32]</ref>, wrMTrck plugin <ref type="bibr" target="#b32">[33]</ref>). Under optimal imaging conditions, we find day 1 gravid adults to occupy ≈50 pixels when housed in the three substrates. This resolution allows these animals to be segmented easily against the background. Because of the field of view and the types of substrates, we find that the CIP is well suited to obtain phenotypic data from ≈20-50 animals, with the large-arena microfluidic chip providing data on more animals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Controlling CIP Temperature during C. elegans Assays</head><p>C. elegans' behavior and survival is sensitive to temperature <ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref>. In addition, assays purposefully expose animals to different temperatures to investigate genes or compounds that impact thermotolerance <ref type="bibr" target="#b36">[37,</ref><ref type="bibr" target="#b37">38]</ref>. Thus, C. elegans assays necessitate control over the environmental temperature. Often, the agar plates or microfluidic devices are kept in a temperature-controlled incubator and taken out for imaging on standard microscopes at room temperature. Alternatively, the temperature of these C. elegans substrates are controlled by passive or active thermal management strategies. Scanners use fans to control temperature <ref type="bibr" target="#b22">[23]</ref>, while some studies have used Peltier elements integrated with microfluidic devices assays <ref type="bibr" target="#b38">[39]</ref>.</p><p>The small size of the CIP system allows it to be placed in a temperature-controlled incubator (Figure <ref type="figure" target="#fig_1">1d</ref>). The design of the CIP makes it an enclosed system housing the C. elegans substrates, since the top section (containing the smart-device camera) is brought in contact with the bottom section during imaging. The Initial trials showed that the main internal source of heat that the C. elegans substrates experience in the CIP is the radiant energy from the array of LED lights in the bottom section, which leads to an increase in temperature. To address this issue, we created ventilation slots in the enclosure and installed a cooling fan at the left wall of the bottom section. The forced convection from the cooling fan draws air from the ambient and distributes it through the ventilation slots.</p><p>To test the ability to control the temperature of the C. elegans substrate housed in the CIP, we conducted experiments in which the system was placed in the incubator along with two temperature data loggers-one in the LED chamber and the other on the microfluidic chip (Figure <ref type="figure" target="#fig_5">3a</ref>). This experiment was conducted for three set temperatures of 15 • C, 20 • C, and 25 • C of the incubator, and measurements were taken for 24 h. As shown in Figure <ref type="figure" target="#fig_5">3b</ref>,<ref type="figure">c</ref>, in less than 2 h, the temperature stabilizes for all three set temperature conditions, with a variation that is less than 0.5 • C. We also note that the CIP temperature is about 1 • C above the set temperature, due to local heating, which can be compensated by lowering the incubator temperature. Thus, adequate temperature control can be achieved for C. elegans assays using the CIP.</p><p>Life 2023, 13, x FOR PEER REVIEW 6 of 15</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Controlling CIP Temperature during C. elegans Assays</head><p>C. elegans' behavior and survival is sensitive to temperature <ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref>. In addition, assays purposefully expose animals to different temperatures to investigate genes or compounds that impact thermotolerance <ref type="bibr" target="#b36">[37,</ref><ref type="bibr" target="#b37">38]</ref>. Thus, C. elegans assays necessitate control over the environmental temperature. Often, the agar plates or microfluidic devices are kept in a temperature-controlled incubator and taken out for imaging on standard microscopes at room temperature. Alternatively, the temperature of these C. elegans substrates are controlled by passive or active thermal management strategies. Scanners use fans to control temperature <ref type="bibr" target="#b22">[23]</ref>, while some studies have used Peltier elements integrated with microfluidic devices assays <ref type="bibr" target="#b38">[39]</ref>.</p><p>The small size of the CIP system allows it to be placed in a temperature-controlled incubator (Figure <ref type="figure" target="#fig_1">1d</ref>). The design of the CIP makes it an enclosed system housing the C. elegans substrates, since the top section (containing the smart-device camera) is brought in contact with the bottom section during imaging. The Initial trials showed that the main internal source of heat that the C. elegans substrates experience in the CIP is the radiant energy from the array of LED lights in the bottom section, which leads to an increase in temperature. To address this issue, we created ventilation slots in the enclosure and installed a cooling fan at the left wall of the bottom section. The forced convection from the cooling fan draws air from the ambient and distributes it through the ventilation slots.</p><p>To test the ability to control the temperature of the C. elegans substrate housed in the CIP, we conducted experiments in which the system was placed in the incubator along with two temperature data loggers-one in the LED chamber and the other on the microfluidic chip (Figure <ref type="figure" target="#fig_5">3a</ref>). This experiment was conducted for three set temperatures of 15 °C, 20 °C, and 25 °C of the incubator, and measurements were taken for 24 h. As shown in Figure <ref type="figure" target="#fig_5">3b</ref>, <ref type="figure">c</ref>, in less than 2 h, the temperature stabilizes for all three set temperature conditions, with a variation that is less than 0.5 °C. We also note that the CIP temperature is about 1 °C above the set temperature, due to local heating, which can be compensated by lowering the incubator temperature. Thus, adequate temperature control can be achieved for C. elegans assays using the CIP.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Validation of the CIP with Behavioral Assays on Different C. elegans Substrates</head><p>The CIP is a simple-to-use phenotyping system for C. elegans assays. In this section, we validate the system by performing standard behavioral assays on plates, liquid drops and microfluidic chips. We initially tested wild-type animals on Nematode Growth Media (NGM) plates to quantitate the locomotory readouts (Figure <ref type="figure" target="#fig_6">4</ref>) obtained from the CIP and compare them with the data reported in literature. The CIP set up was similar to that shown in Figure <ref type="figure" target="#fig_3">2a</ref>. Videos were recorded for 5 min at 10 fps, and data were analyzed with the wrMTrck plugin in ImageJ. Figure <ref type="figure" target="#fig_7">4a</ref> shows the trajectory overlay that provides a qualitative visualization of the animal behavior on plates (Refer to SI Video 1 for processed video). We extracted the average forward speed and body wave frequency, and found the values to be ≈0.14 mm/s and ≈0.39 Hz (Figure <ref type="figure" target="#fig_7">4d</ref>,<ref type="figure">e</ref>). These values are close to the reported values of ≈0.20 mm/s and ≈0.30 Hz in the literature <ref type="bibr" target="#b39">[40,</ref><ref type="bibr" target="#b40">41]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Validation of the CIP with Behavioral Assays on Different C. elegans Substrates</head><p>The CIP is a simple-to-use phenotyping system for C. elegans assays. In this section, we validate the system by performing standard behavioral assays on plates, liquid drops and microfluidic chips. We initially tested wild-type animals on Nematode Growth Media (NGM) plates to quantitate the locomotory readouts (Figure <ref type="figure" target="#fig_6">4</ref>) obtained from the CIP and compare them with the data reported in literature. The CIP set up was similar to that shown in Figure <ref type="figure" target="#fig_3">2a</ref>. Videos were recorded for 5 min at 10 fps, and data were analyzed with the wrMTrck plugin in ImageJ. Figure <ref type="figure" target="#fig_7">4a</ref> shows the trajectory overlay that provides a qualitative visualization of the animal behavior on plates (Refer to SI Video 1 for processed video). We extracted the average forward speed and body wave frequency, and found the values to be 0.14 mm/s and 0.39 Hz (Figure <ref type="figure" target="#fig_7">4d</ref>,<ref type="figure">e</ref>). These values are close to the reported values of 0.20 mm/s and 0.30 Hz in the literature <ref type="bibr" target="#b39">[40,</ref><ref type="bibr" target="#b40">41]</ref>.  Next, we tested the same animals in microfluidic chips that have an array of micropillars arranged in a square lattice, with a gap of 90 µm between pillars. Videos were recorded for 5 min at 10 fps. Figure <ref type="figure" target="#fig_7">4b</ref> shows the trajectory overlay of animals crawling in the microfluidic chip (Refer to SI Video 2 for processed video). The average forward speed and body wave frequency were found to be ≈0.10 mm/s and ≈0.25 Hz (Figure <ref type="figure" target="#fig_7">4d</ref>,<ref type="figure">e</ref>). In pillar arenas, the forward speed and body frequency depend on the pillar lattice arrangement and the animal confinement between the pillars <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b41">42,</ref><ref type="bibr" target="#b42">43]</ref>. Our locomotory data from the CIP is in good agreement with that of Rahman et al. <ref type="bibr" target="#b13">[14]</ref>, who reported values of ≈0.13 mm/s and ≈0.21 Hz.</p><p>We also tested the same animals in a liquid drop on a glass slide with eight Teflon wells 8 mm in diameter. We transferred three animals in 25 µL of NGM liquid. Videos were recorded for 5 min at 10 fps. Figure <ref type="figure" target="#fig_7">4c</ref> shows the trajectory of the overlay of animals swimming in the liquid drop (Refer to SI Video 3 for processed video). The average forward speed and body wave frequency were found to be ≈2.30 mm/s and ≈1.68 Hz (Figure <ref type="figure" target="#fig_7">4d</ref>,<ref type="figure">e</ref>). This swim data are close to the reported values of ≈2.71 mm/s and ≈1.76 Hz in the literature <ref type="bibr" target="#b39">[40]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Phenotypic Studies with Mutants</head><p>C. elegans has been an invaluable model organism for identifying the genetic basis of behavior and locomotion. There are many mutants that have been identified and classified based on automated image analysis, creating a behavioral database <ref type="bibr" target="#b43">[44,</ref><ref type="bibr" target="#b44">45]</ref>. Since the CIP can accommodate a variety of C. elegans substrates, it could be a useful tool to perform phenotypic studies with mutants. Here, we conduct a pilot study with a wild type and two mutants-unc-32(e189) and unc-79(e1068). Hierarchical clustering showed that these two mutants exist in a different phenotypic space in the behavioral database <ref type="bibr" target="#b44">[45]</ref>, thus forming a testbed to evaluate the capabilities of the CIP.</p><p>The unc-32 gene encodes the alpha subunit of a vacuolar ATP-ase (v-ATPase), an ATPdependent proton pump which functions to regulate neurotransmitter trafficking through synaptic vesicles and cell acidification <ref type="bibr" target="#b45">[46]</ref>. The unc-32(e189) mutation results in a reverse ventral coiling phenotype in the posterior region of the animals. Likewise, the unc-79 gene encodes a large cytosolic protein that is thought to regulate the post transcriptional processing of key voltage-gated sodium and calcium channels <ref type="bibr" target="#b46">[47,</ref><ref type="bibr" target="#b47">48]</ref>. The unc-79(e1068) loss-of-function mutation results in a "fainting" phenotype that presents as repeating episodes of short bursts of normal movement that abruptly, but momentarily, stops <ref type="bibr" target="#b48">[49]</ref>. Such unc-79 mutants have also shown to be defective in their ability to transition from crawling to swimming <ref type="bibr" target="#b49">[50]</ref>, a subtle behavioral phenotype that was previously undetectable using classical behavioral metrics. The unc-32(e189) was previously characterized using plate-based methods and has not been assessed in any other environment. We conducted thrashing and behavioral assays with the wild type and mutant animals to determine whether these assays, conducted with the CIP, could identify phenotypic differences.</p><p>Figure <ref type="figure" target="#fig_8">5</ref> shows the thrashing frequency for the three strains, which was scored manually from the 1 min videos acquired from the CIP at 10 fps. The thrashing frequency of wild type, unc-32(e189) and unc-79(e1068) is ≈1.57, 0.07 and 1.29, respectively, indicating that mutants have swim defects compared to wildtype, and unc-32(e189) has the strongest swim deficiency. The value of the thrashing frequency for unc-79(e1068) obtained from the CIP is in good agreement with that found in literature <ref type="bibr" target="#b49">[50,</ref><ref type="bibr" target="#b50">51]</ref>.</p><p>Next, we studied the crawling behavior of these strains in the microfluidic chip. Since the microfluidic approach allows for the convenient removal and addition of reagents <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b51">52]</ref>, we studied changes in animal behavior in the presence and absence of food. To perform this assay, day-4 animals were loaded into the chip, and on day 5 the food was removed, followed by a 5-min wait time before imaging (Figure <ref type="figure" target="#fig_11">6a</ref>). Subsequently, food was added and imaging was performed after 5 min. The crawling tracks in Figure <ref type="figure" target="#fig_11">6b</ref>,c visually reveal not only individual strain differences, but also show food-induced changes in behavior. Next, we studied the crawling behavior of these strains in the microfluidic chip. Since the microfluidic approach allows for the convenient removal and addition of reagents <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b51">52]</ref>, we studied changes in animal behavior in the presence and absence of food. To perform this assay, day-4 animals were loaded into the chip, and on day 5 the food was removed, followed by a 5-min wait time before imaging (Figure <ref type="figure" target="#fig_11">6a</ref>). Subsequently, food was added and imaging was performed after 5 min. The crawling tracks in Figure <ref type="figure" target="#fig_11">6b</ref>,c visually reveal not only individual strain differences, but also show food-induced changes in behavior.</p><p>From the acquired videos, we quantified changes in the average forward speed and body wave frequency (Figure <ref type="figure" target="#fig_11">6d</ref>,<ref type="figure">e</ref>). In the absence of food, the average forward speed of the mutants is statistically different from wildtype (Figure <ref type="figure" target="#fig_11">6d</ref>, left) with unc-32(e189) being slower than unc-79(e1068). The body wave frequency of wildtype animals is higher than the mutants, but there is no difference between the mutants themselves.  In the presence of food, the average forward speed of the mutants is still statistically different from the wildtype (Figure <ref type="figure" target="#fig_11">6e</ref>, left), although the values tend to be lower compared to those in the absence of food. Interestingly, the mutants do not show significant differences in forward speed when food is present. With regards to body wave frequency, there is no apparent difference between the three strains.</p><p>Thus, the data from the CIP shows that the thrashing frequency in liquid and the forward crawling speed in the absence of food are better phenotypes to distinguish the From the acquired videos, we quantified changes in the average forward speed and body wave frequency (Figure <ref type="figure" target="#fig_11">6d</ref>,<ref type="figure">e</ref>). In the absence of food, the average forward speed of the mutants is statistically different from wildtype (Figure <ref type="figure" target="#fig_11">6d</ref>, left) with unc-32(e189) being slower than unc-79(e1068). The body wave frequency of wildtype animals is higher than the mutants, but there is no difference between the mutants themselves.</p><p>In the presence of food, the average forward speed of the mutants is still statistically different from the wildtype (Figure <ref type="figure" target="#fig_11">6e</ref>, left), although the values tend to be lower compared to those in the absence of food. Interestingly, the mutants do not show significant differences in forward speed when food is present. With regards to body wave frequency, there is no apparent difference between the three strains.</p><p>Thus, the data from the CIP shows that the thrashing frequency in liquid and the forward crawling speed in the absence of food are better phenotypes to distinguish the strains. These results highlight that the CIP is a versatile tool to conduct mutant phenotyping studies using different C. elegans substrates.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Relevance of CIP for C. elegans Spaceflight Studies</head><p>Significant physiological changes occur during long-duration space travel, necessitating a fundamental understanding of the mechanisms that induce these alterations <ref type="bibr" target="#b52">[53,</ref><ref type="bibr" target="#b53">54]</ref>. Thus, model organisms such as C. elegans have been flown to the International Space Station (ISS) several times for space-biology investigations <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b54">[55]</ref><ref type="bibr" target="#b55">[56]</ref><ref type="bibr" target="#b56">[57]</ref><ref type="bibr" target="#b57">[58]</ref><ref type="bibr" target="#b58">[59]</ref><ref type="bibr" target="#b59">[60]</ref>. For spaceflight missions where payload size and weight are critical considerations, C. elegans experimental payloads offer a small-form factor and a significant reduction in weight compared with vertebrates. Moreover, the fast reproductive cycle enables multi-generational studies to be conducted, providing an opportunity to explore physiological adaptations due to long-term habitation in space. These advantages and mutant resources make C. elegans a leading invertebrate animal model for spaceflight studies. Despite several C. elegans studies on ISS, most of the spaceflight data is limited to changes in gene expression and fluorescent markers, and there is a dearth of wholeorganism phenotypic data. The major challenges for ISS investigations are the availability of microscopy hardware, access to crew time to conduct the studies, and payload weight/size requirements for imaging instrumentation. Standard microscopes available on ISS are bulky, require significant crew training, have a limited field of view to do large-population imaging, rely on bulky monitors for crews to visualize samples, and data store/transfer needs are demanding. These limitations necessitate the need for custom-designed imaging hardware for gathering whole-animal phenotypic data to understand the effects of microgravity and radiation on C. elegans physiology. The compact imaging system developed in this study addresses the current limitations for phenotyping C. elegans on the ISS. The CIP has &lt;1 kg payload requirement and occupies &lt; 1 ft 3 . It is simple to use for crews and is a USB-powered plug-and-play device. The large field of view enables the interrogation of animal populations and provides a robust statistical evaluation of phenotypic data. Sample visualization and data storage needs are integrated into a small form-factor smart-device. Video data could be returned to Earth, and data analysis could be performed post-facto, thereby allowing the crew time to focus more on worm sample loading and basic payload handling.</p><p>Different C. elegans substrates can be integrated into the CIP based on science requirements, and the microfluidic chips are particularly appealing due to their enclosed configuration that allows the maintaining of a sterile environment and efficient fluid handling. Nematode sample preparation usually occurs on Earth, with worm culture bags being flown to the ISS, where the crew extracts samples and injects into the microfluidic chips. The authors have recently flown to the ISS micropillar-based microfluidic devices for muscle strength measurements in C. elegans <ref type="bibr" target="#b19">[20]</ref>, and the CIP is a valuable addition to the imaging needs on the ISS.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Conclusions</head><p>In this study, we report a compact imaging platform and successfully demonstrated that it can be used to acquire whole-organism phenotypic data using a variety of C. elegans substrates. We show that good temperature control can be achieved for assays, and that multiple CIP units can be used if needed to conduct parallel experiments. The videos acquired are compatible for analysis with established software tools. The C. elegans community continues to develop a variety of open-source image analysis tools <ref type="bibr" target="#b60">[61]</ref> that could be potentially used to analyze images acquired from the CIP to increase the depth of phenotyping.</p><p>The hardware of CIP as demonstrated here could be further improved. In addition to the smart-device camera, additional high-magnification optics could be integrated to provide higher-resolution images to pursue deep phenotyping, including access to organlevel information. Although we used the iPod Touch in this study, the 3D-printed imaging station concept can be extended to other low-cost cameras (e.g., Arducam series), along with Raspberry Pi integration. Opportunities exist to integrate additional hardware elements to study animal response to stimuli such as light, temperature and electric fields, which will broaden the types of assays that can be conducted. With advances in computation and artificial intelligence, apps could be custom-designed to integrate with a smart-device that allows real-time image analysis, storage of assay metadata and data visualization.</p><p>In summary, the CIP is a simple, versatile, low-cost and small-footprint phenotyping tool for C. elegans assays, that could be deployed in research and educational settings on Earth in its current form. The CIP also presents a proof of concept for future setups for space biology research and could be adapted for ISS-compatible hardware. In the future, the system needs to undergo thorough ISS certification in terms of flammability, materials, off-gassing, electromagnetic interface, etc., as the assessment of multiple factors like safety, system reliability and long-term storage for equipment performance is necessary.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Materials and Methods</head><p>Worm culture. Animals were cultured in 60 mm nematode growth medium (NGM) petri plates with 150-200 µL E. Coli OP50 at 20 • C. Synchronized animals at day 5 from hatching were used in all the assays performed. For this paper, the strains used were wild-type Bristol (N2), CB189 unc-32(e189) III., and CB1068 unc-79(e1086) III.</p><p>Plate assay. Twenty-four age-synced animals were transferred to 35 mm nematode growth medium (NGM) petri plates. The plates were seeded 12 h prior to animal transfer so that the bacteria lawn was fresh and thin to obtain good quality contrast between animals and background.</p><p>Microfluidic chip assay. Microfluidic devices were fabricated using standard SU-8 soft lithography techniques <ref type="bibr" target="#b61">[62]</ref> in polydimethyl(siloxane). The design of the micropillar array is similar to that of Rahman et al., with a pillar diameter of 70 µm, gap of 90 µm and a chamber height of 110 µm. Animals were loaded inside the chip using a 1 mL syringe connected with a 0.032" ID Tygon tubing (Cole-Parmer, Vernon Hills, IL, USA) with a stainless-steel coupler tube (Instech Labs, FL). Synchronized animals in an NGM plate were flooded with liquid NGM and then transferred to an empty plate. Using a syringe, approximately 65 animals were aspirated from the plate and loaded inside the chip using the loading port. The chip was then flushed with liquid NGM, followed by an addition of 20 mg/mL E. coli OP50.</p><p>Thrashing assay. Synchronized animals in an NGM plate were flooded with liquid NGM and then transferred to an empty plate. Three animals with 25 µL of liquid NGM were aspirated and transferred to each well of the glass slide (Tekdon Incorporated, Myakka City, FL, USA).</p><p>Data analysis. To analyze the videos acquired from the plate and chip assay, we used the open-source software Image J with the plugin called wrMTrck. For the wildtype movies, thrashing data was also obtained using the wrMTrck plugin. For mutant thrashing assay, we played each movie and manually counted the thrashes. Each assay's data were initially recorded in Microsoft Excel ® (Version is 16.66.1) and then imported to GraphPad Prism software for visualization and statistical analysis. Types of statistical tests used in this study are included at the end of each figure caption.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Design of the Compact Imaging Platform and its functional capabilities. (a) The CIP consists of an imaging station to hold iPod Touch for imaging, a C. elegans substrate and a cooling fan for temperature control. It is powered by a 5 V USB cable. (b) The bottom section of the CIP showing the LED array and the USB component housing. (c) Multiple CIP units powered with a USB hub with the illumination turned on/off using a programmable timer. (d) Five CIP units stacked, operated in parallel and placed in an incubator with the timer.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Design of the Compact Imaging Platform and its functional capabilities. (a) The CIP consists of an imaging station to hold iPod Touch for imaging, a C. elegans substrate and a cooling fan for temperature control. It is powered by a 5 V USB cable. (b) The bottom section of the CIP showing the LED array and the USB component housing. (c) Multiple CIP units powered with a USB hub with the illumination turned on/off using a programmable timer. (d) Five CIP units stacked, operated in parallel and placed in an incubator with the timer.</figDesc><graphic coords="3,83.37,91.89,419.52,318.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Compatibility of the CIP with various C. elegans substates. (a) Imaging of animals crawling on a 3 cm agar plate (left). The actual (middle) and processed (right) image are also shown with n = 24 animals. The green dye region indicates the bacterial lawn. (b) Imaging of animals thrashing in liquid drops (left). The actual (middle) and processed (right) image are also shown with n = 3 animals per drop. The field of view allows imaging of 6 wells. (c) Imaging of animals crawling in a microfluidic pillar arena (left). The actual (middle) and processed (right) image are also shown with n = 51 animals in the arena. The images were processed using Image J V 1.53 (NIH, Maryland, USA), wrMTrck plugin.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Compatibility of the CIP with various C. elegans substates. (a) Imaging of animals crawling on a 3 cm agar plate (left). The actual (middle) and processed (right) image are also shown with n = 24 animals. The green dye region indicates the bacterial lawn. (b) Imaging of animals thrashing in liquid drops (left). The actual (middle) and processed (right) image are also shown with n = 3 animals per drop. The field of view allows imaging of 6 wells. (c) Imaging of animals crawling in a microfluidic pillar arena (left). The actual (middle) and processed (right) image are also shown with n = 51 animals in the arena. The images were processed using Image J V 1.53 (NIH, Maryland, USA), wrMTrck plugin.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Controlling temperature of CIP. (a) Temperature was measured at the top of the microfluidic chip and in the LED chamber. (b) Temperature profile collected over 24 h at set incubator temperatures of 15 °C, 20 °C, and 25 °C. The temperature data of LED chamber and the microfluidic chip are nearly identical. (c) Table showing mean temperature and standard deviation from all the three collection points.</figDesc><graphic coords="6,74.10,470.82,438.48,235.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Controlling temperature of CIP. (a) Temperature was measured at the top of the microfluidic chip and in the LED chamber. (b) Temperature profile collected over 24 h at set incubator temperatures of 15 • C, 20 • C, and 25 • C. The temperature data of LED chamber and the microfluidic chip are nearly identical. (c) Table showing mean temperature and standard deviation from all the three collection points.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Validation of the CIP using C. elegans behavioral assays on a plate, a chip and liquid drops. (a-c) Overlay of tracks made by animals in the three substrates. (d) Average speed of animals on the three substrates. Plate, n = 24; chip, n = 51, p-value ≤ 0.0001; drop, n = 24, p-value &lt; 0.0001. Animal age is day 5 from hatching. (e) Body bend frequency of animals on the three substrates. Plate, n = 24; chip, n = 51, p-value ≤ 0.0001; drop, n = 24, p-value &lt; 0.0001. Animal age is day 5 from hatching.; alpha = 0.05 for all analysis, nonparametric Kruskal-Wallis test.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Validation of the CIP using C. elegans behavioral assays on a plate, a chip and liquid drops. (a-c) Overlay of tracks made by animals in the three substrates. (d) Average speed of animals on the three substrates. Plate, n = 24; chip, n = 51, p-value ≤ 0.0001; drop, n = 24, p-value &lt; 0.0001. Animal age is day 5 from hatching. (e) Body bend frequency of animals on the three substrates. Plate, n = 24; chip, n = 51, p-value ≤ 0.0001; drop, n = 24, p-value &lt; 0.0001. Animal age is day 5 from hatching; alpha = 0.05 for all analysis, nonparametric Kruskal-Wallis test.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Thrashing assay performed on day 5 animals using CIP. Wild-type animals showed significant difference compared to both unc-79 (p-value &lt; 0.0001) and unc-32 (p-value &lt; 0.0001) mutants. n = 10 animals.; one-way ANOVA.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Thrashing assay performed on day 5 animals using CIP. Wild-type animals showed significant difference compared to both unc-79 (p-value &lt; 0.0001) and unc-32 (p-value &lt; 0.0001) mutants. n = 10 animals.; one-way ANOVA. Life 2023, 13, x FOR PEER REVIEW 10 of 15</figDesc><graphic coords="9,113.22,355.91,371.04,91.82" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Phenotypic studies with mutants using CIP. (a) Protocol used for conducting behavioral assays in the absence and presence of food using day 5 animals. Images were taken 5 min after washing and feeding to allow for acclimatization from the change in environment. (b,c) Overlay of animal tracks of wild-type and mutants in the absence and presence of food. (d) Quantification of average speed and body bend frequency of animal in the absence of food. Wildtype, n = 155; unc-32(e189), n = 200, p-value &lt; 0.0001 (avg. speed), p-value &lt; 0.0001 (body bend); unc-79(e1068), n =175, p-value &lt; 0.0001 (avg. speed), p-value &lt; 0.0001 (body bend). (e) Quantification of average speed and body bend frequency of animal in the presence of food. Wildtype, n = 155; unc-32(e189), n = 200, pvalue &lt; 0.0001 (avg. speed), p-value = 0.0002 (body bend); unc-79(e1068), n =175, p-value &lt; 0.0001 (avg. speed), p-value = 0.0.002 (body bend); alpha = 0.05 for all analysis, nonparametric Kruskal-Wallis test.</figDesc><graphic coords="9,113.22,539.55,371.04,91.77" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Phenotypic studies with mutants using CIP. (a) Protocol used for conducting behavioral assays in the absence and presence of food using day 5 animals. Images were taken 5 min after washing and feeding to allow for acclimatization from the change in environment. (b,c) Overlay of animal tracks of wild-type and mutants in the absence and presence of food. (d) Quantification of average speed and body bend frequency of animal in the absence of food. Wildtype, n = 155; unc-32(e189), n = 200, p-value &lt; 0.0001 (avg. speed), p-value &lt; 0.0001 (body bend); unc-79(e1068), n = 175, p-value &lt; 0.0001 (avg. speed), p-value &lt; 0.0001 (body bend). (e) Quantification of average speed and body bend frequency of animal in the presence of food. Wildtype, n = 155; unc-32(e189), n = 200, p-value &lt; 0.0001 (avg. speed), p-value = 0.0002 (body bend); unc-79(e1068), n =175, p-value &lt; 0.0001 (avg. speed), p-value = 0.0.002 (body bend); alpha = 0.05 for all analysis, nonparametric Kruskal-Wallis test.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>Funding: We thank <rs type="person">Hunter Edwards</rs> for suggesting the strains used for the behavioral studies and for valuable discussions. We are also grateful for <rs type="person">Dhaval Patel</rs> and <rs type="person">Mizanur Rahman</rs> for the critical reading of the manuscript, statistical analysis and feedback provided. The strains used in this study were acquired from <rs type="institution">Caenorhabditis Genetics Center (CGC)</rs>, funded by the <rs type="funder">NIH Office of Research Infrastructure Programs</rs> (<rs type="grantNumber">P40 OD010440</rs>). This work was partially funded by <rs type="funder">NASA</rs> (Grant No. <rs type="grantNumber">NNX15AL16G</rs>).</p></div>
+<div><head>Institutional Review Board Statement: Not applicable.</head><p>Informed Consent Statement: Not applicable.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_a2hAHHm">
+					<idno type="grant-number">P40 OD010440</idno>
+				</org>
+				<org type="funding" xml:id="_vYaJpcg">
+					<idno type="grant-number">NNX15AL16G</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data Availability Statement: All data generated or analyzed during this study are included in this published article.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Author Contributions: T.A. and S.A.V. designed the research. T.A. conducted the experiments. T.A. and S.A.V. analyzed the data and wrote the paper. S.A.V. supervised the project. All authors have read and agreed to the published version of the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>Siva Vanapalli is a co-founder of NemaLife Inc. that is commercializing C. elegans assays. Siva Vanapalli and Taslim Anupom are named inventors on a patent application involving the imaging system and the microfluidic chip.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Nature&apos;s gift to science (Nobel lecture)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brenner</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cbic.200300625</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chembiochem</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="683" to="687" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Dissecting a circuit for olfactory behaviour in Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Chalasani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chronis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tsunozaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ramot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Goodman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Bargmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature06292</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">450</biblScope>
+			<biblScope unit="page" from="63" to="70" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Chemistry-to-gene screens in Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Buckingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Sattelle</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrd1692</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Drug Discov</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="321" to="330" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">High-throughput phenotyping of multicellular organisms: Finding the link between genotype and phenotype</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sozzani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Benfey</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/gb-2011-12-3-219</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">219</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Using C. elegans for aging research</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Tissenbaum</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/07924259.2014.940470</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Invertebr. Reprod. Dev</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="59" to="63" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">OrthoList: A compendium of C. elegans genes with human orthologs</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Shaye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Greenwald</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0020085</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">20085</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The nematode Caenorhabditis elegans as a model for aging research</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">I D</forename><surname>Mack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Heimbucher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Murphy</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ddmod.2018.11.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Drug Discov. Today Dis. Model</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="3" to="13" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">WormFarm: A quantitative control and measurement device toward automated Caenorhabditis elegans aging analysis</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Men</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Pang</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/acel.12063</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aging Cell</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="398" to="409" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">An Open-Source System for Quantitative Assessment of C. elegans Locomotory and Bending Behavior</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Track-A-Worm</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0069653</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">69653</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Precise observation of C. elegans dynamic behaviours under controlled thermal stimulus using a mobile phone-based microscope</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jmi.12513</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Microsc</title>
+		<imprint>
+			<biblScope unit="volume">266</biblScope>
+			<biblScope unit="page" from="28" to="34" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">On-chip analysis of C. elegans muscular forces and locomotion patterns in microstructured environments</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Johari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Nock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Alkaisi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c3lc41403e</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Chip</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1699" to="1707" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">NemaLife chip: A micropillar-based microfluidic culture device optimized for aging studies in crawling C. elegans</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Birze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gabrilska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Rumbaugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Blawzdziewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Driscoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Vanapalli</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-020-73002-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">16190</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Lifespan-on-a-chip: Microfluidic chambers for performing lifelong observation of C. elegans</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Hulme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Shevkoplyas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Mcguigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Apfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fontana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Whitesides</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/B919265D</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Chip</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="589" to="597" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A microfluidics-based technology for standardized measurement of muscular strength of C. elegans</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hewitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van-Bussel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Blawzdziewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Driscoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Vanapalli</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Nemaflex</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/C8LC00103K</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Chip</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="2187" to="2201" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">High-content behavioral analysis of Caenorhabditis elegans in precise spatiotemporal chemical environments</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Albrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Bargmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.1630</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="599" to="606" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Spaceflight and ageing: Reflecting on Caenorhabditis elegans in space</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Narici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000354772</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Gerontology</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="138" to="142" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Spaceflight affects neuronal morphology and alters transcellular degradation of neuronal debris in adult Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Laranjeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Harinath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Gaffney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Deane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Vanapalli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etheridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Driscoll</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.isci.2021.102105</idno>
+	</analytic>
+	<monogr>
+		<title level="j">iScience</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">102105</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Review of the results from the International C. elegans first experiment (ICE-FIRST)</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Adenle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Johnsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.asr.2009.04.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="210" to="216" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Nematode Muscles Project in Spaceflight Experiment</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sudevan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hashizume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kuriyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Momma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Umehara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashitani</surname></persName>
+		</author>
+		<idno type="DOI">10.2187/bss.32.6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Sci. Space</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="6" to="10" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Microfluidics-integrated spaceflight hardware for measuring muscle strength of C. elegans across multiple generations on the International Space Station</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Soni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Anupom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lesanpezeshki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hewitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vellone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stodieck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewcyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Vanapalli</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41526-022-00241-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">npj Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">50</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Animal models, open science, &amp; space-omics</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Neff</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41684-021-00776-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Anim</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="143" to="145" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Mus musculus ad astra</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Neff</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/laban.1364</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Anim</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="429" to="433" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The Caenorhabditis elegans Lifespan Machine</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Stroustrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Ulmschneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">M</forename><surname>Nash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">F</forename><surname>López-Moyado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Apfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fontana</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.2475</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="665" to="670" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A technique for high-throughput phenotypic analysis of Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mathew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Mathew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Ebert</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Wormscan</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0033483</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">33483</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Deep learning for robust and flexible tracking in behavioral studies for C. elegans</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pcbi.1009942</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plot Comp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">1009942</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">elegans Detection with a DIY Microscope</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fudickar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Nustede</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dreyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bornhorst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R-Cnn</forename><surname>Mask</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Based</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/bios11080257</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biosensors</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">257</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The €100 lab: A 3D-prin open-source platform for fluorescence microscopy, optogenetics, and accurate temperature control during behaviour of zebrafish, Drosophila, and Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">Maia</forename><surname>Chagas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Prieto-Godino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Arrenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Baden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pbio.2002702</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">2002702</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Smartphone-based multi-contrast microscope using colormultiplexed illumination</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-H</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ryu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Joo</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-07703-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">7564</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Mass Surveilance of C. elegans-Smartphone-Based DIY Microscope and Machine-Learning-Based Approach for Worm Detection</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bornhorst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Nustede</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fudickar</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/s19061468</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sensors</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">1468</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">SABL-An EXPRESS locker-sized incubator for performing biological experiments onboard the ISS</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Niederwieser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Anthony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Darnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Koenig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stodieck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wright</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 45th International Conference on Environmental Systems</title>
+		<meeting>the 45th International Conference on Environmental Systems<address><addrLine>Bellevue, WA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015-12-07">7 December 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">NIH Image to ImageJ: 25 years of image analysis</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Rasband</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Eliceiri</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.2089</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="671" to="675" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Fiji: An open-source platform for biological-image analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schindelin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Arganda-Carreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Frise</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kaynig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Longair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pietzsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Preibisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rueden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saalfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schmid</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.2019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="676" to="682" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Investigating the Spreading and Toxicity of Prion-like Proteins Using the Metazoan Model Organism C. elegans</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Nussbaum-Krammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Neto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Brielmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>Morimoto</surname></persName>
+		</author>
+		<idno type="DOI">10.3791/52321</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JoVE</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">52321</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Genetic interaction with temperature is an important determinant of nematode longevity</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fletcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Primitivo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Leonard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Sutphin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rintala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kaeberlein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Leiser</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/acel.12658</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aging Cell</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1425" to="1429" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Life span of the wild and mutant nematode Caenorhabditis elegans: Effects of Sex, Sterilization, and Temperature</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hosono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mitsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Aizawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Miwa</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0531-5565(82)90052-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Exp. Gerontol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="163" to="172" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Aging in the nematode Caenorhabditis elegans: Major biological and environmental factors influencing life span</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Klass</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0047-6374(77)90043-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mech. Ageing Dev</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="413" to="429" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Thermotolerance and extended life-span conferred by single-gene mutations and induced by thermal stress</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Lithgow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Melov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Johnson</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.92.16.7540</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="7540" to="7544" />
+			<date type="published" when="1995">1995</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Thermotolerance of a long-lived mutant of Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Lithgow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Hinerfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Johnson</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/geronj/49.6.B270</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Gerontol</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="270" to="B276" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">An automated platform to monitor long-term behavior and healthspan in Caenorhabditis elegans under precise environmental control</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications Biology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2020">2020</date>
+			<publisher>Springer</publisher>
+			<pubPlace>Naperville, IL, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Biomechanical analysis of gait adaptation in the nematode Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fang-Yen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wyart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kodger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D T</forename><surname>Samuel</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1003016107</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page">20323</biblScope>
+			<date type="published" when="2010">2010</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Comparison of movement and speed in wild-type N2, VC854 unc-2(gk366) X and CB61 dpy-5(e61) I Caenorhabditis elegans strains</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Xie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Expedition</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Enhanced Caenorhabditis elegans locomotion in a structured microfluidic environment</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Nam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Austin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Ryu</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0002550</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">2550</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Artificial dirt: Microfluidic substrates for nematode neurobiology and behavior</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Lockery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Lawton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Doll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Faumont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Coulthard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Thiele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chronis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Mccormick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Goodman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Pruitt</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jn.91327.2007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="3136" to="3143" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">A dictionary of behavioral motifs reveals clusters of genes affecting Caenorhabditis elegans locomotion</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E X</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I</forename><surname>Yemini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Grundy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jucikas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Schafer</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1211447110</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page">791</biblScope>
+			<date type="published" when="2013">2013</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A database of Caenorhabditis elegans behavioral phenotypes</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Yemini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jucikas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Grundy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E X</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Schafer</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.2560</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="877" to="879" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The Caenorhabditis elegans unc-32 Gene Encodes Alternative Forms of a Vacuolar ATPase aSubunit</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pujol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bonnerot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Ewbank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kohara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Thierry-Mieg</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M009451200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="11913" to="11921" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">A putative cation channel and its novel regulator: Cross-species conservation of effects on general anesthesia</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Humphrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Hamming</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Thacker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Sedensky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Snutch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Nash</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cub.2007.02.037</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Biol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="624" to="629" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">A putative cation channel, NCA-1, and a novel protein, UNC-80, transmit neuronal activity in C. elegans</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bouhours</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Aoyagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Melnik-Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pbio.0060055</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">A stomatin and a degenerin interact to control anesthetic sensitivity in Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rajaram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Spangler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Sedensky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Morgan</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/genetics/153.4.1673</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page" from="1673" to="1682" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Genetic analysis of crawling and swimming locomotory patterns in C. elegans</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Pierce-Shimomura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Mun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sarkis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mcintire</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0810359105</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="20982" to="20987" />
+			<date type="published" when="2008">2008</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Locomotion control of Caenorhabditis elegans through confinement</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lebois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sauvage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Py</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Cardoso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ladoux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Di Meglio</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bpj.2012.04.051</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. J</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="2791" to="2798" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">The Stress-Chip: A microfluidic platform for stress analysis in Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Banse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Blue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Jarrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Phillips</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0216283</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">216283</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Space travel directly induces skeletal muscle atrophy</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Vandenburgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chromiak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shansky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Del Tatto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lemaire</surname></persName>
+		</author>
+		<idno type="DOI">10.1096/fasebj.13.9.1031</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1031" to="1038" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Update on the effects of microgravity on the musculoskeletal system</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">J</forename><surname>Juhl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Buettmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Denapoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Hoppock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Donahue</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41526-021-00158-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">npj Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">28</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Biochemical and Molecular Biological Analyses of space-flown nematodes in Japan, the First International Caenorhabditis elegans Experiment (ICE-First)</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Adachi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kagawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sasagawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Miyazawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF02919473</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microgravity Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="159" to="163" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Genes down-regulated in spaceflight are involved in the control of longevity in Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Matsunaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yonezawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kawano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kuriyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shimazu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep00487</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">487</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Multi-Generational Culture of C. elegans on a Long-Term Space Flight Revealed Changes in Expression of Genes Involved in Longevity, DNA Repair, and Locomotion</title>
+		<author>
+			<persName><forename type="first">S.-M</forename><surname>Then</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N.-F</forename><surname>Jusoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Harun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Stodieck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jamal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Asia-Pac. J. Mol. Med</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Microgravity elicits reproducible alterations in cytoskeletal and metabolic gene and protein expression in space-flown Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hashizume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nemoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etheridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sugimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Baba</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/npjmgrav.2015.22</idno>
+	</analytic>
+	<monogr>
+		<title level="j">npj Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">15022</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Gene expression changes in space flown Caenorhabditis elegans exposed to a long period of microgravity</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jamal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nurul-Faizah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Then</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Stodieck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Harun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gravit. Space Biol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">85</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Loss of physical contact in space alters the dopamine system in C. elegans</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sudevan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Muto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hashizume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Ellwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Deane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Vanapalli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etheridge</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.isci.2022.103762</idno>
+	</analytic>
+	<monogr>
+		<title level="j">iScience</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">103762</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Keeping track of worm trackers</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Husson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schmitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gottschalk</surname></persName>
+		</author>
+		<idno type="DOI">10.1895/wormbook.1.156.1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">WormBook</title>
+		<imprint>
+			<biblScope unit="volume">2013</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Fabrication of microfluidic systems in poly(dimethylsiloxane)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Duffy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">J</forename><surname>Schueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Whitesides</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/(SICI)1522-2683(20000101)21:1&lt;27::AID-ELPS27&gt;3.0.CO;2-C</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electrophoresis</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="27" to="40" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<title level="m">The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of</title>
+		<imprint/>
+	</monogr>
+	<note>Disclaimer/Publisher&apos;s Note MDPI and/or the editor(s MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

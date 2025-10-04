@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Knowledge Network Embedding of Transcriptomic Data from Spaceflown Mice Uncovers Signs and Symptoms Associated with Terrestrial Diseases</title>
+				<funder ref="#_TjqsDqf">
+					<orgName type="full">in Neurology at UCSF</orgName>
+				</funder>
+				<funder ref="#_hxr4pkm">
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>MDPI AG</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-01-12">12 January 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Charlotte</forename><forename type="middle">A</forename><surname>Nelson</surname></persName>
+							<email>charlotte.nelson@ucsf.edu</email>
+							<idno type="ORCID">0000-0002-3687-1102</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Integrated Program in Quantitative Biology</orgName>
+								<orgName type="institution">University of California San Francisco</orgName>
+								<address>
+									<postCode>94143</postCode>
+									<settlement>San Francisco</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ana</forename><forename type="middle">Uriarte</forename><surname>Acuna</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Space Biosciences Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<postCode>94035</postCode>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">KBR</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<postCode>94035</postCode>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Amber</forename><forename type="middle">M</forename><surname>Paul</surname></persName>
+							<idno type="ORCID">0000-0002-1657-3618</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Ryan</forename><forename type="middle">T</forename><surname>Scott</surname></persName>
+							<idno type="ORCID">0000-0003-0654-5661</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Atul</forename><forename type="middle">J</forename><surname>Butte</surname></persName>
+							<email>atul.butte@ucsf.edu</email>
+							<idno type="ORCID">0000-0002-7433-2740</idno>
+							<affiliation key="aff4">
+								<orgName type="department">Bakar Computational Health Sciences Institute</orgName>
+								<orgName type="institution">University of California San Francisco</orgName>
+								<address>
+									<postCode>94143</postCode>
+									<settlement>San Francisco</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Pediatrics</orgName>
+								<orgName type="institution">University of California San Francisco</orgName>
+								<address>
+									<postCode>94143</postCode>
+									<settlement>San Francisco</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Egle</forename><surname>Cekanaviciute</surname></persName>
+							<email>egle.cekanaviciute@nasa.gov</email>
+							<idno type="ORCID">0000-0003-3306-1806</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Space Biosciences Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<postCode>94035</postCode>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sergio</forename><forename type="middle">E</forename><surname>Baranzini</surname></persName>
+							<email>sergio.baranzini@ucsf.edu</email>
+							<idno type="ORCID">0000-0003-0067-194X</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Integrated Program in Quantitative Biology</orgName>
+								<orgName type="institution">University of California San Francisco</orgName>
+								<address>
+									<postCode>94143</postCode>
+									<settlement>San Francisco</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Bakar Computational Health Sciences Institute</orgName>
+								<orgName type="institution">University of California San Francisco</orgName>
+								<address>
+									<postCode>94143</postCode>
+									<settlement>San Francisco</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department" key="dep1">Weill Institute for Neuroscience</orgName>
+								<orgName type="department" key="dep2">Department of Neurology</orgName>
+								<orgName type="institution">University of California San Francisco</orgName>
+								<address>
+									<postCode>94143</postCode>
+									<settlement>San Francisco</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sylvain</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+							<email>sylvain.v.costes@nasa.gov</email>
+							<idno type="ORCID">0000-0002-8542-2389</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Space Biosciences Division</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<postCode>94035</postCode>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Knowledge Network Embedding of Transcriptomic Data from Spaceflown Mice Uncovers Signs and Symptoms Associated with Terrestrial Diseases</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Life</title>
+						<title level="j" type="abbrev">Life</title>
+						<idno type="eISSN">2075-1729</idno>
+						<imprint>
+							<publisher>MDPI AG</publisher>
+							<biblScope unit="volume">11</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<biblScope unit="page">42</biblScope>
+							<date type="published" when="2021-01-12">12 January 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EAFC99E06D5DC03B9B457446683B3A6D</idno>
+					<idno type="DOI">10.3390/life11010042</idno>
+					<note type="submission">Received: 10 December 2020 Accepted: 4 January 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>spaceflight</term>
+					<term>knowledge graph</term>
+					<term>transcriptomics</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>There has long been an interest in understanding how the hazards from spaceflight may trigger or exacerbate human diseases. With the goal of advancing our knowledge on physiological changes during space travel, NASA GeneLab provides an open-source repository of multi-omics data from real and simulated spaceflight studies. Alone, this data enables identification of biological changes during spaceflight, but cannot infer how that may impact an astronaut at the phenotypic level. To bridge this gap, Scalable Precision Medicine Oriented Knowledge Engine (SPOKE), a heterogeneous knowledge graph connecting biological and clinical data from over 30 databases, was used in combination with GeneLab transcriptomic data from six studies. This integration identified critical symptoms and physiological changes incurred during spaceflight.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>NASA recognizes five main hazards of spaceflight to human health, including altered gravity (microgravity and hypergravity), ionizing radiation, isolation/confinement, hostile/closed environment, and distance from Earth. These health risks caused by the space environment resemble multiple disorders found on Earth, including muscle atrophy and bone loss, cardiovascular deconditioning, immune dysfunction, and central nervous system deficits <ref type="bibr" target="#b0">[1]</ref>. Therefore, repurposing current FDA-approved treatments for issues that arise during spaceflight could significantly reduce the time needed to develop new therapeutics and limit their side effects.</p><p>Since its establishment in 2015, NASA GeneLab <ref type="bibr" target="#b1">[2]</ref> has become a prominent opensource repository of data from real and simulated spaceflight studies. This platform has enabled computational analysis of multi-omics data, visualization of results, and integration with descriptive metadata, such as environmental data (e.g., space radiation dosimetry). GeneLab has already supported dozens of published studies, created a global collaboration to develop uniform standards for spaceflight-omics <ref type="bibr" target="#b2">[3]</ref>, and resulted in new space biology discoveries <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref>. However, it has not yet been possible to use NASA GeneLab to combine Life 2021, 11, 42 2 of 14 and compare space and terrestrial data. Such capability would be a major advancement in fundamental spaceflight biology and its applications, including identifying new targets or repurposing terrestrial therapeutics for spaceflight countermeasures.</p><p>NASA GeneLab is planning to set up a portal dedicated to computational modeling that enables comparisons between datasets in addition to already existing data input, query, analysis, and visualization capabilities. Knowledge graphs (KGs) would be a suitable approach to facilitate this goal by unifying disparate datasets into a human queryable framework. KGs have already been widely adopted in biomedical research to unravel the complex relationship between biological changes and disease phenotypes <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref>.</p><p>Specifically, a new massive UCSF-based KG database, the Scalable Precision Medicine Oriented Knowledge Engine (SPOKE) has transformed structured data from over 30 human biomedical databases (-omics, chemical structures, molecular and cellular responses, physiological data including e.g., patient symptoms and drug side effects, etc.) into a KG with almost 400,000 nodes of 12 types and over 10 million edges of 32 types <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b11">12]</ref>. Therefore, SPOKE has the potential to be combined with the NASA GeneLab modeling portal, expanding it to link terrestrial biomedical sciences to space biosciences research and space medicine.</p><p>In this study, we integrated data from six different NASA GeneLab datasets in SPOKE to enable normalization that highlighted new nodes defining systems and effects that are known to be relevant for space travel but would have been impossible to uncover without using SPOKE (workflow Figure <ref type="figure" target="#fig_1">1a</ref>). These results suggest that SPOKE can be utilized to gain a deeper biological understanding of the health hazards associated with spaceflight and provide the proof of concept for its broader utilization to integrate space and terrestrial biological data.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">GeneLab Data Processing and Analysis</head><p>Gene expression data were downloaded from the NASA GeneLab repository (<ref type="url" target="https://genelab-data.ndc.nasa.gov/">https:  //genelab-data.ndc.nasa.gov/</ref>), datasets GLDS-4, GLDS-244, GLDS-245, GLDS-246, GLDS-288, and GLDS-289. All data had been processed and analyzed using standard NASA GeneLab techniques detailed below. Matched flight/live animal return versus ground control data was used for analysis.</p><p>Previously, raw data were processed separately for each dataset by the NASA GeneLab data processing team. For datasets containing RNA Sequencing (RNA-Seq) assays (GLDS-244, GLDS-245, GLDS-246, GLDS-288, GLDS-289), raw FASTQ files were assessed for the percentage of rRNA using HTStream SeqScreener (version 1.1.0 for GLDS-244, GLDS-245, GLDS-246 and version 1.3.1 for GLDS-288, GLDS-289; <ref type="url" target="https://s4hts.github.io/HTStream/">https://s4hts.github.io/HTStream/</ref>) and filtered using Trim Galore! (version 0.6.4; <ref type="url" target="https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/">https://www.bioinformatics.babraham.ac.  uk/projects/trim_galore/</ref>) <ref type="bibr" target="#b12">[13]</ref>. Raw and trimmed fastq file quality was evaluated with FastQC <ref type="bibr" target="#b13">[14]</ref> (version 0.11.9). MultiQC <ref type="bibr" target="#b14">[15]</ref> (version 1.8 for GLDS-244, GLDS-245, GLDS-246 and version 1.9 for GLDS-288, GLDS-289) was used to generate MultiQC reports. Mus musculus STAR <ref type="bibr" target="#b15">[16]</ref> and RSEM <ref type="bibr" target="#b16">[17]</ref> references were built using STAR (version 2.7.1a for GLDS-244, GLDS-245, GLDS-246 and version 2.7.4a for GLDS-288, GLDS-289) and RSEM (version 1.3.1), respectively, genome version mm10-GRCm38 (Mus_musculus.GRCm38.dna.toplevel.fa), and the following gtf annotation file: Mus_musculus.GRCm38.96.gtf. Trimmed reads were aligned to the Mus musculus STAR reference with STAR (version 2.7.3a for GLDS-244, GLDS-245, GLDS-246 and version 2.7.4a for GLDS-288, GLDS-289) and aligned reads were quantified using RSEM (version 1.3.1 from the NASA GeneLab repository).</p><p>Data representing the quantitative analysis of gene expression for each dataset was downloaded from the NASA GeneLab repository, where it had been previously analyzed and imported into R <ref type="bibr" target="#b17">[18]</ref> (version 3.6.3). It was then combined to create a gene counts table containing the data for all samples of every dataset. For GLDS-244, GLDS-245, and GLDS-246, only non-ERCC (External RNA Controls Consortium <ref type="bibr" target="#b18">[19]</ref>, i.e., a spike-in mixture used for normalization) genes were used. Data was normalized with DESeq2 <ref type="bibr" target="#b19">[20]</ref> (version 1.26.0). A principal component analysis was performed using prcomp (stats version 3.6.3) and plotted using plotly <ref type="bibr" target="#b20">[21]</ref> (version 4.9.2.1). For datasets containing DNA microarray assays (GLDS-4) raw CEL files were read in and normalized using an in-house R script as described <ref type="bibr" target="#b21">[22]</ref>.</p><p>To quantify overlapping pathways between GLDS-244, -245, and -246, Entrez Gene IDs of genes that showed a significant difference (p &lt; 0.05) between 29-day flight/live animal return and ground controls were used as the input to Molecular Signatures Database v7.2, GeneOntology <ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref> (GO) gene sets. (GO biological process, GO cellular component, GO molecular function). The top 50 statistically significant gene sets were compared to identify overlaps. The same approach was applied to quantify the overlapping gene sets between GLDS-288 and -289.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Scalable Precision Medicine Oriented Knowledge Engine</head><p>Scalable Precision Medicine Oriented Knowledge Engine (SPOKE) <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b11">12]</ref> is a population level heterogeneous knowledge graph. SPOKE was generated by unifying over 30 publicly available databases. Currently, SPOKE contains almost 400,000 nodes of 12 types (Anatomy, BiologicalProcess, CellularComponent, Compound, Disease, Gene, MolecularFunction, Pathway, PharmacologicalClass, Protein, SideEffect, and Symptom). These nodes are connected by 32 types of biologically meaningful edges (n &gt; 10 million).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Gene-Specific Propagated SPOKE Entry Vectors</head><p>Propagated SPOKE Entry Vectors (PSEVs) are generated using a modified version of topic-specific page rank to learn and embed the importance of each node in SPOKE for a given restart node or set of nodes <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b26">27]</ref>. These restart nodes, called SPOKE Entry Points (SEPs), are any concept in the input data that overlaps with a node(s) in SPOKE <ref type="bibr" target="#b27">[28]</ref>. In this analysis, the SEPs were the mouse genes that have homologs to the human Gene nodes in SPOKE. A Gene PSEV was produced by allowing a random walker to traverse the edges in SPOKE and then forcing them to restart at a specific Gene SEP. The forced restart ensures that the walker will spend the majority of time on nodes that are important for that Gene. The significance of each node is then stored in an element of the PSEV such that the length of the PSEV is equal to the number of nodes in SPOKE (n = 389,297). Code used to generate the data in this manuscript is available at (<ref type="url" target="https://doi.org/10.5281/zenodo.4408540">https://doi.org/10.5281/zenodo.4408540</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Integrating Gene Expression Data and PSEVs</head><p>For each study, the -log 2 fold-change (FC) mouse gene expression data was mapped to the human gene nodes in SPOKE. The homologous mapping between species was achieved using HomoloGene IDs <ref type="bibr" target="#b28">[29]</ref>. If multiple mouse genes mapped to a single human gene, then the average FC was used. Additionally, some studies contained multiple comparisons between space and ground or baseline control mice. An example of this is the study GLDS-244 that compared mice at two space-time points (day-29 and days 53-56). In these instances, genes were removed if the FC comparisons were not in the same direction (i.e., if space versus ground day-29 had a positive FC and days-53-56 had a negative FC). This filter focuses on the data set of genes that remain consistent during space travel.</p><p>After genes were mapped and filtered for a given study, the pre-computed PSEVs for the remaining genes were extracted. This PSEV matrix was z-score normalized and then ranked such that the most important node in a given PSEV was equal to the number of nodes in SPOKE (n = 389,297) and the least important was ranked one. Then for each comparison, the filtered PSEV matrix was adjusted using the FCs. This was accomplished by taking the product of a single column in the FC matrix and the filtered normalized PSEV matrix. It is necessary for the rows (genes) of the filtered normalized PSEV matrix to be in the same order as the rows in the FC matrix. Next, each column (node) in the adjusted PSEV-matrix was summed resulting in a vector in which each element or position corresponded to a node in SPOKE (length = 389,297). Each node was then ranked as before (with the highest value in the vector ranked 389,297). In practice, this was achieved by taking the dot product of the filtered FC matrix (transposed) and the filtered normalized PSEV matrix and then ranking the resulting matrix.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Finding Significant Spoke Nodes</head><p>The PSEV comparisons from the six studies were pooled together and separated into three groups (Ground vs. Baseline, Space vs. Baseline, and Space vs. Ground). Welch's t-test was used to evaluate whether the distribution of ranks of a given node in the Ground vs. Baseline group was significantly different from that in either Space vs. Baseline or Space vs. Ground (Table <ref type="table" target="#tab_1">S1</ref>, in the Supplementary Materials). Top nodes, those that were ranked significantly different in either space travel comparisons (Space vs. Baseline and Space vs. Ground) than in Ground vs. Baseline, were identified using the p-values from the Welch's t-test. Since 159,374 nodes had a p-value &lt; 0.025 in either or both space travel comparisons, top nodes were further filtered by selecting the most significant 2.5% of each node type for Space vs. Ground and/or Space vs. Baseline (n = 15,801; 4.1%).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Retracing Paths from Input Gene to SPOKE Node</head><p>A high correlation between a gene's FC and the rank of a specific node suggests that the gene FC is at least partially responsible for the prioritization of the node within a PSEVs. The correlation was calculated between genes (present in &gt;20% of FC comparisons; n = 7567) and a set of top Anatomy, BiologicalProcess, CellularComponent, MolecularFunction, Pathway, and Symptom nodes (n = 22). Next, paths were found between genes that had a high correlation (correlation &gt; 0.6) and the set of top nodes. Gene-node pairs were then filtered to only include pairs that had the same sign (positive gene expression and positive Welch t-statistic). Then, in order to visualize paths between gene-node pairs, paths were filtered to have a maximum of three edges and less than 100 possible combinations of nodes within the path. This left over 17,000 gene-node pairs and 234,000 possible paths.</p><p>The paths shown were selected based on their simplicity and the FC of the original genes (Figure <ref type="figure" target="#fig_1">S1</ref>, in the Supplementary Materials). The p-values, derived when calculating the FCs used as input for PSEV creation, were combined for Ground vs. Baseline and the space travel groups (Space vs. Baseline and Space vs. Ground together) using Stouffer's method <ref type="bibr" target="#b29">[30]</ref>. Each gene FC was judged on whether the average space travel group had a combined p-value that was more significant than Ground v Baseline (Figure <ref type="figure" target="#fig_1">S1</ref>, y-axis). Then the Welch's t-test was used to determine whether the FC distributions were significantly different between groups. Space vs. Baseline and Space vs. Ground distributions were compared to the Ground vs. Baseline separately and then averaged (Figure <ref type="figure" target="#fig_1">S1</ref>, x-axis).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Transcriptional Profiling of Mice after Space Flight</head><p>Here we conducted a meta-analysis of six independent transcriptomic datasets (GLDS-4, -244, -245, -246, -288, and -289) from experimental mice obtained during four different spaceflight missions (STS-118, TCU (SpaceX-9), MHU-2 (Space X-12), and RR-6 (SpaceX-13)), at five time-points of collection (13-, 29-, 30-, and 35-days live animal return (LAR); and 53-56 days (ISS terminal)), on the International Space Station (ISS) (Figure <ref type="figure" target="#fig_1">1b</ref> and Table <ref type="table" target="#tab_1">1</ref>). While experiments varied in their design (i.e., duration of flight, age at launch, the genotype of mice, transcriptomic platform, time of collection), the objective of these experiments was to identify changes in gene expression induced by spaceflight in three different immune-related organs-thymus (primary lymphoid organ), spleen (secondary lymphoid organ), and liver (immune-associated/digestive organ, with lymphatic cells playing a role in its responses to injury <ref type="bibr" target="#b30">[31]</ref>).</p><p>These sample sets were selected to include multiple immune-associated organs (thymus, spleen, liver) collected from the same space-flown mice as well as between mice flown on different missions to increase sample diversity and to include RNA sequencing and microarray as two different sequencing methods to show that both can be used as inputs to SPOKE.</p><p>After data normalization, the principal component analysis revealed a strong separation of samples by mission and tissues (Figure <ref type="figure" target="#fig_3">2a</ref>). These findings are unsurprising, given that these variables are confounding factors of different missions/collections. However, we also observed that samples from the same time point of mission/collection from two different experiments clustered together, suggesting that some biological effects were captured. When PCA was used to plot samples from similar experimental conditions (space-flown, ground, and baseline from the same RR-6 mission), no obvious separation between samples obtained during flight, baseline, and the ground was observed (Figure <ref type="figure" target="#fig_3">2b</ref>).</p><p>Differentially expressed genes were identified in the thymus, liver, and spleen in space-flown mice vs. ground controls after live animal return from the RR-6 (SpaceX-13) mission. Furthermore, using the differentially expressed genes as an input to pathway analysis (by a hypergeometric test) showed a number of statistically significant biological functions dysregulated by space flight in the thymus, liver, and spleen, including some that overlapped between the tissues (Figure <ref type="figure" target="#fig_3">2c</ref>). While some gene sets were tissue-specific, nine of them were shared among the three tissues, including apoptosis, cell metabolic process, and cell membrane integrity (Figure <ref type="figure" target="#fig_3">2d</ref>).  Differentially expressed genes were identified in the thymus, liver, and spleen in space-flown mice vs. ground controls after live animal return from the RR-6 (SpaceX-13) mission. Furthermore, using the differentially expressed genes as an input to pathway analysis (by a hypergeometric test) showed a number of statistically significant biological functions dysregulated by space flight in the thymus, liver, and spleen, including some that overlapped between the tissues (Figure <ref type="figure" target="#fig_3">2c</ref>). While some gene sets were tissue-specific, nine of them were shared among the three tissues, including apoptosis, cell metabolic process, and cell membrane integrity (Figure <ref type="figure" target="#fig_3">2d</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Fold-Change Enhanced Propagated SPOKE Entry Vectors</head><p>While established methods of transcriptional profiling can inform about dysregulated molecular pathways, they provide little insight into higher-order phenotypes, such as associated signs and symptoms of disease. Using SPOKE, a KG that integrates information of both biological and clinical databases, it is possible to score every node of the </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Fold-Change Enhanced Propagated SPOKE Entry Vectors</head><p>While established methods of transcriptional profiling can inform about dysregulated molecular pathways, they provide little insight into higher-order phenotypes, such as associated signs and symptoms of disease. Using SPOKE, a KG that integrates information of both biological and clinical databases, it is possible to score every node of the graph as a function of the "information flow" elicited by a defined set of quantitative inputs. SPOKE leverages the complexity of the hierarchical organization of complex organisms to identify nodes with shared information flow (regardless of whether the input itself was significant or not).</p><p>Gene-specific Propagated SPOKE Entry Vectors (PSEVs) were generated from the selected GeneLab studies prior to integrating gene expression results with SPOKE <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b11">12]</ref>. Each gene-specific PSEV was created using a modified version of topic-specific page rank <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b26">27]</ref> in which the random walker was forced to restart at the corresponding Gene node in SPOKE (See Methods, Figure <ref type="figure" target="#fig_4">3a</ref>). This focused the random walker on nodes that were the most important for a given node (in this case, Gene node since the input is gene expression). The amount of time a random walker spent on a node was then stored in a defined element (position within) of the PSEV vector. All PSEVs were then stored in the pre-computed PSEV matrix. For each gene expression study, the pre-computed PSEV matrix was filtered and normalized to match the genes within the study (Figure <ref type="figure" target="#fig_4">3b</ref>; Methods). The dot product was then used with the normalized PSEV matrix and the -log 2 fold-change (FC) to produce the PSEVs for that study. After PSEVs were computed for each study, they were pooled and separated into specific experimental groups to enable meaningful comparisons to test the hypothesis that spaceflight alters gene expression (Ground vs. Baseline, Space vs. Baseline, and Space vs. Ground) (Figure <ref type="figure" target="#fig_4">3c</ref>). was significant or not).</p><p>Gene-specific Propagated SPOKE Entry Vectors (PSEVs) were generated from the selected GeneLab studies prior to integrating gene expression results with SPOKE <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b11">12]</ref>. Each gene-specific PSEV was created using a modified version of topic-specific page rank <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b26">27]</ref> in which the random walker was forced to restart at the corresponding Gene node in SPOKE (See Methods, Figure <ref type="figure" target="#fig_4">3a</ref>). This focused the random walker on nodes that were the most important for a given node (in this case, Gene node since the input is gene expression). The amount of time a random walker spent on a node was then stored in a defined element (position within) of the PSEV vector. All PSEVs were then stored in the pre-computed PSEV matrix. For each gene expression study, the pre-computed PSEV matrix was filtered and normalized to match the genes within the study (Figure <ref type="figure" target="#fig_4">3b</ref>; Methods). The dot product was then used with the normalized PSEV matrix and the -log2 foldchange (FC) to produce the PSEVs for that study. After PSEVs were computed for each study, they were pooled and separated into specific experimental groups to enable meaningful comparisons to test the hypothesis that spaceflight alters gene expression (Ground vs. Baseline, Space vs. Baseline, and Space vs. Ground) (Figure <ref type="figure" target="#fig_4">3c</ref>). PSEVs were pre-computed for all SPOKE genes. For each gene, the random walker was forced to restart at that gene (probability of random jump = 0.1). After PSEVs were finished they were stored in the pre-computed PSEV matrix. (b) For each study, the pre-computed PSEV matrix was filtered and normalized. Then the dot product was taken between the normalized matrix and the FC matrix to generate the PSEV matrix for that study. (c top) The PSEV matrices for each study were pooled together and separated into groups: Ground vs. Baseline (blue), Space vs. Baseline 3. Propagated SPOKE Entry Vectors (PSEVs) using gene expression fold-change (FC). (a) PSEVs were pre-computed for all SPOKE genes. For each gene, the random walker was forced to restart at that gene (probability of random jump = 0.1). After PSEVs were finished they were stored in the pre-computed PSEV matrix. (b) For each study, the pre-computed PSEV matrix was filtered and normalized. Then the dot product was taken between the normalized matrix and the FC matrix to generate the PSEV matrix for that study. (c top) The PSEV matrices for each study were pooled together and separated into groups: Ground vs. Baseline (blue), Space vs. Baseline (yellow), and Space vs. Ground (green). (c bottom) The distributions of the node ranks were adjusted using the mean Ground vs. Baseline rank.</p><p>Each element in a PSEV corresponds to a single node in SPOKE. Therefore, it is possible to determine the overall significance of a node for spaceflight by evaluating the differential distribution of node ranks in the PSEV. Welch's t-test <ref type="bibr" target="#b31">[32]</ref> was utilized to compare a node's rank distribution in the Ground vs. Baseline to that in either Space vs. Baseline or Space vs. Ground (Supplementary Table <ref type="table" target="#tab_1">S1</ref>).</p><p>Strikingly, nodes that are known to be relevant for space travel such as space motion sickness (Symptom), regulation of blood vessel diameter (BiologicalProcess), taste receptor complex (CellularComponent), Vitamin D (calciferol) metabolism (Pathway), and sympathetic nervous system (Anatomy) scored among the top 5% of nodes (top 2.5% per type for Space vs. Baseline and/or Space vs. Ground). Figure <ref type="figure" target="#fig_5">4</ref> shows violin plots from a select set of nodes (n = 22) in SPOKE that had significantly different ranks in spaceflight (Space vs. Baseline and/or Space vs. Ground) compared to Ground vs. Baseline. From these, 11 correspond to symptoms (pink boxed violin charts, Figure <ref type="figure" target="#fig_5">4a</ref>), five to gene ontology/pathway concepts (teal boxed violin charts, Figure <ref type="figure" target="#fig_5">4b-d</ref>), and six to anatomical regions (green boxed violin charts, Figure <ref type="figure" target="#fig_5">4e</ref>). Violin plots for each category, sub-networks demonstrate how the gene expression results drive information from these 22 nodes. Among the other biological top nodes were nodes that reflected the results of the original studies such as those related to t-cell activity, regulation of stress, and TGFβ1 <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b32">33]</ref>. Taken together, these results show that potential human physiological changes during spaceflight can be inferred by embedding mouse gene expression data with a KG that integrates observed concepts (i.e., genes) with unobserved, higher-order phenotypes associated with each other in a biologically meaningful manner.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>One of the major objectives of biomedical research is to advance our understanding of human diseases in order to develop effective countermeasures. This aim becomes considerably more challenging when the physiological changes arise from spaceflight. Major efforts have been made by NASA GeneLab to collect and provide multi-omics data from model organisms. Additionally, NASA GeneLab data brought into the SPOKE system could be complemented by including murine phenotypical pathophysiological and biochemical non-omics data (more nodes) from the Ames Life Sciences Data Archive <ref type="bibr" target="#b33">[34]</ref>, and eventually the SPOKE system could be used for human spaceflight research data related to astronauts. However, the major challenges of analyzing any datasets generated during spaceflight are their low statistical power, considerable heterogeneity, and limited reproducibility <ref type="bibr" target="#b34">[35]</ref>. These limitations are largely accepted by the scientific community as a reasonable trade-off for the novelty and potential for discovery these experiments entail. As a new strategy to maximize the utility of these datasets, we propose the data from model organisms can be integrated through a knowledge graph (KG) such as SPOKE. KGs including SPOKE, are bounded by present day biological knowledge. As a result, inferences made through SPOKE may change as our biological data and knowledge expands.</p><p>Here, we report the results of a KG-driven, meta-analysis of six murine transcriptomic studies (five RNAseq and one microarray) from NASA GeneLab. The samples were taken from three distinct anatomical sites (thymus, liver, and spleen) and covered multiple spaceflight duration and gravity conditions. PCAs using only gene expression data illustrated that most of the differences between the samples could be attributed to either the study or the anatomical site.</p><p>Next, we hypothesized that, though this data came from a diverse set of experiments, SPOKE embeddings (i.e., "signatures") could be used to recover space travel changes that are conserved across the studies. To accomplish this, -log 2 fold-change gene expression (FC) data from each study was applied to gene-specific Propagated SPOKE Entry Vectors (PSEVs). Gene-specific PSEVs are vectors that describe how important each node in SPOKE is for a given gene. Therefore, multiplying PSEVs by FC data will highlight nodes that are both important for the input gene set and to prioritize them according to how differentially expressed the input genes are.</p><p>PSEVs from all of the studies were then pooled together and separated into three groups based on the type of FC comparison (Ground vs. Baseline, Space vs. Baseline, and Space vs. Ground). The distribution of node rank was analyzed for each node and the top 5% were selected for each node type. These top nodes were enriched for nodes for phenotypes and physiological changes known to be impacted by spaceflight. Furthermore, paths were found between the input gene set and the top node set. These paths shed light onto the underpinnings of spaceflight related health hazards and could potentially be used to identify drug targets. In the future, archived spaceflight and other experimental samples could be used to validate the predicted signatures and assess their physiological significance without the need for further experiments. Thus, we anticipate that our results are the very first steps towards a broader collaboration utilizing the SPOKE model to compare spaceflight and terrestrial phenotypes.</p><p>There is increasing interest in developing personalized risk predictions and treatments in support of long-duration deep space missions <ref type="bibr" target="#b35">[36]</ref>. Thus, expanding the computational approaches from the general comparison of spaceflight and terrestrial diseases to using input from a single subject to map their individual risk profile would allow developing optimal medical care for individual astronauts. Notably, the power of SPOKE stems from a wide variety of its inputs that combine multi-omics, clinical, and physiological data, which</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Analysis workflow and summary of experimental conditions across GeneLab datasets used for the analysis. (a) Workflow depicting the different stages of the analysis. (b) Datasets GLDS-4, -244, -245, and -246 used C57BL/6NTac mice. Datasets GLDS-288 and -289 used C57BL/6J mice for spaceflight and both C57BL/6J and Charles River mice for ground controls.</figDesc><graphic coords="3,51.22,553.70,494.70,113.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Analysis workflow and summary of experimental conditions across GeneLab datasets used for the analysis. (a) Workflow depicting the different stages of the analysis. (b) Datasets GLDS-4, -244, -245, and -246 used C57BL/6NTac mice. Datasets GLDS-288 and -289 used C57BL/6J mice for spaceflight and both C57BL/6J and Charles River mice for ground controls.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FemaleFigure 2 .</head><label>2</label><figDesc>Figure 2. Transcriptomic analysis of spaceflight-associated changes in gene expression. (a). Principal component analysis of all samples, colored by the dataset. (b). Principal component analysis of datasets GLDS-244, -245, and -246, colored by flight condition. (c,d). Overlapping gene sets between datasets GLDS-244, 245, and 246 out of the top 50 Gene Ontology gene sets using significantly differently expressed genes (p &lt; 0.05) between flight and ground conditions, live animal return after 29 days on the ISS. Venn diagram showing overlapping gene sets between datasets (c) and the list of gene sets overlapping between all three datasets (d). Three out of the top 50 gene ontology (GO) gene sets overlapped between datasets GLDS-288 and -289, none of which overlapped with GLDS-244, -245, and -246.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Transcriptomic analysis of spaceflight-associated changes in gene expression. (a) Principal component analysis of all samples, colored by the dataset. (b) Principal component analysis of datasets GLDS-244, -245, and -246, colored by flight condition. (c,d) Overlapping gene sets between datasets GLDS-244, 245, and 246 out of the top 50 Gene Ontology gene sets using significantly differently expressed genes (p &lt; 0.05) between flight and ground conditions, live animal return after 29 days on the ISS. Venn diagram showing overlapping gene sets between datasets (c) and the list of gene sets overlapping between all three datasets (d). Three out of the top 50 gene ontology (GO) gene sets overlapped between datasets GLDS-288 and -289, none of which overlapped with GLDS-244, -245, and -246.</figDesc><graphic coords="8,171.29,87.53,290.29,331.74" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Propagated SPOKE Entry Vectors (PSEVs) using gene expression fold-change (FC). (a)PSEVs were pre-computed for all SPOKE genes. For each gene, the random walker was forced to restart at that gene (probability of random jump = 0.1). After PSEVs were finished they were stored in the pre-computed PSEV matrix. (b) For each study, the pre-computed PSEV matrix was filtered and normalized. Then the dot product was taken between the normalized matrix and the FC matrix to generate the PSEV matrix for that study. (c top) The PSEV matrices for each study were pooled together and separated into groups: Ground vs. Baseline (blue), Space vs. Baseline</figDesc><graphic coords="9,167.13,186.21,290.29,302.02" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>/Figure 4 .</head><label>4</label><figDesc>Figure 4. Retracing paths between genes and top nodes. Gene expression FC values drive information flow to nodes in SPOKE. (a-e) Paths were traced between genes that were partially responsible for pushing information to a set of significant nodes (n = 22). These paths were shown for (a) 10 Symptom nodes, (b) taste receptor complex (CellularComponent), (c) regulation of cortisol secretion (BiologicalProcess) and Vitamin D (calciferol) metabolism (Pathway), (d) regulation of vasoconstriction (BiologicalProcess) and of blood vessel diameter (BiologicalProcess), and (e) six Anatomy nodes. Violin plots for each significant node show that the ranks within Space vs. Baseline and/or Space vs. Ground separated from the Ground vs. Baseline. In each violin plot Ground vs. Baseline (blue), Space vs. Baseline (yellow), and Space vs. Ground (green).</figDesc><graphic coords="10,113.37,174.21,367.29,485.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>Descriptive metadata for each NASA GLDS dataset analyzed by the Scalable Precision Medicine Oriented Knowledge Engine (SPOKE).</figDesc><table><row><cell></cell><cell>GeneLab Study</cell><cell>Tissue</cell><cell>Sequencing Type</cell><cell></cell><cell>Strain</cell><cell>Mission/Flight</cell><cell>Flight Duration</cell></row><row><cell></cell><cell>GLDS-4</cell><cell>Thymus</cell><cell>Microarray</cell><cell></cell><cell>C57BL/6NTac</cell><cell>STS-118</cell><cell>13-days (12.76 day)</cell></row><row><cell></cell><cell>GLDS-244</cell><cell>Thymus</cell><cell>RNA-sequencing</cell><cell></cell><cell>C57BL/6NTac</cell><cell>RR-6 (SpaceX-13)</cell><cell>29-days (n = 9, LAR); 53-56-days (n = 10, ISS terminal)</cell></row><row><cell>A.</cell><cell>GLDS-245 GLDS-246</cell><cell>Liver Spleen</cell><cell>RNA-sequencing RNA-sequencing</cell><cell></cell><cell>C57BL/6NTac C57BL/6NTac</cell><cell>RR-6 (SpaceX-13) RR-6 (SpaceX-13)</cell><cell>29-days (n = 9, LAR); 53-56-days (n = 10, ISS terminal) 29-days (n = 9, LAR); 53-56-days (n = 10, ISS terminal)</cell></row><row><cell></cell><cell>GLDS-288</cell><cell>Spleen</cell><cell>RNA-sequencing</cell><cell></cell><cell>C57BL/6J (flight); Charles River Laboratories Japan (GC)</cell><cell>TCU (SpaceX-9)</cell><cell>35-days</cell></row><row><cell></cell><cell>GLDS-289</cell><cell>Thymus</cell><cell>RNA-sequencing</cell><cell></cell><cell>C57BL/6J (flight); Charles River Laboratories Japan (GC)</cell><cell>TCU (SpaceX-9, MHU-1; SpaceX-12, MHU-2)</cell><cell>35-days MHU-1; 30-days MHU-2</cell></row><row><cell></cell><cell>GeneLab Study</cell><cell>Age at Initiation</cell><cell>Age at Euthanasia</cell><cell>Sex</cell><cell>Sample Size (n/Cohort)</cell><cell>Controls</cell><cell>Collection Location</cell></row><row><cell></cell><cell>GLDS-4</cell><cell>~6.5-weeks</cell><cell>8-weeks</cell><cell>n/a</cell><cell>FLT (n = 4); GC (n = 4)</cell><cell>Synchronous Ground Controls (GC)</cell><cell>Ground post-flight</cell></row><row><cell></cell><cell></cell><cell></cell><cell>36-weeks LAR;</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>44-weeks ISS terminal;</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>GLDS-244</cell><cell>32-weeks</cell><cell>36-weeks LAR/ISS terminal Baseline GC;</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>41-weeks LAR GC;</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>44-weeks ISS Terminal GC</cell><cell></cell><cell></cell><cell></cell></row><row><cell>B.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>This research was funded by [<rs type="funder">National Science Foundation</rs>] grant number [<rs type="grantNumber">NSF_2033569</rs>]. S.E.B. is the Distinguished Professor <rs type="funder">in Neurology at UCSF</rs> and holds the <rs type="institution">Heidrich Friends</rs> and Family endowed chair in Neurology at <rs type="institution">UCSF</rs>. GeneLab Project at <rs type="institution">NASA Ames Research Center</rs>, through <rs type="institution">NASA</rs>'s <rs type="programName">Space Biology Program</rs> in the <rs type="institution">Division of Biological and Physical Sciences (BPS) of the Science Mission Directorate</rs>. Any use of trade names is for descriptive purposes only and does not imply endorsement by the <rs type="institution">US Government</rs>.</p><p>Institutional Review Board Statement: All mouse experiments were approved by the <rs type="institution">Institutional Animal Care and Use Committee of the University of Tsukuba</rs>, <rs type="institution">JAXA</rs>, <rs type="institution">Explore Biolabs</rs>, and <rs type="institution">NASA</rs>, and were conducted according to the applicable guidelines in Japan and the United States of America.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_hxr4pkm">
+					<idno type="grant-number">NSF_2033569</idno>
+				</org>
+				<org type="funding" xml:id="_TjqsDqf">
+					<orgName type="program" subtype="full">Space Biology Program</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data Availability Statement: Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>The authors declare no conflict of interest.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>may provide a useful complement to the currently utilized risk management tools that are based upon probabilistic mathematical modeling and simulations <ref type="bibr" target="#b36">[37]</ref>.</p><p>Using a knowledge graph connecting molecular and physiological entities (among others) via biologically relevant relationships constitutes a significant advancement for complex, heterogeneous data analysis. This approach complements conventional transcriptomics analysis by extending the biological significance to higher-level phenotypes such as symptoms and side effects, which is not possible with current methods. In the long-term perspective, the SPOKE platform may also be of value to mission planners such as the NASA Human Systems Risk Board.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Materials:</head><p>The following are available online at <ref type="url" target="https://www.mdpi.com/2075-1729/11/1/42/s1">https://www.mdpi.com/2075-172  9/11/1/42/s1</ref>, Figure <ref type="figure">S1</ref>. Gene selection for network paths. There is one scatter plot for each top node used in the networks. Each one shows the genes selected for path retracing (red) and those that had paths but were not shown (blue). The x-axis is the average p-value for the average FC distributions and the y-axis is the difference between the log 2 combined p-values (from FC input) in the Ground vs. Baseline and space travel groups. Table <ref type="table">S1</ref>  </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Fundamental Biological Features of Spaceflight: Advancing the Field to Enable Deep-Space Exploration</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Afshinnekoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mackay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pariset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cekanaviciute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Barker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gilroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hassane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Zwart</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2020.10.050</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="1162" to="1184" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">NASA GeneLab: Interfaces for the exploration of space omics data</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Berrios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Galazka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Grigorev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gebre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkaa887</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1515" to="D1522" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A New Era for Space Life Science: International Standards for Space Omics Processing</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Barker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bezdan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Degoricija</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Fisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Gabitto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gebre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Giacomello</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.patter.2020.100148</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Patterns</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">100148</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Multi-Omics Analysis Reveals Mitochondrial Stress as a Central Hub for Spaceflight Biological Impact</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Da Silveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fazelinia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Rosenthal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Laiakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meydan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kidane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Rathi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Foox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zanello</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2020.11.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="1185" to="1201" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Circulating miRNA Spaceflight Signature Reveals Targets for Countermeasure Development</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Malkani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cekanaviciute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mortreux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Okinula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tarbier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Schreurs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shirazi-Fard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G T</forename><surname>Tahimic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.celrep.2020.108448</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="page">108448</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Network medicine: A network-based approach to human disease</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Barabasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gulbahce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Loscalzo</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrg2918</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Genet</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="56" to="68" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The human disease network</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">I</forename><surname>Goh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Cusick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Valle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Childs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vidal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Barabasi</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0701361104</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="8685" to="8690" />
+			<date type="published" when="2007">2007</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Constructing knowledge graphs and their biomedical applications</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Nicholson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Greene</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.csbj.2020.05.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Struct. Biotechnol. J</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1414" to="1428" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">PINBPA: Cytoscape app for network analysis of GWAS data</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsushita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Madireddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mousavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Baranzini</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btu644</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="262" to="264" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Human symptoms-disease network</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Menche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Barabasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sharma</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms5212</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">4212</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Heterogeneous Network Edge Prediction: A Data Integration Approach to Prioritize Disease-Associated Genes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Himmelstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Baranzini</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pcbi.1004259</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Comput. Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">1004259</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Systematic integration of biomedical knowledge prioritizes drugs for repurposing</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Himmelstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lizee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hessler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Brueggeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hadley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Khankhanian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Baranzini</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.26726</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Elife</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">26726</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A Wrapper Tool around Cutadapt and FastQC to Consistently Apply Quality and Adapter Trimming to FastQ Files</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Krueger</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Trim Galore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Babraham Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">516</biblScope>
+			<biblScope unit="page">517</biblScope>
+			<date type="published" when="2015">2015</date>
+			<pubPlace>Cambridge, UK</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">FastQC: A Quality Control Tool for High Throughput Sequence Data</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Andrews</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<pubPlace>Cambridge, UK</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Babraham Bioinformatics ; Babraham Institute</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Summarize analysis results for multiple tools and samples in a single report</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ewels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Magnusson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lundin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Käller</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Multiqc</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btw354</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="3047" to="3048" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">STAR: Ultrafast universal RNA-seq aligner</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dobin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schlesinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Drenkow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zaleski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Batut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chaisson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Gingeras</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/bts635</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="15" to="21" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Accurate transcript quantification from RNA-Seq data with or without a reference genome</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Dewey</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Rsem</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2105-12-323</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinform</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">323</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">R: A Language and Environment for Statistical Computing</title>
+		<author>
+			<persName><forename type="first">Team</forename><surname>Core</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">R Foundation for Statistical Computing</title>
+		<meeting><address><addrLine>Vienna, Austria</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Assessing technical performance in differential gene expression experiments with external spike-in RNA control ratio mixtures</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Munro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Lund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Pine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Binder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Clevert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Conesa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dopazo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fasold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hochreiter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hong</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms6125</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">5125</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Love</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Anders</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13059-014-0550-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">550</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Interactive Web-Based Data Visualization with R, Plotly, and Shiny</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sievert</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>CRC Press</publisher>
+			<pubPlace>Boca Raton, FL, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lebsack</surname></persName>
+		</author>
+		<idno type="DOI">10.25966/qq9p-pc28</idno>
+		<title level="m">Microarray Analysis of Space-Flown Murine Thymus Tissue</title>
+		<meeting><address><addrLine>Washington, DC, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+		<respStmt>
+			<orgName>NASA GeneLab ; NASA GeneLab</orgName>
+		</respStmt>
+	</monogr>
+	<note>4th ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Gene ontology: Tool for the unification of biology. The Gene Ontology Consortium</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ashburner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Blake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Botstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Cherry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dolinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Dwight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Eppig</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/75556</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Genet</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="25" to="29" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">PANTHER version 14: More genomes, a new PANTHER GO-slim and improvements in enrichment analysis tools</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Muruganujan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Thomas</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gky1038</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="419" to="D426" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The Gene Ontology Resource: 20 years and still GOing strong</title>
+		<author>
+			<orgName type="collaboration">The Gene Ontology Consortium</orgName>
+		</author>
+		<idno type="DOI">10.1093/nar/gky1055</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="330" to="D338" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">The PageRank Citation Ranking: Bringing Order to the Web</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Motwani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Winograd</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<pubPlace>Stanford, CA, USA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Stanford InfoLab</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Topic-sensitive pagerank</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Haveliwala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 11th International Conference on World Wide Web</title>
+		<meeting>the 11th International Conference on World Wide Web<address><addrLine>Honolulu, HI, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2002-05-11">7-11 May 2002</date>
+			<biblScope unit="page" from="517" to="526" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Integrating biomedical research and electronic health records to create knowledge-based biologically meaningful machine-readable embeddings</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Butte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Baranzini</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-019-11069-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">3045</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Database resources of the National Center for Biotechnology Information</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Sayers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Agarwala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Bolton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Brister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Canese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fiorini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Funk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hefferon</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gky1069</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="23" to="D28" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The American Soldier: Adjustment during Army Life</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Stouffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Suchman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Devinney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Star</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Studies in Social Psychology in World War II)</title>
+		<meeting><address><addrLine>Princeton, NJ, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1949">1949</date>
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The Role of Lymphatic Endothelial Cells in Liver Injury and Tumor Development</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lukacs-Kornek</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fimmu.2016.00548</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">548</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">On a test of whether one of two random variables is stochastically larger than the other</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Mann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Whitney</surname></persName>
+		</author>
+		<idno type="DOI">10.1214/aoms/1177730491</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Math. Stat</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="50" to="60" />
+			<date type="published" when="1947">1947</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Microarray analysis of spaceflown murine thymus tissue reveals changes in gene expression regulating stress and glucocorticoid receptors</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Lebsack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gruener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Manziello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Pecaut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Gridley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Stodieck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Deluca</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcb.22547</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="372" to="381" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Advancing the Integration of Biosciences Data Sharing to Further Enable Space Exploration</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Grigorev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mackintosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Gebre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Del Alto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.celrep.2020.108441</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">108441</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Introductory Chapter: Research Methods for the Next 60 Years of Space Exploration</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shelhamer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Beyond LEO-Human Health Issues for Deep Space Exploration</title>
+		<meeting><address><addrLine>IntechOpen; London, UK</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Policy Considerations for Precision Medicine in Human Spaceflight</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Antonsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Reed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Houst. J. Health Law Policy</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1" to="35" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Risk Mapping and Interaction Approach: A Special Session for HSRB Risk Custodians</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Antonsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reynolds</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<pubPlace>Washington, DC, USA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>NASA</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

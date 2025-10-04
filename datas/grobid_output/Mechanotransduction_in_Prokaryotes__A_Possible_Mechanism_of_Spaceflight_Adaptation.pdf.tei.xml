@@ -1,0 +1,2368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mechanotransduction in Prokaryotes: A Possible Mechanism of Spaceflight Adaptation</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>MDPI AG</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-01-07">7 January 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Patricia</forename><surname>Fajardo-Cavazos</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Microbiology and Cell Science</orgName>
+								<orgName type="laboratory">Space Life Sciences Laboratory</orgName>
+								<orgName type="institution">University of Florida</orgName>
+								<address>
+									<addrLine>505 Odyssey Way</addrLine>
+									<postCode>32953</postCode>
+									<settlement>Merritt Island</settlement>
+									<region>FL</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wayne</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Microbiology and Cell Science</orgName>
+								<orgName type="laboratory">Space Life Sciences Laboratory</orgName>
+								<orgName type="institution">University of Florida</orgName>
+								<address>
+									<addrLine>505 Odyssey Way</addrLine>
+									<postCode>32953</postCode>
+									<settlement>Merritt Island</settlement>
+									<region>FL</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mechanotransduction in Prokaryotes: A Possible Mechanism of Spaceflight Adaptation</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Life</title>
+						<title level="j" type="abbrev">Life</title>
+						<idno type="eISSN">2075-1729</idno>
+						<imprint>
+							<publisher>MDPI AG</publisher>
+							<biblScope unit="volume">11</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<biblScope unit="page">33</biblScope>
+							<date type="published" when="2021-01-07">7 January 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F594E290FEB0D4462AF1C70180E99349</idno>
+					<idno type="DOI">10.3390/life11010033</idno>
+					<note type="submission">Received: 17 November 2020 Accepted: 4 January 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:39+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>bacteria</term>
+					<term>gravity</term>
+					<term>mechanosensing</term>
+					<term>mechanotransduction</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Our understanding of the mechanisms of microgravity perception and response in prokaryotes (Bacteria and Archaea) lag behind those which have been elucidated in eukaryotic organisms. In this hypothesis paper, we: (i) review how eukaryotic cells sense and respond to microgravity using various pathways responsive to unloading of mechanical stress; (ii) we observe that prokaryotic cells possess many structures analogous to mechanosensitive structures in eukaryotes; (iii) we review current evidence indicating that prokaryotes also possess active mechanosensing and mechanotransduction mechanisms; and (iv) we propose a complete mechanotransduction model including mechanisms by which mechanical signals may be transduced to the gene expression apparatus through alterations in bacterial nucleoid architecture, DNA supercoiling, and epigenetic pathways.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>On 17 December 1946, the first documented experiment to study the response of a living organism to spaceflight was performed, with the launch and recovery of fungal spores on a V-2 rocket from White Sands, New Mexico <ref type="bibr" target="#b0">[1]</ref>. Since that time, considerable theoretical and experimental effort has been devoted to understanding how living organisms sense, respond, and adapt to long-term spaceflight, particularly regarding their exposure to chronic microgravity. Extensive investigations conducted in space have resulted in a relative wealth of understanding of microgravity effects at the mechanistic level in eukaryotic organisms including humans <ref type="bibr" target="#b2">[2]</ref>, animals <ref type="bibr" target="#b3">[3]</ref>, plants <ref type="bibr" target="#b4">[4]</ref>, and protists <ref type="bibr" target="#b5">[5]</ref>. In contrast to the situation in eukaryotes, it has proven more difficult to elucidate at the mechanistic level how single-celled prokaryotes (Bacteria and Archaea) sense and respond to reduced gravity <ref type="bibr" target="#b6">[6]</ref><ref type="bibr" target="#b7">[7]</ref><ref type="bibr" target="#b8">[8]</ref>.</p><p>In this hypothesis paper, we briefly review the state of our understanding of how eukaryotic cells sense, respond, and adapt to spaceflight microgravity, via various pathways responsive to the unloading of mechanical stress. We observe that prokaryotic cells possess many structures analogous to mechanosensitive structures in eukaryotes. We review and update the evidence indicating that prokaryotes possess and actively utilize mechanosensing and mechanotransduction mechanisms, and we expand upon existing models to include the role of the bacterial nucleoid in converting external mechanical information into the modulation of gene expression. This hypothesis builds upon, updates, and expands previous work in the field, to which the reader is referred for background information <ref type="bibr" target="#b9">[9,</ref><ref type="bibr" target="#b10">10]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Mechanosensing in Eukaryotes</head><p>Terrestrial life on Earth has evolved in the continuous presence of gravity <ref type="bibr" target="#b10">[10]</ref>, and eukaryotic organisms have developed systems to sense their orientation in the gravity field and to respond appropriately. A large body of evidence has accumulated supporting the idea that mechanics play a key role in regulating various eukaryotic cell functions Life 2021, 11, 33 2 of 11 such as cell division, differentiation, immunity, development, and motility. Many of these diverse cellular functions are mediated through pathways of mechanosensing and mechanotransduction, the molecular details of which are currently being elucidated <ref type="bibr" target="#b11">[11]</ref><ref type="bibr" target="#b12">[12]</ref><ref type="bibr" target="#b13">[13]</ref><ref type="bibr" target="#b14">[14]</ref>. A generalized and simplified schematic diagram of the steps involved in eukaryotic mechanotransduction is presented in Figure <ref type="figure" target="#fig_0">1</ref> and described below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Mechanosensing in Eukaryotes</head><p>Terrestrial life on Earth has evolved in the continuous presence of gravity <ref type="bibr" target="#b10">[10]</ref>, and eukaryotic organisms have developed systems to sense their orientation in the gravity field and to respond appropriately. A large body of evidence has accumulated supporting the idea that mechanics play a key role in regulating various eukaryotic cell functions such as cell division, differentiation, immunity, development, and motility. Many of these diverse cellular functions are mediated through pathways of mechanosensing and mechanotransduction, the molecular details of which are currently being elucidated <ref type="bibr" target="#b11">[11]</ref><ref type="bibr" target="#b12">[12]</ref><ref type="bibr" target="#b13">[13]</ref><ref type="bibr" target="#b14">[14]</ref>. A generalized and simplified schematic diagram of the steps involved in eukaryotic mechanotransduction is presented in Figure <ref type="figure" target="#fig_0">1</ref> and described below. In the simplified model depicted in Figure <ref type="figure" target="#fig_0">1</ref>, external force can consist of any number of mechanical phenomena, such as shear, stretch, compression, or sedimentation of otoliths or statoliths. Physical forces can also be exerted on a cell through interaction with the extracellular matrix, or with other cells connected via tight junctions. In addition, while not strictly an "external" force, because the nucleus itself is suspended in the cytoskeletal matrix, and its density differs from the surrounding cytoplasm, the nucleus itself exerts mechanical stress on the cell.</p><p>The simplified model above depicts an idealized mechanoreceptor as a protein complex embedded in the cytoplasmic membrane that senses external physical forces (Figure <ref type="figure" target="#fig_0">1</ref>). The actual situation is almost certainly more complex, and likely differs considerably depending on the type of receptor, cell, tissue, or organism studied. On the simpler end of the spectrum are single transmembrane mechanosensitive ion channels that respond to membrane deformation <ref type="bibr" target="#b18">[18]</ref>. On a more complex level, the surfaces of many eukaryotic cells exhibit focal adhesion (FA) structures which physically link the extracellular matrix In the simplified model depicted in Figure <ref type="figure" target="#fig_0">1</ref>, external force can consist of any number of mechanical phenomena, such as shear, stretch, compression, or sedimentation of otoliths or statoliths. Physical forces can also be exerted on a cell through interaction with the extracellular matrix, or with other cells connected via tight junctions. In addition, while not strictly an "external" force, because the nucleus itself is suspended in the cytoskeletal matrix, and its density differs from the surrounding cytoplasm, the nucleus itself exerts mechanical stress on the cell.</p><p>The simplified model above depicts an idealized mechanoreceptor as a protein complex embedded in the cytoplasmic membrane that senses external physical forces (Figure <ref type="figure" target="#fig_0">1</ref>). The actual situation is almost certainly more complex, and likely differs considerably depending on the type of receptor, cell, tissue, or organism studied. On the simpler end of the spectrum are single transmembrane mechanosensitive ion channels that respond to membrane deformation <ref type="bibr" target="#b18">[18]</ref>. On a more complex level, the surfaces of many eukaryotic cells exhibit focal adhesion (FA) structures which physically link the extracellular matrix to the internal cytoskeleton through complexes of signaling proteins, among them mechanosensitive transmembrane proteins. Such structures establish both physical and functional connections between the cell and its external environment (reviewed in <ref type="bibr" target="#b19">[19,</ref><ref type="bibr" target="#b20">20]</ref>).</p><p>As DNA is separated from the cytoplasmic compartment and contained within a membrane-bound nucleus (Figure <ref type="figure" target="#fig_0">1</ref>), how do mechanical signals reach the DNA to modu-Life 2021, 11, 33 3 of 11 late gene expression? In addition to the cytoplasmic cytoskeleton, the nucleus itself contains a skeleton (the nucleoskeleton) composed of actin and lamin filaments. Furthermore, the cytoskeleton and nucleoskeleton are physically connected through Linker of Nucleus and Cytoskeleton (LINC) protein complexes <ref type="bibr" target="#b16">[16]</ref> (Figure <ref type="figure" target="#fig_0">1</ref>). Evidence is accumulating that LINC complexes allow for the rapid mechanotransduction of signals from the cytoplasmic membrane and cytoskeleton directly through the nuclear membrane to the nucleoskeleton, enabling rapid gene expression responses (reviewed in <ref type="bibr" target="#b17">[17]</ref>). It is thought that the LINC complex is intimately involved in modulation of genome expression in response to mechanical stimuli through chromatin remodeling and recruitment of DNA and RNA polymerases, ligases, acetylases, methylases, and cyclin-dependent kinases, resulting in changes in gene expression at the transcriptional, translational, post-translational, and epigenetic levels <ref type="bibr" target="#b19">[19,</ref><ref type="bibr" target="#b20">20]</ref>. The details of the myriad of eukaryotic mechanotransduction systems, though not yet completely elucidated, are currently being actively investigated <ref type="bibr" target="#b17">[17]</ref>.</p><p>In the freefall environment of spaceflight, gravitational loading is negated. Numerous studies using various cell types have shown that eukaryotic cells exhibit a morphological sensitivity to microgravity, exposure to which can cause alterations in cell shape, size, volume, and adherence properties <ref type="bibr" target="#b10">[10,</ref><ref type="bibr" target="#b19">19,</ref><ref type="bibr" target="#b20">20]</ref>. These signals are converted into alterations in chromosomal architecture, which in turn regulate the transcriptional apparatus <ref type="bibr" target="#b21">[21]</ref>. In spaceflight research, this general "mechanotransduction" model successfully explains the pathways for sensing and response to microgravity by plant and mammalian whole organisms, as well as single eukaryotic cells <ref type="bibr" target="#b5">[5,</ref><ref type="bibr" target="#b22">22,</ref><ref type="bibr" target="#b23">23]</ref>. It is unclear whether such responses to microgravity are direct or indirect (resulting from, say, downstream effects of microgravity on chemical gradients or fluid shear). However, results from parabolic aircraft and sounding rocket flights demonstrated that the transcriptomes of human monocytes responded immediately-within seconds-after exposure to microgravity or hypergravity (1.8 × g) <ref type="bibr" target="#b24">[24]</ref> suggesting that, in this case at least, gravity or its absence is exerting a direct effect on gene expression.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Does a Microbial Analog of Eukaryotic Mechanotransduction Exist?</head><p>In contrast to our relatively detailed understanding of the eukaryotic microgravity response in terms of mechanosensing and mechanotransduction mechanisms, no such detailed model exists to explain how prokaryotes respond to gravity in general, much less to spaceflight microgravity. The origins of this situation can be traced back to an influential and often-cited theoretical study from 1965 asserting that microorganisms smaller than 10 micrometers should not be able to perceive gravitational forces <ref type="bibr" target="#b25">[25]</ref>. Despite a lack of empirical evidence supporting this contention, it has nevertheless persisted in the spaceflight microgravity literature over the ensuing half century (for reviews, see <ref type="bibr" target="#b8">[8,</ref><ref type="bibr" target="#b26">26]</ref>).</p><p>Due to a lack of fluid convection in microgravity, spaceflight has been considered to be a quiescent environment characterized by low hydrodynamic shear and lack of convective transfer of mass and heat <ref type="bibr" target="#b26">[26]</ref>. To emulate this low-shear environment on Earth, various rotating devices called clinostats have been developed and utilized as microgravity analog systems <ref type="bibr" target="#b27">[27,</ref><ref type="bibr" target="#b28">28]</ref>. Early experiments cultivating microbes in clinostats indicated that certain phenotypes such as microcin B17 production by Escherichia coli <ref type="bibr" target="#b29">[29]</ref> and virulence in Salmonella enterica <ref type="bibr" target="#b30">[30]</ref> were altered in the clinostat environment. These and similar observations led to the notion of mechanotransduction as a possible mechanism for a microgravity response in prokaryotes, proposed in a 2004 review <ref type="bibr" target="#b9">[9]</ref>. Numerous subsequent investigations have been conducted to characterize the response of various microorganisms to the low fluid shear environment using both spaceflight and clinorotation ( <ref type="bibr" target="#b31">[31]</ref><ref type="bibr" target="#b32">[32]</ref><ref type="bibr" target="#b33">[33]</ref><ref type="bibr" target="#b34">[34]</ref><ref type="bibr" target="#b35">[35]</ref>; reviewed extensively in <ref type="bibr" target="#b7">[7,</ref><ref type="bibr" target="#b8">8,</ref><ref type="bibr" target="#b26">26]</ref>). These studies clearly established a role for hydrodynamic shear stress, or its absence, in influencing some aspects of gene expression and some phenotypes in some, but not all, bacteria tested <ref type="bibr" target="#b7">[7,</ref><ref type="bibr" target="#b8">8]</ref>. Subsequent work mapping transcriptomic responses of S. enterica and Pseudomonas aeruginosa to spaceflight and clinorotation identified the molecular chaperone and global regulator Hfq as being implicated in the low-shear response, although its mechanism of action is currently unknown <ref type="bibr" target="#b33">[33,</ref><ref type="bibr" target="#b34">34,</ref><ref type="bibr" target="#b36">36]</ref>. Several studies have mapped global transcriptomic responses of bacteria to the low-shear environment, comparing cells grown in spaceflight and clinostat conditions with corresponding ground controls <ref type="bibr" target="#b33">[33,</ref><ref type="bibr" target="#b34">34,</ref><ref type="bibr" target="#b36">[36]</ref><ref type="bibr" target="#b37">[37]</ref><ref type="bibr" target="#b38">[38]</ref><ref type="bibr" target="#b39">[39]</ref>, but to date, these studies have failed to yield insights into a detailed underlying molecular mechanism <ref type="bibr" target="#b40">[40,</ref><ref type="bibr" target="#b41">41]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Microbial Internal Structure</head><p>If we are to draw upon the eukaryotic mechanotransduction model of spaceflight signal transduction as depicted in Figure <ref type="figure" target="#fig_0">1</ref> and extend it to microbes, it is worthwhile first to review our current understanding of the internal structure of prokaryotes, paying particular attention to structures involved in mechanosensing and mechanotransduction. Our understanding of the interior architecture of living microbial cells has lagged behind that of eukaryotes, due to their small size at the limits of optical resolution and the lack of techniques for mechanical manipulation of such small cells <ref type="bibr" target="#b42">[42,</ref><ref type="bibr" target="#b43">43]</ref>. Indeed, until relatively recently the interior of the prokaryotic cell was thought to be an unordered "bag of enzymes" with little or no intracellular compartmentalization <ref type="bibr" target="#b44">[44]</ref>. Advances in molecular biology, microscopic imaging technologies, and the development of fluorescent molecular tags have changed this view radically within the past two decades; microbial cells are now known to exhibit a high level of subcellular organization rivaling that of eukaryotic cells <ref type="bibr" target="#b45">[45]</ref><ref type="bibr" target="#b46">[46]</ref><ref type="bibr" target="#b47">[47]</ref>.</p><p>As was mentioned in a previous review <ref type="bibr" target="#b9">[9]</ref>, microbes possess both functional and structural analogs of the eukaryotic cytoskeleton; indeed, cytoskeletal components from all three domains of life (Bacteria, Archaea, and Eukarya) are phylogenetically related, indicating their descent from a common ancestor early in evolution <ref type="bibr" target="#b48">[48]</ref>. An updated comparison of eukaryotic and prokaryotic cytoskeletal analogs is presented in Table <ref type="table" target="#tab_0">1</ref>. As can be seen in Table <ref type="table" target="#tab_0">1</ref>, numerous proteins belonging to both the actin and tubulin superfamilies of eukaryotic cytoskeletal proteins have been identified in Bacteria and Archaea. In addition to the canonical actin/tubulin/intermediate filament superfamilies, prokaryotes contain a large number of filament-forming proteins that do not have eukaryotic homologs, such as ParA/B, MinC/D, and bactofilins <ref type="bibr" target="#b49">[49]</ref>. Many of these protein filaments organize collaboratively through interactions between themselves and supramacromolecular structures such as the bacterial membrane, cell wall, and nucleoid <ref type="bibr" target="#b49">[49]</ref>. In prokaryotic cells, internal filaments serve a variety of functions, including: organizing cell division; control of cell shape; organization and segregation of chromosomal, plasmid, and phage DNA; membrane remodeling; organization of cell wall synthesis; and scaffolding of spore structures in spore-forming Firmicutes <ref type="bibr" target="#b45">[45]</ref><ref type="bibr" target="#b46">[46]</ref><ref type="bibr" target="#b47">[47]</ref><ref type="bibr" target="#b50">50]</ref>. In addition, in many cases cytoskeletal filaments have been directly visualized and characterized in prokaryotic cells using high-resolution fluorescence microscopy and cryo-electron microscopy techniques <ref type="bibr" target="#b50">[50,</ref><ref type="bibr" target="#b51">51]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Mechanosensing in Prokaryotes</head><p>Since the early days of microbiology in the 19th century, prokaryotes have been known to monitor and respond to their external chemical environment <ref type="bibr" target="#b52">[52]</ref>. More recently, microbes have also been shown to respond to mechanical forces such as fluid flow, pressure, and contact with surfaces or other cells <ref type="bibr" target="#b9">[9,</ref><ref type="bibr" target="#b45">45,</ref><ref type="bibr" target="#b46">46]</ref>. Similar to eukaryotic cells, bacteria possess mechanosensory proteins either displayed on the cell surface (e.g., adhesins) or extending into the extracellular environment (e.g., flagella, pili). Proteins residing in the cell envelope can sense and respond to deformations of the cell surface. The integral membrane proteins MscS and MscL sense membrane deformation resulting from osmotic stress and respond by opening or closing their pores to allow passage of osmotically active solutes (e.g., potassium, glutamate, or trehalose) in order to maintain osmotic balance and turgor pressure <ref type="bibr" target="#b53">[53]</ref>. Adhesins present on the cell surface are able to sense forces such as shear, compression, or tension and transduce these signals to the cell interior, activating the production of second messenger molecules such as cAMP and cyclic di-GMP which in turn activate or repress transcription of target genes <ref type="bibr" target="#b45">[45]</ref>. Protein filaments such as flagella and Type IV pili are anchored in the cell surface and extend into the extracellular environment. These structures have long been associated with motility (flagella) and adhesion (pili), but recently have also been implicated in the regulation of gene expression via mechanosensing and mechanotransduction mechanisms (reviewed in <ref type="bibr" target="#b46">[46]</ref>). For example, motility of Grampositive Bacillus subtilis cells through liquid media is due to the rotation of helical flagella driven by rotary motors embedded in the cell membrane. Contact of cells with a surface increases the torque applied onto flagella, inhibiting their rotation. This rotational inhibition increases strain on the flagellar motor embedded in the membrane, which generates a signal sensed by the two-component system histidine kinase DegS. DegS in turn phosphorylates the DegU response regulator, and phosphorylated DegU up-regulates the transcription of an entire class of genes involved in biofilm production <ref type="bibr" target="#b54">[54,</ref><ref type="bibr" target="#b55">55]</ref>. Thus, an outside mechanical force can be sensed by a bacterial cell and transduced to the transcriptional apparatus to dramatically change its phenotype from a solitary free-swimming cell to a sessile member of a biofilm community.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Mechanotransduction in Prokaryotes</head><p>In the above examples, perception of mechanical stress was shown to trigger classic chemical transducers, such as second messengers or two-component systems, to effect altered gene expression. Such mechanisms do not rely on mechanotransduction through a cytoskeleton. Indeed, at present cytoskeletal mechanotransduction in prokaryotes has been much less thoroughly investigated than its eukaryotic counterpart, although recent studies have begun to uncover the roles played by prokaryotic cytoskeletal protein homologs in the regulation of cell physiology. Some examples follow.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.1.">Cell Growth and Division</head><p>The prokaryotic cell wall is a dynamic network of peptidoglycan (PG) making up the sacculus that maintains cell shape, resists lysis of the cell by turgor pressure, and which must accommodate cell growth in varying environments. Morphogenesis of the cell wall is ultimately governed by cytoskeletal proteins (reviewed recently in <ref type="bibr" target="#b56">[56]</ref>). At least two distinct machineries exist to accomplish this feat, the elongasome and the divisome. Filaments of MreB, FtsZ, and FtsA proteins serve to organize and direct the growth and division machinery to their proper locations.</p><p>The elongasome is responsible for the insertion of new PG into the growing sacculus and is organized by the actin homolog MreB (Table <ref type="table" target="#tab_0">1</ref>). MreB filaments move circumferentially around rod-shaped cells and organize the multiprotein PG synthetic machinery to add PG in a helical fashion along the cell cylinder, allowing cell length to increase <ref type="bibr" target="#b49">[49]</ref>.</p><p>The divisome is the molecular machine responsible for cell separation (cytokinesis) under the control of the tubulin homolog FtsZ and the actin homolog FtsA (Table <ref type="table" target="#tab_0">1</ref>). FtsZ filaments organize into a centrally located ring-shaped structure (the Z-ring) that directs the PG machinery to produce the division septum during cytokinesis <ref type="bibr" target="#b56">[56]</ref>. Cytokinesis also involves the separation of the cell membrane. FtsA forms filaments that directly interact with FtsZ filaments and anchor the constricting Z-ring to the cytoplasmic membrane, ensur-ing that all layers of the cell envelope are constricted and separated during cytokinesis <ref type="bibr" target="#b49">[49]</ref>. In addition, placement of the division septum at mid-cell and suppression of division at the cell poles is accomplished by filaments of DivIVA, MinC, and MinD which form a complex structure at the cell poles <ref type="bibr" target="#b49">[49]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.2.">DNA Division, Repair, and Gene Expression</head><p>In prokaryotes, filament-forming proteins perform numerous functions on DNA including chromosome division, chromosome and plasmid segregation, DNA repair, and regulation of gene expression (reviewed in <ref type="bibr" target="#b49">[49]</ref>). The actin homolog MreB is involved with the initial stages of bacterial chromosome segregation coupled with DNA synthesis <ref type="bibr" target="#b57">[57]</ref>. With help of ParB, the ParA protein forms collaborative filaments with DNA and is involved with chromosome movement and segregation during cell division using a currently unknown mechanism <ref type="bibr" target="#b49">[49]</ref>. The RecA protein is central both in DNA repair and homologous recombination; it binds and forms filaments with both single-and double-stranded DNA and has been shown to exert cytomotive properties in the movement of DNA during double-strand break repair <ref type="bibr" target="#b49">[49]</ref>. H-NS proteins are a class of transcriptional repressors that nucleate at specific regulatory sequences and form stiff collaborative filaments that sterically hinder RNA polymerase from binding to promoters in the vicinity. It is estimated H-NS regulates the transcription of up to 5% of the genes in E. coli <ref type="bibr" target="#b49">[49]</ref>. However, at present, the mechanism(s) of exactly how cytoskeletal filaments are involved in coordinating DNA synthesis and chromosomal division with membrane and cell wall synthesis and cytokinesis in prokaryotes is currently unknown and an active area of research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Prokaryotic Nucleoid Architecture</head><p>The prokaryotic counterpart of the eukaryotic nucleus is the bacterial chromosome or nucleoid. The nucleoid consists of genomic DNA in a complex with its complement of nucleoid-associated proteins (NAPs). The nucleoid is not bounded by its own membrane and is in direct contact with the cytoplasm. In the last two decades, using fluorescence microscopy to track chromosomal loci inside bacteria cells, researchers have found that bacterial chromosomes are organized into stereotypical patterns, with specific chromosomal regions localizing to defined cellular locations (reviewed in <ref type="bibr" target="#b58">[58]</ref>). Over the past few years, the application of genome-wide high-resolution chromosome conformation capture (Hi-C) assays to bacteria has provided a detailed picture of the three-dimensional folding characteristics of the entire chromosome. In parallel, super-resolution microscopy techniques have strongly advanced our knowledge of bacterial nucleoid organization.</p><p>It is increasingly appreciated that the nucleoid adopts a specific architecture, which alters dramatically in response to the growth phase, cellular development, and environmental changes. Recent Hi-C studies of a number of bacterial species provided insights into the three-dimensional folding of the bacterial chromosome. In Caulobacter crescentus and B. subtilis, but not E. coli, the chromosome exhibits long-range interactions. The two replication arms are juxtaposed from the origin to the terminus region, mediated by the SMC condensin complex <ref type="bibr" target="#b59">[59]</ref><ref type="bibr" target="#b60">[60]</ref><ref type="bibr" target="#b61">[61]</ref><ref type="bibr" target="#b62">[62]</ref><ref type="bibr" target="#b63">[63]</ref>. For all three bacterial species, the genome along its entire length is organized into chromosome interaction domains (CIDs), ranging from ~30 to &gt;400 kilobase pairs. Regions within each domain interact with each other more frequently than with regions in other domains. The domain boundaries are often enriched with highly transcribed genes, and inhibition of transcription essentially abolishes all domain boundaries <ref type="bibr" target="#b59">[59,</ref><ref type="bibr" target="#b63">63]</ref>, indicating that the 3D architecture of the nucleoid is intimately linked to transcription.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">DNA Supercoiling</head><p>The nucleoid is a highly condensed structure that must allow the replication and transcription machinery to access specific genes in a coordinated fashion, in order to optimize cell metabolism and replication under a wide range of environmental conditions <ref type="bibr" target="#b64">[64]</ref>. To accomplish this feat, selected parts of the nucleoid are constantly and dynamically de-and re-condensed in response to environmental signals. Dynamic restructuring of the nucleoid depends critically on a host of enzymes that control DNA topology, collectively known as topoisomerases, which maintain DNA in an optimal state of negative supercoiling. Transcription of a gene is dependent upon the local DNA superhelical state, and in turn, the transcription process itself influences DNA supercoiling, by overwinding DNA ahead of the transcription complex and underwinding it behind (reviewed in <ref type="bibr" target="#b65">[65]</ref>). A growing body of evidence points to changes in DNA supercoiling as being a key mediator between environmental sensing by a microbe and its response through modulation of global transcription patterns. It has been shown experimentally that DNA supercoiling is sensitive to variations in the physical environment such as: pH, oxygen, temperature, osmotic pressure, oxidative stress, nutrition, and growth phase, among others (reviewed in <ref type="bibr" target="#b66">[66]</ref>). In turn, it has also been shown experimentally that alterations in DNA supercoiling can influence the global pattern of bacterial gene transcription, and ultimately the phenotypic response to environmental changes (reviewed in <ref type="bibr" target="#b66">[66]</ref>). Historically, most studies in this area have been performed using Gram-negative bacteria (E. coli, S. enterica, Vibrio cholerae); however, these investigations have been recently extended to the Gram-positive opportunist Streptococcus pneumoniae <ref type="bibr" target="#b67">[67]</ref>. Recent evidence suggests active transcription drives the formation of boundaries between CIDs <ref type="bibr" target="#b68">[68]</ref>, likely through alterations in DNA topology <ref type="bibr" target="#b65">[65]</ref>, thus highlighting the three-way interactions between nucleoid architecture, supercoiling, and transcription.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6.">Epigenetic Modification of DNA</head><p>Epigenetics is the study of heritable changes in gene expression that occur without changes in DNA sequence (reviewed in <ref type="bibr" target="#b69">[69]</ref>). In bacteria, the most-studied epigenetic modification of DNA is base methylation. Specific DNA methyltransferases are responsible for the post-replicative addition of a methyl group to the N6-position of adenine (6mA), the C5-position of cytosine (5mC), or the N4-position of cytosine (4mC) <ref type="bibr" target="#b70">[70]</ref>. Base methylation can modulate the interaction of DNA-binding proteins with their cognate sites, and methylation of DNA controls genome defense, chromosome replication and segregation, nucleoid organization, cell cycle control, DNA repair, and regulation of transcription (reviewed in <ref type="bibr" target="#b71">[71]</ref>). In particular, a number of specific systems have been described in which gene transcription is directly regulated by DNA methylation/demethylation/hemimethylation ( <ref type="bibr" target="#b72">[72]</ref><ref type="bibr" target="#b73">[73]</ref><ref type="bibr" target="#b74">[74]</ref><ref type="bibr" target="#b75">[75]</ref><ref type="bibr" target="#b76">[76]</ref><ref type="bibr" target="#b77">[77]</ref>; reviewed in <ref type="bibr" target="#b71">[71]</ref>). Furthermore, both nucleoid organization and chromosome replication are controlled by DNA methylation <ref type="bibr" target="#b78">[78,</ref><ref type="bibr" target="#b79">79]</ref>. Therefore, the available evidence indicates that nucleoid architecture, DNA supercoiling, epigenetic DNA modification, and transcription are all tightly linked in prokaryotes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Does Mechanotransduction Play a Role in the Prokaryotic Microgravity Response?</head><p>From the examination of the studies cited above, we have seen that eukaryotic cells possess mechanosensing and mechanotransduction systems that modulate their gene expression in response to microgravity. Further, we have seen from the results of recent studies utilizing model bacterial species that it is becoming increasingly clear that prokaryotes also possess complex intracellular compartmentalization, analogs of cytoskeletal proteins, and sophisticated signal transduction networks comparable to those of eukaryotic cells. These networks serve to sense external environmental cues through surface structures and to transmit this information to the transcription apparatus via traditional signaling pathways such as two-component systems. From the available information and by analogy, we hypothesize that the prokaryotic cytoskeletal apparatus functions in an analogous manner to its eukaryotic counterpart. We further propose that the microbial cytoskeleton plays a key role in transducing mechanical changes sensed at the cell surface to the nucleoid, altering its architecture and the global transcriptional apparatus. Testing of this hypothesis will necessitate conducting new types of experiments in the spaceflight environment, such as: visualization of cytoskeletal structures, mapping of nucleoid architecture, and measurements of DNA supercoiling and methylation patterns, to name a few.</p><p>As many of these measurements can be very sensitive to differences in sample handling, it will be of high importance in this endeavor to match as precisely as possible media and growth conditions, spaceflight hardware, and pre-and post-flight sample handling, to eliminate all possible variables with the exception of gravity. Ideally, it would be preferable to perform all exposures in the microgravity environment (providing 1 × g by centrifugation) and to perform all inoculations, fixations, freezing, etc. at the same time and using the same protocols. Results from such experiments hold the promise for uncovering a new and fundamental mechanism for microbial adaptation to spaceflight microgravity, mechanosensing and mechanotransduction.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Schematic model of eukaryotic mechanotransduction pathway. An external mechanical force generated through the extracellular matrix (ECM) or tight junctions is sensed by mechanosensitive proteins in the cytoplasmic membrane (CM) and transduced through the cytoskeleton, LINC protein complexes in the nuclear membrane (NM), and nucleoskeleton to effect transcription of mechanosensitive genes. Colored shapes represent proteins in the transduction pathway; their specific identities and functions are elaborated in refs. [15-17]. See text for details.</figDesc><graphic coords="2,164.91,169.96,288.48,282.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Schematic model of eukaryotic mechanotransduction pathway. An external mechanical force generated through the extracellular matrix (ECM) or tight junctions is sensed by mechanosensitive proteins in the cytoplasmic membrane (CM) and transduced through the cytoskeleton, LINC protein complexes in the nuclear membrane (NM), and nucleoskeleton to effect transcription of mechanosensitive genes. Colored shapes represent proteins in the transduction pathway; their specific identities and functions are elaborated in refs. [15-17]. See text for details.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Comparison of cytoskeletal analogs 1 .</figDesc><table><row><cell>Eukaryotic Cytoskeletal Structure</cell><cell>Eukaryotic Subunit Analogs</cell><cell>Prokaryotic Subunit Analogs</cell><cell>Function in Prokaryotes</cell></row><row><cell></cell><cell></cell><cell>FtsZ</cell><cell>Cytokinesis</cell></row><row><cell>Microtubules</cell><cell>α-Tubulin, β-Tubulin</cell><cell>TubZ</cell><cell>DNA positioning</cell></row><row><cell></cell><cell></cell><cell>RepX</cell><cell>Plasmid replication</cell></row><row><cell>Microfilaments</cell><cell>Actin Superfamily</cell><cell>MreB FtsA</cell><cell>Cell shape, chromosome segregation Cytokinesis</cell></row><row><cell></cell><cell></cell><cell>ParM</cell><cell>DNA segregation</cell></row><row><cell>Intermediate Filaments</cell><cell>Keratins, Vimentin, Desmin, Neurofilament Proteins, Lamins</cell><cell>CreS (crescentin)</cell><cell>Cell shape</cell></row></table><note><p>1 </p><p>Adapted from<ref type="bibr" target="#b48">[48]</ref></p><p>.</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments:</head><p>The authors thank <rs type="person">Xindan Wang</rs> for helpful discussions of Hi-C chromosome capture methodology.</p></div>
+			</div>			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>The authors declare no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Biology on sounding rockets: History, requirements, results, and scientific interpretation</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Demets</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 20th Symposium on European Rocket and Balloon Programmes and Related Research</title>
+		<meeting>the 20th Symposium on European Rocket and Balloon Programmes and Related Research<address><addrLine>Hyère, France</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011-05-26">22-26 May 2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ouwehand</surname></persName>
+		</author>
+		<title level="m">ESA Communications: Hyère</title>
+		<meeting><address><addrLine>France</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="page" from="63" to="66" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The effects of weightlessness on the human organism and mammalian cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pietsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Egli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Infanger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wise</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ulbrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Grimm</surname></persName>
+		</author>
+		<idno type="DOI">10.2174/156652411795976600</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Mol. Med</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="350" to="364" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Behavioural and functional vestibular disorders after space flight: 2. Fish, amphibians and birds</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Lychakov</surname></persName>
+		</author>
+		<idno type="DOI">10.1134/S0022093016010014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Evol. Biochem. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Space, the final frontier: A critical review of recent experiments performed in microgravity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Vandenbrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Kiss</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.plantsci.2015.11.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant. Sci</title>
+		<imprint>
+			<biblScope unit="volume">243</biblScope>
+			<biblScope unit="page" from="115" to="119" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Gravireceptors in eukaryotes-a comparison of case studies on the cellular level</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Hader</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Grimm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hemmersbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41526-017-0018-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Spaceflight and modeled microgravity effects on microbial growth and virulence</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Rosenzweig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Abogunde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lawal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">U</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sodipe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Jejelowo</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00253-009-2237-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="885" to="891" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Low-shear force associated with modeled microgravity and spaceflight does not similarly impact the virulence of notable bacterial pathogens</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Rosenzweig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eunson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Chopra</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00253-014-6025-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Impact of space flight on bacterial virulence and antibiotic susceptibility</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno type="DOI">10.2147/IDR.S67275</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Drug Resist</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="249" to="262" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Microbial responses to microgravity and other low-shear environments</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nickerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ramamurthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/MMBR.68.2.345-361.2004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol. Mol. Biol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="345" to="361" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Mechanotransduction as an adaptation to gravity</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Najrana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sanchez-Esteban</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fped.2016.00140</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Pediatr</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">140</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Balancing forces: Architectural control of mechanotransduction</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Dufort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Paszek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Weaver</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrm3112</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mol. Cell Biology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="308" to="319" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Molecular mechanisms of cellular mechanosensing</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Iglesias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Robinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmat3772</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1064" to="1071" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Mechanosensitive control of plant growth: Bearing the load, sensing, transducing, and responding</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Moulia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Coutand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Julien</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpls.2015.00052</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Plant. Sci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Role of trp channels in dinoflagellate mechanotransduction</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Lindstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Pierce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Latz</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/695421</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Bull</title>
+		<imprint>
+			<biblScope unit="volume">233</biblScope>
+			<biblScope unit="page" from="151" to="167" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Cellular mechanotransduction: From tension to function</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Martino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Perestrelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vinarský</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pagliari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Forte</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2018.00824</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">824</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Gene regulation through dynamic actin control of nuclear structure</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sankaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Uzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Van Wijnen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rubin</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1535370219850079</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Exp. Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">244</biblScope>
+			<biblScope unit="page" from="1345" to="1353" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The nuclear envelope: Lincing tissue mechanics to genome regulation in cardiac and skeletal muscle</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Piccus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brayson</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rsbl.2020.0302</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Mechanosensitive channels: What can they do and how do they do it?</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Haswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Rees</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.str.2011.09.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Structure</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1356" to="1369" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Putative receptors for gravity sensing in mammalian cells: The effects of microgravity</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aventaggiato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Barreca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Vernucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bizzarri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ferretti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Russo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tafani</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/app10062028</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">28</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Modeling the impact of microgravity at the cellular level: Implications for human disease</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bradbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">U</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Rowan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Poole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lauko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chou</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fcell.2020.00096</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Cell Dev. Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">96</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Regulation of genome organization and gene expression by nuclear mechanotransduction</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Uhler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">V</forename><surname>Shivashankar</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrm.2017.101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Molec. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="717" to="727" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Organ-specific remodeling of the Arabidopsis transcriptome in response to spaceflight</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Zupanska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Schultz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ferl</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2229-13-112</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">10</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The role of the cytoskeleton in sensing changes in gravity by nonspecialized cells</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vorselen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Roos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Mackintosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J L</forename><surname>Wuite</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Loon</surname></persName>
+		</author>
+		<idno type="DOI">10.1096/fj.13-236356</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="536" to="547" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Rapid coupling between gravitational forces and the transcriptome in human myelomonocytic U937 cells</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Thiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tauber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Christoffel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Huge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Lauber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Polzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Paulsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Engelmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schmitz</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-018-31596-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">13267</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Theoretical studies on living systems in the absence of mechanical stress</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Pollard</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0022-5193(65)90097-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Theor. Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="113" to="123" />
+			<date type="published" when="1965">1965</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Space microbiology</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Horneck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Klaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Mancinelli</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/MMBR.00016-09</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol. Mol. Biol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="121" to="156" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Simulation of microgravity for studies in gravitational biology: Principles, devices, and applications</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Anken</surname></persName>
+		</author>
+		<idno type="DOI">10.2174/22115501113029990012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="192" to="200" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Ground-based facilities for simulation of microgravity: Organism-specific recommendations for their use, and recommended terminology</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Herranz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Anken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Boonstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Christianen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Geest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hauslage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hilbig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lebert</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/ast.2012.0876</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Effect of simulated microgravity and shear stress on microcin B17 production by Escherichia coli and on its excretion into the medium</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Koenig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Demain</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.63.10.4090-4092.1997</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="4090" to="4092" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Microgravity as a novel environmental signal affecting Salmonella enterica serovar Typhimurium virulence</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nickerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Mister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Morrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Burns-Keliher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/IAI.68.6.3147-3152.2000</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Immun</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="3147" to="3152" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Spaceflight enhances cell aggregation and random budding in Candida albicans</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crabbé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Nielsen-Preiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Woolley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Barrila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Buchanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mccracken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">O</forename><surname>Inglis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Searles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Nelman-Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0080677</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">80677</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Spaceflight modifies Escherichia coli gene expression in response to antibioticc exposure and reveals role of oxidative stress response</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Aunins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Erickson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Prasad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shrestha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mastracchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stodieck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Klaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zea</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2018.00310</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">310</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Transcriptional and proteomic responses of Pseudomonas aeruginosa PAO1 to spaceflight conditions involve Hfq regulation and reveal a role for oxygen</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crabbé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Schurr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Monsieurs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Morici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schurr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tsaprailis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Stefanyshyn-Piper</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.01582-10</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="1221" to="1230" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H Z</forename><surname>Bentrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ramamurthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Quick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Porwollik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mcclelland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tsaprailis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Radabaugh</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0707155104</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="16299" to="16304" />
+			<date type="published" when="2007">2007</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Genomic and transcriptomic analysis of NDM-1 Klebsiella pneumoniae in spaceflight reveal mechanisms underlying environmental adaptability</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Woo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep06216</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">6216</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Response of Pseudomonas aeruginosa PAO1 to low shear modelled microgravity involves AlgU regulation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crabbé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pycke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van Houdt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Monsieurs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nickerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Leys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cornelis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1545" to="1564" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Experimental design and environmental parameters affect Rhodospirillum rubrum S1H response to space flight</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mastroleo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van Houdt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Leroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Benotmane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Janssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mergeay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vanhavere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hendrickx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wattiez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Leys</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ismej.2009.74</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1402" to="1419" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Comparison of Bacillus subtilis transcriptome profiles from two separate missions to the International Space Station</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fajardo-Cavazos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41526-018-0061-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Media ion composition controls regulatory and virulence response of Salmonella in spaceflight</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Quick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H Z</forename><surname>Bentrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crabbé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sarker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Barrila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Porwollik</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0003923</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">3923</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Meta-analysis of data from spaceflight transcriptome experiments does not support the idea of a common bacterial &quot;spaceflight response</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-018-32818-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">14403</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Comparisons of transcriptome profiles from Bacillus subtilis cells grown in space versus High Aspect Ratio Vessel (HARV) clinostats reveal a low degree of concordance</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/ast.2020.2235</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1498" to="1509" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Use of fluorescence microscopy to study intracellular signaling in bacteria</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kentner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sourjik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Annual Review of Microbiology</title>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Gottesman</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Harwood</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Palo Alto; Santa Clara, CA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="373" to="390" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The hidden side of the prokaryotic cell: Rediscovering the microbial world</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Guerrero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Berlanga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="157" to="168" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Microcompartments and protein machines in prokaryotes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Saier</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000351625</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="243" to="269" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Mechanomicrobiology: How bacteria sense and respond to forces</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Dufrene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Persat</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41579-019-0314-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="227" to="240" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Bacterial mechanotransduction</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Persat</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mib.2016.12.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Protein subcellular localization in bacteria</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Z</forename><surname>Rudner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Losick</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/cshperspect.a000307</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harbor Perspect. Biol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">14</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The evolution of the cytoskeleton</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wickstead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gull</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.201102065</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">194</biblScope>
+			<biblScope unit="page" from="513" to="525" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Collaborative protein filaments</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ghosal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Löwe</surname></persName>
+		</author>
+		<idno type="DOI">10.15252/embj.201591756</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="2312" to="2320" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Prokaryotic cytoskeletons: Protein filaments organizing small cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wagstaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Löwe</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrmicro.2017.153</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="187" to="201" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Multidimensional view of the bacterial cytoskeleton</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Celler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>Koning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Koster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Van Wezel</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/JB.02194-12</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page" from="1627" to="1636" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">A brief history of bacterial growth physiology</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schaechter</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2015.00289</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Bacterial mechanosensitive channels: Progress towards an understanding of their roles in cell physiology</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Booth</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mib.2014.01.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="16" to="22" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Defects in the flagellar motor increase synthesis of poly-gamma-glutamate in Bacillus subtilis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Guttenplan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Kearns</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/JB.01217-13</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">196</biblScope>
+			<biblScope unit="page" from="740" to="753" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">A mechanical signal transmitted by the flagellum controls signalling in Bacillus subtilis</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Cairns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Marlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bissett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ostrowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Stanley-Wall</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/mmi.12342</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="6" to="21" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Regulation of peptidoglycan synthesis and remodelling</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J F</forename><surname>Egan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Errington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Vollmer</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41579-020-0366-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="446" to="460" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Chromosome organization and segregation in bacteria</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Thanbichler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shapiro</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jsb.2006.05.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="page" from="292" to="303" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Spatial organization of bacterial chromosomes</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Z</forename><surname>Rudner</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mib.2014.09.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="66" to="72" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">High-resolution mapping of the spatial organization of a bacterial chromosome</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B K</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Imakaev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Mirny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Laub</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1242059</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">342</biblScope>
+			<biblScope unit="page" from="731" to="734" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Multiscale structuring of the E. coli chromosome by nucleoid-associated and condensin proteins</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>Lioy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cournac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marbouty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Duigou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mozziconacci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Espéli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Boccard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Koszul</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2017.12.027</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">172</biblScope>
+			<biblScope unit="page">718</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Condensin-and replication-mediated bacterial chromosome folding and origin condensation revealed by Hi-C and superresolution imaging</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marbouty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Le Gall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Cattoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cournac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Koh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Fiche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mozziconacci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Koszul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nollmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molcel.2015.07.020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="588" to="602" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Condensin promotes the juxtaposition of DNA flanking its loading site in Bacillus subtilis</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B K</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Lajoie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dekker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Laub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Z</forename><surname>Rudner</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gad.265876.115</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Dev</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1661" to="1675" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Bacillus subtilis SMC complexes juxtapose chromosome arms as they travel from origin to terminus</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Brandao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B K</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Laub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Z</forename><surname>Rudner</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aai8982</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">355</biblScope>
+			<biblScope unit="page" from="524" to="527" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Physical descriptions of the bacterial nucleoid at large scales, and their biological implications</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Benza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bassetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Dorfman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">F</forename><surname>Scolari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bromek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cicuta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Lagomarsino</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0034-4885/75/7/076602</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rep. Prog. Phys</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">DNA supercoiling and transcription in bacteria: A two-way street</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Dorman</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12860-019-0211-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">DNA supercoiling is a fundamental regulatory principle in the control of bacterial gene expression</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Dorman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Dorman</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12551-016-0205-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys. Rev</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="209" to="220" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">The transcriptome of Streptococcus pneumoniae induced by local and global changes in supercoiling</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>De La Campa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Ferrándiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Martín-Galiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Tirado-Vélez</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2017.01447</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1447</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Transcription rate and transcript length drive formation of chromosomal interaction domain boundaries</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B K</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Laub</surname></persName>
+		</author>
+		<idno type="DOI">10.15252/embj.201593561</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1582" to="1595" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Phasevarions of bacterial pathogens: Methylomics sheds new light on old enemies</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Atack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">O</forename><surname>Bakaletz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Jennings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Seib</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tim.2018.01.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="715" to="726" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">DNA methylation in bacteria: From the methyl group to the methylome</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sanchez-Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Cota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Casadesus</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mib.2015.03.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="9" to="16" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">The bacterial epigenome</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sanchez-Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Casadesús</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41579-019-0286-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="7" to="20" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">The functions of DNA methylation by CcrM in Caulobacter crescentus: A global approach</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Kozdon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Mcadams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shapiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Collier</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkt1352</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="3720" to="3735" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">OxyR-dependent formation of DNA methylation patterns in OpvABOFF and OpvABON cell lineages of Salmonella enterica</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Cota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bunk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Spröer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Overmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>König</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Casadesús</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkv1483</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="3595" to="3609" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Regulation of traJ transcription in the Salmonella virulence plasmid by strand-specific DNA adenine hemimethylation</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Camacho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Casadesús</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2958.2005.04788.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="1700" to="1718" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">DNA binding of the cell cycle transcriptional regulator gcrA depends on N6-adenosine methylation in Caulobacter crescentus and other Alphaproteobacteria</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fioravanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fumeaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Mohapatra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bompard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brilli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Frandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Castric</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Villeret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Viollier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Biondi</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pgen.1003541</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1003541</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Phase variation controls expression of Salmonella lipopolysaccharide modification genes by a DNA methylation-dependent mechanism</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Broadbent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Van Der Woude</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2958.2010.07203.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="337" to="353" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Regulation of pyelonephritis-associated pili phase-variation in Escherichia coli: Binding of the PapI and the Lrp regulatory proteins is controlled by DNA methylation</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Nou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Skinner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Braaten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Blyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hirsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Low</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2958.1993.tb01145.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="545" to="553" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Dynamic distribution of SeqA protein across the chromosome of Escherichia coli K-12</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sánchez-Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Busby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Dyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Millard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Grainger</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/mBio.00012-10</idno>
+	</analytic>
+	<monogr>
+		<title level="j">MBio</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Replication fork movement and methylation govern SeqA binding to the Escherichia coli chromosome</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Waldminghaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Weigel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Skarstad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="5465" to="5476" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1093/nar/gks187</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

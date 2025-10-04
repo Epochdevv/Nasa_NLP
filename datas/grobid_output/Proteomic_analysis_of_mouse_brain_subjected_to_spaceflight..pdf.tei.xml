@@ -1,0 +1,3517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Proteomic Analysis of Mouse Brain Subjected to Spaceflight</title>
+				<funder ref="#_DcCfADh">
+					<orgName type="full">Amgen, Inc</orgName>
+				</funder>
+				<funder ref="#_vZxHGMg #_hpeG3ud">
+					<orgName type="full">NASA</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">LLUMC Departments of Biomedical Engineering Sciences and Radiation Medicine</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>MDPI AG</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-12-20">20 December 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Xiao</forename><forename type="middle">Wen</forename><surname>Mao</surname></persName>
+							<email>xmao@llu.edu</email>
+							<idno type="ORCID">0000-0002-4508-8689</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Basic Sciences</orgName>
+								<orgName type="department" key="dep2">Division of Biomedical Engineering Sciences</orgName>
+								<orgName type="institution">Loma Linda University School of Medicine</orgName>
+								<address>
+									<postCode>92354</postCode>
+									<settlement>Loma Linda</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lawrence</forename><forename type="middle">B</forename><surname>Sandberg</surname></persName>
+							<email>lsandberg@llu.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">Loma Linda University School of Medicine</orgName>
+								<address>
+									<postCode>92350</postCode>
+									<settlement>Loma Linda</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daila</forename><forename type="middle">S</forename><surname>Gridley</surname></persName>
+							<email>dgridley@llu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Basic Sciences</orgName>
+								<orgName type="department" key="dep2">Division of Biomedical Engineering Sciences</orgName>
+								<orgName type="institution">Loma Linda University School of Medicine</orgName>
+								<address>
+									<postCode>92354</postCode>
+									<settlement>Loma Linda</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><forename type="middle">Clifford</forename><surname>Herrmann</surname></persName>
+							<email>cherrmann@llu.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">Loma Linda University School of Medicine</orgName>
+								<address>
+									<postCode>92350</postCode>
+									<settlement>Loma Linda</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Guangyu</forename><surname>Zhang</surname></persName>
+							<email>guangyuzhang@llu.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Biochemistry</orgName>
+								<orgName type="institution">Loma Linda University School of Medicine</orgName>
+								<address>
+									<postCode>92350</postCode>
+									<settlement>Loma Linda</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ravi</forename><surname>Raghavan</surname></persName>
+							<email>rraghavan@llu.edu</email>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Pathology and Human Anatomy</orgName>
+								<orgName type="institution">Loma Linda University School of Medicine</orgName>
+								<address>
+									<postCode>92350</postCode>
+									<settlement>Loma Linda</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Roman</forename><forename type="middle">A</forename><surname>Zubarev</surname></persName>
+							<email>roman.zubarev@ki.se</email>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Medical Biochemistry and Biophysics</orgName>
+								<orgName type="institution" key="instit1">Biomedicum</orgName>
+								<orgName type="institution" key="instit2">Karolinska Institutet</orgName>
+								<address>
+									<postCode>17177</postCode>
+									<settlement>Stockholm</settlement>
+									<region>SE</region>
+									<country>Sweden;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Pharmacological and Technological Chemistry</orgName>
+								<orgName type="department" key="dep2">I.M. Sechenov</orgName>
+								<orgName type="institution">First Moscow State Medical University</orgName>
+								<address>
+									<postCode>119991</postCode>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bo</forename><surname>Zhang</surname></persName>
+							<email>zhang@ki.se</email>
+							<idno type="ORCID">0000-0001-8890-8416</idno>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Medical Biochemistry and Biophysics</orgName>
+								<orgName type="institution" key="instit1">Biomedicum</orgName>
+								<orgName type="institution" key="instit2">Karolinska Institutet</orgName>
+								<address>
+									<postCode>17177</postCode>
+									<settlement>Stockholm</settlement>
+									<region>SE</region>
+									<country>Sweden;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Pharmacological and Technological Chemistry</orgName>
+								<orgName type="department" key="dep2">I.M. Sechenov</orgName>
+								<orgName type="institution">First Moscow State Medical University</orgName>
+								<address>
+									<postCode>119991</postCode>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Louis</forename><forename type="middle">S</forename><surname>Stodieck</surname></persName>
+							<email>stodieck@colorado.edu</email>
+							<idno type="ORCID">0000-0001-9867-5644</idno>
+							<affiliation key="aff5">
+								<orgName type="department">BioServe Space Technologies</orgName>
+								<orgName type="institution">University of Colorado at Boulder</orgName>
+								<address>
+									<postCode>80303</postCode>
+									<settlement>Boulder</settlement>
+									<region>CO</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Virginia</forename><forename type="middle">L</forename><surname>Ferguson</surname></persName>
+							<email>virginia.ferguson@colorado.edu</email>
+							<affiliation key="aff5">
+								<orgName type="department">BioServe Space Technologies</orgName>
+								<orgName type="institution">University of Colorado at Boulder</orgName>
+								<address>
+									<postCode>80303</postCode>
+									<settlement>Boulder</settlement>
+									<region>CO</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ted</forename><forename type="middle">A</forename><surname>Bateman</surname></persName>
+							<email>tbateman@email.unc.edu</email>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Bioengineering</orgName>
+								<orgName type="institution">University of North Carolina at</orgName>
+								<address>
+									<addrLine>Chapel Hill</addrLine>
+									<postCode>27599</postCode>
+									<settlement>Chapel Hill</settlement>
+									<region>NC</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Pecaut</surname></persName>
+							<email>mpecaut@llu.edu</email>
+							<idno type="ORCID">0000-0002-2915-9686</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Basic Sciences</orgName>
+								<orgName type="department" key="dep2">Division of Biomedical Engineering Sciences</orgName>
+								<orgName type="institution">Loma Linda University School of Medicine</orgName>
+								<address>
+									<postCode>92354</postCode>
+									<settlement>Loma Linda</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Proteomic Analysis of Mouse Brain Subjected to Spaceflight</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">International Journal of Molecular Sciences</title>
+						<title level="j" type="abbrev">IJMS</title>
+						<idno type="eISSN">1422-0067</idno>
+						<imprint>
+							<publisher>MDPI AG</publisher>
+							<biblScope unit="volume">20</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<biblScope unit="page">7</biblScope>
+							<date type="published" when="2018-12-20">20 December 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">AD62449053D55C9180F40739BEA7B616</idno>
+					<idno type="DOI">10.3390/ijms20010007</idno>
+					<note type="submission">Received: 9 November 2018; Accepted: 17 December 2018;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:47+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>brain</term>
+					<term>spaceflight</term>
+					<term>microgravity</term>
+					<term>proteomics</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>There is evidence that spaceflight poses acute and late risks to the central nervous system. To explore possible mechanisms, the proteomic changes following spaceflight in mouse brain were characterized. Space Shuttle Atlantis (STS-135) was launched from the Kennedy Space Center (KSC) on a 13-day mission. Within 3-5 h after landing, brain tissue was collected to evaluate protein expression profiles using quantitative proteomic analysis. Our results showed that there were 26 proteins that were significantly altered after spaceflight in the gray and/or white matter. While there was no overlap between the white and gray matter in terms of individual proteins, there was overlap in terms of function, synaptic plasticity, vesical activity, protein/organelle transport, and metabolism. Our data demonstrate that exposure to the spaceflight environment induces significant changes in protein expression related to neuronal structure and metabolic function. This might lead to a significant impact on brain structural and functional integrity that could affect the outcome of space missions.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Long-term deep space missions expose astronauts to an environment that is characterized mainly by ultraviolet and ionizing radiation, microgravity, and physiological/psychological stressors. These conditions present a significant hazard to spaceflight crews during and after the course of mission activities. The hazards posed to normal tissues, such as the central nervous system (CNS), are not fully understood. The health risks of spaceflight-induced neuronal damage and potential neurodegenerative effects have long been a concern. Brain damage and degeneration can be promoted by many factors including aging, ischemia, fluctuation in oxygen tension, oxidative stress, and increased intraocular pressure.</p><p>There is some evidence that low-dose, space-relevant radiation induces changes in neuronal functions <ref type="bibr" target="#b0">[1]</ref>. Microgravity induces intraocular pressure and vascular changes <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref> and promotes apoptosis of astrocytes <ref type="bibr" target="#b3">[4]</ref>. Spaceflight also induces cognitive and perceptual motor performance deterioration under stress <ref type="bibr" target="#b4">[5]</ref>. Studies have shown that exposure to spaceflights has a strong impact on metabolic and stress response <ref type="bibr" target="#b5">[6]</ref>. Collective evidence indicates that exposure to stressful spaceflight environments might induce changes in brain neuronal structure and function. However, the pathophysiological consequences and role of cellular mechanisms of stress stimuli, especially those stemming from the spaceflight environment, in facilitating brain damage and neurodegeneration have been studied less and remain unclear.</p><p>Gray matter consists of neurons (i.e., it contains the cell bodies, dendrites and axon terminals of neurons), nerve fibers, astrocytes, microglia, and capillaries. Gray matter is closely associated with the functional domains of performance, locomotion, learning, memory and coordination. On the other hand, white matter consists mostly of oligodendroglial cells, myelinated axons and capillaries. White matter allows communication to and from gray matter areas, and between gray matter and the other parts of the body. It functions by transmitting the information from the different parts of the body towards the cerebral cortex. It modulates the distribution of action potentials, acting as a relay and coordinating communication between different brain regions <ref type="bibr" target="#b6">[7]</ref>. Changes in gray matter are known to be primarily associated with Alzheimer's disease and other neurodegenerative diseases, with secondary effects on the white matter <ref type="bibr" target="#b7">[8]</ref>. The deficits range from language ability to delayed memory and visuospatial construction. Disrupted white matter organization has been linked to poorer motor performance <ref type="bibr" target="#b8">[9]</ref>. Studies have shown altered expressions of a number of genes and proteins involving a wide spectrum of biological functions following exposure to space environments. These alterations induced distinct changes specific to the regions of the brain <ref type="bibr" target="#b9">[10]</ref>. Regional difference in stress response was also documented following simulated microgravity in human brain gray matter and white matter <ref type="bibr" target="#b10">[11]</ref>.</p><p>The purpose of the present investigation was to study spaceflight condition-induced changes in protein expression profiles in mouse gray matter and to compare these changes to those in white matter regions. Our unique data might provide new insights and improve risk assessment for future long-term space travel.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Results</head><p>There were nine and 17 proteins that were significantly altered after spaceflight in the white (Table <ref type="table" target="#tab_0">1</ref>) and gray (Table <ref type="table" target="#tab_1">2</ref>) matter, respectively (p &lt; 0.05, log fold change &gt;1.0 or &lt;-1.0). In general, proteins that were significantly altered were upregulated in both areas of the brain. However, there was no overlap between the brain area data sets. If log fold change constraints were reduced to &gt;0.5, the number of proteins increased to 16 and 25 for white and gray matter, respectively.</p><p>There were no significant changes in canonical pathways or upstream regulators in the pathway analysis for either the white or gray matter proteins. However, there were strong trends for changes in functionally related proteins in both brain regions (Table <ref type="table" target="#tab_2">3</ref>). In the white matter, there was a strong trend for a downregulation of functions related to the formation of cellular protrusions (Z = -1.98).</p><p>In the gray matter, there was a significant downregulation of functions related to overall organismal death and organ degeneration (Z &lt; -2.0). There were also strong trends for downregulation in cellular and neural degenerative functions (Z = -1.98). Interestingly, there was a significant upregulation in functions related to viral infection (Z &gt; 2.0). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Discussion</head><p>While there do not appear to be enough significantly different proteins in either white or gray matter in this analysis to appear as a significantly activated canonical pathway, there still appear to be common functional themes: (1) synaptic function, (2) intracellular communication, (3) metabolism, (4) oxidative stress and tissue damage responses, and (5) activation of catecholamines.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Synaptic Function: Plasticity, Vesicles and Dendritic Spines</head><p>In the white matter there were three proteins related to synaptic plasticity that were upregulated. Calcium voltage-gated channel auxiliary subunit α2δ1 (CACNA2D1) is intimately involved in calcium channel trafficking <ref type="bibr" target="#b11">[12]</ref> and regulates excitatory synapse formation during development or after injury <ref type="bibr" target="#b12">[13]</ref>. PTPRF interacting protein α 3 (PPFIA3, also known as Liprin-α-3) is typically found to be co-expressed with a variety of pre-synaptic proteins in neurons but has also been found in astrocytes <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b14">15]</ref>. It is thought to be involved in presynaptic plasticity and synaptic vesicle release, particularly in excitatory synapses <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16]</ref>. Myosin VA (MYO5A) is an F-actin-based motor protein that is also important in the generation and movement of synaptic vesicles. It has been found in dendritic spines and synaptic vesicles and appears to be critical for synaptic plasticity and organelle transport (reviewed in Reference <ref type="bibr" target="#b16">[17]</ref>).</p><p>Several proteins associated with synaptic function that are upregulated in the gray matter after flight involve vesicle formation, exocytosis and endocytosis. Syntaxin 1A (STX1A) is a soluble N-ethylmaleimide-sensitive fusion attachment protein receptor (SNARE) protein that is expressed in most neurons <ref type="bibr" target="#b17">[18]</ref> and is a critical component of synaptic vesicle formation and exocytosis <ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b19">20]</ref>. DNAJ heat shock protein family (Hsp40) member C5 (DNAJC5) is a pre-synaptic DNAJ C-class Hsp40 co-chaperone that is primarily expressed in the brain and retina (reviewed in <ref type="bibr" target="#b20">[21]</ref>). It is part of a complex of proteins that resides on synaptic vesicles and chaperones pre-synaptic SNARE proteins, making it critical during repeated synaptic vesicle cycles <ref type="bibr" target="#b21">[22]</ref>. Indeed, DNAJC5 knockout mice have progressive, age-dependent sensorimotor deficits and the protein appears to be critical to preventing pre-synaptic degeneration via deficits in endocytosis <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b22">23]</ref>.</p><p>Upregulated within gray matter, dynamin 3 (DNM3) is expressed in the dendritic spines and is primarily associated with regulating synaptic vesicle endocytosis and recycling <ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref>. There are three isoforms of dynamin that share about 80% overall homology and have mostly redundant roles in clathrin-mediated endocytosis and membrane fission <ref type="bibr" target="#b23">[24,</ref><ref type="bibr" target="#b26">27]</ref>. The SH3 domain containing GRB2-like 2, endophilin A1 (SH3GL2, also known as endophilin-1) is a potential tumor suppressor gene <ref type="bibr" target="#b27">[28]</ref> that is highly expressed in the brain, particularly in presynaptic ganglion <ref type="bibr" target="#b28">[29]</ref>. However, the primary function of this protein is to regulate clathrin-mediated endocytosis (reviewed in <ref type="bibr" target="#b29">[30]</ref>). Finally, while not directly related to neuronal communication, ATPase H+ transporting V0 subunit A1 (ATP6V0A1) involves a form of endocytosis in microglia. This protein that was upregulated in gray matter, is involved with the merging of lysosomes and phagosomes during phagocytosis in the brain <ref type="bibr" target="#b30">[31]</ref>. Interestingly, clathrin-mediated endocytosis was significantly and highly upregulated in the liver of these mice as well <ref type="bibr" target="#b31">[32]</ref>, suggesting a systemic response.</p><p>In addition to vesicle formation, several of the proteins upregulated in gray matter after spaceflight have been implicated in neurite and dendritic spine formation. Tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein epsilon (YWHAE) is believed to play a critical role during neuronal development and migration <ref type="bibr" target="#b32">[33]</ref> and neurite formation during cortical development <ref type="bibr" target="#b33">[34]</ref>. Over expression of this gene disrupts neurite formation through the microtubule binding protein, doublecortin <ref type="bibr" target="#b33">[34]</ref>. Enolase 2 (ENO2) has also been shown to have neurotrophic activity <ref type="bibr" target="#b34">[35]</ref> and is involved in cytoskeletal remodeling and neurite regeneration <ref type="bibr" target="#b35">[36]</ref>.</p><p>Similarly, both dynamin 3 (DNM3) <ref type="bibr" target="#b36">[37]</ref> and SH3 domain containing GRB2-like 2, endophilin A1 (SH3GL2) <ref type="bibr" target="#b37">[38]</ref> that were upregulated in gray matter are involved with dendritic spine morphogenesis and stability. Another upregulated protein in the gray matter is actinin alpha 1 (ACTN1). Expressed in the dendritic spines of the post-synaptic density (PSD) <ref type="bibr" target="#b38">[39,</ref><ref type="bibr" target="#b39">40]</ref>, this protein is an actin-crosslinking protein <ref type="bibr" target="#b40">[41]</ref> that is involved with synaptic plasticity <ref type="bibr" target="#b38">[39]</ref>. This is interesting because changes in dendrite activity might be related to synaptic plasticity <ref type="bibr" target="#b41">[42,</ref><ref type="bibr" target="#b42">43]</ref>.</p><p>Consistent with the upregulation of proteins related to neurite and dendrite growth is the downregulation of SEC22B (SEC22 homolog B, a vesicle trafficking protein) in the gray matter. Knocking down this protein using siRNA reduced neurite length had no impact on neuronal migration <ref type="bibr" target="#b43">[44]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Intracellular Communication: Myelination and Protein/Organelle Transport</head><p>Another broad category impacted by spaceflight is involved in intracellular communication. Specifically, (1) axonal signaling that is "insulated" via myelin and (2) protein and organelle transport. Downregulated in the murine white matter, myelin basic protein (MBP) has an important role in the process of myelination of axons, particularly in the adhesion of myelin layers between cytosolic surfaces <ref type="bibr" target="#b44">[45,</ref><ref type="bibr" target="#b45">46]</ref>. MBP is implicated in auto-immune responses within the human CNS, and is thought to be a target for T cell activity in multiple sclerosis and other demyelinating or degenerative disorders. Its reduction over an extended period is usually associated with glial inflammation activation and proliferation, leading to reactive astrocytosis <ref type="bibr" target="#b46">[47,</ref><ref type="bibr" target="#b47">48]</ref>.</p><p>Interestingly, three important factors found in oligodendrocytes and involved in myelin formation were upregulated in the gray matter: acyl-coenzyme A, a cholesterol acyltransferase 1 (ACAT1) <ref type="bibr" target="#b48">[49]</ref>; 2 ,3 -cyclic nucleotide 3 -phosphodiesterase (CNP) <ref type="bibr" target="#b49">[50,</ref><ref type="bibr" target="#b50">51]</ref>; and neurofilament light (NEFL) <ref type="bibr" target="#b51">[52,</ref><ref type="bibr" target="#b52">53]</ref>.</p><p>Two components of protein/organelle transport were upregulated in the white matter. As stated previously, myosin VA (MYO5A) is important for organelle transport (reviewed in Reference <ref type="bibr" target="#b16">[17]</ref>). Similarly, dynein light chain LC8-type 2 (DYNLL2, also known as DLC2), originally identified as part of the microtubule-based motor protein dynein <ref type="bibr" target="#b53">[54]</ref>, is involved with transporting mitochondria along the axons of neurons in response to local energy and metabolic requirements <ref type="bibr" target="#b54">[55]</ref>. However, DYNLL2 has also been shown to have a variety of other targets including nNOS, post synaptic scaffolding proteins, and pro-apoptotic proteins <ref type="bibr" target="#b53">[54]</ref>.</p><p>However, there were also two factors involved in protein transport that were downregulated in white matter. Vacuolar protein sorting 35 ortholog (VPS35) is a component of the "cargo recognition complex" of the retromer complex responsible for the retrograde transport of proteins from endosomes to the trans-Golgi network or the plasma membrane <ref type="bibr" target="#b55">[56,</ref><ref type="bibr" target="#b56">57]</ref>. Already mentioned above as an important component of myelin, MBP also interacts with the cytoskeleton and/or tight junctions, making it critical for communicating extracellular signaling to the inside of the cell <ref type="bibr" target="#b45">[46]</ref>. Decreases in MBP have been associated with glial activation <ref type="bibr" target="#b57">[58]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Metabolism: Glycolysis and Mitochondrial Function</head><p>Consistent with our previous results, in the liver and skin of the same mice in which we found that spaceflight had a major impact on metabolism <ref type="bibr" target="#b31">[32,</ref><ref type="bibr" target="#b58">59,</ref><ref type="bibr" target="#b59">60]</ref>, the next broad category involved the impact of spaceflight on the brain, including glycolysis and metabolism.</p><p>Two proteins involved in glycolysis or metabolism were altered by spaceflight in the white matter. This first one was upregulated. Phosphatidylinositol transfer protein α (PITPNA) is involved with coordinating lipid metabolism and signaling <ref type="bibr" target="#b60">[61]</ref>, transferring phospholipids out of the endoplasmic reticulum and into other membranes <ref type="bibr" target="#b61">[62]</ref>. Interestingly, an increase in oxidative stress has been shown to cause a decrease in this protein, particularly in the brains of aged or Parkinson's disease models <ref type="bibr" target="#b62">[63]</ref>. This lack has been associated with neurodegenerative disease, which has been linked to changes in glucose homeostasis <ref type="bibr" target="#b63">[64]</ref>. Glyceraldehyde-3-phosphate dehydrogenase (GAPDH) is an abundant enzyme in brain tissue that is critical to energy metabolism and glycolysis <ref type="bibr" target="#b64">[65]</ref>. In conditions of oxidative stress, GAPDH activity is impaired, leading to cellular aging and apoptosis <ref type="bibr" target="#b64">[65]</ref>. This enzyme can undergo sulfhydration, S-nitrosylation and oxidation, which, in turn, can lead to memory loss, apoptotic cell death and neurodegeneration, noted in ischemia and Alzheimer's disease models <ref type="bibr" target="#b65">[66]</ref><ref type="bibr" target="#b66">[67]</ref><ref type="bibr" target="#b67">[68]</ref>.</p><p>In the gray matter, enolase 2 (ENO2) was upregulated after flight, also suggesting glycolysis may be impacted. ENO2 is a glycolytic enzyme <ref type="bibr" target="#b68">[69]</ref> found in neurons, neuroendocrine cells and microglia <ref type="bibr" target="#b68">[69,</ref><ref type="bibr" target="#b69">70]</ref>. However, one of the few proteins that were downregulated in the gray matter, SEC22B (SEC22 homolog B, vesicle trafficking protein), also complexes with SNARE proteins in the endoplasmic reticulum (ER) <ref type="bibr" target="#b43">[44,</ref><ref type="bibr" target="#b70">71]</ref>. Knocking down this protein using siRNA had no impact on exocytosis <ref type="bibr" target="#b43">[44]</ref>. Instead, SEC22B interacted with lipid transfer proteins, a factor which, when inhibited, has been shown to result in changes in lipid metabolism and transfer <ref type="bibr" target="#b43">[44]</ref>.</p><p>Simultaneously, four proteins critical to mitochondrial function were also upregulated in the gray matter. The mitochondrial localized enzyme, acetyl-CoA acetyltransferase 1 (ACAT1), has been linked to cholesterol homeostasis and metabolism <ref type="bibr" target="#b72">[72,</ref><ref type="bibr" target="#b73">73]</ref> and can be found in axons of the cerebral cortex and hippocampus <ref type="bibr" target="#b48">[49]</ref>. Dynamin 1-like (DNM1L) is critical to mitochondrial fission <ref type="bibr" target="#b74">[74]</ref>. This protein drives mitochondrial division by self-assembling into filaments that constrict around the organelle <ref type="bibr" target="#b75">[75]</ref>. The 2 ,3 -cyclic nucleotide 3 -phosphodiesterase (CNP) can also be found in the inner membranes of mitochondria <ref type="bibr" target="#b76">[76]</ref> and is important for Ca 2+ transport <ref type="bibr" target="#b77">[77]</ref>. Interestingly CNP levels decreased in non-synaptic mitochondria in the brains of old rats <ref type="bibr" target="#b77">[77]</ref>. An increase in CNP release suggests mitochondria may be in a calcium-overloaded condition <ref type="bibr" target="#b78">[78]</ref>. Inner membrane mitochondrial protein (IMMT), also known as MIC60 and mitofilin, is important for protein translocation across the mitochondrial membrane, regulating both morphology and protein biogenesis <ref type="bibr" target="#b79">[79]</ref>.</p><p>Even though the tissues were collected and prepared for analysis less than five hours after landing, it is possible that the changes in proteins related to metabolism are simply a response to the landing and do not reflect changes in the spaceflight environment. To confirm or deny this possibility would require that mice be euthanized in orbit and tissues immediately preserved for analysis on the ground. Indeed, such studies have already been planned. However, in our previous study examining the livers of these same mice, there were significant changes in lipid metabolism indicative of a pre-diabetic state that seems to suggest a long-term effect rather than an acute response due to landing <ref type="bibr" target="#b31">[32,</ref><ref type="bibr" target="#b58">59,</ref><ref type="bibr" target="#b80">80]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Oxidative Stress and Tissue Damage Responses</head><p>The changes noted in metabolism are likely related to increases in proteins involved with oxidative stress and inflammation in the white matter. Arginase 1 (ARG1), which was highly upregulated, is an important enzyme of the urea cycle that is generally found in the liver and is critical to removing ammonia from the body <ref type="bibr" target="#b81">[81]</ref>. However, ARG1+ is also commonly expressed by alternatively-activated macrophages and microglia <ref type="bibr" target="#b82">[82]</ref>, which tend to be anti-inflammatory. In the brain, ARG1+ microglia have been implicated in amyloid beta plaque removal <ref type="bibr" target="#b83">[83]</ref>. Furthermore, it is important to nitric oxide (NO)-mediated vasodilation in microvascular endothelial cells <ref type="bibr" target="#b84">[84]</ref>. In activated macrophages, ARG1+ competes with NO synthase (NOS) for their common substrate, L-arginine, leading to a reduction in NO production <ref type="bibr" target="#b85">[85]</ref>.</p><p>Not surprisingly, many of the mitochondrial proteins that were upregulated in the gray matter are also involved in the oxidative stress response. ACAT1 expression has been shown to be elevated during conditions of oxidative stress <ref type="bibr" target="#b48">[49]</ref>. Mutations in DNM1L often result in death associated with oxidative stress-induced neurodegeneration <ref type="bibr" target="#b75">[75,</ref><ref type="bibr" target="#b86">86]</ref>. In vitro, deleting DNML1 from Purkinje cells resulted in increased oxidative damage via the peroxidation of proteins and lipids <ref type="bibr" target="#b75">[75]</ref>. Decreases in IMMT appear to result in increases in ROS levels <ref type="bibr" target="#b87">[87]</ref> and seem to be an anti-apoptotic protein important for the regulation of cytochrome c release <ref type="bibr" target="#b87">[87]</ref><ref type="bibr" target="#b88">[88]</ref><ref type="bibr" target="#b89">[89]</ref>. Interestingly, the oxidative damage due to lipid peroxidation found in the interfibrillar mitochondria of diabetic heart tissue was reduced by overexpressing IMMT <ref type="bibr" target="#b90">[90,</ref><ref type="bibr" target="#b91">91]</ref>.</p><p>Increases in the above oxidative stress factors are consistent with the decreases noted in another mitochondrial protein, UQCRB (ubiquinol-cytochrome c reductase binding protein), a subunit of complex III in the mitochondrial respiratory chain <ref type="bibr" target="#b92">[92]</ref> of the gray matter. UQCRB is important in mediating mitochondrial-derived reactive oxygen species (ROS) that are both independent of NADPH oxidase and important for angiogenesis <ref type="bibr" target="#b93">[93]</ref>. Drugs which inhibit the activity of UQCRB reduce the ROS produced by the mitochondria <ref type="bibr" target="#b92">[92]</ref><ref type="bibr" target="#b93">[93]</ref><ref type="bibr" target="#b94">[94]</ref>.</p><p>Although not found in mitochondria, Quinonoid dihydropteridine reductase (QDPR) is also upregulated in the gray matter. QDPR is primarily associated with the regeneration of tetrahydrobiopterin (BH4) from quinonoid dihydrobiopterin (qBH2). This is important because BH4 is a critical co-factor in the generation of all three NO synthases, iNOS, nNOS, and eNOS <ref type="bibr" target="#b95">[95]</ref>. In quinonoid dihydropteridine reductase (QDPR) -/-knockout mice, the biomarkers of folate-dependent oxidative stress such as ophthalamate, spermine, and γ-Glu-Cys all appeared to be elevated <ref type="bibr" target="#b95">[95]</ref>.</p><p>Given the changes in markers indicative of oxidative stress, it should not be surprising that there were also changes in proteins related to cell damage and death. In the gray matter, at least four upregulated proteins dealing with intracellular damage and/or cell death appeared to be involved. This is consistent with the IPA analysis that found changes in proteins related to organismal death, degeneration of cells, and neurodegeneration. ATP6V0A1 is critically important in mediating autophagosome-lysosome fusion <ref type="bibr" target="#b96">[96]</ref>. DNAJC5 appears to have some influence on protein folding and endosomal autophagy, depending on the presence of SGT and Hsc70 <ref type="bibr" target="#b97">[97]</ref>. ACAT1 is instrumental in induction of necroptosis through lipid droplet formation that has been demonstrated to be the initial key event in cell death <ref type="bibr" target="#b98">[98]</ref>. Finally, CNP appears to play a role with caspase-independent apoptosis <ref type="bibr" target="#b99">[99]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Activation of Catecholamines</head><p>Finally, there were several changes in the white matter involved in sympathetic activity and catecholamine production. As mentioned previously, CACNA2D1 was upregulated in the white matter. Although we did not specifically look at areas within the brain, this protein is active in the periventricular nucleus (PVN) and is involved with sympathetic outflow <ref type="bibr" target="#b12">[13]</ref>. This is interesting because two proteins involved with sympathetic responses were also upregulated in the gray matter. Quinonoid dihydropteridine reductase (QDPR) is primarily associated with the regeneration of tetrahydrobiopterin (BH4) from quinonoid dihydrobiopterin (qBH2). BH4 is a critical co-factor in the biosynthesis of the neurotransmitters dopamine and serotonin <ref type="bibr" target="#b95">[95]</ref>. Syntaxin 1A (STX1A) is expressed in endocrine cells <ref type="bibr" target="#b17">[18]</ref> and STX1A knockout mice had decreased circulating levels of the stress hormones, CRH and ACTH, as well as serotonergic precursors <ref type="bibr" target="#b17">[18]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">STS-135 Flight Mice and Control Conditions</head><p>Space Shuttle Atlantis, i.e., Space Transportation System 135 (STS-135), was launched from the Kennedy Space Center (KSC) on a 13-day mission in July of 2011. Female C57BL/6 mice (Charles River Laboratories, Inc., Hollister, CA, USA) were flown in STS-135 using NASA's animal enclosure modules (AEMs). Mice were housed in two groups of five per AEM, separated by mesh wire. A set of ground controls (Ground AEMs) was housed at the Space Life Science Laboratory (SLSL) at the KSC. Ground AEM control mice were placed into the same housing hardware used in flight and environmental parameters such as temperature and carbon dioxide (CO 2 ) levels were matched as closely as possible based on 48-h delayed telemetry data.</p><p>All mice were under ambient temperatures of 26-28 • C with a 12-h day/night cycle during the flight. The mid deck CO 2 levels that the mice were exposed to averaged 2150 parts per million (ppm) and ranged from a few hundred ppm while on the ground, before installation in the shuttle, to a maximum level of 3480 ppm in the shuttle during the mission. AEM controls were fed a special NASA food bar diet, the same as the space-flown mice. All mice received the same access to food and water ad libitum.</p><p>The Loma Linda University (LLU) Institutional Animal Care and Use Committee (IACUC) was consulted but no protocol was required since tissues were only obtained after euthanasia. However, it should be noted that all NASA research with vertebrate animals is done in strict accordance with the recommendations in the Guide for the Care and Use of Laboratory Animals of the National Institute of Health (NIH). The primary science team responsible for running the project obtained approval from the NASA Ames Research Center ACUC (NAS-11-002-Y1) on 5/31/2011.</p><p>Upon return to Earth, animals were removed from the AEM nursing facility and assessed for survival and health. It was reported that all the mice survived the 13-day space mission. All animals were described by the inspecting personnel as being in good condition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Dissection and Preservation of Mouse Brains Post Flight</head><p>Within 3-5 h after landing, the mice were euthanized and the brains were removed (4-8 mice/group). As part of the primary science, all mice underwent dual energy X-ray absorptiometry (DEXA) densitometry (Piximus, Inc., Fitchburg, WI, USA) immediately prior to anesthesia and euthanasia. Mice were anesthetized with 3-5% isoflurane and euthanized with 100% CO 2 and exsanguination via cardiac puncture. The whole brain hemispheres were fixed in 4% paraformaldehyde in phosphate buffered saline (PBS) for 24 h and then rinsed with PBS and infiltrated overnight with 30% sucrose in PBS at 4 • C. Fixed samples were sent to Loma Linda University (LLU) via courier for analysis. As we were part of the NASA Biospecimen Sharing Program (BSP) team, we did not have access to all the tissues from all the mice. However, we received tissues from four flight mice and eight ground control mice. Tissue from two of the ground control samples were lost during processing, giving us a final sample size of n = 4 or 6 for flight and ground, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Brain Sectioning for Proteomic Analysis</head><p>Paraffin-embedded brain sections were coronally gross sectioned at a thickness of 10 µm. After mounting and de-paraffinizing, six 3 mm diameter circular punches of tissue were obtained to provide three replicate samples each of white matter of the corpus callosum and gray matter of the cerebral cortex. Each tissue punch (disk) was transferred to a vial for individual processing (work up) by a modification of the methodology of <ref type="bibr">Craven et al. [100]</ref>. When tissues are processed by the Craven method, formalin fixed tissues still yield 80% or more of the available proteins for proteomic analyses <ref type="bibr">[100]</ref>. The preparation of the tissue samples for proteomic mass spectrometry (MS) analysis in this paper is described by the steps below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Protein Extraction from Tissue</head><p>We used boil-proof 1.7 mL low retention polypropylene snap-top vials to process the tissues. Lysis buffer was made by combining 50 µL each of stock solutions A and B, plus 10 µL of freshly prepared 1.1 M dithiothreitol (DTT). Solution A consisted of 300 mM Tris-Cl pH 8.2. Solution B was made by combining five liquid components: 20% sodium dodecyl sulfate (SDS), glycerol, trifluorethanol, thiodiethanol, and water at the volumetric ratio of 3:2:1:1:3. Protein extraction was initiated by the addition of 110 µL lysis buffer to each vial containing a tissue punch (disk), followed by incubation for 30 min at 105 • C in a fume hood because of trifluorethanol toxicity. After cooling the vials were stored indefinitely at -80 • C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5.">Trypsin Digestion</head><p>This was done using Amicon Ultra-0.5 mL 30 kDa centrifugal filter devices (<ref type="url" target="http://www.emdmillipore.com">http://www.  emdmillipore.com</ref>). A urea-ammonium bicarbonate buffer (UA) that is 50 mM with respect to ammonium bicarbonate (ABC) and 8 M with respect to ultrapure urea (<ref type="url" target="https://www.thermofisher.com">https://www.thermofisher.com</ref>) was prepared fresh on the day of use. The use of the Amicon Ultra centrifugal filter device has been outlined next. (a) To each vial after protein extraction (see above) 300 µL of UA were added and vortexed. The sample components were transferred to an Amicon Ultra, centrifuged at 10,000× g for 10 min, and the filtrate was discarded. (b) To complete the transfer initiated above and to continue the replacement of reagents from the protein extraction procedure described in 2.4 above with UA constituents, the above process was repeated twice using 400 µL UA each time, and both filtrates were discarded. (c) Next, 5 µL each of 5 mM Tris (2-carboxyethyl) phosphine (TCEP) and 10 mM acrylamide and 200 µL UA were combined. The entire volume was then transferred to the Amicon Ultra, incubated for 30 min at ambient temperatures, centrifuged, and the filtrate was discarded. (d) The reagents were washed by the addition of 400 µL UA, centrifuged, and the filtrate was discarded. (e) The urea was washed out by the addition of 400 µL of 50 mM ABC, centrifuged, and the filtrate was discarded. This process was repeated twice more. (f) Next, 200 µL of 50 mM ABC were added and a protein assay (Nanodrop, <ref type="url" target="http://www.nanodrop.com">http://www.nanodrop.com</ref>, or Micro BCA, <ref type="url" target="http://www.thermofisher.com">http://www.thermofisher.com</ref>) was performed on an aliquot. (g) A prepared trypsin digestion solution was added to the remaining protein in the Amicon Ultra. The 100 µL of 250 mM ABC were combined with 2.5 µL of 1% Promega PMax (<ref type="url" target="http://promega.com">http://promega.com</ref>) to give a 0.025% working solution plus sufficient sequencer-grade trypsin to result in an enzyme to protein ratio in the range of 1:25-50. (h) The solution was incubated overnight at 37 • C to convert the proteins to peptides. (i) The next morning, 150 µL of water was added, centrifuged, and the filtrate containing the peptides was collected. These steps were repeated using another 150 µL water and the filtrates were combined. (j) Next, 20 µL of 10% TFA were added to the combined filtrates to destroy the PMax. (k) The filtrate was concentrated in a vacuum centrifuge to a volume of 100 µL and stored at -80 • C. (l) Just prior to MS analysis, a 2-5 µg portion of each protein/peptide sample was purified with a Zip-tip C18 P10 (<ref type="url" target="http://www.emdmillipore.com">http://www.emdmillipore.com</ref>). The sample preparations from each set of the three replicate "punches" were pooled, resulting in a total of 20 samples for MS analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.6.">MS Analyses and Data Processing</head><p>An Easy-nLC system with an autosampler was attached to an LTQ-Orbitrap Velos Pro mass spectrometer (<ref type="url" target="http://thermoscientificbio.com">http://thermoscientificbio.com</ref>). This was used for all MS analyses utilizing 2 to 2.5 µg peptide loadings after zip-tip purification. After injection, the 5 µL peptide samples in 0.25% TFA were passed through a 2 cm × 100 µm C18, of 5 µm particle size, precolumn (<ref type="url" target="http://thermoscientificbio.com">http://thermoscientificbio.com</ref>) in series with a 10 cm × 75 µm in-house-prepared capillary column packed with Microm Magic C18 of 5 µ particle size (<ref type="url" target="http://www.michrom.com/">http://www.michrom.com/</ref>) for separation and elution.</p><p>A 2-h gradient was used (Solvent A 0.1% FA in water, Solvent B 0.1% FA in ACN, 5-30% Solvent B). Collision-induced disassociation was used to fragment the top 10 most abundant ions and the MS/MS spectra were collected between 250 and 1500 m/z, following the parent full-scan mass spectrum collected at 60,000 resolution.</p><p>The raw data files from these analyses were processed first through Proteome Discoverer (<ref type="url" target="http://thermoscientificbio.com">http:  //thermoscientificbio.com</ref>) for precursor intensity with the following search parameters using the mouse Uniprot/Swissprot database: 2 missed trypsin cleavages allowed, dynamic oxidation on methionine, deamidation on asparagine and glutamine, and static proprionamide attachment on cysteine. In parallel, the data processing was performed using our DeMix Q algorithm. Briefly, DeMix "unmixes" the MS/MS events that become frequently but accidentally multiplexed because more than one (up to four) precursor ions are selected for fragmentation within the same m/z window simultaneously <ref type="bibr">[101]</ref>. DeMix allows one to identify more peptides on average than there were precursors selected for MS/MS. For extension of the peptide identity "between the runs" and thus additionally increase the number of identified peptides while simultaneously improving quantification accuracy, we used DeMix Q [102], an extension of the DeMix algorithm that employs the scoring of identity transfer. Further improvement in quantification accuracy can be achieved with the help of our Diffacto algorithm [103] that selects for protein quantification of only "well-behaved" peptides.</p><p>All spread sheets with protein relative abundances were then exported into Ingenuity Pathway Analysis (IPA; <ref type="url" target="http://www.ingenuity.com/products/ipa">http://www.ingenuity.com/products/ipa</ref>). In IPA, only direct relationships were allowed in the general settings and genes. Endogenous chemical interactions and causal networks were both included. All items were selected under data sources, confidence, species and mutation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>In summary, this study is the first to identify spaceflight-induced proteomic significance and biomarkers in the gray and white matter of the murine brain. These unique "proteomic signatures" of brain tissue may provide new mechanistic insight into the complex biological response to space environment. We propose that spaceflight conditions induce changes in neuronal structure, cellular function, oxidative response, mitochondrial function and metabolism, which, in turn, might lead to tissue injury and late neurodegeneration. The diverse changes in protein expression profiles in white and gray matter in response to spaceflight conditions warrants further investigation. Further studies are also necessary to elucidate the possible tissue and functional impact responsible for our findings and to identify effective countermeasures.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Spaceflight induced alterations to the proteomic profile in the white matter.</figDesc><table><row><cell>Symbol</cell><cell>Entrez Gene Name</cell><cell>Expr p-Value</cell><cell>Expr Log Ratio</cell><cell>Location</cell><cell>Type(s)</cell></row><row><cell>ARG1</cell><cell>arginase 1</cell><cell>0.037</cell><cell>3.742</cell><cell>Cytoplasm</cell><cell>enzyme</cell></row><row><cell>CACNA2D1</cell><cell>calcium voltage-gated channel auxiliary subunit alpha2delta 1</cell><cell>0.024</cell><cell>2.244</cell><cell>Plasma Membrane</cell><cell>ion channel</cell></row><row><cell>PPFIA3</cell><cell>PTPRF interacting protein alpha 3</cell><cell>0.025</cell><cell>2.189</cell><cell>Plasma Membrane</cell><cell>phosphatase</cell></row><row><cell>PITPNA</cell><cell>phosphatidylinositol transfer protein alpha</cell><cell>0.010</cell><cell>1.328</cell><cell>Cytoplasm</cell><cell>transporter</cell></row><row><cell>MYO5A</cell><cell>myosin VA</cell><cell>0.034</cell><cell>1.304</cell><cell>Cytoplasm</cell><cell>enzyme</cell></row><row><cell>DYNLL2</cell><cell>dynein light chain LC8-type 2</cell><cell>0.040</cell><cell>1.152</cell><cell>Cytoplasm</cell><cell>other</cell></row><row><cell>VPS35</cell><cell>VPS35, retromer complex component</cell><cell>0.046</cell><cell>-1.164</cell><cell>Cytoplasm</cell><cell>transporter</cell></row><row><cell>GAPDH</cell><cell>glyceraldehyde-3-phosphate dehydrogenase</cell><cell>0.015</cell><cell>-1.478</cell><cell>Cytoplasm</cell><cell>enzyme</cell></row><row><cell>MBP</cell><cell>myelin basic protein</cell><cell>0.003</cell><cell>-2.536</cell><cell>Extracellular Space</cell><cell>other</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Spaceflight induced alterations to the proteomic profile in the gray matter.</figDesc><table><row><cell>Symbol</cell><cell>Entrez Gene Name</cell><cell>Expr p-Value</cell><cell>Expr Log Ratio</cell><cell>Location</cell><cell>Type(s)</cell></row><row><cell>QDPR</cell><cell>quinoid dihydropteridine reductase</cell><cell>0.0229</cell><cell>2.458</cell><cell>Cytoplasm</cell><cell>enzyme</cell></row><row><cell>DNM3</cell><cell>dynamin 3</cell><cell>0.00186</cell><cell>1.781</cell><cell>Cytoplasm</cell><cell>enzyme</cell></row><row><cell>ACAT1</cell><cell>acetyl-CoA acetyltransferase 1</cell><cell>0.0000214</cell><cell>1.637</cell><cell>Cytoplasm</cell><cell>enzyme</cell></row><row><cell>DNAJC5</cell><cell>DnaJ heat shock protein family (Hsp40) member C5</cell><cell>0.00702</cell><cell>1.501</cell><cell>Plasma Membrane</cell><cell>other</cell></row><row><cell>SH3GL2</cell><cell>SH3 domain containing GRB2-like 2, endophilin A1</cell><cell>0.0136</cell><cell>1.377</cell><cell>Plasma Membrane</cell><cell>enzyme</cell></row><row><cell>RAP1GDS1</cell><cell>Rap1 GTPase-GDP dissociation stimulator 1</cell><cell>0.0284</cell><cell>1.363</cell><cell>Cytoplasm</cell><cell>other</cell></row><row><cell>DNM1L</cell><cell>dynamin 1-like</cell><cell>0.0069</cell><cell>1.284</cell><cell>Cytoplasm</cell><cell>enzyme</cell></row><row><cell>CNP</cell><cell>2 ,3 -cyclic nucleotide 3 phosphodiesterase</cell><cell>0.000816</cell><cell>1.261</cell><cell>Cytoplasm</cell><cell>enzyme</cell></row><row><cell>YWHAE</cell><cell>tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein epsilon</cell><cell>0.00989</cell><cell>1.261</cell><cell>Cytoplasm</cell><cell>other</cell></row><row><cell>ACTN1</cell><cell>actinin alpha 1</cell><cell>0.0308</cell><cell>1.254</cell><cell>Cytoplasm</cell><cell>transcription regulator</cell></row><row><cell>ATP6V0A1</cell><cell>ATPase H+ transporting V0 subunit a1</cell><cell>0.00028</cell><cell>1.191</cell><cell>Cytoplasm</cell><cell>transporter</cell></row><row><cell>IMMT</cell><cell>inner membrane mitochondrial protein</cell><cell>0.00436</cell><cell>1.154</cell><cell>Cytoplasm</cell><cell>other</cell></row><row><cell>NEFL</cell><cell>neurofilament light</cell><cell>0.00557</cell><cell>1.153</cell><cell>Cytoplasm</cell><cell>other</cell></row><row><cell>ENO2</cell><cell>enolase 2</cell><cell>0.0281</cell><cell>1.123</cell><cell>Cytoplasm</cell><cell>enzyme</cell></row><row><cell>STX1A</cell><cell>syntaxin 1A</cell><cell>0.00859</cell><cell>1.074</cell><cell>Cytoplasm</cell><cell>transporter</cell></row><row><cell>UQCRB</cell><cell>ubiquinol-cytochrome c reductase binding protein</cell><cell>0.0447</cell><cell>-1.059</cell><cell>Cytoplasm</cell><cell>enzyme</cell></row><row><cell>SEC22B</cell><cell>SEC22 homolog B, vesicle trafficking protein (gene/pseudogene)</cell><cell>0.00601</cell><cell>-2.709</cell><cell>Cytoplasm</cell><cell>other</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Spaceflight induced changes in white and gray matter proteins indicative of functional deficits.</figDesc><table><row><cell>Region</cell><cell>Categories</cell><cell>Diseases or Functions Annotation</cell><cell>p-Value</cell><cell>Activation Z-Score</cell></row><row><cell>White Matter</cell><cell>Cell Morphology, Cellular Assembly and Organization, Cellular Function and Maintenance</cell><cell>formation of cellular protrusions</cell><cell>1.69 × -3</cell><cell>-1.982</cell></row><row><cell></cell><cell>Organismal Survival</cell><cell>organismal death</cell><cell>3.76 × -2</cell><cell>-1.156</cell></row><row><cell></cell><cell>Cellular Assembly and Organization, Cellular Function and Maintenance</cell><cell>organization of cytoplasm</cell><cell>6.40 × -5</cell><cell>-1.154</cell></row><row><cell></cell><cell>Cellular Assembly and Organization, Cellular Function and Maintenance</cell><cell>microtubule dynamics</cell><cell>9.47 × -5</cell><cell>-1.154</cell></row><row><cell></cell><cell>Tissue Morphology</cell><cell>quantity of cells</cell><cell>3.44 × -2</cell><cell>-0.44</cell></row><row><cell></cell><cell>Cell Death and Survival</cell><cell>apoptosis</cell><cell>4.26 × -2</cell><cell>0.003</cell></row><row><cell></cell><cell>Cell Death and Survival</cell><cell>necrosis</cell><cell>1.41 × -2</cell><cell>0.014</cell></row><row><cell></cell><cell>Cell Death and Survival</cell><cell>cell death of tumor cell lines</cell><cell>4.40 × -3</cell><cell>0.028</cell></row><row><cell></cell><cell>Cell Death and Survival</cell><cell>cell death</cell><cell>1.41 × -2</cell><cell>0.166</cell></row><row><cell></cell><cell>Cell Death and Survival</cell><cell>apoptosis of tumor cell lines</cell><cell>3.86 × -2</cell><cell>0.176</cell></row><row><cell></cell><cell>Lipid Metabolism, Molecular Transport, Small Molecule Biochemistry</cell><cell>concentration of lipid</cell><cell>7.47 × -3</cell><cell>0.333</cell></row><row><cell>Gray Matter</cell><cell>Organismal Survival</cell><cell>organismal death</cell><cell>1.22 × -3</cell><cell>-3.257</cell></row><row><cell></cell><cell>Organismal Injury and Abnormalities</cell><cell>organ degeneration</cell><cell>1.46 × -5</cell><cell>-2.186</cell></row><row><cell></cell><cell>Cellular Compromise</cell><cell>degeneration of cells</cell><cell>1.36 × -4</cell><cell>-1.982</cell></row><row><cell></cell><cell>Developmental Disorder</cell><cell>growth failure</cell><cell>1.45 × -2</cell><cell>-1.982</cell></row><row><cell></cell><cell>Neurological Disease</cell><cell>neurodegeneration</cell><cell>8.36 × -5</cell><cell>-1.981</cell></row><row><cell></cell><cell>Cell Death and Survival</cell><cell>necrosis</cell><cell>1.84 × -5</cell><cell>-1.6</cell></row><row><cell></cell><cell>Cell Death and Survival</cell><cell>apoptosis</cell><cell>5.78 × -3</cell><cell>-1.404</cell></row><row><cell></cell><cell>Cell Death and Survival</cell><cell>neuronal cell death</cell><cell>2.96 × -3</cell><cell>-0.958</cell></row><row><cell></cell><cell>Molecular Transport</cell><cell>transport of molecule</cell><cell>9.80 × -3</cell><cell>-0.722</cell></row><row><cell></cell><cell>Cell Death and Survival</cell><cell>cell viability</cell><cell>1.48 × -2</cell><cell>0.555</cell></row><row><cell></cell><cell>Infectious Diseases</cell><cell>infection by HIV-1</cell><cell>2.45 × -3</cell><cell>1.98</cell></row><row><cell></cell><cell>Infectious Diseases</cell><cell>Viral Infection</cell><cell>1.12 × -2</cell><cell>2.2</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Int. J. Mol. Sci. 2019, 20, 7; doi:10.3390/ijms20010007 www.mdpi.com/journal/ijms</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>Funding: This study was supported by <rs type="funder">NASA</rs> managed cooperative agreement <rs type="grantNumber">NNX10AJ31G</rs>, <rs type="funder">NASA</rs> Grant <rs type="grantNumber">NNX13AN34G</rs>, and the <rs type="funder">LLUMC Departments of Biomedical Engineering Sciences and Radiation Medicine</rs>.</p><p>Acknowledgments: This study would not have been possible without the support of <rs type="funder">Amgen, Inc</rs>. and their team. In addition, we very much appreciate <rs type="institution">BioServe Space Technologies</rs> at the <rs type="institution">University of Colorado at Boulder</rs> for organizing and overseeing this project. We also thank the <rs type="person">Ferguson, Bateman</rs> and <rs type="institution">Bouxsein lab</rs> members for helping with tissue collection at <rs type="institution">Kennedy Space Center (KSC)</rs>. The staff at <rs type="institution">Ames Research Center</rs> and <rs type="institution">KSC Space Life Sciences Laboratory (SLSL)</rs>, as well as <rs type="person">Paula Dumars</rs> and <rs type="person">Vera Vizir</rs> of the <rs type="programName">NASA Biospecimen Sharing Program</rs> (BSP), contributed significantly to the success of our study and we greatly appreciate their support.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_vZxHGMg">
+					<idno type="grant-number">NNX10AJ31G</idno>
+				</org>
+				<org type="funding" xml:id="_hpeG3ud">
+					<idno type="grant-number">NNX13AN34G</idno>
+				</org>
+				<org type="funding" xml:id="_DcCfADh">
+					<orgName type="program" subtype="full">NASA Biospecimen Sharing Program</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Author Contributions: X.W.M., M.J.P., D.S.G., V.L.F. and T.A.B. conceived and designed the experiments; X.W.M., M.J.P., L.S.S., V.L.F., T.A.B., L.B.S., E.C.H. and G.Z. performed the experiments; R.A.Z., B.Z., and M.J.P. analyzed the data; L.S.S., V.L.F., T.A.B., R.A.Z., and B.Z. contributed reagents/materials/analysis tools; X.W.M., L.B.S., R.S., and M.J.P. wrote the paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>The authors declare no conflict of interest. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, and in the decision to publish the results.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">silicon radiation impairs neuronal output in CA1 neurons of mouse ventral hippocampus without altering dendritic excitability</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rudobeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Sokolova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vlkolinsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1667/RR13484.1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Radiat. Res</title>
+		<imprint>
+			<biblScope unit="volume">181</biblScope>
+			<biblScope unit="page" from="407" to="415" />
+			<date type="published" when="2014">28. 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Intraocular pressure elevation during space flight</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Woo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Chung</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/IJG.0b013e318252d5cb</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Glaucoma</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">349</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Intraocular pressure and retinal vascular changes during transient exposure to microgravity</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Mader</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Caputo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Charles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Meehan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0002-9394(14)73586-X</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Ophthalmol</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="347" to="350" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Microgravity-induced programmed cell death in astrocytes</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Uva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Masini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sturla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tagliafierro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Strollo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Gravit. Physiol. A J. Int. Soc. Gravit. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="275" to="P276" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Cognitive neuroscience in space</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>De La Torre</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/life4030281</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Life</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="281" to="294" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Changes in stress hormones and metabolism during a 105-day simulated Mars mission</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Strollo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vassilieva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ruscica</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Masini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Santucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Borgia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Magni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Celotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Nikiporuc</surname></persName>
+		</author>
+		<idno type="DOI">10.3357/ASEM.3907.2014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aviat. Spaceand Environ. Med</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="793" to="797" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">White matter matters</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Fields</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Am</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="page" from="42" to="49" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">White matter hyperintensities as early and independent predictors of Alzheimer&apos;s disease risk</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mortamais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Artero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ritchie</surname></persName>
+		</author>
+		<idno type="DOI">10.3233/JAD-141473</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alzheimers Dis</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="393" to="S400" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>Suppl. 4</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Subcortical Volume Loss in the Thalamus, Putamen, and Pallidum, Induced by Traumatic Brain Injury, Is Associated with Motor Performance Deficits</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gooijers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chalavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Beeckmans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Michiels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lafosse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sunaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Swinnen</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1545968315613448</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurorehabil. Neural Repair</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="603" to="614" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Evaluation of gene, protein and neurotrophin expression in the brain of mice exposed to space environment for 91 days</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Santucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kawano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ohira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Terada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nakai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Francia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Alleva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Aloe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ochiai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cancedda</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0040112</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">40112</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Effect of Simulated Microgravity on Human Brain Gray Matter and White Matter-Evidence from MRI</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ouyang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ma</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0135835</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">135835</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Calcium channel auxiliary α2δ and β subunits: Trafficking and one step beyond</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Dolphin</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrn3311</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="542" to="555" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Gabapentin receptor α2δ-1 is a neuronal thrombospondin receptor responsible for excitatory CNS synaptogenesis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Eroglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Susman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>O'rourke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ozkan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Mulinyawe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Annis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Huberman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2009.09.025</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="380" to="392" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Differential expression of liprin-α family proteins in the brain suggests functional diversification</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Spangler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jaarsma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>De Graaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Wulf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Akhmanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Hoogenraad</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cne.22665</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comp. Neurol</title>
+		<imprint>
+			<biblScope unit="volume">519</biblScope>
+			<biblScope unit="page" from="3040" to="3060" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Vertebrate Presynaptic Active Zone Assembly: A Role Accomplished by Diverse Molecular and Cellular Mechanisms</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Torres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Inestrosa</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12035-017-0661-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Neurobiol</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">SYD-2 Liprin-α organizes presynaptic active zone formation through ELKS</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Taru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Deken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Grill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ackley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Nonet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jin</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nn1808</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1479" to="1487" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Myosin5a tail associates directly with Rab3A-containing compartments in neurons</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wollert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Provance</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">E</forename><surname>Vought</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Cosgrove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mercer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Langford</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M110.187286</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">286</biblScope>
+			<biblScope unit="page" from="14352" to="14361" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Dysfunction of the hypothalamic-pituitary-adrenal axis in STX1A knockout mice</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fujiwara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kofuji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Akagawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2826.2011.02214.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neuroendocrinol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1222" to="1230" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Membrane fusion. SNAREs line up in new environment</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">I</forename><surname>Hanson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/29871</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">393</biblScope>
+			<biblScope unit="page" from="14" to="15" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The synaptic vesicle cycle: A cascade of protein-protein interactions</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Sudhof</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/375645a0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="page" from="645" to="653" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The Role of Co-chaperones in Synaptic Proteostasis and Neurodegenerative Disease</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Gorenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Chandra</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fnins.2017.00248</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">248</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">CSPα promotes SNARE-complex assembly by chaperoning SNAP-25 during synaptic activity</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Burre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Sudhof</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncb2131</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="30" to="39" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The synaptic vesicle protein CSP α prevents presynaptic degeneration</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fernandez-Chacon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wolfel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nishimune</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tabares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schmitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Castellano-Munoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rosenmund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Montesinos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Sanes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schneggenburger</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0896-6273(04)00190-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="237" to="251" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Overlapping role of dynamin isoforms in synaptic vesicle endocytosis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Raimondi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Armbruster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Paradise</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Giovedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Messa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Takasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Cappello</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2011.04.031</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="1100" to="1114" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Dynamin isoforms decode action potential firing for synaptic vesicle recycling</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tanifuji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Funakoshi-Tago</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kasahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mochida</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M112.445874</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">288</biblScope>
+			<biblScope unit="page" from="19050" to="19059" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Dynamin 1-and 3-Mediated Endocytosis Is Essential for the Development of a Large Central Synapse In Vivo</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Funk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lou</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.3804-15.2016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurosci. Off. J. Soc. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="6097" to="6115" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Differential distribution of dynamin isoforms in mammalian cells</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mcniven</surname></persName>
+		</author>
+		<idno type="DOI">10.1091/mbc.9.9.2595</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="2595" to="2609" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">MicroRNA-330 is an oncogenic factor in glioblastoma cells by regulating SH3GL2 gene</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Qu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0046010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">46010</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A novel SH3-containing human gene family preferentially expressed in the central nervous system</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Giachino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lantelme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lanzetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saccone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bella Valle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Migone</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/geno.1997.4645</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genomics</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="427" to="434" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Endophilin-1: A multifunctional protein</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Reutens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Begley</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1357-2725(02)00063-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Biochem. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1173" to="1177" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Live imaging of neuronal degradation by microglia reveals a role for v0-ATPase a1 in phagosomal fusion in vivo</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Peri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nusslein-Volhard</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2008.04.037</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="page" from="916" to="927" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Is spaceflight-induced immune dysfunction linked to systemic changes in metabolism?</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Pecaut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">W</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Bellinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Jonscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Stodieck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Bateman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Mohney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Gridley</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0174174</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">174174</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">14-3-3epsilon is important for neuronal migration by binding to NUDEL: A molecular explanation for Miller-Dieker syndrome</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Toyo-Oka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shionoya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Gambello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cardoso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Leventer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ayala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dobyns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ledbetter</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ng1169</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Genet</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="274" to="285" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Regulation of neuronal morphogenesis by 14-3-3epsilon (Ywhae) via the microtubule binding protein, doublecortin</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cornell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wachi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Zhukarev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Toyo-Oka</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/hmg/ddw270</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Mol. Genet</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="4405" to="4418" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">γ-1-syntrophin mediates trafficking of γ-enolase towards the plasma membrane and enhances its neurotrophic activity</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hafner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Obermajer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kos</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000324292</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurosignals</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="246" to="258" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">γ-Enolase C-terminal peptide promotes cell survival and neurite outgrowth by activation of the PI3K/Akt and MAPK/ERK signalling pathways</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hafner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Obermajer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kos</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/BJ20111351</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">443</biblScope>
+			<biblScope unit="page" from="439" to="450" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A dynamin-3 spliced variant modulates the actin/cortactin-dependent morphogenesis of dendritic spines</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">W</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Kruchten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mcniven</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jcs.01711</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="1279" to="1290" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Endophilin A1 regulates dendritic spine morphogenesis and stability through interaction with p140</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/cr.2015.31</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cap. Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="496" to="516" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Differential regional expression and ultrastructural localization of α-actinin-2, a putative NMDA receptor-anchoring protein, in rat brain</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wyszynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kharazia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Shanghvi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Beggs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Weinberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sheng</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.18-04-01383.1998</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurosci. Off. J. Soc. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1383" to="1392" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Densin-180 forms a ternary complex with the α-subunit of Ca 2+ /calmodulin-dependent protein kinase II and α-actinin</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Walikonis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Oguni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Khorosheva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Jeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Asuncion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Kennedy</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.21-02-00423.2001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurosci. Off. J. Soc. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="423" to="433" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Mutually exclusive splicing of calcium-binding domain exons in chick α-actinin</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Waites</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Millake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Blanchard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Weller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Eperon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Critchley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">267</biblScope>
+			<biblScope unit="page" from="6263" to="6271" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Local plasticity of dendritic excitability can be autonomous of synaptic plasticity and regulated by activity-based phosphorylation of Kv4.2</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Labno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Warrier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0084086</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">84086</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Dendritic excitability and synaptic plasticity</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Sjostrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Rancz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hausser</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/physrev.00016.2007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="769" to="840" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The SNARE Sec22b has a non-fusogenic function in plasma membrane expansion</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Petkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jemaiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Daste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Specht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Izeddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vorkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Verbavatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Darzacq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Triller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Pfenninger</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncb2937</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="434" to="444" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Exploring myelin dysfunction in multiple system atrophy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Halliday</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.5607/en.2014.23.4.337</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Exp. Neurobiol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="337" to="344" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Myelin basic protein: A multifunctional protein</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Boggs</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00018-006-6094-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Mol. Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="1945" to="1961" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">An updated histological classification system for multiple sclerosis lesions</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kuhlmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ludwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Prat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Antel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Bruck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lassmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00401-016-1653-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Neuropathol</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="page" from="13" to="24" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Brain ureido degenerative protein modifications are associated with neuroinflammation and proteinopathy in Alzheimer&apos;s disease with cerebrovascular disease</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gallart-Palau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Serra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S T</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Sze</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12974-017-0946-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neuroinflamm</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">175</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Increased expression of acyl-coenzyme A: Cholesterol acyltransferase-1 and elevated cholesteryl esters in the hippocampus after excitotoxic injury</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Ee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jittiwat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Ong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Farooqui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jenner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Ong</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuroscience.2011.04.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">185</biblScope>
+			<biblScope unit="page" from="125" to="134" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Age-dependent accumulation of ubiquitinated 2&apos;,3&apos;-cyclic nucleotide 3&apos;-phosphodiesterase in myelin lipid rafts</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Hinman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Oh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hollander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Abraham</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/glia.20595</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Glia</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="118" to="133" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">2&apos;,3&apos;-cyclic nucleotide 3&apos;-phosphodiesterase, an oligodendrocyte-Schwann cell and myelin-associated enzyme of the nervous system</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Sprinkle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Crit. Rev. Neurobiol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="235" to="301" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Neurofilament-dependent radial growth of motor axons and axonal organization of neurofilaments does not require the neurofilament heavy subunit (NF-H) or its phosphorylation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Houseweart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">O</forename><surname>Crawford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Folmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Cleveland</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.143.1.171</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="171" to="181" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Expression of NF-L in both neuronal and nonneuronal cells of transgenic mice: Increased neurofilament density in axons without affecting caliber</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Monteiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Hoffman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Gearhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Cleveland</surname></persName>
+		</author>
+		<idno type="DOI">10.1083/jcb.111.4.1543</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="1543" to="1557" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">3rd. The binding of DYNLL2 to myosin Va requires alternatively spliced exon B and stabilizes a portion of the myosin&apos;s coiled-coil domain</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fodor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ginsburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hammer</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi061142u</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="11564" to="11577" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Dynein light chain LC8 regulates syntaphilin-mediated mitochondrial docking in axons</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gerwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Sheng</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.1472-09.2009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neurosci. Off. J. Soc. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="9429" to="9438" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">VPS35, the Retromer Complex and Parkinson&apos;s Disease</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.3233/JPD-161020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Parkinsons Dis</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="219" to="233" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Retromer: Structure, function, and roles in mammalian disease</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Trousdale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ejcb.2015.07.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="513" to="521" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">The absence of myelin basic protein promotes neuroinflammation and reduces amyloid β-protein accumulation in Tg-5xFAD mice</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Ou-Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Van Nostrand</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1742-2094-10-134</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neuroinflamm</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">134</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Spaceflight activates lipotoxic pathways in mouse liver</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Jonscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alfonso-Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Suhalim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Orlicky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">O</forename><surname>Potma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Bouxsein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Bateman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Stodieck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Levi</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0152877</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">152877</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Biological and metabolic response in STS-135 space-flown mouse skin</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">W</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Pecaut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Stodieck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Bateman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Bouxsein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Gridley</surname></persName>
+		</author>
+		<idno type="DOI">10.3109/10715762.2014.920086</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Free Radic. Res</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="890" to="897" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">The pathologies associated with functional titration of phosphatidylinositol transfer protein α activity in mice</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Alb</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Wilfley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Philpot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Bankaitis</surname></persName>
+		</author>
+		<idno type="DOI">10.1194/jlr.M700145-JLR200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1857" to="1872" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Signal transduction and membrane traffic: The PITP/phosphoinositide connection</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liscovitch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Cantley</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0092-8674(95)90525-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="659" to="662" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Phosphatidylinositol transfer protein expression altered by aging and Parkinson disease</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chalimoniuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Snoek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adamczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Malecki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Strosznajder</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10571-006-9078-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Mol. Neurobiol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1153" to="1166" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Mice lacking phosphatidylinositol transfer protein-α exhibit spinocerebellar degeneration, intestinal and hepatic steatosis, and hypoglycemia</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Alb</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Cortese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Albin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Nagy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Bankaitis</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M303591200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">278</biblScope>
+			<biblScope unit="page" from="33501" to="33518" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">GAPDH: A common enzyme with uncommon functions</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nicholls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1440-1681.2011.05599.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Exp. Pharm. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="674" to="679" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Cytokine-induced GAPDH sulfhydration affects PSD95 degradation and memory</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.molcel.2014.10.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="786" to="795" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Cerebral ischemia-reperfusion induces GAPDH S-nitrosylation and nuclear translocation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1134/S0006297912060156</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="671" to="678" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Oxidatively modified glyceraldehyde-3-phosphate dehydrogenase (GAPDH) and Alzheimer&apos;s disease: Many pathways to neurodegeneration</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Butterfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Hardas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Lange</surname></persName>
+		</author>
+		<idno type="DOI">10.3233/JAD-2010-1375</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alzheimers Dis</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="369" to="393" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Localization of neuron-specific enolase (NSE) mRNA in human brain</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Schmechel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Marangos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Winfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Burkhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Roses</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I</forename><surname>Ginns</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0304-3940(87)90721-X</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurosci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="233" to="238" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Neuroprotective role of gamma-enolase in microglia in a mouse model of Alzheimer&apos;s disease is regulated by cathepsin X</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hafner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Glavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Obermajer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zivin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schliebs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kos</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/acel.12093</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aging Cell</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="604" to="614" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Evidence for regulation of ER/Golgi SNARE complex formation by hsc70 chaperones</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Joglekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Hay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="529" to="542" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1016/j.ejcb.2004.12.028</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Immunodepletion experiments suggest that acyl-coenzyme A:cholesterol acyltransferase-1 (ACAT-1) protein plays a major catalytic role in adult human liver, adrenal gland, macrophages, and kidney, but not in intestines</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="1722" to="1727" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Changes in brain cholesterol metabolome after excitotoxicity</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Ong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Farooqui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jenner</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12035-010-8099-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Neurobiol</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="299" to="313" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">A novel de novo dominant negative mutation in DNM1L impairs mitochondrial fission and presents as childhood epileptic encephalopathy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Fahrner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Perry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Chan</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/ajmg.a.37721</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Med. Genet. A</title>
+		<imprint>
+			<biblScope unit="volume">170</biblScope>
+			<biblScope unit="page" from="2002" to="2011" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Mitochondrial division prevents neurodegeneration</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kageyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sesaki</surname></persName>
+		</author>
+		<idno type="DOI">10.4161/auto.21213</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Autophagy</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1531" to="1533" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Ca 2+ -dependent permeability transition regulation in rat brain mitochondria by 2&apos;,3&apos;-cyclic nucleotides and 2&apos;,3&apos;-cyclic nucleotide 3&apos;-phosphodiesterase</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Azarashvili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Krestinina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Galvita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Grachev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Baburina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stricker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Evtodienko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Reiser</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/ajpcell.00006.2009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol. Cell Physiol</title>
+		<imprint>
+			<biblScope unit="volume">296</biblScope>
+			<biblScope unit="page" from="1428" to="C1439" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">In aging, the vulnerability of rat brain mitochondria is enhanced due to reduced level of 2&apos;,3&apos;-cyclic nucleotide-3&apos;-phosphodiesterase (CNP) and subsequently increased permeability transition in brain mitochondria in old animals</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Krestinina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Azarashvili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Baburina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Galvita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Grachev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stricker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Reiser</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuint.2014.09.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurochem. Int</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="41" to="50" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">2&apos;,3&apos;-Cyclic nucleotide 3&apos;-phosphodiesterase as a messenger of protection of the mitochondrial function during melatonin treatment in aging</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Baburina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Odinokova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Azarashvili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Akatov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Lemasters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Krestinina</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamem.2016.11.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1859</biblScope>
+			<biblScope unit="page" from="94" to="103" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Dual role of mitofilin in mitochondrial membrane organization and protein biogenesis</title>
+		<author>
+			<persName><forename type="first">Von</forename><surname>Der Malsburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Bohnert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oeljeklaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kwiatkowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Loniewska-Lwowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wiese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Milenkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.devcel.2011.08.026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Cell</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="694" to="707" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Spaceflight Activates Autophagy Programs and the Proteasome in Mouse Liver</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Blaber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Pecaut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Jonscher</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijms18102062</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">2062</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Arginase-1 deficiency</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Sin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Baron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schulze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Funk</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00109-015-1354-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Med</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="1287" to="1296" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Th1/Th2-regulated expression of arginase isoforms in murine macrophages and dendritic cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Munder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Eichmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Centeno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Soler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Modolell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">163</biblScope>
+			<biblScope unit="page" from="3771" to="3777" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Arginase 1+ microglia reduce Aβ plaque deposition during IL-1β-dependent neuroinflammation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Cherry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Olschowka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>O'banion</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12974-015-0411-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Neuroinflamm</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">203</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Constitutive expression of arginase in microvascular endothelial cells counteracts nitric oxide-mediated vasodilatory function</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Hein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kuo</surname></persName>
+		</author>
+		<idno type="DOI">10.1096/fj.00-0681fje</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Faseb J. Off. Publ. Fed. Am. Soc. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1264" to="1266" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Arginase modulates nitric oxide production in activated macrophages</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kuo</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/ajpheart.1998.274.1.H342</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="page" from="342" to="H348" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Dynamin-related protein 1 and mitochondrial fragmentation in neurodegenerative diseases</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Manczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Calkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Shirendeb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.brainresrev.2010.11.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Res. Rev</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="103" to="118" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">The mitochondrial inner membrane protein mitofilin controls cristae morphology</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Renken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Mannella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Selker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rangell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bennett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zha</surname></persName>
+		</author>
+		<idno type="DOI">10.1091/mbc.e04-08-0697</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Cell</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1543" to="1554" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Mitofilin regulates cytochrome c release during apoptosis by controlling mitochondrial cristae remodeling</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbrc.2012.10.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">428</biblScope>
+			<biblScope unit="page" from="93" to="98" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">OPA1 functionally interacts with MIC60 but is dispensable for crista junction formation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barrera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Koob</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Reichert</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/1873-3468.12384</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">590</biblScope>
+			<biblScope unit="page" from="3309" to="3322" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Diabetic cardiomyopathy-associated dysfunction in spatially distinct mitochondrial subpopulations</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Dabkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Bukowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Leonard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Peer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Callery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hollander</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/ajpheart.00467.2008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol. Heart Circ. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">296</biblScope>
+			<biblScope unit="page" from="359" to="H369" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Transgenic overexpression of mitofilin attenuates diabetes mellitus-associated cardiac and mitochondria dysfunction</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Thapa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Shepherd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jagannathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Croston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Tveter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Holden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Baseler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hollander</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.yjmcc.2014.11.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Cell. Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="212" to="223" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Terpestacin inhibits tumor angiogenesis by targeting UQCRB of mitochondrial complex III and suppressing hypoxia-induced reactive oxygen species production and cellular oxygen sensing</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Shim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Mungai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Schumacker</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M109.087809</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="page" from="11584" to="11595" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Mitochondrial UQCRB regulates VEGFR2 signaling in endothelial cells</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Kwon</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00109-013-1049-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Med</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="1117" to="1128" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Cell-permeable mitochondrial ubiquinol-cytochrome c reductase binding protein induces angiogenesis in vitro and in vivo</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Kwon</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.canlet.2015.06.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Lett</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="52" to="60" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Disturbed biopterin and folate metabolism in the Qdpr-deficient mouse</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sudo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sanechika</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yamashita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shimaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sumi-Ichinose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mori-Kojima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nakata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Furuta</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.febslet.2014.09.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">588</biblScope>
+			<biblScope unit="page" from="3924" to="3931" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Inhibition of lysosome degradation on autophagosome formation and responses to GMI, an immunomodulatory protein from Ganoderma microsporum</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">L</forename><surname>Hsin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Sheu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Jan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Y</forename><surname>Chiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Lue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Ko</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1476-5381.2012.02073.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br. J. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">167</biblScope>
+			<biblScope unit="page" from="1287" to="1300" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Hsc70-4 Deforms Membranes to Promote Synaptic Protein Turnover by Endosomal Microautophagy</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Uytterhoeven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lauwers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Maes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Miskiewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Melo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Swerts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kuenen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wittocx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Corthout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Marrink</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuron.2015.10.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="735" to="748" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">Induction of apoptosis and necroptosis by 24(S)-hydroxycholesterol is dependent on activity of acyl-CoA:cholesterol acyltransferase 1</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yamanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Urano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Takabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Noguchi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/cddis.2013.524</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Dis</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">e990</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Mitochondrial 2&apos;, 3&apos;-cyclic nucleotide 3&apos;-phosphodiesterase (CNP) interacts with mPTP modulators and functional complexes (I-V) coupled with release of apoptotic factors</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Baburina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Azarashvili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Grachev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Krestinina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Galvita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stricker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Reiser</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuint.2015.07.012</idno>
+		<idno>100</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurochem. Int</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="46" to="55" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">Proteomics and the search for biomarkers for renal cancer</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Craven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Vasudev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Banks</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.clinbiochem.2012.11.029</idno>
+		<idno>101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="456" to="465" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title level="a" type="main">DeMix workflow for efficient identification of cofragmented peptides in high resolution data-dependent tandem mass spectrometry</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pirmoradian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chernobrovkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Zubarev</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/mcp.O114.038877</idno>
+		<idno>102</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Proteom. MCP</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="3211" to="3223" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title level="a" type="main">Quantification-Centered Data Processing Workflow</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Zubarev</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Demix-Q</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/mcp.O115.055475</idno>
+		<idno>103</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Proteom. MCP</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1467" to="1478" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title level="a" type="main">Covariation of Peptide Abundances Accurately Reflects Protein Concentration Differences</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pirmoradian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zubarev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kall</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/mcp.O117.067728</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell. Proteom. MCP</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="936" to="948" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

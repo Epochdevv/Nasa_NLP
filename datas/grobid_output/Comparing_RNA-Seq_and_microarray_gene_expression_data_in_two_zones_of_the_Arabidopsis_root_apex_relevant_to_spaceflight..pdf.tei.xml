@@ -1,0 +1,1544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Comparing &lt;scp&gt;RNA&lt;/scp&gt;‐Seq and microarray gene expression data in two zones of the &lt;i&gt;Arabidopsis&lt;/i&gt; root apex relevant to spaceflight</title>
+				<funder ref="#_y4Hm9UT">
+					<orgName type="full">Center for the Advancement of Science in</orgName>
+				</funder>
+				<funder ref="#_eXGd2Yj">
+					<orgName type="full">National Aeronautics and Space Administration</orgName>
+					<orgName type="abbreviated">NASA</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Wiley</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-11">2018-11</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Aparna</forename><surname>Krishnamurthy</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Horticultural Sciences</orgName>
+								<orgName type="department" key="dep2">Program in Plant Molecular and Cellular Biology</orgName>
+								<orgName type="institution">University of Florida</orgName>
+								<address>
+									<postCode>32611</postCode>
+									<settlement>Gainesville</settlement>
+									<region>Florida</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Robert</forename><forename type="middle">J</forename><surname>Ferl</surname></persName>
+							<idno type="ORCID">0000-0003-4178-764X</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Horticultural Sciences</orgName>
+								<orgName type="department" key="dep2">Program in Plant Molecular and Cellular Biology</orgName>
+								<orgName type="institution">University of Florida</orgName>
+								<address>
+									<postCode>32611</postCode>
+									<settlement>Gainesville</settlement>
+									<region>Florida</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Interdisciplinary Center for Biotechnology</orgName>
+								<orgName type="institution">University of Florida</orgName>
+								<address>
+									<postCode>32611</postCode>
+									<settlement>Gainesville</settlement>
+									<region>Florida</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anna‐lisa</forename><surname>Paul</surname></persName>
+							<idno type="ORCID">0000-0003-2211-2604</idno>
+						</author>
+						<title level="a" type="main">Comparing &lt;scp&gt;RNA&lt;/scp&gt;‐Seq and microarray gene expression data in two zones of the &lt;i&gt;Arabidopsis&lt;/i&gt; root apex relevant to spaceflight</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Applications in Plant Sciences</title>
+						<title level="j" type="abbrev">Appl Plant Sci</title>
+						<idno type="ISSN">2168-0450</idno>
+						<imprint>
+							<publisher>Wiley</publisher>
+							<biblScope unit="volume">6</biblScope>
+							<biblScope unit="issue">11</biblScope>
+							<date type="published" when="2018-11" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">85294E4EF54227E0ACF3CEB770980A7B</idno>
+					<idno type="DOI">10.1002/aps3.1197</idno>
+					<note type="submission">received 12 June 2018; revision accepted 7 October 2018.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>differential expression</term>
+					<term>microarray</term>
+					<term>root apex</term>
+					<term>RNA-Seq</term>
+					<term>transcriptome</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">of 10</head><p>Spaceflight experiments often come with novel challenges compared to terrestrial projects, and chief among these are the stringent limits to the amount of material that can be launched (small sample size) and restricted on orbit resources (e.g., limited space or duration in growth habitats, limited crew time). These limitations often lead to constrained scientific return from those materials, making it particularly important to obtain maximum data from each sample. The primary focus of our research program is the evaluation of the complex responses of Arabidopsis thaliana (L.) Heynh. to the spaceflight environment. Plant root growth in microgravity exhibits skewing and waving behavior (Paul et al.,  2012a), insightful patterns of phytohormone distribution in the primary root tips <ref type="bibr" target="#b22">(Ferl and Paul, 2016)</ref>, and distinct patterns of gene expression and protein utilization (Paul et al., 2012b<ref type="bibr" target="#b40">(Paul et al., , 2013</ref><ref type="bibr" target="#b41">(Paul et al., , 2017;;</ref><ref type="bibr" target="#b23">Ferl et al., 2015)</ref>. Recent studies have focused on the root apex, with its crucial role in root growth and morphogenesis, guided by the apex's sensitivity to environmental factors such as gravity, light, and nutrients.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Root apexes and their importance</head><p>In their book The Power of Movement in Plants, Charles and Francis Darwin describe the root apex (the 1.0-1.5-mm region from the root tip) as the most sensitive zone of the root and refer to the apex as a diffuse brain-like organ having the sensitivity and ability to direct the movements of adjoining parts <ref type="bibr" target="#b19">(Darwin and Darwin, 1880)</ref>. Later in the literature, this sensitive part of the root has been referred to with various nomenclature such as "postmitotic isodiametric zone" (Baluska et al.,  </p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The cells in the actively growing root apex undergo four distinct phases of cellular activities, based on which the regions above the root cap can be divided into four different zones: the meristematic zone, the transition zone, the zone of cell elongation, and the growthterminating zone <ref type="bibr" target="#b47">(Verbelen et al., 2006)</ref>. The meristematic zone is a zone of active cell divisions, whereas the transition zone is composed of cells undergoing slow cell growth in length and width. Fast cell elongation in length and bulging of root hairs from the trichoblasts are seen in the elongation zone. In the growth-terminating zone, cells slow down elongation as they reach their mature length and develop active growth of root hairs <ref type="bibr" target="#b47">(Verbelen et al., 2006)</ref>. The root apex in general and the transition zone in particular are shown to respond to internal and external stimuli and signal adaptive root activities <ref type="bibr" target="#b14">(Baluska et al., 2010)</ref>.</p><p>Root tips play an important role in sensing external stimuli and signaling the growth and movement of plant roots in the soil. Various studies on plant response to gravity <ref type="bibr" target="#b18">(Chen et al., 1998;</ref><ref type="bibr" target="#b11">Baldwin et al., 2013)</ref>, light <ref type="bibr" target="#b48">(Wan et al., 2008;</ref><ref type="bibr" target="#b51">Zhang et al., 2013;</ref><ref type="bibr" target="#b50">Zhang and Yu, 2014)</ref>, and touch <ref type="bibr" target="#b34">(Massa and Gilroy, 2003)</ref> suggest the importance of root tips in these functions. However, the role of distinct zones of the root tips has not been extensively characterized, and consequently there is a need to study the subzones of the root apex in greater detail. Technologies like microarray and RNA sequencing (RNA-Seq) enable high-throughput gene profiling of such zones.</p><p>In the present study, we compared the gene expression differences in Zone 2 (consisting of the root elongation and root differentiation zone) with that of Zone 1 (consisting of root cap and root division zone) in order to assess the applicability of such dissections before applying the techniques to spaceflight and ground control samples. We also employed both microarray and RNA-Seq technology to identify the differentially expressed genes between two zones of the root tip in order to compare the two techniques with respect to genes relevant to spaceflight.</p><p>This study presents several distinct points. First, it provides a high-fidelity, comprehensive comparison of root zone-specific gene expression patterns using two transcriptome approaches under sample constrained conditions. Second, it identifies novel genes that were differentially expressed between the two root zones; these heretofore unknown genes could lead to new insights in molecular and functional analysis of root tip responses to environmental and developmental stimuli. Third, it illustrates how genes with low expression levels can be missed by RNA-Seq, which in the present case resulted in the failure of RNA-Seq to identify numerous spaceflightrelevant genes of interest. Finally, it outlines strategies for handling the molecular analyses of very small samples that require preservation in remote locations, which is relevant to research involving limited tissue samples, such as is typical for spaceflight and other expedition experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Plant material</head><p>Arabidopsis thaliana Columbia ecotype (Col-0) seedlings were grown on sterile solid media plates composed of 2.2 g of Murashige and Skoog (MS) salts, 0.5 g of MES hydrate, 5.0 g of sucrose, and 1.0 mL of Gamborg vitamins (Sigma-Aldrich, St. Louis, Missouri, USA), and then adjusted to pH 5.72 with 1 M KOH. The media was solidified with 0.5% (w/v) Phytagel (Sigma-Aldrich). The plates were vertically oriented in growth chambers with continuous light (80-100 μmol s -2 m -2 ) at a constant temperature of 19°C. This plant growth configuration has been used for both laboratory and spaceflight plant growth <ref type="bibr" target="#b40">(Paul et al., 2013;</ref><ref type="bibr" target="#b44">Schultz et al., 2017;</ref><ref type="bibr" target="#b52">Zhou et al., 2017)</ref>. Eight-day-old seedlings were harvested from a single plate, placed in RNAlater (Thermo Fisher Scientific, Waltham, Massachusetts, USA) in 50-mL centrifuge tubes, and stored in a freezer at -20°C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample preparation for transcriptomics</head><p>Seedlings preserved in RNAlater were thawed to room temperature and transferred to an open Petri dish. The seedlings in the Petri dish and were viewed with an Olympus SZX12 dissecting microscope (Olympus, Tokyo, Japan), and the Petri plate served as a working surface to select primary roots and then dissect them into their appropriate zones. A thin-ruled grid was adhered to the bottom of the plate to facilitate precise cuts between the zones (Fig. <ref type="figure" target="#fig_0">1</ref>). Plants were kept submerged in RNAlater at all times. Three independent seedlings were used as three biological replicates for each of the transcriptome analyses. All seedlings were grown on the same plate.</p><p>The root tips were dissected into Zone 1 (0.5 mm from the tip, including the root cap and root division zones) and Zone 2 (1.5mm sections including the root elongation and root differentiation zone) (as shown in Fig. <ref type="figure" target="#fig_0">1</ref>). Dissected RNAlater-preserved root tips were carefully transferred into pre-labeled microcentrifuge tubes and then flash-frozen in liquid nitrogen. Total RNA was extracted from these frozen samples using the ARCTURUS PicoPure RNA Isolation Kit (Thermo Fisher Scientific). RNA concentration was determined on a Qubit Fluorometer (Thermo Fisher Scientific), and sample quality was assessed using the Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, California, USA). Five nanograms of RNA from each sample was used for low-input array and RNA sequencing. Genes that significantly changed in Zone 2 (Treatment 2) as compared to Zone 1 (Treatment 1) were measured using microarray and RNA-Seq. The transcripts identified as significantly changed at fold change of 2 or greater from the two techniques were used for further analysis. Gene ontology (GO) analysis of the significantly changed genes (fold change) between Zone 2 and Zone 1 was conducted using agriGO <ref type="bibr" target="#b21">(Du et al., 2010)</ref>.</p><p>Microarray analyses and RNA-Seq were performed at the Interdisciplinary Center for Biotechnology Research (ICBR) Gene Expression and Sequencing Core at the University of Florida. ICBR conducted the initial analyses of microarray and RNA-Seq data for quality control, normalization, mapping reads to genome data, annotated transcripts, and profiling of gene expression.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Affymetrix Arabidopsis genome arrays</head><p>Sample preparation and hybridization-Five nanograms of total RNA were amplified with the Ovation Pico WTA System V2 kit (NuGEN Technologies Inc., Redwood City, California, USA) according to the manufacturer's protocol. Fragmentation and biotinylation were performed with the Encore Biotin Module (NuGEN Technologies Inc.) as per the manufacturer's protocol. Five micrograms of amplified and labeled cDNA was fragmented and hybridized with rotation onto the Affymetrix GeneChip Arabidopsis Genome ATH1 Array (Affymetrix, Santa Clara, California, USA) for 16 h at 45°C. Arrays were washed on a Fluidics Station 450 (Affymetrix) using the Hybridization Wash and Stain Kit (Affymetrix) with Washing Procedure FS450_0001. Fluorescent signals were measured with an Affymetrix GeneChip Scanner 3000 7G.</p><p>Statistical analysis associated with microarray-Primary data analysis was performed using the R/Limma package <ref type="bibr" target="#b42">(Ritchie et al., 2015)</ref>. Affymetrix CEL files were first analyzed using the FastQC package for quality control (Babraham Institute, Cambridge, United Kingdom; <ref type="url" target="http://www.bioinformatics.babraham.ac.uk/projects/fastqc/">http://www.bioinformatics.babraham.ac.uk/projects/  fastqc/</ref>). The arrays were then normalized using the RMA algorithm, and differential analysis was performed. Comparative analyses were conducted with the normalized signal intensity values between root tip Zone 1 and root tip Zone 2. The fold change was computed based on the normalized log-transformed signal intensity data for each gene locus in the Zone 1 and Zone 2 groups. Differentially expressed transcripts were identified using a log 2 fold change (log 2 FC), at the 1% significance level, with false discovery rate (FDR) correction. Genes differentially expressed with fold change of 2 or greater at FDR &lt;0.01 were used for further analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA-Seq</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA-Seq library preparation using SMART-Seq V4 Ultra Low Input RNA Kit for Sequencing combined with Illumina Nextera</head><p>DNA Sample Preparation Kit-Five nanograms of total RNA were used for cDNA library construction using ClonTech SMART-Seq V4 Ultra Low Input RNA Kit for Sequencing (TaKaRa Bio USA, Mountain View, California, USA) according to the manufacturer's protocol. Briefly, first-strand cDNA was primed by the SMART-SMARTer II A oligonucleotide (TaKaRa Bio USA) and then base pairs were combined with these additional nucleotides, creating an extended template. The reverse transcriptase then switched templates and continued transcribing to the end of the oligonucleotide, resulting in full-length cDNA that contains an anchor sequence, which served as a universal priming site for second strand synthesis. cDNA was amplified with primer II A for 10 PCR cycles. Illumina sequencing libraries were then generated with 120 pg of cDNA using the Illumina Nextera DNA Sample Preparation Kit (FC-131-1024; Illumina, San Diego, California, USA) per the manufacturer's instructions. Briefly, 120 pg of cDNA was used as input for the Nextera tagmentation reaction (fragmentation and tagging), and then adapter sequences were added onto template cDNA by PCR amplification. Libraries were quantitated by the Agilent 2100 Bioanalyzer and reverse transcription real-time PCR (RT-qPCR) (KAPA Library Quantification Kit, catalog no. KK4824; Kapa Biosystems, Wilmington, Massachusetts, USA). Finally, the libraries were pooled by equal molar concentration and sequenced by Illumina 2 × 150 NextSeq 500.</p><p>NextSeq 500 sequencing-In preparation for sequencing, barcoded libraries were sized on the Agilent 2100 Bioanalyzer and then quantitated using the Qubit Fluorometer and RT-qPCR (Kapa <ref type="url" target="http://www.wileyonlinelibrary.com/journal/AppsPlantSci">http://www.wileyonlinelibrary.com/journal/AppsPlantSci</ref> © 2018 Krishnamurthy et al.</p><p>Biosystems, catalog no. KK4824). Individual samples were pooled equimolarly at 4 nM. This "working pool" was used as input in the NextSeq 500 instrument sample preparation protocol (Illumina, catalog no. 15048776, Rev A). Typically, a 1.3-pM library concentration resulted in optimum clustering density in our instrument (i.e., ~200,000 clusters/mm 2 ). Samples were sequenced on a single flow cell, using a 2 × 150 cycles (paired-end) configuration. A typical sequencing run in the NextSeq 500 produced 750-800 million paired-end reads with a Q30 ≥ 85%. For RNA-Seq, approximately 40 million reads/sample provided sufficient depth for transcriptome analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mapping reads to genome data, transcript annotation, and</head><p>profiling of gene expression-The paired-end reads were mapped to the A. thaliana Columbia ecotype reference genome (TAIR10) using TopHat <ref type="bibr" target="#b46">(Trapnell et al., 2012)</ref>. A multi-step process of transcriptome assembly and differential expression analysis was done using the Cufflinks tool <ref type="bibr" target="#b46">(Trapnell et al., 2012)</ref>. Reads that map to each transcript were counted and normalized based on fragment length and total reads. Normalized counts were expressed in terms of FPKM values (fragments per kilobase of transcript per million mapped fragments). FPKM is directly proportional to abundance of the transcript. The expression data were generated at FDR = 0.01.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Transcriptome data were obtained from the two root tip zones (Fig. <ref type="figure" target="#fig_0">1</ref>) through both microarray and RNA-Seq. A total of approximately 33,500 and 22,700 genes were detected as expressed in the root zones from RNA-Seq and microarray, respectively (Gene Expression Omnibus [GEO] accession GSE115555).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Differentially expressed genes in the two root zones</head><p>Microarray detected a total of 6351 genes significantly altered with fold change of 2 or greater, whereas RNA-Seq detected a total of 6403 genes that were differentially expressed between the two root zones. Among these two sets of genes, 4180 genes were commonly identified by both techniques (Fig. <ref type="figure" target="#fig_1">2A</ref>). Out of the 6403 genes detected by RNA-Seq, 2223 genes were exclusive to RNA-Seq at a fold change of 2 or greater. However, out of these 2223 genes, 771 were truly unique to RNA-Seq and the remaining 1452 genes were detected by microarray but did not pass the cutoff value of fold change 2 or greater (log 2 FC ≥1 or ≤1). Expression levels of genes estimated by RNA-Seq were higher than those estimated by microarray. Therefore, a greater number of genes passed the fold change cut-off criteria in RNA-Seq than in the microarray. With increased fold change requirements, RNA-Seq detected a higher number of genes compared to the microarray  (Fig. <ref type="figure" target="#fig_1">2B</ref>, <ref type="figure">C</ref>). At fold change levels of 4 and 8, RNA-Seq identified 364 and 63 unique genes compared to 41 and six genes, respectively, identified by the microarray (inner circles in the Venn diagram; Fig. <ref type="figure" target="#fig_1">2</ref>). Overall, RNA-Seq was more efficient in detecting a greater number of significantly changed genes compared to the microarray.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Differentially expressed genes in the two root zones were functionally distinct</head><p>Distribution of transcripts into the most prominent GO categories is summarized in Table <ref type="table" target="#tab_0">1</ref>. Upregulated functional groups listed in Table <ref type="table" target="#tab_0">1</ref> are the ones enriched in Zone 2, which include lipid localization and transport, root morphogenesis, root epidermal cell differentiation, cell maturation, polypropenoid biosynthetic process, root hair cell differentiation, trichoblast maturation, and secondary metabolic process. The downregulated genes in Zone 2 are those genes enriched in root Zone 1 (tip). The GO analysis of these genes mainly clustered into functional groups: cell cycle regulation, protein DNA complex assembly, chromatin assembly, DNA packaging and metabolic process, cytoskeleton organization, cell division, cellular component biogenesis, and organization (Table <ref type="table" target="#tab_0">1</ref>). Some of the genes differentially expressed at high fold levels (Table <ref type="table" target="#tab_1">2</ref>) and their functions as defined in the Arabidopsis TAIR database <ref type="bibr" target="#b27">(Huala et al., 2001)</ref> are described below.</p><p>Root Zone 2 was enriched with genes involved in secondary growth metabolic processes such as response to stimulus, cell elongation, differentiation and root hair development, and maturation (Table <ref type="table" target="#tab_0">1</ref>). Genes in these categories included arabinogalactan proteins (AT4G40090, AT5G44130), basic helix-loop-helix (bHLH) protein (AT5G58010), and the leucine-rich repeats (LRX)/extensin family proteins (AT1G12040, AT4G02270). Another set of genes highly enriched in Zone 2 are the lipid metabolism proteins: the protease inhibitor/seed storage/lipid transfer protein (LTP) family proteins (AT1G48750, AT5G05960, AT3G18280). Also induced were peroxidases that are root hair specific (AT5G67400, AT1G30870) and the cell signaling gene (AT1G02900).</p><p>Root Zone 1 was enriched with genes involved in primary growth metabolisms like cellular components, cell cycle, and DNA metabolism. Genes enriched in root tip Zone 1 included: cell wall biogenesis and organization genes (AT5G13870, AT1G57590); regulation of gene expression (AT3G52910, AT2G45050); ATP/ microtubule binding (AT2G22610, AT5G48940); cell division/cell cycle (AT3G51280, AT2G28790); and response to mechanical, light, and organism stimulus (AT2G23050 [gravitropism], AT2G45050 [light], AT5G19520 [mechanical], AT1G18250 and AT2G28790 [pathogen]). Other genes enriched in Zone 1 included those with predicted function of ion binding and transport (AT5G19520, AT2G34020, AT2G25060), along with late embryogenesis abundant (LEA) protein (AT5G60530).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA-Seq-identified unique/novel genes not identified by microarray</head><p>RNA-Seq detected 771 genes that were not detected by the microarray (Appendix S1). Three hundred thirty-nine genes were enriched in root tip Zone 2 (upregulated in Zone 2), and 432 genes were enriched in root tip Zone 1 (downregulated in Zone 2) (Appendix S1). GO analysis of these genes clustered the genes into the following groups: structural constituent of ribosome, structural molecular activity, and translation elongation factor activity. The top 20 genes with highest fold change are listed in Table <ref type="table" target="#tab_2">3</ref>. These included extensin family protein (AT3G09925), phosphate transporter 1 (AT5G43350), ovate family protein 17 (AT2G30395), pectin lyase-like superfamily protein (AT4G23500), cytokinin response factor 4 (AT4G27950), protein kinase family protein (AT5G07140), transducin family protein (AT4G33270), and defensin-like protein (AT4G22235).</p><p>Furthermore, a total of 107 novel transcripts were identified that were mapped to the genome but did not have any gene annotation UP Reg Gene ID Log 2 FC RNA-Seq Log 2 FC microarray Accession number and short description in the reference genome database. Out of these 107 transcripts, 19 were found to be significantly changed between the zones at FDR &lt; 0.01 (Appendix S2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information from RNA-Seq on differentially expressed genes</head><p>In addition to the differential gene expression data, RNA-Seq provided information on isoforms, coding DNA sequences, and transcription start sites. Figure <ref type="figure" target="#fig_2">3</ref> provides examples of isoform information from four different genes in Zone 2 that were significantly altered between the two root zones to study their isoform information-two upregulated genes: AT5G05960 (protease inhibitor/seed storage/lipid transfer protein [LTP] family protein) and AT4G02270 (pollen Ole e 1 allergen and extensin family protein) and two downregulated genes: AT2G23050 (NPY4 [NAKED PINS <ref type="bibr">IN YUC MUTANTS 4]</ref>) and protein binding/signal transducer (NPY4) and AT1G18250 (Arabidopsis thaumatin-like protein [ATLP-1]). The differential expression of these four genes in the two root zones from microarray and RNA-Seq are shown in Fig. <ref type="figure" target="#fig_2">3A</ref>. Log 2 FC values for these genes in RNA-Seq and microarray were comparable, and RNA-Seq estimated a higher level of fold change for all four genes (Fig. <ref type="figure" target="#fig_2">3A</ref>). Expression levels of these genes (Fig. <ref type="figure" target="#fig_2">3B</ref>) and isoforms (Fig. <ref type="figure" target="#fig_2">3C</ref>) in root Zone 1 and 2 were plotted using FPKM values measured by RNA-Seq. Although all of these genes were significantly changed between Zone 1 and Zone 2 (Fig. <ref type="figure" target="#fig_2">3B</ref>), the different FPKM values measured can be attributed to changes in alternative isoforms (Fig. <ref type="figure" target="#fig_2">3C</ref>). For instance, the FPKM values of two isoforms of genes AT5G05960 and AT2G23050 are not significantly changed individually (Fig. <ref type="figure" target="#fig_2">3C</ref>), but when the expression values are added up there is a significant change in gene expression (Fig. <ref type="figure" target="#fig_2">3B</ref>). On the contrary, in genes AT4G02270 and AT1G18250, one isoform in each gene (TCONS_00025944 and TCONS_00005036, respectively) was significantly altered in expression, leading to a change in the total FPKM values (Fig. <ref type="figure" target="#fig_2">3C</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>In research studies that require the use of small tissue samples, or where samples are a limiting factor, it is especially important to be able to extract as much data as possible from minimal sample material. Previous studies on root gene expression have been predominantly conducted with larger sections of the root or a pooled sample of root tips <ref type="bibr" target="#b26">(Gupta et al., 2013;</ref><ref type="bibr" target="#b36">Nestler et al., 2014;</ref><ref type="bibr" target="#b37">Niu et al., 2014;</ref><ref type="bibr" target="#b45">Secco et al., 2014;</ref><ref type="bibr" target="#b53">Zhu et al., 2015)</ref>. Recent advances in RNA isolation have enabled full transcriptomic analysis from tiny plant samples. In this study, we extracted RNA from single root tips of young A. thaliana seedlings for microarray and RNA-Seq analysis. The ability to conduct gene expression analyses in such small tissue samples will enable identification of novel and important genes whose quantification is otherwise diluted in larger tissue/organ/ pooled samples.</p><p>In the comparison of gene expression data obtained by microarray and RNA-Seq approaches, RNA-Seq was more powerful in identifying differentially expressed genes in the root zone samples (Fig. <ref type="figure" target="#fig_1">2</ref>). Although this general conclusion regarding RNA-Seq in comparison to microarrays is widely accepted, the direct comparison of RNA-Seq to microarray data obtained from the same spaceflight-relevant tissue sets provides a unique perspective and a direct data set with which to baseline RNA-Seq and microarray data within the existing spaceflight database within the National Aeronautics and Space Administration (NASA)'s GeneLab (Arabidopsis Data Repository; NASA GeneLab, 2018).</p><p>However, the benefits of RNA-Seq demonstrated here are consistent with other, broad studies that compare the two methods. Most of those benefits come from the dynamic range of RNA-Seq. The estimated gene expression levels were generally higher in RNA-Seq compared to the microarray (Table <ref type="table" target="#tab_1">2</ref>). Lower fold changes in the microarray could be attributed to saturation of fluorescence signals. In addition, microarrays depend on probe design based on previously annotated gene/expressed sequence tag sequence information, whereas RNA-Seq provides unbiased sequence counts that can provide information on unannotated regions in addition to known, annotated genes. In this study, RNA-Seq identified many differentially expressed genes that were not detected by microarray (Table <ref type="table" target="#tab_2">3</ref>, Appendix S1) and allowed for the identification of the specific isoforms of genes that contributed to the change in level of gene-expressed information (Fig. <ref type="figure" target="#fig_2">3</ref>). We identified 107 putative transcriptionally active regions (TARs) that were not noted in the TAIR database (Appendix S2). Of these, 19 had significantly altered expressions in the two zones. These novel transcripts could be further characterized for their function in the roots. <ref type="url" target="http://www.wileyonlinelibrary.com/journal/AppsPlantSci">http://www.wileyonlinelibrary.com/journal/AppsPlantSci</ref> © 2018 Krishnamurthy et al.</p><p>However, there are spaceflight-relevant genes that were not detectable in these RNA-Seq data. Comparison of the RNA-Seq gene lists from Zone 1 and Zone 2 revealed that more than 50 of the highly differentially expressed spaceflight genes detected by microarray analyses were not detected by RNA-Seq. These genes include genes that are annotated, revealed in other experiments, and many that have been confirmed to exist by RT-qPCR. Thus, there remain genes that are spaceflight relevant that are best detected by means other than RNA-Seq, particularly genes that have low expression levels or are rarely expressed among cell types. This phenomenon is likely to extend to other environmental responses that induce similar gene expression patterns.</p><p>The list of plant studies that examine gene expression patterns of root zones, and even root cell lineages, is ever expanding, particularly in recent years as tools and approaches provide increasing fidelity in the ability to discriminate among cell types <ref type="bibr" target="#b15">(Birnbaum et al., 2003;</ref><ref type="bibr" target="#b16">Brady et al., 2007;</ref><ref type="bibr" target="#b17">Bruex et al., 2012;</ref><ref type="bibr" target="#b32">Kyndt et al., 2012;</ref><ref type="bibr" target="#b10">Bailey-Serres, 2013;</ref><ref type="bibr" target="#b25">Gotté et al., 2016;</ref><ref type="bibr" target="#b43">Royer et al., 2016;</ref><ref type="bibr" target="#b33">Libault et al., 2017;</ref><ref type="bibr" target="#b49">Wendrich et al., 2017)</ref>. In addition, the expansion of available reference genomes for a variety of plants enables the molecular comparisons of cell type and tissue comparisons among species <ref type="bibr" target="#b24">(Galbraith and Birnbaum, 2006;</ref><ref type="bibr" target="#b28">Huang and Schiefelbein, 2015;</ref><ref type="bibr" target="#b31">Karve and Iyer-Pascuzzi, 2015)</ref>. The current study provides a comprehensive evaluation of the root tip transcriptome, and also contributes a unique perspective for the distribution of expressed genes along the root tip in the context of the tools and approaches used to make those assessments. The root zones were microdissected from RNAlater-preserved roots. This approach separated the root tip organ into zones comprising several cell types, cells that make an overall contribution to the transcriptional environment in that zone. In addition, microdissection of RNAlater-preserved tissue minimizes environmentally induced patterns of gene expression that could be associated with either the dissection of live tissue, or protoplast isolation and cell sorting.</p><p>The study presented here contributes to the growing wealth of data that expand our understanding of how the transcriptome guides Arabidopsis root function and differentiation. The experimental design used in this study provided a new look at gene expression patterns from distinct root tip zones, and also served to compare and contrast approaches to characterizing transcriptomes from preserved material of limited quantity. The transcriptomic techniques of the ATH1 microarray and RNA deep sequencing were comparable in detecting the genes enriched in the two root zones and in revealing distinct patterns of gene expression unique to each zone. An extensive discussion of the genes differentially expressed in the root zones is presented in Appendix S3. RNA-Seq was more efficient in identifying unique and novel transcripts that were not detected by microarray; however, at the read depths used here, which are generally accepted, RNA-Seq failed to detect some spaceflight-relevant genes of interest, suggesting that some studies may require extended read depths or require hybridization or RT-qPCR methods to monitor low-expressing genes.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIGURE 1 .</head><label>1</label><figDesc>FIGURE 1. Root dissection shown in eight-day-old Arabidopsis thaliana Columbia ecotype seedlings, grown on vertically placed Phytagel plates under continuous light. The root apex was sectioned into two zones: Zone 1 (0.5 mm; root cap and meristematic zone) and Zone 2 (1.5 mm; transition, elongation, and growth-terminating zone). The root tip shown is an eight-day-old, RNAlater-preserved seedling stained with toluidine blue observed under a dissecting microscope. Scale is in millimeters.</figDesc><graphic coords="2,312.56,464.44,249.40,195.19" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIGURE 2 .</head><label>2</label><figDesc>FIGURE 2. Comparison of differentially expressed genes in root Zone 2 vs. Zone 1 by RNA-Seq and microarray. The Venn diagram shows the overlap between differentially expressed genes from RNA-Seq and microarray data at log 2 FC ≥1 or ≤1 (A), log 2 FC ≥2 or ≤2 (B), and log 2 FC ≥4 or ≤4 (C). Numbers indicated in the Venn circles are the differentially expressed genes exclusive to each technique at that fold level, whereas the numbers in the inner circles indicate the subset of genes truly unique to RNA-Seq or microarray and not found in the other technique. Differentially expressed transcripts were identified using a log 2 FC at FDR &lt; 0.01.</figDesc><graphic coords="3,318.56,325.92,249.40,300.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIGURE 3 .</head><label>3</label><figDesc>FIGURE 3. Transcript/isoform information of selected genes. Differential expression analysis results for AT5G05960 (protease inhibitor/seed storage/lipid transfer protein [LTP] family protein), AT4G02270 (pollen Ole e 1 allergen and extensin family protein), AT2G23050 (NPY4 [NAKED PINS IN YUC MUTANTS 4]; protein binding/signal transducer [NPY4]), and AT1G18250 (thaumatin-like protein ATLP-1). (A) Log 2 FC values for the genes in RNA-Seq and microarray. (B, C) Expression plots of genes (B) and isoforms (C) showing the differences in expression in root Zone 1 and 2, measured in FPKM.</figDesc><graphic coords="8,42.00,84.00,337.32,584.23" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1 .</head><label>1</label><figDesc>Gene ontology (GO) analysis of differentially expressed genes (Zone 2 vs. Zone 1) commonly identified in RNA-Seq and microarray. a</figDesc><table><row><cell>Upregulated</cell></row></table><note><p>Note: FDR = false discovery rate. a Gene ontology (GO) analysis of the significantly changed genes between Zone 2 and Zone 1 conducted using agriGO<ref type="bibr" target="#b21">(Du et al., 2010)</ref></p><p>. Upregulated functional groups are those enriched in Zone 2; downregulated groups are those enriched in Zone 1.</p><p>http://www.wileyonlinelibrary.com/journal/AppsPlantSci © 2018 Krishnamurthy et al.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 2 .</head><label>2</label><figDesc>List of top 20 differentially changed genes (Zone 2 vs. Zone 1) commonly identified in RNA-Seq and ATH1 microarray. Values are shown as log 2 fold change (log 2 FC).</figDesc><table><row><cell>UP Reg Gene ID</cell><cell>Log 2 FC RNA-Seq</cell><cell>Log 2 FC microarray</cell><cell>Accession number and short description</cell></row><row><cell>AT4G40090</cell><cell>10.14</cell><cell>6.17</cell><cell>NM_120175. Arabidopsis thaliana AGP3 (arabinogalactan-protein 3) (AGP3) mRNA,</cell></row><row><cell></cell><cell></cell><cell></cell><cell>complete cds.</cell></row><row><cell>AT1G48750</cell><cell>9.01</cell><cell>5.21</cell><cell>NM_103770. Arabidopsis thaliana protease inhibitor/seed storage/lipid transfer</cell></row><row><cell></cell><cell></cell><cell></cell><cell>protein (LTP) family protein (AT1G48750) mRNA, complete cds.</cell></row><row><cell>AT5G05960</cell><cell>8.93</cell><cell>5.76</cell><cell>NM_120678. Arabidopsis thaliana protease inhibitor/seed storage/lipid transfer</cell></row><row><cell></cell><cell></cell><cell></cell><cell>protein (LTP) family protein (AT5G05960) mRNA, complete cds.</cell></row><row><cell>AT3G18280</cell><cell>8.82</cell><cell>4.93</cell><cell>NM_112712. Arabidopsis thaliana protease inhibitor/seed storage/lipid transfer</cell></row><row><cell></cell><cell></cell><cell></cell><cell>protein (LTP) family protein (AT3G18280) mRNA, complete cds.</cell></row><row><cell>AT1G12040</cell><cell>8.53</cell><cell>7.29</cell><cell>NM_101076. Arabidopsis thaliana LRX1 (LEUCINE-RICH REPEAT/EXTENSIN 1);</cell></row><row><cell></cell><cell></cell><cell></cell><cell>histidine phosphotransfer kinase/protein binding/structural constituent of cell</cell></row><row><cell></cell><cell></cell><cell></cell><cell>wall (LRX1) mRNA, complete cds.</cell></row><row><cell>AT5G67400</cell><cell>8.46</cell><cell>7.98</cell><cell>NM_126140. Arabidopsis thaliana peroxidase 73 (PER73) (P73) (PRXR11)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>(AT5G67400) mRNA, complete cds.</cell></row><row><cell>AT1G10380</cell><cell>8.31</cell><cell>5.16</cell><cell>NM_100912. Arabidopsis thaliana Putative membrane lipoprotein mRNA, complete</cell></row><row><cell></cell><cell></cell><cell></cell><cell>cds.</cell></row><row><cell>AT3G54590</cell><cell>8.21</cell><cell>5.49</cell><cell>NM_115316. Arabidopsis thaliana ATHRGP1 (HYDROXYPROLINE-RICH</cell></row><row><cell></cell><cell></cell><cell></cell><cell>GLYCOPROTEIN); structural constituent of cell wall (ATHRGP1) mRNA, complete</cell></row><row><cell></cell><cell></cell><cell></cell><cell>cds.</cell></row><row><cell>AT3G25930</cell><cell>8.08</cell><cell>5.96</cell><cell>NM_113497. Arabidopsis thaliana universal stress protein (USP) family protein</cell></row><row><cell></cell><cell></cell><cell></cell><cell>(AT3G25930) mRNA, complete cds.</cell></row><row><cell>AT5G65530</cell><cell>8.01</cell><cell>6.86</cell><cell>NM_125951. Arabidopsis thaliana protein kinase, putative (AT5G65530) mRNA,</cell></row><row><cell></cell><cell></cell><cell></cell><cell>complete cds.</cell></row><row><cell>AT1G02900</cell><cell>7.84</cell><cell>6.83</cell><cell>NM_100171. Arabidopsis thaliana RALF1 (RAPID ALKALINIZATION FACTOR 1); signal</cell></row><row><cell></cell><cell></cell><cell></cell><cell>transducer (RALF1) mRNA, complete cds.</cell></row><row><cell>AT1G30870</cell><cell>7.76</cell><cell>6.18</cell><cell>NM_102824. Arabidopsis thaliana cationic peroxidase, putative (AT1G30870) mRNA,</cell></row><row><cell></cell><cell></cell><cell></cell><cell>complete cds.</cell></row><row><cell>AT1G48930</cell><cell>7.68</cell><cell>7.19</cell><cell>NM_103786. Arabidopsis thaliana AtGH9C1 (Arabidopsis thaliana glycosyl</cell></row><row><cell></cell><cell></cell><cell></cell><cell>hydrolase 9C1); catalytic/hydrolase, hydrolyzing O-glycosyl compounds</cell></row><row><cell></cell><cell></cell><cell></cell><cell>(AtGH9C1) mRNA, complete cds.</cell></row><row><cell>AT5G58010</cell><cell>7.68</cell><cell>5.77</cell><cell>NM_125186. Arabidopsis thaliana basic helix-loop-helix (bHLH) family protein</cell></row><row><cell></cell><cell></cell><cell></cell><cell>(AT5G58010) mRNA, complete cds.</cell></row><row><cell>AT1G75750</cell><cell>7.64</cell><cell>7.02</cell><cell>NM_106225. Arabidopsis thaliana GASA1 (GAST1 PROTEIN HOMOLOG 1) (GASA1)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>mRNA, complete cds.</cell></row><row><cell>AT5G66815</cell><cell>7.54</cell><cell>5.29</cell><cell>NM_126080. Arabidopsis thaliana C-TERMINALLY ENCODED PEPTIDE 5, CEP5</cell></row><row><cell></cell><cell></cell><cell></cell><cell>transmembrane protein(AT5G66815) mRNA, complete cds.</cell></row><row><cell>AT3G21550</cell><cell>7.51</cell><cell>3.09</cell><cell>NM_113050. Arabidopsis thaliana DUF679 DOMAIN MEMBRANE PROTEIN 2,</cell></row><row><cell></cell><cell></cell><cell></cell><cell>ATDMP2, DMP2, DUF679 DOMAIN MEMBRANE PROTEIN 2 (AT3G21550) mRNA,</cell></row><row><cell></cell><cell></cell><cell></cell><cell>complete cds.</cell></row><row><cell>AT3G10340</cell><cell>7.40</cell><cell>5.17</cell><cell>NM_111869. Arabidopsis thaliana PAL4 (Phenylalanine ammonia-lyase 4); ammonia</cell></row><row><cell></cell><cell></cell><cell></cell><cell>ligase/ammonia-lyase/catalytic (PAL4) mRNA, complete cds.</cell></row><row><cell>AT4G02270</cell><cell>7.39</cell><cell>6.70</cell><cell>NM_116460. Arabidopsis thaliana pollen Ole e 1 allergen and extensin family</cell></row><row><cell></cell><cell></cell><cell></cell><cell>protein (AT4G02270) mRNA, complete cds.</cell></row><row><cell>AT5G44130</cell><cell>7.37</cell><cell>5.33</cell><cell>NM_123780. Arabidopsis thaliana FLA13 (FASCICLIN-LIKE ARABINOGALACTAN</cell></row><row><cell></cell><cell></cell><cell></cell><cell>PROTEIN 13 PRECURSOR) (FLA13) mRNA, complete cds.</cell></row><row><cell>AT5G19520</cell><cell>-5.59</cell><cell>-4.39</cell><cell>NM_121957. Arabidopsis thaliana MSL9 (MECHANOSENSITIVE CHANNEL OF SMALL</cell></row><row><cell></cell><cell></cell><cell></cell><cell>CONDUCTANCE-LIKE 9); mechanically-gated ion channel (MSL9) mRNA, complete</cell></row><row><cell></cell><cell></cell><cell></cell><cell>cds.</cell></row><row><cell>AT3G13175</cell><cell>-5.61</cell><cell>-3.43</cell><cell>NM_112157. Arabidopsis thaliana unknown protein (AT3G13175) mRNA, complete</cell></row><row><cell></cell><cell></cell><cell></cell><cell>cds.</cell></row><row><cell>AT2G38810</cell><cell>-5.72</cell><cell>-5.54</cell><cell>NM_129438. Arabidopsis thaliana HTA8 (HISTONE H2A 8); DNA-binding (HTA8)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>mRNA, complete cds.</cell></row><row><cell>AT5G13870</cell><cell>-5.78</cell><cell>-4.06</cell><cell>NM_121390. Arabidopsis thaliana EXGT-A4 (ENDOXYLOGLUCAN TRANSFERASE</cell></row><row><cell></cell><cell></cell><cell></cell><cell>A4); hydrolase, acting on glycosyl bonds/hydrolase, hydrolyzing O-glycosyl</cell></row><row><cell></cell><cell></cell><cell></cell><cell>compounds / x&gt; (EXGT-A4) mRNA, complete cds.</cell></row><row><cell>AT1G57590</cell><cell>-5.79</cell><cell>-4.63</cell><cell>NM_104556. Arabidopsis thaliana carboxylesterase (AT1G57590) mRNA, complete</cell></row><row><cell></cell><cell></cell><cell></cell><cell>cds.</cell></row><row><cell>AT3G51280</cell><cell>-5.99</cell><cell>-3.91</cell><cell>NM_114987. Arabidopsis thaliana male sterility MS5, putative (AT3G51280) mRNA,</cell></row><row><cell></cell><cell></cell><cell></cell><cell>complete cds.</cell></row><row><cell>AT2G23050</cell><cell>-6.26</cell><cell>-5.40</cell><cell>NM_127869. Arabidopsis thaliana NPY4 (NAKED PINS IN YUC MUTANTS 4); protein</cell></row><row><cell></cell><cell></cell><cell></cell><cell>binding/signal transducer (NPY4) mRNA, complete cds.</cell></row><row><cell>AT2G22610</cell><cell>-6.30</cell><cell>-2.95</cell><cell>NM_127826. Arabidopsis thaliana kinesin motor protein-related (AT2G22610)</cell></row><row><cell></cell><cell></cell><cell></cell><cell>mRNA, complete cds.</cell></row><row><cell></cell><cell></cell><cell></cell><cell>(Continued)</cell></row></table><note><p>http://www.wileyonlinelibrary.com/journal/AppsPlantSci © 2018 Krishnamurthy et al.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>TABLE 3 .</head><label>3</label><figDesc>List of 20 genes with highest fold change (fold change greater than log 2 4.0) uniquely identified by RNA-Seq but not the ATH1 microarray.</figDesc><table><row><cell>Gene</cell><cell>Log 2 FC</cell><cell>Symbol</cell><cell>Short description</cell></row><row><cell>AT5G07322</cell><cell>7.72</cell><cell>NA</cell><cell>Other RNA [Source:TAIR;Acc:AT5G07322]</cell></row><row><cell>AT3G09925</cell><cell>7.35</cell><cell>NA</cell><cell>Pollen Ole e 1 allergen and extensin family protein [Source:TAIR;Acc:AT3G09925]</cell></row><row><cell>AT1G28815</cell><cell>7.15</cell><cell>NA</cell><cell>Unknown protein; has five BLAST hits to five proteins in two species: Archae -0; Bacteria</cell></row><row><cell></cell><cell></cell><cell></cell><cell>-0; Metazoa -0; Fungi -0; Plants -5; Viruses -0; Other Eukaryotes -0 (source: NCBI BLink).</cell></row><row><cell></cell><cell></cell><cell></cell><cell>[Source:TAIR;Acc:AT1G28815]</cell></row><row><cell>AT5G48920</cell><cell>7.06</cell><cell>TED7</cell><cell>Tracheary element differentiation-related 7 [Source:TAIR;Acc:AT5G48920]</cell></row><row><cell>AT5G43350</cell><cell>6.94</cell><cell>ATPT1</cell><cell>Phosphate transporter 1;1 [Source:TAIR;Acc:AT5G43350]</cell></row><row><cell>AT2G30395</cell><cell>6.92</cell><cell>ATOFP17</cell><cell>Ovate family protein 17 [Source:TAIR;Acc:AT2G30395]</cell></row><row><cell>AT3G24460</cell><cell>6.81</cell><cell>NA</cell><cell>Serinc-domain containing serine and sphingolipid biosynthesis protein</cell></row><row><cell></cell><cell></cell><cell></cell><cell>[Source:TAIR;Acc:AT3G24460]</cell></row><row><cell>AT5G57887</cell><cell>6.63</cell><cell>NA</cell><cell>Unknown protein; FUNCTIONS IN: molecular_function unknown; INVOLVED IN: biological_</cell></row><row><cell></cell><cell></cell><cell></cell><cell>process unknown; LOCATED IN: endomembrane system; Has 30201 Blast hits to 17322 proteins</cell></row><row><cell></cell><cell></cell><cell></cell><cell>in 780 species: Archae -12; Bacteria -1396; Metazoa -17338; Fungi -3422; /…/ -5037; Viruses</cell></row><row><cell></cell><cell></cell><cell></cell><cell>-0; Other Eukaryotes -2996 (source: NCBI BLink). [Source:TAIR;Acc:AT5G57887]</cell></row><row><cell>AT2G28671</cell><cell>6.50</cell><cell>NA</cell><cell>Unknown protein; FUNCTIONS IN: molecular_function unknown; INVOLVED IN: biological_</cell></row><row><cell></cell><cell></cell><cell></cell><cell>process unknown; LOCATED IN: cellular_component unknown; Has 30201 Blast hits to 17322</cell></row><row><cell></cell><cell></cell><cell></cell><cell>proteins in 780 species: Archae -12; Bacteria -1396; Metazoa -17338; Fungi -/…/ Plants -5037;</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Viruses -0; Other Eukaryotes -2996 (source: NCBI BLink). [Source:TAIR;Acc:AT2G28671]</cell></row><row><cell>AT1G77885</cell><cell>6.45</cell><cell>NA</cell><cell>Unknown protein; BEST Arabidopsis thaliana protein match is: unknown protein</cell></row><row><cell></cell><cell></cell><cell></cell><cell>(TAIR:AT1G22065.1); Has 35333 Blast hits to 34131 proteins in 2444 species: Archae -798;</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Bacteria -22429; Metazoa -974; Fungi -991; Plants -531; Viruses -0; Other Euk /…/s -9610</cell></row><row><cell></cell><cell></cell><cell></cell><cell>(source: NCBI BLink). [Source:TAIR;Acc:AT1G77885]</cell></row><row><cell>AT5G19230</cell><cell>6.17</cell><cell>NA</cell><cell>Glycoprotein membrane precursor GPI-anchored [Source:TAIR;Acc:AT5G19230]</cell></row><row><cell>AT4G23500</cell><cell>5.85</cell><cell>NA</cell><cell>Pectin lyase-like superfamily protein [Source:TAIR;Acc:AT4G23500]</cell></row><row><cell>AT4G27950</cell><cell>-4.04</cell><cell>CRF4</cell><cell>Cytokinin response factor 4 [Source:TAIR;Acc:AT4G27950]</cell></row><row><cell>AT3G63430</cell><cell>-4.10</cell><cell>TRM5</cell><cell>TON1 RECRUITING MOTIF 5, TRM5 zinc finger CCCH domain protein;(source:Araport11)</cell></row><row><cell>AT5G01445</cell><cell>-4.13</cell><cell>NA</cell><cell>Unknown protein; FUNCTIONS IN: molecular_function unknown; INVOLVED IN: biological_</cell></row><row><cell></cell><cell></cell><cell></cell><cell>process unknown; LOCATED IN: mitochondrion; Has 5 Blast hits to 5 proteins in 2 species: Archae</cell></row><row><cell></cell><cell></cell><cell></cell><cell>-0; Bacteria -0; Metazoa -0; Fungi -0; Plants -5; Viruses -0; Ot /…/karyotes -0 (source: NCBI</cell></row><row><cell></cell><cell></cell><cell></cell><cell>BLink). [Source:TAIR;Acc:AT5G01445]</cell></row><row><cell>AT5G41071</cell><cell>-4.20</cell><cell>NA</cell><cell>Unknown protein; Has 30201 Blast hits to 17322 proteins in 780 species: Archae -12; Bacteria</cell></row><row><cell></cell><cell></cell><cell></cell><cell>-1396; Metazoa -17338; Fungi -3422; Plants -5037; Viruses -0; Other Eukaryotes -2996 (source:</cell></row><row><cell></cell><cell></cell><cell></cell><cell>NCBI BLink). [Source:TAIR;Acc:AT5G41071]</cell></row><row><cell>AT5G07140</cell><cell>-4.50</cell><cell>NA</cell><cell>Protein kinase superfamily protein [Source:TAIR;Acc:AT5G07140]</cell></row><row><cell>AT4G33270</cell><cell>-4.74</cell><cell>CDC20.1</cell><cell>Transducin family protein / WD-40 repeat family protein [Source:TAIR;Acc:AT4G33270]</cell></row><row><cell>AT4G22235</cell><cell>-5.24</cell><cell>NA</cell><cell>Arabidopsis defensin-like protein [Source:TAIR;Acc:AT4G22235]</cell></row><row><cell>AT2G22496</cell><cell>-5.56</cell><cell>MIR779A</cell><cell>MIR779a; miRNA [Source:TAIR;Acc:AT2G22496]</cell></row></table><note><p>Note: NA = not applicable. http://www.wileyonlinelibrary.com/journal/AppsPlantSci © 2018 Krishnamurthy et al.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Applications in Plant Sciences 2018 6(11): e1197 Krishnamurthy et al.-Arabidopsis root zone transcriptomes • 3 of 10 http://www.wileyonlinelibrary.com/journal/AppsPlantSci © 2018 Krishnamurthy et al.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>The authors thank the <rs type="institution">Interdisciplinary Center for Biological Research (ICBR, University of Florida)</rs> team; <rs type="person">Y. Zhang</rs>, <rs type="person">W. Farmerie</rs>, and <rs type="person">A. Riva</rs> for sequencing and bioinformatics services; and laboratory members <rs type="person">J. Callaham</rs>, <rs type="person">A. Zupanska</rs>, <rs type="person">E. Schultz</rs>, <rs type="person">N. Sng</rs>, and <rs type="person">L. David</rs> for useful discussions. We thank the <rs type="funder">Center for the Advancement of Science in</rs> <rs type="institution">Space (CASIS</rs>; <rs type="grantNumber">GA-2013-104</rs>) and the <rs type="funder">National Aeronautics and Space Administration (NASA) Space Life and Physical Sciences</rs> (<rs type="grantNumber">NNX12AN69G</rs>) for funding and operational support.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_y4Hm9UT">
+					<idno type="grant-number">GA-2013-104</idno>
+				</org>
+				<org type="funding" xml:id="_eXGd2Yj">
+					<idno type="grant-number">NNX12AN69G</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA ACCESSIBILITY</head><p>All sequence data are archived in the National Center for Biotechnology Information Gene Expression Ominibus (GEO accession no. GSE115555; <ref type="url" target="https://www.ncbi.nlm.nih.gov/geo/">https://www.ncbi.nlm.nih.gov/geo/</ref>) and in the NASA GeneLab repository (GeneLab accession no. GLDS-208; <ref type="url" target="https://genelab.nasa.gov/">https://genelab.nasa.gov/</ref>).</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPORTING INFORMATION</head><p>Additional Supporting Information may be found online in the supporting information tab for this article. APPENDIX S1. List of genes uniquely identified by RNA-Seq (differentially expressed genes that were not detected by microarray).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPENDIX S2.</head><p>List of novel genes identified by RNA-Seq (transcripts that were mapped to the genome but did not have a gene annotation in the TAIR database). APPENDIX S3. Detailed information about genes enriched in each root zone.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>LITERATURE CITED</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Arabidopsis thaliana calcium ion binding (AT2G34020) mRNA, complete cds. AT5G48940 -6.38 -4.74 NM_124271. Arabidopsis thaliana leucine-rich repeat transmembrane protein kinase, putative (AT5G48940) mRNA, complete cds</title>
+	</analytic>
+	<monogr>
+		<title level="j">AT</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">32</biblScope>
+			<date>NM_128953</date>
+		</imprint>
+	</monogr>
+	<note>AT2G34020 -6.35 -3.11</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Arabidopsis thaliana pollen Ole e I family allergen protein (AT2G20515) mRNA, complete cds</title>
+	</analytic>
+	<monogr>
+		<title level="j">AT</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">12</biblScope>
+			<date>NM_127611</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Arabidopsis thaliana plastocyanin-like domain-containing protein (AT2G25060) mRNA, complete cds</title>
+	</analytic>
+	<monogr>
+		<title level="j">AT</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">97</biblScope>
+			<date>NM_128063</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">At3g52910. 68416.t05420 expressed protein nearly identical to transcription activator GRL4 [Arabidopsis thaliana</title>
+		<idno>GI:21539886</idno>
+		<imprint>
+			<biblScope unit="page" from="81" to="85" />
+		</imprint>
+	</monogr>
+	<note>unpublished) AT2G45050 -6</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">NM_130069. Arabidopsis thaliana zinc finger (GATA type) family protein (AT2G45050) mRNA, complete cds. AT5G60530 -6.88</title>
+	</analytic>
+	<monogr>
+		<title level="j">AT</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">16</biblScope>
+			<date>NM_125446</date>
+		</imprint>
+	</monogr>
+	<note>Arabidopsis thaliana late embryogenesis abundant protein-related/ LEA protein-related (AT5G60530) mRNA, complete cds</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Arabidopsis thaliana pollen Ole e 1 allergen and extensin family protein (AT5G10130) mRNA, complete cds</title>
+	</analytic>
+	<monogr>
+		<title level="j">AT</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">43</biblScope>
+			<date>NM_121051</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Arabidopsis thaliana ATLP-1 (ATLP-1) mRNA, complete cds</title>
+	</analytic>
+	<monogr>
+		<title level="j">AT</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">71</biblScope>
+			<date>NM_001035987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Arabidopsis thaliana AN3 (ANGUSTIFOLIA 3); protein binding/ transcription coactivator (AN3) mRNA, complete cds</title>
+	</analytic>
+	<monogr>
+		<title level="j">AT</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">44</biblScope>
+			<date>NM_122747</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Arabidopsis thaliana osmotin-like protein, putative (AT2G28790) mRNA, complete cds</title>
+	</analytic>
+	<monogr>
+		<title level="j">AT</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">77</biblScope>
+			<date>NM_128438</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Arabidopsis thaliana jacalin lectin family protein (AT1G52070) mRNA, complete cds</title>
+		<imprint>
+			<date>NM_104088</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Microgenomics: Genome-scale, cell-specific monitoring of multiple gene regulation tiers</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bailey-Serres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Plant Biology</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="293" to="325" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Gravity sensing and signal transduction in vascular plant primary roots</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Baldwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Strohm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Masson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Botany</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="126" to="142" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Postmitotic isodiametric cellgrowth in the maize root apex</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Baluska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kubica</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hauskrecht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Planta</title>
+		<imprint>
+			<biblScope unit="volume">181</biblScope>
+			<biblScope unit="page" from="269" to="274" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A polarity crossroad in the transition growth zone of maize root apices: Cytoskeletal and developmental implications</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Baluska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Volkmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Barlow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Plant Growth Regulation</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="170" to="181" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Root apex transition zone: A signalling-response nexus in the root</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Baluska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mancuso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Volkmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Barlow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Plant Science</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="402" to="408" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A gene expression map of the Arabidopsis root</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Birnbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Shasha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Lambert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Galbraith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Benfey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">302</biblScope>
+			<biblScope unit="page" from="1956" to="1960" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A high-resolution root spatiotemporal map reveals dominant expression patterns</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Brady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Orlando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Dinneny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mace</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">318</biblScope>
+			<biblScope unit="page" from="801" to="806" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">A gene regulatory network for root epidermis cell differentiation in Arabidopsis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bruex</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Kainkaryam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wieckowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bernhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genetics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1002446</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The Arabidopsis thaliana AGRAVITROPIC 1 gene encodes a component of the polar-auxin-transport efflux carrier</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sedbrook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Caspar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Masson</surname></persName>
+		</author>
+		<ptr target="http://www.wileyonlinelibrary.com/journal/AppsPlantSci©2018" />
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="15112" to="15117" />
+			<date type="published" when="1998">1998</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<author>
+			<persName><surname>Krishnamurthy</surname></persName>
+		</author>
+		<title level="m">The power of movement in plants</title>
+		<meeting><address><addrLine>London, England</addrLine></address></meeting>
+		<imprint>
+			<publisher>J. Murray</publisher>
+			<date type="published" when="1880">1880</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Auxin-dependent regulation of lateral root positioning in the basal meristem of Arabidopsis</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>De Smet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tetsumura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">De</forename><surname>Rybel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">F D</forename><surname>Frey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Laplaze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Casimiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Swarup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Development</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="681" to="690" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">agriGO: A GO analysis toolkit for the agricultural community</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Su</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="W64" to="W70" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The effect of spaceflight on the gravity-sensing auxin gradient of roots: GFP reporter gene microscopy on orbit</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ferl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Paul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">npj Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">15023</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Spaceflight induces specific alterations in the proteomes of Arabidopsis</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ferl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Koh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Denison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-L</forename><surname>Paul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="32" to="56" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Global studies of cell type-specific gene expression in plants</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Galbraith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Birnbaum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Plant Biology</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="451" to="475" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Endoplasmic reticulum body-related gene expression in different root zones of Arabidopsis isolated by laser-assisted microdissection</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gotté</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bénard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Kiefer-Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jaber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vicré-Gibouin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Driouich</surname></persName>
+		</author>
+		<idno type="DOI">10.3835/plantgenome2015.08.0076</idno>
+		<ptr target="https://doi.org/10.3835/plantgenome2015.08.0076" />
+	</analytic>
+	<monogr>
+		<title level="j">Plant Genome</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Transcriptome profiling of cytokinin and auxin regulation in tomato root</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">E</forename><surname>Lindquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Devitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mudge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rashotte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Botany</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="695" to="704" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The Arabidopsis Information Resource (TAIR): A comprehensive database and web-based information retrieval, analysis, and visualization system for a model plant</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Huala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Dickerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Garcia-Hernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weems</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Reiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lafond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hanley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="102" to="105" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Conserved gene expression programs in developing roots from diverse plants</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schiefelbein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="2119" to="2132" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Induction of curvature in maize roots by calcium or by thigmostimulation: Role of the postmitotic isodiametric growth zone</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ishikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Evans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiology</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="762" to="768" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The role of the distal elongation zone in the response of maize roots to auxin and gravity</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ishikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Evans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiology</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="1203" to="1210" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Digging deeper: High-resolution genome-scale data yields new insights into root biology</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Karve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Iyer-Pascuzzi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Current Opinion in Plant Biology</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="24" to="30" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Transcriptome analysis of rice mature root tissue and root tips in early development by massive parallel sequencing</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kyndt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Denil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Haegeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Trooskens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">De</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Van Criekinge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gheysen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Botany</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="2141" to="2157" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Plant systems biology at the single-cell level</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Libault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pingault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zogli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schiefelbein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Plant Science</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="949" to="960" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Touch modulates gravity sensing to regulate the growth of primary roots of Arabidopsis thaliana</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Massa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gilroy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Journal</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="435" to="445" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<ptr target="https://genelab-data.ndc.nasa.gov/genelab/search_studies/?q=&amp;data_source=cgene&amp;ffield=organism&amp;fvalue=Arabidopsis+thaliana" />
+		<title level="m">Arabidopsis data repository</title>
+		<imprint>
+			<publisher>NASA GeneLab</publisher>
+			<date type="published" when="2018-10-03">2018. 3 October 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Roothairless5, which functions in maize (Zea mays L.) root hair initiation and elongation encodes a monocot-specific NADPH oxidase</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nestler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-J</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Paschold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Marcon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Journal</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="729" to="740" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Magnesium availability regulates the development of root hairs in Arabidopsis thaliana (L.) Heynh</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell and Environment</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="2795" to="2813" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">a. Plant growth strategies are remodeled by spaceflight</title>
+		<author>
+			<persName><forename type="first">A.-L</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Amalfitano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ferl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Plant Biology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">232</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Spaceflight transcriptomes: Unique responses to a novel environment</title>
+		<author>
+			<persName><forename type="first">A.-L</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Zupanska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Ostrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shanker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="40" to="56" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Organ-specific remodeling of the Arabidopsis transcriptome in response to spaceflight</title>
+		<author>
+			<persName><forename type="first">A.-L</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Zupanska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Schultz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ferl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Plant Biology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">112</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Genetic dissection of the Arabidopsis spaceflight transcriptome: Are some responses dispensable for the physiological adaptation of plants to spaceflight?</title>
+		<author>
+			<persName><forename type="first">A.-L</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Sng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Zupanska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krishnamurthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Schultz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ferl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">180186</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">limma powers differential expression analyses for RNA-sequencing and microarray studies</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Ritchie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Phipson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Law</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Smyth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">e47</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The build-up of osmotic stress responses within the growing root apex using kinematics and RNA-sequencing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Royer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Aubry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vendramin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scalabrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cattonaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-B</forename><surname>Bogeat-Triboulot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hummel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Botany</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="5961" to="5973" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Skewing in Arabidopsis roots involves disparate environmental signaling pathways</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Schultz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Zupanska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Sng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-L</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ferl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Plant Biology</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">31</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">RNA-seq analysis identifies an intricate regulatory network controlling cluster root development in white lupin</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Secco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Whelan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Berkowitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">230</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Trapnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Goff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pertea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Kelley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pimentel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Protocols</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="562" to="578" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The root apex of Arabidopsis thaliana consists of four distinct zones of growth activities: Meristematic zone, transition zone, fast elongation zone and growth terminating zone</title>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Verbelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>De Cnodder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vissenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Baluska</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Signaling and Behavior</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="296" to="304" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The subcellular localization and blue-light-induced movement of phototropin 1-GFP in etiolated seedlings of Arabidopsis thaliana</title>
+		<author>
+			<persName><forename type="first">Y.-L</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Eisinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ehrhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Kubitscheck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Baluska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Briggs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Plant</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="103" to="117" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Framework for gradual progression of cell ontogeny in the Arabidopsis root meristem</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Wendrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Möller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saiga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sozzani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Benfey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">De</forename><surname>Rybel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weijers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page">E8922</biblScope>
+			<date type="published" when="2017">2017</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Molecule mechanism of stem cells in Arabidopsis thaliana</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacognosy Reviews</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="105" to="112" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Cytokinin induces cell division in the quiescent center of the Arabidopsis root apical meristem</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Swarup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bennett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Schaller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Kieber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Current Biology</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1979" to="1989" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Dissecting low atmospheric pressure stress: Transcriptome responses to the components of hypobaria in Arabidopsis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Callaham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stasiak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Riva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Zupanska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Dixon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Plant Science</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">528</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">The R2R3-type MYB gene OsMYB91 has a function in coordinating plant growth and salt stress tolerance in rice</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Science</title>
+		<imprint>
+			<biblScope unit="volume">236</biblScope>
+			<biblScope unit="page" from="146" to="156" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

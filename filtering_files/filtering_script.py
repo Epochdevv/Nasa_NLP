@@ -52,7 +52,7 @@ if __name__ == "__main__":
     project_root = os.path.dirname(current_dir)
     
     # Set paths relative to the project structure
-    destination_folder = os.path.join(project_root, "..", "datas", "grobid_output")
+    destination_folder = os.path.join(project_root, "datas", "grobid_output") 
     target_folder = os.path.join(current_dir, "output_files")
     
     copy_random_files(destination_folder, target_folder, num_files=25)

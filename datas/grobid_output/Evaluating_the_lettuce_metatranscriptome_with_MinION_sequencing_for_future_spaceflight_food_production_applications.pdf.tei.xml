@@ -1,0 +1,1939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Evaluating the lettuce metatranscriptome with MinION sequencing for future spaceflight food production applications</title>
+				<funder ref="#_26BgtrP #_aKnUd2M">
+					<orgName type="full">NASA</orgName>
+				</funder>
+				<funder ref="#_YRAtvc6">
+					<orgName type="full">University of Central Florida&apos;s NASA Florida Space Consortium and Space Florida</orgName>
+				</funder>
+				<funder ref="#_M9KnYZN #_4QCb8uC">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-06-17">2021-06-17</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Natasha</forename><forename type="middle">J</forename><surname>Haveman</surname></persName>
+							<idno type="ORCID">0000-0001-7083-5925</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Microbiology and Cell Science</orgName>
+								<orgName type="department" key="dep2">Space Life Science Lab</orgName>
+								<orgName type="institution">University of Florida</orgName>
+								<address>
+									<settlement>Merritt Island</settlement>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christina</forename><forename type="middle">L M</forename><surname>Khodadad</surname></persName>
+							<idno type="ORCID">0000-0003-0435-2292</idno>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Amentum Services, Inc</orgName>
+								<orgName type="institution" key="instit2">LASSO</orgName>
+								<orgName type="institution" key="instit3">Kennedy Space Center</orgName>
+								<address>
+									<settlement>Merritt Island</settlement>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anirudha</forename><forename type="middle">R</forename><surname>Dixit</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Amentum Services, Inc</orgName>
+								<orgName type="institution" key="instit2">LASSO</orgName>
+								<orgName type="institution" key="instit3">Kennedy Space Center</orgName>
+								<address>
+									<settlement>Merritt Island</settlement>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Artemis</forename><forename type="middle">S</forename><surname>Louyakis</surname></persName>
+							<idno type="ORCID">0000-0003-4893-258X</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Molecular and Cell Biology</orgName>
+								<orgName type="institution">University of Connecticut</orgName>
+								<address>
+									<settlement>Storrs</settlement>
+									<region>CT</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gioia</forename><forename type="middle">D</forename><surname>Massa</surname></persName>
+							<idno type="ORCID">0000-0002-0694-3208</idno>
+							<affiliation key="aff3">
+								<orgName type="department">Space Crop Production Team</orgName>
+								<orgName type="institution">Kennedy Space Center</orgName>
+								<address>
+									<settlement>Merritt Island</settlement>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kasthuri</forename><surname>Venkateswaran</surname></persName>
+							<idno type="ORCID">0000-0002-6742-0873</idno>
+							<affiliation key="aff4">
+								<orgName type="department">Biotechnology and Planetary Protection Group</orgName>
+								<orgName type="institution">Jet Propulsion Laboratory</orgName>
+								<address>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Jamie</forename><forename type="middle">S</forename><surname>Foster</surname></persName>
+							<email>jfoster@ufl.edu</email>
+							<idno type="ORCID">0000-0001-8603-4006</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Microbiology and Cell Science</orgName>
+								<orgName type="department" key="dep2">Space Life Science Lab</orgName>
+								<orgName type="institution">University of Florida</orgName>
+								<address>
+									<settlement>Merritt Island</settlement>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Evaluating the lettuce metatranscriptome with MinION sequencing for future spaceflight food production applications</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">npj Microgravity</title>
+						<title level="j" type="abbrev">npj Microgravity</title>
+						<idno type="eISSN">2373-8065</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">7</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2021-06-17" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">AAF363F732972C917F710E9528011ECD</idno>
+					<idno type="DOI">10.1038/s41526-021-00151-x</idno>
+					<note type="submission">Received: 30 November 2020; Accepted: 3 June 2021;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Healthy plants are vital for successful, long-duration missions in space, as they provide the crew with life support, food production, and psychological benefits. The microorganisms that associate with plant tissues play a critical role in improving plant health and production. To that end, we developed a methodology to investigate the transcriptional activities of the microbiome of red romaine lettuce, a key salad crop that was grown under International Space Station (ISS)-like conditions. Microbial transcripts enriched from host-microbe total RNA were sequenced using the Oxford Nanopore MinION sequencing platform. Results show that this enrichment approach was highly reproducible and could be an effective approach for the on-site detection of microbial transcriptional activity. Our results demonstrate the feasibility of using metatranscriptomics of enriched microbial RNA as a potential method for on-site monitoring of the transcriptional activity of crop microbiomes, thereby helping to facilitate and maintain plant health for on-orbit space food production.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>As humanity strives to prepare for the upcoming manned missions to the Moon and cis-lunar orbit, it has become evident that growing plants for food and other life support systems is essential to humankind's space exploration agenda <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> . To ensure that these future missions are successful, it is necessary to investigate all aspects of the basic physiological and molecular responses of food crops and their microbiomes to the spaceflight environment, so that any issues faced on these missions can be efficiently managed and mitigated on-orbit.</p><p>Plants have complex and dynamic relationships with their microorganisms, which are influenced by various stresses and environmental factors, including spaceflight <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref> . The novel environments of spaceflight and microgravity analogs have been shown to alter the plant-microbe interactions at both the genetic and physiological levels, oftentimes resulting in increased susceptibility to diseases <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> . For example, soybean seedlings grown in spaceflight are more susceptible to the colonization of fungal pathogen, Phytophthora sojae, when compared to ground controls <ref type="bibr" target="#b9">10</ref> . In addition, simulated microgravity experiments have demonstrated that clinorotation reduces the growth and development of the legume Medicargo truncatula and significantly affects its symbiotic relationship with the rhizobium Sinorhizobium meliloti and arbuscular mycorrhizal fungi Rhizophagus irregularis <ref type="bibr" target="#b14">15</ref> . Specifically, nodule size and number were reduced under clinorotation when compared to static controls <ref type="bibr" target="#b14">15</ref> . Moreover, in another simulated microgravity experiment performed on random positioning machines, the endophytic bacterial diversity in wheat (Triticum aestivum) seedlings behaves differently under simulated microgravity when compared to normal gravity controls <ref type="bibr" target="#b13">14</ref> . Specifically, some bacterial genera (e.g., Pseudomonas, Paenibacillus, and Bacillus) that can produce plant growth-promoting and antimicrobial substances, exhibit clear differences in relative abundance between microgravity and Earth gravity treatments <ref type="bibr" target="#b13">14</ref> .</p><p>However, research on how microgravity impacts plant-microbe interactions is still in its infancy. It is, therefore, critical to develop efficient methods for investigating plant-microbe interactions to expand our current knowledge base for future space exploration. The dynamic nature of plant-microbial interactions requires regular monitoring of a crop's microbiome and its metabolic activities to assess plant health. These measures together with other surveillance techniques (e.g., hyperspectral imaging) will ensure that successful cultivation of crops on long-duration missions in space can be accomplished.</p><p>To date, plants have been successfully grown in space in multiple hardware systems, such as the Vegetable Production System (Veggie), Advanced Plant Habitat, and the LADA greenhouse <ref type="bibr" target="#b15">16</ref> . For example, edible leafy crops have been safely produced in the Veggie hardware on the International Space Station (ISS) and consumed by crew members <ref type="bibr" target="#b16">17</ref> . There have been, however, sporadic instances of contamination with opportunistic fungal pathogens. In a Veggie experiment (VEG-01C), Zinnia hybrida plants were infected by an opportunistic fungal pathogen, Fusarium oxysporum <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> . F. oxysporum is a ubiquitous group of soilborne fungi that are highly adaptable to different habitats and include non-pathogenic strains, plant pathogens, and even opportunistic human pathogens <ref type="bibr" target="#b19">20</ref> . Pathogenic strains of F. oxysporum can cause Fusarium wilt in nearly every agriculturally important crop <ref type="bibr" target="#b20">21</ref> . Some multi-host isolates in plants also have the potential to cause invasive fungal infections in immunocompromised mammals <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref> . Even though the fungal infection on the Zinnia plants was likely due to a malfunction of a fan in the Veggie hardware <ref type="bibr" target="#b25">26</ref> , it demonstrated the importance of characterizing the healthy basal microbiome of all plants cultivated in space.</p><p>To achieve this goal, methodologies are needed to regularly monitor changes in the microbial community during flight to potentially mitigate the rise of pathogenic taxa. Currently, the standard protocol for the investigation of plant-pathogen interactions aboard the ISS is to harvest the plant material, freeze it, and return it to Earth for analysis <ref type="bibr" target="#b26">27</ref> . However, with future missions beyond Low Earth Orbit likely taking up to 6 months between resupply missions, it will be critical to develop faster, on-side methodologies to regularly monitor and assess plant-microbe health.</p><p>Here we present a method for using metatranscriptomics coupled with nanopore sequencing to characterize the plant microbiome and their functional activity from plant-microbe total RNA samples that could be feasibly completed on-orbit. Metatranscriptomics has emerged as an effective methodology to characterize the plant microbiome and evaluate its transcriptional activity <ref type="bibr" target="#b27">28</ref> . Transcriptional surveys, among many others, enable the identification and assessment of the main drivers of changes in plant health <ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref> . However, to date, metatranscriptomic studies of plant microbiomes have all utilized Illumina sequencing platforms, which are not feasible for spaceflight applications due to their large up-mass, weight, and footprint. The pocket-sized, USBpowered nanopore MinION, sequencing platform, which weighs &lt;100 g and is capable of single-molecule sequencing of native full-length DNA and RNA molecules <ref type="bibr" target="#b32">33</ref> , has emerged as a viable sequence platform for spaceflight. In 2016, the nanoporesequencing system was successfully used aboard the ISS for DNA analysis and compared to next-generation sequencing platforms, such as Illumina MiSeq and PacBio RSII <ref type="bibr" target="#b33">34</ref> . Although the nanopore system has been successfully used for DNA applications, its use for metatranscriptomic analyses is only now emerging <ref type="bibr">35-38 and</ref> has not yet been used to analyze the metatranscriptome of microbial transcripts from plant-microbe total RNA samples.</p><p>As a proof-of-concept, we have characterized the microbiome of red romaine lettuce grown under a baseline condition (i.e., ISSlike ground controls) using MinION-based metatranscriptomics to demonstrate that plants can be rapidly and effectively screened using this molecular approach. By developing reliable methodologies to regularly monitor and compare changes in the functional activity of the plant microorganisms over time, early detection of opportunistic pathogens can help inform mitigation strategies and provide important insight into agricultural practices aboard spacecraft to maximize crop production and ensure crew safety on long-duration missions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Successful enrichment of the microbial RNA fraction from total RNA To ensure a comprehensive assessment of the microbes on the edible portion of the lettuce crop, both endophytic and epiphytic microbes of lettuce leaves were collected from plants grown in environmental chambers at the Kennedy Space Center (KSC) that mimicked conditions used aboard the ISS. Salad crops, such as lettuce, are important target crops for establishing a sustainable source of fresh food onboard a spacecraft, as they require minimal processing and can be consumed raw. The lettuce leaves were collected from three individual plants grown for 28 days in separate pots (denoted as L93, L96, and L101) each derived from a single surface-sanitized seed (see "Methods") <ref type="bibr" target="#b38">39</ref> . From each leaf, total RNA was extracted and then the microbial RNA fraction was enriched (Fig. <ref type="figure" target="#fig_0">1a</ref>).</p><p>The high quality of the RNA derived from both the host and associated microbes is depicted in Fig. <ref type="figure" target="#fig_0">1a</ref>. Effective depletion of the host RNA was observed with the mean loss of 93% of the total RNA (L93, 96.28%; L96, 88.89%; L101, 94.62%), leaving only a residual ribosomal RNA (rRNA) peak for all replicates (Fig. <ref type="figure" target="#fig_0">1b</ref>). This percentage removal of host RNA was consistent with reports from similar studies that enriched for microbial RNA <ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b40">41</ref> , indicating that the newly developed enrichment protocol for bacterial messenger RNA (mRNA) was effective at removing a large quantity of plant transcripts. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Overview of MinION-sequencing effectiveness of microbeenriched metatranscriptome</head><p>The extracted RNA was converted to complementary DNA (cDNA), as currently the Oxford Nanopore direct RNAsequencing kit does not yet enable barcoding and lower levels of starting template can be used. The replicate cDNA libraries were successfully run on individual MinION flowcells and generated a mean of 10,012,033 base-called reads per replicate pot (Table <ref type="table" target="#tab_0">1</ref>). A detailed figure of the bioinformatic pipeline used in this study is illustrated in Supplementary Fig. <ref type="figure" target="#fig_0">1</ref>. After read processing and filtering, the L93, L96, and L101 samples consisted of 4,061,546 (58.34%), 10,730,313 (84.95%), and 7,361,010 (70.49%) high-quality reads, respectively (Table <ref type="table" target="#tab_0">1</ref>). The filtered reads were then mapped to the lettuce (Lactuca sativa) and closely related sunflower (Helianthus annuus) genomes, which are both well-characterized members of the Asteraceae family. All reads that mapped to either lettuce (L93, 19.17%; L96, 22.72%; L101, 7.23%) or sunflower (L93, 3.53%; L96, 5.52%; L101, 1.71%) were removed. Of the remaining reads, most encoded rRNAs (L93, 63.10%; L96 93.75%; L101, 69.34%) were removed for a separate taxonomic analysis. Of the rRNA transcripts, most were associated with the plant host and only the microbial 16S and non-host 18S rRNA reads were retained for taxonomic analysis with 521,345 (26.32%), 2,453,876 (33.99%), and 1,315,470 (28.31%) reads in L93, L96, and L101, respectively (Table <ref type="table" target="#tab_0">1</ref>).</p><p>Of the remaining non-rRNA reads, only 57,315 (4.95%), 104,111 (21.64%), and 88,850 (4.32%) reads from the samples L93, L96, and L101, respectively, had an e-value cutoff of 0.05 similar to known proteins in the UniProt Swiss-Prot database (Table <ref type="table" target="#tab_0">1</ref>). Those microbial transcripts that could be annotated were further mapped against the Kyoto Encyclopedia of Genes and Genomes (KEGG) database to identify those functional genes with a KEGG Orthology (KO) identifier, resulting in the annotation of 2689 transcripts in L93, 1283 transcripts in L96, and 4987 transcripts in L101 (Table <ref type="table" target="#tab_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Taxonomic composition of 28-day-old lettuce leaf microbial community</head><p>The transcriptionally active composition of the microbial communities and their relative abundance were characterized using the recovered 16S and non-host 18S rRNA transcripts to identify those taxa that associate with the lettuce leaf tissue. A total of 43 microbial phyla from all 3 microbial domains-Archaea, Bacteria, and Eukarya-were identified in these samples and are listed in Supplementary Dataset 1. Focus was placed on the recovered reads associated with bacteria and fungi, and the normalized percent abundances are illustrated in Fig. <ref type="figure" target="#fig_1">2a</ref>. Due to the potential for misaligned chloroplast transcripts, all reads that were unclassified or assigned to the Cyanobacteria phylum were excluded from the taxonomic analyses. Of the five most abundant microbial phyla in the lettuce leaf microbiomes, four were bacterial (Firmicutes, Proteobacteria, Actinobacteria, and Bacteroidetes) and one was fungal (Ascomycota), which together comprised 15.48% of the community in sample L93, 13.13% in sample L96, and 15.04% in sample L101 (Supplementary Dataset 1).</p><p>Within these five most abundant phyla, a total of 1240 genera were identified (Supplementary Dataset 1); however, only those genera that had at least 500 normalized reads in all three samples were depicted in Fig. <ref type="figure" target="#fig_1">2b</ref>. For each genus, the percentage listed was calculated from the total number of reads for that genus across all three samples relative to the total number of reads across all samples. The top ten most abundant genera within the top five phyla included Clostridium (31.89%), Peptoniphilus (29.28%), Frondihabitans (5.74%), Lactococcus (3.64%), Bacillus (3.08%), Algoriphagus (2.96%), Fusarium (2.68%), Colletotrichum (2.43%), Actinomyces (1.91%), and Nitrosococcus (1.88%) (Fig. <ref type="figure" target="#fig_1">2b</ref>). Together, the top eight transcriptionally active bacterial genera represented between 78.34% and 81.67% of the recovered sequences in all three replicates, whereas the two fungal genera Fusarium and Colletotrichum comprised between 4.04% and 5.96% (Fig. <ref type="figure" target="#fig_1">2b</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Functional activity of the lettuce leaf microbial community</head><p>Assessment of the expressed transcripts within the lettuce leaf microbiome revealed a diverse range of functional genes associated with several key metabolic pathways in both the bacterial (Fig. <ref type="figure">3a</ref>) and fungal (Fig. <ref type="figure">3b</ref>) populations. Only those genes with a minimum of five transcripts across all samples were included. The full list of genes and their associated KEGG level 3 pathways are listed in Supplementary Figs. <ref type="figure" target="#fig_1">2</ref> and <ref type="figure">3</ref>. A total of 106 bacterial KEGG level 3 pathways (Supplementary Fig. <ref type="figure" target="#fig_1">2</ref>) and a total of 85 fungal KEGG level 3 pathways (Supplementary Fig. <ref type="figure">3</ref>) were observed.</p><p>Within the lettuce-associated bacterial community, the top 15 bacterial KEGG level 3 pathways comprised 94.28% of the reads that were assigned to 106 distinct pathways (Supplementary Fig. <ref type="figure" target="#fig_1">2</ref>). The two most dominant metabolisms observed within the lettuce-associated bacterial community transcriptome were the glyoxylate and dicarboxylate metabolism with a mean of 47.64% of the transcripts and oxidative phosphorylation with a mean of 40.33% transcripts mapping to this pathway (Fig. <ref type="figure">3a</ref> and Supplementary Fig. <ref type="figure" target="#fig_1">2</ref>).</p><p>As visualized in the fungal metatranscriptome heatmap, the top 15 KEGG level 3 fungal pathways accounted for 84.11% of the total read counts that were assigned to 85 distinct pathways (Fig. <ref type="figure">3b</ref>, Supplementary Fig. <ref type="figure">3</ref>, and Supplementary Dataset 2). The two dominant fungal pathways observed in the lettuce-associated microbiome included thermogenesis with a mean of 30.43% of the annotated transcripts and oxidative phosphorylation with a mean of 30.25%. Interestingly, the expression of transcripts associated with several distinct signal transduction pathways was observed including the mitogen-activated protein kinase (MAPK) signaling pathways (4.10%), phospholipase D signaling pathway (1.20%), two-component system (0.74%), FoxO signaling pathway (0.63%), and Rap1 signaling pathway (0.63%) (Fig. <ref type="figure">3b</ref> and Supplementary Dataset 2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gene network analysis of the expressed transcripts within the lettuce-associated fungal community</head><p>The co-expression network within the signal transduction pathway of the fungal community was clustered by KEGG and mapped using the Bray-Curtis dissimilarity (cutoff = 0.5) approach in Phyloseq (Fig. <ref type="figure" target="#fig_2">4</ref>). The nodes represent a KEGG Orthology (KO) gene and the lines (edges) represent the connection to similar expression patterns across the three samples. Shorter edges are indicative of closer connections, whereas longer edges show expression patterns that vary more between the samples. Transcripts that are found in only one sample were excluded. Both nodes and edges are color-coded to represent the KEGG level 3 pathways within the overarching KEGG level 2 signal transduction pathway. The gene network map generated showed two main clusters with high levels of connectivity. In cluster 1, genes associated with a diverse set of KEGG level 3 pathways were intertwined and observed to have some similarity in expression patterns across all three samples. The edges connecting each gene in cluster 1 were longer, which showed more variation in expression patterns between each sample. However, cluster 2 showed an enrichment of genes primarily associated with the MAPK signaling pathway that have remarkably similar expression patterns across all three samples as the edges between genes are Fig. <ref type="figure">3</ref> Clustering of the top 15 bacterial and fungal metatranscriptomics data according to their KEGG pathway profiles. Heatmap shows the top 15 distribution of protein-coding reads matching KEGG pathways in the a bacterial and b fungal community. The color scale shows the TMM-normalized read counts associated with each pathway. Only pathways representing more than five normalized read counts across all three samples are represented. A full version of each of these heatmap can be found in the Supplementary Figs. <ref type="figure" target="#fig_1">2</ref> and <ref type="figure">3</ref>.</p><p>shorter. This result suggests that the genes in the MAPK signaling pathway within the fungal community may exhibit a coordinated, co-expression pattern.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>To prepare for a long-duration spaceflight, it will be critical to develop effective and rapid monitoring tools to evaluate changes in the microbiomes associated with both the spacecraft and the organisms within. In this study, we described such a methodology for analyzing the metatranscriptome of the microbial communities associated with lettuce crops using the nanopore MinIONsequencing platform. Specifically, we have optimized an enrichment protocol and analysis pipeline for microbial transcripts from plant-microbe total RNA using the nanopore MinION, which can serve as a foundation for future onboard plant monitoring. In addition, the results from this study provide a first look into the metatranscriptome of the lettuce microbiome grown under ISSlike environmental conditions.</p><p>By understanding the complexity of plant-microbe relationships, the underlying drivers that either maintain or perturb these associations in the space environment can be identified <ref type="bibr" target="#b7">8</ref> . One challenge, however, is to ascertain how these changes to plant-microbe associations occur across different temporal and spatial scales. Nanopore sequencing has emerged as a viable platform to address these challenges and its applications to monitor changes in microbial communities aboard the ISS using metagenomics are now emerging <ref type="bibr" target="#b33">34</ref> . However, its applications to examine metatranscriptome changes within a community is relatively new.</p><p>One aspect of using nanopore sequencing for metatranscriptome analysis that had to be optimized was the low signal of the native surface and endophytic microbial transcripts from plant-microbial total RNA <ref type="bibr" target="#b40">41</ref> . In this study, we developed an enrichment protocol for microbial RNAs through the depletion of plant mRNA and rRNA from the lettuce samples. As visualized in Fig. <ref type="figure" target="#fig_0">1</ref>, there was an enrichment of the microbial RNA as the depletion of the host RNA resulted in an average loss of ~93% of the total RNA. However, it was evident that there were still residual plant RNA molecules in our library construction (Table <ref type="table" target="#tab_0">1</ref>). The remaining plant RNA was likely attributed to the use of a commercial plant RiboMinus kit that has not been thoroughly optimized for the lettuce species. For instance, although the lettuce 18S ribosomal sequence aligned well with the 18S probe, the incomplete lettuce 28S sequence on the National Center for Biotechnology Information (NCBI) database made it difficult to assess how well the kit would work on lettuce samples.</p><p>In addition, the results also demonstrated that for long-term monitoring of specific food crops, species-specific ribosomal probes will need to be designed for host organisms to improve the removal of host RNAs and facilitate the microbial RNA enrichment process. Even though an average of 73.69% of the UniProt-annotated mRNA reads were mostly plant-derived, a substantial number of those reads were associated with cellular components associated with the chloroplast. Due to the similarities between chloroplast RNA and cyanobacteria <ref type="bibr" target="#b41">42</ref> , these results suggest that removal of plant host organelle sequences through synthetic oligomers <ref type="bibr" target="#b42">43</ref> prior to sequencing will be required for optimum enrichment of microbial RNA.</p><p>Although this protocol has the potential to be completely conducted in space by the crew, a substantial amount of refinement of our protocols coupled with technology on board the ISS will be needed to make it more practical for being performed in microgravity on a regular basis. These improvements include the automation of molecular protocols, such as sample purification and library preparation with microfluidics. The National Aeronautics and Space Administration, USA, is currently developing tools, such as µTitan <ref type="bibr" target="#b43">44</ref> , to facilitate autonomous nucleic acid extraction and is also working with companies such Oxford Nanopore Technologies to facilitate autonomous library preparations and magnetic purification with the VolTRAX-v2 hardware in microgravity <ref type="bibr" target="#b44">45</ref> . Thus, this is the first step of many towards being able to investigate plant-microbial interactions on board the ISS and other low Earth orbit spacecraft. Such capabilities will ultimately advance our understanding of the plant-microbial interactions holistically in the spaceflight environment, which will allow for innovative preventative and proactive care of the crops so as to improve our ability to establish a safe and sustainable space agriculture.</p><p>Currently, the sample preparation from plant tissue to library prep for MinION sequencing takes ~8 h and sequencing on the flowcell can run up to 48 h for deeper coverage. The data generated will then be put through the bioinformatics pipeline and followed by data analysis. Hence, depending on the level of detail required, monitoring the functional activity of the plant microbiome with this protocol, from harvesting samples to analyzing the generated sequences, may take ~2-5 days. Future development to optimize and automate this protocol for flight application could shorten the time requirements, which is a stark contrast to current capabilities, as it took ~12 months to determine the primary causal agent of the F. oxysporum infection on Zinnia plants on board the ISS <ref type="bibr" target="#b26">27</ref> .</p><p>In addition, this initial study provides important insight into the diversity and transcriptional activity of the L. sativa cv "Outredgeous" lettuce leaf microbiome grown under ISS-like conditions. Normalized 16S and 18S rRNA reads from each sample were categorized into 43 different phyla (Supplementary Dataset 1) and were consistent across the three biological replicates, which were each run on separate MinION flowcells. Within the top 5 phyla, 39 genera with more than 500 reads in all 3 replicates were highlighted in Fig. <ref type="figure">3b</ref> and the most transcriptionally active bacterial taxa were Peptoniphilus spp. and Clostridium spp.</p><p>Peptoniphilus are Gram-positive anaerobic cocci that uses peptone as a major energy source and produces butyrate as a major metabolic end product <ref type="bibr" target="#b45">46</ref> . Butanoate metabolism was represented as part of the carbohydrate metabolism in the full bacterial heatmap (Supplementary Fig. <ref type="figure" target="#fig_1">2</ref>). Peptoniphilus were also found to be one of the most abundant phyllosphere taxa found on tomato leaf samples <ref type="bibr" target="#b46">47</ref> and are, therefore, common taxa in plant-microbe interactions.</p><p>Clostridium, the other highly transcriptionally active taxa, is an extremely heterogeneous genus of bacteria that is ubiquitous in a wide range of environments, such as soil, sewage, and the intestines of humans and animals <ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b48">49</ref> . Some Clostridium species, such as Clostridium botulinum, are known pathogens that can form vegetative cells under certain conditions, which produce a fatal toxin to humans <ref type="bibr" target="#b49">50,</ref><ref type="bibr" target="#b50">51</ref> . However, Clostridium species are commonly found on lettuce leaves and can be efficiently removed through proper washing of the leaves before consumption <ref type="bibr" target="#b50">51</ref> . Therefore, these results again reinforce the importance of regular monitoring of the transcriptional and metabolic activity of taxa within plant growth habitats during spaceflight.</p><p>The taxonomic results derived from this developed method differed from previous metagenomic analyses on the lettuce leaf microbiome and reinforce the importance of conducting on-site analyses of the plant microbiome <ref type="bibr" target="#b16">17</ref> . For example, neither genera Peptoniphilus or Clostridium were observed in the previous metagenomic analysis <ref type="bibr" target="#b16">17</ref> . In that study, the top five recovered taxa were Bacillus, Burkholderia, Macrococcus, Methylobacterium, and Staphylococcus, which were observed in our metatranscriptome data (Fig. <ref type="figure" target="#fig_1">2b</ref>), but at lower relative abundances. Interestingly, Thermogemmatispora, which was their most abundant genera in almost all their samples, and Pelomonas were not detected in our dataset. These differences in the taxonomy diversity results between the metatranscriptomic and metagenomic approaches are not unexpected. Metagenomic analysis are based on DNA molecules, which could come from non-viable microorganisms <ref type="bibr" target="#b51">52</ref> , whereas the metatranscriptomic approach based on the RNA molecules provides insight into the functionally active microbial community. Despite the differences in the two approaches, there were still substantial overlaps in the taxonomic composition of the lettuce microbiome, especially for the bacterial community, suggesting the nanopore sequencing of the metatranscriptome was highly complementary to the previous metagenomic studies on lettuce microbiome <ref type="bibr" target="#b16">17</ref> .</p><p>Within the observed fungal community, the most transcriptionally active taxa were Fusarium spp. and Colletotrichum spp. (Fig. <ref type="figure" target="#fig_1">2b</ref>). Both these genera are known to have species with strains that are plant pathogens. These cosmopolitan fungi have a broad range of hosts and can cause wilt diseases and anthracnose attacks in many major agricultural crops <ref type="bibr" target="#b52">[53]</ref><ref type="bibr" target="#b53">[54]</ref><ref type="bibr" target="#b54">[55]</ref> . However, as there are many species and strains within each of these genera of fungi that are not pathogenic, the specific ecological role of the recovered taxa could not be fully assessed. The use of this nanopore metatranscriptomic sequencing approach could be used to prioritize samples and taxa for downstream in-depth sequencing, to ascertain the pathogenic potential, if any, of recovered fungal taxa.</p><p>The metatranscriptomic analyses of the transcribed functional genes of the bacterial and fungal community were largely consistent with the core functional microbiome in other phyllosphere microbial systems reported in the literature <ref type="bibr" target="#b55">56,</ref><ref type="bibr" target="#b56">57</ref> . In our study, within the top 15 most actively transcribed bacterial pathways (Fig. <ref type="figure">3a</ref>), "Glyoxylate and dicarboxylate metabolism" had 47.64% of the total reads and "Oxidative phosphorylation" had 40.33% of the total reads. This result was not unexpected, because glyoxylate metabolism is known to be involved in the metabolism of short carbon compounds (one or two carbons), which are an important energy source for leaf-associated bacteria <ref type="bibr" target="#b57">58</ref> . Oxidative phosphorylation is a vital part of metabolism, as the end product is adenosine triphosphate and is required for a myriad of cellular processes.</p><p>Most of the top bacterial pathways listed in our study (Fig. <ref type="figure">3</ref>) are typically involved in essential housekeeping activities and are necessary for bacterial survival. However, signal transduction and environmental adaptation pathways could provide some indication as to how the plants are responding to their environment. For example, the high number of reads that mapped to the twocomponent system pathway might suggest the need to sense and quickly respond to environmental factors by phosphorylating and dephosphorylating proteins, whereas the plant-pathogen interaction pathway could indicate a biotic stress response <ref type="bibr" target="#b58">59</ref> .</p><p>In the fungal metatranscriptome, "Oxidative phosphorylation" and "Thermogenesis" were the most actively transcribed pathways. In addition to oxidative phosphorylation, the mitochondria also engage in thermogenesis, which uncouples the oxidative phosphorylation for heat production in organisms <ref type="bibr" target="#b59">60</ref> . However, intriguingly, about a quarter of all the KEGG level 3 pathways listed (Supplementary Fig. <ref type="figure">3</ref>) were associated with the signal transduction pathway. Many of these were also seen in the top 15 most actively transcribed fungal pathways (Fig. <ref type="figure">3b</ref>). The most actively transcribed signal transduction pathway in the fungal metatranscriptome was the MAPK signaling pathway (Fig. <ref type="figure">3b</ref>). The MAPK pathway plays important roles in fungal physiology and development, as it governs diverse growth processes such as mating, cell cycle control, morphogenesis (e.g., filamentation), response to different stresses, cell wall assembly and integrity, pathogenicity, cell to cell signaling, fungal-plant interactions, and response to damage-associated molecular patterns <ref type="bibr" target="#b60">[61]</ref><ref type="bibr" target="#b61">[62]</ref><ref type="bibr" target="#b62">[63]</ref> .</p><p>From our metatranscriptomic dataset, we can map genes expressed to specific processes within the MAPK signaling pathway in yeast (Supplementary Fig. <ref type="figure" target="#fig_2">4</ref>). This result suggests that the fungi within the lettuce microbiome may be actively engaged in cell wall remodeling and proliferation. Moreover, the gene network mapping of the signal transduction transcripts showed high levels for connectivity of genes (i.e., SST2, STE7, GDP1, SHO1, and CLA4) within the MAPK pathways, which indicates that these are tightly connected processes in the fungal community (Fig. <ref type="figure" target="#fig_2">4</ref>). Interestingly, many of these genes also overlap with fungal pathogenesis <ref type="bibr" target="#b60">61,</ref><ref type="bibr" target="#b63">64</ref> and, although this does not necessarily indicate active pathogenicity, it would be beneficial for the crew to monitor these genes over time in their food crops.</p><p>Currently, many of the commercially available portable rapid plant disease diagnostic tools are based on immunodetection methods (enzyme-linked immunosorbent assays), PCR-based assays, and spectrometry-based protocols, which require some prior prediction of the microbial organisms that are being tested, to design antibodies or PCR primers for the analyses <ref type="bibr" target="#b64">65,</ref><ref type="bibr" target="#b65">66</ref> . The MinION platform has great advantages when dealing with diagnosing plant pathogens and plant-microbial analysis, as it uses shotgun sequencing technology that requires no prior knowledge or prediction about the possible causative agent. The detection of any microbial organisms, even at low levels, is limited to the microbial sequences available in the NCBI database.</p><p>Although this study described the analysis of the lettuce microbiome at a single time point, the methodology developed in this study has the potential to enable the comparative analyses of the lettuce microbiome across spatial and temporal scales to identify potential drivers of change during plant growth and development. The complementary use of rapid nanopore-sequencing approaches with additional more indepth metagenomic sequencing of viable microorganisms will enable baselines of health to be regularly monitored in plant growth habitats aboard spacecraft. These comparisons will also enable more refined approaches to understand how the microbiome changes under environmental perturbations and contributes to healthy plant growth and development during a long-duration spaceflight.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample collection and RNA extraction</head><p>Seeds of red romaine lettuce, L. sativa cv "Outredgeous" were surfacesanitized with a bleach-hydrochloric acid solution (30 ml 6% Pure Bright Germicidal Ultra Bleach and 500 μl 37% hydrochloric acid) for 1 h and allowed to off-gas for 24 h prior to planting. Sanitization was verified by placing seeds on trypticase soy agar and inhibitory mold agar plates, and incubating for 48-72 h at 30 °C18 . A standard validation protocol was used to conform the effectiveness of the sanitization protocol <ref type="bibr" target="#b25">26</ref> . No bacterial or fungal growth was observed on the plates during the screening process. Three surface-sanitized seeds were individually placed in 4 inch pots containing greens-grade arcillite, a calcined clay and time-release fertilizer typically used in spaceflight hardware <ref type="bibr" target="#b25">26</ref> , and were grown in environmentally controlled growth chambers at the KSC that mimicked conditions of the ISS. The growth chambers were cleaned to remove any potential human-associated microbes before use, but were not sterilized.</p><p>To simulate conditions aboard the ISS, the plants were maintained at 50% relative humidity, 3000 p.p.m. CO 2 , and 23 °C. The growth cycle was established on a 16 h (light)/8 h (dark) cycle under fluorescent cool white lights (200-300 μE m -2 s -1 ) and all were on daily automatic watering with deionized water. Pots were thinned to one plant each at day 7 and samples were harvested at day 28 for leafy greens. Lettuce leaf tissue from each of the three pots (denoted as L93, L96, and L101) was placed immediately into RNAlater (Sigma-Aldrich, St. Louis, MO) and stored at -80 °C until ready for RNA extraction.</p><p>Total RNA was extracted from each of the three lettuce leave replicates with the RNeasy Plant Mini Kit following the manufacturer's protocol (Qiagen, Valencia, CA). The recovered RNA was DNase-treated with the optional on-column digestion following the manufacturer's protocol (Qiagen, Valencia, CA) and quantified using Qubit 2.0 (Thermo Fisher Scientific, Waltham, MA). A sample of clean RNAlater was used as a negative control throughout the sample preparation process. No RNA was obtained or amplified from the negative control sample.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enrichment of microbial transcripts</head><p>An enrichment method was developed to enable the separation of plant and microbial RNAs for subsequent sequencing with the Oxford Nanopore-sequencing technology <ref type="bibr" target="#b40">41</ref> . Using the recovered host-microbial total RNA (7.33-23.56 µg), the Dynabeads poly(A) capture protocol (Thermo Fisher Scientific, Waltham, MA) was performed to remove poly (A)-containing RNAs (e.g., plant mRNAs). Of note, plants and fungi both have poly(A)-containing mRNA. It is therefore likely that some of the fungal RNA were also removed during the enrichment process. The remaining poly(A)-depleted material (microbial mRNA/rRNA and plant rRNA) was then purified with the Zymo RNA clean and concentration kit according to the manufacturer's protocol (Zymo Research, Irvine, CA). The remaining RNAs were processed using the RiboMinus Plant Kit for the removal of plant rRNA as per the manufacturer's protocol (Thermo Fisher Scientific, Waltham, MA). The host-depleted RNA (1-10 μg) from each sample was then A-tailed using Poly(A) polymerase (New England Biolabs, Ipswich, MA) for 25 min at 37 °C. The enriched microbial RNA (mRNA and rRNA) quantity was assessed with a Qubit 2.0 fluorometer (Thermo Fisher Scientific, Waltham, MA) and quality was assessed using a 2100 Bioanalyzer (Agilent Technologies, Inc., Santa Clara, CA). To assess the purity of RNA, A260/280 readings were also taken with the UV-1800 Shimadzu spectrophotometer (Shimadzu, Kyoto, Japan). The samples were stored at -80 °C until library preparation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nanopore cDNA-PCR library preparation</head><p>Library preparation for cDNA-PCR sequencing was performed using the SQK-PCS109 sequencing kit, following the manufacturer's instructions (Oxford Nanopore Technologies, Oxford, UK). Briefly, 50 ng of enriched microbial RNA samples from L93, L96, and L101 were reverse transcribed using Maxima H Minus Reverse Transcriptase (Thermo Fisher Scientific, Waltham, MA) and incubated in a thermal cycler at 42 °C for 90 min and then 85 °C for 5 min. To amplify the products without introducing biases, full-length transcripts were selected using the Nanopore rapid attachment primers (SQK-PCS109) using LongAmp Taq 2× Master Mix (New England Biolabs, Ipswich, MA, USA) with the following cycling conditions, an initial denaturing step at 95 °C for 5 min, followed by 14 cycles of 15 s at 95 °C, 15 s at 62 °C, and 1 min at 65 °C, and a final extension step at 65 °C for 6 min and a hold at 4 °C. The products were then purified and separated using Agencourt AMPure XP beads (Beckman Coulter, Indianapolis, IN) with 1.8 (v/v) ratio of magnetic beads to the reaction mixture. The cDNA library using 100 fmol of amplified cDNA with adapters was loaded onto a FLO-MIN106D R9 flowcell and sequencing was performed with a MinION device for 48 h. cDNA derived from each replicate (L93, L96, L101) were sequenced on individual flowcells to provide information about the process reproducibility and variability.</p><p>Bioinformatics and data analysis. RNA-sequencing data were base-called in real-time using an integrated version of Guppy in the MinKNOW software v3.3.2 via the MinIT device v19.05.2. All FASTQ files were concatenated and used in the bioinformatics pipeline illustrated in Supplementary Fig. <ref type="figure" target="#fig_0">1</ref>. Briefly, MinION-sequencing statistics were analyzed using Nanoplot v1.0.0 67 and adapters were trimmed using Porechop v0.2.4 <ref type="bibr" target="#b67">68</ref> . Reads were filtered for a minimum read length of 100 bp and minimum Q-score of 5 using filtlong v0.2.0 was to ensure that &gt;80% of the reads in all three samples were as previously described <ref type="bibr" target="#b68">69</ref> . Large chimeric reads of &gt;30,000 bp were also filtered out using a Unix shell command. The N50 read length, which is defined as the read length such that reads of this length or greater composes at least 50% of the total bases, was 417, 616,</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Qubit and Bioanalyzer analysis for enriched microbial RNA from host-microbial total RNA. a Quality and quantity of total RNA extracted from leaves of three individual 28-day-old Outredgeous lettuce plants (L93, L96, and L101). The table shows the amount of starting material used in the RNA extraction and total host-microbial RNA extracted for each sample. Bioanalyzer results of all three samples are shown in the digital gel image and a representative electropherogram from sample L96 shows the plant rRNA peaks. b The quality and quantity of the plant-depleted RNA were assessed. Bioanalyzer results of microbial enriched RNA are shown in the digital gel image and a representative electropherogram from sample L96 shows the microbial rRNA peak.</figDesc><graphic coords="2,92.58,421.29,419.53,253.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 Taxonomy diversity of 16S and 18S rRNA reads in the leaf metatranscriptome samples analyzed by Kraken2. a Normalized percentage abundance of all bacterial and fungal phyla within each sample. Unclassified and Cyanobacteria were not included in the bubble plot. Bubble colors for each phylum that belong to bacteria and fungi are indicated by blue and red bubbles, respectively. The size of the bubble indicates the normalized percentage abundance of each phylum. b Bubble plots illustrating the normalized counts of genera from the top 5 phyla with ≥500 normalized read counts across all three samples. The size of the bubble indicates the normalized counts for each genus.</figDesc><graphic coords="4,68.37,59.30,468.00,345.49" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FungalFig. 4</head><label>4</label><figDesc>Fig. 4 Gene expression network of the fungal KEGG level 2 signal transduction pathway using Bray-Curtis dissimilarity. Each circle represents a KEGG Orthology (KO) gene and lines connect similar expression patterns across the three samples. Only KOs associated with signal transduction pathways within the fungal community are displayed.</figDesc><graphic coords="6,107.29,59.27,392.17,346.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Summary statistics for metatranscriptome nanopore sequencing, mapping, and annotation for each sample.</figDesc><table><row><cell>L93</cell><cell>L96</cell><cell>L101</cell></row></table><note><p>a Quality control (QC) threshold of Q-score &lt; 5 and read length of &lt;100 bp and &gt;30,000 bp were excluded in the downstream analysis. b Filtered out host reads-genomes used: GCF_002870075.1_Lsat_Salinas_v7_genomic.fna.gz (L. sativa (Lettuce)) and GCA_002127325.1_HanXRQr1.0_genomic.fna. gz (H. annuus (common sunflower)). c Only Uniprot reads with e-value ≤ 0.05 were used for the metatranscriptomic analyses.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>npj Microgravity (2021) 22 Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA 1234567890():,;</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA npj Microgravity (2021) 22</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>npj Microgravity (2021)<ref type="bibr" target="#b21">22</ref> Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>This work was supported in part by <rs type="funder">NASA</rs> through the <rs type="funder">University of Central Florida's NASA Florida Space Consortium and Space Florida</rs> (<rs type="grantNumber">NX15AI10H</rs>) awarded to J.S.F. N.J.H. was supported by a <rs type="funder">NASA</rs> <rs type="grantName">Space Biology Postdoctoral Fellowship</rs> (<rs type="grantNumber">80NSSC19K0520</rs>). Part of the research was performed at the <rs type="institution">Jet Propulsion Laboratory, California Institute of Technology</rs>, under a contract with <rs type="funder">NASA</rs>. This research was also in part funded by a <rs type="programName">2012 Space Biology</rs> <rs type="grantNumber">NNH12ZTT001N</rs> grant number <rs type="grantNumber">19-12829-26</rs> under Task Order <rs type="grantNumber">NNN13D111T</rs> award to K.V.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_YRAtvc6">
+					<idno type="grant-number">NX15AI10H</idno>
+				</org>
+				<org type="funding" xml:id="_26BgtrP">
+					<idno type="grant-number">80NSSC19K0520</idno>
+					<orgName type="grant-name">Space Biology Postdoctoral Fellowship</orgName>
+				</org>
+				<org type="funding" xml:id="_aKnUd2M">
+					<idno type="grant-number">NNH12ZTT001N</idno>
+					<orgName type="program" subtype="full">2012 Space Biology</orgName>
+				</org>
+				<org type="funding" xml:id="_M9KnYZN">
+					<idno type="grant-number">19-12829-26</idno>
+				</org>
+				<org type="funding" xml:id="_4QCb8uC">
+					<idno type="grant-number">NNN13D111T</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY</head><p>The raw and processed MinION Oxford Nanopore-sequencing data reported in this study have been deposited with NCBI at Gene Expression Omnibus (GEO) repository (GSE152914) and with NASA's GeneLab (GLDS-307).</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>and 512 bp for the L93, L96, and L101 samples, respectively, whereas the average read length across all samples was 443 bp (Table <ref type="table">1</ref>).</p><p>To remove any residual host plant transcripts and rRNA, reads were mapped to well-assembled genomes within the Asteraceae family (e.g., lettuce and sunflower) using Bowtie2 <ref type="bibr" target="#b69">70</ref> , then screened with SortMeRNA v2.1 <ref type="bibr" target="#b70">71</ref> and removed. Taxonomic classification of microbial 16S and 18S rRNA reads was performed with Kraken2 v2.0.8b 72 using the kraken2-microbial database (<ref type="url" target="https://lomanlab.github.io/mockcommunity/mc_databases.html">https://lomanlab.github.io/mockcommunity/mc_databases.html</ref>) derived from the NCBI Reference Sequence database (release 89) <ref type="bibr" target="#b72">73</ref> . Reads counts were normalized across all three samples and only operational taxonomic units with &gt;500 assigned reads were included and visualized with bubble plots created using the R package ggplot2 v3.3.0 <ref type="bibr" target="#b73">74</ref> .</p><p>The remaining metatranscriptome sequences were annotated with Trinotate v3.0 (<ref type="url" target="http://trinotate.github.io">http://trinotate.github.io</ref>) using BLAST + v2.9.0 75 against the Uniprot database 76 . No assembly was performed on the reads before the annotation, as only high-quality long reads were used in the downstream analyses; this approach has previously been used to annotate MinIONderived reads <ref type="bibr" target="#b76">77,</ref><ref type="bibr" target="#b77">78</ref> . Apart from fungi, coding sequences assigned to viruses and other eukaryotes were excluded in the downstream analysis so as to focus on the microbial activity found associated with the lettuce leaf. In addition, transcripts derived from taxa assigned to Cyanobacteria, which represented a substantial number of reads (Supplementary Dataset 1), as well as transcripts associated with photosynthesis genes (Supplementary Dataset 2), were excluded to prevent the inclusion of possible misassigned chloroplast transcripts. Abundance of transcripts that had KEGG annotations <ref type="bibr" target="#b78">79</ref> were normalized using gene-length corrected transcripts per million method followed by Trimmed Mean of M-values method as implemented in EdgeR <ref type="bibr" target="#b79">80</ref> . KEGG-annotated association with their respective pathways were performed using the R package KEGGREST <ref type="bibr" target="#b80">81</ref> . Heatmaps were generated using the Broad Institute's webtool Morpheus (<ref type="url" target="https://software.broadinstitute.org/morpheus">https://software.  broadinstitute.org/morpheus</ref>). The hierarchical clustering of the full heatmaps were done using the one minus Pearson's correlation metric in Morpheus. The gene networking analysis was completed using the R package Phyloseq v1.19.1 <ref type="bibr" target="#b79">80,</ref><ref type="bibr" target="#b81">82</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reporting summary</head><p>Further information on research design is available in the Nature Research Reporting Summary linked to this article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>N.J.H. conceived of the research, performed all the experimental work, analyses, and lead the manuscript development. G.D.M., C.L.M.K., and A.R.D. planned the plant growth tests. C.L.M.K. and A.R.D. performed all the growth and harvesting of the samples used in this manuscript. A.S.L. assisted with the bioinformatics analyses. K.V. and J.S.F. coordinated with N.J.H. in planning and shaping the project. All authors assisted in the writing and editing of the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>COMPETING INTERESTS</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ADDITIONAL INFORMATION Supplementary information</head><p>The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1038/s41526-021-00151-x">https://doi.org/10.1038/s41526-021-00151-x</ref>.</p><p>Correspondence and requests for materials should be addressed to J.S.F.</p><p>Reprints and permission information is available at <ref type="url" target="http://www.nature.com/reprints">http://www.nature.com/  reprints</ref> Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Sustained salad crop production requirements for lunar surface</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Stutte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SAE Int. J. Aerosp</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="172" to="178" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Hummerick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Garland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Wheeler</surname></persName>
+		</author>
+		<idno>AIAA-2011-5255</idno>
+		<title level="m">International Conference on Environmental Systems</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+		<respStmt>
+			<orgName>American Institute Aeronautics Astronautics</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The challenge of maintaining a healthy microbiome during long-duration space missions</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Voorhies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Lorenzi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Astron. Space Sci</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">23</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Gardening for therapeutic people-plant interactions during long-duration space missions</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Odeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Guy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Open Agric</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Pathogenesis, parasitism and mutualism in the trophic space of microbe-plant interactions</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Newton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Fitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Atkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Walters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Daniell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="365" to="373" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Potential of siderophoreproducing bacteria for improving heavy metal phytoextraction</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rajkumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Prasad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Freitas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="142" to="149" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The rhizosphere microbiome: significance of plant beneficial, plant pathogenic, and human pathogenic microorganisms</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mendes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Garbeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Raaijmakers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="634" to="663" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Ecology and genomic insights into plant-pathogenic and plantnonpathogenic endophytes</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Brader</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Phytopathol</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="61" to="83" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A review on the plant microbiome: Ecology, functions, and emerging trends in microbial application</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Compant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Samad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Faist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sessitsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Adv. Res</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="29" to="37" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Growth in microgravity increases susceptibility of soybean to a fungal pathogen</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ryba-White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell Phyiol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="657" to="664" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Plants, plant pathogens, and microgravity-a deadly trio</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Leach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Grav. Space Biol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="15" to="23" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Host-microbe interactions in microgravity: assessment and implications</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pamphile</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Life</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="250" to="266" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Change of growth promotion and disease resistant of wheat seedling by application of biocontrol bacterium Pseudochrobactrum kiredjinaniae A4 under simulated microgravity</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Astronaut</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="222" to="227" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Microgravity effect on endophytic bacteria communities of Triticum aestivum</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Astronaut</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="297" to="301" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The effects of clinorotation on the host plant, Medicago truncatula, and its microbial symbionts</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dauzart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Vanderbrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Kiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Astron. Space Sci</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">3</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Key gaps for enabling plant growth in future missions</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Anderson</surname></persName>
+		</author>
+		<idno type="DOI">10.2514/6.2017-5142</idno>
+		<ptr target="https://doi.org/10.2514/6.2017-5142" />
+	</analytic>
+	<monogr>
+		<title level="m">AAIA Space and Astronautics Forum and Exposition</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Microbiological and nutritional analysis of lettuce crops grown on the International Space Station</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L M</forename><surname>Khodadad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">199</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">VEG-01: Veggie hardware validation testing on the International Space Station</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Massa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Open Agric</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="33" to="41" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Draft genome sequences of two Fusarium oxysporum isolates cultured from infected Zinnia hybrida plants grown on the International Space Station</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urbaniak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Announc</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="326" to="344" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Prospects of molecular markers in Fusarium species diversity</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Chandra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="1625" to="1639" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The evolutionary biology of Fusarium oxysporum</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Martyn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Phytopathol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="111" to="128" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Cutaneous infection by Fusarium species in healthy and immunocompromised hosts: implications for diagnosis and management</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Anaissie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Infect. Dis</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="909" to="920" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Fusarium oxysporum as a multihost model for the genetic dissection of fungal virulence in plants and mammals</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ortoneda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Immun</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1760" to="1766" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Galleria mellonella as model host for the trans-kingdom pathogen Fusarium oxysporum</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Navarro-Velasco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Prados-Rosales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ortiz-Urquiza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Quesada-Moraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Di Pietro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fungal Genet. Biol</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1124" to="1129" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The host range of multi-host endophytic fungi</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Suryanarayanan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Sci</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="1963" to="1969" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Plant pillow preparation for the Veggie plant growth system on the International Space Station</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Massa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Newsham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Hummerick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Morrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Wheeler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Grav. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Fusarium oxysporum as an opportunistic pathogen on Zinnia elegans grown onboard the International Space Station</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schuerger</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/ast.2020.2399</idno>
+		<ptr target="https://doi.org/10.1089/ast.2020.2399" />
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Let the core microbiota be functional</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lemanceau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Blouin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Moenne-Loccoz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="583" to="595" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Novel mycoviruses discovered from metatranscriptomics survey of soybean phyllosphere phytobiomes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Marzano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Domier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virus Res</title>
+		<imprint>
+			<biblScope unit="volume">213</biblScope>
+			<biblScope unit="page" from="332" to="342" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Metatranscriptomics and amplicon sequencing reveal mutualisms in seagrass microbiomes</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Crump</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wojahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Mueller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">388</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Closed-reference metatranscriptomics enables in planta profiling of putative virulence activities in the grapevine trunk disease complex</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Morales-Cruz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Plant Pathol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="490" to="503" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Metatranscriptomics and nitrogen fixation from the rhizoplane of maize plantlets inoculated with a group of PGPRs</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Gomez-Godinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Fernandez-Valverde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Martinez Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Martinez-Romero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst. Appl. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="517" to="525" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Transcriptome profiling of mouse samples using nanopore sequencing of cDNA and RNA molecules</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sessegolo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">14908</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Nanopore DNA sequencing and genome assembly on the International Space Station</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Castro-Wallace</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">18022</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Application of metatranscriptomics to soil environments</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Carvalhais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Dennis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Tyson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Schenk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Microbiol. Methods</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="246" to="251" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Unbiased strain-typing of arbovirus directly from mosquitoes using nanopore sequencing: a field-forward biosurveillance protocol</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Russell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">5417</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Evaluating the potential of direct RNA nanopore sequencing: metatranscriptomics highlights possible seasonal differences in a marine pelagic crostation zooplankton community</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Semmouri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>De Schamphelaere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Janssen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Asselman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mar. Environ. Res</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page">104836</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Direct metatranscriptome RNA-seq and multiplex RT-PCR amplicon sequencing on nanopore MinION -promising strategies for multiplex identification of viable pathogens in food</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">514</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Culturing captures members of the soil rare biosphere</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shade</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="2247" to="2252" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Efficient subtraction of insect rRNA prior to transcriptome analysis of Wolbachia-Drosophila lateral gene transfer</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Res. Notes</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">230</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Efficient enrichment of bacterial mRNA from host-bacteria total RNA samples</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">34850</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Chloroplast ribosomes and protein synthesis</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Boynton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">W</forename><surname>Gillham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="700" to="754" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Practical innovations for high-throughput amplicon sequencing</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Lundberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yourstone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mieczkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Dangl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="999" to="1002" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Validating an automated nucleic acid extraction device for omics in space using whole cell microbial reference standards</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urbaniak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">1909</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Diagnostics in space: will zero gravity add weight to new advances?</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Rev. Mol. Diagn</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1" to="4" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Proposal of the genera Anaerococcus gen. nov., Peptoniphilus gen. nov. and Gallicola gen. nov. for members of the genus Peptostreptococcus</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ezaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Syst. Evol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1521" to="1528" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Using a control to better understand phyllosphere microbiota</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Ottesen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">163482</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Taxonomy of the Clostridia: ribosomal ribonucleic acid homologies among the species</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Francis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Gen. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="229" to="244" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Revisiting the evolution and taxonomy of Clostridia, a phylogenomic update</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cruz-Morales</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="2035" to="2044" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Analysis of the unexplored features of rrs (16S rDNA) of the genus Clostridium</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Kalia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">18</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The microbiological status of (ready to eat) lettuce before and after standard washing. Glas. Hemičara, Tehnol</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Topalic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">I Ekol. Repub. Srp</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">10</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Karouia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">204</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">The top 10 fungal pathogens in molecular plant pathology</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dean</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Plant Pathol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="414" to="430" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Bacillus species (BT42) isolated from Coffea arabica L. rhizosphere antagonizes Colletotrichum gloeosporioides and Fusarium oxysporum and also exhibits multiple plant growth promoting activity</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kejela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Thakkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thakor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">277</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Development of a new methodology for the detection of Colltotrichum truncatum and Fusarium sp. in bell pepper seed</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Villafana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Ramdass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Rampersad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phytoparasitica</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="543" to="555" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Abundance and diversity of the phyllosphere bacterial communities of Mediterranean perennial plants that differ in leaf chemistry</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K P</forename><surname>Yadav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Papatheodorou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Karamanoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">I A</forename><surname>Constantinidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vokou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemoecology</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="217" to="226" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">Drivers of phyllosphere microbial functional diversity in a neotropical forest</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lajoie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Maglione</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Kembel</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/851485</idno>
+		<ptr target="https://doi.org/10.1101/851485" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Preprint at bioRxiv</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Quantitative genetics of the maize leaf microbiome</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Kremling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Kovar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Buckler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phytobiomes J</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="208" to="224" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Genome-wide survey of two-component signal transduction systems in the plant growth-promoting bacterium Azospirillum</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Borland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Oudart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Prigent-Combaret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brochier-Armanet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wisniewski-Dye</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">833</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Alternative oxidase and uncoupling protein: thermogenesis versus cell energy balance</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jarmuszkiewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Sluse-Goffart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Vercesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Sluse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biosci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="213" to="222" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Map kinases in fungal pathogens</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fungal Genet. Biol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="137" to="152" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">A MAP kinase of the vascular wilt fungus Fusarium oxysporum is essential for root penetration and pathogenesis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Di Pietro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">I</forename><surname>Garcia-Maceira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Meglecz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Roncero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="1140" to="1152" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Functional analysis of the MAPK pathways in fungi</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Martínez-Soto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruiz-Herrera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Iberoam. Micol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="192" to="202" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Mitogen-activated protein kinase pathways and fungal pathogenesis</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mehrabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eukaryot. Cell</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1701" to="1714" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">CCLasso: correlation inference for compositional data through Lasso</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Deng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="3172" to="3180" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Advanced methods of plant disease detection: a review</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Martinelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Agron. Sustain. Dev</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1" to="25" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">NanoPack: visualizing and processing long-read sequencing data</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>De Coster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>D'hert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Schultz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cruts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Van Broeckhoven</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="2666" to="2669" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Completing bacterial genome assemblies with multiplex MinION sequencing</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Wick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Judd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Gorrie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Holt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microb. Genom</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">132</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wick</surname></persName>
+		</author>
+		<title level="m">Fitlong: Quality Filtering Tool for Long Reads</title>
+		<imprint>
+			<publisher>Github</publisher>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Fast gapped-read alignment with Bowtie 2</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Langmead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Salzberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="357" to="359" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">SortMeRNA: fast and accurate filtering of ribosomal RNAs in metatranscriptomic data</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kopylova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Noe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Touzet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="3211" to="3217" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Improved metagenomic analysis with Kraken 2</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Langmead</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">257</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">NCBI reference sequences (RefSeq): a curated non-redundant sequence database of genomes, transcripts and proteins</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Pruitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tatusova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Maglott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="61" to="D65" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wickham</surname></persName>
+		</author>
+		<title level="m">ggplot2: Elegant Graphics for Data Analysis</title>
+		<imprint>
+			<publisher>Springer Science &amp; Business Media</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">BLAST+: architecture and applications</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Camacho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">421</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">UniProt: the universal protein knowledgebase</title>
+		<author>
+			<orgName type="collaboration">The UniProt Consortium</orgName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="506" to="D515" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Assessing the utility of the Oxford Nanopore MinION for snake venom gland cDNA sequencing</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Hargreaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Mulley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">1441</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Long-read sequencing of the coffee bean transcriptome reveals the diversity of full-length transcripts</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Furtado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Henry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">GigaScience</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">KEGG for integration and interpretation of large-scale molecular data sets</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Furumichi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tanabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="109" to="D114" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">A year in the life of a thrombolite: comparative metatranscriptomics reveals dynamic metabolic changes over diel and seasonal cycles</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Louyakis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="842" to="861" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<monogr>
+		<title level="m" type="main">KEGGREST: Client-side REST access to the Kyoto Encyclopedia of Genes and Genomes (KEGG). R package version 1</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tenenbaum</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">30</biblScope>
+		</imprint>
+	</monogr>
+	<note>Bioconductor Package Maintainer</note>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">phyloseq: an R package for reproducible interactive analysis and graphics of microbiome census data</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Mcmurdie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Holmes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">61217</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

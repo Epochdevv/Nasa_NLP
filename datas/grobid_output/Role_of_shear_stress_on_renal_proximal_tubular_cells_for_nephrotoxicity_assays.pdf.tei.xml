@@ -1,0 +1,1588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Three-Dimensional Kidney-on-a-Chip Assessment of Contrast-Induced Kidney Injury: Osmolality and Viscosity</title>
+				<funder ref="#_HpSyyGv">
+					<orgName type="full">Korean Society of Nephrology (Chong Kun Dang 2018</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Ministry of Trade, Industry and Energy (MOTIE, Korea)</orgName>
+				</funder>
+				<funder ref="#_svcC8Fn">
+					<orgName type="full">SNUBH Research Fund</orgName>
+				</funder>
+				<funder ref="#_47rvqA3">
+					<orgName type="full">National Research Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>MDPI AG</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-04-28">28 April 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Kipyo</forename><surname>Kim</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Nephrology and Hypertension</orgName>
+								<orgName type="department" key="dep2">Department of Internal Medicine</orgName>
+								<orgName type="institution">Inha University College of Medicine</orgName>
+								<address>
+									<postCode>22332</postCode>
+									<settlement>Incheon</settlement>
+									<country>Korea;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Beomgyun</forename><surname>Jeong</surname></persName>
+							<email>bjeong@kbsi.re.kr</email>
+							<affiliation key="aff1">
+								<orgName type="department">Research Center for Materials Analysis</orgName>
+								<orgName type="institution">Korea Basic Science Institute</orgName>
+								<address>
+									<postCode>34133</postCode>
+									<settlement>Daejeon</settlement>
+									<country>Korea;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yun-Mi</forename><surname>Lee</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Internal Medicine</orgName>
+								<orgName type="institution">Seoul National University Bundang Hospital</orgName>
+								<address>
+									<postCode>13620</postCode>
+									<settlement>Seongnam</settlement>
+									<country>Korea;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hyung-Eun</forename><surname>Son</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ji-Young</forename><surname>Ryu</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Internal Medicine</orgName>
+								<orgName type="institution">Seoul National University Bundang Hospital</orgName>
+								<address>
+									<postCode>13620</postCode>
+									<settlement>Seongnam</settlement>
+									<country>Korea;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Seokwoo</forename><surname>Park</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Internal Medicine</orgName>
+								<orgName type="institution">Seoul National University Bundang Hospital</orgName>
+								<address>
+									<postCode>13620</postCode>
+									<settlement>Seongnam</settlement>
+									<country>Korea;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Biomedical Sciences</orgName>
+								<orgName type="institution">Seoul National University College of Medicine</orgName>
+								<address>
+									<postCode>03080</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jong</forename><forename type="middle">Cheol</forename><surname>Jeong</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Internal Medicine</orgName>
+								<orgName type="institution">Seoul National University Bundang Hospital</orgName>
+								<address>
+									<postCode>13620</postCode>
+									<settlement>Seongnam</settlement>
+									<country>Korea;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ho</forename><forename type="middle">Jun</forename><surname>Chin</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Internal Medicine</orgName>
+								<orgName type="institution">Seoul National University Bundang Hospital</orgName>
+								<address>
+									<postCode>13620</postCode>
+									<settlement>Seongnam</settlement>
+									<country>Korea;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Internal Medicine</orgName>
+								<orgName type="institution">Seoul National University College of Medicine</orgName>
+								<address>
+									<postCode>03080</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sejoong</forename><surname>Kim</surname></persName>
+							<email>sejoong@snubh.org</email>
+							<idno type="ORCID">0000-0002-7238-9962</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Internal Medicine</orgName>
+								<orgName type="institution">Seoul National University Bundang Hospital</orgName>
+								<address>
+									<postCode>13620</postCode>
+									<settlement>Seongnam</settlement>
+									<country>Korea;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Internal Medicine</orgName>
+								<orgName type="institution">Seoul National University College of Medicine</orgName>
+								<address>
+									<postCode>03080</postCode>
+									<settlement>Seoul</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Three-Dimensional Kidney-on-a-Chip Assessment of Contrast-Induced Kidney Injury: Osmolality and Viscosity</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Micromachines</title>
+						<title level="j" type="abbrev">Micromachines</title>
+						<idno type="eISSN">2072-666X</idno>
+						<imprint>
+							<publisher>MDPI AG</publisher>
+							<biblScope unit="volume">13</biblScope>
+							<biblScope unit="issue">5</biblScope>
+							<biblScope unit="page">688</biblScope>
+							<date type="published" when="2022-04-28">28 April 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DCA1DF2DB640CC3D23E7707BD8595A87</idno>
+					<idno type="DOI">10.3390/mi13050688</idno>
+					<note type="submission">Received: 24 March 2022 Accepted: 27 April 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:49+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>contrast-induced nephropathy</term>
+					<term>kidney-on-a-chip</term>
+					<term>acute kidney injury</term>
+					<term>contrast media</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Increased viscosity of concentrated contrast media (CM) in the renal tubules can perturb renal hemodynamics and have a detrimental effect on tubular epithelial cells. However, the effects of viscosity on contrast-induced nephropathy (CIN) remain poorly understood. Conventional in vitro culture studies do not reflect the rheological properties of CM. Therefore, we investigated the effects of CM viscosity on renal tubules using a kidney-on-a-chip and two different types of CM. Renal proximal tubule epithelial cells (RPTEC) were cultured in a three-dimensional microfluidic culture platform under bidirectional fluid shear stress. We treated the RPTEC with two types of CM: low-(LOCM, iopromide) and iso-osmolar contrast media (IOCM, iodixanol). Renal tubular cell injury induced by LOCM and IOCM was examined under different iodine concentrations (50-250 mgI/mL) and shear-stress conditions. LOCM showed a significant dose-dependent cytotoxic effect, which was significantly higher than that of IOCM under static and low-to-moderate shear stress conditions. However, high shear-stress resulted in reduced cell viability in IOCM; no difference between IOCM and LOCM was found under high shear-stress conditions. The cytotoxic effects were pronounced at a mean shear stress of 1 dyn/cm 2 or higher. The high viscosity of IOCM slowed the fluid flow rate and augmented fluid shear-stress. We suggest an alternative in vitro model of CIN using the threedimensional kidney-on-a-chip. Our results indicate a vital role of viscosity-induced nephrotoxicity under high shear-stress conditions, contrary to the findings of conventional in vitro studies.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Contrast-induced nephropathy (CIN) is a major health problem that manifests as an abrupt decline in renal function after iodine contrast exposure. CIN is known as the third most common cause of hospital-acquired acute kidney injury <ref type="bibr" target="#b0">[1]</ref>. CIN contributes to chronic kidney disease (CKD) progression and prolonged length of hospital stay. Moreover, the rapidly increasing use of computed tomography scans or interventions using contrast agents, such as angiography, is raising concerns regarding CIN. In addition, there are limited options for the prevention and treatment of CIN, including fluid therapy and avoidance of additional nephrotoxins. Potential pathogenic mechanisms of CIN include vasoconstriction, medullary hypoxia, direct cytotoxicity, oxidative stress, and increased tubular fluid viscosity <ref type="bibr" target="#b1">[2]</ref>. Previous experimental studies have mainly focused on direct tubular toxicity, vasoconstriction, and oxidative stress following contrast exposure <ref type="bibr" target="#b2">[3]</ref>.</p><p>Many researchers have linked the physicochemical properties of iodinated contrast materials to CIN. The administered volume, osmolality, and viscosity of contrast media (CM) may be related to nephrotoxicity <ref type="bibr" target="#b3">[4]</ref>. Indeed, high-osmolar ionic CM is no longer used because of the high risk of adverse drug reactions and renal toxicity <ref type="bibr" target="#b4">[5]</ref>. Currently, two types of contrast agents are widely used in clinical practice: high-viscosity iso-osmolar contrast media (IOCM) and low-viscosity low-osmolar contrast media (LOCM). IOCM has an osmolality similar to that of blood (290 mOsm/kg), while LOCM has a higher osmolality (600-900 mOsm/kg) than IOCM. Some studies have suggested the superiority of IOCM over LOCM in the prevention of CIN <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b6">7]</ref>. However, there was no difference in the overall risk of CIN according to the type of CM in meta-analyses <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref>. It still remains unclear which of these two types of CM is better for renal safety.</p><p>To date, the effect of CM viscosity on renal function has not been fully investigated due to the difficulty in experimental methodology. Accurately controlling and measuring fluid viscosity and shear stress is challenging in conventional experimental designs. Under in vivo conditions, the high viscosity of IOCM can be harmful to renal function. IOCM is further concentrated in the renal medulla with increasing viscosity, particularly in dehydrated individuals, which increases intraluminal pressure and decreases the glomerular filtration rate (GFR) <ref type="bibr" target="#b9">[10]</ref>. Nevertheless, previous in vitro studies in static conditions showed that LOCM has more cytotoxic effects than IOCM <ref type="bibr" target="#b10">[11]</ref>. However, this static condition does not reflect the rheological effects of CM. Given that animal models for CIN are not well established and clinical trials are much harder to implement due to high cost and ethical issues <ref type="bibr" target="#b11">[12]</ref>, alternative experimental approaches are warranted. In the field of nephrology, organ-on-a-chip technology is gradually being utilized for physiological in vitro disease models <ref type="bibr" target="#b12">[13]</ref>. One of the key features of the organ-on-a-chip is the exposure of cells to easily controlled microfluidic conditions, which could enable rheological studies. Therefore, organ-on-a-chip experiments could be an alternative approach to bridge the gap between the in vitro and in vivo findings in CIN. In the present study, we aimed to evaluate the nephrotoxic effects of the rheological factors of LOCM and IOCM using a kidney-on-a-chip platform.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Cell Culture and Microfluid Device</head><p>Human renal proximal tubule epithelial cells (RPTEC; CC-2553, Lonza, Basel, Switzerland) were purchased and used to evaluate the nephrotoxicity of iodinated CM. RPTEC were cultured in renal epithelial growth medium (REGM CC-3191, Lonza) supplemented with 0.5% FBS (CC-4127, Lonza) and GA-1000 (30 mg/mL gentamicin and 15 µg/mL amphotericin). We used a three-lane OrganoPlate (Mimetas BV, 4003 400B) with a channel width of 400 µm and height of 220 µm to construct three-dimensional tubular structures (Figure <ref type="figure" target="#fig_1">1A</ref>). Before cell seeding, 1.6 µL of collagen 1 (AMSbio cultrex, 3447-020-01, 4 mg/mL) was injected into the middle inlet of the chip with 100 mM HEPES (15630, Life Technologies, CA, USA) and 3.7 mg/dL NaHCO 3 (S5761, Sigma, St. Louis, MO, USA), and the chip was subsequently incubated at 37 • C overnight. RPTEC were seeded at 2 × 10 7 /mL into each upper inlet of the plate. To facilitate cell attachment to the extracellular matrix, we maintained the inclination of the chip at 70 • for 4 h before placement on an interval rocker. RPTEC were perfused at an angle of 7 • and at intervals of 8 min using a rocker at 37 • C in a humidified 5% CO 2 atmosphere. Under our experimental conditions, the cells reached confluence 10 days after rocking perfusion. Before administration of the test solutions, we examined whether the three-dimensional tubular structure was well formed within the chips. Three-dimensional reconstructed fluorescent images revealed a well-demarcated tubular lumen with a confluent epithelial monolayer (Figure <ref type="figure" target="#fig_1">1B</ref>). For comparison with static culture conditions, RPTEC was also cultured in 96-well plates without fluid shear stress in a 37</p><p>• C incubator with 5% CO 2 .</p><p>marcated tubular lumen with a confluent epithelial monolayer (Figure <ref type="figure" target="#fig_1">1B</ref>). For comparison with static culture conditions, RPTEC was also cultured in 96-well plates without fluid shear stress in a 37 °C incubator with 5% CO2. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Chemicals and Reagents</head><p>The test solutions were IOCM iodixanol (Visipaque 320 mgI/mL, GE Healthcare, Chicago, IL, USA), LOCM iopromide (Ultravist 300 mgI/mL, Bayer Healthcare, Berlin, Germany), 6% hydroxyethyl starch 130/0.4 (viscosity control; Volulyte, Fresenius Kabi, Bad Homburg, Germany), and 15% mannitol (osmolality control; JW Pharmaceutical, Seoul, Korea). The characteristic parameters of the test solutions are listed in Table <ref type="table" target="#tab_1">1</ref>. To simulate the urine concentration process, we tested different CM concentrations. The dynamic viscosity of CM specimens according to the preselected iodine concentrations was measured with an SV-10 viscometer (A&amp;D, Japan) at a temperature of 37 °C with three replicates per group. As shown in Figure <ref type="figure" target="#fig_3">2</ref>, the viscosity of each contrast agent increased exponentially with iodine concentration. The viscosities of LOCM and IOCM differed substantially at high iodine concentrations. Cell viability was determined using the CCK-8 assay (Dojindo Laboratories, Kumamoto, Japan) performed according to a standard protocol, and the absorbance of the samples was measured at 450 nm using a fluorescence microplate reader (Gemini EM, Molecular Devices, San Jose, CA, USA). Cells were detached from the Or-ganoPlate using Accutase (A6964, Sigma) and lysed in ice-cold cell lysis buffer (9803, Cell Signaling, Danvers, MA, USA). Protein lysates were centrifuged at 14,000× g, 4 °C for 10 min, and the supernatant was collected. Protein extracts were quantified using a Pierce BCA Protein Assay kit (23227, Thermo Fisher Scientific, Rockford, IL, USA) and separated with 10% polyacrylamide gel electrophoresis (PAGE) followed by transfer to polyvinylidene fluoride membranes (1704156, Bio-Rad, Hercules, CA, USA). The membrane was incubated with primary antibodies against GAPDH (Santa Cruz, 47724), Akt (Cell Signaling, 9272), phospho-Akt (p-Akt; Ser473; 9271, Cell Signaling), extracellular signal-regulated kinase1/2 (Erk1/2; 9102, Cell Signaling), and phospho-Erk1/2 (p-Erk1/2; Thr202/Tyr204; 9101, Cell Signaling), followed by the corresponding secondary antibodies (7074 and 7076, Cell Signaling). Each protein band was developed using SuperSignal West Pico PLUS </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Chemicals and Reagents</head><p>The test solutions were IOCM iodixanol (Visipaque 320 mgI/mL, GE Healthcare, Chicago, IL, USA), LOCM iopromide (Ultravist 300 mgI/mL, Bayer Healthcare, Berlin, Germany), 6% hydroxyethyl starch 130/0.4 (viscosity control; Volulyte, Fresenius Kabi, Bad Homburg, Germany), and 15% mannitol (osmolality control; JW Pharmaceutical, Seoul, Korea). The characteristic parameters of the test solutions are listed in Table <ref type="table" target="#tab_1">1</ref>. To simulate the urine concentration process, we tested different CM concentrations. The dynamic viscosity of CM specimens according to the preselected iodine concentrations was measured with an SV-10 viscometer (A&amp;D, Japan) at a temperature of 37 • C with three replicates per group. As shown in Figure <ref type="figure" target="#fig_3">2</ref>, the viscosity of each contrast agent increased exponentially with iodine concentration. The viscosities of LOCM and IOCM differed substantially at high iodine concentrations. Cell viability was determined using the CCK-8 assay (Dojindo Laboratories, Kumamoto, Japan) performed according to a standard protocol, and the absorbance of the samples was measured at 450 nm using a fluorescence microplate reader (Gemini EM, Molecular Devices, San Jose, CA, USA). Cells were detached from the OrganoPlate using Accutase (A6964, Sigma) and lysed in ice-cold cell lysis buffer (9803, Cell Signaling, Danvers, MA, USA). Protein lysates were centrifuged at 14,000× g, 4 • C for 10 min, and the supernatant was collected. Protein extracts were quantified using a Pierce BCA Protein Assay kit (23227, Thermo Fisher Scientific, Rockford, IL, USA) and separated with 10% polyacrylamide gel electrophoresis (PAGE) followed by transfer to polyvinylidene fluoride membranes (1704156, Bio-Rad, Hercules, CA, USA). The membrane was incubated with primary antibodies against GAPDH (Santa Cruz, 47724), Akt (Cell Signaling, 9272), phospho-Akt (p-Akt; Ser473; 9271, Cell Signaling), extracellular signal-regulated kinase1/2 (Erk1/2; 9102, Cell Signaling), and phospho-Erk1/2 (p-Erk1/2; Thr202/Tyr204; 9101, Cell Signaling), followed by the corresponding secondary antibodies (7074 and 7076, Cell Signaling). Each protein band was developed using SuperSignal West Pico PLUS Chemiluminescent Substrate (34577, Thermo Fisher Scientific) and detected using the ChemiDoc Touch Imaging System (Bio-Rad).</p><p>Table 1. Characteristics of test solutions. Iopromide (Ultravist™) 6%HES (VOLULYTE ® ) 15% Mannitol Negative Control (Culture Media) Iodine concentration (mgI/dL) 320 290 ---Osmolality (mOsm/kg) 290 607 283 823 288 Viscosity (cP, at 37 • C) 11.8 4.9 2 1 0.8 Values other than those of the control were based on the data provided by the manufacturers. HEShydroxyethyl starch.</p><p>Chemiluminescent Substrate (34577, Thermo Fisher Scientific) and detected using the ChemiDoc Touch Imaging System (Bio-Rad).   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Experimental Model</head><p>In the present study, we investigated CM-induced nephrotoxicity under shear-stress conditions using kidney-on-a-chip models compared to that under static conditions. RPTEC was treated with varying iodine concentrations of IOCM and LOCM, which reflect renal concentrating process. Because IOCM and LOCM have different osmolalities and viscosities, we compared the nephrotoxic effects of each contrast agent in terms of physicochemical stress and performed mathematical simulations. IOCM and LOCM were used to evaluate the effects of high viscosity and osmolality on renal tubular cells, respectively. We tested each experimental group under different shear-stress conditions. Fluid shearstress in vivo in human proximal tubules is estimated to be 0.1-1 dyn/cm 2 [14-16]; however, it was applied differently depending on the experimental conditions <ref type="bibr" target="#b16">[17]</ref>. In a rectangular pipe-shaped channel of the OrganoPlate, the fluid shear-stress (τ) can be calculated as τ</p><p>, where b and h represent the width and height of the channel, respectively, Q represents the flow rate, and μ denotes the fluid viscosity. The fluid shear-stress is approximately 0.13 dyn/cm 2 when the rocker is set at an inclination of ±7° and an interval of 8 min <ref type="bibr" target="#b17">[18]</ref>. Given that a single nephron glomerular filtrate directly reaches the initial part of the proximal tubule, a single nephron glomerular filtration rate (SNGFR) can be used for the calculation of shear stress. The SNGFR of healthy adults has been reported to be 80 ± 40 nL/min <ref type="bibr" target="#b18">[19]</ref>, and the diameter of the proximal tubule has been reported to be ~60 μm <ref type="bibr" target="#b19">[20,</ref><ref type="bibr" target="#b20">21]</ref>. The fluid shear-stress at the proximal tubular wall can be calculated as τ under the assumption of a laminar, incompressible Newtonian flow of urine filtrate through a cylindrical tube, where R represents the radius of the proximal tubule. Since </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Experimental Model</head><p>In the present study, we investigated CM-induced nephrotoxicity under shear-stress conditions using kidney-on-a-chip models compared to that under static conditions. RPTEC was treated with varying iodine concentrations of IOCM and LOCM, which reflect renal concentrating process. Because IOCM and LOCM have different osmolalities and viscosities, we compared the nephrotoxic effects of each contrast agent in terms of physicochemical stress and performed mathematical simulations. IOCM and LOCM were used to evaluate the effects of high viscosity and osmolality on renal tubular cells, respectively. We tested each experimental group under different shear-stress conditions. Fluid shear-stress in vivo in human proximal tubules is estimated to be 0.1-1 dyn/cm 2 [14-16]; however, it was applied differently depending on the experimental conditions <ref type="bibr" target="#b16">[17]</ref>. In a rectangular pipeshaped channel of the OrganoPlate, the fluid shear-stress (τ) can be calculated as τ = 6µQ bh 2 , where b and h represent the width and height of the channel, respectively, Q represents the flow rate, and µ denotes the fluid viscosity. The fluid shear-stress is approximately 0.13 dyn/cm 2 when the rocker is set at an inclination of ±7 • and an interval of 8 min <ref type="bibr" target="#b17">[18]</ref>. Given that a single nephron glomerular filtrate directly reaches the initial part of the proximal tubule, a single nephron glomerular filtration rate (SNGFR) can be used for the calculation of shear stress. The SNGFR of healthy adults has been reported to be 80 ± 40 nL/min <ref type="bibr" target="#b18">[19]</ref>, and the diameter of the proximal tubule has been reported to be ~60 µm <ref type="bibr" target="#b19">[20,</ref><ref type="bibr" target="#b20">21]</ref>. The fluid shear-stress at the proximal tubular wall can be calculated as τ = 4µQ πR 2 under the assumption of a laminar, incompressible Newtonian flow of urine filtrate through a cylindrical tube, where R represents the radius of the proximal tubule. Since about 60-70% of the filtered water and sodium is reabsorbed in the proximal tubule <ref type="bibr" target="#b21">[22]</ref>, fluid shear-stress in the human proximal tubule ranges from approximately 0.44 (initial part) to 0.13 (distal part) dyn/cm 2 (at 37 • C), which is comparable to that in the OrganoPlate. CKD is accompanied by a progressive loss of functioning glomeruli in the kidneys. Depending on renal disease, nephron loss induces an increase in the SNGFR of remaining nephrons <ref type="bibr" target="#b22">[23]</ref>. These phenomena are particularly observed in post-nephrectomy animal models <ref type="bibr" target="#b23">[24]</ref>. To mimic progressive nephron loss, we designed different mean flow rate conditions with varying rocker intervals (8 min, 4 min, and 2 min) applied to the chips.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Mathematical Simulation</head><p>Mathematical simulation was performed using Python (Python Software Foundation, Wilmington, DE, USA) and gnuplot to examine the flow rate and shear stress in the upper channel of the chip. The test fluids, including iodinated CMs, were regarded as Newtonian fluids with constant viscosity and incompressibility. Parameters such as the dimensions of the OrganoPlate provided by the manufacturer were used. Mass density and dynamic viscosity at 37 • C were used for the calculations. Different viscosities of test fluids and rocking conditions were also considered. The shear stress and fluid flow rate at each time point during a single cycle of rocking were calculated. The time-averaged shear-stress and flow rate were calculated from the average of each value over multiple cycles of bidirectional flows.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Image and Statistical Analysis</head><p>Three-dimensional images were reconstructed using the ImageJ software (NIH, USA). Graph plotting and data analysis were performed using GraphPad Prism 9 (GraphPad Software, Inc., San Diego, CA, USA). Data are presented as the mean ± standard error of the mean (SEM). Each experiment was performed and analyzed in triplicate. Differences between experimental groups were compared using ANOVA and Bonferroni t-tests. p values &lt; 0.05 were considered statistically significant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Mathematical simulation</head><p>As the viscosity of CM increased with concentration, the mean flow rate of CM decreased, particularly at high iodine concentrations of more than 200 mg/dL, which was pronounced at 2 min rocking intervals (Figure <ref type="figure" target="#fig_6">3A-C</ref>). The flow rate of IOCM was substantially reduced due to its relatively higher viscosity compared to LOCM. The difference in flow rate between IOCM and LOCM was apparent at higher iodine concentrations and shorter rocking intervals (Figure <ref type="figure" target="#fig_6">3D</ref>). Notably, the flow rate of IOCM at an iodine concentration of 300 mgI/mL and 2 min intervals was less than half of that of LOCM. Since shear stress is linearly proportional to the product of fluid viscosity and flow rate, the peak shear-stress is theoretically not different between IOCM and LOCM. However, time-averaged shear-stress was greater in IOCM than in LOCM due to the slower fluid flow rate (Supplementary Figures <ref type="figure" target="#fig_1">S1</ref> and <ref type="figure" target="#fig_4">S2</ref>). This indicates that IOCM is retained longer than LOCM, which also implies longer exposure to CM-induced nephrotoxicity. In the human kidney, urinary flow is not bidirectional; thus, we additionally examined the shear stress and fluid flow-rate versus time within a single cycle (Figure <ref type="figure" target="#fig_6">3E</ref>,<ref type="figure">F</ref>). Depending on the viscosity of the test fluid, time durations of shear stress above 1 dyn/cm 2 were 0.23 min (media), 0.67 min (iopromide), and 4.52 min (iodixanol; Figure <ref type="figure" target="#fig_6">3E</ref>). Peak flow rates were 48.08 µL/min (media), 24.82 µL/min (iopromide), and 3.82 µL/min (iodixanol; Figure <ref type="figure" target="#fig_6">3F</ref>). Iodixanol flows more slowly than iopromide and causes a higher shear-stress for a longer duration. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Modeling of Contrast-Induced Nephropathy in Kidney-on-a-Chip</head><p>In the static condition, the overall cytotoxicity was higher for both LOCM and IOCM compared to the control (Figure <ref type="figure" target="#fig_7">4</ref>). In particular, LOCM showed a marked dose-dependent cytotoxic effect, which was significantly higher than that of IOCM at concentrations of 100 mgI/mL or higher. This finding was consistent with a previous study <ref type="bibr" target="#b10">[11]</ref>. Under shear-stress conditions using bidirectional rocker perfusion at 8 min intervals, there was no difference in cell viability between IOCM and the control across all iodine concentrations. However, LOCM induced greater cytotoxicity than IOCM. LOCM significantly decreased cell viability in the range of 100-250 mgI/mL, with corresponding osmolalities of 393, 447, 501, and 555 mOsm/kg, whereas those of IOCM ranged from 286 to 290 mOsm/kg. These patterns remained unchanged at 4 min rocking intervals; LOCM was more cytotoxic than IOCM at the same range of concentrations. Interestingly, increased cell viability was observed in some high-viscosity experimental groups, such as the HES and IOCM groups. However, at 2 min rocking intervals, there was no difference in cytotoxicity between LOCM and IOCM. Both LOCM and IOCM induced significant cytotoxicity at concentrations of 150 mgI/mL or higher. Mean shear-stress at the ranges showing cytotoxic effects was estimated from 0.89 dyn/cm 2 (iodixanol concentration of 150 mgI/mL) to 1.23 dyn/cm 2 (iodixanol concentration of 250 mgI/mL) from the mathematical simulation. The corresponding mean flow rate of iodixanol ranged from 8.59 μL/min to 2.09 μL/min. Under the same experimental conditions, we performed Western blot analysis of signaling molecules reported to be associated with CIN, including Erk1/2, and Akt (Figure <ref type="figure" target="#fig_8">5</ref>) <ref type="bibr" target="#b24">[25]</ref>. During the 8 min rocking interval, LOCM significantly induced a decrease in the phosphorylation of Erk1/2, especially at high concentrations. A similar pattern was observed when cells were treated with the high-osmolar agent mannitol. However, there was no change in the expression of these molecules in IOCM groups. This pattern was similar when applying the 2 min rocking interval. LOCM inhibited the phosphorylation </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Modeling of Contrast-Induced Nephropathy in Kidney-on-a-Chip</head><p>In the static condition, the overall cytotoxicity was higher for both LOCM and IOCM compared to the control (Figure <ref type="figure" target="#fig_7">4</ref>). In particular, LOCM showed a marked dose-dependent cytotoxic effect, which was significantly higher than that of IOCM at concentrations of 100 mgI/mL or higher. This finding was consistent with a previous study <ref type="bibr" target="#b10">[11]</ref>. Under shear-stress conditions using bidirectional rocker perfusion at 8 min intervals, there was no difference in cell viability between IOCM and the control across all iodine concentrations. However, LOCM induced greater cytotoxicity than IOCM. LOCM significantly decreased cell viability in the range of 100-250 mgI/mL, with corresponding osmolalities of 393, 447, 501, and 555 mOsm/kg, whereas those of IOCM ranged from 286 to 290 mOsm/kg. These patterns remained unchanged at 4 min rocking intervals; LOCM was more cytotoxic than IOCM at the same range of concentrations. Interestingly, increased cell viability was observed in some high-viscosity experimental groups, such as the HES and IOCM groups. However, at 2 min rocking intervals, there was no difference in cytotoxicity between LOCM and IOCM. Both LOCM and IOCM induced significant cytotoxicity at concentrations of 150 mgI/mL or higher. Mean shear-stress at the ranges showing cytotoxic effects was estimated from 0.89 dyn/cm 2 (iodixanol concentration of 150 mgI/mL) to 1.23 dyn/cm 2 (iodixanol concentration of 250 mgI/mL) from the mathematical simulation. The corresponding mean flow rate of iodixanol ranged from 8.59 µL/min to 2.09 µL/min. Under the same experimental conditions, we performed Western blot analysis of signaling molecules reported to be associated with CIN, including Erk1/2, and Akt (Figure <ref type="figure" target="#fig_8">5</ref>) <ref type="bibr" target="#b24">[25]</ref>. During the 8 min rocking interval, LOCM significantly induced a decrease in the phosphorylation of Erk1/2, especially at high concentrations. A similar pattern was observed when cells were treated with the high-osmolar agent mannitol. However, there was no change in the expression of these molecules in IOCM groups. This pattern was similar when applying the 2 min rocking interval. LOCM inhibited the phosphorylation of Erk1/2 in a dose-dependent manner. IOCM did not induce any significant changes in the expression of signaling molecules at any concentration.</p><p>of Erk1/2 in a dose-dependent manner. IOCM did not induce any significant changes in the expression of signaling molecules at any concentration.   of Erk1/2 in a dose-dependent manner. IOCM did not induce any significant changes in the expression of signaling molecules at any concentration.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>In the present study, we suggest an alternative in vitro model of CIN using a threedimensional proximal tubule-on-a-chip. Renal tubular cell injury induced by IOCM and LOCM was examined under different iodine concentrations and shear-stress conditions, which represent urine concentrations depending on the hydration status and SNGFR. The high viscosity of the concentrated IOCM noticeably slowed the tubular flow rate and increased the mean shear-stress levels. We identified significant cytotoxic effects from the increased viscosity of IOCM within a three-dimensionally perfused channel, which was not apparent under low-shear-stress conditions. LOCM was cytotoxic, even under static or low-shear-stress conditions, and the cytotoxicity was possibly mediated by Erk1/2 inactivation. However, nephrotoxicity was comparable between LOCM and IOCM under high-shear-stress conditions.</p><p>To date, researchers have suggested that the high viscosity of CM is one of the pathogenic mechanisms of CIN. In particular, IOCM has physiological osmolality at the cost of increased viscosity, and thus, its high viscosity could have detrimental effects on the kidney. However, the rheological aspects of CM have not been fully addressed in the pathophysiology of CIN. A previous in vitro study revealed that LOCM is more cytotoxic than IOCM under static conditions, which is inconsistent with clinical data <ref type="bibr" target="#b10">[11]</ref>. The implementation of the microenvironment in a single nephron was not feasible using conventional in vitro experiments. The physicochemical properties of CM have been evaluated using indirect methods, such as dialysis <ref type="bibr" target="#b25">[26]</ref>. We constructed the CIN-on-a-chip using the OrganoPlate platform, which contains an extracellular matrix and forms a 3D perfused tubular structure, mimicking an in vivo environment <ref type="bibr" target="#b17">[18]</ref>. Functional studies of transporters, biomarkers, and gene expression using the OrganoPlate have already been tested and validated <ref type="bibr" target="#b26">[27]</ref>. Given that renal tubular epithelial cells are continuously exposed to the fluid shear-stress of urine filtrate <ref type="bibr" target="#b27">[28]</ref>, kidney-on-a-chip may be an indispensable tool for the rheological study of renal diseases. To the best of our knowledge, this is the first study on CIN using an organ-on-a-chip platform.</p><p>Overall, our findings showed nephrotoxic effects of CM under shear-stress conditions which were distinct from those under static conditions. Under static conditions, higher cytotoxicity was observed even at low concentrations of CM compared to that of the control, which is not seen under in vivo conditions and in clinical settings. Since CIN mainly occurs when high-dose CM are used in patients with risk factors <ref type="bibr" target="#b28">[29]</ref>, our results under shearstress conditions are more similar to the clinical situations. These findings may indicate the beneficial effects of fluid shear-stress within physiological levels. Shear stress is reported to activate Nrf2 expression in the renal proximal tubules, resulting in a protective role in CIN <ref type="bibr" target="#b29">[30,</ref><ref type="bibr" target="#b30">31]</ref>. However, our findings also highlight the critical role of the high viscosity of IOCM in CIN. Increased viscosity of CM could contribute to tubular cell damage through flow-derived stresses such as tubular stretching, increased shear stress, and transmural pressure <ref type="bibr" target="#b31">[32]</ref>. Similarly, renal tubular injury in urinary tract obstruction models is also mediated mainly through cellular stretching and altered shear-stress <ref type="bibr" target="#b32">[33]</ref>. Fluid shearstress beyond physiological levels could cause renal epithelial damage. Although the exact mechanisms are yet to be elucidated, there has been some evidence related to the harmful effects of increased shear-stress on the cells. Studies on microfluidic platforms suggest that excessive shear-stress has detrimental effects on cells by detaching or disrupting the cytoskeleton <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b29">30]</ref>. Exposure of HK2 cells to high shear-stress (5 dyne/cm 2 ) for 48 h caused structural derangement, including the loss of tight junctions, adherent junctions, and primary cilia <ref type="bibr" target="#b16">[17]</ref>. Therefore, most microfluidic studies with renal tubular epithelial cells have used a physiological shear-stress of 0.2-1 dyn/cm 2 . As observed in our findings, viscosity-induced cytotoxicity was pronounced at a mean shear-stress of 1 dyn/cm 2 or higher. Additionally, a study by Garvin et al. suggested the vital role of tubular cell stretching in producing reactive oxygen species <ref type="bibr" target="#b33">[34]</ref>, which is a key pathogenesis in CIN.</p><p>With a typical dose of CM, the plasma concentration is less than 20 mgI/mL <ref type="bibr" target="#b34">[35]</ref>. However, CM are not reabsorbed in the renal tubules, and their intraluminal concentration increase along the renal tubules, with a peak concentration up to 100 times higher than that in plasma <ref type="bibr" target="#b35">[36]</ref>. IOCM are approximately two times more concentrated due to their lower osmolality, which further exponentially increases urine viscosity (Figure <ref type="figure" target="#fig_14">6A</ref>) <ref type="bibr" target="#b25">[26]</ref>. In our mathematical simulation, the time constant of exponential decay for the fluid flow-rate is proportional to the fluid viscosity; therefore, it is much greater with IOCM. As a result, IOCM is excreted more slowly than LOCM, exerting high levels of shear stress on the tubular cells for a longer duration (Figure <ref type="figure" target="#fig_14">6B</ref>,<ref type="figure">C</ref>). We showed that when assuming that the iodixanol and iopromide concentrations at the corticomedullary junction are 300 mgI/mL and 150 mgI/mL, respectively, the peak flow rate of iodixanol was six times slower than that of iopromide, and the time during which the shear stress level is above 1 dyn/cm 2 was also seven times longer with iodixanol than with iopromide. These findings are in line with the results of some in vivo studies that related highly viscous CM to increased tubular pressure, prolonged CM retention, and subsequent decreased GFR and hypoxia <ref type="bibr" target="#b9">[10]</ref>. A micropuncture study in rats by Ueda et al. showed that the viscosity of IOCM (iotrolan) was significantly higher than that of other LOCMs with slower urinary excretion <ref type="bibr" target="#b36">[37]</ref>. Iotrolan also induced high intratubular hydrostatic pressure for a longer duration than LOCMs <ref type="bibr" target="#b37">[38]</ref>. The high viscosity of iodixanol induces prolonged reduction in medullary oxygenation <ref type="bibr" target="#b38">[39]</ref>, which is a key feature of CIN. Nevertheless, these animal studies require sophisticated techniques and lack reproducibility; thus, similar findings have only been identified in a few studies.  Urine viscosity can vary significantly with urine volume, which is closely associated with an individual's hydration status. The effect of dehydration on renal concentration is more pronounced when using IOCM <ref type="bibr" target="#b9">[10]</ref>. We assumed that CM was moderately to highly concentrated in the renal tubules. In addition, given that patients with CKD are at a greater risk of CIN, different shear-stress conditions were investigated to reflect the effect of nephron loss and increased SNGFR. Our findings indirectly showed that highly concentrated CM and nephron loss could contribute to increased shear-stress and renal toxicity, which is consistent with the results of a uninephrectomy mouse model <ref type="bibr" target="#b16">[17]</ref>. We treated RPTEC with CM for 24 h, which also reflected the CKD condition. Patients with CKD usually show a longer retention of CM. Cortical retention of CM was observed in patients with CKD 24 h after CM administration, which was more pronounced in patients later diagnosed with CIN <ref type="bibr" target="#b39">[40]</ref>. Conventionally, the high osmolality of CM is considered a major determinant of CIN. However, the role of osmolality in CIN pathogenesis has not been clearly determined. Rather, LOCM can confer beneficial effects on tubular cells by inducing osmotic diuresis and subsequently lowering urine viscosity. Indeed, LOCM causes a two-fold higher urine output than IOCM due to osmotic diuresis <ref type="bibr" target="#b40">[41]</ref>. In this regard, the higher osmolality of LOCM relative to IOCM may serve as a protective factor against viscosity-induced renal toxicity.</p><p>Additionally, we evaluated some pathway molecules that have been reported to be linked to CIN. Akt and Erk1/2 are among the molecules involved in cell survival and proliferation <ref type="bibr" target="#b24">[25]</ref>. A previous in vitro study of CIN showed that both IOCM and LOCM induced dephosphorylation of Akt and Erk1/2 <ref type="bibr" target="#b24">[25]</ref>. In particular, IOCM caused a greater decrease in p-Erk 1/2 in HK2 cells. However, we revealed that decreased phosphorylation of Erk1/2 was only observed in the LOCM group under shear-stress conditions, and there was no difference in p-Akt levels between groups. Although our study was not designed to evaluate the exact mechanistic pathways of CIN, our findings possibly suggest that osmolar stress is associated with dephosphorylation of Erk1/2 or viscosity-related stress induces the activation of Erk1/2. Mechanical stretching of renal proximal tubular cells activates Erk1/2 signaling <ref type="bibr" target="#b41">[42]</ref>, and high-osmolar CM diatrizoate causes greater dephosphorylation of Erk1/2 compared to iopromide <ref type="bibr" target="#b42">[43]</ref>.</p><p>Collectively, viscosity-mediated nephrotoxicity was prominent under high shear-stress conditions. We found no difference between IOCM and LOCM under high fluid-shearstress, which was similar to the clinical data. These findings suggest that the risk of CIN does not differ between IOCM and LOCM in patients with CKD. Even in a study showing a better effect of IOCM on renal toxicity, superiority of IOCM was not significant in the subgroup with lower GFR (&lt;45 or 60 mL/min/1.73 m 2 ) <ref type="bibr" target="#b43">[44]</ref>. In this context, the kidneyon-a-chip microfluidic platform could be a potential alternative in vitro model, which can provide easier control of various physical parameters.</p><p>Our study has some limitations. This study highlights the critical role of the rheological effects of CM in terms of tubulodynamics. However, detailed mechanisms that mediate viscosity-induced tubular injury still remain elusive. More sophisticated methodology is warranted to determine the main contributing factors to viscosity-related injury. High viscosity also affects the hemodynamics in peritubular vessels. Therefore, extended microfluidic models combining vascular compartments with tubular counterparts would be useful. In addition, the limitations of the assumptions of the experimental design should be considered. We mathematically regarded the renal tubule as a rigid channel; however, it was highly elastic and deformable. In addition, the bidirectional pulsatile flow used in our model was not the same as the unilateral fluid flow in the renal tubules.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>We demonstrated the application of a three-dimensional kidney-on-a-chip model to evaluate the physicochemical factors of CM in CIN. Overall, our CIN model under shear-stress conditions reliably reflected in vivo situations. Our results highlight the role of viscosity-induced nephrotoxicity under high-shear-stress conditions and are quite different from the findings of conventional in vitro studies. LOCM showed higher cytotoxicity than IOCM in a dose-dependent manner under physiological shear-stress conditions. However, under high-shear-stress conditions, IOCM caused renal tubular cell damage comparable to that caused by LOCM, decreasing the urine flow rate and exposing cells to high shear-stress for a longer duration.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Schematic diagram of modeling a three-dimensional (3D) tubular structure in the threelane OrganoPlate. (A) The three-lane OrganoPlate consists of 40 microfluidic channel units based on a 384-well plate format. After gravity-driven bidirectional perfusion for 10 days, a 3D tubular structure is formed. The basal channel is filled with culture media. (B) Image of 3D reconstruction of a single unit of the kidney-on-a-chip. ECM, extracellular matrix; DAPI, 4′,6-diamidino-2-phenylindole.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Schematic diagram of modeling a three-dimensional (3D) tubular structure in the three-lane OrganoPlate. (A) The three-lane OrganoPlate consists of 40 microfluidic channel units based on a 384-well plate format. After gravity-driven bidirectional perfusion for 10 days, a 3D tubular structure is formed. The basal channel is filled with culture media. (B) Image of 3D reconstruction of a single unit of the kidney-on-a-chip. ECM, extracellular matrix; DAPI, 4 ,6-diamidino-2-phenylindole.</figDesc><graphic coords="3,64.29,91.70,470.52,197.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><figDesc>those of the control were based on the data provided by the manufacturers. HEShydroxyethyl starch.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Viscosity of contrast media according to different iodine concentrations.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Viscosity of contrast media according to different iodine concentrations.</figDesc><graphic coords="4,160.56,241.46,377.88,188.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Mathematical simulation of fluid flow rates and shear stresses of iopromide and iodixanol. (A) Mean flow rate with a rocker interval of 8 min; (B) mean flow rate with a rocker interval of 4 min; (C) mean flow rate with a rocker interval of 2 min; (D) ratio of flow rate (iodixanol to iopromide); (E) fluid shear-stress during a single cycle of rocking. The concentrations of iodixanol and iopromide were selected on the assumption that IOCM is approximately two times more concentrated than LOCM through the renal tubule. (F) Fluid flow rate during a single cycle of rocking.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Mathematical simulation of fluid flow rates and shear stresses of iopromide and iodixanol. (A) Mean flow rate with a rocker interval of 8 min; (B) mean flow rate with a rocker interval of 4 min; (C) mean flow rate with a rocker interval of 2 min; (D) ratio of flow rate (iodixanol to iopromide); (E) fluid shear-stress during a single cycle of rocking. The concentrations of iodixanol and iopromide were selected on the assumption that IOCM is approximately two times more concentrated than LOCM through the renal tubule. (F) Fluid flow rate during a single cycle of rocking.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Cell viability according to the different fluid viscosity and shear-stress conditions at (A) static condition, (B) a rocker interval of 8 min, (C) a rocker interval of 4 min, and (D) a rocker interval of 2 min. CM-contrast media; Man-mannitol; HES-hydroxyethyl starch; Con-negative control group. Data are represented as the mean ± SEM. ### p &lt; 0.001 versus control (0 mgI/mL); # p &lt; 0.05 versus control (0 mgI/mL); ** p &lt; 0.01 versus iopromide group of the same iodine concentration; *** p &lt; 0.001 versus iopromide group of the same iodine concentration.</figDesc><graphic coords="7,166.29,75.07,373.20,243.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Representative immunoblots of Akt, p-Akt, Erk1/2, p-Erk1/2, and β-actin at (A) a rocker interval of 8 min and (B) a rocker interval of 2 min. (C) Ratio of p-Erk1/2/Erk1/2. (D) Ratio of p-Akt/Akt. Data are represented as the mean ± SEM. * p &lt; 0.05 versus control of 2 min interval, # p &lt; 0.05 versus control of 8 min interval. LOCM-low-osmolar contrast media; IOCM-iso-osmolar contrast media; Con-control; Man-mannitol; HES-hydroxyethyl starch; N.S.-nonsignificant.</figDesc><graphic coords="7,167.45,413.98,385.26,241.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Cell viability according to the different fluid viscosity and shear-stress conditions at (A) static condition, (B) a rocker interval of 8 min, (C) a rocker interval of 4 min, and (D) a rocker interval of 2 min. CM-contrast media; Man-mannitol; HES-hydroxyethyl starch; Con-negative control group. Data are represented as the mean ± SEM. ### p &lt; 0.001 versus control (0 mgI/mL); # p &lt; 0.05 versus control (0 mgI/mL); ** p &lt; 0.01 versus iopromide group of the same iodine concentration; *** p &lt; 0.001 versus iopromide group of the same iodine concentration.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Cell viability according to the different fluid viscosity and shear-stress conditions at (A) static condition, (B) a rocker interval of 8 min, (C) a rocker interval of 4 min, and (D) a rocker interval of 2 min. CM-contrast media; Man-mannitol; HES-hydroxyethyl starch; Con-negative control group. Data are represented as the mean ± SEM. ### p &lt; 0.001 versus control (0 mgI/mL); # p &lt; 0.05 versus control (0 mgI/mL); ** p &lt; 0.01 versus iopromide group of the same iodine concentration; *** p &lt; 0.001 versus iopromide group of the same iodine concentration.</figDesc><graphic coords="7,167.45,83.44,373.20,243.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Representative immunoblots of Akt, p-Akt, Erk1/2, p-Erk1/2, and β-actin at (A) a rocker interval of 8 min and (B) a rocker interval of 2 min. (C) Ratio of p-Erk1/2/Erk1/2. (D) Ratio of p-Akt/Akt. Data are represented as the mean ± SEM. * p &lt; 0.05 versus control of 2 min interval, # p &lt; 0.05 versus control of 8 min interval. LOCM-low-osmolar contrast media; IOCM-iso-osmolar contrast media; Con-control; Man-mannitol; HES-hydroxyethyl starch; N.S.-nonsignificant.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Representative immunoblots of Akt, p-Akt, Erk1/2, p-Erk1/2, and β-actin at (A) a rocker interval of 8 min and (B) a rocker interval of 2 min. (C) Ratio of p-Erk1/2/Erk1/2. (D) Ratio of p-Akt/Akt. Data are represented as the mean ± SEM. * p &lt; 0.05 versus control of 2 min interval, # p &lt; 0.05 versus control of 8 min interval. LOCM-low-osmolar contrast media; IOCM-iso-osmolar contrast media; Con-control; Man-mannitol; HES-hydroxyethyl starch; N.S.-nonsignificant.</figDesc><graphic coords="7,166.29,405.61,385.26,241.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Overview of the proposed models of contrast-induced nephropathy. (A) Iso-osmolar contrast media are twice as concentrated as low-osmolar contrast media and have a much greater viscosity. Data from Jost et al. [26]. The concentration and viscosity of CM are obtained from an in</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Overview of the proposed models of contrast-induced nephropathy. (A) Iso-osmolar contrast media are twice as concentrated as low-osmolar contrast media and have a much greater viscosity. Data from Jost et al. [26]. The concentration and viscosity of CM are obtained from an in vitro dialysis model using polyethylene glycol solution with different osmolalities (290, 500, and 1000 mOsm/kg, which represents the mean osmolality of the renal cortex, outer medulla, and inner medulla, respectively). (B) Overall mechanisms of contrast-induced nephropathy. (C) Comparison of iso-osmolar and low-osmolar contrast media in our model. CM-contrast media; LOCM-lowosmolar contrast media; IOCM-iso-osmolar contrast media; GFR-glomerular filtration rate.</figDesc><graphic coords="9,64.22,284.78,470.46,327.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>Characteristics of test solutions.</figDesc><table><row><cell>Iodixanol</cell></row><row><cell>(Visipaque™)</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Micromachines 2022, 13, 688. https://doi.org/10.3390/mi13050688 https://www.mdpi.com/journal/micromachines Micromachines 2022, 13, 688</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Micromachines 2022, 13, x FOR PEER REVIEW</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Micromachines 2022,<ref type="bibr" target="#b12">13,</ref> 688   </p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>Funding: This research was supported by a grant from the <rs type="funder">Korean Society of Nephrology (Chong Kun Dang 2018</rs>), the grant No. <rs type="grantNumber">13-2018-003</rs> from the <rs type="funder">SNUBH Research Fund</rs>, the grand No. <rs type="grantNumber">2019R1A2C1085411</rs> from the <rs type="funder">National Research Foundation</rs>, and the <rs type="programName">Technology Innovation Program</rs> (<rs type="grantNumber">20008413</rs>, Development of disease models based <rs type="projectName">on 3D microenvironmental platform mimicking multiple organs and evaluation of drug efficacy)</rs> funded by the <rs type="funder">Ministry of Trade, Industry and Energy (MOTIE, Korea)</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_HpSyyGv">
+					<idno type="grant-number">13-2018-003</idno>
+				</org>
+				<org type="funding" xml:id="_svcC8Fn">
+					<idno type="grant-number">2019R1A2C1085411</idno>
+				</org>
+				<org type="funded-project" xml:id="_47rvqA3">
+					<idno type="grant-number">20008413</idno>
+					<orgName type="project" subtype="full">on 3D microenvironmental platform mimicking multiple organs and evaluation of drug efficacy)</orgName>
+					<orgName type="program" subtype="full">Technology Innovation Program</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Materials:</head><p>The following supporting information can be downloaded at: <ref type="url" target="https://www.mdpi.com/article/10.3390/mi13050688/s1">https:  //www.mdpi.com/article/10.3390/mi13050688/s1</ref>, Figure <ref type="figure">S1</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>The authors declare no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Hospital-acquired renal insufficiency</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hafeez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hou</surname></persName>
+		</author>
+		<idno type="DOI">10.1053/ajkd.2002.32766</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Kidney Dis</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="930" to="936" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Contrast-induced kidney injury: Mechanisms, risk factors, and prevention</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Seeliger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sendeski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Rihal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Persson</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/eurheartj/ehr494</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Heart J</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="2007" to="2015" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Contrast-induced nephropathy and oxidative stress: Mechanistic insights for better interventional approaches</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kusirisin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Chattipakorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chattipakorn</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12967-020-02574-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Transl. Med</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">400</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Contrast-induced Nephropathy</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Mohammed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mahfouz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Achkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Rafie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hajar</surname></persName>
+		</author>
+		<idno type="DOI">10.4103/1995-705X.125926</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Heart Views</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="106" to="116" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Metaanalysis of the relative nephrotoxicity of high-and low-osmolality iodinated contrast media</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Barrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Carlisle</surname></persName>
+		</author>
+		<idno type="DOI">10.1148/radiology.188.1.8511292</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Radiology</title>
+		<imprint>
+			<biblScope unit="volume">188</biblScope>
+			<biblScope unit="page" from="171" to="178" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Nephrotoxic effects in high-risk patients undergoing angiography</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aspelin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aubry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Fransson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Strasser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Willenbrock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Berg</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Nephric Study</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Investigators</surname></persName>
+		</author>
+		<idno type="DOI">10.1056/NEJMoa021833</idno>
+	</analytic>
+	<monogr>
+		<title level="j">N. Engl. J. Med</title>
+		<imprint>
+			<biblScope unit="volume">348</biblScope>
+			<biblScope unit="page" from="491" to="499" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Renal toxicity evaluation and comparison between visipaque (iodixanol) and hexabrix (ioxaglate) in patients with renal insufficiency undergoing coronary angiography: The RECOVER study: A randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Jo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Youn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Koo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Joo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">H</forename><surname>Chae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Choi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jacc.2006.06.047</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Coll. Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="924" to="930" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Comparative Effect of Contrast Media Type on the Incidence of Contrast-Induced Nephropathy: A Systematic Review and Meta-analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Subramaniam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Suarez-Cuervo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Turban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sherrod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hutfless</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Iyoha</surname></persName>
+		</author>
+		<idno type="DOI">10.7326/M15-1402</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Intern. Med</title>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="page" from="417" to="424" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Iodixanol versus low-osmolar contrast media for prevention of contrast induced nephropathy: Meta-analysis of randomized, controlled trials</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>From</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Al Badarin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Bartholmai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Cha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Rihal</surname></persName>
+		</author>
+		<idno type="DOI">10.1161/CIRCINTERVENTIONS.109.917070</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Circ. Cardiovasc. Interv</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="351" to="358" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Understanding and preventing contrast-induced acute kidney injury</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fahling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Seeliger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Patzak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Persson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrneph.2016.196</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Nephrol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="169" to="180" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Exposure to low-vs iso-osmolar contrast agents reduces NADPH-dependent reactive oxygen species generation in a cellular model of renal injury</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Netti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Prattichizzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Montemurno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Simone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cafiero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rascio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stallone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ranieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grandaliano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gesualdo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.freeradbiomed.2013.11.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Free Radic. Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="35" to="42" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Iodinated contrast medium: Is there a re(n)al problem? A clinical vignette-based review</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lakhal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ehrmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Robert-Edan</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13054-020-03365-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Crit. Care</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">641</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Kidney on chips</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/bs.mcb.2018.06.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="85" to="104" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A multi-layer microfluidic device for efficient culture and analysis of renal tubular cells</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Suh</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/B907515A</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Chip</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="36" to="42" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Shear-induced reorganization of renal proximal tubule cell actin cytoskeleton and apical junctional complexes</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gotoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Weinstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Weinbaum</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0804954105</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="11418" to="11423" />
+			<date type="published" when="2008">2008</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Renal tubular fluid shear stress promotes endothelial cell activation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Miravete</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Besse-Patin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pecher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Bascands</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mercier-Bonin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Schanstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Buffin-Meyer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbrc.2011.03.105</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">407</biblScope>
+			<biblScope unit="page" from="813" to="817" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Shear Stress-Induced Alteration of Epithelial Organization in Human Renal Tubular Cells</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Maggiorani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dissard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Belloy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Saulnier-Blache</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Casemayou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ducasse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Belliere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Caubet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Bascands</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0131416</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">131416</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Nephrotoxicity and Kidney Transport Assessment on 3D Perfused Proximal Tubules</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Vormann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gijzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nicolas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Van Den Heuvel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vriend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T G</forename><surname>Nieskens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Van Duinen</surname></persName>
+		</author>
+		<idno type="DOI">10.1208/s12248-018-0248-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AAPS J</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">90</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Single-Nephron Glomerular Filtration Rate in Healthy Adults</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Denic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mathew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">O</forename><surname>Lerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Lieske</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Larson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Poggio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Glassock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Rule</surname></persName>
+		</author>
+		<idno type="DOI">10.1056/NEJMoa1614329</idno>
+	</analytic>
+	<monogr>
+		<title level="j">N. Engl. J. Med</title>
+		<imprint>
+			<biblScope unit="volume">376</biblScope>
+			<biblScope unit="page" from="2349" to="2357" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Funktionelle Histologie der Haussäugetiere und Vögel: Lehrbuch und Farbatlas fur Studium und Praxis</title>
+		<author>
+			<persName><forename type="first">H.-G</forename><surname>Liebich</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>Schattauer</publisher>
+			<pubPlace>Stuttgart, Germany</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Ganong</surname></persName>
+		</author>
+		<title level="m">Review of Medical Physiology</title>
+		<meeting><address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>McGraw-Hill</publisher>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Lote</surname></persName>
+		</author>
+		<title level="m">Principles of Renal Physiology</title>
+		<meeting><address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">How Do Kidneys Adapt to a Deficit or Loss in Nephron Number?</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fattah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Layton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vallon</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/physiol.00052.2018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physiology</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="189" to="197" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Compensatory adaptation of structure and function following progressive renal ablation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Kaufman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Dimeola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Siegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lytton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kashgarian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Hayslett</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ki.1974.72</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Kidney Int</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="10" to="17" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Molecular mechanisms of renal cellular nephrotoxicity due to radiocontrast media</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Michael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Faga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pisani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Riccio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bramanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sabbatini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Navarra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Andreucci</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2014/249810</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BioMed. Res. Int</title>
+		<imprint>
+			<biblScope unit="page">249810</biblScope>
+			<date type="published" when="2014">2014. 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Viscosity of iodinated contrast agents during renal excretion</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lengsfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Lenhard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pietsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sieber</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ejrad.2011.02.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Radiol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="373" to="377" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Nephroscreen: A diagnostic test for predicting acute renal failure?</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Howard</surname></persName>
+		</author>
+		<idno type="DOI">10.1586/14737159.5.5.633</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Rev. Mol. Diagn</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="633" to="642" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The physical basis of renal fibrosis: Effects of altered hydrodynamic forces on kidney homeostasis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Grabias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Konstantopoulos</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/ajprenal.00503.2013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol. Ren. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">306</biblScope>
+			<biblScope unit="page" from="473" to="F485" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The Pathophysiology and the Management of Radiocontrast-Induced Nephropathy</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Ko</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/diagnostics12010180</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diagnostics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">180</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Tanshinone IIA Attenuates Contrast-Induced Nephropathy via Nrf2 Activation in Rats</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000489688</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Physiol. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="2616" to="2623" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Sulforaphane Attenuates Contrast-Induced Nephropathy in Rats via Nrf2/HO-1 Pathway</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Holthfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zou</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2016/9825623</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Oxidative Med. Cell. Longev</title>
+		<imprint>
+			<biblScope unit="page">9825623</biblScope>
+			<date type="published" when="2016">2016. 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Pathophysiology of renal tissue damage by iodinated contrast media</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Sendeski</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1440-1681.2011.05503.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Exp. Pharmacol. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="292" to="299" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Roles Played by Biomarkers of Kidney Injury in Patients with Upper Urinary Tract Obstruction</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Washino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hosohata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyagawa</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijms21155490</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">5490</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Cellular stretch increases superoxide production in the thick ascending limb</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Garvin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Hong</surname></persName>
+		</author>
+		<idno type="DOI">10.1161/HYPERTENSIONAHA.107.102228</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hypertension</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="488" to="493" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Proximal tubule cell response to radiographic contrast media</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hardiek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Katholi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ramkumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Deitrick</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/ajprenal.2001.280.1.F61</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol. Ren. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">280</biblScope>
+			<biblScope unit="page" from="61" to="F70" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Nephrotoxicity related to contrast media</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Berg</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/003655900750048341</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scand. J. Urol. Nephrol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="317" to="322" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Iodine concentrations in the rat kidney measured by X-ray microanalysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nygren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sjöquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Jacobsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Ulfendahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Araki</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02841859809172157</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Radiol</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="90" to="95" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Influence of contrast media on single nephron glomerular filtration rate in rat kidney. A comparison between diatrizoate, iohexol, ioxaglate, and iotrolan</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nygren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hansell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Erikson</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/028418519203300621</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Radiol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="596" to="599" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Viscosity of contrast media perturbs renal hemodynamics</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Seeliger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Flemming</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wronski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ladwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Arakelyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Godes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mockel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Persson</surname></persName>
+		</author>
+		<idno type="DOI">10.1681/ASN.2006111216</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Soc. Nephrol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="2912" to="2920" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The persistent computed tomography nephrogram: Its significance in the diagnosis of contrast-associated nephrotoxicity</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Love</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Bresler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Flisak</surname></persName>
+		</author>
+		<idno type="DOI">10.1259/0007-1285-67-802-951</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br. J. Radiol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="951" to="957" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Systemic Hypotension Following Intravenous Administration of Nonionic Contrast Medium during Computed Tomography: Iopromide Versus Iodixanol</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Widmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ulmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Putzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schullian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Wiedermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lederer</surname></persName>
+		</author>
+		<idno type="DOI">10.1213/ANE.0000000000002346</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anesth. Analg</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="769" to="775" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Cyclic stretch-induced cPLA2 mediates ERK 1/2 signaling in rabbit proximal tubule cells</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Alagarsamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Douglas</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1523-1755.2004.00405.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Kidney Int</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="551" to="563" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Radiocontrast media cause dephosphorylation of Akt and downstream signaling targets in human renal proximal tubular cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Andreucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fuiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Presta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Esposito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Faga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bisesti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Procino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Altieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tozzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Memoli</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bcp.2006.08.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1334" to="1342" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Contrast Induced Nephropathy and 2-Year Outcomes of Iso-Osmolar Compared with Low-Osmolar Contrast Media after Elective Percutaneous Coronary Intervention</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yuan</surname></persName>
+		</author>
+		<idno type="DOI">10.4070/kcj.2020.0307</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Korean Circ. J</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="174" to="181" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

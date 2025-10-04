@@ -1,0 +1,3181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Caenorhabditis elegans in microgravity: An omics perspective</title>
+				<funder>
+					<orgName type="full">Heritage College of Osteopathic Medicine</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Osteopathic Heritage Foundation</orgName>
+				</funder>
+				<funder ref="#_FyqmvsD">
+					<orgName type="full">Medical Research Council</orgName>
+				</funder>
+				<funder ref="#_sxjSZfu #_5QQh3Hm">
+					<orgName type="full">NASA</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">European Space Agency-funded Space Omics Topical Team</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Osteopathic Heritage Foundation Ralph S. Licklider</orgName>
+				</funder>
+				<funder ref="#_nbMkgWU">
+					<orgName type="full">ESA</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Amanda</forename><surname>Scott</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biomedical Sciences</orgName>
+								<orgName type="institution" key="instit1">Heritage College of Osteopathic Medicine</orgName>
+								<orgName type="institution" key="instit2">Ohio University</orgName>
+								<address>
+									<settlement>Athens</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Craig</forename><forename type="middle">R G</forename><surname>Willis</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">School of Chemistry and Biosciences</orgName>
+								<orgName type="department" key="dep2">Faculty of Life Sciences</orgName>
+								<orgName type="institution">University of Bradford</orgName>
+								<address>
+									<settlement>Bradford</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Masafumi</forename><surname>Muratani</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Transborder Medical Research Center</orgName>
+								<orgName type="department" key="dep2">Department of Genome Biology</orgName>
+								<orgName type="department" key="dep3">Faculty of Medicine</orgName>
+								<orgName type="institution">University of Tsukuba</orgName>
+								<address>
+									<postCode>305-8575</postCode>
+									<settlement>Tsukuba</settlement>
+									<region>Ibaraki</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Atsushi</forename><surname>Higashitani</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Graduate School of Life Sciences</orgName>
+								<orgName type="institution">Tohoku University</orgName>
+								<address>
+									<settlement>Sendai</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Timothy</forename><surname>Etheridge</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nathaniel</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biomedical Sciences</orgName>
+								<orgName type="institution" key="instit1">Heritage College of Osteopathic Medicine</orgName>
+								<orgName type="institution" key="instit2">Ohio University</orgName>
+								<address>
+									<settlement>Athens</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Ohio Musculoskeletal and Neurological Institute</orgName>
+								<orgName type="institution">Ohio University</orgName>
+								<address>
+									<settlement>Athens</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Colleen</forename><forename type="middle">S</forename><surname>Deane</surname></persName>
+							<email>c.s.deane@soton.ac.uk</email>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department" key="dep1">Human Development &amp; Health</orgName>
+								<orgName type="department" key="dep2">Faculty of Medicine</orgName>
+								<orgName type="institution" key="instit1">University of Southampton</orgName>
+								<orgName type="institution" key="instit2">Southampton General Hospital</orgName>
+								<address>
+									<settlement>Southampton</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Caenorhabditis elegans in microgravity: An omics perspective</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">FB11B47C9DE71E2E3A318D8279328D83</idno>
+					<idno type="DOI">10.1016/j.isci</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:22+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The application of omics to study Caenorhabditis elegans (C. elegans) in the context of spaceflight is increasing, illuminating the wide-ranging biological impacts of spaceflight on physiology. In this review, we highlight the application of omics, including transcriptomics, genomics, proteomics, multi-omics, and integrated omics in the study of spaceflown C. elegans, and discuss the impact, use, and future direction of this branch of research. We highlight the variety of molecular alterations that occur in response to spaceflight, most notably changes in metabolic and neuromuscular gene regulation. These transcriptional features are reproducible and evident across many spaceflown species (e.g., mice and astronauts), supporting the use of C. elegans as a model organism to study spaceflight physiology with translational capital. Integrating tissue-specific, spatial, and multi-omics approaches, which quantitatively link molecular responses to phenotypic adaptations, will facilitate the identification of candidate regulatory molecules for therapeutic intervention and thus represents the next frontiers in C. elegans space omics research.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Since Yuri Gagarin first traveled to space in 1961, human spaceflight activity has grown rapidly. One of the most notable events to date was the 1998 launch of the International Space Station (ISS), a lower Earth orbiting research platform, which allows astronauts to live and work in space for up to a year at a time. <ref type="bibr" target="#b0">1</ref> The microgravity environment of space presents an extreme environmental stressor, which induces a multitude of physiological maladaptations including, but not limited to, skeletal muscle and bone loss, cardiovascular decline, immune compromise, 2 neuronal damage, and decreased gray matter volume. <ref type="bibr" target="#b2">3</ref> These resemble some of the adverse health changes associated with chronological aging on Earth, and additionally serve as an accelerated model of other non-communicable health concerns such as diabetes, cardiovascular disease, and obesity. <ref type="bibr" target="#b3">4</ref> As people look to travel further into space and for longer periods than ever beforeowing to the rise in commercial spaceflight and increasingly lower cost access to space-understanding the mechanistic underpinnings of spaceflight-induced maladaptation is essential to developing effective countermeasures that promote safe space travel and also benefit health on Earth.</p><p>Human and rodent studies have provided invaluable insight into the mechanistic regulation of the microgravity phenotype; however, they are limited by significant operational (e.g., crew time, human/rodent numbers, and sample feasibility) and economical (e.g., high costs) constraints. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> Alternative model organisms are, therefore, required to achieve the experimental power necessary to draw conclusions on the causes of space-induced health decline. Caenorhabditis elegans (C. elegans) is a non-parasitic, microscopic ($0.25-1 mm) nematode characterized by a short lifespan ($3 weeks), large brood size, fully sequenced genome, multiple evolutionary conserved mechanisms, ease of culture, and low expense, <ref type="bibr" target="#b6">7</ref> presenting a primary biologically relevant model for spaceflight research that is relatively cheap and feasible. In fact, C. elegans spaceflight experiments have been conducted since the time of the space shuttle. Previous studies have shown that C. elegans can mate, reproduce, and undergo embryonic development during spaceflight, and they are also susceptible to radiation-induced mutations during spaceflight. <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b8">9</ref> However, since these experiments were performed on ordinary agar medium, the effects of strong hydrostatic pressure adhesion between the C. elegans and the agar surface could not be ruled out. Therefore, in examining the effects of microgravity, a liquid culture was devised. The first space experiment to test the difference between liquid and agar media could not be analyzed due to an unforeseen accident on Columbia's return. However, the C. elegans were found alive a few days later, protected by a sturdy container. <ref type="bibr" target="#b9">10</ref> Since then, our space experiments have been conducted using CeMM (C. elegans Maintenance Medium) <ref type="bibr" target="#b10">11</ref> and E. coli OP-50 liquid media. In addition, C. elegans permit the use of genetic and molecular tools (e.g., genetic mutants), to dissect specific biological pathways and trial emerging countermeasures, such as the efficacy of preclinical drugs. <ref type="bibr" target="#b11">12</ref> Since C. elegans display high molecular, metabolic, and physiologic orthology with people, with as much as 83% of the C. elegans proteome sharing homologous genes with humans, <ref type="bibr" target="#b12">13</ref> they serve as efficient model organisms to understand (human) disease processes. For example, their use as a biomedical research model organism has been invaluable in the study of Alzheimer disease and Duchenne muscular dystrophy. <ref type="bibr" target="#b13">14</ref> Specific to spaceflight, C. elegans successfully live in microgravity <ref type="bibr" target="#b14">15</ref> and display reduced movement capacity, <ref type="bibr" target="#b15">16</ref> analogous to the decline in muscle function observed in astronauts post-flight, <ref type="bibr" target="#b16">17</ref> demonstrating the suitability of C. elegans as a model organism to study the effects of spaceflight on physiology. Therefore, using C. elegans to uncover the precise molecular mechanisms regulating adaptations to microgravity can significantly accelerate our understanding of the mechanisms of spaceflight-induced physiological decline in humans.</p><p>Recently, there has been an exponential increase in the use of ''omics'' technologies and informatic tools to probe the etiology of, and develop countermeasures for, pathological states, <ref type="bibr" target="#b17">18</ref> including spaceflight. <ref type="bibr" target="#b18">19</ref> The application of omics seeks to establish the sum of the parts within a biological system, rather than identifying individual components, promoting a holistic rather than reductive path of biological study. <ref type="bibr" target="#b19">20</ref> In addition to the beneficial ''systems biology'' approach, omics can capitalize on pre-existing biological samples (i.e., samples that were collected before the omics ''boom'' and ''bio-banked'' samples), which are particularly rare in the context of spaceflight. Recently, the National Aeronautics and Space Administration (NASA) launched project ''GeneLab'' to allow free and unrestricted access to omics data from spaceflight experiments to researchers all over the globe. <ref type="bibr" target="#b20">21</ref> The success of this open-science model has maximized the use of scarce spaceflight biological samples and led to several discoveries otherwise not possible, such as the identification of spaceflight CO 2 levels as a confounding variable in the animal enclosure modules used in rodent experiments. <ref type="bibr" target="#b21">22</ref> More recently, the European Space Agency (ESA)-funded Space Omics Topical Team has supported new and ongoing ESA scientific community activities that focus on the application and exploitation of omics research in space. <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b23">24</ref> Indeed, omics technology has been applied to spaceflight research using C. elegans, leading to a more complete understanding of biological processes that occur in response to spaceflight, although these works remain to be consolidated.</p><p>The aim of this narrative review is, therefore, to summarize the literature pertaining to the use of C. elegans as a model organism for spaceflight-related research with a specific focus on publications that have applied omics technologies to uncover the mechanistic basis of the microgravity phenotype, thus highlighting how the extensive use of C. elegans in spaceflight research has constructed a more coherent picture of the biological response to spaceflight. To do this, we provide an overview of the available omics literature, including hyper-, micro-, and simulated gravity scenarios, highlighting key biological themes and, where relevant, highlight how the molecular flight-responsive signatures in worms correspond with known molecular and/or functional adaptations reported in higher animals and humans. We also summarize the impact of the C. elegans space omics literature to date and highlight what we believe are the next frontiers in C. elegans space omics research. Although previous reviews have appreciated the use of C. elegans as a model organism for spaceflight research, these reviews have either not focused on omics <ref type="bibr" target="#b24">25</ref> or are noncomprehensive due to geographical constraints. <ref type="bibr" target="#b23">24</ref> Thus, global efforts combining C. elegans and omics in space remain to be detailed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>OMICS INVESTIGATIONS OF C. ELEGANS IN MICROGRAVITY</head><p>To date, the majority of omics spaceflight research in C. elegans is transcriptomic in nature, with far fewer proteomic investigations and comparative omics analysis (summarized in Tables 1, 2, and 3, respectively). Together, these investigations have revealed robust metabolic and neuromuscular biological themes, discussed herein (Figure <ref type="figure" target="#fig_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metabolic alterations in microgravity</head><p>Both transcriptomic and proteomic investigations have been applied in an effort to understand the biological response of C. elegans to spaceflight, which have revealed robust metabolic alterations. In fact, three independent spaceflight missions, the FIRST International C. elegans Experiment in space (ICE-FIRST), C. elegans RNA Interference in Space Experiment (CERISE), and Shenzhou-8 (SZ-8), have all found altered metabolism in flight (Figure <ref type="figure" target="#fig_0">1</ref>). The first investigation into the transcriptional responses in spaceflown worms was ICE-FIRST in 2006. Using microarray analysis, the authors demonstrated a metabolic shift occurring mainly in the intestines that could be underlaid by altered TGF-b and insulin signaling (Figure <ref type="figure" target="#fig_0">1</ref>). <ref type="bibr" target="#b38">39</ref> Considering the possible implications for altered endocrine signaling due to altered metabolism of lipids as well as alterations to innate immunity, these changes to TGF-b and insulin signaling warrant further study. <ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b38">39</ref> Just as microgravity is associated with consistent insulin signaling changes, simulated microgravity also elicits reproducible insulin signaling changes. For example, a recent study looking at simulated microgravity-exposed C. elegans found altered expression in the insulin/IGF-1 signaling pathway. <ref type="bibr" target="#b25">26</ref> Another study found that simulated microgravity-exposed C. elegans demonstrated decreased expression of linc-50, an intestinal long non-coding RNA which appears to target FoxO transcription factor DAF-16, which is part of the insulin signaling pathway downstream of the insulin receptor/DAF-2. <ref type="bibr" target="#b27">28</ref> Another element of the ICE-FIRST effort was also the first known proteomic investigation into spaceflown C. elegans, which found that spaceflight reduced aconitase expression; a citric acid cycle enzyme responsible for citrate-isocitrate conversion, which could affect ATP generation (Figure <ref type="figure" target="#fig_0">1</ref>). <ref type="bibr" target="#b40">41</ref> Other studies have demonstrated a similar pattern of alterations to genes and processes involved in the generation of ATP.</p><p>For example, one such study found 86 differentially expressed genes in response to spaceflight, which were related to the process of mitochondrial respiration, which is the final step of the process of cellular respiration that generates ATP. <ref type="bibr" target="#b33">34</ref> Subsequent proteomic and transcriptomic analysis of spaceflown C. elegans from the 2009 CERISE experiment also displayed alterations in metabolism on two fronts. First, the mitochondrial anchorage protein, ANC-1, was found to have decreased levels of expression. <ref type="bibr" target="#b32">33</ref> ANC-1 is involved in nuclear anchorage and positioning, as well as the positioning of mitochondria and the endoplasmic reticulum. <ref type="bibr" target="#b42">43</ref> Mutations to ANC-1 negatively affect the health of C. elegans, with ANC-1 mutants displaying smaller body sizes, changes to the shape of the nucleus, fragmentation of the endoplasmic reticulum, and movement of the nucleus and endoplasmic reticulum during body movement. <ref type="bibr" target="#b42">43</ref> Second, multiple metabolic proteins in all stages of cellular respiration, including glycolysis and the glyoxylate cycle, gluconeogenesis, and the electron transport chain, were found in significantly reduced levels (Figure <ref type="figure" target="#fig_0">1</ref>). <ref type="bibr" target="#b32">33</ref> The launch of the NASA GeneLab database <ref type="bibr" target="#b20">21</ref> and more recent initiatives such as the ESA-funded Space Omics Topical Team <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b23">24</ref> has allowed access to vast amounts of spaceflight-related omics data, including that from C. elegans. Such access facilitates comparative omics investigations, that is using multiple datasets from different conditions/species to identify reproducible omics profiles, maximizing the scientific return on investment. In one such comparative analysis, the authors aimed to understand whether the transcriptional profiles of microgravity are the inverse of the hypergravity expression pattern, a hypothesis worthy of investigation considering the divergent physiological adaptations to microgravity versus hypergravity. <ref type="bibr" target="#b4">5</ref> The authors found that while most common gene signatures were similarly up-or downregulated, genes pertaining to the Gene Ontology term ''metabolic regulation'' displayed opposing regulation, being upregulated in hypergravity and downregulated in microgravity. <ref type="bibr" target="#b4">5</ref> Downstream network analysis identified a tyrosine degrading enzyme, hpd-1, as the most highly connected hub gene providing a candidate for future therapeutic targeting. <ref type="bibr" target="#b4">5</ref> Research into similarities in the response to spaceflight between organisms has demonstrated that the subsequent metabolic changes are not unique to C. elegans. One study used comparative omics to explore spaceflight gene expression changes between Drosophila melanogaster and C. elegans in order to understand how similarly or dissimilarly these organisms respond to spaceflight. <ref type="bibr" target="#b41">42</ref> Surprisingly, only 6 genes were commonly downregulated in both organisms, several of which were associated with metabolic signaling, although due to ortholog-related challenges the number of genes that could be compared was reduced to roughly only 20% of the comparative genome. <ref type="bibr" target="#b41">42</ref> Examined together, all of the studies discussed previously demonstrate a clear pattern of metabolic changes in response to spaceflight and microgravity, affecting primarily the mitochondria and the processes involved in the generation of ATP. Decline in mitochondrial ATP production occurs naturally with age, and mitochondrial dysfunction has been found in humans with a variety of health conditions, including type 2 diabetes mellitus and insulin resistance. <ref type="bibr" target="#b43">44</ref> Further, mitochondrial dysfunction has been linked as being both a cause and consequence of muscle atrophy due to muscle disuse. <ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b45">46</ref> These alterations in mitochondria could also partly explain phenotypes in other high energy-consuming tissues such as neurons. <ref type="bibr" target="#b46">47</ref> Therefore, understanding these metabolic changes induced in spaceflight contributes to understanding the cause of muscle decline and alterations in other tissue systems observed in astronauts. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Muscular and neuromuscular alterations in microgravity</head><p>Omics analysis of microgravity samples has also highlighted robust muscular and neuromuscular changes in spaceflown C. elegans. For example, spaceflown C. elegans from ICE-FIRST were characterized by altered muscle development, which was accompanied by corresponding declines in myosin heavy chain isoform gene expression <ref type="bibr" target="#b15">16</ref> and locomotion-related genes (Figure <ref type="figure" target="#fig_0">1</ref>). <ref type="bibr" target="#b39">40</ref> It should be noted that the ICE-FIRST experiments were carried out in a chemically defined medium, which permitted the study of the effects of surface tension in spaceflight, but significantly alters C. elegans development akin to dietary restriction. <ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b47">48</ref> Proteomic analysis from the same spaceflight mission (ICE-FIRST) found the core thick filament protein, paramyosin, was reduced in spaceflown samples. <ref type="bibr" target="#b40">41</ref> Additionally, spaceflight reduced troponin T, which binds tropomyosin and tethers the troponin complex to the thin filament, but increased troponin T phosphorylation. <ref type="bibr" target="#b40">41</ref> These data suggest that these genes and proteins may play a key role in the maintenance of muscle structure and function, and that their expressional change may be involved in spaceflight-induced muscle decline.</p><p>Utilizing quantitative isobaric tag for relative and absolute quantitation methodology, the follow-on CERISE experiment found that spaceflown C. elegans displayed an increase in 16 proteins mostly related to protein synthesis, including ribosomal proteins and translation elongation factors, and a decrease in 43 proteins, predominantly cytoskeletal, muscular, and mitochondrial related. <ref type="bibr" target="#b32">33</ref> Spaceflight-induced declines in muscular (e.g., UNC-15 (paromysin)) and cytoskeletal (e.g., ACT-5 (actin)) gene and protein expression have been shown, suggesting that the observed downregulation in these genes translates to reduced expression of the encoded protein. <ref type="bibr" target="#b32">33</ref> Importantly, physiological declines, such as reduced body length and altered movement, were also present suggesting these translational expression changes are physiologically meaningful. Of particular importance, the downregulation of myosin heavy chain and paramyosin genes reproduced earlier proteomic observations, <ref type="bibr" target="#b40">41</ref> providing confirmation that the observed proteomic changes were indeed due to microgravity.</p><p>Two recent studies highlighted potential therapeutic avenues to target in order to offset muscle decline in space. Sudevan et al. demonstrated that spaceflown C. elegans from 3 independent spaceflight missions consistently displayed decreased comt-4 gene expression (Figure <ref type="figure" target="#fig_0">1</ref>), which is a catechol-O-methyltransferase dopamine degradation enzyme. <ref type="bibr" target="#b26">27</ref> Thus, targeting the dopamine system may be a viable and realistic therapeutic to promote health in space. Another study found that simulated microgravity-exposed C. elegans which A B overexpressed one of three miRNAs (mir-54, mir-354, or mir-2208) experienced a lower level of effect on locomotion behavior, suggesting miRNA expression may have a role in resisting the detrimental effects of microgravity. <ref type="bibr" target="#b29">30</ref> Additionally, C. elegans shows potential as a model organism to explore the neuromuscular changes found in other animals exposed to spaceflight and microgravity. In one comparative analysis study, it was demonstrated that C. elegans transcriptional response to spaceflight demonstrates greater similarity with mouse extensor digitorum longus (fast-twitch muscle) compared to the soleus (slow-twitch muscle). <ref type="bibr" target="#b11">12</ref> Consistent with these observations, a shift from slow-twitch fiber toward fast-twitch fiber was seen in the soleus muscle in spaceflown mice. <ref type="bibr" target="#b48">49</ref> This may suggest that C. elegans results can be extrapolated to mammalian results; however, the caveat of this analysis is that whole C. elegans (i.e., muscle, neurons, gut, and reproductive tissue) were utilized and so the transcriptional signature is not isolated to C. elegans muscle. <ref type="bibr" target="#b11">12</ref> There are also spaceflight experiments not yet published that are exploring neuromuscular changes during spaceflight and generating transcriptomic datasets. For example, in 2018, there was the launch of the first UK-led experiment to the ISS, the Molecular Muscle Experiment (MME), which aims to demonstrate the precise mechanisms underlying muscle decline in space and to explore the efficacy of novel therapeutic interventions aimed at insulin signaling and muscle attachment complexes for offsetting spaceflight-induced muscle decline. <ref type="bibr" target="#b49">50</ref> More recently in 2021, there was the follow-up Molecular Muscle Experiment 2 (MME2), which aims to confirm past spaceflight-induced gene expression changes (i.e., MME) and trial the efficacy of pharmacological interventions aimed at improving mitochondrial health and neuromuscular signaling. Through collaboration with NASA GeneLab, samples from MME and MME2 have been subjected to RNA-sequencing and are undergoing analysis.</p><p>Together, the research discussed previously has highlighted many muscular and neuromuscular alterations in response to spaceflight and microgravity, providing the mechanistic basis for future studies of how microgravity elicits muscle adaptations in C. elegans. <ref type="bibr" target="#b32">33</ref> Importantly, some of these reproducible gene expression changes observed in spaceflown C. elegans, such as decreased myosin expression, are also observed in rodents and humans. <ref type="bibr" target="#b50">51</ref> Thus, spaceflight-induced changes in C. elegans gene expression are conserved in higher organisms and may explain the muscle decline observed in astronauts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MicroRNA and epigenetic alterations in microgravity</head><p>Transcriptional understanding of spaceflight (patho)physiology has been built upon by researchers based in China, following the SZ-8 mission. These authors focused on understanding the role of microRNAs (noncoding RNAs that control gene expression via the destabilization of messenger RNA targets at the posttranscriptional level and via translational inhibition) in response to microgravity and space radiation versus space radiation in isolation. <ref type="bibr" target="#b36">37</ref> The authors found microRNAs that are altered in spaceflight, <ref type="bibr" target="#b36">37</ref> more so than in response to radiation alone, <ref type="bibr" target="#b34">35</ref> are involved in developmental, DNA damage, apoptotic, and metabolic responses. <ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref> The authors found that microRNAs are involved in apoptotic gene expression due to the stressors of spaceflight (Figure <ref type="figure" target="#fig_0">1</ref>). <ref type="bibr" target="#b35">36</ref> Additionally, another study found that C. elegans exposed to microgravity demonstrated greater non-coding RNA gene expression. <ref type="bibr" target="#b30">31</ref> The data from these studies suggest that epigenetic changes occur with microgravity exposure. <ref type="bibr" target="#b30">31</ref> Microgravity has also been shown to alter DNA repair genes and the regulatory microRNAs. In a recent integrative analysis combining transcriptional and microRNA datasets from 3 microgravity experiments that each included spaceflight, spaceflight control with a 1-G centrifugal device, and ground control conditions, Zhao and colleagues reported significant alterations in the expression of DNA repair genes in response to microgravity. <ref type="bibr" target="#b51">52</ref> Their integrative analysis approach allowed the identification of microRNA's as potential post-transcriptional regulators that regulate the DNA repair gene expression in microgravity conditions. For example, under spaceflight/ground control conditions, the authors reported that 6 differentially expressed miRNAs (cel-miR-90, cel-miR-124, cel-miR-124, cel-miR-355, cel-miR-795, and cel-lsy-6) potentially regulate the expressions of 4 DNA repair genes (rfs-1, rcq-5, xpc-1, and mnat-1), <ref type="bibr" target="#b51">52</ref> demonstrating the power of omic analysis to provide insight into the altered DNA response in microgravity conditions.</p><p>Considering robust transcriptional changes occur in spaceflown C. elegans, it has been suggested that epigenetic changes may also occur since epigenetic modifications, such as DNA methylation and histone modifications, regulate gene expression. <ref type="bibr" target="#b28">29</ref> Despite this sound hypothesis, research into the epigenetic responses of spaceflown C. elegans has only recently begun. In the only relevant study known to date, microarray analysis revealed that 39 genes expressed in C. elegans in response to microgravity are suppressed by the action of HDA-4. <ref type="bibr" target="#b28">29</ref> This suggests that microgravity-induced transcriptional changes are potentially, in part, epigenetically controlled, thus calling for further research into the epigenetic programs underpinning microgravity adaptations, especially considering the potential heritability of any epigenetic changes. <ref type="bibr" target="#b52">53</ref> The potential intergenerational effects of spaceflight have already been reported in mice, where one study found that the offspring of space-traveled mice demonstrated altered expression of genes in the liver. <ref type="bibr" target="#b53">54</ref> Further study will build a deeper understanding of the effects of microgravity on the epigenome and the potential ramifications for any potential future offspring of spaceflown organisms and astronauts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INSIGHTS AND IMPACT OF C. ELEGANS SPACE OMICS WORK</head><p>As elucidated previously, space omics studies in C. elegans have generated several valuable insights on the molecular regulation of spaceflight maladaptation which, in turn, stand to beneficially impact future translatable research efforts toward better understanding and counteracting spaceflight-induced health declines. For instance, transcriptomic analyses highlight strong overlap of dysregulated genes in C. elegans from different spaceflight missions, despite variant experimental factors. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b32">33</ref> These reproducible findings highlight the utility of C. elegans as a prime model organism for robust spaceflight omics investigation and in particular future efforts aimed at ameliorating impaired molecular responses to spaceflight (the MME and MME2 missions as two examples). Particularly evident from previous worm space omics research are reproducible expression changes in neuronal/muscular and metabolic genes. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b32">33</ref> Given that worms in space might feasibly tract neuromuscular changes in gene expression of higher organisms in space, <ref type="bibr" target="#b11">12</ref> omics work to date thus also pinpoints C. elegans as an especially valuable model for understanding molecular causes of and developing countermeasures to declines in astronaut muscle health.</p><p>Interestingly, dysregulation of key muscle genes is evident even when spaceflown worms are compared to onboard 1-G control worms, <ref type="bibr" target="#b32">33</ref> implicating that such expression changes are the consequence of microgravity more so than increased radiation exposure. That mechanical load is the partial driver of muscle changes in space is further supported by other previous worm space microarray analyses, wherein dystrophin (a highly mechanosensitive molecule that plays a key role in maintaining muscle structure/function) <ref type="bibr" target="#b54">55</ref> was shown to be important in the omics response to spaceflight, particularly with respect to neuromuscular/cytoskeletal changes. <ref type="bibr" target="#b55">56</ref> In fact, transcriptional changes in worms generally appear more widespread in the spaceflight environment than with space radiations alone, <ref type="bibr" target="#b34">35</ref> with C. elegans work thus indicating that microgravity is the more predominant effector of spaceflight omics changes. More specifically, the space radiation dose on the ISS is $0.5-1 mSv per day, including $50 charged particles/sr/cm2 with high linear energy transfer (&gt;10 keV/mm). <ref type="bibr" target="#b56">[57]</ref><ref type="bibr" target="#b57">[58]</ref><ref type="bibr" target="#b58">[59]</ref> Since an adult nematode C. elegans is $1 mm long and 0.05 mm wide, the probability of a direct hit by charged particles is relatively low. In addition, DNA damage by heavy particle radiation, not only ionizing radiation, is efficiently repaired in meiotic oocytes, which make up the majority of nematode adult gonads, because of their high homologous recombination activity. <ref type="bibr" target="#b59">60,</ref><ref type="bibr" target="#b60">61</ref> Thus, it is challenging to precisely evaluate the effects of space radiation in omics analyses using a large number of C. elegans cultured for a short period. Instead, the effects of space radiation on C. elegans are mainly studied by examining the frequency of mutations that can be observed in each individual nematode. <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b61">62,</ref><ref type="bibr" target="#b62">63</ref> Thus, while it appears from studies in C. elegans that radiation exposure in lower Earth orbit is not a major contributor to observed omics changes, the effects in higher mammals and humans, as well as the potential effects beyond in lower Earth orbit and the protective effects of the Van Allen belts, render the consequences of spaceflight radiation on omics/biology uncertain.</p><p>Omics work in spaceflown worms has also provided several important insights into upstream regulatory mechanisms of spaceflight molecular responses. For example, microarray analysis of spaceflown C. elegans implicates a prominence toward insulin signaling regulation of spaceflight-induced expression changes <ref type="bibr" target="#b38">39</ref> that is likely to be partly driven by DAF-16/FoxO 25 -though more recent comparative transcriptomic analyses of C. elegans suggest that FoxO regulation of gene expression may be a stress response to altered gravity per se. <ref type="bibr" target="#b4">5</ref> Regardless, given that FoxO signaling is a highly conserved regulatory pathway across species, <ref type="bibr" target="#b63">64</ref> such worm omics data should provide a strong basis to accelerate mechanistic understanding of poor spaceflight adaptations of higher organisms. <ref type="bibr" target="#b4">5</ref> Indeed, recent evidence supports insulin signaling alterations during spaceflight in higher organisms, including both rodents and astronauts. <ref type="bibr" target="#b64">65</ref> Finally, more recent transcriptomic-driven analysis of spaceflown worms suggests that dopamine signaling is also perturbed with microgravity. <ref type="bibr" target="#b26">27</ref> Key implications and insights from C. elegans space omics work have been further summarized in Figure <ref type="figure" target="#fig_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>NEXT FRONTIERS IN C. ELEGANS SPACE OMICS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Linking omics to phenotype</head><p>While understanding the molecular responses to microgravity in isolation are important, these will be more informative if they quantitatively link to functional outcomes. Using informatic approaches, authors can, and should, directly relate the C. elegans omics signatures to functional outcomes such as movement rate and/or strength, to identify biologically important pathways and molecules regulating the phenotypic responses to microgravity. Ideally, all of these analyses would be performed in the same animals to make firm mechanistic links. <ref type="bibr" target="#b32">33</ref> Indeed, such ''omics-phenotype'' links have been made previously, albeit not in the context of spaceflown C. elegans. <ref type="bibr" target="#b65">66,</ref><ref type="bibr" target="#b66">67</ref> This approach can also be taken toward the creation and application of personalized medicine in the treatment of human disease. The potential use of C. elegans as a model organism for personalized medicine is already being explored in various ways. One study explored using C. elegans as a model for examining variations in metabolism between individuals via the application of metabolomics and comparative genomics, demonstrating differences in the levels of several metabolites between four strains of C. elegans. <ref type="bibr" target="#b67">68</ref> This demonstrates the use of C. elegans as a building block toward understanding the differences in metabolism between individuals within a species. <ref type="bibr" target="#b67">68</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Integrated multi-omics</head><p>Without doubt, transcriptomics and proteomics are the most common omics analyses performed thus far in C. elegans subjected to microgravity conditions. However, microgravity likely affects many other biological layers, therefore the use of other omics can contribute to a more complete understanding of the effects of spaceflight. For example, C. elegans-specific metabolomics and lipidomics methodologies are emerging, <ref type="bibr" target="#b68">69</ref> providing additional and powerful omics capabilities to probe the pathophysiological effects of spaceflight and reveal the potential of therapeutic interventions. These multiple omics approaches can be integrated (i.e., at the computational analysis stage) to provide a comprehensive understanding of the condition-specific crosstalk between different biological levels, therein providing a better understanding of microgravity-inducing mechanisms and the identification of novel candidates for therapeutic intervention. Indeed, this approach has been taken in C. elegans to investigate responses to aging, <ref type="bibr" target="#b69">70</ref> starvation, <ref type="bibr" target="#b70">71</ref> and antibiotics, <ref type="bibr" target="#b71">72</ref> albeit not in the context of spaceflight.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tissue-specific and spatial omics</head><p>It is notable that the majority of omics work to date has been generated using RNA/protein extracted from whole worms containing all tissue types (i.e., muscles, gut, and neurons) as opposed to individual tissues, and so the tissue-specific transcriptome/proteome responses to altered gravity are yet to be distinguished. <ref type="bibr" target="#b4">5</ref> Indeed, it is possible to isolate and sequence individual tissues derived from C. elegans, <ref type="bibr" target="#b72">73</ref> and since spaceflight can induced a wide variety of maladaptations across many organs, understanding tissue-specific responses to microgravity is necessary in order to precisely underpin regulatory mechanisms and develop targeted and effective countermeasures against spaceflight-induced maladaptations.</p><p>Further, conventional microarray and RNA-sequencing approaches do not provide spatial information, and tissue-specific transcriptomics only partially solves this problem since it still takes into account ubiquitously expressed genes (i.e., housekeeper genes). <ref type="bibr" target="#b73">74</ref> Spatial transcriptomics is an emerging method to overcome these limitations, which combines RNA-sequencing with serial tissue sectioning <ref type="bibr" target="#b74">75</ref> to identify tissue-specific spatiotemporal gene responses. By adapting the RNA tomography approach originally developed for zebrafish, <ref type="bibr" target="#b74">75</ref> Ebbing and co-authors were able to successfully apply spatial transcriptomics to C. elegans, which was considered a major challenge due to the limited amount of mRNA that can be extracted from individual sections of small organisms. <ref type="bibr" target="#b73">74</ref> The authors individually froze and cryosectioned (20 mm) C. elegans, followed by RNA extraction and processing using CEL-seq (to overcome the challenges of low input). <ref type="bibr" target="#b75">76</ref> Using this combination of tools, the authors were able to detect an average of 16,394 genes in young wild-type adult hermaphrodites, equating to 93% of genes detected in bulk RNA-sequencing experiments, <ref type="bibr" target="#b76">77</ref> and they also demonstrated regional expression was highly indicative of function. <ref type="bibr" target="#b73">74</ref> Thus, spatial transcriptomics offers a highly sensitive method to generate complex data, and develop deeper understanding of tissue organization, or disorganization, in disease. Spatial transcriptomics has been used to create tissue atlases that have served not only particular use in creating detailed maps of the nervous system of mice but also furthered understanding of important topics in biology like heart development. <ref type="bibr" target="#b77">78</ref> Currently, the application of C. elegans spatial transcriptomics is in its infancy with only three publications known to date, <ref type="bibr" target="#b73">74,</ref><ref type="bibr" target="#b78">79,</ref><ref type="bibr" target="#b79">80</ref> none of which have been conducted in the context of microgravity. Similarly, cell-specific proteomics methodologies that permit analysis of body wall muscles, neurons, and pharyngeal muscles have been developed <ref type="bibr" target="#b80">81</ref> but are yet to be exploited in the context of microgravity.</p><p>In the absence of high-throughput spatiotemporal techniques, spatiotemporal insight is traditionally and routinely gained in C. elegans through the utility of GFP. <ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b81">82</ref> Capitalizing on the nematodes transparent body, GFP is ''tagged'' to a gene/protein of interest to gain information on expression patterns and subcellular localization in vivo. In the context of simulated microgravity, Zhao and colleagues demonstrated the temporal induction of oxidative stress and the underlying mechanisms. <ref type="bibr" target="#b81">82</ref> In the context of microgravity, the utility of GFP helped to demonstrate that treatment with RNAi works as effectively in space as it does on Earth in multiple tissues. <ref type="bibr" target="#b37">38</ref> Most recently, as part of the MME, GFP was exploited to monitor neuronal responses to microgravity. <ref type="bibr" target="#b46">47</ref> In summary, despite the potential promise of these emerging methods for transforming our mechanistic understanding of spaceflight (patho)physiology, these methods must be trialed for effectiveness in the spaceflight environment, much like RNAi technology was. <ref type="bibr" target="#b37">38</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSION</head><p>C. elegans represents a cheap and feasible organism to study the mechanisms regulating phenotypic adaptations in response to microgravity. We highlight that the application of omics analysis to spaceflight research has identified many ways that C. elegans respond to microgravity, at the level of the transcriptome, proteome, and epigenome. Notably, microgravity elicits transcriptional responses with microgravity robustly regulating genes related to muscle locomotion and metabolism (Figure <ref type="figure" target="#fig_0">1</ref>). Similarly, proteomic changes in microgravity represent robust declines in cytoskeletal and metabolic proteins, which may underpin the pathophysiological phenotype associated with microgravity, particularly muscle decline. Importantly, these major transcriptional signatures are reproducible despite substantial differences in culturing conditions. Future work should consider using emerging omics approaches, such as multi-omics and spatial transcriptomics, to unravel tissue-specific spatiotemporal responses to microgravity in C. elegans. Where possible, such experiments should adopt, or at least consider, consortium-devised omics-related working pipelines in order to standardize experimental design, such as those developed by the International Standards for Space Omics Processing. In turn, this will facilitate future comparative omics investigations, thus extracting as much insight as possible from rare space omics experiments. This will lead to the identification of the fundamental mechanisms regulating (mal)adaptations to microgravity, benefiting health while in space and on Earth (e.g., aging, diabetes).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Key insights from C. elegans space omics experiments (A) Venn diagram depicting reproducible gene expression signatures from multiple microgravity experiments in C. elegans. (B) A summary of the key findings from C. elegans space omics experiments.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Transcriptomic investigations of C. elegans in the context of microgravity</figDesc><table><row><cell></cell><cell>Spaceflight</cell><cell>Omics Analysis</cell><cell></cell><cell></cell></row><row><cell>Authors</cell><cell>Mission/s</cell><cell>Platform</cell><cell>Key Outcomes</cell><cell>Take Home Message</cell></row><row><cell>Celen et al. 26</cell><cell>CERISE Simulated</cell><cell>RNA-seq</cell><cell>-Simulated microgravity affects the sphingolipid signaling pathway and the longevity-regulating insulin/IGF-1 pathway</cell><cell>Detrimental effects from spaceflight are replicable in simulated microgravity</cell></row><row><cell></cell><cell>microgravity</cell><cell></cell><cell>-118 genes were identified as</cell><cell>and pose long-term health concerns</cell></row><row><cell></cell><cell></cell><cell></cell><cell>commonly differentially expressed in</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>C. elegans exposed to either simulated</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>microgravity or spaceflight</cell><cell></cell></row><row><cell>Sudevan et al. 27</cell><cell>CERISE EPIGENETICS</cell><cell>Microarray</cell><cell>-Spaceflown C. elegans consistently display decreased comt-4 gene expression (a catechol-O-methyltransferase dopamine</cell><cell>Targeting the dopamine system may be a viable and realistic therapeutic</cell></row><row><cell></cell><cell>MME</cell><cell></cell><cell>degradation enzyme)</cell><cell>to promote safe space travel</cell></row><row><cell></cell><cell>Simulated</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>microgravity</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Sun et al. 28</cell><cell>Simulated microgravity</cell><cell>RNA-seq</cell><cell>-Multiple intestinal long non-coding RNAs were increased/decreased by simulated microgravity</cell><cell>Long non-coding RNAs are involved in regulating the response to</cell></row><row><cell></cell><cell></cell><cell></cell><cell>-Knockdown of a candidate long</cell><cell>simulated microgravity</cell></row><row><cell></cell><cell></cell><cell></cell><cell>non-coding RNA and simulated</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>microgravity led to the dysregulation</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>of 43 genes</cell><cell></cell></row><row><cell cols="3">Higashitani et al. 29 EPIGENETICS Microarray</cell><cell>-39 genes expressed in C. elegans in response to microgravity are suppressed by the action of HDA-4</cell><cell>(At least some) transcriptional changes caused by microgravity are</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>epigenetically</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>controlled</cell></row><row><cell>Sun et al. 30</cell><cell>Simulated microgravity</cell><cell>miRNA-Seq</cell><cell>-19 miRNAs are dysregulated by exposure to simulated microgravity, many of which served to protect against the toxicity</cell><cell>miRNA regulation can be protective against the negative effects of</cell></row><row><cell></cell><cell></cell><cell></cell><cell>of microgravity</cell><cell>simulated microgravity</cell></row><row><cell>Tee et al. 31</cell><cell>Simulated microgravity</cell><cell>Microarray</cell><cell>-1 gene was downregulated in nematode growth medium-cultured C. elegans exposed to simulated microgravity</cell><cell>Simulated microgravity on a single generation of C. elegans did</cell></row><row><cell></cell><cell></cell><cell></cell><cell>-6 genes were upregulated and 2 downregulated in C. elegans exposed</cell><cell>not induce major transcriptional changes</cell></row><row><cell></cell><cell></cell><cell></cell><cell>to Maintenance Medium during</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>microgravity</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>-5 of the upregulated genes</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>encoded non-coding RNAs</cell><cell></cell></row><row><cell>Gao et al. 32</cell><cell>SZ-8</cell><cell>Microarray microRNA</cell><cell>-Protein phosphorylation/dephosphorylation is receptive to microgravity and space radiation</cell><cell>Microgravity elicits transcriptional changes in C. elegans during</cell></row><row><cell></cell><cell></cell><cell>microarray</cell><cell>-Microgravity impacts transcription depending on the dystrophin gene (dys-1)</cell><cell>short-duration spaceflight</cell></row><row><cell></cell><cell></cell><cell></cell><cell>-Loss of function of ced-1 (apoptotic gene)</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>leads protective responses to space radiation</cell><cell></cell></row><row><cell>Higashibata et al. 33</cell><cell>CERISE</cell><cell>Microarray</cell><cell>-Downregulation of muscle-related genes (such as the myosin heavy chains, troponins, and intermediate filaments) and metabolic</cell><cell>Gene changes reproducible across spaceflights</cell></row><row><cell></cell><cell></cell><cell></cell><cell>genes in spaceflown samples</cell><cell></cell></row><row><cell>Zhao et al. 34</cell><cell>SZ-8</cell><cell>Microarray</cell><cell>-86 differentially expressed genes were identified in response to space, and were mainly related to oxidative phosphorylation</cell><cell>Microgravity was the main factor to induce the biological effects</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>in the level of gene expressions,</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>rather than space radiation</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>(Continued on next page)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>Continued</figDesc><table><row><cell></cell><cell>Spaceflight</cell><cell>Omics Analysis</cell><cell></cell><cell></cell></row><row><cell>Authors</cell><cell>Mission/s</cell><cell>Platform</cell><cell>Key Outcomes</cell><cell>Take Home Message</cell></row><row><cell>Gao et al. 35</cell><cell>SZ-8</cell><cell>Microarray microRNA</cell><cell>-Spaceflight increased the number of differentially expressed miRNAs</cell><cell>miRNAs are likely involved in apoptosis during short-term</cell></row><row><cell></cell><cell></cell><cell>microarray</cell><cell>-Space conditions increased changes in the expression of miRNAs that may impact</cell><cell>spaceflight</cell></row><row><cell></cell><cell></cell><cell></cell><cell>development, energy metabolism, apoptosis,</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>and signaling transduction</cell><cell></cell></row><row><cell>Gao et al. 36</cell><cell>SZ-8</cell><cell>Microarray microRNA</cell><cell>-Double the number of transcripts were significantly altered in the spaceflight environment compared with space</cell><cell>Microgravity, in the presence of radiation, enhances the DNA</cell></row><row><cell></cell><cell></cell><cell>microarray</cell><cell>radiation alone</cell><cell>damage response in C. elegans</cell></row><row><cell></cell><cell></cell><cell></cell><cell>-The majority of alterations were related</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>to protein amino acid dephosphorylation</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>and histidine metabolic and catabolic processes</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>-cel-miR-81, cel-miR-82, cel-miR-124,</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>and cel-miR-795 were predicted to</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>regulate DNA damage response</cell><cell></cell></row><row><cell>Xu et al. 37</cell><cell>SZ-8</cell><cell>Microarray</cell><cell>-23 miRNAs were altered in spaceflight</cell><cell></cell></row><row><cell></cell><cell></cell><cell>microRNA</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>microarray</cell><cell></cell><cell></cell></row><row><cell>Higashibata et al. 40</cell><cell>ICE-FIRST</cell><cell>Microarray</cell><cell>-Microgravity upregulated genes related to early embryogenesis</cell><cell>Microgravity regulates genes related to locomotion, early embryogenesis,</cell></row><row><cell></cell><cell></cell><cell></cell><cell>-Microgravity downregulated genes related to locomotion</cell><cell>and regeneration in C. elegans.</cell></row><row><cell>Higashibata et al. 16</cell><cell>ICE-FIRST</cell><cell>Microarray</cell><cell>-Myosin heavy chain isoforms in the body wall muscles (isoforms A &amp; B) and the pharyngeal muscles (isoforms C &amp; D)</cell><cell>C. elegans muscle development is altered in spaceflight, which may</cell></row><row><cell></cell><cell></cell><cell></cell><cell>decreased in expression in C. elegans</cell><cell>contribute to spaceflight-induced</cell></row><row><cell></cell><cell></cell><cell></cell><cell>developed in space, relative to ground controls</cell><cell>muscle atrophy</cell></row><row><cell></cell><cell></cell><cell></cell><cell>-Expression of transcription factors</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>controlling the expression of the myosin</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>heavy chain isoforms was also decreased</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>-Genes encoding troponins and</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>tropomyosins were also decreased</cell><cell></cell></row></table><note><p>-Most putative target genes of the altered miRNAs were predicted to be involved in developmental processes -cel-miR-52, -55, and À56 of the miR-51 family were sensitive to space environmental stressors C. elegans respond to spaceflight by altering miRNAs expression Etheridge et al. 38 CERISE Microarray microRNA -The expression of the vast majority of microRNAs is not affected by microgravity -RNAi effectively silenced transgenic and endogenous genes in the gonad -RNAi against lysosomal protease genes prevented muscle protein degradation RNAi works as effectively in the spaceflight environment as on Earth within multiple tissues Selch et al. 39 ICE-FIRST Microarray -Normal developmental timing, apoptosis, and DNA repair transcriptional signature -Altered muscle development transcriptional signature -Spaceflown C. elegans undergo a metabolic shift, which may be underlaid by insulin and/or TGF-b signaling C. elegans can be used to study the effects of altered gravity CERISE, C. elegans RNAi Space Experiment; EDL, extensor digitorum longus; EPIENETICS, The effect of microgravity on the epigenetic modification in C. elegans; ICE-FIRST, FIRST International C. elegans Experiment in space; IGF-1, Insulin-like growth factor 1; ISS, International Space Station; MME, Molecular Muscle Experiment; SZ-8, Shenzhou-8; TGF-b, transforming growth factor-beta.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc>Proteomic investigations of C. elegans in the context of microgravity</figDesc><table><row><cell>Authors</cell><cell>Spaceflight</cell><cell>Omics Analysis Platform</cell><cell cols="2">Key Outcomes</cell><cell>Take Home Message</cell></row><row><cell>Higashibata et al. 33</cell><cell>CERISE</cell><cell>iTRAQ</cell><cell cols="3">-16 upregulated proteins, with many related to protein synthesis</cell><cell>Protein changes reproducible across</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="3">-43 downregulated proteins, many being cytoskeletal and metabolic proteins</cell><cell>spaceflights</cell></row><row><cell>Higashibata et al. 41</cell><cell>ICE-FIRST</cell><cell>2D gel electrophoresis</cell><cell cols="2">-$100 proteins identified</cell><cell>Spaceflight influenced the</cell></row><row><cell></cell><cell></cell><cell>and MALDI-TOF MS</cell><cell cols="3">-Spaceflight reduced paramyosin and aconi-</cell><cell>expression of muscle-</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">tase expression</cell><cell>related proteins</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="3">-Spaceflight reduced the expression of</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="3">troponin T, but increased the phosphory-</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">lation of troponin T</cell></row><row><cell>Higashibata et al. 40</cell><cell>ICE-FIRST</cell><cell>2D gel electrophoresis</cell><cell cols="3">-&gt;1000 total protein spots and $200 phos-phoprotein spots detected</cell><cell>Spaceflight impacts</cell></row><row><cell></cell><cell></cell><cell></cell><cell>-10%-15%</cell><cell>significantly</cell><cell>increased</cell><cell>or</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="3">decreased in spaceflown samples</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="3">-Several phosphoprotein spots also signifi-</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="3">cantly reduced in spaceflown samples</cell></row></table><note><p>proteome CERISE, C. elegans RNAi Space Experiment; ICE-FIRST, FIRST International C. elegans Experiment in space; ISS, International Space Station; iTRAQ, isobaric tags for relative and absolute quantitation; MALDI-TOF, matrix-assisted laser desorption/ionization-time of flight; MME, Molecular Muscle Experiment; MS, mass spectrometry; 2D, 2 dimensional.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 .</head><label>3</label><figDesc>Comparative omic investigations of C. elegans in the context of microgravity</figDesc><table><row><cell></cell><cell>Spaceflight</cell><cell>Omics Analysis</cell><cell></cell><cell></cell></row><row><cell>Authors</cell><cell>Mission/s</cell><cell>Platform</cell><cell>Key Outcomes</cell><cell>Take Home Message</cell></row><row><cell>Cahill et al. 12</cell><cell>ICE-FIRST</cell><cell>Microarray</cell><cell>-C. elegans transcriptional response to spaceflight demonstrates greater similarity with mouse EDL (fast-twitch muscle)</cell><cell>C. elegans results might be able to be extrapolated to mammalian results</cell></row><row><cell></cell><cell></cell><cell></cell><cell>compared to the soleus (slow-twitch mus-</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>cle)</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>-There was a similar increase in proliferation-</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>related genes, cAMP signaling</cell><cell></cell></row><row><cell>Willis et al. 5</cell><cell>Microgravity: ICE-FIRST</cell><cell>Microarray</cell><cell>-Most common gene signatures between hypergravity and microgravity were simi-larly upregulated (ubiquitin-mediated</cell><cell>Hypergravity and microgravity elicit neuronal and metabolic</cell></row><row><cell></cell><cell>CERISE</cell><cell></cell><cell>catabolism, actin cytoskeleton regulation,</cell><cell>adaptations</cell></row><row><cell></cell><cell>Hypergravity</cell><cell></cell><cell>cell cycle processes) or downregulated</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>(immune system regulation)</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>-''Metabolic regulation'' displayed opposing</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>regulation in response to hypergravity</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>versus microgravity</cell><cell></cell></row><row><cell>Leandro et al. 42</cell><cell>ICE-FIRST</cell><cell>Microarray</cell><cell>-Only 6 genes were commonly downregu-lated in C. elegans and Drosophila mela-</cell><cell>Very few genes are commonly regulated</cell></row><row><cell></cell><cell></cell><cell></cell><cell>nogaster</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>-Although, the number of genes that could</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>be compared was reduced to only $20%</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>of the comparative genome, due to ortho-</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>log-related challenges</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>-The 6 genes were associated with meta-</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>bolic and neuromuscular signaling</cell><cell></cell></row></table><note><p>between C. elegans and Drosophila melanogaster by spaceflight cAMP, cyclic adenosine monophosphate; CERISE, C. elegans RNAi Space Experiment; EDL, extensor digitorum longus; ICE-FIRST, FIRST International C. elegans Experiment in space.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>iScience 26, 107189, July 21, 2023</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>iScience 26, 107189, July 21, 2023</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>ACKNOWLEDGMENTS T.E., N.J.S., and C.S.D. are members of the <rs type="funder">European Space Agency-funded Space Omics Topical Team</rs>, funded by the <rs type="funder">ESA</rs> grant/contract <rs type="grantNumber">4000131202/20/NL/PG/</rs>pt ''<rs type="projectName">Space Omics: Toward an integrated ESA/ NASA -omics database for spaceflight and ground facilities experiments</rs>.'' N.J.S. was supported by grants from <rs type="funder">NASA</rs> [<rs type="grantNumber">NSSC22K0250</rs>; <rs type="grantNumber">NSSC22K0278</rs>] and acknowledges the support of the <rs type="funder">Osteopathic Heritage Foundation</rs> through funding for the <rs type="funder">Osteopathic Heritage Foundation Ralph S. Licklider</rs>, D.O., Research Endowment in the <rs type="funder">Heritage College of Osteopathic Medicine</rs>. C.S.D. was supported by a <rs type="funder">Medical Research Council</rs> <rs type="grantName">Skills Development Fellowship</rs> (<rs type="grantNumber">MR/T026014/1</rs>). For the purpose of open access, the author has applied a 'Creative Commons Attribution (CC BY) licence to any Author Accepted Manuscript version arising.This study did not generate any new data.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_nbMkgWU">
+					<idno type="grant-number">4000131202/20/NL/PG/</idno>
+					<orgName type="project" subtype="full">Space Omics: Toward an integrated ESA/ NASA -omics database for spaceflight and ground facilities experiments</orgName>
+				</org>
+				<org type="funding" xml:id="_sxjSZfu">
+					<idno type="grant-number">NSSC22K0250</idno>
+				</org>
+				<org type="funding" xml:id="_5QQh3Hm">
+					<idno type="grant-number">NSSC22K0278</idno>
+				</org>
+				<org type="funding" xml:id="_FyqmvsD">
+					<idno type="grant-number">MR/T026014/1</idno>
+					<orgName type="grant-name">Skills Development Fellowship</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>A.S., T.E., N.J.S., and C.S.D.: conception and design. A.S. and C.S.D.: original draft preparation. A.S., C.R.G.W., M.M., A.H., T.E., N.J.S., and C.S.D.: subsection contributions, review and editing. All authors contributed to the final approval of manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DECLARATION OF INTERESTS</head><p>The authors declare no conflicts of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The NASA Twins Study: A multidimensional analysis of a yearlong human spaceflight</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Garrett-Bakelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Darshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Gur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Macias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mckenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meydan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nasrini</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aau8650</idno>
+		<ptr target="https://doi.org/10.1126/science.aau8650" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">364</biblScope>
+			<biblScope unit="page">8650</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Space travel directly induces skeletal muscle atrophy</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Vandenburgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chromiak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shansky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Del Tatto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lemaire</surname></persName>
+		</author>
+		<idno type="DOI">10.1096/fasebj.13.9.1031</idno>
+		<ptr target="https://doi.org/10.1096/fasebj.13.9.1031" />
+	</analytic>
+	<monogr>
+		<title level="j">Faseb. J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1031" to="1038" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Neuro-consequences of the spaceflight environment</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Mhatre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Iyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Puukila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G T</forename><surname>Tahimic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rubinstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Alwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Sowa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bhattacharya</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neubiorev.2021.09.055</idno>
+		<ptr target="https://doi.org/10.1016/j.neubiorev.2021.09.055" />
+	</analytic>
+	<monogr>
+		<title level="j">Neurosci. Biobehav. Rev</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="908" to="935" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Sarcopenia, dynapenia, and the impact of advancing age on human skeletal muscle size and strength; a quantitative review</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Atherton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Larvin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Narici</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2012.00260</idno>
+		<ptr target="https://doi.org/10.3389/fphys.2012.00260" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">260</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Comparative Transcriptomics Identifies Neuronal and Metabolic Adaptations to Hypergravity and Microgravity in Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R G</forename><surname>Willis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Udranszky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Reinsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etheridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Conley</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.isci.2020.101734</idno>
+		<ptr target="https://doi.org/10.1016/j.isci.2020.101734" />
+	</analytic>
+	<monogr>
+		<title level="j">iScience</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">101734</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A New Era for Space Life Science: International Standards for Space Omics Processing</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Barker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bezdan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Degoricija</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Fisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Gabitto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gebre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Giacomello</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.patter.2020.100148</idno>
+		<ptr target="https://doi.org/10.1016/j.patter.2020.100148" />
+	</analytic>
+	<monogr>
+		<title level="j">Patterns (N Y)</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">100148</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A Transparent Window into Biology: A Primer on Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Corsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wightman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chalfie</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/genetics.115.176099</idno>
+		<ptr target="https://doi.org/10.1534/genetics.115.176099" />
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="page" from="387" to="407" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Radiation effects in nematodes: results from IML-1 experiments</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Schubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Kazarians</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Richards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Benton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Benton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Henke</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0273-1177(94)90455-3</idno>
+		<ptr target="https://doi.org/10.1016/0273-1177(94)90455-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="87" to="91" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Development and chromosome mechanics in nematodes: results from IML-1</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Schubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Kazarians</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Richards</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0273-1177(94)90405-7</idno>
+		<ptr target="https://doi.org/10.1016/0273-1177(94)90405-7" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="209" to="214" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Caenorhabditis elegans survives atmospheric breakup of STS-107, space shuttle Columbia</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Mancinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Mclamb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Blumberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Conley</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/ast.2005.5.690</idno>
+		<ptr target="https://doi.org/10.1089/ast.2005.5.690" />
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="690" to="705" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Chemically defined medium and Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kozak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Conley</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1472-6750-3-19</idno>
+		<ptr target="https://doi.org/10.1186/1472-6750-3-19" />
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">19</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Mammalian and Invertebrate Models as Complementary Tools for Gaining Mechanistic Insight on Muscle Responses to Spaceflight</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cahill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Bass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Overbey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gilbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Da Silveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Herranz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Reinsch</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ijms22179470</idno>
+		<ptr target="https://doi.org/10.3390/ijms22179470" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<date type="published" when="2021">2021. 9470</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Identification of novel human genes evolutionarily conserved in Caenorhabditis elegans by comparative proteomics</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Chou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Y</forename><surname>Ch'ang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gr.10.5.703</idno>
+		<ptr target="https://doi.org/10.1101/gr.10.5.703" />
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="703" to="713" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Modeling human diseases in Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Markaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tavernarakis</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/biot.201000183</idno>
+		<ptr target="https://doi.org/10.1002/biot.201000183" />
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. J</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1261" to="1276" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Remote automated multi-generational growth and observation of an animal in low Earth orbit</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Oczypok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etheridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stodieck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Johnsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baillie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rsif.2011.0716</idno>
+		<ptr target="https://doi.org/10.1098/rsif.2011.0716" />
+	</analytic>
+	<monogr>
+		<title level="j">J. R. Soc. Interface</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="596" to="599" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Decreased expression of myogenic transcription factors and myosin heavy chains in Caenorhabditis elegans muscles developed during spaceflight</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Conley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Imamizo-Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ishioka</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jeb.02365</idno>
+		<ptr target="https://doi.org/10.1242/jeb.02365" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">209</biblScope>
+			<biblScope unit="page" from="3209" to="3218" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Exercise in space: human skeletal muscle after 6 months aboard the International Space Station</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Trappe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Costill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gallagher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Creer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Riley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Fitts</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.91578.2008</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.91578.2008" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="1159" to="1168" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Multi-omics approaches to disease</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hasin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Seldin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lusis</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13059-017-1215-1</idno>
+		<ptr target="https://doi.org/10.1186/s13059-017-1215-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">83</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Personalized medicine in human space flight: using Omics based analyses to develop individualized countermeasures that enhance astronaut safety and performance</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Goodwin</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11306-013-0556-3</idno>
+		<ptr target="https://doi.org/10.1007/s11306-013-0556-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Metabolomics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1134" to="1156" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Overview of Systems Biology and Omics Technologies</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Karahalil</surname></persName>
+		</author>
+		<idno type="DOI">10.2174/0929867323666160926150617</idno>
+		<ptr target="https://doi.org/10.2174/0929867323666160926150617" />
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Med. Chem</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="4221" to="4230" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">GeneLab: Omics database for spaceflight experiments</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gebre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fogle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Berrios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Galazka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/bty884</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/bty884" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1753" to="1759" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Global transcriptomic analysis suggests carbon dioxide as an environmental stressor in spaceflight: A systems biology GeneLab case study</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cekanaviciute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-018-22613-1</idno>
+		<ptr target="https://doi.org/10.1038/s41598-018-22613-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">4191</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Revamping Spaceomics in Europe</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Madrigal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gabel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Villacampa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Manzano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Deane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bezdan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Carnero-Diaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Medina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hardiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Grosse</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cels.2020.10.006</idno>
+		<ptr target="https://doi.org/10.1016/j.cels.2020.10.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Syst</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="555" to="556" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Space omics research in Europe: Contributions, geographical distribution and ESA member state funding schemes</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Deane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Silveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Herranz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.isci.2022.103920</idno>
+		<ptr target="https://doi.org/10.1016/j.isci.2022.103920" />
+	</analytic>
+	<monogr>
+		<title level="j">iScience</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">103920</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>Space Omics Topical Team</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Spaceflight and ageing: reflecting on Caenorhabditis elegans in space</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Narici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000354772</idno>
+		<ptr target="https://doi.org/10.1159/000354772" />
+	</analytic>
+	<monogr>
+		<title level="j">Gerontology</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="138" to="142" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Transcriptomic Signature of the Simulated Microgravity Response in Caenorhabditis elegans and Comparison to Spaceflight Experiments</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Celen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jayasinghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Doh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Sabanayagam</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/cells12020270</idno>
+		<ptr target="https://doi.org/10.3390/cells12020270" />
+	</analytic>
+	<monogr>
+		<title level="j">Cells</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Loss of physical contact in space alters the dopamine system in C. elegans</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sudevan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Muto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hashizume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Ellwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Deane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Vanapalli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etheridge</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.isci.2022.103762</idno>
+		<ptr target="https://doi.org/10.1016/j.isci.2022.103762" />
+	</analytic>
+	<monogr>
+		<title level="j">iScience</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">103762</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Intestinal long non-coding RNAs in response to simulated microgravity stress in Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-021-81619-4</idno>
+		<ptr target="https://doi.org/10.1038/s41598-021-81619-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="1997">2021. 1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Histone deacetylase HDA-4-mediated epigenetic regulation in space-flown C. elegans</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hashizume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Takiura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Teranishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oshima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kuriyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41526-021-00163-7</idno>
+		<ptr target="https://doi.org/10.1038/s41526-021-00163-7" />
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">33</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">microRNAs involved in the control of toxicity on locomotion behavior induced by simulated microgravity stress in Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-020-74582-z</idno>
+		<ptr target="https://doi.org/10.1038/s41598-020-74582-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">17510</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Effects of simulated microgravity on gene expression and biological phenotypes of a single generation Caenorhabditis elegans cultured on 2 different media</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Tee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Neoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Then</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Murad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Asillam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Hashim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jamal</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.lssr.2017.06.002</idno>
+		<ptr target="https://doi.org/10.1016/j.lssr.2017.06.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Life Sci. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="11" to="17" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The DNA damage response of C. elegans affected by gravity sensing and radiosensitivity during the Shenzhou-8 spaceflight</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mrfmmm.2017.01.001</idno>
+		<ptr target="https://doi.org/10.1016/j.mrfmmm.2017.01.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Mutat. Res</title>
+		<imprint>
+			<biblScope unit="volume">795</biblScope>
+			<biblScope unit="page" from="15" to="26" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Microgravity elicits reproducible alterations in cytoskeletal and metabolic gene and protein expression in space-flown Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hashizume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nemoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etheridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sugimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Baba</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/npjmgrav.2015.22</idno>
+		<ptr target="https://doi.org/10.1038/npjmgrav.2015.22" />
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">15022</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Mining potential biomarkers associated with space flight in Caenorhabditis elegans experienced Shenzhou-8 mission with multiple feature selection techniques</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mrfmmm.2016.08.002</idno>
+		<ptr target="https://doi.org/10.1016/j.mrfmmm.2016.08.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Mutat. Res</title>
+		<imprint>
+			<biblScope unit="volume">791</biblScope>
+			<biblScope unit="issue">792</biblScope>
+			<biblScope unit="page" from="27" to="34" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Effects of microgravity on DNA damage response in Caenorhabditis elegans during Shenzhou-8 spaceflight</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.3109/09553002.2015.1043754</idno>
+		<ptr target="https://doi.org/10.3109/09553002.2015.1043754" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Radiat. Biol</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="531" to="539" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Changes in apoptotic microRNA and mRNA expression profiling in Caenorhabditis elegans during the Shenzhou-8 mission</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jrr/rrv050</idno>
+		<ptr target="https://doi.org/10.1093/jrr/rrv050" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Radiat. Res</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="872" to="882" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Changes in miRNA expression profile of space-flown Caenorhabditis elegans during Shenzhou-8 mission</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.lssr.2013.12.001</idno>
+		<ptr target="https://doi.org/10.1016/j.lssr.2013.12.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Life Sci. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="44" to="52" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The effectiveness of RNAi in Caenorhabditis elegans is maintained during spaceflight</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etheridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nemoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hashizume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sugimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fukui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamazaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashitani</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0020459</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0020459" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">20459</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Genomic response of the nematode Caenorhabditis elegans to spaceflight</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Selch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Imamizo-Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ishioka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Conley</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.asr.2007.11.015</idno>
+		<ptr target="https://doi.org/10.1016/j.asr.2007.11.015" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="807" to="815" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Biochemical and Molecular Biological Analyses of space-flown nematodes in Japan, the First International Caenorhabditis elegans Experiment (ICE-First)</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Adachi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kagawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sasagawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Miyazawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF02919473</idno>
+		<ptr target="https://doi.org/10.1007/BF02919473" />
+	</analytic>
+	<monogr>
+		<title level="j">Microgravity Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="159" to="163" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Space Flight Induces Reduction of Paramyosin and Troponin T: Proteomic Analysis of Space-Flown Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Imamizo-Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hashizume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etheridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ishioka</surname></persName>
+		</author>
+		<idno type="DOI">10.2174/22115501113029990015</idno>
+		<ptr target="https://doi.org/10.2174/22115501113029990015" />
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="262" to="271" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Comparative analysis of Drosophila melanogaster and Caenorhabditis elegans gene expression experiments in the European Soyuz flights to the International Space Station</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Leandro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bengurı ´a</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Herranz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lava ´n</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Medina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gasset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Loon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Conley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Marco</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.asr.2007.05.070</idno>
+		<ptr target="https://doi.org/10.1016/j.asr.2007.05.070" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="506" to="512" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The Nesprin-1/-2 ortholog ANC-1 regulates organelle positioning in C. elegans independently from its KASH or actin-binding domains</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kalra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Jameson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Guerrero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Cain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bolivar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Starr</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.61069</idno>
+		<ptr target="https://doi.org/10.7554/eLife.61069" />
+	</analytic>
+	<monogr>
+		<title level="j">Elife</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">61069</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The role of mitochondria in health and disease</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Johannsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ravussin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.coph.2009.09.002</idno>
+		<ptr target="https://doi.org/10.1016/j.coph.2009.09.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="780" to="786" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Mitochondrial dysfunction induces muscle atrophy during prolonged inactivity: A review of the causes and effects</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Deminice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yoshihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Powers</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.abb.2018.11.005</idno>
+		<ptr target="https://doi.org/10.1016/j.abb.2018.11.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Biochem. Biophys</title>
+		<imprint>
+			<biblScope unit="volume">662</biblScope>
+			<biblScope unit="page" from="49" to="60" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Transcriptomic meta-analysis of disuse muscle atrophy vs. resistance exerciseinduced hypertrophy in young and older humans</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Deane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R G</forename><surname>Willis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Atherton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Harries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Ames</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etheridge</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jcsm.12706</idno>
+		<ptr target="https://doi.org/10.1002/jcsm.12706" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Cachexia Sarcopenia Muscle</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="629" to="645" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Spaceflight affects neuronal morphology and alters transcellular degradation of neuronal debris in adult Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Laranjeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Harinath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Gaffney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Deane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Vanapalli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etheridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Driscoll</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.isci.2021.102105</idno>
+		<ptr target="https://doi.org/10.1016/j.isci.2021.102105" />
+	</analytic>
+	<monogr>
+		<title level="j">iScience</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">102105</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Delayed development and lifespan extension as features of metabolic lifestyle alteration in C. elegans under dietary restriction</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Udranszky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kozak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sunga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Jacobson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Conley</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jeb.02492</idno>
+		<ptr target="https://doi.org/10.1242/jeb.02492" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">209</biblScope>
+			<biblScope unit="page" from="4129" to="4139" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Transcriptome analysis of gravitational effects on mouse skeletal muscles under microgravity and artificial 1 g onboard environment</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Okada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Fujita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tsubouchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sadaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kanai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fuseya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Inoue</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-021-88392-4</idno>
+		<ptr target="https://doi.org/10.1038/s41598-021-88392-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2021">2021. 9168</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Molecular Muscle Experiment: Hardware and Operational Lessons for Future Astrobiology Space Experiments</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Gaffney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Deane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Balsamo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cooke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Ellwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hewitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Mierzwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mariani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Vanapalli</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/ast.2019.2181</idno>
+		<ptr target="https://doi.org/10.1089/ast.2019.2181" />
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="935" to="943" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Influence of simulated microgravity on human skeletal muscle architecture and function</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Maganaris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ferretti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Narici</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Gravitational Physiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="153" to="P154" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Microgravity alters the expressions of DNA repair genes and their regulatory miRNAs in space-flown Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.lssr.2023.02.002</idno>
+		<ptr target="https://doi.org/10.1016/j.lssr.2023.02.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Life Sci. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="25" to="38" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Epigenetic responses to environmental change and their evolutionary implications</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Turner</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rstb.2009.0125</idno>
+		<ptr target="https://doi.org/10.1098/rstb.2009.0125" />
+	</analytic>
+	<monogr>
+		<title level="j">Philos. Trans. R. Soc. Lond. B Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">364</biblScope>
+			<biblScope unit="page" from="3403" to="3418" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Intergenerational effect of short-term spaceflight in mice</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Fujita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Isotani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kudo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shiba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shirakawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muratani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ishii</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.isci.2021.102773</idno>
+		<ptr target="https://doi.org/10.1016/j.isci.2021.102773" />
+	</analytic>
+	<monogr>
+		<title level="j">iScience</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">102773</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Age-related Differences in Dystrophin: Impact on Force Transfer Proteins, Membrane Integrity, and Neuromuscular Junction Stability</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Marcotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W D</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Baehr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Saleh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Bodine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Baar</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/gerona/glw109</idno>
+		<ptr target="https://doi.org/10.1093/gerona/glw109" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Gerontol. A Biol. Sci. Med. Sci</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="640" to="648" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Effect of dys-1 mutation on gene expression profile in space-flown Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/mus.26076</idno>
+		<ptr target="https://doi.org/10.1002/mus.26076" />
+	</analytic>
+	<monogr>
+		<title level="j">Muscle Nerve</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Detection of space radiation-induced double strand breaks as a track in cell nucleus</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ohnishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nagamatsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Omori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shimazu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ishioka</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbrc.2009.09.114</idno>
+		<ptr target="https://doi.org/10.1016/j.bbrc.2009.09.114" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Biophys. Res. Commun</title>
+		<imprint>
+			<biblScope unit="volume">390</biblScope>
+			<biblScope unit="page" from="485" to="488" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Analysis of radiation dose variations measured by passive dosimeters onboard the International Space Station during the solar quiet period (2007-2008)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kodaira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kawashima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kitamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kurano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Uchihori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yasuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ogura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Koguchi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.radmeas.2012.11.020</idno>
+		<ptr target="https://doi.org/10.1016/j.radmeas.2012.11.020" />
+	</analytic>
+	<monogr>
+		<title level="j">Radiat. Meas</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="95" to="102" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Area radiation monitoring on ISS Increments 17 to 22 using PADLES in the Japanese Experiment Module Kibo</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nagamatsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kitajo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shimada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kumagai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tawara</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.radmeas.2013.05.008</idno>
+		<ptr target="https://doi.org/10.1016/j.radmeas.2013.05.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Radiat. Meas</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="84" to="93" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Hyper-resistance of meiotic cells to radiation due to a strong expression of a single recA-like gene in Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Takanami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashitani</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/28.21.4232</idno>
+		<ptr target="https://doi.org/10.1093/nar/28.21.4232" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="4232" to="4236" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Efficient repair of DNA damage induced by heavy ion particles in meiotic prophase I nuclei of Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Takanami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Aoki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Abe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Horiuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashitani</surname></persName>
+		</author>
+		<idno type="DOI">10.1269/jrr.44.271</idno>
+		<ptr target="https://doi.org/10.1269/jrr.44.271" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Radiat. Res</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="271" to="276" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">A comparison of mutations induced by accelerated iron particles versus those induced by low earth orbit space radiation in the FEM-3 gene of Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Hartman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hlavacek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wilde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lewicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Schubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Kern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Kazarians</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Benton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Benton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0027-5107(00)00154-8</idno>
+		<ptr target="https://doi.org/10.1016/s0027-5107(00)00154-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Mutat. Res</title>
+		<imprint>
+			<biblScope unit="volume">474</biblScope>
+			<biblScope unit="page" from="47" to="55" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">A mutational analysis of Caenorhabditis elegans in space</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Youds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tarailo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tarailo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rose</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mrfmmm.2006.05.001</idno>
+		<ptr target="https://doi.org/10.1016/j.mrfmmm.2006.05.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Mutat. Res</title>
+		<imprint>
+			<biblScope unit="volume">601</biblScope>
+			<biblScope unit="page" from="19" to="29" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Characterization of the direct targets of FOXO transcription factors throughout evolution</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Webb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kundaje</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brunet</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/acel.12479</idno>
+		<ptr target="https://doi.org/10.1111/acel.12479" />
+	</analytic>
+	<monogr>
+		<title level="j">Aging Cell</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="673" to="685" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title level="m" type="main">Spaceflight alters insulin and estrogen signaling pathways</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Mathyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tabetah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Karim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Zaksas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Muratani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tasoula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-K</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+		<respStmt>
+			<orgName>Research Square</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Network analysis of human muscle adaptation to aging and contraction</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R G</forename><surname>Willis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Ames</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Deane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Boereboom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Abdulla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S I</forename><surname>Bukhari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Lund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<idno type="DOI">10.18632/aging.102653</idno>
+		<ptr target="https://doi.org/10.18632/aging.102653" />
+	</analytic>
+	<monogr>
+		<title level="j">Aging</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="740" to="755" />
+			<date type="published" when="2020">2020</date>
+			<pubPlace>Albany NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Transcriptomic links to muscle mass loss and declines in cumulative muscle protein synthesis during short-term disuse in healthy younger humans</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R G</forename><surname>Willis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Gallagher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Brook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Bass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etheridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Stokes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mcglory</surname></persName>
+		</author>
+		<idno type="DOI">10.1096/fj.202100276RR</idno>
+		<ptr target="https://doi.org/10.1096/fj.202100276RR" />
+	</analytic>
+	<monogr>
+		<title level="j">Faseb. J</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">21830</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">C. elegans as a model for interindividual variation in metabolism</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ponomarova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">U</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Giese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Roberto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Curtis</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-022-04951-3</idno>
+		<ptr target="https://doi.org/10.1038/s41586-022-04951-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">607</biblScope>
+			<biblScope unit="page" from="571" to="577" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Metabolomics and lipidomics in Caenorhabditis elegans using a single-sample preparation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Molenaars</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">V</forename><surname>Schomakers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Elfrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A T</forename><surname>Vervaart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Pras-Raves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Luyf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Sterken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Kammenga</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/dmm.047746</idno>
+		<ptr target="https://doi.org/10.1242/dmm.047746" />
+	</analytic>
+	<monogr>
+		<title level="j">Dis. Model. Mech</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">47746</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Multi-Omics and Genome-Scale Modeling Reveal a Metabolic Shift During C. elegans Aging</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hastings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mains</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Virk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Murdoch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pearce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bergmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Le Nove `re</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Casanueva</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmolb.2019.00002</idno>
+		<ptr target="https://doi.org/10.3389/fmolb.2019.00002" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Mol. Biosci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">2</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Multi-omics Analyses of Starvation Responses Reveal a Central Role for Lipoprotein Metabolism in Acute Starvation Survival in C. elegans</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Harvald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Sprenger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Dall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Ejsing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mandrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Murillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Larance</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gartner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Lamond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Faergeman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cels.2017.06.004</idno>
+		<ptr target="https://doi.org/10.1016/j.cels.2017.06.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Syst</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="38" to="52" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Multi-omics analysis identifies essential regulators of mitochondrial stress response in two wild-type C. elegans strains</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>El Alam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lalou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Molenaars</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Overmyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Shishkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bou Sleiman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.isci.2022.103734</idno>
+		<ptr target="https://doi.org/10.1016/j.isci.2022.103734" />
+	</analytic>
+	<monogr>
+		<title level="j">iScience</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">103734</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Transcriptome analysis of adult Caenorhabditis elegans cells reveals tissue-specific gene and isoform expression</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kaletsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Runnels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tadych</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">G</forename><surname>Troyanskaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Murphy</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pgen.1007559</idno>
+		<ptr target="https://doi.org/10.1371/journal.pgen.1007559" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">1007559</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Spatial Transcriptomics of C. elegans Males and Hermaphrodites Identifies Sex-Specific Differences in Gene Expression Patterns</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ebbing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">´</forename><surname>Ve ´rtesy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Betist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Spanjaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Junker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Berezikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Van Oudenaarden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Korswagen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.devcel.2018.10.016</idno>
+		<ptr target="https://doi.org/10.1016/j.devcel.2018.10.016" />
+	</analytic>
+	<monogr>
+		<title level="j">Dev. Cell</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="801" to="813" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Genome-wide RNA Tomography in the zebrafish embryo</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Junker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Noe ¨l</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Guryev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huisken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Mcmahon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Berezikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bakkers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Van Oudenaarden</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2014.09.038</idno>
+		<ptr target="https://doi.org/10.1016/j.cell.2014.09.038" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<biblScope unit="page" from="662" to="675" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Validation of noise models for singlecell transcriptomics</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gru ¨n</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Van Oudenaarden</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.2930</idno>
+		<ptr target="https://doi.org/10.1038/nmeth.2930" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="637" to="640" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Gene Function Prediction Based on Developmental Transcriptomes of the Two Sexes in C. elegans</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Suo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Emmons</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.celrep.2016.09.051</idno>
+		<ptr target="https://doi.org/10.1016/j.celrep.2016.09.051" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="917" to="928" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Exploring tissue architecture using spatial transcriptomics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Barkley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Franc ¸a</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yanai</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-021-03634-9</idno>
+		<ptr target="https://doi.org/10.1038/s41586-021-03634-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">596</biblScope>
+			<biblScope unit="page" from="211" to="220" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Spatial Transcriptomics of Nematodes Identifies Sperm Cells as a Source of Genomic Novelty and Rapid Evolution</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ro ¨delsperger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ebbing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Okumura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Sommer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Korswagen</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/molbev/msaa207</idno>
+		<ptr target="https://doi.org/10.1093/molbev/msaa207" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="229" to="243" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Spatial transcriptomics of the nematode Caenorhabditis elegans using RNA tomography</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Schild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mars</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ebbing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">´</forename><surname>Vivie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Betist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Korswagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.xpro.2021.100411</idno>
+		<ptr target="https://doi.org/10.1016/j.xpro.2021.100411" />
+	</analytic>
+	<monogr>
+		<title level="j">STAR Protoc</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">100411</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Cell-specific proteomic analysis in Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Yuet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Doma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Ngo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Sweredoski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L J</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Moradian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Schuman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Sternberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Tirrell</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1421567112</idno>
+		<ptr target="https://doi.org/10.1073/pnas.1421567112" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="2705" to="2710" />
+			<date type="published" when="2015">2015</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Molecular basis for oxidative stress induced by simulated microgravity in nematode Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Rui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scitotenv.2017.07.088</idno>
+		<ptr target="https://doi.org/10.1016/j.scitotenv.2017.07.088" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Total Environ</title>
+		<imprint>
+			<biblScope unit="volume">607</biblScope>
+			<biblScope unit="issue">608</biblScope>
+			<biblScope unit="page" from="1381" to="1390" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

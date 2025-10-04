@@ -1,0 +1,2573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">MetaMiner: A Scalable Peptidogenomics Approach for Discovery of Ribosomal Peptide Natural Products with Blind Modifications from Microbial Communities</title>
+				<funder ref="#_xYVDSaT">
+					<orgName type="full">St. Petersburg State University, Russia</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">University of California, San Diego</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Scripps Institution of Oceanography</orgName>
+				</funder>
+				<funder ref="#_Vt4UC4z #_Jj879Gp #_PHB7heT #_tyuMAXd">
+					<orgName type="full">National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+				<funder ref="#_VnScwAZ">
+					<orgName type="full">Russian Science Foundation</orgName>
+				</funder>
+				<funder ref="#_GkEcfFD">
+					<orgName type="full">NCI/NIH Training Program in the Biochemistry of Growth Regulation and Oncogenesis</orgName>
+				</funder>
+				<funder ref="#_p3qwhpK #_VAK7FzX #_qB5WcMG">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_8avudSG #_vwn29cX">
+					<orgName type="full">National Science Foundation</orgName>
+					<orgName type="abbreviated">NSF</orgName>
+				</funder>
+				<funder ref="#_gyDF3c7">
+					<orgName type="full">CAPES Foundation for Research Fellowship</orgName>
+				</funder>
+				<funder ref="#_h4sefrm">
+					<orgName type="full">US National Institutes of Health</orgName>
+				</funder>
+				<funder ref="#_5urGVha #_S97pBsU">
+					<orgName type="full">NASA</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Sirenas Marine Discovery, Inc.</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Digital</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Computational Biology Department, Carnegie Mellon University</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-12-18">2020 December 18.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Liu</forename><surname>Cao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Computational Biology Department</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<settlement>Pittsburgh</settlement>
+									<region>Pennsylvania</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alexey</forename><surname>Gurevich</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Center for Algorithmic Biotechnology</orgName>
+								<orgName type="department" key="dep2">Institute of Translational Biomedicine</orgName>
+								<orgName type="institution">St. Petersburg State University</orgName>
+								<address>
+									<settlement>St. Petersburg</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kelsey</forename><forename type="middle">L</forename><surname>Alexander</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Center for Marine Biotechnology and Biomedicine</orgName>
+								<orgName type="department" key="dep2">Scripps Institution of Oceanography and Skaggs School of Pharmacy and Pharmaceutical Sciences</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Chemistry and Biochemistry</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><forename type="middle">Benjamin</forename><surname>Naman</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Tiago</forename><surname>Leão</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Center for Marine Biotechnology and Biomedicine</orgName>
+								<orgName type="department" key="dep2">Scripps Institution of Oceanography and Skaggs School of Pharmacy and Pharmaceutical Sciences</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Evgenia</forename><surname>Glukhov</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Center for Marine Biotechnology and Biomedicine</orgName>
+								<orgName type="department" key="dep2">Scripps Institution of Oceanography and Skaggs School of Pharmacy and Pharmaceutical Sciences</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tal</forename><surname>Luzzatto-Knaan</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Collaborative Mass Spectrometry Innovation Center</orgName>
+								<orgName type="department" key="dep2">Skaggs School of Pharmacy and Pharmaceutical Sciences</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fernando</forename><surname>Vargas</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Collaborative Mass Spectrometry Innovation Center</orgName>
+								<orgName type="department" key="dep2">Skaggs School of Pharmacy and Pharmaceutical Sciences</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Robby</forename><surname>Quinn</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Collaborative Mass Spectrometry Innovation Center</orgName>
+								<orgName type="department" key="dep2">Skaggs School of Pharmacy and Pharmaceutical Sciences</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Amina</forename><surname>Bouslimani</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Collaborative Mass Spectrometry Innovation Center</orgName>
+								<orgName type="department" key="dep2">Skaggs School of Pharmacy and Pharmaceutical Sciences</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Louis</forename><forename type="middle">Felix</forename><surname>Nothias</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Collaborative Mass Spectrometry Innovation Center</orgName>
+								<orgName type="department" key="dep2">Skaggs School of Pharmacy and Pharmaceutical Sciences</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nitin</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="laboratory">Jet Propulsion Laboratory</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<settlement>Pasadetana</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jon</forename><forename type="middle">G</forename><surname>Sanders</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department" key="dep1">Department of Pediatrics</orgName>
+								<orgName type="department" key="dep2">School of Medicine</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rodolfo</forename><forename type="middle">A S</forename><surname>Benitez</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department" key="dep1">Department of Pediatrics</orgName>
+								<orgName type="department" key="dep2">School of Medicine</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Luke</forename><forename type="middle">R</forename><surname>Thompson</surname></persName>
+							<affiliation key="aff8">
+								<orgName type="department">Department of Biological Sciences and Northern Gulf Institute</orgName>
+								<orgName type="institution">University of Southern Mississippi</orgName>
+								<address>
+									<settlement>Hattiesburg</settlement>
+									<region>Mississippi</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="department">stationed at Southwest Fisheries Science Center</orgName>
+								<orgName type="laboratory">Ocean Chemistry and Ecosystems Division</orgName>
+								<orgName type="institution" key="instit1">Atlantic Oceanographic and Meteorological Laboratory</orgName>
+								<orgName type="institution" key="instit2">National Oceanic and Atmospheric Administration</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Md-Nafiz</forename><surname>Hamid</surname></persName>
+							<affiliation key="aff10">
+								<orgName type="department">Department of Veterinary Microbiology and Preventive Medicine</orgName>
+								<orgName type="institution">Iowa State University</orgName>
+								<address>
+									<settlement>Ames</settlement>
+									<region>Iowa</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff11">
+								<orgName type="department">Interdepartmental program in Bioinformatics and Computational Biology</orgName>
+								<orgName type="institution">Iowa State University</orgName>
+								<address>
+									<settlement>Ames</settlement>
+									<region>Iowa</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">James</forename><forename type="middle">T</forename><surname>Morton</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department" key="dep1">Department of Pediatrics</orgName>
+								<orgName type="department" key="dep2">School of Medicine</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff12">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alla</forename><surname>Mikheenko</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Center for Algorithmic Biotechnology</orgName>
+								<orgName type="department" key="dep2">Institute of Translational Biomedicine</orgName>
+								<orgName type="institution">St. Petersburg State University</orgName>
+								<address>
+									<settlement>St. Petersburg</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alexander</forename><surname>Shlemov</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Center for Algorithmic Biotechnology</orgName>
+								<orgName type="department" key="dep2">Institute of Translational Biomedicine</orgName>
+								<orgName type="institution">St. Petersburg State University</orgName>
+								<address>
+									<settlement>St. Petersburg</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anton</forename><surname>Korobeynikov</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Center for Algorithmic Biotechnology</orgName>
+								<orgName type="department" key="dep2">Institute of Translational Biomedicine</orgName>
+								<orgName type="institution">St. Petersburg State University</orgName>
+								<address>
+									<settlement>St. Petersburg</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff13">
+								<orgName type="department">Department of Mathematics and Mechanics</orgName>
+								<orgName type="institution">St. Petersburg State University</orgName>
+								<address>
+									<settlement>St. Petersburg</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Iddo</forename><surname>Friedberg</surname></persName>
+							<affiliation key="aff10">
+								<orgName type="department">Department of Veterinary Microbiology and Preventive Medicine</orgName>
+								<orgName type="institution">Iowa State University</orgName>
+								<address>
+									<settlement>Ames</settlement>
+									<region>Iowa</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff11">
+								<orgName type="department">Interdepartmental program in Bioinformatics and Computational Biology</orgName>
+								<orgName type="institution">Iowa State University</orgName>
+								<address>
+									<settlement>Ames</settlement>
+									<region>Iowa</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rob</forename><surname>Knight</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department" key="dep1">Department of Pediatrics</orgName>
+								<orgName type="department" key="dep2">School of Medicine</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff12">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff14">
+								<orgName type="department" key="dep1">Center for Microbiome Innovation</orgName>
+								<orgName type="department" key="dep2">Jacobs School of Engineering</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego</addrLine>
+									<settlement>La Jolla</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff15">
+								<orgName type="department">Department of Bioengineering</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego</addrLine>
+									<settlement>La Jolla</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kasthuri</forename><surname>Venkateswaran</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="laboratory">Jet Propulsion Laboratory</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<settlement>Pasadetana</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">William</forename><forename type="middle">H</forename><surname>Gerwick</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Center for Marine Biotechnology and Biomedicine</orgName>
+								<orgName type="department" key="dep2">Scripps Institution of Oceanography and Skaggs School of Pharmacy and Pharmaceutical Sciences</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lena</forename><surname>Gerwick</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Center for Marine Biotechnology and Biomedicine</orgName>
+								<orgName type="department" key="dep2">Scripps Institution of Oceanography and Skaggs School of Pharmacy and Pharmaceutical Sciences</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Pieter</forename><forename type="middle">C</forename><surname>Dorrestein</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department" key="dep1">Collaborative Mass Spectrometry Innovation Center</orgName>
+								<orgName type="department" key="dep2">Skaggs School of Pharmacy and Pharmaceutical Sciences</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff14">
+								<orgName type="department" key="dep1">Center for Microbiome Innovation</orgName>
+								<orgName type="department" key="dep2">Jacobs School of Engineering</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego</addrLine>
+									<settlement>La Jolla</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Pavel</forename><forename type="middle">A</forename><surname>Pevzner</surname></persName>
+							<affiliation key="aff12">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff14">
+								<orgName type="department" key="dep1">Center for Microbiome Innovation</orgName>
+								<orgName type="department" key="dep2">Jacobs School of Engineering</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>San Diego</addrLine>
+									<settlement>La Jolla</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Hosein</forename><surname>Mohimani</surname></persName>
+							<email>hoseinm@andrew.cmu.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Computational Biology Department</orgName>
+								<orgName type="institution">Carnegie Mellon University</orgName>
+								<address>
+									<settlement>Pittsburgh</settlement>
+									<region>Pennsylvania</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff12">
+								<orgName type="department">Department of Computer Science and Engineering</orgName>
+								<orgName type="institution">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">MetaMiner: A Scalable Peptidogenomics Approach for Discovery of Ribosomal Peptide Natural Products with Blind Modifications from Microbial Communities</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Cell Systems</title>
+						<title level="j" type="abbrev">Cell Systems</title>
+						<idno type="ISSN">2405-4712</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">9</biblScope>
+							<biblScope unit="issue">6</biblScope>
+							<biblScope unit="page" from="600" to="608.e4"/>
+							<date type="published" when="2020-12-18">2020 December 18.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E552186CD4A86B492028A135F5C03D91</idno>
+					<idno type="DOI">10.1016/j.cels.2019.09.004</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Ribosomally synthesized and post-translationally modified peptides</term>
+					<term>computational mass spectrometry</term>
+					<term>metagenomics</term>
+					<term>natural products discovery</term>
+					<term>microbial metabolites</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Ribosomally synthesized and post-translationally modified peptides (RiPPs) are an important class of natural products that contain antibiotics and a variety of other bioactive compounds. The existing methods for discovery of RiPPs by combining genome mining and computational mass spectrometry are limited to discovering specific classes of RiPPs from small datasets, and they fail to handle unknown post-translational modifications. We present MetaMiner, a software tool for addressing these challenges that is compatible with large-scale screening platforms for natural product discovery. After searching millions of spectra in the Global Natural Products Social (GNPS) molecular networking infrastructure against just eight genomic and metagenomic datasets, MetaMiner discovered 31 known and seven unknown RiPPs from diverse microbial communities including human microbiome, lichen microbiome, and micro-organisms isolated from the International Space Station.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Natural products are back at the center of attention as pharmaceutical leads, as exemplified by the recent discoveries of bioactive natural product drugs <ref type="bibr" target="#b10">(Fischbach and Walsh, 2009;</ref><ref type="bibr" target="#b16">Harvey et al., 2015;</ref><ref type="bibr" target="#b21">Li and Vederas, 2009;</ref><ref type="bibr" target="#b22">Ling et al., 2015)</ref>. Recent advances in metagenomics are transforming the field of natural product discovery by enabling the recovery of microbial genomes directly from the environmental samples. This has revolutionized our understanding about the microbial composition of various communities and their biosynthetic gene clusters. Biosynthetic gene cluster are sets of genes that synthesize microbial small molecules from simple building blocks. The metagenomes of microbial communities contain thousands of biosynthetic gene clusters with unknown small molecule products, making them an untapped resource for the future antimicrobial drug discovery <ref type="bibr" target="#b5">(Charlop-Powers et al., 2016;</ref><ref type="bibr" target="#b6">Donia et al., 2014;</ref><ref type="bibr" target="#b15">Hadjithomas et al., 2015)</ref>.</p><p>The biosynthetic gene clusters of natural products in microbial genomes can be identified by sequence similarity searches <ref type="bibr" target="#b21">(Li et al., 2009)</ref>. Moreover, in the case of peptide natural products (PNPs), it is possible to predict the corresponding putative structures based on the genes present in their biosynthetic gene clusters <ref type="bibr">(Oman and van der Donk, 2010;</ref><ref type="bibr">Stachelhaus et al., 1999)</ref>. However, the structure of PNPs usually differs from these predictions due to post-translational modifications applied by the enzymes in the biosynthetic gene cluster. For example, in the case of polytheonamides, the PNP has 49 residues, with 21 post-translational modifications, making it nearly impossible to predict the PNP structure solely based on the genomic data. Therefore, in addition to genome mining, metabolomics methods including mass spectrometry and nuclear magnetic resonance are routinely used for determining the structure of the molecular product of biosynthetic gene cluster <ref type="bibr">(Doroghazi et al., 2014;</ref><ref type="bibr" target="#b30">Medema et al., 2014;</ref><ref type="bibr">Mohimani et al., 2014a;</ref><ref type="bibr">Mohimani et al., 2014b)</ref>.</p><p>The recent launch of the Global Natural Products Social (GNPS) molecular networking infrastructure <ref type="bibr" target="#b50">(Wang et al., 2016)</ref> brought together over a thousand laboratories worldwide that have already generated an unprecedented amount of tandem mass spectra of natural products. Computational mass spectrometry methods have revealed thousands of known small molecules and their unknown variants in various microbiome datasets from the GNPS molecular networking <ref type="bibr" target="#b14">(Gurevich et al., 2018;</ref><ref type="bibr" target="#b31">Mohimani et al., 2017;</ref><ref type="bibr" target="#b32">Mohimani et al., 2018)</ref>. However, the majority of the spectra in these datasets remains unannotated, which is often referred as the 'dark matter of metabolomics'. A portion of these spectra represent unknown small molecule products of biosynthetic gene clusters encoded in the microbial genomes, and computational algorithms are needed for illuminating this dark matter <ref type="bibr" target="#b7">(Donia and Fischbach, 2015;</ref><ref type="bibr" target="#b28">Medema and Fischbach, 2015;</ref><ref type="bibr" target="#b35">Mohimani and Pevzner, 2016;</ref><ref type="bibr" target="#b47">Vaniya and Fiehn, 2015;</ref><ref type="bibr" target="#b49">Walsh, 2015)</ref>. This paper focuses on the integration of computational mass spectrometry and genome mining for discovering unknown Ribosomally synthesized and Post-translationally modified Peptides (RiPPs). RiPPs are a rapidly expanding group of natural products with applications in pharmaceutical and food industries <ref type="bibr" target="#b0">(Arnison et al., 2013)</ref>. RiPPs are produced through the Post Ribosomal Peptide Synthesis (PRPS) pathway <ref type="bibr" target="#b0">(Arnison et al., 2013)</ref>. Initially, RiPPs are synthesized as precursor peptides encoded by RiPP structural genes. The RiPP structural genes are often short, making their annotations difficult <ref type="bibr">(Mohimani et al., 2014a)</ref>. The precursor peptide consists of a prefix leader peptide appended to a suffix core peptide. The leader peptide is important for the recognition by the RiPP post-translational modification enzymes and for exporting the RiPP out of the cell. The core peptide is post-translationally modified by the RiPP biosynthetic machinery, proteolytically cleaved from the leader peptide to yield the mature RiPP, and exported out of the cell by transporters. The precursor peptide and the enzymes responsible for its post-translational modifications (PTMs), proteolytic cleavage, and transportation are usually located within a contiguous biosynthetic gene cluster of the RiPP. The length of a microbial RiPP-encoding biosynthetic gene cluster typically varies from 1,000 to 40,000 bp (average length 10,000 bp). Since RiPP-encoding biosynthetic gene clusters are much longer than the current length of short reads generated by next generation sequencing, DNA assembly is a critical part of any RiPP discovery approach based on short reads.</p><p>Genome mining refers to the interpretation of a natural product biosynthetic gene cluster to infer information about the natural product itself. The discoveries of coelichelin in Streptomyces coelicolor <ref type="bibr" target="#b4">(Challis and Ravel, 2000;</ref><ref type="bibr" target="#b20">Lautru et al., 2005)</ref> and orfamide in Pseudomonas fluorescens Pf-5 <ref type="bibr" target="#b13">(Gross et al., 2007;</ref><ref type="bibr" target="#b41">Paulsen et al., 2005)</ref> were the first examples of genome mining that were followed by discoveries of various bioactive RiPPs in microbial samples. Donia et al. discovered lactocillin, a thiopeptide antibiotic from the human vaginal isolates that showed activity against vaginal pathogens <ref type="bibr" target="#b6">(Donia et al., 2014)</ref>. Zhao et al. discovered eight novel lanthipeptides with antibiotic activity from a ruminant bacterium <ref type="bibr" target="#b54">(Zhao and van der Donk, 2016)</ref>. <ref type="bibr">Freeman et al. and Wilson et al. used</ref> metagenome mining of a sponge to assign a biosynthetic gene cluster to the known RiPP polytheonamide, with post-translational modifications distributed across 49 residues <ref type="bibr" target="#b11">(Freeman et al., 2012;</ref><ref type="bibr" target="#b53">Wilson et al., 2014)</ref>. Thus, large-scale metagenomics projects, such as Earth Microbiome Project <ref type="bibr" target="#b12">(Gilbert et al., 2014;</ref><ref type="bibr" target="#b46">Thompson et al., 2017)</ref>, American Gut Project <ref type="bibr" target="#b26">(McDonald et al., 2018), and</ref><ref type="bibr">Human Microbiome Project (Human Microbiome Project, 2012a, b;</ref><ref type="bibr" target="#b23">Lloyd-Price et al., 2017)</ref>, have the potential to contribute to RiPP discovery, provided that improved bioinformatics tools for the enhanced identification of novel RiPPs are available. However, discovery of lactocillin and other recently identified RiPPs were not achieved by an automated process, but rather used time-consuming manual analysis that required the isolation of microbes, and the purification of microbial metabolites. Our goal is to discover the RiPPs directly from the mass spectrometry and metagenomics information using a fully automated approach.</p><p>While recent analysis of thousands of bacterial and fungal genomes has already resulted in the discovery of many putative biosynthetic gene clusters, including 20,000 RiPP-encoding biosynthetic gene clusters in the Integrated Microbial Genome Atlas of biosynthetic Gene Clusters (IMG-ABC), connecting these biosynthetic gene clusters to their metabolites has not kept pace with the speed of microbial genome sequencing <ref type="bibr" target="#b15">(Hadjithomas et al., 2015)</ref>. Currently, only 35 out of these roughly 20,000 RiPP-encoding biosynthetic gene clusters in IMG-ABC have been experimentally connected to their RiPPs <ref type="bibr" target="#b15">(Hadjithomas et al., 2015;</ref><ref type="bibr">Medema et al., 2015)</ref>. Linking RiPP-encoding biosynthetic gene clusters to unknown RiPPs requires the development of computational tools. <ref type="bibr">Kersten et al. introduced</ref> the peptidogenomics approach to RiPP discovery, which refers to finding sequential amino acid tags from the tandem mass spectra (peptidomics) and mining them in the assembled DNA reads obtained from the same sample <ref type="bibr" target="#b19">(Kersten et al., 2011)</ref>. <ref type="bibr">Mohimani et al. introduced</ref> RiPPquest, the first automated approach to RiPP discovery by combining mass spectrometry and genome mining <ref type="bibr">(Mohimani et al., 2014a)</ref>. This tool is based on Peptide-Spectrum Matches, which are generated by aligning predicted spectra of putative RiPPs annotated by genome mining. If a peptide-spectrum match between a candidate RiPP predicted from the assembled genome and a spectrum is statistically significant, then RiPPquest reports it as a putative annotation of the spectrum. RiPPquest resulted in the identification of the lanthipeptide 'informatipeptin', the first natural product discovered in a fully automatic fashion by a computer. However, RiPPquest has a number of limitations: (a) it is limited to lanthipeptides which constitutes only one of 19 classes of RiPPs <ref type="bibr" target="#b0">(Arnison et al., 2013)</ref>, (b) it is designed for small genomes and small spectral datasets, making it rather slow in the case of large metagenomic datasets and the entire GNPS infrastructure, (c) it does not report the statistical significance of the identified RiPPs, a key requirement for any high-throughput peptide identification tool, and (d) it is limited to searches for a predefined set of post-translational modification (PTMs) and does not enable blind searches for unknown PTMs. Since RiPPquest, other tools have been developed that combine genomics with mass spectrometry based discovery <ref type="bibr" target="#b30">(Medema et al., 2014;</ref><ref type="bibr" target="#b44">Skinnider et al., 2015)</ref>. However, these tools are limited to the analysis of a single or few spectra from isolated genomes and cannot scale to search billions of spectra from GNPS against metagenomics datasets. This paper describes MetaMiner, a tool that enables searching mass spectrometry databases against metagenomics short reads sequenced from microbiome samples for rapid discovery of RiPPs. Application of MetaMiner to mass spectrometry and metagenomics data from the human microbiome resulted in the identification of known and unknown peptides from the human microbiota, including autoinducer peptide (AIP), Mec-PSM, delta-toxin, and their unknown variants.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Brief description of MetaMiner.</p><p>MetaMiner pipeline (Figure <ref type="figure">1</ref>) analyzes the paired genome/metagenome assemblies and tandem mass spectra from isolated microbes or bacterial/fungal communities. Starting from the genome assemblies, MetaMiner (a) identifies putative biosynthetic gene clusters and the corresponding precursor peptides, (b) constructs target and decoy putative RiPP structure databases (c) matches tandem mass spectra against the constructed RiPP structure databases using Dereplicator, and (d) enlarges the set of described RiPPs via spectral networking <ref type="bibr" target="#b1">(Bandeira et al., 2007;</ref><ref type="bibr" target="#b51">Watrous et al., 2012)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Advances of MetaMiner.</head><p>In step (a), MetaMiner searches for diverse classes of RiPPs, including lanthipeptides, lassopeptides, linear azole containing peptides (LAPs), linaridins, glycocins, cyanobactins, phenol-soluble modulins, AIP, and proteusins (versus only lanthipeptides by RiPPquest). Moreover, MetaMiner supports searching for user-defined classes of RiPPs. In step (b)-(c), MetaMiner implement an approach to estimate false discovery rate through target decoy analysis by searching mass spectra against decoy RiPP structures generated by random shuffling. In step (c), MetaMiner uses an efficient algorithm for searching sparse vectors corresponding to mass spectra and RiPP structures, increasing the speed by two orders of magnitude compared to RiPPquest, thus enabling searches of the entire GNPS databases against metagenomes. Unusual modifications are handled through blind post-translational modification searching. In addition, in contrast to RiPPquest (which was designed for analyzing low-resolution spectra), MetaMiner enables searching high-resolution mass spectra, and allows user-adjustable precursor and product ion thresholds.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genome mining.</head><p>MetaMiner uses antiSMASH, and BOA for the identification of RiPP-encoding biosynthetic gene clusters and has two genome mining modes for selecting Open Reading Frames (ORFs), a slow all-ORF mode introduced in RiPPquest <ref type="bibr">(Mohimani et al., 2014a)</ref>, and a fast motif-ORF mode. The all-ORF approach analyzes all short ORFs within a biosynthetic gene cluster, while the motif-ORF approach relies on RiPP motif finding <ref type="bibr" target="#b3">(Blin et al., 2014)</ref> to narrow the set of putative RiPP-encoding ORFs.</p><p>We illustrate positive and negative features of these approaches through genome mining of the Streptomyces roseosporous NRRL 11379 genome obtained from the ACTI dataset (see STAR methods for details of all the datasets). AntiSMASH found 30 biosynthetic gene clusters in this genome, including six RiPP-encoding biosynthetic gene clusters. Within these six biosynthetic gene clusters, the motif-ORF approach identified only two short ORFs matching core RiPP motifs, while the all-ORF approach identified 14,694 short ORFs.</p><p>When analyzing all the 36 strains from the ACTI strains, antiSMASH discovered 1,140 biosynthetic gene clusters, including 168 RiPP-encoding biosynthetic gene clusters. MetaMiner in the motif-ORF and all-ORF modes identified 67 and 565,138 short ORFs, respectively. This example illustrates that the motif-ORF mode may result in a four order of magnitude reduction in the number of ORF candidates as compared to the all-ORF mode. However, antiSMASH predictions are based on searching for a set of known motifs, therefore the motif-ORF mode misses some ORFs with novel RiPP motifs. BOA is based on identifying known proximal genes ("context genes") that reside next to a RiPP, rather than by the RiPP sequence itself. Therefore, BOA has a capability to identify non-orthologous RiPP replacements if those RiPPs maintain homologous context genes. However, if the RiPPs do not have context genes, BOA may not detect those RiPPs. Also, since BOA is trained on bacteriocin context genes only, it is most suited for that type of RiPPs.</p><p>Although the all-ORF mode searches a larger set of ORFs than the motif-ORF mode, it does not necessarily result in an increased number of identified RiPPs after matching ORFs against the spectral dataset. Indeed, the peptide-spectrum matches that are statistically significant in the motif-ORF mode may become statistically insignificant in the all-ORF mode because the search space in the all-ORF mode is orders of magnitude larger than in the motif-ORF mode, resulting in an increased false discovery rate (FDR). Because MetaMiner only reports statistically significant peptide-spectrum matches, the all-ORF mode may miss some peptides identified in the motif-ORF mode. Conversely, because MetaMiner searches more ORFs in the all-ORF mode than in the motif-ORF mode, the motif-ORF mode may miss some peptides identified in the all-ORF mode.</p><p>Figure <ref type="figure">S1</ref> shows a comparison of the performance of MetaMiner with all-ORF and motif-ORF genome mining approaches on the ACTI dataset. At the extremely conservative 0% FDR, MetaMiner in the motif-ORF mode identified three unknown RiPPs and five known RiPPs. MetaMiner in the all-ORF mode identified only two known RiPPs at 0% FDR. Note that while the all-ORF mode improves on the motif-ORF mode for the STANDARD dataset, the motif-ORF mode improves on the all-ORF mode for the ACTI dataset.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RiPP Discovery.</head><p>MetaMiner identified 31 known RiPPs and discovered seven unknown RiPPs in various datasets, including Actinomyces strains, Bacillus strains, Cyanobacteria strains, sponge microbiome, microbial isolates from the International Space Station, and human microbiome (see STAR methods for details). Table <ref type="table">S1</ref> provides information about all the RiPPs identified at 1% FDR by MetaMiner. Among the 31 known RiPPs, 23 were identified in the strains identical to the previous reports, three were identified in strains with 99% or higher 16S rRNA similarity, two were identified in the same species, one was identified in the same genus, and two were identified in the same samples (Table <ref type="table">S2</ref>, <ref type="table">Figures S7-S11</ref>, <ref type="table">S13</ref>). The seven unknown RiPPs belong to various classes, including lanthipeptides, lassopeptides, cynobactins, and phenol-soluble modulins classes (Figure <ref type="figure">2</ref>). Their putative biosynthetic gene clusters contain all the essential genes responsible for the modifications (Figures 2, S2-S6, S12, and S14).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Confirmation of wewakazole identification.</head><p>MetaMiner identified wewakazole in a polar fraction from the extract of the strain PNG26APR06-4, a marine cyanobacterium collected at Kape Point, Papua New Guinea. Wewakazole was first reported by the co-authors of this paper (W.H.G.) from another Papua New Guinea collection of Lyngbya majuscula (revised to Moorea producens) obtained from Wewak Bay <ref type="bibr" target="#b38">(Nogle et al., 2003)</ref>. Subsequently a related compound, wewakazole B was isolated from a Red Sea collection of this cyanobacterium <ref type="bibr" target="#b24">(Lopez et al., 2016)</ref>. To validate the MetaMiner's identification of wewakazole from strain PNG26APR06-4, reverse phase C 18 column chromatography and preparative HPLC separations were successful in the isolation of 31.2 μg of this compound. The compound possessed the same molecular formula as wewakazole, C 59 H 72 N 12 O 12 , based on the molecular ion sodium adduct [M+Na] + in the HR-ESI-MS (m/z 1163.5282, Figure <ref type="figure">S15</ref>). Its chemical identity was further confirmed utilizing 1 H, HSQC and HMBC NMR data, which allowed for direct comparison with data previously reported for wewakazole (Supplementary Figure <ref type="figure">S16-S18</ref>) <ref type="bibr" target="#b38">(Nogle et al., 2003)</ref>. Moreover, the tandem mass spectrum and retention time of the isolated compound matched the data previously reported for wewakazole (Figures <ref type="figure">S19</ref> and <ref type="figure">S20</ref>) <ref type="bibr" target="#b38">(Nogle et al., 2003)</ref>. Furthermore, the ECCD spectrum resembled that of wewakazole B <ref type="bibr" target="#b24">(Lopez et al., 2016)</ref>, and the specific rotation showed the same sign as previously reported for wewakazole <ref type="bibr" target="#b38">(Nogle et al., 2003)</ref>, excluding the possibility of an enantiomeric relationship of this isolate to that of wewakazole (Figure <ref type="figure">S21</ref>). Thus, the compound identified by MetaMiner was isolated and its identity was confirmed as wewakazole.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>While recent genome mining efforts have revealed over 20,000 hypothetical RiPP-encoding biosynthetic gene clusters <ref type="bibr" target="#b15">(Hadjithomas et al., 2015)</ref>, only 35 RiPPs matching these biosynthetic gene clusters have been identified so far. To keep pace with the speed of microbial genome sequencing, high-throughput methods for structure elucidation of RiPPs are needed that combine metagenomics, genome mining, and peptidomics. MetaMiner extends our previous RiPPquest tool (limited to lanthipeptides) to lassopeptides, LAPs, linaridins, glycocins, cyanobactins, and proteusins, and enables the blind search for RiPPs with unusual modifications.</p><p>Studies describing RiPPs are usually limited to the analysis of a single peptide or a few related peptides. The first application of MetaMiner revealed many known RiPPs, as well as their unknown analogs, and seven novel RiPPs (three lanthipeptide, one lassopeptide, two peptide-spectrum matches and one cyclic cyanobactin) along with their numerous analogs, from only eight spectral datasets. MetaMiner identifications were validated by the isolation of the RiPP metabolite wewakezole and confirmation of its structure by orthogonal approaches, confirming that the MetaMiner prediction was correct. In contrast to the existing genome mining approaches that rely on known biosynthetic gene cluster motifs <ref type="bibr" target="#b52">(Weber et al., 2015)</ref>, MetaMiner in the all-ORF mode has the ability to discover unknown biosynthetic gene clusters (with previously unknown motifs) that encode novel RiPPs (e.g. Compound Bac-ISS-2196 and cyanobactin X) that are very different from all the currently known RiPPs and thus are not captured by the existing genome mining tools. MetaMiner can potentially make RiPP identification as robust as peptide identification in the traditional proteomics.</p><p>We further evaluated the performance of MetaMiner on eight paired mass spectral and genomics/metagenomics datasets. In a positive control dataset collected on various isolated RiPPs, MetaMiner correctly identified all the 18 known RiPPs. In a dataset collected on various Actinomyces strains, MetaMiner identified eight RiPPs, among which five have been previously reported in similar strains. In a dataset collected on sponge microbiome, MetaMiner successfully discovered a known compound polytheonamide previously reported in the same sample. In a dataset of Bacillus strains, a known RiPP lichenicidin is discovered in an unknown producer. In a dataset collected on strains from the human microbiome, MetaMiner discovered an interesting known quorum sensing autoinducer peptide from a Staphylococcus strain. Moreover, MetaMiner identified multiple phenol-soluble modulins, a class of secreted staphylococcal peptides that have the ability to lyse human neutrophils, the main cellular defense line against Staphylococcus aureus infection. The production of AIP and phenol-soluble modulins have been previously reported in related Staphylococcus strains, but this is the first time these molecules are identified in the human microbiome. MetaMiner also identified a known RiPP, wewakezole, in a cyanobacterial strain, which was confirmed by subsequent isolation and identification by nuclear magnetic resonance.</p><p>In this paper we used a target-decoy strategy to control the false discovery rate of MetaMiner. For each dataset, we reported all the RiPPs identified at 1% FDR threshold. This resulted in the identification of 38 RiPPs after analyzing 10 million spectra. While the discovery of only 38 RiPPs might look pessimistic at first glance, our spectral networking analysis shows that these 10 million spectra cluster into only 8071 families. Moreover, searching these families against known chemical structures using Dereplicator+ shows that many of these families belong to non-ribosomal peptides, polyketides, terpenes and other classes of natural products. While the discovery of 38 RiPPs by searching 10 million spectra provides a proof of concept for the MetaMiner method, the presented method is applicable to any mass spectral / genomics / metagenomics data collected on the isolated microbes/ microbial communities.</p><p>Currently, only 1% of the spectra from GNPS dataset has been searched against the genomic/metagenomic references using MetaMiner. The other 99% of the spectra in GNPS are not accompanied with the genomics/metagenomics data, making it impossible to search them. Recent genome/metagenome mining studies have revealed hundreds of thousands of biosynthetic gene clusters with uncharacterized small molecules from the publicly available genomic / metagenomic data in the National Center for Biotechnology Information (NCBI) and the Joint Genome Institute (JGI) repositories. A portion of the unannotated spectra in GNPS datasets are likely formed by the small molecule products of biosynthetic gene clusters from these publicly available genomes/metagenomes. MetaMiner enables rapid search of billions of mass spectra from GNPS infrastructure against the metagenomics/reference genome datasets collected on the microbial communities. MetaMiner is capable of searching large metagenomics and mass spectral datasets in order to construct catalogues of unknown antimicrobial molecules that can be used as drug leads in high-throughput screening efforts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>STAR Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>LEAD CONTACT AND MATERIALS AVAILABILITY</head><p>Further information and requests for resources should be directed to and will be fulfilled by the Lead Contact, Hosein Mohimani (hoseinm@andrew.cmu.edu). This study did not generate new unique reagents.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHOD DETAILS</head><p>Datasets.-We analyzed the following paired datasets of spectra and genome/metagenome data (all datasets, with the exception of the BACIL dataset, contain high-resolution spectra):</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Standard dataset (STANDARD).:</head><p>This small dataset consists of 18 spectra of known RiPPs that were used for benchmarking MetaMiner (GNPS datasets MSV000079506 and MSV000079622). Spectra were collected from purified RiPPs from Prochlorococcus marinus MIT 9313 (four analogs of prochlorosins), Geobacillus thermodenitrificans NG80 (geobacillin), Bacillus subtilis NCIB 3610 (sublancin), Bacillus halodurans C-125 (haloduracin), Lactococcus lactis (lacticin), Bacillus cereus SJ1 (two analogs of bicereusins) and Ruminococcus flavefaciens FD-1 (eight analogs of flavecins). For these strains, we used genome sequence information available from the NCBI RefSeq database. AntiSMASH identified 70 biosynthetic gene clusters in these genomes, including 29 RiPP-encoding clusters. Since the genome sequence of the lacticin producer is not available, we searched its spectrum against its described biosynthetic gene clusters <ref type="bibr" target="#b42">(Rince et al., 1997)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Actinomycetes dataset (ACTI).:</head><p>This dataset consists of 473,135 spectra from bacterial extracts of 36 Actinomycetales strains with sequenced genomes <ref type="bibr" target="#b8">(Duncan et al., 2015;</ref><ref type="bibr">Mohimani et al., 2014b)</ref> (GNPS datasets MSV000078839 and MSV000078604). We downloaded sequence information for these 36 genomes from the NCBI RefSeq database. AntiSMASH identified 1,140 biosynthetic gene clusters in these genomes, including 168 RiPP-encoding clusters. Furthermore, we downloaded and mixed the short reads from 21 out of 36 strains that were available from the NCBI Short Reads Archive (read length 150 bp, insert sizes varying between 200 bp to 300 bp). We randomly down-sampled each dataset to 10 million reads (resulting in an approximate 300-fold coverage), and mixed all the reads to simulate a metagenomic dataset for this sample. Running MetaMiner on the separate genomes from this dataset resulted in the same set of identified RiPPs as obtained from the simulated metagenome.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bacillus dataset (BACIL).:</head><p>This dataset consists of 40,051 low-resolution spectra from bacterial extracts of two Bacillus strains with known genomes <ref type="bibr" target="#b37">(Nguyen et al., 2013)</ref> (MSV000078552). We downloaded genome sequence information for these isolates from the NCBI RefSeq dataset. AntiSMASH identified 12 biosynthetic gene clusters (one RiPPencoding cluster) in B. amyloliquefaciens FZB42 and 11 biosynthetic gene clusters (four RiPP-encoding clusters) in B. licheniformis ES-221.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Space station dataset (SPACE).:</head><p>This dataset consists of 58,422 spectra from bacterial extracts of 21 isolated strains collected at the International Space Station (MSV000080102). Among these strains, twelve are Staphylococcus, six Bacillus, four Enterobacteria and one Acinetobacter strain. The complete genomes are available for all of these strains <ref type="bibr" target="#b43">(Singh et al., 2016;</ref><ref type="bibr" target="#b48">Venkateswaran et al., 2017)</ref>. AntiSMASH identified 119 biosynthetic gene clusters, including 27 RiPP-encoding clusters.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sponge dataset (SPONGE).:</head><p>This dataset contains 223,135 spectra from bacterial extracts of Theonella swinhoei (GNPS dataset MSV000078670). <ref type="bibr" target="#b53">Wilson et al. (Wilson et al., 2014)</ref> used the SPONGE dataset to analyze the RiPP polytheonamide. We searched spectra from the SPONGE dataset against the genome of Theonella swinhoei symbiont Candidatus Entotheonella sp. TSY1. In this dataset, AntiSMASH identified 27 biosynthetic gene clusters, including four RiPP-encoding clusters.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cyanobacteria dataset (CYANO).:</head><p>This dataset consists of 11,921,457 spectra from the extracts of 317 cyanobacterial samples (Luzzatto-Knaan et al., 2017) (GNPS dataset MSV000078568). Each sample represents a mini-metagenome <ref type="bibr" target="#b39">(Nurk et al., 2013;</ref><ref type="bibr" target="#b40">Nurk et al., 2017)</ref> with one or a few highly abundant strains. The metagenomic reads were collected from 195 of these samples. AntiSMASH identified 2,898 biosynthetic gene clusters in the 195 cyanobacterial metagenomes, including 491 RiPP-encoding clusters.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reference Human Microbiome isolates (HUMAN-iso).:</head><p>This dataset contains 137,556 spectra from 17 human microbiome isolates (GNPS dataset MSV000078556). AntiSMASH identified 55 biosynthetic gene clusters in the 17 human microbiome isolate references, including 12 RiPP-encoding clusters.</p><p>Human Microbiome isolates from Cystic Fibrosis patients.: (HUMAN-CF). This dataset contains 7,554,646 spectra from 276 microbial isolates from the sputum culture of cystic fibrosis patients, (GNPS dataset MSV000080251). The short reads were collected on these 276 samples, and each sample contains a mixture of few (from one to eleven) bacteria. AntiSMASH identified 1,111 biosynthetic gene clusters, including 171 RiPP-encoding clusters.</p><p>MetaMiner pipeline.-MetaMiner works with paired genomic/metagenomic and tandem mass spectral data collected on isolated microbes or bacterial/fungal communities. The genomic input to MetaMiner could be short-read data, genome assemblies or extracted biosynthetic gene clusters, in fastq or fasta format. The mass spectral input to MetaMiner is in MGF or mzXML format. If the input is short read data, MetaMiner first assembles the reads into contigs. The pipeline for MetaMiner is described below:</p><p>(a) Constructing the database of putative RiPP precursor peptides. MetaMiner uses two strategies to search for precursor peptides, motif-ORF and all-ORF strategy. The motif-ORF strategy is based on the annotations from antiSMASH <ref type="bibr" target="#b27">(Medema et al., 2011;</ref><ref type="bibr" target="#b52">Weber et al., 2015)</ref>, and BOA <ref type="bibr" target="#b36">(Morton et al., 2015)</ref>. In this mode, MetaMiner first extracts genes related to secondary metabolites and their neighboring fragments from antiSMASH and BOA annotations. Then, putative peptides are constructed based on the ORFs within these clusters that are sequentially similar to known RiPPs. This strategy usually identifies a small number of putative precursor peptides per biosynthetic gene cluster, resulting in a fast and specific peptidogenomics approach. This strategy is not sensitive, as the peptides that do not have sequence similarity to the known RiPPs are missed.</p><p>In all-ORF mode, MetaMiner (i) translates DNA sequence into protein sequence using 6frame translation, (ii) runs HMMer <ref type="bibr" target="#b9">(Eddy, 2011)</ref> on the resulting sequences to detect all the modification enzymes, (iii) constructs a 10kbp window centered at each modification enzyme (this window is called the putative biosynthetic gene cluster), (iv) identifies all the ORFs shorter than a pre-defined threshold (default is 200 amino acids) in each putative biosynthetic gene cluster. This approach is capable of discovering RiPPs that do not have any sequence similarity to the known RiPPs.</p><p>(b) Constructing target and decoy databases of post-translantionally modified RiPPs. To construct the target RiPP structure database, MetaMiner first searches the biosynthetic gene clusters for all the modification enzymes previously reported in RiPPs <ref type="bibr" target="#b0">(Arnison et al., 2013)</ref> using HMMer. If a specific modification enzyme is found in a biosynthetic gene cluster, MetaMiner considers the corresponding modification for the identified precursor peptide/ peptides. Table <ref type="table">S3</ref> lists the modifications currently considered by MetaMiner, along with the corresponding amino acid residues and mass shifts.</p><p>To construct the database of decoy RiPPs, MetaMiner (i) creates a decoy database of RiPP precursor peptides by randomly shuffling each peptide in the target precursor database <ref type="bibr">(Elias and Gygi, 2007)</ref>, and (ii) creates decoy RiPPs from decoy precursors in the same way as the target RiPPs.</p><p>(c) Matching spectra against the target and decoy RiPPs. MetaMiner uses a modified version of Dereplicator <ref type="bibr" target="#b31">(Mohimani et al., 2017)</ref> for searching spectra against the database of putative target/decoy RiPPs as follows (i) theoretical spectra for all the target/decoy RiPPs are constructed, (ii) peptide-spectrum matches are generated and scored, (iii) p-values of the peptide-spectrum matches are computed using MS-DPR <ref type="bibr">(Mohimani et al., 2013)</ref>, (iv) false discovery rates are computed using the decoy database, and (v) statistically significant peptide-spectrum matches are output as putative RiPP identifications.</p><p>While exhaustive generation of the candidate RiPPs and scoring by Dereplicator is feasible when a small number of modifications are considered, the running time rapidly increases with the increase in the number of modifications. We use the spectral alignment technique to efficiently find modifications of the core peptide that best matches the spectrum <ref type="bibr">(Mohimani et al., 2014a;</ref><ref type="bibr">Pevzner et al., 2000;</ref><ref type="bibr">Pevzner et al., 2001;</ref><ref type="bibr">Tsur et al., 2005)</ref>. This dynamic programming approach restricts the number of modifications and penalizes high score matches with more than one modification.</p><p>While the dynamic programming approach from RiPPquest <ref type="bibr">(Mohimani et al., 2014a)</ref> can handle modifications in linear peptides, it is not applicable to cyclic peptides. MetaMiner uses a brute-force approach to search all the RiPP modifications of each candidate cyclic peptide against all the spectra. To make this possible, MetaMiner uses a faster scoring strategy that utilized the sparsity of mass spectra and theoretical spectra. We do not currently perform blind modification searches for cyclic peptides due to the inherent computational complexity.</p><p>(d) Enlarging the set of identified RiPPs via spectral networking. The set of RiPP identifications is enlarged via spectral networks <ref type="bibr" target="#b1">(Bandeira et al., 2007;</ref><ref type="bibr" target="#b51">Watrous et al., 2012)</ref>.</p><p>Post-translational modifications of RiPPs.-While constructing target and decoy databases of post-translationally modified RiPPs (Figure <ref type="figure">1b</ref>), MetaMiner considers various types of modifications based on the class of the RiPPs. Table <ref type="table">S3</ref> lists the modifications considered by MetaMiner.</p><p>Extraction and tandem mass spectrometry.-Below we describe the process of growth (for isolated samples), extraction, and analysis of each dataset by mass spectrometry.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACTI dataset.:</head><p>A total of 39 strains of Streptomyces were grown on A1, MS and R5 agar, extracted sequentially with ethyl acetate, butanol and methanol, and analyzed on Agilent 6530 Accurate-Mass Q-TOF spectrometer coupled to an Agilent 1260 LC system. BACIL dataset.: Bacillus strains were grown on ISP2 agar, extracted with a solvent mixture of 65:35 acetonitrile:water with 0.05% formic acid, and analyzed on a NanoDESI LTQ-FT (Thermo Electron) mass spectrometer. SPACE dataset.: Samples from International Space Station were extracted using 50% MeOH and analyzed on a maXis Impact mass spectrometer coupled to C18 RP-UHPLC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CYANO dataset.:</head><p>A total of 317 cyanobacterial collections were extracted repetitively with CH 2 Cl 2 :MeOH 2:1, dried in vacuo, and fractionated into nine fractions (A-I) by silica gel vacuum liquid chromatography (VLC) using a stepwise gradient of hexanes/EtOAc and EtOAc/MeOH, and analyzed on a Maxis Impact mass spectrometer coupled to C18 RP-UHPLC.</p><p>HUMAN-iso dataset.: Cultures of reference human microbiome isolates were extracted using 50% EtOH and analyzed on a maXis Impact mass spectrometer (Bruker Daltonics) coupled to a UltiMate 3000 UPLC system (Thermo Scientific) as described here <ref type="bibr">(Bouslimani et al. 2015)</ref>.</p><p>HUMAN-CF dataset.: Microbial isolates from the sputum culture of cystic fibrosis patients were extracted using 50% MeOH and analyzed on a maXis qTof mass spectrometer coupled to UltiMate 3000 Dionex UPLC system.</p><p>Confirmation of wewakazole structure.-HESIRMS data was collected using an Agilent 6230 Accurate-Mass TOFMS in positive ion mode by the UCSD Chemistry and Biochemistry Mass Spectrometry Facility. UV-Vis data were recorded on a Beckman Coulter DU 800 spectrophotometer at room temperature in MeOH (λ max at 214 nm and 217 nm). The ECCD spectrum was measured in MeOH using an Aviv 215 CD spectrometer. Optical rotation was measured at 25 °C using a JASCO P-2000 polarimeter ([α] 25 -3.9 (c 0.022, MeOH) (lit. <ref type="bibr" target="#b38">(Nogle et al., 2003)</ref>, [α] 21 D -46.8 (c 0.41, MeOH)). A Bruker AVANCE III 600 MHz NMR with a 1.7 mm dual tune TCI cryoprobe was used to record 1 H, HMBC and HSQC NMR data at 298 °K with standard Bruker pulse sequences. A Varian Vx 500 NMR with a cold probe and z-gradients was used to record 1 H NMR data at 298 K with standard pulse sequences. NMR data were recorded in CDCl 3 and calibrated using residual solvent peaks (δ H 7.26 and δ C 77.16).</p><p>For LC-MS analysis, a Thermo Finnigan Surveyor HPLC System was used with a Phenomenex Kinetex 5 μm C18 100 × 4.6 mm column coupled to a Thermo-Finnigan LCQ Advantage Max Mass Spectrometer. Samples were separated using a linear gradient with (A) H 2 O + 0.1% FA to (B) CH 3 CN + 0.1% FA at a flow rate of 0.6 mL/min. The gradient started with a 5 min isocratic step at 30% B followed by an increase to 99% B over 17 min, which was held at 99% B for 5 min and then moved to 30% B in 1 min, and then held for 4 min. Mass spectra were acquired with an ESI source ranging from m/z 200-1600.</p><p>Preparative HPLC was done using a Kinetex 5 μm C18 150 × 10.0 mm semi-preparative column coupled to a Thermo Dionex Ultimate 3000 pump, RS autosampler, RS diode array detector, and automated fraction collector.</p><p>Isolation of wewakazole.-The fraction in which MetaMiner identified wewakazole from sample PNG26APR06-4. This fraction (26.5 mg) was initially separated using a 500 mg/8mL Xpertek® C 18 SPE cartridge with 100% CH 3 CN to yield 10.7 mg after concentration under vacuum. The compound was isolated from this eluent by semipreparative HPLC using a linear gradient with (A) H 2 O + 0.1% FA to (B) CH 3 CN at a flow rate of 4 mL/min, and the chromatogram was monitored at 218 nm. The gradient started with a 5 min isocratic step at 40% B followed by an increase to 95% B in 25 min. Approximately 2.5 mg of the sample were injected per run to yield 31.2 mg of wewakazole (t R =13.0 min).</p><p>Practical guidelines for MetaMiner.-MetaMiner takes paired genomic and metabolomics data as input. For genomic data, MetaMiner accepts raw nucleotide sequences (.fasta file), antiSMASH output (.final.gbk file) or BOA output (.fasta file). For users who have raw DNA short reads data (.fastq file), we provide a brief guidance about how to assemble the short read by SPAdes/metaSPAdes in the MetaMiner manual. For metabolomics data, MetaMiner accepts MGF or mzXML files. MetaMiner output is the report of the detected RiPPs in the plain text tab-separated files (.tsv). The spectral network step can be done either through the MetaMiner pipeline, or the GNPS infrastructure (<ref type="url" target="https://ccms-ucsd.github.io/GNPSDocumentation/">https://  ccms-ucsd.github.io/GNPSDocumentation/</ref>). For more details, please refer to the MetaMiner manual at <ref type="url" target="https://github.com/mohimanilab/MetaMiner">https://github.com/mohimanilab/MetaMiner</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>QUANTIFICATION AND STATISTICAL ANALYSIS</head><p>Estimating false discovery rate-For each dataset, we use 1% false discovery rate (FDR) threshold for RiPP identification. The FDR is estimated with a target-decoy approach. For each target RiPP, we create a corresponding decoy RiPP by first randomly shuffling its precursor peptide sequence and then applying all the modifications of the target RiPP to the shuffled precursor peptide. Given a p-value threshold, denote the number of peptide-spectrum matches in the decoy database and target database as N decoy and N target .</p><p>The FDR can be estimated as follows: MetaMiner pipeline analyzes the paired genome/metagenome assemblies and tandem mass spectra from isolated microbes or bacterial/fungal communities. Starting from the genome assemblies, MetaMiner (a) identifies putative Biosynthetic gene cluster and the corresponding precursor peptides, (b) constructs target and decoy putative RiPP structure databases (c) matches tandem mass spectra against the constructed post-translationally modified RiPP structures database using Dereplicator, and (d) enlarges the set of described RiPPs via spectral networking <ref type="bibr" target="#b1">(Bandeira et al., 2007;</ref><ref type="bibr" target="#b51">Watrous et al., 2012)</ref>. In addition to DNA assemblies, MetaMiner software can also accept various types of input data, including shotgun reads data, antiSMASH output and BOA output. Chemotypes and putative gene clusters of seven unknown RiPPs discovered by MetaMiner as well as wewakazole. In the column chemotype, post-translationally modified amino acids are shown in bold red. In the precursor column, the green part will be cut and modified, to produce the chemotype. In gene cluster, different colors indicate different types of proteins annotated by DFAST <ref type="bibr" target="#b45">(Tanizawa et al., 2018)</ref> and HMMER <ref type="bibr" target="#b9">(Eddy, 2011)</ref>.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Figure 1.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>Figure 2.</figDesc><graphic coords="21,136.56,62.00,398.88,464.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="3,152.40,62.00,307.20,277.92" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Cell Syst. Author manuscript; available in PMC 2020 December 18.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The work of H.M. and L.C. was supported by a start-up fund from the <rs type="funder">Computational Biology Department, Carnegie Mellon University</rs>. The work of P.D. and P.A.P. was supported by <rs type="funder">NIH</rs> <rs type="grantNumber">2-P41-GM103484</rs>. P.D. is supported by <rs type="grantNumber">GM097509</rs>. A.G., A.M. and P.A.P. were supported by <rs type="funder">St. Petersburg State University, Russia</rs> (grant <rs type="grantNumber">ID PURE 28396291</rs>). A.S. and A.K. were supported by <rs type="funder">Russian Science Foundation</rs> (grant <rs type="grantNumber">19-14-00172</rs>). T.L.K., P.D., L.G. and W.H.G. were supported by <rs type="funder">NIH</rs> <rs type="grantNumber">2R01GM107550</rs>. L.G. and W.H.G. were supported by <rs type="funder">NIH</rs> <rs type="grantNumber">R01GM118815</rs>. JTM was funded by <rs type="funder">NSF</rs> <rs type="grantNumber">GRFP DGE-1144086</rs>.We thank the implementation team of the <rs type="institution">Microbial Observatory (Microbial Tracking-1)</rs> project at <rs type="institution">NASA Ames Research Center</rs> and sample processing/ isolation of microbes by <rs type="person">Aleksandra Checinska Sielaff</rs>, <rs type="institution">JPL</rs>. Part of the research described in this publication was carried out at the <rs type="institution">Jet Propulsion Laboratory, California Institute of Technology</rs> under a contract with <rs type="funder">NASA</rs>. The work of N.K.S. and K.V. was funded by <rs type="grantNumber">NASA 19-12829-26</rs> and <rs type="grantNumber">19-12829-27</rs>. C.B.N. was supported by postdoctoral fellowship from <rs type="funder">NCI/NIH Training Program in the Biochemistry of Growth Regulation and Oncogenesis</rs> (<rs type="grantNumber">T32 CA009523</rs>). T.L.K was supported by <rs type="grantName">Vaadia-BARD Postdoctoral Fellowship Award</rs> no. <rs type="grantNumber">FI-494-13</rs>. T.L. was supported by <rs type="funder">CAPES Foundation for Research Fellowship</rs> (<rs type="grantNumber">13425-13-7</rs>). The work of I.F. was supported, in part, by <rs type="funder">NSF</rs> awards <rs type="grantNumber">ABI-1551363</rs> and <rs type="grantNumber">ABI-1458359</rs>.</p></div>
+<div><head>Declaration of Interest</head><p>The work of W.H.G was supported by the <rs type="funder">University of California, San Diego</rs>, <rs type="funder">Scripps Institution of Oceanography</rs>, and a grant from the <rs type="funder">NIH</rs> (Award <rs type="grantNumber">GM118815</rs>). W.H.G has an equity interest in <rs type="funder">Sirenas Marine Discovery, Inc.</rs>, a company that may potentially benefit from the research results and also serves on the company's Scientific Advisory Board. The terms of this arrangement have been reviewed and approved by the <rs type="institution">University of California, San Diego</rs> in accordance with its conflict of interest policies. The work of PAP was supported by the <rs type="funder">US National Institutes of Health</rs> grant <rs type="grantNumber">2-P41-GM103484</rs>. P.A.P. has an equity interest and receives income from <rs type="funder">Digital</rs></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_Vt4UC4z">
+					<idno type="grant-number">2-P41-GM103484</idno>
+				</org>
+				<org type="funding" xml:id="_xYVDSaT">
+					<idno type="grant-number">GM097509</idno>
+				</org>
+				<org type="funding" xml:id="_VnScwAZ">
+					<idno type="grant-number">ID PURE 28396291</idno>
+				</org>
+				<org type="funding" xml:id="_Jj879Gp">
+					<idno type="grant-number">19-14-00172</idno>
+				</org>
+				<org type="funding" xml:id="_PHB7heT">
+					<idno type="grant-number">2R01GM107550</idno>
+				</org>
+				<org type="funding" xml:id="_8avudSG">
+					<idno type="grant-number">R01GM118815</idno>
+				</org>
+				<org type="funding" xml:id="_5urGVha">
+					<idno type="grant-number">GRFP DGE-1144086</idno>
+				</org>
+				<org type="funding" xml:id="_S97pBsU">
+					<idno type="grant-number">NASA 19-12829-26</idno>
+				</org>
+				<org type="funding" xml:id="_GkEcfFD">
+					<idno type="grant-number">19-12829-27</idno>
+				</org>
+				<org type="funding" xml:id="_p3qwhpK">
+					<idno type="grant-number">T32 CA009523</idno>
+					<orgName type="grant-name">Vaadia-BARD Postdoctoral Fellowship Award</orgName>
+				</org>
+				<org type="funding" xml:id="_gyDF3c7">
+					<idno type="grant-number">FI-494-13</idno>
+				</org>
+				<org type="funding" xml:id="_vwn29cX">
+					<idno type="grant-number">13425-13-7</idno>
+				</org>
+				<org type="funding" xml:id="_VAK7FzX">
+					<idno type="grant-number">ABI-1551363</idno>
+				</org>
+				<org type="funding" xml:id="_qB5WcMG">
+					<idno type="grant-number">ABI-1458359</idno>
+				</org>
+				<org type="funding" xml:id="_tyuMAXd">
+					<idno type="grant-number">GM118815</idno>
+				</org>
+				<org type="funding" xml:id="_h4sefrm">
+					<idno type="grant-number">2-P41-GM103484</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AND CODE AVAILABILITY</head><p>MetaMiner is available as a command line tool at <ref type="url" target="https://github.com/mohimanilab/MetaMiner">https://github.com/mohimanilab/  MetaMiner</ref>.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Material</head><p>Refer to Web version on PubMed Central for supplementary material.</p><p>Proteomics, LLC, a company that may potentially benefit from the research results. The terms of this arrangement have been reviewed and approved by the University of California, San Diego in accordance with its conflict of interest policies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Highlights:</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p>A tool for discovering and post-translationally modified peptides  <ref type="bibr" target="#b1">(Bandeira et al., 2007;</ref><ref type="bibr" target="#b51">Watrous et al., 2012)</ref> <ref type="url" target="https://ccms-ucsd.github.io/GNPSDocumentation/networking/">https://ccms-ucsd.github.io/GNPSDocumentation/networking/</ref> Cell Syst. Author manuscript; available in PMC 2020 December 18.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Ribosomally synthesized and post-translationally modified peptide natural products: overview and recommendations for a universal nomenclature</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Arnison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bibb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bierbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Bowers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Bugni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bulaj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Camarero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Campopiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Challis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clardy</surname></persName>
+		</author>
+		<idno type="PMID">23165928</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Prod Rep</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="108" to="160" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Protein identification by spectral networks analysis</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bandeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tsur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Pevzner</surname></persName>
+		</author>
+		<idno type="PMID">17404225</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="6140" to="6145" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bankevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nurk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Antipov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Gurevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dvorkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Kulikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Lesin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Nikolenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Prjibelski</surname></persName>
+		</author>
+		<idno type="PMID">22506599</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Comput Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="455" to="477" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Improved lanthipeptide detection and prediction for antiSMASH</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Blin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kazempour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wohlleben</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Weber</forename><forename type="middle">T</forename></persName>
+		</author>
+		<idno type="PMID">24586765</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">89420</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Coelichelin, a new peptide siderophore encoded by the Streptomyces coelicolor genome: structure prediction from the sequence of its non-ribosomal peptide synthetase</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Challis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ravel</surname></persName>
+		</author>
+		<idno type="PMID">10856642</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol Lett</title>
+		<imprint>
+			<biblScope unit="volume">187</biblScope>
+			<biblScope unit="page" from="111" to="114" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Urban park soil microbiomes are a rich reservoir of natural product biosynthetic diversity</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Charlop-Powers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Pregitzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lemetre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Ternei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Maniko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Hover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Y</forename><surname>Calle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Mcguire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Garbarino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Forgione</surname></persName>
+		</author>
+		<idno type="PMID">27911822</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="14811" to="14816" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A systematic analysis of biosynthetic gene clusters in the human microbiome reveals a common family of antibiotics</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Donia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cimermancic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Schulze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wieland</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mitreva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Clardy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Linington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Fischbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename></persName>
+		</author>
+		<idno type="PMID">25215495</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="page" from="1402" to="1414" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">HUMAN MICROBIOTA. Small molecules from the human microbiota</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Donia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Fischbach</surname></persName>
+		</author>
+		<idno type="PMID">26206939</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">349</biblScope>
+			<biblScope unit="page">1254766</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Molecular networking and pattern-based genome mining improves discovery of biosynthetic gene clusters and their products from Salinispora species</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Duncan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Crusemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lechner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sarkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ziemert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bandeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Dorrestein</surname></persName>
+		</author>
+		<idno type="PMID">25865308</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="460" to="471" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Accelerated Profile HMM Searches</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Eddy</surname></persName>
+		</author>
+		<idno type="PMID">22039361</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Comput Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">1002195</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Antibiotics for emerging pathogens</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Fischbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Walsh</forename><surname>Ct</surname></persName>
+		</author>
+		<idno type="PMID">19713519</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">325</biblScope>
+			<biblScope unit="page" from="1089" to="1093" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Metagenome mining reveals polytheonamides as posttranslationally modified ribosomal peptides</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gurgui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Helf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">I</forename><surname>Morinaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Uria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Oldham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Sahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Matsunaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Piel</surname></persName>
+		</author>
+		<idno type="PMID">22983711</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">338</biblScope>
+			<biblScope unit="page" from="387" to="390" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The Earth Microbiome project: successes and aspirations</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Gilbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Jansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Knight</surname></persName>
+		</author>
+		<idno type="PMID">25184604</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">69</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The genomisotopic approach: a systematic method to isolate products of orphan biosynthetic gene clusters</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">O</forename><surname>Stockwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Henkels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nowak-Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Loper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Gerwick</surname></persName>
+		</author>
+		<idno type="PMID">17254952</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="53" to="63" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Increased diversity of peptidic natural products revealed by modification-tolerant database search of mass spectra</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gurevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mikheenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shlemov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Korobeynikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mohimani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Pevzner</surname></persName>
+		</author>
+		<idno type="PMID">29358742</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="319" to="327" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">IMG-ABC: A Knowledge Base To Fuel Discovery of Biosynthetic Gene Clusters and Novel Secondary Metabolites</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hadjithomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ratner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Palaniappan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Szeto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cimermancic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Fischbach</surname></persName>
+		</author>
+		<idno type="PMID">26173699</idno>
+	</analytic>
+	<monogr>
+		<title level="j">MBio</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">932</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The re-emergence of natural products for drug discovery in the genomics era</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Harvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Edrada-Ebel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Quinn</forename><surname>Rj</surname></persName>
+		</author>
+		<idno type="PMID">25614221</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Drug Discov</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="111" to="129" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">A framework for human microbiome research</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Human Microbiome Project</surname></persName>
+		</author>
+		<idno type="PMID">22699610</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">486</biblScope>
+			<biblScope unit="page" from="215" to="221" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Structure, function and diversity of the healthy human microbiome</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Human Microbiome Project</surname></persName>
+		</author>
+		<idno type="PMID">22699609</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">486</biblScope>
+			<biblScope unit="page" from="207" to="214" />
+			<date type="published" when="2012">2012b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A mass spectrometry-guided genome mining approach for natural product peptidogenomics</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Kersten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cimermancic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Nam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fenical</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Fischbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dorrestein</forename><surname>Pc</surname></persName>
+		</author>
+		<idno type="PMID">21983601</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="794" to="802" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Discovery of a new peptide natural product by Streptomyces coelicolor genome mining</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lautru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Deeth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Challis</surname></persName>
+		</author>
+		<idno type="PMID">16408055</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="265" to="269" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Drug discovery and natural products: end of an era or an endless frontier?</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Vederas</surname></persName>
+		</author>
+		<idno type="PMID">19589993</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">325</biblScope>
+			<biblScope unit="page" from="161" to="165" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A new antibiotic kills pathogens without detectable resistance</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Ling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Peoples</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Spoering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Engels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Conlon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Schaberle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Epstein</surname></persName>
+		</author>
+		<idno type="PMID">25561178</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">517</biblScope>
+			<biblScope unit="page" from="455" to="459" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Strains, functions and dynamics in the expanded Human Microbiome Project</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lloyd-Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mahurkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rahnavard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crabtree</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Orvis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Creasy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mccracken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Giglio</surname></persName>
+		</author>
+		<idno type="PMID">28953883</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">550</biblScope>
+			<biblScope unit="page" from="61" to="66" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Wewakazole B, a Cytotoxic Cyanobactin from the Cyanobacterium Moorea producens Collected in the Red Sea</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Al-Lihaibi</forename><surname>Ss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Alarif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abdel</forename><forename type="middle">-</forename><surname>Lateff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nogata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Washio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Morikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Okino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+		<idno type="PMID">26980238</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Nat Prod</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="1213" to="1218" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Digitizing mass spectrometry data to explore the chemical diversity and distribution of marine cyanobacteria and algae</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Luzzatto-Knaan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Garg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Glukhov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ackermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Amir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Duggan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ryazanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gerwick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Elife</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">American Gut: an Open Platform for Citizen Science Microbiome Research</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hyde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Debelius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Morton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ackermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Aksenov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Behsaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brennan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">mSystems</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">antiSMASH: rapid identification, annotation and analysis of secondary metabolite biosynthesis gene clusters in bacterial and fungal genome sequences</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Medema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Blin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cimermancic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>De Jager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zakrzewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Fischbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Takano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Breitling</surname></persName>
+		</author>
+		<idno type="PMID">21672958</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="339" to="346" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Computational approaches to natural product discovery</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Medema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Fischbach</surname></persName>
+		</author>
+		<idno type="PMID">26284671</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="639" to="648" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Minimum Information about a Biosynthetic Gene cluster</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Medema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kottmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Yilmaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cummings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Biggins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Blin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>De Bruijn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Chooi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Claesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Coates</surname></persName>
+		</author>
+		<idno type="PMID">26284661</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="625" to="631" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Pep2Path: automated mass spectrometry-guided genome mining of peptidic natural products</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Medema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Paalvast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Melnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Dorrestein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Takano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Breitling</surname></persName>
+		</author>
+		<idno type="PMID">25188327</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Comput Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1003822</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Dereplication of peptidic natural products through database search of mass spectra</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mohimani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gurevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mikheenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Garg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Nothias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ninomiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Dorrestein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Pevzner</surname></persName>
+		</author>
+		<idno type="PMID">27820803</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="30" to="37" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Dereplication of microbial metabolites through database search of mass spectra</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mohimani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gurevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shlemov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mikheenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Korobeynikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Shcherbin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Nothias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Dorrestein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Pevzner</surname></persName>
+		</author>
+		<idno type="PMID">30279420</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">4035</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Automated genome mining of ribosomal peptide natural products</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mohimani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Kersten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">O</forename><surname>Purvine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Brewer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pasa-Tolic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bandeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="PMID">24802639</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1545" to="1551" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">NRPquest: Coupling Mass Spectrometry and Genome Mining for Nonribosomal Peptide Discovery</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mohimani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Kersten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Dorrestein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Pevzner</surname></persName>
+		</author>
+		<idno type="PMID">25116163</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Nat Prod</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="1902" to="1909" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Dereplication, sequencing and identification of peptidic natural products: from genome mining to peptidogenomics to spectral networks</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mohimani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Pevzner</surname></persName>
+		</author>
+		<idno type="PMID">26497201</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Prod Rep</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="73" to="86" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A large scale prediction of bacteriocin gene blocks suggests a wide functional spectrum for bacteriocins</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Morton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Freed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Friedberg</surname></persName>
+		</author>
+		<idno type="PMID">26558535</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">381</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">MS/MS networking guided analysis of molecule and gene cluster families</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Moree</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lamsa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Medema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Gavilan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aparicio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Atencio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jackson</surname></persName>
+		</author>
+		<idno type="PMID">23798442</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="2611" to="2620" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Wewakazole, a novel cyclic dodecapeptide from a Papua New Guinea Lyngbya majuscula</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Nogle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Marquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Gerwick</surname></persName>
+		</author>
+		<idno type="PMID">12509876</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Org Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="3" to="6" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Assembling single-cell genomes and mini-metagenomes from chimeric MDA products</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nurk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bankevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Antipov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Gurevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Korobeynikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lapidus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Prjibelski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pyshkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sirotkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sirotkin</surname></persName>
+		</author>
+		<idno type="PMID">24093227</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Comput Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="714" to="737" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">metaSPAdes: a new versatile metagenomic assembler</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nurk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Meleshko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Korobeynikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Pevzner</surname></persName>
+		</author>
+		<idno type="PMID">28298430</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="824" to="834" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Complete genome sequence of the plant commensal Pseudomonas fluorescens Pf-5</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">T</forename><surname>Paulsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Press</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ravel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Mavrodi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Deboy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Seshadri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Madupu</surname></persName>
+		</author>
+		<idno type="PMID">15980861</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="873" to="878" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Characterization of the lacticin 481 operon: the Lactococcus lactis genes lctF, lctE, and lctG encode a putative ABC transporter involved in bacteriocin immunity</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rince</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dufour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Uguen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Pennec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Haras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+		<idno type="PMID">9361411</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="4252" to="4260" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Draft Genome Sequences of Two Aspergillus fumigatus Strains, Isolated from the International Space Station</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blachowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Checinska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Announc</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Genomes to natural products PRediction Informatics for Secondary Metabolomes (PRISM)</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Skinnider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Dejong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Rees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Webster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Wyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Magarvey</surname></persName>
+		</author>
+		<idno type="PMID">26442528</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="9645" to="9662" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">DFAST: a flexible prokaryotic genome annotation pipeline for faster genome publication</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tanizawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fujisawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nakamura</surname></persName>
+		</author>
+		<idno type="PMID">29106469</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1037" to="1039" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">A communal catalogue reveals Earth&apos;s multiscale microbial diversity</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Amir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ladau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Locey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Prill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tripathi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Gibbons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ackermann</surname></persName>
+		</author>
+		<idno type="PMID">29088705</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">551</biblScope>
+			<biblScope unit="page" from="457" to="463" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Using fragmentation trees and mass spectral trees for identifying unknown compounds in metabolomics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vaniya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Fiehn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Analyt Chem</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="52" to="61" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Draft Genome Sequences from a Novel Clade of Bacillus cereus Sensu Lato Strains, Isolated from the International Space Station</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Checinska</forename><surname>Sielaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ratnayake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Blank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Van Tongeren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Torres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Announc</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">A chemocentric view of the natural product inventory</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Walsh</surname></persName>
+		</author>
+		<idno type="PMID">26284660</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="620" to="624" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Sharing and community curation of mass spectrometry data with Global Natural Products Social Molecular Networking</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Carver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Phelan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Garg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Watrous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Kapono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Luzzatto-Knaan</surname></persName>
+		</author>
+		<idno type="PMID">27504778</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="828" to="837" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Mass spectral molecular networking of living microbial colonies</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Watrous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Roach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Alexandrov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Heath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Kersten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Der Voort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pogliano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Raaijmakers</surname></persName>
+		</author>
+		<idno type="PMID">22586093</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="1743" to="1752" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">antiSMASH 3.0-a comprehensive resource for the genome mining of biosynthetic gene clusters</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Blin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Duddela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Krug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">U</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bruccoleri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Fischbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wohlleben</surname></persName>
+		</author>
+		<idno type="PMID">25948579</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="237" to="243" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">An environmental bacterial taxon with a large and distinct metabolic repertoire</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ruckert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Uria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Helf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gernert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">A</forename><surname>Steffens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Heycke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schmitt</surname></persName>
+		</author>
+		<idno type="PMID">24476823</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">506</biblScope>
+			<biblScope unit="page" from="58" to="62" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Structural Characterization and Bioactivity Analysis of the Two-Component Lantibiotic Flv System from a Ruminant Bacterium</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Van Der Donk</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Wa</surname></persName>
+		</author>
+		<idno type="PMID">27028884</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Chem Biol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="246" to="256" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

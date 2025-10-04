@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Identification of therapeutic targets for chronic kidney disease through Mendelian randomization analysis of druggable genes</title>
+				<funder ref="#_JYekAJM #_ZrDCWQ6">
+					<orgName type="full">Natural Science Foundation of Guangdong Province</orgName>
+				</funder>
+				<funder ref="#_5KtSxea">
+					<orgName type="full">Discipline Construction Project of Guangdong Medical University</orgName>
+				</funder>
+				<funder ref="#_taRTQGC">
+					<orgName type="full">Affiliated Hospital of Guangdong Medical University</orgName>
+				</funder>
+				<funder ref="#_bMSk2PT">
+					<orgName type="full">Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Clinical Key Specialty Construction Project (Institute of Nephrology, Affiliated Hospital of Guangdong Medical University)</orgName>
+				</funder>
+				<funder ref="#_4nvjG7J">
+					<orgName type="full">Zhanjiang City Science and Technology Development Special Funds Competitive Allocation Project</orgName>
+				</funder>
+				<funder ref="#_qKxfZDg">
+					<orgName type="full">Zhanjiang Science and Technology Project</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2025-03-28">2025-03-28</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Run-Sen</forename><surname>Liang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Nephrology</orgName>
+								<orgName type="laboratory" key="lab1">Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Prevention and Management of Chronic Kidney Diseases of Zhanjiang City</orgName>
+								<orgName type="institution">Affiliated Hospital of Guangdong Medical University</orgName>
+								<address>
+									<settlement>Zhanjiang Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jin-Qi</forename><surname>Su</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Nephrology</orgName>
+								<orgName type="laboratory" key="lab1">Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Prevention and Management of Chronic Kidney Diseases of Zhanjiang City</orgName>
+								<orgName type="institution">Affiliated Hospital of Guangdong Medical University</orgName>
+								<address>
+									<settlement>Zhanjiang Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiang-Qi</forename><surname>Wu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Nephrology</orgName>
+								<orgName type="laboratory" key="lab1">Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Prevention and Management of Chronic Kidney Diseases of Zhanjiang City</orgName>
+								<orgName type="institution">Affiliated Hospital of Guangdong Medical University</orgName>
+								<address>
+									<settlement>Zhanjiang Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Qi</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Nephrology</orgName>
+								<orgName type="laboratory" key="lab1">Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Prevention and Management of Chronic Kidney Diseases of Zhanjiang City</orgName>
+								<orgName type="institution">Affiliated Hospital of Guangdong Medical University</orgName>
+								<address>
+									<settlement>Zhanjiang Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yong-Mei</forename><surname>Cai</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Nephrology</orgName>
+								<orgName type="laboratory" key="lab1">Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Prevention and Management of Chronic Kidney Diseases of Zhanjiang City</orgName>
+								<orgName type="institution">Affiliated Hospital of Guangdong Medical University</orgName>
+								<address>
+									<settlement>Zhanjiang Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hong-Yong</forename><surname>Su</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Nephrology</orgName>
+								<orgName type="laboratory" key="lab1">Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Prevention and Management of Chronic Kidney Diseases of Zhanjiang City</orgName>
+								<orgName type="institution">Affiliated Hospital of Guangdong Medical University</orgName>
+								<address>
+									<settlement>Zhanjiang Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ji-Xin</forename><surname>Tang</surname></persName>
+							<email>tangjixin@gdmu.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Nephrology</orgName>
+								<orgName type="laboratory" key="lab1">Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Prevention and Management of Chronic Kidney Diseases of Zhanjiang City</orgName>
+								<orgName type="institution">Affiliated Hospital of Guangdong Medical University</orgName>
+								<address>
+									<settlement>Zhanjiang Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Cui-Wei</forename><surname>Yao</surname></persName>
+							<email>yaocuiwei@gdmu.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Nephrology</orgName>
+								<orgName type="laboratory" key="lab1">Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases</orgName>
+								<orgName type="laboratory" key="lab2">Key Laboratory of Prevention and Management of Chronic Kidney Diseases of Zhanjiang City</orgName>
+								<orgName type="institution">Affiliated Hospital of Guangdong Medical University</orgName>
+								<address>
+									<settlement>Zhanjiang Guangdong</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Identification of therapeutic targets for chronic kidney disease through Mendelian randomization analysis of druggable genes</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Scientific Reports</title>
+						<title level="j" type="abbrev">Sci Rep</title>
+						<idno type="eISSN">2045-2322</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">15</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2025-03-28" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">990B96D2EEE4785F54D99E878A139267</idno>
+					<idno type="DOI">10.1038/s41598-025-94761-0</idno>
+					<note type="submission">Received: 14 September 2024; Accepted: 17 March 2025</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T10:09+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Chronic kidney disease</term>
+					<term>TUBB</term>
+					<term>Druggable genes</term>
+					<term>Mendelian randomization analysis</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Chronic Kidney Disease (CKD) is a multifaceted and gradually advancing condition characterized by a complex pathogenesis. The current therapeutic options for CKD remain limited in efficacy. Consequently, the identification and exploration of novel drug targets for CKD are of paramount importance. We identified cis-expression quantitative trait loci (cis-eQTLs) with potential as drug targets from the eQTLGen Consortium database to serve as the exposure. For the outcome, we utilized a genome-wide association study (GWAS) of chronic kidney disease (CKD) from the FinnGen database, which comprised a case group of 11,265 individuals and a control group of 436,208 individuals. MR analysis was employed to investigate druggable genes closely associated with CKD. Subsequently, Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were conducted to elucidate the functional roles of these significant genes. Finally, a colocalization analysis was conducted to determine the likelihood that a cis-eQTL for a druggable gene and CKD share a causal variant. The expression of 12 genes was found to be significantly associated with CKD risk, with a false discovery rate (FDR) of less than 0.05. GO and KEGG enrichment analyses indicated that these genes are primarily involved in the regulation of MAP kinase activity, regulation of protein serine/threonine kinase activity, Gap junction, Platelet activation and Oxytocin signaling pathway. The colocalization analysis results suggested that CKD and the TUBB gene may share a causal variant, with a posterior probability (PP.H4) exceeding 80% (TUBB: 97.27%). Compelling statistical evidence indicates that TUBB represents the most promising pharmacological target for the treatment of CKD. This study not only identifies potential therapeutic targets but also offers valuable insights for future drug development in the context of CKD.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>CKD. This approach facilitates the identification of potential drug targets for CKD treatment. This approach has also found extensive application in the investigation of various other diseases <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref> .</p><p>Mendelian Randomization (MR), a statistical technique that leverages genetic variation as an instrumental variable, has demonstrated significant potential in recent years for causal inference in the context of complex diseases <ref type="bibr" target="#b7">8</ref> . By utilizing genetic variants that exhibit strong correlations with exposure factors as IVs, MR facilitates the assessment of causal relationships between exposure factors and outcomes, thereby mitigating the influence of confounding variables. Consequently, MR analyses is frequently employed to evaluate etiological inferences in epidemiological research <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10</ref> . Importantly, the effectiveness of MR analyses parallels that of randomized controlled trials, albeit with reduced bias and the elimination of reverse causality (Fig. <ref type="figure" target="#fig_0">1</ref>) <ref type="bibr" target="#b10">11</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study design</head><p>In this MR analysis, we selected cis-expression quantitative trait loci (cis-eQTL) of druggable genes as the exposure variable and employed genome-wide association study (GWAS) data for CKD from the FinnGen database as the outcome variable. This approach was designed to elucidate the complex relationship between the expression of druggable genes and CKD. To identify the most suitable SNPs as instrumental variables, we conducted association analyses of the exposure factors and established stringent inclusion and exclusion criteria. A series of sensitivity analyses was implemented in order to ensure the robustness and reliability of the MR analysis. Furthermore, to elucidate the functional roles of the significant genes identified through MR analysis in terms of cellular composition, biological processes, and molecular functions, as well as to interpret the biological pathways they are involved in according to the Kyoto Encyclopedia of Genes and Genomes (KEGG), we performed comprehensive functional annotations. We conducted Gene Ontology (GO) and KEGG enrichment analyses on these significant genes, and provided detailed information regarding their chromosomal positions. Additionally, we performed colocalization analysis to evaluate whether cis-eQTL and CKD share the same causal variants. The overall design idea is detailed in Fig. <ref type="figure" target="#fig_1">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data sources</head><p>By comparing the sequences and structures of proteins present in human blood with those of currently identified drug target proteins, scientists identified several proteins that exhibit structural similarity to known drug targets and possess the potential to be modulated by drug-like small molecules. Consequently, scientists identified a specific group of genes for further investigation <ref type="bibr" target="#b11">12</ref> . Finan identified 1,427 genes encoding drug targets that have been approved or are in the clinical phase, 682 genes encoding proteins that bind to known drug molecules or are similar to approved drug targets, and 2,370 genes that are members of a family of key druggable genes or encode proteins that are distantly similar to approved drug targets <ref type="bibr" target="#b11">12</ref> . These 4,479 druggable genes have also been utilized by researchers to investigate potential therapeutic targets for pulmonary fibrosis (Supplementary Material: Table <ref type="table">S1</ref>) <ref type="bibr" target="#b4">5</ref> . (Supplementary Material: Table <ref type="table">S1</ref>). We queried the eQTLGen Consortium database for these 4,479 druggable genes and retrieved blood cis-eQTL data for 2,888 of them <ref type="bibr" target="#b12">13</ref> . The eQTL data facilitated the identification of genetic variants associated with gene expression levels in blood samples, specifically those variants located within 1 Mb of the central location of each gene.</p><p>FinnGen is a well-known and large database, and FinnGen provides genetic insights from a phenotypically well-defined and isolated population <ref type="bibr" target="#b13">14</ref> . The CKD outcome data were derived from the FinnGen database, which collected information on 447,473 individuals, including 11,265 in the case group and 436,208 in the control group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Selection of instrumental variables</head><p>Reliable and accurate instrumental variables are characterized by three distinctive features: 1 a very strong association with the exposure 2 , no relationship with confounders other than the exposure, and 3 the absence of horizontal pleiotropy. It is essential to note that horizontal pleiotropy should be entirely absent in MR analyses. To identify IVs meeting these criteria, we conducted a rigorous screening of each druggable gene. Initially, we performed association analyses to select SNPs from the cis-eQTL data, ensuring that only SNPs with P-values below the genome-wide significance threshold (5.0 × 10 -8 ) were considered. Secondly, to mitigate the knock-on disequilibrium effects of these SNPs, we utilized the "TwoSampleMR" package in the R programming language to set the linkage disequilibrium (LD) threshold to R² &lt; 0.1, using data from the 1000 Genomes Project (EUR population) with an aggregation distance of 10,000 kb <ref type="bibr" target="#b14">15</ref> . In addition, we calculated the proportion of variance explained (R 2 ) and the F statistic to quantify the strength of the tool with the following equations: R 2 = 2 × MAF × (1 -MAF) × β 2 , and F = R 2 (n-k-1)/ k(1-R 2 ), where "MAF" is the SNP used as the IV secondary allele frequency, "n" is the sample size, "k" is the number of IVs used <ref type="bibr" target="#b15">16</ref> . To avoid weak IV bias, we selected SNPs with F &gt; 10 as the IVs we analysed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mendelian randomization analysis</head><p>MR analyses were conducted using the "TwoSampleMR" package in R (version 4.4.1). For the MR analysis, the Wald ratio method was employed when a single SNP served as the IV. When the IV comprised two or more SNPs, we applied five different methods: inverse variance weighting (IVW), MR-Egger, weighted median, simple mode, and weighted mode. We used the IVW method as the primary analysis method because previous studies have shown that the IVW method is more conservative but more robust <ref type="bibr" target="#b16">17</ref> . To account for multiple testing, we applied the False Discovery Rate (FDR) correction to identify significant MR analysis results. Additionally, to ensure the robustness of our findings, we employed several methods for sensitivity analyses. Potential heterogeneity of IVs was assessed using Cochrane's Q test <ref type="bibr" target="#b17">18</ref> . Heterogeneity was considered absent if the p-value of the Cochrane Q test exceeded 0.05. Potential pleiotropy between exposure and outcome was examined using MR-Egger regression. Pleiotropy was considered absent if the p-value for the MR-Egger regression intercept was greater than 0.05 <ref type="bibr" target="#b17">18</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Colocalization</head><p>For druggable genes showing significant MR results, colocalization analysis was performed using the R package "coloc" <ref type="bibr" target="#b18">19</ref> . The default a priori probabilities were P1 = 1.0 × 10 -4 , P2 = 1.0 × 10 -4 , and P12 = 1.0 × 10 -5 , indicating that the SNPs were associated with the expression of the druggable genes, the outcome, or both, respectively. Posterior probabilities for the following five hypotheses were generated from the colocalization analysis: PPH 0, not associated with the expression or outcome of a druggable gene; PPH 1, associated with the expression of a druggable gene but not with the outcome; PPH 2, associated with the outcome but not with the expression of a druggable gene; PPH 3, associated with the expression and outcome of a druggable gene with a different causal variant; and PPH 4, association with expression of the druggable genes and outcome, with a shared causal variant. PPH 4 &gt; 0.80 was considered strong.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gene function and pathway enrichment analysis</head><p>GO is the world's largest source of information on gene function. This knowledge is both human-readable and machine-readable, and is the basis for large-scale computational analyses <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> . KEGG is a database for understanding high-level functions and utilities of biological systems from molecular-level information <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref> .</p><p>For biological process and pathway enrichment analyses, KEGG and GO analyses were performed using the R "clusterProfiler" software package. Finally, the R "circlize" package was used <ref type="bibr" target="#b24">25</ref> to display information on the location of these genes on the corresponding chromosomes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Twelve significant genes were identified by MR analysis of druggable genes</head><p>We employed the IVW method as the primary analytical approach. Sixteen druggable genes exhibited a strong association with the development of CKD at a FDR of less than 0.05. These genes are PTPN22, KSR1, MAP2K5, CASP9, C4A, S100B, MYLK4, CHSY1, TUBB, C4B, XYLT1, DHFR, GUCY1B2, CXCR1, CD96, and VAMP8. To assess the pleiotropy of these 16 significant genes, we utilized MR-Egger regression. The intercept p-value for "S100B" was less than 0.05, indicating the presence of horizontal pleiotropy. Conversely, the intercept p-values for the remaining 15 significant genes were greater than 0.05, suggesting no evidence of horizontal pleiotropy for these genes. The potential heterogeneity of IVs was assessed using Cochrane's Q-test. The results indicated significant heterogeneity for the IVs associated with "C4A, " "C4B, " and "XYLT1, " while no evidence of heterogeneity was found for the other significant genes. To ensure the reliability of our findings, we did not accept the presence of horizontal pleiotropy and heterogeneity. Consequently, we concluded that a causal association exists between 12 genes-PTPN22, KSR1, MAP2K5, CASP9, MYLK4, CHSY1, TUBB, DHFR, GUCY1B2, CXCR1, CD96, and VAMP8-and CKD (Fig. <ref type="figure" target="#fig_2">3</ref>). It is worth mentioning that the MR-PRESSO test revealed no evidence of pleiotropy among these 12 significant genes.</p><p>Among these 12 significant genes, TUBB (OR: 1.2352; 95% CI: 1.1305-1.3496; FDR = 0.0085), PTPN22 (OR: 1.2897; 95% CI: 1.1893-1.3985; FDR &lt; 0.001), MAP2K5 (OR: 1.1055; 95% CI: 1.0679-1.1445; FDR &lt; 0.001), CHSY1 (OR: 1.1152; 95% CI: 1.0667-1.1659; FDR = 0.0044), DHFR (OR: 1.0390; 95% CI: 1.0214-1.0570; FDR = 0.0347), CXCR1 (OR: 1.1188; 95% CI: 1.0634-1.1771; FDR = 0.0430) and CD96 (OR: 1.0945; 95% CI: 1.0505-1.1404; FDR = 0.0475) expression were positively correlated with the risk of CKD. KSR1 (OR: 0.8809; 95% CI: 0.8441-0.9192; FDR &lt; 0.001), CASP9 (OR: 0.8782; 95% CI: 0.8389-0.9195; FDR &lt; 0.001), MYLK4 (OR: 0.9078; 95% CI: 0.8744-0.9423; FDR = 0.0011), GUCY1B2 (OR: 0.9068; 95% CI: 0.8679-0.9475; FDR = 0.0359) and VAMP8 (OR: 0.9215; 95% CI: 0.8879-0.9565; FDR = 0.0489) expression were negatively associated with CKD risk. (Information on the IVs used for these significant genes is detailed in Supplementary Material Table <ref type="table">S2</ref>, and the results of MR analyses are detailed in Supplementary Material Table <ref type="table">S3</ref>)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Colocalization analysis of 12 significant genes</head><p>Colocalization analysis can provide additional evidence for Mendelian randomization analysis, suggesting that associations between instrumental variables used for analysis and outcomes may be causal. Colocalization supports both an association between genetic variation and exposure and an association between exposure and outcome. When colocalization analyses show positive results, specific genetic variants share the same genetic location as signals associated with both exposure and outcome, this strengthens the belief that the association is due to genetic variants directly affecting exposure, and thus outcome. In addition, it reduces the likelihood of pleiotropy to some extent.</p><p>In order to strengthen the evidence for an association between these key genes and CKD. For the 12 genes, we performed colocalization analyses to estimate the likelihood that the cis-eQTL and CKD results share a causal variant. The result of colocalization analysis indicated that CKD and TUBB genes might share a causal variant, with PP.H4 exceeding 0.80% (TUBB: 97.27%).</p><p>Consequently, based on MR and colocalization analyses, we infer that TUBB is statistically likely to be a potential drug target for CKD treatment. (For details of the results of significant gene colocalization analysis, see Table <ref type="table">S4</ref> in the Supplementary Material)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Demonstrate information about key genes on the corresponding chromosome</head><p>The position of a gene on a chromosome may be related to its function, expression regulation, and interactions with other genes. By analyzing the chromosomal location of genes, we can obtain clues about their potential involvement in specific biological processes or pathways. Besides, many genetic disorders are associated with abnormalities in specific genes or gene clusters on chromosomes. Knowing the chromosomal location of these genes helps identify genetic variations related to diseases, providing important information for disease diagnosis, treatment, and prevention. Moreover, chromosomes are carriers of genetic information, and their structure, organization, and evolution are crucial for understanding the functional and evolutionary history of an organism's genome. By analyzing the chromosomal location of genes, we can obtain clues about genome structure, chromosomal rearrangements, and evolutionary events. So, we show the information of the starting position of the remarkable genes on specific chromosomes. For example, the TUBB gene is located on chromosome 6 in the segment 30,687,978-30,693,203, and the PTPN22 gene is located on chromosome 1 in the segment 114,356,433-1,144,414,381 (Fig. <ref type="figure">4</ref>). (Seeing Supplementary Material Table <ref type="table">S1</ref> for details).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis of specific biological processes, functional classes and signalling pathways corresponding to key genes by GO/KEGG enrichment</head><p>GO enrichment analysis showed that in the Biological Process module, these genes were mainly enriched on regulation of MAP kinase activity and regulation of protein serine/threonine kinase activity. In the Cellular Component module, these genes were mainly enriched in primary lysosome. In the molecular Function Module, these genes were mainly enriched on protein serine kinase activity (Fig. <ref type="figure">5</ref>). KEGG pathway analyses showed that these genes were mainly enriched on Gap junction, Platelet activation and Oxytocin signaling pathway (Fig. <ref type="figure">6</ref>). (For details of the results of GO and KEGG enrichment analyses, please refer to Table <ref type="table">S5</ref> and Table <ref type="table">S6</ref> in the Supplementary Material.)</p><p>Notably, TUBB was pathway linked to Cellular community -eukaryotes, Infectious disease/bacterial, and Cellular Processes. In GO enrichment analysis, TUBB was associated with natural killer cell mediated immunity, leukocyte mediated immunity, lymphocyte mediated immunity, primary lysosome, azurophil granule, nuclear envelope lumen, spindle, intercellular bridge, GTPase activating protein binding, MHC class I protein binding, and MHC protein binding and other related.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>In this study, we found that the expression of 12 genes was closely related to CKD. For genes demonstrating significant associations in the MR analysis, we performed a comprehensive suite of sensitivity analyses and functional assessments. These included Cochrane's Q-test, MR-Egger regression, colocalization analysis, and GO and KEGG enrichment analyses. Our findings revealed a strong correlation between the expression of the TUBB gene and CKD. MR analysis of druggable genes, along with colocalization analysis, has yielded compelling evidence suggesting that TUBB is a potential therapeutic target for CKD. If OR is greater than 1, the gene is considered to be positively correlated with the occurrence of CKD, and if it is less than 1, it is considered to be negatively correlated. FDR is the corrected p-value, and FDR is greater than 0.05, which is considered statistically significant.</p><p>The TUBB gene encodes β-tubulin, a structural component of microtubules that binds to α-tubulin to form a heterodimer, which subsequently contributes to microtubule assembly <ref type="bibr" target="#b25">26</ref> . Microtubules (MTs) have been characterized as long, hollow polymers with a diameter of 25 nm and lengths ranging from less than 1 μm to over 100 μm. They were initially described as consisting of approximately 13 linear protofilaments, forming a polymer with a fast-growing positive end (exposed β-tubulin) and a slow-growing negative end (exposed α-tubulin) <ref type="bibr" target="#b26">27</ref> . MTs are integral to the formation of cellular structures and the regulation of cellular functions, such as cell polarity and morphology, chromosome segregation during cell division, and the localization and transport of organelles <ref type="bibr" target="#b27">28</ref> . Furthermore, MTs facilitate intracellular transport, assemble into larger structures with the aid of auxiliary proteins, and interact with various cell types to establish mature networks <ref type="bibr" target="#b26">27</ref> . It has been proposed that microtubule-targeting compounds inhibit microtubule polymerization, thereby causing an imbalance in microtubule dynamics. This disruption results in spindle apparatus damage, cell cycle arrest, and ultimately, tumor cell death <ref type="bibr" target="#b28">29</ref> . Consequently, compounds that target microtubules are capable of inhibiting microtubule polymerization. It is apparent that these compounds can interfere with a range of critical cellular processes <ref type="bibr" target="#b29">30</ref> . Among the proteins constituting microtubules, β-tubulin is particularly significant. During microtubule polymerization, only the β-tubulin subunit is capable of hydrolyzing GTP following the incorporation of Fig. <ref type="figure">4</ref>. This figure shows the relationship between significant genes and chromosome positions. For example, TUBB is located on chromosome 6. microtubule dimers <ref type="bibr" target="#b30">31</ref> . This underscores the critical role of TUBB and its encoded β-tubulin proteins in regulating cell proliferation, differentiation, and human immunity.</p><p>Microtubule-targeting agents (MTAs) developed based on β-tubulin proteins have a longstanding history and are considered among the earliest anti-cancer drugs <ref type="bibr" target="#b29">30</ref> . For instance, compounds such as vincristine, vinblastine, and vindesine target the Vinca domain located at the inter-dimer interface between two longitudinally aligned tubulin dimers within the β-tubulin monomer <ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref> . Additionally, colchicine, benzimidazoles, and combretastatins interact with the colchicine binding sites situated in the deep pocket between αβ-tubulin dimers within β-tubulin monomers <ref type="bibr" target="#b34">35</ref> . Furthermore, binding to the Taxane site of β-tubulin monomers in the inner lumen of MTs stabilizes the MT lattice. Consequently, MT-stabilizing agents such as paclitaxel and epoxomicin have been developed <ref type="bibr" target="#b35">36</ref> . Secondly, Maytansine and Spongistatin interact near the Vinca site on the exposed pocket of β-tubulin <ref type="bibr" target="#b36">37,</ref><ref type="bibr" target="#b37">38</ref> . Similarly, the compounds Laulimalide and Peloruside target β-tubulin protein pockets oriented towards the exterior of microtubules (MTs) <ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b39">40</ref> . In 2021, the Gatorbulin site was identified, located within the α-tubulin subunit, between α-and β-tubulin, and proximal to the colchicine site. This site functions to form a wedge between two longitudinally aligned MT dimers at the MT terminus <ref type="bibr" target="#b40">41</ref> . Recently, a novel compound named Cevipabulin has been reported to bind to this pocket <ref type="bibr" target="#b41">42</ref> . The numerous sites of targeted drug development, whether currently known or unknown, associated with TUBB present substantial opportunities for TUBB to be considered a potential drug target in CKD.</p><p>As discussed above, TUBB gene expression produces β -tubulin, which is involved in the composition of microtubules. Meanwhile, microtubule associated proteins (MAPs) interact with microtubules, such as participating in microtubule binding, regulating microtubule stability, polymerization, and depolymerization processes. They interact with each other and jointly participate in maintaining the cytoskeleton structure and cell morphology within the cell <ref type="bibr" target="#b23">24</ref> . This is similar to our GO/KEGG enrichment analysis results, where in the Biological process module, these genes are mainly enriched in the regulation of MAP kinase activity. The relationship between GTPase activating protein (GAP) and microtubule proteins is close, and the microtubule network formed by the β -microtubule protein encoded by the TUBB gene can serve as a transport track and localization platform for signaling molecules <ref type="bibr" target="#b27">28</ref> . This is similar to the results of our KEGG enrichment analysis, which mainly concentrates on the Gap junction.</p><p>These β-tubulin protein-based microtubule-targeting agents (MTAs) play a crucial role in tumor treatment by disrupting microtubule homeostasis within the spindle apparatus, thereby activating mitotic checkpoints. This disruption arrests cells at the mid-stage of mitosis, ultimately leading to cell death through apoptosis <ref type="bibr" target="#b42">43,</ref><ref type="bibr" target="#b43">44</ref> . Additionally, these agents have demonstrated efficacy against parasites <ref type="bibr" target="#b44">45</ref> . Recent research has indicated that TUBB, a microtubule protein, may play a role in the pathological mechanisms underlying various renal diseases, including tubulointerstitial disease and renal fibrosis. For instance, Sang et al. demonstrated that the inhibition of microtubule dynamics hinders the repair of renal ischemia/reperfusion injury and promotes renal fibrosis <ref type="bibr" target="#b45">46</ref> . Additionally, Yang et al. identified β-tubulin as a serum marker for renal clear cell carcinoma, noting that this type of carcinoma is associated with elevated TUBB expression <ref type="bibr" target="#b46">47</ref> . Although there is a paucity of comprehensive studies specifically addressing the relationship between TUBB and CKD, emerging research has increasingly concentrated on the interplay between MTs and their associated proteins in the context of CKD. A cross-sectional study has identified β-tubulin as a potential biomarker for cognitive impairment in Fig. <ref type="figure">5</ref>. This figure shows the results of GO enrichment analysis of 12 significant genes. For example, in the Biological Process module, there are three significant genes enriched in the regulation of MAP kinase activity. CKD patients <ref type="bibr" target="#b47">48</ref> . Additionally, recent findings indicate that the long non-coding RNA (lncRNA) mini-nuclear host gene 12 exacerbates inflammation and apoptosis while inhibiting autophagy in acute kidney injury by upregulating TUBB expression <ref type="bibr" target="#b48">49</ref> . This finding aligns with the results of our analysis, which demonstrated a positive association between TUBB expression and CKD risk. Consequently, we propose that TUBB represents a potential therapeutic target for CKD, meriting further in-depth investigation into its underlying mechanisms. Apart from TUBB, several other potential targets were identified (Fig. <ref type="figure" target="#fig_2">3</ref>). Although these additional significant genes were not corroborated by colocalization analysis, the important value of them cannot be entirely dismissed, and they continue to present a broad spectrum of possibilities for CKD drug development.</p><p>Despite our rigorous analytical approach, which included the exclusion of results exhibiting heterogeneity and pleiotropy (including horizontal pleiotropy), our study has certain limitations. Firstly, our findings are based on statistical extrapolation, which may not fully capture the complexity of real-world scenarios where other confounding factors may interfere. Consequently, our results cannot entirely substitute for basic or clinical trials, nor can they guarantee the actual efficacy of the drug. Therefore, further basic and clinical research is warranted to elucidate the mechanisms and effects of TUBB on CKD. Besides, the current analysis is ethnically constrained, which may restrict the generalizability of our findings to other populations. Importantly, our study offers significant insights and guidance for advancing research on identifying drug targets for CKD.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>The causal relationship established through MR analysis and CKD suggests new avenues for targeted drug research. In summary, our MR analysis indicates that TUBB may serve as a potential target for reducing CKD risk. Fig. <ref type="figure">6</ref>. This figure shows the results of KEGG enrichment analysis of 12 significant genes. For example, there are two significant genes enriched in Gap junction.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. The principle of Mendelian randomization analysis is shown in the figure, where instrumental variables can represent exposure (druggable gene), are independent of confounding factors, and do not directly affect outcomes (Chronic kidney disease).</figDesc><graphic coords="2,72.25,426.51,481.92,264.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. The overall design of this study is shown in the figure.</figDesc><graphic coords="3,72.25,50.50,481.92,317.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig.3.The 12 druggable genes are closely related to the risk of CKD after FDR correction. If OR is greater than 1, the gene is considered to be positively correlated with the occurrence of CKD, and if it is less than 1, it is considered to be negatively correlated. FDR is the corrected p-value, and FDR is greater than 0.05, which is considered statistically significant.</figDesc><graphic coords="5,72.25,50.50,481.92,272.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="7,72.25,50.50,481.92,237.36" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Scientific Reports | (2025) 15:10779 2 | https://doi.org/10.1038/s41598-025-94761-0 www.nature.com/scientificreports/</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Scientific Reports | (2025) 15:10779 3 | https://doi.org/10.1038/s41598-025-94761-0</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Scientific Reports | (2025) 15:10779 4 | https://doi.org/10.1038/s41598-025-94761-0 www.nature.com/scientificreports/</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>Scientific Reports | (2025) 15:10779 5 | https://doi.org/10.1038/s41598-025-94761-0</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>Scientific Reports | (2025) 15:10779 6 | https://doi.org/10.1038/s41598-025-94761-0</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5"><p>Scientific Reports | (2025) 15:10779 7 | https://doi.org/10.1038/s41598-025-94761-0</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_6"><p>Scientific Reports | (2025) 15:10779 8 | https://doi.org/10.1038/s41598-025-94761-0</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_7"><p>Scientific Reports | (2025) 15:10779 9 | https://doi.org/10.1038/s41598-025-94761-0</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_8"><p>| https://doi.org/10.1038/s41598-025-94761-0 www.nature.com/scientificreports/</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><head>Funding</head><p>This work was supported by grants from the <rs type="funder">Natural Science Foundation of Guangdong Province</rs> (<rs type="grantNumber">2023A1515012187</rs>, <rs type="grantNumber">2024A1515030281</rs>), <rs type="funder">Guangdong Provincial Key Laboratory of Autophagy and Major Chronic Non-communicable Diseases</rs> (<rs type="grantNumber">2022B121203003</rs>), <rs type="funder">Discipline Construction Project of Guangdong Medical University</rs> (<rs type="grantNumber">4SG21229G</rs>), <rs type="funder">Zhanjiang City Science and Technology Development Special Funds Competitive Allocation Project</rs> (<rs type="grantNumber">2021A05083</rs>), <rs type="funder">Zhanjiang Science and Technology Project</rs> (<rs type="grantNumber">2019A01027</rs>), <rs type="funder">National Clinical Key Specialty Construction Project (Institute of Nephrology, Affiliated Hospital of Guangdong Medical University)</rs>, The <rs type="funder">Affiliated Hospital of Guangdong Medical University</rs> funded the research of high-level talents(<rs type="grantNumber">10403Z20180001</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_JYekAJM">
+					<idno type="grant-number">2023A1515012187</idno>
+				</org>
+				<org type="funding" xml:id="_ZrDCWQ6">
+					<idno type="grant-number">2024A1515030281</idno>
+				</org>
+				<org type="funding" xml:id="_bMSk2PT">
+					<idno type="grant-number">2022B121203003</idno>
+				</org>
+				<org type="funding" xml:id="_5KtSxea">
+					<idno type="grant-number">4SG21229G</idno>
+				</org>
+				<org type="funding" xml:id="_4nvjG7J">
+					<idno type="grant-number">2021A05083</idno>
+				</org>
+				<org type="funding" xml:id="_qKxfZDg">
+					<idno type="grant-number">2019A01027</idno>
+				</org>
+				<org type="funding" xml:id="_taRTQGC">
+					<idno type="grant-number">10403Z20180001</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The cis-eQTL data were obtained from the eQTLGen Consortium. (<ref type="url" target="https://www.eqtlgen.org/cis-eqtls.html">https://www.eqtlgen.org/cis-eqtls.html</ref>). The CKD data were obtained from the FinnGen. (<ref type="url" target="https://www.finngen.fi/en/access_results">https://www.finngen.fi/en/access_results</ref>). All data used in this study are publicly available and listed in Supplementary Material.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>Run-Sen Liang and Jin-Qi Su : Writing -original draft, Validation, Methodology, Data curation. Ji-Xin Tang and Cui-Wei Yao:Writing -review &amp; editing, Resources, Project administration. Xiang-Qi Wu, Qi Wang, Yong-Mei Cai and Hong-Yong Su: Writing -review &amp; editing, Validation, Software, Methodology, Data curation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declarations Ethical statement</head><p>The study protocol received approval from the Medical Ethics Committee of the Affiliated Hospital of Guangdong Medical University.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Epidemiology of chronic kidney disease: an update 2022</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Kovesdy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Kidney Int. Suppl</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="7" to="11" />
+			<date type="published" when="2011">2011. 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Summary of KDIGO 2012 CKD Guideline: behind the scenes, need for guidance, and a framework for moving forward</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Levin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Stevens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Kidney Int</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="49" to="61" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Chronic kidney disease</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Webster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Nagler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Morton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Masson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">389</biblScope>
+			<biblScope unit="issue">10075</biblScope>
+			<biblScope unit="page" from="1238" to="1252" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Empagliflozin in patients with chronic kidney disease</title>
+		<author>
+			<persName><forename type="first">E-K-C-G</forename><surname>The</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl. J. Med</title>
+		<imprint>
+			<biblScope unit="volume">388</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="117" to="127" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Identifying potential drug targets for idiopathic pulmonary fibrosis: a mendelian randomization study based on the druggable genes</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Respir Res</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">217</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Genetic insights into therapeutic targets for aortic aneurysms: A Mendelian randomization study</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EBioMedicine</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page">104199</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">International Parkinson&apos;s Disease Finding genetically-supported drug targets for Parkinson&apos;s disease using Mendelian randomization of the druggable genome</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Storm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">7342</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Mendelian randomization for cardiovascular diseases: principles and applications</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Butterworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Burgess</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Heart J</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">47</biblScope>
+			<biblScope unit="page" from="4913" to="4924" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Meta-analysis and Mendelian randomization: A review</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bowden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Holmes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res. Synth. Methods</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="486" to="496" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Mendelian randomization</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Birney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb Perspect. Med</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Mendelian randomization</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Emdin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Khera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kathiresan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">318</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="1925" to="1926" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The druggable genome and support for target identification and validation in drug development</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Finan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Transl. Med</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">383</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Large-scale cis-and trans-eQTL analyses identify thousands of genetic loci and polygenic scores that regulate blood gene expression</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Vosa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Genet</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1300" to="1310" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">FinnGen provides genetic insights from a well-phenotyped isolated population</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Kurki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">613</biblScope>
+			<biblScope unit="issue">7944</biblScope>
+			<biblScope unit="page" from="508" to="518" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Statistical methods for cis-Mendelian randomization with two-sample summarylevel data</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gkatzionis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Burgess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Newcombe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genet. Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="25" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Using multiple genetic variants as instrumental variables for modifiable risk factors</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Palmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Stat. Methods Med. Res</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="223" to="242" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Combining information on multiple instrumental variables in Mendelian randomization: comparison of allele score and summarized data methods</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Burgess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dudbridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Stat. Med</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1880" to="1906" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Evaluating the potential role of pleiotropy in Mendelian randomization studies</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hemani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bowden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Davey Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Mol. Genet</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">R2</biblScope>
+			<biblScope unit="page" from="R195" to="R208" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Bayesian test for colocalisation between pairs of genetic association studies using summary statistics</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Giambartolomei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">1004383</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Gene ontology: tool for the unification of biology. The Gene Ontology Consortium</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ashburner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Genet</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="25" to="29" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The Gene Ontology knowledgebase in 2023</title>
+		<author>
+			<persName><forename type="first">Gene</forename><surname>Ontology</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">224</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">KEGG: biological systems database as a model of the real world</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Furumichi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Matsuura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ishiguro-Watanabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">D1</biblScope>
+			<biblScope unit="page" from="672" to="D677" />
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Toward understanding the origin and evolution of cellular organisms</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kanehisa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1947" to="1951" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">KEGG: kyoto encyclopedia of genes and genomes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="27" to="30" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">circlize Implements and enhances circular visualization in R</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Eils</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schlesner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Brors</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="2811" to="2812" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Methods in tubulin proteomics</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Cell. Biol</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="105" to="126" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Microtubules and microtubule-associated proteins</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">V</forename><surname>Goodson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Jonasson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb. Perspect. Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Microtubule-organizing centers</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Akhmanova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Cell. Dev. Biol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="51" to="75" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">a robust biomarker with satisfying abilities in diagnosis, prognosis, and immune regulation via a comprehensive pan-cancer analysis</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Mol. Biosci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">1365655</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Microtubule targeting agents in disease: classic drugs, novel roles</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wordeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Vicente</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancers</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Localization of an exchangeable GTP binding site at the plus end of microtubules</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Mitchison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">261</biblScope>
+			<biblScope unit="issue">5124</biblScope>
+			<biblScope unit="page" from="1044" to="1047" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Binding of dolastatin 10 to tubulin at a distinct site for peptide antimitotic agents near the exchangeable nucleotide and vinca alkaloid sites</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Pettit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hamel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">265</biblScope>
+			<biblScope unit="issue">28</biblScope>
+			<biblScope unit="page" from="17141" to="17149" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Dolastatin 10, a powerful cytostatic peptide derived from a marine animal. Inhibition of tubulin polymerization mediated through the vinca alkaloid binding domain</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Pettit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hamel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1941" to="1949" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Natural products which interact with tubulin in the vinca domain: maytansine, rhizoxin, phomopsin A, dolastatins 10 and 15 and halichondrin B</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hamel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacol. Ther</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="31" to="51" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Insight into tubulin regulation from a complex with colchicine and a stathmin-like domain</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Ravelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">428</biblScope>
+			<biblScope unit="page" from="198" to="202" />
+			<date type="published" when="2004">6979. 2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Structure of the alpha beta tubulin dimer by electron crystallography</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nogales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Downing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">391</biblScope>
+			<biblScope unit="issue">6663</biblScope>
+			<biblScope unit="page" from="199" to="203" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Rhizoxin binding to tubulin at the maytansine-binding site</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Takahashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">926</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="215" to="223" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">A new tubulin-binding site and pharmacophore for microtubule-destabilizing anticancer drugs</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Prota</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U S A</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="issue">38</biblScope>
+			<biblScope unit="page" from="13817" to="13821" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Structural basis of microtubule stabilization by laulimalide and peloruside A</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Prota</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew Chem. Int. Ed. Engl</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1621" to="1625" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Peloruside A, a novel antimitotic agent with paclitaxel-like microtubule-stabilizing activity</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Hood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="3356" to="3360" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Gatorbulin-1, a distinct cyclodepsipeptide chemotype, targets a seventh tubulin pharmacological site</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Matthew</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U S A</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Cevipabulin-tubulin complex reveals a novel agent binding site on alpha-tubulin with tubulin degradation effect</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Adv</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Microtubules as a target for anticancer drugs</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Jordan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Cancer</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="253" to="265" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Role of JNK activation in paclitaxel-induced apoptosis in human head and neck squamous cell carcinoma</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Lan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oncol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">705</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Microtubules as antiparasitic drug targets</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fennell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Opin. Drug Discov</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="501" to="518" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Inhibition of microtubule dynamics impedes repair of kidney ischemia/reperfusion injury and increases fibrosis</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">27775</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Identification of potential serum proteomic biomarkers for clear cell renal cell carcinoma</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">111364</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Association of urinary biomarkers of renal tubular injury with cognitive dysfunction in older patients with chronic kidney disease: a cross-sectional observational study</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Sci</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Promotion of inflammation, apoptosis, and inhibition of autophagy by overexpression of lncRNA SNHG12 in acute kidney injury. Iran</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Kidney Dis</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="45" to="55" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

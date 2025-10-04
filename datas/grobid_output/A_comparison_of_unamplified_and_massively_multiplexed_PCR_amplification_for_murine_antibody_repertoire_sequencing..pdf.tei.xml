@@ -1,0 +1,1840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A comparison of unamplified and massively multiplexed PCR amplification for murine antibody repertoire sequencing</title>
+				<funder>
+					<orgName type="full">College of Veterinary Medicine at Kansas State University</orgName>
+				</funder>
+				<funder ref="#_HPesvZE">
+					<orgName type="full">National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Kansas State University Johnson Cancer Research Center</orgName>
+				</funder>
+				<funder ref="#_xSNggG4 #_Z3Ky46X">
+					<orgName type="full">NASA</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-01-01">2020 January 01.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Trisha</forename><forename type="middle">A</forename><surname>Rettig</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Biology</orgName>
+								<orgName type="institution">Kansas State University</orgName>
+								<address>
+									<settlement>Manhattan</settlement>
+									<region>KS</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Pecaut</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Division of Radiation Research</orgName>
+								<orgName type="institution">Loma Linda University</orgName>
+								<address>
+									<settlement>Loma Linda</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Ph.D</roleName><forename type="first">Stephen</forename><forename type="middle">Keith</forename><surname>Chapes</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Biology</orgName>
+								<orgName type="institution">Kansas State University</orgName>
+								<address>
+									<settlement>Manhattan</settlement>
+									<region>KS</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Claflin</forename><surname>Rd</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Kansas State University</orgName>
+								<address>
+									<postCode>66506-4901</postCode>
+									<settlement>Manhattan</settlement>
+									<region>KS</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A comparison of unamplified and massively multiplexed PCR amplification for murine antibody repertoire sequencing</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-01-01">2020 January 01.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B8657C691CCA95D1F11BBD6F0C4A5A72</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T10:09+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>High throughput sequencing</term>
+					<term>Immunoglobulin genes</term>
+					<term>Mouse</term>
+					<term>Heavy Chain</term>
+					<term>RepSEQ</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Sequencing antibody repertoires has steadily become cheaper and easier. Sequencing methods usually rely on some form of amplification, often a massively multiplexed PCR prior to sequencing. To eliminate potential biases and create a data set that could be used for other studies, our lab compared unamplified sequencing results from the splenic heavy-chain repertoire in the mouse to those processed through two commercial applications. We also compared the use of mRNA vs total RNA, reverse transcriptase, and primer usage for cDNA synthesis and submission. The use of mRNA for cDNA synthesis resulted in higher read counts but reverse transcriptase and primer usage had no statistical effects on read count. Although most of the amplified data sets contained more antibody reads than the unamplified data set, we detected more unique V-gene segments in the unamplified data set. Although unique CDR3 detection was much lower in the unamplified data set, RNASeq detected 98% of the high frequency CDR3s. We have shown that unamplified profiling of the antibody repertoire is possible, detects more V-gene segments, and detects high frequency clones in the repertoire.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Antibodies are B cell proteins that play a vital role in adaptive immunity. These complex molecules, and their diverse specificities are defined at several levels. At the protein level, these molecules are heterodimers joined with disulfide bonds between heavy and light chains. At the genetic level, the antibody specificity is influenced by semi-randomly recombining a variable (V), diversity (D), and joining (J) gene segments that are encoded in the genome. This V-D-J, or in the case of the light chain, V-J rearrangement, also influences antibody specificity by random and semi-random base insertions or deletions during the recombination process. In the end, the collection of antibodies produced, the antibody repertoire, is a fingerprint of what antigens an organism has been exposed to and a measure of immunocompetence. Sequencing has become easier, cheaper, and faster in recent years. Antibody repertoires have been sequenced in numerous species, in response to vaccinations <ref type="bibr" target="#b0">(1)</ref><ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref> and infections <ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref><ref type="bibr" target="#b5">(6)</ref>, and have been employed in cancer detection; providing valuable feedback regarding the immune system's response to challenges and for early cancer detection in patients <ref type="bibr" target="#b6">(7,</ref><ref type="bibr" target="#b7">8)</ref>.</p><p>In an effort to supplement unamplified MiSeq data sets used in our laboratory <ref type="bibr" target="#b8">(9)</ref>, we explored the use of commercial processes that use technologies to amplify sequences to increase the depth of coverage of specifically targeted immunoglobulin gene transcripts. These data sets are created using massively multiplexed PCR reactions that are subsequently sequenced on the Illumina platform. Multiplex amplification strategies have been used to explore the T cell <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b10">11)</ref> and B cell repertoires <ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref><ref type="bibr" target="#b14">(15)</ref> and biases, omissions <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b15">(16)</ref><ref type="bibr" target="#b16">(17)</ref><ref type="bibr" target="#b17">(18)</ref>.and PCR artifacts have been detected in the data sets <ref type="bibr" target="#b9">(10)</ref>.</p><p>We started this project with the hypothesis that our unamplified data set would provide comparable results to those seen in the commercially amplified data sets. However, we are unaware of any immunoglobulin repertoire studies that have been done to compare data obtained using amplification techniques compared to the repertoire in a total RNASeq library. Concurrent with performing these analyses, we discovered that the required sample preparation for commercial sequencing also varied. Therefore, we found it necessary to examine the impact of sample preparation as part of our effort. This manuscript describes our results comparing a data set generated using unamplified total RNA (TRNA) to commercially amplified data sets. We examined the role of commercial amplification and cDNA generation methods as well as the impact of the starting material on sequence output.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>KSU RNA Preparation</head><p>RNA was prepared as outlined in Rettig et al 2017 <ref type="bibr" target="#b8">(9)</ref>. Briefly, RNA was extracted from the spleens of four nine-week old female C57Bl/6J mice. TRNA was submitted to the Kansas State University Integrated Genomics Facility for sequencing and cDNA was prepared using standard Illumina protocols. cDNA made from the TRNA using random hexamer primers and oligo-dT selection, was size selected to 275-800bp length and sequenced on the Illumina MiSeq at 2×300bp using Illumina's protocol. No additional amplification beyond that required by Illumina preparation was used and consider these samples non-specifically amplified, or "unamplified".</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Commercial Sample preparations</head><p>mRNA was extracted from the TRNA isolated from the sample used for the KSU data set using the PolyATtract mRNA isolation system (Promega, Fitchburg, WI) following manufacturer's instructions. RT-PCR for samples amplified with Avian Myeloblastosis Virus (AMV) reverse transcriptase based sample preparation was performed using the Access RT-PCR System (Promega, Fitchburg, WI) following the manufacturer's instructions. RT-PCR for Moloney Murine Leukemia Virus (MMLV) reverse transcriptase based sample preparation was performed using the SuperScript III First-Strand Synthesis System (Invitrogen, Carlsbrad, CA) following manufacturer's instructions. Starting material for RT-PCR was either TRNA from the KSU data set or the purified mRNA. RT-PCR products were submitted to Adaptive Biotechnologies (Seattle, WA) (Com1) on dry ice following company protocols. TRNA and mRNA (unamplified) were submitted to iRepertoire, Inc. (Huntsville, AL) (Com2) on dry ice following company protocols.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bioinformatic Analysis</head><p>KSU sequencing results were analyzed as described previously <ref type="bibr" target="#b8">(9)</ref>. Briefly, sequencing results were quality controlled. Antibody-specific sequences were isolated and submitted to ImMunoGeneTics (IMGT) <ref type="bibr" target="#b18">(19)</ref> for analysis. Individual sequences were assigned a unique ID by the sequencing machinery during Illumina sequencing and were used to identify unique sequences. The sequence containing the most high quality information was retained for further analysis as outlined in Rettig et al <ref type="bibr" target="#b8">(9)</ref>. No further filtering of reads was performed. Both commercial sequencers provided their own bioinformatic analyses of the sequencing results. The raw sequencing results from Com1 and Com2 were also submitted to IMGT for analysis and subjected to the standard KSU bioinformatics pipeline. IMGT's nomenclature and classifications were used throughout this paper. We assessed all functional V-gene segments as identified by IMGT. We also include three putative functional genes (V5S21, V1S100, and V3S7) which were detected in rearranged transcripts (containing a CDR3 C-xx-W motif or class switched) in our previous analysis of the normal C57BL/6 repertoire (20). IMGT's High-V Quest occasionally assigned multiple potential V-gene segments to a single sequence, likely due to incomplete capture of the entire V-gene sequence or high homology between gene segments. In all IMGT processed data, sequences that contained two possible V-gene segment possibilities were assigned a weighted value of 0.5 per sequence, as opposed to one for full matches. Sequences with V-gene segments that were assigned more than two potential matches were excluded from analysis. Initial results were tabulated using the companys' proprietary bioinformatic results. However, to determine the role of bioinformatic handling of the data, some of Com1 and Com2 data were subjected to the standard KSU bioinformatic workflow analysis and CDR3 analyses <ref type="bibr" target="#b8">(9)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Tests</head><p>All statistical analyses were carried out using GraphPad Prism (Version 6.0). Paired T-tests were performed using the raw read counts. Coefficient of determinations (R 2 ) were performed by comparing the percent of repertoire between animals. Percent of repertoire is determined by dividing the read count for a specific V-gene segment by the total number of reads detected and multiplying by 100.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Most studies examining immunoglobulin repertoires use amplification to increase the depth of sequencing, but amplification comes with some drawbacks. We wanted to assess the comparability of amplified and non-amplified data from identical samples. In preparation to do this comparison, we found that different commercial amplification methodologies required different types of sample preparation. For example, sample submission for the Com1 data sets required a cDNA sample. The Com1 process amplified the resulting cDNA using proprietary primers and sequencing on the Illumina platform. After an initial submission showed a low correlation between the Com1 sequencing and the KSU data set (data not shown), we hypothesized that cDNA preparation plays a role in determining the amplified repertoire. To test this hypothesis, we assessed the role of starting material (mRNA or TRNA), reverse transcriptase (AMV vs MMLV), and primer templates (oligo-dT or random hexamer) on the sequenced B cell immunoglobulin repertoire. Com2 submissions required the submission of TRNA, rather than cDNA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Assessment of Transcriptional Read Counts</head><p>Com1amplified data sets returned between 7,084 and 1,263,003 sequences, dependent on the preparation method. mRNA starting material yielded more total transcriptional reads than TRNA (P=0.013, 2 tailed matched T test; Table <ref type="table">1</ref>). Generally, the AMV reverse transcriptase and random hexamer primers tended to yield higher numbers of transcripts. The use of AMV and random hexamer primers resulted in more total productive reads in three out of four of the comparisons directly comparing primers, however, the overall differences were not statistically different (P&gt;0.05, 2 tailed matched T test; Table <ref type="table">1</ref>). In the Com2 data set, we found a moderate number of reads, about one-half of those detected in the highest Com1 numbers. These compare to 11,200 sequence reads containing a CDR3 generated in the KSU data set using a total MiSeq approach.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Determination of Sequencing Reproducibility</head><p>To assess the repeatability of the amplified Com1 and Com2 data sets, we examined the correlation of V-gene segment usage. In the C57BL/6 mouse, the V-gene segment is the most varied in the heavy chain (IgH locus) comprising a total of 109 functional V-gene segments, three putative function V-gene segments, and alleles compared to 19 for the Dgene segment and four for the J-gene <ref type="bibr" target="#b20">(21,</ref><ref type="bibr" target="#b21">22)</ref>. The nucleotide sequences in the V-gene segments are also highly varied and require a complex multiplex PCR to amplify. Correlations were assessed using the data provided by the commercial vendor's proprietary bioinformatics.</p><p>Non-strain specific V-gene segment assignments accounted for between 0.84% and 1.46% of the sequencing results from Com 1 and 1.74% and 1.41% for Com2 (Table <ref type="table">2</ref>). Although there were differences in the immunoglobulin gene transcripts detected, there was a high correlation in the V-gene sequences detected among the different technical replicates in the Com1 data (R 2 range from 0.6986 to 0.9933, all p&lt;0.0001) (Figure <ref type="figure" target="#fig_0">1</ref>). The R 2 between technical replicates in Com2 was 0.9621 (p&lt;0.0001). We also examined the reproducibility of two technical replicates of KSU sequencing used for a different analysis and obtained an R 2 of 0.9996 for Mouse 32, and 0.9995 for Mouse 39 (p&lt;0.001) showing high levels of reproducibility between KSU sequencing runs. Therefore, although total transcripts generated varied with sample preparation, the V-gene segments that were detected were consistently detected using two different commercial approaches.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Impact of Amplification on V-gene Segment Detection</head><p>The unamplified KSU approach produced a data set where a total of 112 V-gene segments were detected while the Com1 data sets contained between 85 and 100 V-gene segments. The Com2 mRNA data set contained 99 detectable V-gene segments and the TRNA contained 100. Comparisons of V-gene segments in the Com1 data set to the KSU data set showed moderate R 2 values; 0.4457 to 0.5841 (all p&lt;0.0001) (Table <ref type="table">3</ref>). The Com2 data sets also showed moderate R 2 of 0.6695 for mRNA and 0.6607 for TRNA (all p&lt;0.0001). To determine why there were differences in V-gene detection, we compared the results from the most commonly detected V-gene segments in the KSU data sets to their frequencies in the Com1 and Com2 data sets. The protocol for Illumina sequencing uses mRNA selection, SuperScriptIII reverse transcriptase, and random hexamer primers. To best compare results, we used the Com1 mRNA-MMLV-Hex data set and the Com2 mRNA data set using the top 34 V-gene segments in the KSU data set. These V-gene segments comprise over one percent of the detected repertoire and are considered highly expressed. In the Com1 data set, of these 36 highly expressed V-gene segments, five (V1-26, V1-18, V1-50, V4-1, and V2-6) were detected at two-fold lower frequency than in the KSU data set (Figure <ref type="figure" target="#fig_1">2</ref>). These five V-gene segments were either absent or were near zero percent of the repertoire (Figure <ref type="figure" target="#fig_1">2</ref>). Of these same top 34 V-gene segments in the Com1 data set, two (V6-3 and V2-6-8) were detected at two-fold greater than the KSU data set (Figure <ref type="figure" target="#fig_1">2</ref>). The R 2 for these top 36 V-gene segments to the KSU data set was 0.1783 (P=0.0128).</p><p>We also compared the Com2 mRNA data set to the same 34 V-gene segments from the unamplified KSU data. Nine of the 34 V-gene sequences (V9-3, V4-1, V2-6, V1-81, V5-17, V2-2, V8-8, V11-2, V14-2) were detected at a twofold or lower level than in the KSU data set (Figure <ref type="figure" target="#fig_1">2</ref>). Five other V-gene segments (V1-53, V3-6, V1-64, V10-1, and V1-69) were detected at twofold higher levels than those found in the KSU data set (Figure <ref type="figure" target="#fig_1">2</ref>). The correlation of these top 34 V-gene segments was better than the Com1 R 2 at 0.4098 (P=&lt;0.0001).</p><p>Our normal workflow methods include the use of functionally productive and unknown transcripts for analysis <ref type="bibr" target="#b8">(9)</ref>. This inclusion helps balance the lower read numbers obtained with unamplified sequences. We performed the same analysis as above between our productive + unknown dataset used above, with our productive only dataset. We detected a tota1 of 104 V-gene segments. Those not detected in the productive only list (V3S7, V6-7, V6-4, V1-62-1, V5-12-4, V1-17-1, and V6-5) comprised less than 0.7% of the repertoire. The correlation coefficient was high at 0.9596(P&lt;0.0001), and there were no changes at great than 2-fold of the productive + unknown data set (Figure <ref type="figure" target="#fig_1">2</ref>). These analyses reveal that the addition of unknown functionality V-gene segments does not significantly alter the repertoire.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Direct Comparisons of Amplified and Unamplified Data Sets</head><p>The comparisons in V-gene use were made using the bioinformatics provided by the commercial ventures. To standardize the data handling to remove bioinformatic reasons for the differences in data, we processed the sequencing results from the Com1 mRNA-MMLV-Hex and Com2 mRNA data sets using the KSU bioinformatics work flow <ref type="bibr" target="#b8">(9)</ref>.</p><p>The KSU bioinformatic treatment of the Com1 data set correlated moderately with the commercially provided bioinformatics (R 2 =0.4795, p&lt;0.0001). After processing the Com1 data with the KSU bioinformatics pipeline, the R 2 to the KSU data set increased slightly from 0.5517 (Table <ref type="table">3</ref>) with the original bioinformatics to 0.5649 (p&lt;0.0001) with the adjusted bioinformatics. However, nine V-gene segments were detected in the Com1 data set using the KSU bioinformatics workflow that were not originally detected using the commercially provided bioinformatics (Sup Fig <ref type="figure" target="#fig_0">1</ref>). When we processed the Com2 data using the KSU bioinformatic pipeline, the Com2 data set was highly correlated with the original commercially provided bioinformatics treatment (R 2 =0.9860, p&lt;0.0001). When we compared Com2 data set processed with the KSU bioinformatics pipeline to the KSU RNASeq data set, the data still only had an R 2 =0.6791 (p&lt;0.0001). The KSU bioinformatics workflow detected an additional four V-gene segments that were not detected by the commercial bioinformatics (Sup Fig <ref type="figure" target="#fig_0">1</ref>).</p><p>When we reanalyzed the bioinformatics data from Com1 and Com2 using the KSU pipeline, we detected gene segments that were not detected in the original commercially provided bioinformatics. However, the inclusion of these gene segments, did not greatly improve the R 2 between the amplified data sets and the KSU RNASeq data. In the Com1 data set, some gene segments (V1-26, V1-18, V1-50, V2-9-1) were not detected or only detected at low levels in the original bioinformatics but were detected at high levels (&gt;1%) in the KSU/ IMGT processed data (Sup <ref type="bibr">Fig 1)</ref>. The three additional V-gene segments detected in the Com2 data set (V2-5, V1-62-2, and V1-62-3 were found in less than &lt;0.3% of the repertoire (Sup Fig <ref type="figure" target="#fig_0">1</ref>). These changes were not sufficient to significantly improve R 2 values.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Impact of Amplification on the Reproducibility of CDR3 Detection</head><p>The absence of some V-gene segments in the Com1 and Com2 data compared to the KSU data was a concern. It precludes a complete picture of the V-gene repertoire. Nevertheless, amplified sequencing of the antibody repertoire is thought to provide an advantage in that the depth of coverage is increased over unamplified data sets due to the number of reads generated. To determine how extensive the discrepancy is between amplified and unamplified data, we assessed the read depth (number of reads generated) and resampling efficiency of CDR3 (number of unique CDR3s resampled between replicates) using technical replicates of samples sequenced with the various sequencing techniques. As anticipated, amplified data sets had both higher total read numbers and unique CDR3 numbers (Table <ref type="table">4</ref>).</p><p>Resampling/reproducibility has been assumed to improve with the depth of coverage. We had the unique opportunity to compare sequencing data from the same biological material subjected to multiple sequencing methodologies. We have also had the opportunity to do technical replicates on multiple samples subjected to RNASeq or amplification procedures. This allowed us the ability to look at CDR3 sampling reproducibility and to determine if amplification provided any advantage in CDR3 reproducibility. For the KSU unamplified data set, two C57BL/6J mouse spleen RNA samples (#32 and #39) were sequenced independently two times each and the CDR3s sampled were compared. In the KSU data set, 32-1 shared 28% of its total unique reads with 32-2. (Figure <ref type="figure" target="#fig_2">3</ref>). 32-2 shared 24% of its reads with 32-1 (Figure <ref type="figure" target="#fig_2">3</ref>). KSU data set, 39, showed 25% overlap of their total unique reads between each sampling (Figure <ref type="figure" target="#fig_2">3</ref>). For the Com2 data, since there was such a strong correlation between the sequence output between mRNA and TRNA samples of C57BL/6J spleen samples (R 2 = 0.9644), we considered these technical replicates. The mRNA data set shared 24% of its sequences with the TRNA data set while the TRNA data set shared 30% of its sequences with the mRNA data set. We also examined the resampling efficiency in the Com1 data set using the spleen mRNA-MMLV data sets that were reversed transcribed with two different primers, random hexamer and oligo-dT. Although this was not a perfect technical replicate, there was an R 2 of almost 0.94 in V-gene segments detected (Figure <ref type="figure" target="#fig_0">1</ref>). Therefore, we felt these served as "incipient" technical replicates. The random hexamer data set shared 20% of the detected CDR3s and the oligo dT data set shared 32% of its CDR3 sequences. Therefore, regardless of data set, there was an average of 26-27% sampling overlap regardless of whether amplification was performed or not.</p><p>We also assessed the overlap in the detected CDR3s between the Com1 data set (mRNA-MMLV-Hex), Com2 data set (mRNA), and the KSU original data set to determine the extent of the overlap of CD3 detection using the different methods. From the 295,116 CDR3 unique sequences that were detected, 2662 of those sequences were shared among all three data sets (Figure <ref type="figure" target="#fig_3">4</ref>). The amplified data sets from Com1 and Com2 shared the most CDR3 sequences between them with 34,141 sequences found in both data sets (Figure <ref type="figure" target="#fig_3">4</ref>). The KSU data set shared 59% of its detected CDR3 sequences with the Com1 and Com2 data sets (Figure <ref type="figure" target="#fig_3">4</ref>). These data are consistent with the lower depth of sequencing of the unamplified data set compared to the Com1 and Com2 data sets where 19-32% overlap occurred in detected CDR3 sequences.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Detection of High Frequency CDR3s</head><p>To gauge whether the highest frequency CDR3s can be detected by the different techniques, we assessed the 25 highest frequency CDR3s from each sequencing method. This resulted in a total of 48 unique CDR3s from the three different methods (Figure <ref type="figure" target="#fig_4">5</ref>). The KSU data set detected all but one (CARGYFDVW) of these 48 sequences, the Com1 data set failed to detect four sequences (CARGTYW, CTWDEGNYW, CARGIYW, CARGSYW) and the Com2 data set detected all 48 sequences (Figure <ref type="figure" target="#fig_4">5</ref>). The CDR3s that were not detected in the Com1 data set, did use V-gene segments that were detected in the data set. These data show that although the depth of sequencing of the KSU data set was about 10% of the amplified data sets, the data set still captured 98% of the highest frequency CDR3's.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CDR3 Frequency Assessment</head><p>While the high frequency CDR3s were shared among at least two sequencing runs, most of the CDR3 sequences detected were unique to each sequencing run (Figure <ref type="figure" target="#fig_3">4</ref>). To determine the frequency of unique CDR3 sequences, we compared the most frequent, least frequent, and average percent of the measured CD3 repertoire (Table <ref type="table">5</ref>). The highest frequency CDR3 was detected at 4.16%, 0.22%, 2.26%, and of the repertoire for the KSU, Com1, and Com2 data sets, respectively (Table <ref type="table">5</ref>). The lowest frequency CDR3s, representing only a single detected read, were 0.0088%, 0.0004%, and 0.0002%, of the repertoire for the KSU, Com1, and Com2 data sets, respectively (Table <ref type="table">5</ref>). The average detection level for the KSU data set was 0.015%, 0.0006% for the Com1 data set, and 0.0007% for the Com 2data set (Table <ref type="table">5</ref>).</p><p>We also examined the frequency of CDR3s that were unique to each data set. Overall, the maximum and the average frequencies of the data sets were reduced compared to the whole repertoire (Table <ref type="table">5</ref>). This demonstrates that the unique reads in each data set were most likely transcripts from low frequency B cells. Moreover, these data suggest that even without amplification, the KSU data set was detecting the most prevalent CDR3s and many lowfrequency sequences.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Illumina sequencing of total RNA from mouse spleen is able to capture a representative sample of the splenic B cell repertoire. This snapshot of the repertoire, while producing less reads than amplified data sets, detected more V-gene segments than data sets that used two different amplification strategies and captures 98% of the high frequency CDR3s found in the amplified data sets. While amplified data sets provide more CDR3 depth of coverage, the unamplified data sets produced from an RNASeq allow for further data mining, eliminate as much primer bias as possible and provides an accurate representation of the repertoire.</p><p>Sequencing requirements of the B cell receptor are more challenging than those of the T cell receptor. There are no consensus sequences to reference <ref type="bibr" target="#b9">(10)</ref>. Additionally, transcripts from the germline which are not successfully rearranged can be detected <ref type="bibr" target="#b22">(23)</ref>. Therefore, avoiding bias is one of the main priorities for antibody repertoire sequencing <ref type="bibr" target="#b15">(16)</ref>. PCR errors are accumulated through the amplification process which can falsely inflate the repertoire or they can add suspected mutations that do not exist <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b24">25)</ref> and they may not be distinguishable from low level mutations that actually do exist in the repertoire <ref type="bibr" target="#b23">(24,</ref><ref type="bibr" target="#b25">26)</ref>. PCR biases can be introduced because of primer binding properties, CG content, mispriming, non-specific binding, and errors during replication <ref type="bibr" target="#b15">(16,</ref><ref type="bibr" target="#b26">(27)</ref><ref type="bibr" target="#b27">(28)</ref><ref type="bibr" target="#b28">(29)</ref>. A specific issue in targeting antibody gene segments is primer annealing efficiencies since the gene segments that make up the murine IgH locus are similar, though not identical <ref type="bibr" target="#b27">(28)</ref>. The biases inherent in the multiplex PCR can lead to false repertoire skewing, gene frequency inaccuracies, and a less comprehensive view of the repertoire <ref type="bibr" target="#b24">(25,</ref><ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b30">31)</ref>. The development of these multiplex primers, is highly challenging <ref type="bibr" target="#b31">(32)</ref>. Work by Bashford-Rogers <ref type="bibr" target="#b32">(33)</ref> shows that there is little difference between RNA-capture, 5'RACE or PCR amplification in humans but others <ref type="bibr" target="#b26">(27)</ref> have shown that PCR does create biases and 5' RACE helps reduce these.</p><p>Our results demonstrate some of the issues of assessing B-cell repertoires using massively multiplexed PCR reactions. While reproducibility for technical replicates was moderate to high, there was a large range of total read numbers across methodologies. Given the increase in read results with mRNA samples compared to TRNA samples, the authors hypothesize that mRNA increases the availability of antibody specific transcripts, increasing the overall read counts. Additionally, the reverse transcriptase plays a role in sequence generation. AMV reverse transcriptase has an RNase H activity, where MMLV reverse transcriptase does not <ref type="bibr" target="#b33">(34)</ref>. This activity may cleave RNA transcripts prior to completion of amplification, resulting in shorter reads with inadequate length for amplification. The use of oligo-dT primers will begin reverse transcription from the most 3' end of the transcript. The target of amplification is around 1.5 kilobases upstream of the poly-A tail <ref type="bibr" target="#b34">(35)</ref>, likely leading to shorter reads and failure to amplify the region of interest. Random hexamer primers maybe able to overcome this bias due to their random priming nature.</p><p>In addition to variations in read depth, the correlations of these data sets to the unamplified KSU data sets were low to moderate, even when the same bioinformatics processing was employed. Of significant concern is the Com1 and Com2 sets failed to detect 13 V-gene segments that were detected by the unamplified KSU RNASeq data set. The absence of these genes draws into question how one compares the various data sets with correlation coefficients that are below 0.7 when technical replicates of the same sequencing are greater than 0.99. Although <ref type="bibr">Carlson et al.</ref> argues that amplification methodologies can capture the entire repertoire, there are concerns <ref type="bibr" target="#b10">(11)</ref>. Even when we only looked at the V-gene families detected at the highest frequency there were omissions. Of the 34 V-genes that we categorized as "high frequency" (&gt;1% of the repertoire), Com1 found lower detection levels (defined as less than two-fold that found in the KSU data set) for five gene segments (V1-26, V1-18, V1-50, V4-1, and V2-6) and nine (V9-3, V4-1, V2-6, V1-, V5-17, V2-2, V8-8, V11-2, V14-2) for the Com2 data set. These results suggest that those methods are skewing the reported repertoire by missing or underreporting those high frequency V-gene segments. Interestingly, two V-gene segments (V4-1 and V2-6) were underrepresented in both data sets, but the other V-gene segments were unique.</p><p>The failure of primers to capture specific V-genes is not a new discovery, as primers failed to adequately sequence hybridomas previously <ref type="bibr" target="#b17">(18,</ref><ref type="bibr" target="#b35">36)</ref>. "Universal" primers for the human antibody repertoire do exist, but some questions remain if they cover the entire repertoire <ref type="bibr" target="#b36">(37)</ref>. The difficulty in developing a "universal" or even highly comprehensive primer set for the mouse is likely due to their highly varied leader sequences, V-gene segments, and framework regions. Primer design would have to rely on massively multiplexed reactions and/or degenerate primers. Additionally, the most commercially viable amplification methods would need to amplify across multiple common strains adding additional levels of complexity. Indeed, in our attempts to design "universal" primers, we found a minimum of 11 primer sets would be needed to detect V-genes associated for each isotype. Even then, there were still issues with matching PCR conditions and efficiency. Methods to overcome the biases detected in amplification have been developed, such as the use of 5' RACE <ref type="bibr" target="#b25">(26,</ref><ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b38">39)</ref> and using molecular barcodes or identifiers <ref type="bibr" target="#b39">(40,</ref><ref type="bibr" target="#b40">41)</ref>. However, these methods are expensive and have their own draw backs. Replication of the entire repertoire using 5'RACE would still require the use of multiple constant region primers, leading to the same multiplexing issues. Barcoding can have errors and chimeric reads making repertoires difficult to reconstruct <ref type="bibr" target="#b41">(42)</ref>. This latter issue is not a problem with our RNASeq data.</p><p>While bias exists in the massively multiplexed amplification process, there may be some sequencing errors in the unamplified KSU data set as well. While not specifically amplified for antibody sequences, random hexamers and oligo-dT capture beads are used prior to sequencing to generate the library (43) and some biases have been observed in random hexamer binding <ref type="bibr" target="#b43">(44)</ref>. The use of oligo-dTs can result in enhancement of the 3' end of transcripts <ref type="bibr" target="#b44">(45)</ref>. We do not think this is particularly problematic since Illumina sequence methodology aims to reduce bias in their library preparations by combining the random hexamer and oligo-dT capture. Additionally, while all libraries were sequenced on the Illumina platform, 3.19% of high-quality Illumina reads contain false base calls, which are impossible to differentiate using normal bioinformatics methods <ref type="bibr" target="#b9">(10)</ref>. Over representation of specific dineuclotides can also be detected in sequencing which are not related to primer usage <ref type="bibr" target="#b45">(46)</ref>. Therefore, although we hope to reduce bias and omission by doing RNASeq, we still have some technical issues that keep the data set from being a perfect reflection of the repertoire. Multiple technical replications help reduce the impact of this problem.</p><p>One analysis that was not pursued in this current investigation was the identification of clonally related sequences. We were specifically interested in the functional antibody repertoire present in the spleen and focused our analysis at the transcript level. We acknowledge that the overrepresentation of some sequences may be likely within our data sets since we don't use barcoding or clonality analysis to collapse similar mRNA sequences. Nevertheless, the overrepresentation of a specific sequence by an overly productive cell is also representative of cellular activation of transcription, and likely, functional antibody protein in the body <ref type="bibr" target="#b46">(47,</ref><ref type="bibr">48)</ref>.</p><p>The lack of amplification also results in varying sequence lengths in our data set. We selected 40nt as our minimum cutoff to provide us enough information to detect V-, D-, and J-gene segments. While some short sequences were included in the data analysis, our overall average sequence length was 287nt, with productive sequences averaging 331nt and unknown sequences averaging 270 nt (data not shown). Overall, less than 0.5% of the sequences analyzed where less than 100nt long (data not shown). Therefore, we do not think that sequence length is an issue in this study.</p><p>Although there are issues using massively multiplexed PCR reactions, there are advantages that may overshadow the disadvantages. For example, increased sequencing depth (e.g. 1,260,000 reads vs. 11,200 complete reads), better low frequency CDR3 detection (20-fold more unique CDR3 sequence than the unamplified KSU data set), and sequencing costs can be lower than an Illumina MiSeq run (by integrating multiplexing/barcoding).</p><p>Although amplification provides more detail in the CDR3 repertoire, if one is interested in the B cell clones that are most prevalent, then RNASeq does not appear to be at a disadvantage. CDR3 resampling was similar (20-32%) regardless of method. Additionally, when examining high frequency CDR3s, the unamplified data set only failed to detect a single unique CDR3 sequence, while the Com1 data set failed to detect four. Without using an amplification method with unique barcoding, such as that used in Shugay et al <ref type="bibr" target="#b48">(49)</ref> it is impossible to tell which unique CDR3s are, in fact, correctly identified new sequences and which involve miscalls, leading to false diversity. As our current paper does not focus on the actual diversity of the repertoire, and instead focuses on the differences among sample preparations and sequencing methods, we do not attempt to identify false call unique CDR3s as doing so may falsely reduce diversity. Instead, the we used strict read quality cutoffs to prevent low quality base calls from being included in analysis, and we point to our highly overlapping V-gene segment usage (R 2 = 0.9995 among multiple sequencing replicates to assure us that we minimized artifacts. Additionally, all sequencing was performed on the Illumina platform, so false base call rates should be similar across methodologies which we were focused on in this study.</p><p>When preparing for antibody repertoire sequencing, multiple factors must be considered within the framework of the specific biological questions being asked. This includes needed coverage, cost, and starting material <ref type="bibr" target="#b38">(39)</ref>. Additionally, it is important to consider that all repertoire sequencing is merely a snapshot of a constantly shifting image <ref type="bibr" target="#b24">(25)</ref>. We will also never be able to fully capture the full diversity of the B cell immunoglobulin repertoire, which is estimated to range from 10 6 -10 7 possible unique rearrangements and mutations <ref type="bibr" target="#b24">(25,</ref><ref type="bibr" target="#b38">39)</ref> to as much as 10 13 <ref type="bibr" target="#b14">(15)</ref>. The failure of the KSU data set to detect rare clones compared to the amplified data sets is likely due to this; but even the amplified data sets only sampled a fraction of the total repertoire. Therefore, one must decide how "deep" is adequate for the question being addressed.</p><p>During this investigation, we also had to address the issue that starting material may influence the quality of one's sequencing. mRNA as a starting template increased reads up to two orders of magnitude. Furthermore, random hexamer primers and MMLV reverse transcriptase generally yielded higher read count results. Interestingly, the use of mRNA, with MMLV reverse transcriptase and hexanucleotide primers is most technically like that used in Illumina sequencing. However, additional data will be needed to confirm our observations since we did not pursue this aspect of the study in detail and the replicate number did not allow for robust statistical comparisons.</p><p>In conclusion, we have demonstrated that sequencing of unamplified splenic RNA provides a realistic snapshot of the total splenic B cell repertoire. We also have demonstrated that a good understanding of the bioinformatics work flow and reporting of the methodology is critical and cannot be understated. We understand that there are cellular biases and transcript stability differences with in B cell subpopulations <ref type="bibr" target="#b49">(50,</ref><ref type="bibr" target="#b50">51)</ref>. However, for the purpose of assessing a whole tissue B cell repertoire, unamplified RNASeq can provide a glimpse of the most prevalent B cell clones. The unamplified approach could just as well be applied to specific cell populations when the application requires it. Moreover, an unamplified data set may detect V-gene segments that amplified data sets miss.     Table 1:</p><note type="other">J Joining Gene Segment</note><p>Total number of productive reads per data set Table 2:</p><p>Percent of non-C57BL/6 V-gene segments detected per data set</p><p>Com 1 a Com 2 a mRNA b TRNA b mRNA b TRNA b AMV c MMLV c AMV c MMLV c dT d Hex d dT d Hex d dT d Hex d dT d Hex d % Non-B6 V-Gene segments 0.92 0.88 0.84 1.17 </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 3:</head><p>Correlations of data sets to unamplified KSU data set and read counts </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1.R2 values of sequencing technical replicates. The percent of repertoire for each V-gene segment detected was compared between technical replicates. The highest R2 are dark read, the lowest R2 are blue.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2.Percent of repertoire for high frequency V-gene segments among data sets. Percent of repertoire for the KSU, Com1 (mRNA-MMLV-hex), Com2 (mRNA), and Prod (productive only sequences from the KSU data set) are displayed. The highest value percent of repertoire is dark read while the lowest are white. Black boxes represent no detected reads (true zero). Rounded zeros are represented as 0.0.</figDesc><graphic coords="17,260.16,62.00,151.68,504.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Overlap of CDR3 sequence detection between technical replicates. CDR3 amino acid sequences were compared between technical replicates. Sequences unique to one data set are displayed in the outer circles. Sequences shared between data sets are in the overlap. Percent of shared CDR3 sequences is displayed in parentheses in the outer circles. (A) KSU data sets 32-1 and 32-2. (B) KSU data sets 39-1 and 39-2. (C) Com1 data sets mRNA-MMLV-Hex and mRNA-MMLV-dT. (D) Com2 data sets mRNA and TRNA.</figDesc><graphic coords="18,84.15,62.00,503.70,401.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. CDR3 sequence capture among Com1, Com2, and KSU data sets. CDR3 amino acid sequences were compared among the Com1 mRNA-MMLV-Hex, Com2 mRNA, and the KSU data sets. Percent of the repertoire shared with at least one other data set is listed in parentheses.</figDesc><graphic coords="19,84.13,62.00,503.74,460.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. High frequency CDR3s detected among the Com1, Com2, and KSU data sets. The top 25 CDR3s from each data set (48 total) were compiled and percent of repertoire compared. Black boxes represent no detected reads (true zero). Rounded zeros are represented as 0.0.</figDesc><graphic coords="20,84.00,62.00,504.00,381.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>-</head><figDesc>Sequencing technique (Com1 and Com2 are amplified data sets) b -starting material (mRNA -Messenger RNA, TRNA -Total RNA) c -reverse transcriptase (AMV -Avian Myeloblastosis Virus, MMLV -Moloney Murine Leukemia Virus) d -primer (dt -Oligo dT, Hex -Random hexamer) e -an additional 27,896 reads were used for V-gene segment usage assessment. These sequences were not long enough for CDR3 detection. FASEB Bioadv. Author manuscript; available in PMC 2020 January 01. Rettig et al. Page 22</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>-</head><figDesc>Sequencing technique (Com1 and Com2 are amplified data sets) b -starting material (mRNA -Messenger RNA, TRNA -Total RNA) c -reverse transcriptase (AMV -Avian Myeloblastosis Virus, MMLV -Moloney Murine Leukemia Virus) d -primer (dt -Oligo dT, Hex -Random hexamer) FASEB Bioadv. Author manuscript; available in PMC 2020 January 01.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>-</head><figDesc>Sequencing technique (Com1 and Com2 are amplified data sets) b -starting material (mRNA -Messenger RNA, TRNA -Total RNA) c -reverse transcriptase (AMV -Avian Myeloblastosis Virus, MMLV -Moloney Murine Leukemia Virus) d -primer (dt -Oligo dT, Hex -Random hexamer) FASEB Bioadv. Author manuscript; available in PMC 2020 January 01.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>FASEB Bioadv. Author manuscript; available in PMC 2020 January 01.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>Our work is supported by <rs type="funder">NASA</rs> grants <rs type="grantNumber">NNX13AN34G</rs> and <rs type="grantNumber">NNX15AB45G</rs>, <rs type="funder">NIH</rs> grant <rs type="grantNumber">GM103418</rs>, the Molecular Biology Core supported by the <rs type="funder">College of Veterinary Medicine at Kansas State University</rs>, and the <rs type="funder">Kansas State University Johnson Cancer Research Center</rs>. The authors declare no conflict of interest.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_xSNggG4">
+					<idno type="grant-number">NNX13AN34G</idno>
+				</org>
+				<org type="funding" xml:id="_Z3Ky46X">
+					<idno type="grant-number">NNX15AB45G</idno>
+				</org>
+				<org type="funding" xml:id="_HPesvZE">
+					<idno type="grant-number">GM103418</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Material</head><p>Refer to Web version on PubMed Central for supplementary material.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Manuscript</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Vaccination-induced changes in human B-cell repertoire and pneumococcal IgM and IgA antibody at different ages</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ademokun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y-C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><forename type="middle">V</forename><surname>Mitra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Baxendale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kipling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dunn</forename><surname>Walters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+		<idno type="PMID">21726404</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aging cell</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="922" to="930" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">BCR repertoire sequencing: different patterns of B-cell activation after two Meningococcal vaccines</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Galson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Clutterbuck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Truck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Ramasamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Munz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fowler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Cerundolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kelly</forename><surname>Df</surname></persName>
+		</author>
+		<idno type="PMID">25976772</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Immunology and cell biology</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="885" to="895" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Statistical inference of a convergent antibody repertoire response to influenza vaccine</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Strauli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Hernandez</surname></persName>
+		</author>
+		<idno type="PMID">27255379</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome medicine</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">60</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Plasmablast Response to Primary Rhesus Cytomegalovirus (CMV) Infection in a Monkey Model of Congenital CMV Transmission</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Bialas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chiuppesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Amos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Gurley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eudailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Heimsath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Himes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Deshpande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Walter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wussow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Diamond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Barry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Moody</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kaur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Permar</forename><surname>Sr</surname></persName>
+		</author>
+		<idno type="PMID">28298291</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clinical and vaccine immunology</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="510" to="00516" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>CVI</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Mapping the Human Memory B Cell and Serum Neutralizing Antibody Responses to Dengue Virus Serotype 4 Infection and Vaccination</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">K</forename><surname>Nivarthi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sapparapu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Widman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gallichotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Pfaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Doranz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weiskopf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Durbin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Whitehead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Baric</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Crowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jr</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="PMID">28031369</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of virology</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="2041" to="02016" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Antibody V(h) repertoire differences between resolving and chronically evolving hepatitis C virus infections</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Racanelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brunetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>De Re</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Caggiari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Zorzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Perosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vacca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dammacco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+		<idno type="PMID">21980500</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PloS one</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">25606</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Deep-sequencing approach for minimal residual disease detection in acute lymphoblastic leukemia</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Faham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moorhead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">E</forename><surname>Carlton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Stow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Coustan-Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Pui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Campana</surname></persName>
+		</author>
+		<idno type="PMID">23074282</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Blood</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="5173" to="5180" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Identification of cancer-specific motifs in mimotope profiles of serum antibody repertoire</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gerasimov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zelikovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mandoiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ionov</surname></persName>
+		</author>
+		<idno type="PMID">28088176</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="33" to="38" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Validation of Methods to Assess the Immunoglobulin Gene Repertoire in Tissues Obtained from Mice on the International Space Station</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Rettig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Pecaut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chapes</forename><surname>Sk</surname></persName>
+		</author>
+		<idno type="PMID">29270444</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Gravitational and Space Research</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="2" to="23" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Next generation sequencing for TCR repertoire profiling: platform-specific features and correction algorithms</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Bolotin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">Z</forename><surname>Mamedov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">V</forename><surname>Britanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Zvyagin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shagin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Ustyugova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Turchaninova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lukyanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">B</forename><surname>Lebedev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Chudakov</surname></persName>
+		</author>
+		<idno type="PMID">22806588</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European journal of immunology</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="3073" to="3083" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Using synthetic templates to design an unbiased multiplex PCR assay</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Carlson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Emerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Sherwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Desmarais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Parsons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Steen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Lamadrid-Herrmannsfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Livingston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rieder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Robins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature communications</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">2680</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">High-resolution description of antibody heavy-chain repertoires in humans</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Arnaout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cahill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Honan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sparrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Weiand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nusbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rajewsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Koralov</surname></persName>
+		</author>
+		<idno type="PMID">21829618</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PloS one</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">22365</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Network properties derived from deep sequencing of human B-cell receptor repertoires delineate B-cell populations</title>
+		<author>
+			<persName><forename type="first">Rjm</forename><surname>Bashford-Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Palser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Huntly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rance</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vassiliou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Follows</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kellam</surname></persName>
+		</author>
+		<idno type="PMID">23742949</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome research</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1874" to="1884" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Clonify: unseeded antibody lineage assignment from next-generation sequencing data</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Briney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Burton</forename><surname>Dr</surname></persName>
+		</author>
+		<idno type="PMID">27102563</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific reports</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">23901</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Systems Analysis Reveals High Genetic and Antigen-Driven Predetermination of Antibody Repertoires throughout B Cell Development</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Greiff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Menzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Miho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Riedel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lopes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Radbruch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Winkler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Reddy</forename><surname>St</surname></persName>
+		</author>
+		<idno type="PMID">28514665</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell reports</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1467" to="1478" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Computational analysis of stochastic heterogeneity in PCR amplification efficiency revealed by single molecule barcoding</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Best</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Oakes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Heather</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shawe-Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chain</surname></persName>
+		</author>
+		<idno type="PMID">26459131</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific reports</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">14629</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Library preparation methods for nextgeneration sequencing: tone down the bias</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Van Dijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jaszczyszyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thermes</surname></persName>
+		</author>
+		<idno type="PMID">24440557</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Experimental cell research</title>
+		<imprint>
+			<biblScope unit="volume">322</biblScope>
+			<biblScope unit="page" from="12" to="20" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Degenerated primer design to amplify the heavy chain variable region from immunoglobulin cDNA</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chen</forename><forename type="middle">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">IMGT® Tools for the Nucleotide Analysis of Immunoglobulin (IG) and T Cell Receptor (TR) V-(D)-J Repertoires, Polymorphisms, and IG Mutations: IMGT/V-QUEST and IMGT/HighV-QUEST for NGS In Immunogenetics</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Alamyar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Duroux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M-P</forename><surname>Lefranc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Giudicelli</surname></persName>
+		</author>
+		<editor>Christiansen FT, and Tait BD</editor>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Humana Press</publisher>
+			<biblScope unit="volume">882</biblScope>
+			<biblScope unit="page" from="569" to="604" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Characterization of the naive murine antibody repertoire using unamplified high-throughput sequencing</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Rettig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Bye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Pecaut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chapes</forename><surname>Sk</surname></persName>
+		</author>
+		<idno type="PMID">29320559</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PloS one</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">190982</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m">IMGT Repertoire (IG and TR)</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Igh immunoglobulin heavy chain complex [Mus musculus (house mouse)] -Gene -NCBI</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Evidence that immunoglobulin VH-DJ recombination does not require germ line transcription of the recombining variable gene segment</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Angelin-Duclos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Calame</forename><forename type="middle">K</forename></persName>
+		</author>
+		<idno type="PMID">9774642</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular and cellular biology</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="6253" to="6264" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">High-quality full-length immunoglobulin profiling with unique molecular barcoding</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Turchaninova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Davydov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">V</forename><surname>Britanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shugay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bikos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Egorov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Kirgizova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Merzlyak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Staroverov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Bolotin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">Z</forename><surname>Mamedov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Izraelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Logacheva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kladova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Plevova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pospisilova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Chudakov</surname></persName>
+		</author>
+		<idno type="PMID">27490633</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature protocols</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1599" to="1616" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Current status and recent advances of next generation sequencing techniques in immunological repertoire</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">L</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Diao</surname></persName>
+		</author>
+		<idno type="PMID">26963138</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes and immunity</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="153" to="164" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The promise and challenge of high-throughput sequencing of the antibody repertoire</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Georgiou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Ippolito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Beausang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Busse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wardemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Quake</forename><surname>Sr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature biotechnology</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="158" to="168" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Rep-Seq: uncovering the immunological repertoire through next-generation sequencing</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Benichou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ben</forename><surname>Hamo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Louzoun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Efroni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<idno type="PMID">22043864</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Immunology</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="183" to="191" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">High-Throughput DNA Sequencing Analysis of Antibody Repertoires</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Joshi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiology spectrum</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="17" to="2014" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The role of replicates for error mitigation in nextgeneration sequencing</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Robasky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Church</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature reviews. Genetics</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="56" to="62" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">High-Throughput Immunogenetics for Clinical and Research Applications in Immunohematology: Potential and Challenges</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Langerak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bruggemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Davi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Darzentas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jjm</forename><surname>Van Dongen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cazzaniga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Giudicelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Lefranc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Giraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Macintyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hummel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Groenen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Stamatopoulos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of immunology</title>
+		<imprint>
+			<biblScope unit="volume">198</biblScope>
+			<biblScope unit="page" from="3765" to="3774" />
+			<date type="published" when="1950">2017. 1950</date>
+			<pubPlace>Baltimore, Md.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Wrestling with the repertoire: the promise and perils of next generation sequencing for antigen receptors</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Baum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Venturi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Price</forename><forename type="middle">D</forename></persName>
+		</author>
+		<idno type="PMID">23108932</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European journal of immunology</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="2834" to="2839" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Characterizing immune repertoires by high throughput sequencing: strategies and applications</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Calis</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Rosenberg Br</surname></persName>
+		</author>
+		<idno type="PMID">25306219</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in immunology</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="581" to="590" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Capturing needles in haystacks: a comparison of B-cell receptor sequencing methods</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Bashford-Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Palser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Idris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Epstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Callard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Douek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Vassiliou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Follows</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hubank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kellam</surname></persName>
+		</author>
+		<idno type="PMID">25189176</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC immunology</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">29</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Isolation of cloned Moloney murine leukemia virus reverse transcriptase lacking ribonuclease H activity</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Kotewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Sampson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>'alessio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gerard</forename><surname>Gf</surname></persName>
+		</author>
+		<idno type="PMID">2448747</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic acids research</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="265" to="277" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Ighm immunoglobulin heavy constant mu [Mus musculus (house mouse)] -Gene -NCBI</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<pubPlace>Pubs</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Specific amplification by PCR of rearranged genomic variable regions of immunoglobulin genes from mouse hybridoma cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Berdoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Monath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Kraehenbuhl</surname></persName>
+		</author>
+		<idno type="PMID">7580911</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PCR methods and applications</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="256" to="264" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Degenerate primer design to clone the human repertoire of immunoglobulin heavy chain variable regions</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luo</forename><surname>Ej</surname></persName>
+		</author>
+		<idno type="PMID">22806814</idno>
+	</analytic>
+	<monogr>
+		<title level="j">World journal of microbiology &amp; biotechnology</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="381" to="386" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Studying Antibody Repertoires with Next-Generation Sequencing</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Lees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Shepherd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods in molecular biology</title>
+		<imprint>
+			<biblScope unit="volume">1526</biblScope>
+			<biblScope unit="page" from="257" to="270" />
+			<date type="published" when="2017">2017</date>
+			<pubPlace>Clifton, N.J.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The past, present, and future of immune repertoire biology -the rise of next-generation repertoire analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Six</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Mariotti-Ferrandiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chaara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Magadan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Pham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Lefranc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Thomas-Vaslin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Walczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Boudinot</surname></persName>
+		</author>
+		<idno type="PMID">24348479</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in immunology</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">413</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Highly Accurate Sequencing of Full-Length Immune Repertoire Amplicons Using Tn5-Enabled and Molecular Identifier-Guided Amplicon Assembly</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Volden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dharmadhikari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Scelfo-Dalbey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vollmers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of immunology</title>
+		<imprint>
+			<biblScope unit="page" from="2902" to="2907" />
+			<date type="published" when="1950">2016. 1950</date>
+			<pubPlace>Baltimore, Md.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Sequencing the functional antibody repertoire--diagnostic and therapeutic discovery</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Robinson</surname></persName>
+		</author>
+		<idno type="PMID">25536486</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature reviews. Rheumatology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="171" to="182" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Reconstructing Antibody Repertoires from Error-Prone Immunosequencing Reads</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shlemov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bankevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bzikadze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Turchaninova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Safonova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Pevzner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of immunology</title>
+		<imprint>
+			<date type="published" when="1950">2017. 1950</date>
+			<pubPlace>Baltimore, Md.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Biases in Illumina transcriptome sequencing caused by random hexamer priming</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Brenner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dudoit</surname></persName>
+		</author>
+		<idno type="PMID">20395217</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic acids research</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page">131</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Consistent errors in first strand cDNA due to random hexamer mispriming</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Van Gurp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Mcintyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Verhoeven</surname></persName>
+		</author>
+		<idno type="PMID">24386481</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PloS one</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">85583</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Comparative assessment of fungal cellobiohydrolase I richness and composition in cDNA generated using oligo(dT) primers or random hexamers</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Kuske</surname></persName>
+		</author>
+		<idno type="PMID">22178429</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of microbiological methods</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="224" to="228" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Bias detection and correction in RNA-Sequencing data</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhao</surname></persName>
+		</author>
+		<idno type="PMID">21771300</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">290</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Regulation of B Cell Differentiation by Intracellular Membrane-Associated Proteins and microRNAs: Role in the Antibody Response</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Casali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in immunology</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">48</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Regulation of Production of Mucosal Antibody to Pneumococcal Protein Antigens by T-Cell-Derived Gamma Interferon and Interleukin-10 in Children</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bernatoniene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bagrade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Paton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hammerschmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Nunez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Finn</surname></persName>
+		</author>
+		<idno type="PMID">16861661</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Infection and Immunity</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="4735" to="4743" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Towards error-free profiling of immune repertoires</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shugay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">V</forename><surname>Britanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Merzlyak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Turchaninova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">Z</forename><surname>Mamedov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Tuganbaev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Bolotin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Staroverov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Putintseva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Plevova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Linnemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shagin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pospisilova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lukyanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Schumacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Chudakov</surname></persName>
+		</author>
+		<idno type="PMID">24793455</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature methods</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="653" to="655" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Resolution of three nonproliferative immature splenic B cell subsets reveals multiple selection points during peripheral B cell maturation</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Allman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Lindsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Demuth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rudd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Shinton</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Hardy Rr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of immunology</title>
+		<imprint>
+			<biblScope unit="volume">167</biblScope>
+			<biblScope unit="page" from="6834" to="6840" />
+			<date type="published" when="1950">2001. 1950</date>
+			<pubPlace>Baltimore, Md.</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Peripheral B cell maturation. II. Heat-stable antigen(hi) splenic B cells are an immature developmental intermediate in the</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Allman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Lentz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cancro</forename><surname>Mp</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

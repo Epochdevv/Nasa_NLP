@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">FAIRness and Usability for Open-access Omics Data Systems</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>MD MPH PhD</roleName><forename type="first">Daniel</forename><forename type="middle">C</forename><surname>Berrios</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Universities Space Research Association</orgName>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Afshin</forename><surname>Beheshti</surname></persName>
+							<affiliation key="aff1">
+								<address>
+									<settlement>KBRwyle</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Sylvain</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">NASA</orgName>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">FAIRness and Usability for Open-access Omics Data Systems</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5B98A29199D6A8C59D87E782D0AD464F</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Omics data sharing is crucial to the biological research community, and the last decade or two has seen a huge rise in collaborative analysis systems, databases, and knowledge bases for omics and other systems biology data. We assessed the "FAIRness" of NASA's GeneLab Data Systems (GLDS) along with four similar kinds of systems in the research omics data domain, using 14 FAIRness metrics. The range of overall FAIRness scores was 6-12 (out of 14), average 10.1, and standard deviation 2.4. The range of Pass ratings for the metrics was 29-79%, Partial Pass 0-21%, and Fail 7-50%. The systems we evaluated performed the best in the areas of data findability and accessibility, and worst in the area of data interoperability. Reusability of metadata, in particular, was frequently not well supported. We relate our experiences implementing semantic integration of omics data from some of the assessed systems for federated querying and retrieval functions, given their shortcomings in data interoperability. Finally, we propose two new principles that Big Data system developers, in particular, should consider for maximizing data accessibility.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Over the last decade the vast increase in outputs from "omics" (genomics, transcriptomics, proteomics, and metabolomics) assays, together with decreasing assay and data storage costs, have resulted in an exponentially increasing volume of these "big" data. The high feature-number aspect of these big data has highlighted the importance of data sharing (or reuse) functions of these systems, as data sets often have relevance for investigating a very large number of hypotheses. Thus, developers of big data systems increasingly are focusing on the needs of users to discover, annotate, share, and analyze data. Omics data sharing is especially crucial to the biological research community, and the last decade or two has seen a huge rise in collaborative analysis systems <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref> , databases <ref type="bibr">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b7">[6]</ref><ref type="bibr" target="#b8">[7]</ref><ref type="bibr" target="#b9">[8]</ref><ref type="bibr" target="#b10">[9]</ref><ref type="bibr" target="#b11">[10]</ref><ref type="bibr" target="#b12">[11]</ref><ref type="bibr" target="#b13">[12]</ref><ref type="bibr" target="#b14">[13]</ref><ref type="bibr" target="#b15">[14]</ref> , and knowledge bases <ref type="bibr" target="#b16">[15]</ref><ref type="bibr" target="#b17">[16]</ref><ref type="bibr" target="#b18">[17]</ref> for omics and other systems biology data.</p><p>The FAIR <ref type="bibr" target="#b19">18</ref> principles are a set of guiding principles that are being advocated as foundational in the broad areas of data findability, accessibility, interoperability, and reusability. However, the challenges involved in using current technologies and real-world infrastructures within organizational guidelines to develop data repositories and/or data analytical systems that are "FAIR" are substantial. The FAIR principles deal with aspects of data handling such as identification, representation, and attribution. Metrics to evaluate the "FAIRness" of a data system or its design are also currently being developed <ref type="bibr" target="#b20">19</ref> . System developers should consider familiarizing themselves with these metrics, as many of the FAIR principles can have significant implications in terms of feasible design options and operations resource planning.</p><p>We assessed the "FAIRness" of NASA's GeneLab Data Systems (GLDS), along with four systems in the research omics data domain chosen for their similarity to the GLDS, using 14 FAIRness metrics. We relate these assessments in the context of discussion of the FAIRness concepts for the design of Big Data omics systems in particular, relating some of the challenges we faced developing the GLDS as a FAIR data system. In addition to designing a data system to be FAIR, developers of Big Data systems in particular should consider how system design can maximize data usability for its users. We propose two new design principles for FAIR systems that handle Big Data like omics data from our experiences developing the GLDS. By complying with these usability principles and the FAIR principles together, systems that manage Big Data can maximize both the usability and reusability of data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>NASA GeneLab</head><p>GeneLab (<ref type="url" target="http://genelab.nasa.gov/">http://genelab.nasa.gov</ref>) is a NASA initiative designed to accelerate "open science" biomedical research in support of the human exploration of space and the improvement of life on earth. <ref type="bibr" target="#b21">20</ref> GeneLab data have been used to research impacts of space on mice, humans, and plants. Phase I of GeneLab Data Systems (GLDS) project implemented an "omics" (genomics, transcriptomics proteomics, and metabolomics) data repository for biomedical research data conducted in or relevant to space environments (Figure <ref type="figure">1</ref>). This initial phase developed processes and systems for data submission, curation, indexing, search, and retrieval. In Phase II GeneLab implemented federated search and retrieval capabilities for data hosted by GeneLab and three other open-access, omics data systems, in order to facilitate data integration and biological meta-investigation (Figure <ref type="figure">1a</ref>). <ref type="bibr" target="#b22">21</ref> (Note that these targets for search federation were selected independently and using different criteria than the data systems evaluated in this paper). Such meta-investigations are key to corroborating findings from different studies and/or kinds of bioassay data, and Figure <ref type="figure">1</ref>. The GeneLab Data Systems (GLDS). (a) The GeneLab Data Repository. The federated search interface shown includes not only search of GLDS repository data, but of the extramural data sources Gene Expression Omnibus ("GEO" 4 ), PRoteomics IDEntifications repository ("EBI PRIDE" <ref type="bibr" target="#b4">5</ref> ), and the Metagenomics Analysis server ("ANL MG-RAST" <ref type="bibr" target="#b7">6</ref> ). (b) The GLDS Workspace. (c) GLDS Tools for omics data analysis (part of a Galaxy server <ref type="bibr" target="#b0">1</ref> ). translating them into systems biology knowledge and, eventually, therapeutics <ref type="bibr" target="#b23">22</ref> . In Phase III, GeneLab has begun to deploy an omics data analysis platform as part of the GLDS. Using this platform, investigators can design, execute and share in silico experimentation of omics data sets (Figures <ref type="figure">1b</ref> and <ref type="figure">1c</ref>). At the end of Phase III, users with results of these kinds of experiments will be able to store them directly into the GLDS repository, linked to originating data and to the analysis workflows that generated them.</p><p>Even though the inception of the GLDS predated publication of the FAIR principles, many of the concepts behind the principles were discussed extensively prior to its design. These discussions included substantial input from the National Academies of Sciences and a steering committee of outside experts in omics biological data, and had significant impacts on selection of technological approaches and system architectures, required resources for development and operations, and policies developed for operating the GLDS. In the absence of best practices from the community in certain areas of design and policy (Figure <ref type="figure">2</ref>), we wondered how we might assess the impact on FAIRness of the design and policy choices we faced, and how the GLDS would compare in FAIRness to other openaccess, Big Data systems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FAIRness of Omics Data</head><p>The FAIR principles were designed to guide the management of data so that it is maximally findable, accessible, interoperable, and reusable. They are not precise prescriptions for FAIR system design specifications; rather they are aspirational guidelines with some references to exemplar standards and technologies. Among the findability principles are requirements that data be assigned a persistent, global unique identifier (GUID), be described by rich metadata, and be indexed by a system for retrieving the data. Accessibility requires the use of standardized, open (available for implementation to all) communications protocols for retrieval of data by GUID. Interoperability is supported through the use of machine-actionable metadata and data. Reusability requires systems to be compliant in the management of Figure <ref type="figure">2</ref>. The FAIR principles <ref type="bibr" target="#b19">18</ref> , and areas of design and operations of FAIR data systems (white boxes) for which best practices have yet to be defined.</p><p>FINDABILITY ACCESSIBILITY INTEROPERABILITY REUSABILITY Integrated Credentialing Metadata Normalization Data Federation Processed Data Metadata Schemas Inferring Data Relationships Data Identification Schemes Cost-efficient Metadata Acquisition F1 (meta)data are assigned a globally unique and persistent identifier F2 data are described with rich metadata (defined by R1 below) F3 metadata clearly and explicitly include the identifier of the data it describes F4 (meta)data are registered or indexed in a searchable resource I1 (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation. I2 (meta)data use vocabularies that follow FAIR principles I3 (meta)data include qualified references to other (meta)data R1 meta(data) are richly described with a plurality of accurate and relevant attributes R1.1 (meta)data are released with a clear and accessible data usage license R1.2 (meta)data are associated with detailed provenance R1.3 (meta)data meet domain-relevant community standards A1 (meta)data are retrievable by their identifier using a standardized communications protocol A1.1 the protocol is open, free, and universally implementable A1.2 the protocol allows for an authentication and authorization procedure, where necessary A2 metadata are accessible, even if data are no longer available</p><p>their data objects with the first three principles, specifically so that data and metadata can be linked and integrated across FAIR systems.</p><p>Each of the authors assessed compliance of four open-access, omics data systems and the GLDS for FAIRness using the current working draft of the FAIRness metrics developed by the GO FAIR Metrics group <ref type="bibr" target="#b24">23</ref> (Table <ref type="table" target="#tab_1">1</ref>). The four systems selected were the Gene Expression Omnibus (GEO), the European Nucleotide Archive (ENA), the Metagenomics Analysis Server (MG-RAST), and Metabolights. We chose the systems for their similarity to the GLDS; all are open-access, government-operated or government-funded, research lab-developed omics data systems.</p><p>As the FAIR principles themselves are only aspirational, the assessment of the systems can only be at most semiquantitative, and they would likely be affected by further clarifications or details in the principles and/or metrics which are almost certain to come. We rated systems with Pass when we had no evidence of any failure of a test by the metric. Systems were rated as Partial Pass, if the metric had multiple steps or components, and the system passed some, but not all; or if we had evidence that some data inputs for the metric yielded a pass, while others did not. We chose Fail only if we could find no evidence the system was compliant with any part of the metric, for any inputs we tried. Individually-assessed ratings were then combined into the consensus ratings shown in Table <ref type="table" target="#tab_1">1</ref> through dialogue among the raters. Finally, we developed an overall FAIRness Score by assigning a score to each rating of 1 for each Pass, 0.5 for each Partial Pass, and 0 for each Fail and totaling these score for each system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Summary of FAIRness Assessments</head><p>There is quite some variability in FAIRness among the omics data systems we assessed using the 14 metrics. The range of Pass ratings was 29-79% of metrics, Partial Pass 0-21%, and Fail 7-50%. The range of overall FAIRness </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Findability</head><p>The first findability principle, F1 (Table <ref type="table" target="#tab_1">1</ref>), states that systems should identify data using globally unique and persistent identifiers; the FM-F1A metric focuses on identifier uniqueness, and FM-F1B on identifier persistence. The objective is to make data findable, but the implementation of F1 also supports data accessibility (FAIR principle A1).</p><p>The qualifier "global" should be interpreted as global within the domain of conceivable use of the data. Thus, it is not sufficient to use locally (system-specific) controlled processes to manage data identifiers <ref type="bibr" target="#b25">24</ref> , as this approach can never absolutely guarantee against overlap with other systems' local identifier schemes. In addition, F1 specifies the persistence of issued identifiers; identification systems that employ Uniform Resource Locators (which rely on alterable domain name resolution) cannot guarantee persistence of identifiers.</p><p>Among the schemes for providing are to be those that use thirdparty resolution (versus those that rely on in-house redirection). Third-party resolution identifiers include Digital Object Identifiers (DOIs) and those provided by identifers.org, among others <ref type="bibr" target="#b26">25</ref> . All but one of the systems we assessed passed the metric for F1 metric by employing persistent, globally unique identifiers with third party resolution. (MG-RAST only offers such identifiers as an option during data submission, and so was assessed as Partial Pass.) In the biomedical research and clinical practice realms, publishers have now widely selected the DOI scheme for identification and citation of literature; more than 80% of 2015 articles indexed by PubMed have assigned DOIs <ref type="bibr" target="#b27">26</ref> . As a consequence, the biomedical community is already (and continues to become more and more) familiar with using these identifiers to retrieve and cite literature. Yet to date only a few omics data repositories have similarly implemented DOIs for data publications. Consequently, actual findability and accessibility of data in these repositories is less than optimal, even though they are technically in compliance with F1, and will continue to be so, unless and until the biomedical community is trained on how to use other identifying schemes for citing data. Furthermore, metadata from these repositories are not currently indexed in DOI meta-indexes (such as the one produced by DataCite <ref type="bibr" target="#b28">27</ref> ). In order to be compliant with F1 and A1, the GLDS is implementing methods to issue DOIs for all data publications. Additionally, curated metadata records of the publications are transmitted to DataCite 27 for metaindexing, increasing the chances for reuse of GLDS-hosted data.</p><p>FAIR data also need to be described "with rich metadata" in order to be findable. The draft metric to assess F2 compliance merely requires a metadata description document that specifies a format for machine-readable metadata. The definition of the term "machine-readable" varies somewhat, but it is generally agreed that it cannot be natural language. (Although F2 refers to reusability principles requiring data "have a plurality of accurate and relevant attributes" (R1), the metric for F2 does not attempt to assess compliance with principle R1 [perhaps it should]). All the systems we assessed passed this metric. Furthermore, all systems passed F3, requiring association of metadata with data it describes. It should be noted that FM-F3 refers only to IRIs and not broadly to any other kinds of acceptable data identifiers; we assume that ultimately FM-F3 will be broadened to allow other kinds of F1-compliant data identifiers. Also, it is difficult to determine if any of the systems truly support IRIs, given that none of them currently appear to use non-ASCII character encodings in their data identifying schemes.</p><p>The FAIRness metric FM-F4 is rather ill-defined currently. It requires submission of an identifier of FAIR data and its metadata to search engines (which precisely, it does not yet specify, but some common search engines are mentioned as examples in the comments for the metric). A Pass should be given if the returned search results include links to the published data (again, it does not yet specify where in the returned results, although among both the top 10 and top 40 are mentioned in metric comments). Some of the systems we assessed failed this metric, and it seems their data records are likely not indexed by at least some search engines. For example, search of the MG-RAST data record identified by "<ref type="url" target="http://metagenomics.anl.gov/linkin.cgi?metagenome=mgm4447971.3">http://metagenomics.anl.gov/linkin.cgi?metagenome=mgm4447971.3</ref>" or any of its tabular metadata yielded no search results referring to the repository using Google. More of the systems would fail this metric if it required data to be submitted specifically to DOI-based search systems (such as DataCite).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Accessibility</head><p>All of the systems for which we assessed compliance with FAIR principle A1.1 passed; all use open source communication protocols to access data, which are retrieved by their identifiers. FAIR Principle A1.2 stipulates that any protocol used to retrieve data "allows for an authentication and authorization procedure, where necessary." All the systems we assessed describe which functions of the system require credentials, and how to obtain the credentials.</p><p>It should be noted that A1.2 can be applied to the design of all types of systems, from those with highly restricted access controls, to the kinds of "open access" systems we assessed, that typically require minimal authentication and grant the widest possible access to all users. Furthermore, the data in question could be any kind of data, including raw instrument output, shared data analysis workflows or data products, or scientifically-relevant user comments and opinions. Even for open access systems, some systems functions such as user-workspace file management, user commenting and messaging, and user attribution of data always require authentication, because these functions must necessarily leverage user-specific information.</p><p>A specific challenge that GeneLab faced when implementing A1.2 for the GLDS was a diversity of credentialing services available to the system's target users, with no single service common to all users. Furthermore, the goal of GeneLab is to maximize access to GLDS data across all kinds of users, but within the bounds of authentication and credentialing policies of NASA -another challenge. Aside from policy restrictions, the development of any new credentialing and authentication functions or services can require considerable resources.</p><p>A solution for organizations that are seeking to develop open-access systems is to consider investing in development of an organization-wide integrated credentialing and authentication architecture (ICAA, Figure <ref type="figure" target="#fig_0">3</ref>), and policies for allowing users to leverage extramural credentials, with appropriate access limitations. ICAAs and attendant policies can provide flexibility to develop and/or deploy data systems with available resources that can meet policy requirements of the organization that support extramural user access. It should be noted that using an ICAA to leverage credentialing systems developed independently from the system requires 1) technical compatibility between the authentication services of credentialing providers and the ICAA; and 2) compatibility of the credentialing policies of credentialing organizations and those of the organization developing the data system. Technical compatibility is facilitated through the use of authentication protocols and standards. Organizational credentialing policy incompatibility is more problematic to resolve. For example, it may be that the organization deploying the data system requires credentials be updated at an interval that is different from that required by one or more extramural credential provider. If these differences cannot be resolved, the only option may be to limit access for some extramural users data system functions requiring authentication.</p><p>NASA is developing an ICAA and adopting policies that permit certain intramural data systems to leverage it for user credentials and authentication. These policies stipulates that users within the organization must use the organization's own credentialing services, while extramural users may authenticate using one from a defined set of externallymanaged credentialing systems (currently including authentication by selected "social media" systems, such as Google.com credentials). At NASA (and at most U.S. federal agencies), intramural credentialing is quite a long process involving corroboration of much identifying information. The use of the ICAA, users without NASA credentials can specify a minimum of information (e.g., only a verifiable email address), which they can provide easily through a web browser, and gain almost immediate access to the GLDS. Through use of the ICAA, the GLDS is able to recognize a lower level of confidence when authenticating extramural users, and implement appropriate access controls to some functions for these users (e.g., they may not join system administrator groups). It seems reasonable to suggest that an additional principle be considered when designing FAIR data systems that have at least some functions requiring authentication or authorization (A1.2.1 in Table <ref type="table">2</ref>). This principle, would stipulate that an integrated credentialing architecture, like that shown in Figure <ref type="figure" target="#fig_0">3</ref> be leveraged, in order to offer access to data to the widest number of users possible, when and where data policies permit such access.</p><p>Most of the systems we assessed for FAIR compliance to A2 have some policy to retain at least some metadata when data are removed from the system. It is frequently unclear, however, which metadata were to be retained when data records are removed from the system. Data Organizational Boundary Extramural Credentialing Services Data System Integrated Credentialing &amp; Authentication Service External Credentials Intramural Credentialing Services Authentication Services Organizational Credentials systems should ensure that policies for retaining metadata are clearly stated, including which metadata and for what period of time.</p><p>Another factor that specifically affects accessibility to Big Data is data transport. Data to be used as inputs in Big Data systems, but which are not located in the same environment as executable code of the system, commonly must first be transported (duplicated or moved) to the environment first. This environment typically is a user-specific workspace. The transport process for Big Data can require minutes, hours or even days in some Big Data systems, and represents a significant barrier to efficient access. Designers of Big Data would benefit from a principle that stipulates the collocation within Big Data systems of data and executable code (A3 in Table <ref type="table">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interoperability</head><p>I1 stipulates the "use a formal, accessible, etc. language for knowledge representation. The draft metric for this principle requires that the language for data or metadata be available by URL, and have a BNF representation. The comments on the metric suggest additional required language qualities, including that the language must have semantics ("['vanilla'] xml and json ..should fail"). While current knowledge representation languages such as RDF and OWL <ref type="bibr" target="#b29">28</ref> are available to generate metadata specifications with inherent semantics, tools that leverage such languages require some sophistication in their use. All the repositories we assessed have metadata specifications that do not have inherent semantics, and thus would not yield a Pass for this metric. Metabolights and the GLDS both use the ISATab metadata specification, which can be converted to RDF, and so were rated with Partial Pass.</p><p>The metric for principle I2 has a related requirement: that data systems use open, community-developed vocabularies for data and metadata, and that such vocabularies be more than simple keywords (i.e., include semantics in some form). As the ISATab specification supported ontological lookup from such vocabularies, we again only rated Metabolights and the GLDS with Partial Pass, and the rest of the systems as FAIL.</p><p>In addition to lack of experience with knowledge representation technologies like RDF and OWL, another likely reason for lack of compliance of the systems with I1 and I2 is a general lack of available semantic resources developed by the community to generate metadata specifications and vocabularies, particularly in more recent domains like genomics, proteomics and metabolomics. We have ourselves sought such resources for use in the GLDS development, where we are seeking to provide users with omics data analysis capabilities, an omics "workbench" consisting of userspecific workspaces and data access controls, together with access to a suite of omics analysis tools (see Figure <ref type="figure">1b</ref> and Figure <ref type="figure">1c</ref>). Users of these tools will create data processing (analysis) workflows to transform input data into "higher-order" data products, which they will likely want to share with others and/or associate with the workflows and data inputs. One of the challenges we have observed for making these kinds of processed information FAIR include a lack of semantic resources for creating metadata specifications for such processed data and the processing workflows that generate them. While schemas like the Common Workflow Language 29 (CWL) specification provide a method to represent and reproduce the mechanics of data processing, they lack domain-specific semantics regarding the nature of these data transformations (e.g., what are the goals of the transformation from a biological perspective? What are the biological data concepts produced in output files? how do these relate to input data elements? etc.). Without these descriptors, systems may not adequately index these processed data and workflows for discovery and retrieval. While sophisticated users (e.g., trained bioinformaticians) who do encounter processed data and workflows may be able to understand and reuse them, others without domain-specific experience and knowledge of omics data processing may not. A challenge for the GLDS will be to help spur the creation of community resources so that it can implement rich metadata for processed omics data and workflows in a timely fashion.</p><p>The objective of the metric for principle I3 is to measure how much data in one system are linked semantically to data in other systems. It is not surprising that none of the data sources link data "out" to data in external systems in semantically qualified ways; this is a challenging objective for any data system. (We ignored links to records that were merely duplicated between systems) Manual linking of data requires subject matter expertise and can be timeconsuming for systems with many data records. Automated linking requires that source and linked data both be</p><p>Table 2. Additional principles for optimizing data accessibility A1.2.1 Authentication protocols should support multiple credential providers A3 Data transport should be minimized characterized semantically so that links may be inferred. As mentioned above, semantic resources for characterizing omics data are by and large still forthcoming.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reusability</head><p>R1 is referred to by the findability FAIR principle F2 (see above); at this time there is no metric specifically for R1. R1.1 requires data systems to provide licenses for data usage (and is curiously intended to facilitate "legal interoperability" rather than reusability <ref type="bibr" target="#b31">30</ref> . All the data repositories we assessed are governmental entities, and as such, licensing is traditionally prohibited.</p><p>R1.2 and R1.3 require that data are published together with provenance metadata, and that data and metadata conform to community-derived standards, respectively. Such standards include taxonomies, ontologies and other vocabularies for metadata, and data and file formats. The metric for R1.2 involves the demonstration that a system can provide FAIR-compliant citational and contextual provenance metadata. While all the repositories provide such metadata, some do not use FAIR-compliant schemes for these metadata. Similarly, most of the repositories assess and validate submitted data files (but few validate metadata, as discussed above) against FAIR-schemes and formats.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The systems we assessed for FAIRness clearly have shortcomings, particularly in the area of supporting data interoperability. None of the systems currently use a metadata representation language with sufficient semantics. In addition, none fully leverage FAIR vocabularies for metadata. There are perhaps several causes at work for these observations. There are often myriad vocabularies (ontologies) for metadata (each of which is a de facto community standard) even within a given biological sub-domain, and often much overlap in semantic content between them, creating the need for systems to be able to "normalize" input metadata across them somehow. For example, the concept of zero or very low-gravity experimental conditions appears in at least 5 different, widely-used biomedical vocabularies: SNOMED CT, MeSH, Read Codes Clinical Terms, Psychology Ontology, PLOS Thesaurus, and FAST Topical Facet, with varying language for the concept ("weightlessness" vs. "zero gravity"). True semantic interoperability and data reusability that would permit a user to find all data tagged with this concept require either that all these concept instances be individually associated with the data, or use of a system that reliably maps all the concepts from these ever-changing, ever-expanding set of ontologies. Even if such metadata normalizing mechanisms are developed, their performance and value in generating "rich" metadata is dependent on the quality of input concepts supplied either by original data submitters or biodata curators (typically employed by the system). The expertise that submitters have is critical to shaping metadata that have value for many different kinds of audiences, and that allow associated data to be found and reused. In the biomedical field, submitters to shared data repositories have relatively low motivation to go to any great lengths to provide "rich metadata" (or assist biocurators in generating them). This is likely due, at least in part, to the fact that only a small fraction of shared data appears to be cited in publication references when they are reused. <ref type="bibr" target="#b32">31</ref> Without their input, niche repositories and data systems, like the GLDS, with limited resources for acquiring (and maintaining) rich metadata that meet all the criteria above must constantly trade the use of resources to acquire or generate rich metadata with those that could be used for other worthy goals.</p><p>The findability and interoperability principles, when implemented in data systems, support data integration functions like multi-source data querying and retrieval. Principles F2, I1, I2, and R1.3 require the use of community-developed metadata standards, formal languages for metadata representation, FAIR vocabularies, and qualified references to other data. These principles are unfortunately not yet widely or fully implemented across biomedical data systems, making it difficult for systems to develop functions that integrate data semantically. To illustrate this, we examine our own experience developing the GLDS to provide federated search and retrieval of omics data from several data sources. We sought to import metadata records from three open-access data systems into our own metadata warehouse: GEO, MG-RAST, and the PRoteomics IDEntifications repository (PRIDE) <ref type="bibr" target="#b4">5</ref> . Each of these systems defines metadata for omics data sets differently, but none of them make these schemas available in a formal semantic language format (such as RDF or OWL). Furthermore, there are no existing maps of any of the metadata schemas to each other. As such, we resorted to manually creating semantic maps of these schemas for use in our system; queries generated via the GLDS or its RESTful search API are executed against the mapped schema concepts, and matching records are shown in a common object model representation (Figure <ref type="figure">4</ref>). While this approach met our immediate goals of allowing users to query several data sources using our system, it required a good deal of resources and domain expertise to develop a schema mapping. Furthermore, maintaining this mapping over time as each of the data sources inevitably change will require more of our limited resources. The research community should recognize the value of federated system functions like the querying function that the GLDS offers, and urge all open access repositories and data systems to make their metadata schemas available to all according to the aforementioned FAIR principles.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Use of an Integrated Credentialing and Authentication Architecture (ICAA) to comply with FAIR principle A1.2. The ICAA provides services and policies that use information from intra-and extramural credentialing services to authenticate users of a data system.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>The FAIR principles, corresponding draft FAIRness metrics, and semi-quantitative FAIRness ratings for select omics data systems. Metrics were those developed by the GO FAIR Metrics 23 group.-12, with average of 10.1 and standard deviation, 2.4. All the systems were rated best in the areas of data accessibility and reusability, slightly worse in data findability, and far worse in data interoperability.</figDesc><table><row><cell>FAIR Principle</cell><cell> Pass  Partial pass  Fail</cell><cell>Metric</cell><cell>GEO 4</cell><cell>ENA 7</cell><cell>MG-RAST 6</cell><cell>Metabolights 8</cell><cell>GLDS</cell></row><row><cell cols="3">F1. (meta)data are assigned globally unique and persistent identifier FM-F1A</cell><cell cols="3">  </cell><cell></cell><cell></cell></row><row><cell cols="3">F1. (meta)data are assigned globally unique and persistent identifier FM-F1B</cell><cell cols="3">  </cell><cell></cell><cell></cell></row><row><cell cols="2">F2. data are described with rich metadata (defined by R1 below)</cell><cell>FM-F2</cell><cell cols="3">  </cell><cell></cell><cell></cell></row><row><cell cols="2">F3. metadata clearly/explicitly include identifier of data it describes</cell><cell>FM-F3</cell><cell cols="3">  </cell><cell></cell><cell></cell></row><row><cell cols="2">F4. (meta)data are registered or indexed in a searchable resource</cell><cell>FM-F4</cell><cell cols="3">  </cell><cell></cell><cell></cell></row><row><cell cols="2">A1. (meta)data are retrievable by identifier using a standardized communications protocol</cell><cell></cell><cell></cell><cell>N/A</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">A1.1 the protocol is open, free, and universally implementable</cell><cell>FM-A1.1</cell><cell cols="3">  </cell><cell></cell><cell></cell></row><row><cell cols="2">A1.2 the protocol allows for an authentication and authorization procedure, where necessary</cell><cell>FM-A1.2</cell><cell cols="3">  </cell><cell></cell><cell></cell></row><row><cell cols="3">A2. metadata are accessible, even when data are no longer available FM-A2</cell><cell cols="3">  </cell><cell></cell><cell></cell></row><row><cell cols="2">I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.</cell><cell>FM-I1</cell><cell cols="3">  </cell><cell></cell><cell></cell></row><row><cell cols="2">I2. (meta)data use vocabularies that follow FAIR principles</cell><cell>FM-I2</cell><cell cols="3">  </cell><cell></cell><cell></cell></row><row><cell cols="2">I3. (meta)data include qualified references to other (meta)data</cell><cell>FM-I3</cell><cell cols="3">  </cell><cell></cell><cell></cell></row><row><cell cols="2">R1. meta(data) are richly described with a plurality of accurate and relevant attributes</cell><cell></cell><cell></cell><cell>N/A</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">R1.1. (meta)data released with clear, accessible data usage license</cell><cell>FM-R1.1</cell><cell cols="3">  </cell><cell></cell><cell></cell></row><row><cell cols="2">R1.2. (meta)data are associated with detailed provenance</cell><cell>FM-R1.2</cell><cell cols="3">  </cell><cell></cell><cell></cell></row><row><cell cols="2">R1.3. (meta)data meet domain-relevant community standards</cell><cell>FM-R1.3</cell><cell cols="3">  </cell><cell></cell><cell></cell></row><row><cell>Overall FAIRness Score</cell><cell></cell><cell></cell><cell cols="2">11 11</cell><cell cols="3">6 10.5 12</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Galaxy: a platform for interactive largescale genome analysis</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Giardine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Riemer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Hardison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Burhans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Elnitski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1451" to="1455" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">The DOE Systems Biology Knowledgebase (KBase)</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Arkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Cottingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maslov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dehal</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>bioRxiv</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The iPlant Collaborative: Cyberinfrastructure for Plant Biology</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Goff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vaughn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mckay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lyons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Stapleton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gessler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">34</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Gene Expression Omnibus: NCBI gene expression and hybridization array data repository</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Edgar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Domrachev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Lash</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="207" to="210" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">PRIDE: a public repository of protein and peptide identifications for the proteomics community</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Cote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Martens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Quinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Derache</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="659" to="663" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>Database issue</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Figure</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Federated Search of Omics Data in the GLDS. The RESTful search API result shows 65 records from the four data sources searched</title>
+		<author>
+			<persName><forename type="first">Geo</forename><surname>Glds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mg-Rast</forename><surname>Pride</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Each records metadata is mapped using a single schema for display in the GLDS see Figure 1a</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The metagenomics RAST server -a public resource for the automatic phylogenetic and functional analysis of metagenomes</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Paarmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D'</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Glass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Kubal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">386</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The European Nucleotide Archive</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Leinonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Akhtar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Birney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bower</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cerdeno-Tarraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="28" to="31" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>Database issue</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">MetaboLights--an open-access generalpurpose repository for metabolomics studies and associated meta-data</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Haug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Salek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Conesa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hastings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>De Matos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rijnbeek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="781" to="786" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>Database issue</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">MouseMine: a new data warehouse for MGI</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Motenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Neuhauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Keefe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mamm Genome</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">7-8</biblScope>
+			<biblScope unit="page" from="325" to="330" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">WormBase: network access to the genome and biology of Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sternberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Durbin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Thierry-Mieg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Spieth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="82" to="86" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">PGP repository: a plant phenomics and genomics data publication infrastructure</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Arend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Junker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Scholz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schuler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wylie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lange</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Database</title>
+		<imprint>
+			<date type="published" when="2016">2016. 2016</date>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The sequence read archive</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Leinonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sugawara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shumway</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="19" to="21" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>Database issue</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The Arabidopsis Information Resource (TAIR): a comprehensive database and web-based information retrieval, analysis, and visualization system for a model plant</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Huala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Dickerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Garcia-Hernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weems</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Reiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lafond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="102" to="105" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">FlyBase: the Drosophila database</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="53" to="56" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Reactome: a knowledgebase of biological pathways</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Joshi-Tope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gillespie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Vastrik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>'eustachio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>De Bono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="428" to="432" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note>Database issue</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">KEGG: Kyoto Encyclopedia of Genes and Genomes</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ogata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fujibuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kanehisa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="29" to="34" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Gene ontology: tool for the unification of biology. The Gene Ontology Consortium</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ashburner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Blake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Botstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Cherry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Genet</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="25" to="29" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The FAIR Guiding Principles for scientific data management and stewardship</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dumontier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Aalbersberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Appleton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Axton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Baak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Data</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">160018</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A design framework and exemplar metrics for FAIRness</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S-A</forename><surname>Sansone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schultes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Doorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bonino</forename><surname>Da</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Silva</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">O</forename><surname>Dumontier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">bioRxiv</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">GeneLab: NASA&apos;s Open Access, Collaborative Platform for Systems Biology and Space Medicine</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Berrios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fogle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rask</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Coughlan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">AMIA Annual Symposium</title>
+		<meeting><address><addrLine>San Francisco, CA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015-11-14">2015. November 14-18. 2015</date>
+		</imprint>
+	</monogr>
+	<note>Poster presented at</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">GeneLab: NASA&apos;s GeneLab: Phase I Results and Plans</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Berrios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Welch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fogle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Skidmore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Marcu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">AMIA Annual Symposium</title>
+		<meeting><address><addrLine>Chicago, IL</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2016">2016. 2016</date>
+		</imprint>
+	</monogr>
+	<note>Poster presented at</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Global transcriptomic analysis suggests carbon dioxide as an environmental stressor in spaceflight: a systems biology GeneLab case study</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cekanaviciute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">4191</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">GO FAIR Metrics Group</orgName>
+		</author>
+		<idno type="DOI">10.5281/zenodo.1065973</idno>
+		<ptr target="https://doi.org/10.5281/zenodo.1065973" />
+		<imprint>
+			<date type="published" when="2018-01-11">2018. January 11, 2018</date>
+		</imprint>
+		<respStmt>
+			<orgName>FAIR Metrics ALL</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mcmurry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Juty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Blomberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Burdett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Conlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Conte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">e2001414</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Achieving human and machine accessibility of cited data in scholarly publications</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Starr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Crosas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dumontier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Downs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Duerr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ Comput Sci</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Availability of digital object identifiers in publications archived by PubMed</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boudry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chartron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scientometrics</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1453" to="1469" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">DataCite and DOI names for research data</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Neumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brase</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Comput Aided Mol Des</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1035" to="1041" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">OWL Web Ontology Language: Semantics and Abstract Syntax</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Patel-Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Horrocks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">W3C</title>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Common Workflow Language</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Michael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nebojša</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Michael</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">02016</date>
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+		<idno>1.1</idno>
+		<ptr target="https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/" />
+		<title level="m">Meta)data are released with a clear and accessible data usage license: GO FAIR Initiative</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Researcher perspectives on publication and peer review of data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Kratz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strasser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">117619</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

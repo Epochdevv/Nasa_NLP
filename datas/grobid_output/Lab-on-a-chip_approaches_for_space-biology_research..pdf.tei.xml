@@ -1,0 +1,2323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Reviewing the state of biosensors and lab-on-a- chip technologies: opportunities for extreme environments and space exploration</title>
+				<funder>
+					<orgName type="full">Copernicus Marine Environment Monitoring Service</orgName>
+					<orgName type="abbreviated">CMEMS</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">European Research Council</orgName>
+					<orgName type="abbreviated">ERC</orgName>
+				</funder>
+				<funder ref="#_PsQyvdq">
+					<orgName type="full">European Union</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Frontiers Media SA</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-08-17">17 August 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Stefano</forename><surname>Cinti</surname></persName>
+							<email>stefano.cinti@unina.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Pharmacy</orgName>
+								<orgName type="institution">University of Naples Federico II</orgName>
+								<address>
+									<settlement>Naples</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">BAT Center-Interuniversity Center for Studies on Bioinspired Agro-Environmental Technology</orgName>
+								<orgName type="institution">University of Napoli Federico II</orgName>
+								<address>
+									<settlement>Naples</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Bioelectronics Task Force</orgName>
+								<orgName type="institution">University of Naples Federico II</orgName>
+								<address>
+									<settlement>Naples</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sima</forename><surname>Singh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Pharmacy</orgName>
+								<orgName type="institution">University of Naples Federico II</orgName>
+								<address>
+									<settlement>Naples</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Giovanni</forename><surname>Covone</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">University of Naples Federico II</orgName>
+								<address>
+									<settlement>Naples</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Luca</forename><surname>Tonietti</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Science and Technology</orgName>
+								<orgName type="institution">University of Naples Parthenope</orgName>
+								<address>
+									<settlement>Naples</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">University of Naples Federico II</orgName>
+								<address>
+									<settlement>Naples</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Annarita</forename><surname>Ricciardelli</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">University of Naples Federico II</orgName>
+								<address>
+									<settlement>Naples</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Angelina</forename><surname>Cordone</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">University of Naples Federico II</orgName>
+								<address>
+									<settlement>Naples</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Roberta</forename><surname>Iacono</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">University of Naples Federico II</orgName>
+								<address>
+									<settlement>Naples</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Arianna</forename><surname>Mazzoli</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">University of Naples Federico II</orgName>
+								<address>
+									<settlement>Naples</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marco</forename><surname>Moracci</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">University of Naples Federico II</orgName>
+								<address>
+									<settlement>Naples</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Task Force on Microbiome Studies</orgName>
+								<orgName type="institution">University of Naples Federico II</orgName>
+								<address>
+									<settlement>Naples</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="institution" key="instit1">NBFC</orgName>
+								<orgName type="institution" key="instit2">National Biodiversity Future Center</orgName>
+								<address>
+									<settlement>Palermo</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Institute of Biosciences and Bioresources</orgName>
+								<orgName type="institution">National Research Council of Italy</orgName>
+								<address>
+									<settlement>Naples</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alessandra</forename><surname>Rotundi</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Science and Technology</orgName>
+								<orgName type="institution">University of Naples Parthenope</orgName>
+								<address>
+									<settlement>Naples</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="department" key="dep1">INAF-IAPS</orgName>
+								<orgName type="department" key="dep2">Istituto di Astrofisica e Planetologie Spaziali</orgName>
+								<address>
+									<settlement>Rome</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Donato</forename><surname>Giovannelli</surname></persName>
+							<email>donato.giovannelli@unina.it</email>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">University of Naples Federico II</orgName>
+								<address>
+									<settlement>Naples</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Task Force on Microbiome Studies</orgName>
+								<orgName type="institution">University of Naples Federico II</orgName>
+								<address>
+									<settlement>Naples</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff10">
+								<orgName type="institution">National Research Council-Institute of Marine Biological Resources and Biotechnologies- CNR-IRBIM</orgName>
+								<address>
+									<settlement>Ancona</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff11">
+								<orgName type="department">Earth-Life Science Institute</orgName>
+								<orgName type="institution">Tokyo Institute of Technology</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff12">
+								<orgName type="department">Marine Chemistry and Geochemistry Department</orgName>
+								<orgName type="institution">Woods Hole Oceanographic Institution</orgName>
+								<address>
+									<settlement>Woods Hole</settlement>
+									<region>MA</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff13">
+								<orgName type="department">Department of Marine and Coastal Science</orgName>
+								<orgName type="institution">Rutgers University</orgName>
+								<address>
+									<settlement>New Brunswick</settlement>
+									<region>NJ</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff14">
+								<orgName type="institution">Macau University of Science and Technology</orgName>
+								<address>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff15">
+								<orgName type="institution">Sapienza University of Rome</orgName>
+								<address>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff16">
+								<orgName type="institution">National Center for Research in Energy and Materials</orgName>
+								<address>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Reviewing the state of biosensors and lab-on-a- chip technologies: opportunities for extreme environments and space exploration</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Frontiers in Microbiology</title>
+						<title level="j" type="abbrev">Front. Microbiol.</title>
+						<idno type="eISSN">1664-302X</idno>
+						<imprint>
+							<publisher>Frontiers Media SA</publisher>
+							<biblScope unit="volume">14</biblScope>
+							<date type="published" when="2023-08-17">17 August 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2DB9931DD192F55602DBF7C8F453F23D</idno>
+					<idno type="DOI">10.3389/fmicb.2023.1215529</idno>
+					<note type="submission">RECEIVED 02 May 2023 ACCEPTED 31 July 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>biosensors</term>
+					<term>point of care</term>
+					<term>lab on chip</term>
+					<term>space exploration</term>
+					<term>extreme environment</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The space race is entering a new era of exploration, in which the number of robotic and human missions to various places in our solar system is rapidly increasing. Despite the recent advances in propulsion and life support technologies, there is a growing need to perform analytical measurements and laboratory experiments across diverse domains of science, while keeping low payload requirements. In this context, lab-on-a-chip nanobiosensors appear to be an emerging technology capable of revolutionizing space exploration, given their low footprint, high accuracy, and low payload requirements. To date, only some approaches for monitoring astronaut health in spacecraft environments have been reported. Although non-invasive molecular diagnostics, like lab-on-a-chip technology, are expected to improve the quality of long-term space missions, their application to monitor microbiological and environmental variables is rarely reported, even for analogous extreme environments on Earth. The possibility of evaluating the occurrence of unknown or unexpected species, identifying redox gradients relevant to microbial metabolism, or testing for specific possible biosignatures, will play a key role in the future of space microbiology. In this review, we will examine the current and potential roles of lab-on-a-chip technology in space exploration and in extreme environment investigation, reporting what has been tested so far, and clarifying the direction toward which the newly developed technologies of portable lab-on-a-chip sensors are heading for exploration in extreme environments and in space.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>From an anthropocentric perspective, all terrestrial habitats characterized by harsh environmental conditions are identified as extreme environments <ref type="bibr" target="#b42">(Merino et al., 2019)</ref>. Under these conditions, including extremely high or low pressure, temperature, pH, salinity, and radiation, the lives of humans are severely challenged and their survival is generally restricted to a very limited number of circumstances. Despite this, extreme environments cover a wide portion of Earth's surface and are also thought to be abundant in our solar system and beyond <ref type="bibr" target="#b54">(Rothschild and Mancinelli, 2001</ref>; Ando methods, such as high-performance liquid chromatography (HPLC), inductively coupled plasma atomic emission spectroscopy (ICP-AES), mass spectrometry (MS), atomic absorption spectrometry (AAS), and so on. These techniques represent the gold standard in analytical chemistry, but require instruments of large size and weight, long time, and effort for sample preparation and analysis, and often involve the use of advanced equipment and modern clean rooms. For all these aspects, these techniques are unsuitable for in situ real-time analytical detection, especially in remote locations and in space, where reduced footprint and payload are key requirements <ref type="bibr" target="#b9">(Clatterbaugh et al., 2010;</ref><ref type="bibr" target="#b19">Gastoldi and Cinti, 2023)</ref>.</p><p>In extreme environments such as space, human health surveillance is still an unmet goal, and the development of suitable and reliable biosensors is for this purpose a high-priority need. A major breakthrough in the field of analytical chemistry, applied to extreme environments and to space exploration, is the miniaturization and automation of analytical systems that operate on the lab-on-a-chip (LoC) platform. The development of these technologies has been enabled by recent advances in the fields of smart materials, microfluidics, and electronics <ref type="bibr" target="#b13">(Faheem and Cinti, 2023)</ref>. Furthermore, an increased and more aware use of point-of-care (PoC) diagnostics <ref type="bibr" target="#b45">(Omidfar et al., 2020)</ref> and has accelerated the process of digitalizing routine monitoring procedures <ref type="bibr" target="#b56">(Singh et al., 2021)</ref>. In fact, LoC-based PoC testing systems are portable, efficient and easy-to-use tools for rapid in situ detection, diagnosis, and monitoring of disease, which only require droplets of samples, such as blood, urine, or other body fluids such as saliva, sweat, and tears <ref type="bibr">(Singh et al., 2022a)</ref>. These characteristics make LoC nanobiosensors ideal for applications in all major sectors related to space and remote environments exploration, from astronauts' health monitoring to environmental analysis for in situ resource utilization and biosignature exploration.</p><p>The study of extremophiles and extremely hostile locations can answer many questions from the field of evolutionary biology to molecular biology and industrial biology for space exploration. This is in part due to the several significant challenges that can be encountered in studying biological life within extreme environments, such as the need to travel to remote destinations, work in hostile conditions, and face specific dangers associated with studying them. From this perspective, the development of sensors that can be applied to harsh conditions could provide a system for monitoring life in extreme environments and supporting space exploration by humans.</p><p>In this Review, we will focus our attention on lab-on-a-chip (LoC) nanobiosensors in the context of extreme environments and space exploration, reporting the state-of-the-art of current applications, and highlighting the possible directions for novel device development aimed at space missions and planetary research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Lab-on-a-chip key features</head><p>Technologies for exploring space and extreme environments, both in land and underwater, share a number of common features and key requirements, including the robustness of the detection technology, lowcost sensors, small form factor, and real-time capabilities. LoC technology has the advantage of combining all of these properties, representing the top-of-the-line system for the development of innovative sensors suitable for space exploration and extreme environment analysis.</p><p>10.3389/fmicb.2023.1215529 Frontiers in Microbiology 03 frontiersin.org</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Robustness of detection technologies</head><p>Establishing alternative, stable, and selective system design options is a way to reduce the risks of exploring extreme environments. The development of sensors and electronics set up for harsh conditions has recently gained increasing importance in different industrial settings, including automotive, aircraft, process engineering, and deep-sea research <ref type="bibr" target="#b11">(Coyle and Diamond, 2016)</ref>. Unlike sensors used in most common applications, the manufacture of those suitable for use in harsh environmental circumstances frequently relies on unique technologies, distinct materials, and highly specialized designs, enabling them to withstand the most challenging conditions <ref type="bibr" target="#b5">(Bogue, 2012)</ref>. However, the sensitivity, stability, and selectivity of detection techniques still need to be improved. Indeed, most of the currently used systems require very long detection times as well as specialized technicians and peculiar processing equipment, which limit their applications. Colorimetric and electrochemical biosensors are currently the best developed and preferred approaches for the detection and monitoring of analytes under extreme environmental conditions, due to their low detection limits, high selectivity and sensitivity, fast response times, and local detection <ref type="bibr" target="#b68">(Xue et al., 2019;</ref><ref type="bibr" target="#b15">Fernandes et al., 2020;</ref><ref type="bibr" target="#b22">Heard and Lennox, 2020)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Production and utilization costs</head><p>There is a need for the development of efficient on-demand technologies based on low production and consumption costs. Microfluidic technology has gained particular interest in the field of LoC systems development, mostly due to its low manufacturing costs. Furthermore, microfluidic devices (μFDs) provide a straightforward assay method widely used for efficient analyte detection. Combining μFDs with colorimetric and electrochemical systems will result in a cost-effective solution that could be widely used in the near future <ref type="bibr" target="#b13">(Faheem and Cinti, 2023)</ref>. For many years, researchers have explored the possibility of using microfluidic systems in planetary science. Some of these experiments have shown that the optimization process can become even more intensive. As part of the ExoMars mission from NASA and the European Space Agency (ESA), <ref type="bibr" target="#b51">Park et al. (2011)</ref> developed a miniaturized antibody microarray system using optical fibers and microfluidics to detect life. The size and weight of the fluid management system were reduced by replacing multiple pneumatically operated on-off valves with a single integrated selector valve. <ref type="bibr" target="#b43">Mora et al. (2011)</ref> announced the development of a fully integrated microfluidic system that could perform analysis of amino acids by microchip capillary electrophoresis (μCE) with integrated laserinduced fluorescence detection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Real-time capabilities</head><p>Real-time information technology is required in extreme environmental conditions and hazardous circumstances to improve the protection and survival of the involved personnel. Additionally, real-time information is needed to implement autonomous decisionmaking in the field, enabling the use of artificial intelligence to guide unmanned exploration and support human presence in space. As an example, <ref type="bibr" target="#b26">Hinkov et al. (2022)</ref> have recently developed a next-generation model of an optical, fingertip-sized mid-IR LoC device, suitable for sensitive and selective in situ real-time analysis of chemical reactions in liquids. In particular, they demonstrated the capability of the device to monitor temperature-induced changes in the secondary structure of proteins in real-time. This technology may find wide use in biomedical applications for the investigation of chemical reactions, such as drug production <ref type="bibr" target="#b26">(Hinkov et al., 2022)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Small form factor</head><p>In the exploration of remote places on our planet as well as in space, the size and weight of analytical devices are fundamental features for the selection of the instruments to backpack during a mission. Minimizing size and weight not only allows the production of compact detection systems, but also cuts launch costs and power requirements <ref type="bibr" target="#b23">(Hessel et al., 2020)</ref>. In this sense, LoC devices have the smallest footprint of any analytical alternative (Figure <ref type="figure" target="#fig_0">1</ref>). In particular, paper-based microfluidic systems and biosensors have weights several orders of magnitude lower than traditional analytical devices (Figures <ref type="figure" target="#fig_0">1</ref>, <ref type="figure" target="#fig_1">2</ref>). Moreover, micro-processing provides processing conditions that are easily adaptable to the use of artificial intelligence technologies and, taking place in enclosed chambers with no headspace, allows vacuum operation <ref type="bibr" target="#b24">(Hessel et al., 2021)</ref>. Ultimately, LoC nanobiosensors represent excellent candidates for space missions, both as probe-installed instruments and as wearable technologies for astronauts. They found wide use in different areas of space biology, from life detection to spacecraft bioburden or astronaut health monitoring. Even though astonishing advances have been made in the LoC sector in the last decade <ref type="bibr" target="#b7">(Cinti, 2019;</ref><ref type="bibr" target="#b8">Cinti et al., 2019;</ref><ref type="bibr" target="#b47">Parolo et al., 2020;</ref><ref type="bibr" target="#b58">Singh et al., 2022b)</ref>, their application in extreme environments exploration is still poorly investigated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Nanobiosensors for extreme environments and space microbiology</head><p>The interaction between humans and microbes on Earth is not the same as that in the confined environment of space <ref type="bibr" target="#b37">(Liu et al., 2016)</ref>. Since astronauts are required to spend extended periods of time in an orbiting spacecraft during a mission in space, the investigation of microbial pathogenesis and infection processes in space could help preserve astronaut health. Based on the results of decadal studies conducted by NASA, a series of microbial tracking experiments have been launched aiming to understand the dynamics of microbial persistence on spacecraft and related microbial processes, including biofilm formation, pathogenicity, and virulence <ref type="bibr" target="#b4">(Bijlani et al., 2021)</ref>. Conducting experiments in space and transporting samples back to Earth for further studies require a significant investment of time, money, and human effort. Therefore, microbiological risk must be regularly assessed and controlled. These applications require sensors that operate under extreme conditions with long-term accuracy and precision. In this context, nanomaterials are promising candidates for the manufacture of single-molecule nano-biosensors with high-throughput biosensor arrays, with improved electrochemical, mechanical, magnetic, and optical properties <ref type="bibr" target="#b41">(Mehrotra, 2016)</ref>. The combination of nanostructures with electrochemical processes has led to an increase in the effectiveness,  Examples of lab-on-a-chip sensors used in extreme environments. (A) Close-up of the paper-based sensor and the reading unit; (B) the sensor in the field during recent fieldwork in the Puna plateau (arid desert with altitude above 4,000 meters); and (C) example of data collected in the field relatively to the measurement of copper (II) ions directly onto the screen-printed strips using a PalmSens Sensit as a portable readers powered by a smartphone. <ref type="bibr">Cinti et al. 10.3389/fmicb.2023.1215529</ref> Frontiers in Microbiology 05 frontiersin.org sensitivity, response time, and degradability of the sensors, thus enabling efficient and cost-effective assays for a wide range of analytes.</p><p>For the same reason, the use of nanobiosensors is rapidly spreading in diagnostics and in the biochip industry <ref type="bibr" target="#b59">(Soy et al., 2022)</ref>.</p><p>In space biology and in astrobiology, one of the main goals is to explore and visit different celestial bodies in our solar system. This approach ultimately serves to determine their potential habitability and the presence/absence of life. Several strategies have been attempted to achieve this: analyzing the biogeochemical properties of meteorites, mimicking planetary atmospheric conditions in lab-scale experiments, or using extreme environments on Earth as natural laboratories and planetary analogs. According to CAREX <ref type="bibr" target="#b39">(Marteinsson et al., 2013</ref>; Coordination Action for Research on Study of Life in Extreme Environment), planetary analogs can be described in four main domains: the contribution of life to biogeochemical cycles and the response to environmental variability in extreme environments; the response, adaptation, and evolution of life forms in environments extremely-rich in biotic and abiotic stresses; bioenergetics and biodiversity in extreme environments, and the relationship between life and habitability. 2 Following these guidelines, the exploitation of extreme environments as planetary analogs could help explain the relationship between life, environments, and humans, in order to better design technical strategies for deep space exploration. An experimental approach of particular interest in space microbiology is rock biomining and/or bioleaching, namely the processes of extracting metals from low-grade ores and wastes through microbial activity <ref type="bibr" target="#b44">(Olsson-Francis and Cockell, 2010;</ref><ref type="bibr" target="#b55">Santomartino et al., 2022)</ref>. A heterogeneous and complex microflora, composed of both heterotrophic and autotrophic acidophilic microorganisms, is generally used in most industrial biomining processes <ref type="bibr" target="#b27">(Hoque and Philip, 2011)</ref>. Due to the extreme environmental conditions in which these microorganisms live and perform metal extraction and solubilization, such as high temperatures and very low pH, the development of suitable analytic systems is urgently needed for biomining and bioleaching process monitoring, but more generally for setting up planetary simulation facilities aimed at the study of rocky planets and moons.</p><p>Depending on the type of parameter or analyte to be monitored or detected and the environmental conditions under which this needs to occur, analytical systems based on LoC technology have been designed, suitable for the most varied applications (Figure <ref type="figure" target="#fig_1">2</ref>). Below are some examples that have been reported, i.e., the electrochemical detection of copper ions at a printed strip.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Sensors for extreme temperature conditions</head><p>Sensor performance requirements vary depending on whether they are used in high-or low-temperature conditions. Temperature is probably the environmental parameter that mostly affects the operation of most analytical devices <ref type="bibr" target="#b5">(Bogue, 2012)</ref>. For example, with standard thermocouples and pyrometers, it is difficult to obtain accurate measurements of the thermal pulse to which nanoparticles 2 cordis.europa.eu/project/ and microparticles are exposed under harsh conditions, such as explosions, furnaces, and combustion. Under these conditions, with rapid heating rates and high maximum temperatures, the formation of opaque gasses and liquid streams containing nanoparticles and microparticles limits the precision of these methods <ref type="bibr" target="#b0">(Anderson et al., 2020)</ref>. To avoid such issues, <ref type="bibr" target="#b31">Kalyakin et al. (2019)</ref> have developed an in situ approach to monitoring the partial pressure of water vapor in oxidizing atmospheres and at elevated temperatures. They employed a new basic amperometric sensor design for electrolytes based on ZrO 2 and CaZrO 3 . The electrolyte membranes allow the conductivity of oxygen anions and protons to be established, leading to the complete decomposition of water as a result of the applied potential by an external circuit. The proper performance of the proposed sensor is demonstrated by varying the partial pressure of water vapor (0.003-0.110 atm) in air and temperature (675-750°C). Sensor measurement confirmed test success by proving to be steady, repeatable, and consistent with theoretical predictions and practical applications <ref type="bibr" target="#b31">(Kalyakin et al., 2019)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Sensors for volcanics</head><p>The temperature and composition of volcanic gasses fluctuate as a result of geochemical reactions and seismic activity. Volcanic acoustic signals contain important information about shallow magnetic and hydrothermal processes. In certain circumstances, the detection of acoustic waves is the sole unequivocal proof of the presence of volcanic eruptions. Using a microelectromechanical differential pressure transducer, <ref type="bibr" target="#b20">Grangeon and Lesage (2019)</ref> detected and analyzed volcanic sonic waves. It has a wide frequency range, a wide dynamic range, low noise level, and comparatively low power. Despite its ease of installation, it is designed for use in extreme environments. The instrumental response of each infrasound sensor is precisely measured from 1 mHz to &gt;100 Hz, providing sinusoidal pressure changes. It is relatively easy to handle and install due to sensor size (26x45x80 mm) and weight 100 g <ref type="bibr" target="#b20">(Grangeon and Lesage, 2019)</ref>. The discovery of volcanoes may therefore aid in the prediction of phreatic eruptions and other types of eruptions in the near future.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Sensors for environmental microbes</head><p>Microorganisms not only thrive in a wide variety of environments on Earth but can also withstand the harsh conditions of space, including high radiation, vacuum pressure, drastic temperature changes, and microgravity <ref type="bibr" target="#b42">(Merino et al., 2019)</ref>. Real-time monitoring of pollutants, contaminants, and pathogens on multiple geographic scales is essential to adequately assess environmental risks, manage impacts, and understand the processes that determine their extent and spread <ref type="bibr" target="#b71">(Zielinski et al., 2009)</ref>. <ref type="bibr" target="#b18">Fricke et al. (2019)</ref> demonstrated that contemporary isothermal microcalorimeters (IMCs) can detect the metabolic heat of bacteria with enough precision to detect even minute bacterial contamination in water, food, and medical samples. Compared to the culture technique, the IMC technique was reported to be much faster in detecting high bacterial concentrations in turbid solutions without even shaking the sample <ref type="bibr" target="#b18">(Fricke et al., 2019)</ref>.</p><p>10.3389/fmicb.2023.1215529 Frontiers in Microbiology 06 frontiersin.org</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Sensor for underwater applications</head><p>Due to the extreme environmental conditions found in particular aquatic environments, such as deep oceans, LoC systems used in these areas have special requirements. Compared to land-based equipment, the electrical systems utilized in LoC systems must be able to operate in a water-filled environment and tolerate exceptionally high hydrostatic pressures. LoC analyzers should be used in the presence of severely corrosive salt water and strong hydrostatic pressure. However, the materials, analytical techniques, or operational principles that can be used have some limitations. High levels of automation are also required to enable autonomous operations in remote or extreme environment areas. In recent decades, advances in LoC technology have made underwater analysis and in situ detection possible. Colorimetric approaches are often used to assess marine variables such as micro and macronutrient content, such as nitrates, phosphates, and silicates <ref type="bibr" target="#b67">(Worsfold et al., 2013)</ref>. For example, to perform in situ ammonia detection, a device integrating a gas diffusion cell and electrodes was developed for conductivity measurements. The gas diffusion cell is simple in design, with a thin Teflon tape between the polysulfone blocks, which have a serpentine microchannel design <ref type="bibr" target="#b50">(Plant et al., 2009)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Sensors for H + ions for extreme pH measurement</head><p>Oceans absorb approximately a quarter of anthropogenic CO 2 emissions from the atmosphere, thus resulting in a decrease of surface ocean pH, with an average rate of 0.0017 pH units per year, as reported by the Copernicus Marine Environment Monitoring Service (CMEMS). 3 This ocean acidification phenomenon also affects total dissolved inorganic carbon (DIC) speciation, reducing the amount of carbonate ions in seawater ions available for calcifying organisms to build and maintain their shells, skeletons, and other calcium carbonate structures. To predict changes in marine carbonate chemistry on high spatial and temporal scales from surface waters to the deep ocean, a novel LoC microfluidic sensor for in situ pH high-precision measurements was developed. Thanks to LoC technology, this sensor showed 10 times the depth capability of the state-of-the-art autonomous spectrophotometric sensor. Furthermore, the LoC pH sensor demonstrated high-level performance on fixed and moving platforms under varying environmental salinity, temperature, and pressure conditions <ref type="bibr" target="#b70">(Yin et al., 2021)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Nanobiosensors for astronaut health and life support systems</head><p>Space is an unnatural and harsh environment that affects the human body in many ways. From the first spaceflight in the early 1960s to current space missions, several microgravity-related alterations in astronauts' physiology have been reported <ref type="bibr" target="#b44">(Nicogossian et al., 2016)</ref>. These complex physiological changes, depending on the duration of the spaceflight, range from a change in body fluids, muscle atrophy, bone demineralization, and immune dysregulation <ref type="bibr" target="#b66">(Williams et al., 2009;</ref><ref type="bibr" target="#b37">Liu et al., 2016)</ref> to increased radiation exposure <ref type="bibr" target="#b38">(Löbrich and Jeggo, 2019)</ref> and potential exposure to pathogens and microbes due to increased bioburden on the spacecraft (Figure <ref type="figure" target="#fig_4">3</ref>). Furthermore, the functioning of astronauts' psychology is also affected (Figure <ref type="figure" target="#fig_4">3</ref>; <ref type="bibr" target="#b2">Barker et al., 2021)</ref>. Taken together, all these factors can negatively influence human health and productivity on the space station <ref type="bibr" target="#b65">(Voorhies et al., 2019)</ref>. In order to preserve astronauts' health during missions, it should be possible to perform in situ diagnosis, management, and treatment of pathologies related to spaceflight. Today, balanced healthcare systems are based on the 4P medical model, which is preventive, predictive, personalized, and participatory medicine, which forms the basis for advanced patient surveillance technology <ref type="bibr" target="#b16">(Flores et al., 2013)</ref>. All four requirements of the 4P model for medical and analytical devices that provide clinically relevant information without requiring a core clinical laboratory, are achieved by PoC technology. Recent research has focused on adapting PoC sensing techniques to "resource-constrained environments, " with the automation field considered to be the most important market for PoC electronics in the near future <ref type="bibr" target="#b40">(McCracken and Yoon, 2016;</ref><ref type="bibr" target="#b56">Singh et al., 2021)</ref>.</p><p>Electrochemical and optical technologies combined with miniature readout subsystems are by far the most widely used for PoC sensing. They can be used as wearable, implanted, and in situ detection systems. PoC devices can also measure physiological parameters such as heart function rate, oxygen saturation, plasma protein composition level, and patterns of various biomarkers and their concentrations. In addition to reducing detection time, these technologies would also allow testing in locations where laboratory experiments are not feasible, such as in space. In the future, these sensors will be used by humans in space and could pave the way for more sustainable space exploration <ref type="bibr" target="#b34">(Koehne et al., 2020)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Astronaut physiology monitoring during space flight</head><p>Monitoring health in space is a tough task to accomplish, due to several issues of different nature. Clear examples are unconventional space environmental conditions, in addition to the lack on the space station of medical devices, such as electrocardiographs, blood pressure machines, fingertip oxygen saturation monitors, and ankle bracelet activity sensors, which are often too heavy, bulky, invasive, disruptive, and expensive. The remarkable advances in biosensors offer the possibility of developing novel diagnostic methodologies based on LoC technology for monitoring the health status of astronauts, which could feasibly allow for the acquisition of personalized therapeutic approaches. As an example, the opportunity to perform in situ analysis of blood components or specific biomarkers, such as exosome-like small extracellular vesicles (sEVs) <ref type="bibr" target="#b61">(Tkach and Théry, 2016)</ref>, and circulating cell-free nucleic acids (cf-NAs) <ref type="bibr" target="#b3">(Bezdan et al., 2020)</ref>, would be useful to identify physiological effects or immune system responses related to microgravity, radiation exposure, or other peculiar spaceflight stress conditions. Several biosensor formats have been proposed as in-flight diagnostic tools, despite their many disadvantages: clinical diagnostic biosensors, biosensors for water and Frontiers in Microbiology 07 frontiersin.org environmental quality, and biosensors for investigating the effects of and countermeasures to radiation exposure <ref type="bibr" target="#b53">(Roda et al., 2018)</ref>.</p><p>Recently, an ultrasensitive electrochemical-digital cortisol sensor chip was developed as a digital stress analyzer for preventive in situ monitoring of steroid hormone present in human saliva <ref type="bibr" target="#b46">(Pan et al., 2017)</ref>. Cortisol is a well-known stress biomarker <ref type="bibr" target="#b48">(Pasha et al., 2014)</ref>, and its levels in saliva samples were determined using electrochemical impedance spectroscopy (EIS) after the sensor was interfaced and reconfigured using a high-precision impedance converter device. Another example is the use of antibody-based biosensors, the most advanced and most commonly used, such as IMMUNOLAB, a bioanalytical device based on immunological analyzes <ref type="bibr" target="#b33">(Kern and Eisenberg, 2015)</ref> that allows chemical clinical analyzes to be performed on blood, urine, or saliva samples onboard the ISS and performs both sample preparations and target detection.</p><p>More generally, new-generation biosensor technologies will exploit nanomaterials to improve the mechanical, electrochemical, optical, and magnetic properties of biosensors offering a large range of medical and economic benefits, ranging from disease prevention, improved clinical results, and improved quality of life, reducing the burden of medical care, and providing the necessary analytical performance for space medicine.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Monitoring exposure to radiation</head><p>Humans are exposed to radiation from various natural and artificial sources. Ionizing radiation contains enough energy to interact with living cell atoms and cause genetic damage, thus causing long-term human health consequences, such as heart disease and cancer <ref type="bibr" target="#b60">(Stabin, 2022)</ref>. Spaceflights and long-term space missions expose astronauts to high doses of radiation. Similar conditions can occur on Earth at high altitudes or in specific work environments. To ensure safety under extremely high radiation conditions, a practical and easy-to-access monitoring system is needed. <ref type="bibr" target="#b29">Johary et al. (2021)</ref> described the use of sophisticated image sensors in today's ubiquitous mobile phones that can detect both ionizing radiation and visible light. Smartphone cameras use a sensor called a CMOS (complementary metal oxide semiconductor) to capture images. If the radiation hits the sensor, it generates a signal that can be separated from the visible-light signal and enables the smartphone to be used as a radiation detector. The Roland-Dieter Klein radioactivity counter is available for download in the Apple App Store. The smartphone CMOS sensor is very sensitive to radiation exposure as low as 10 μGy/h <ref type="bibr" target="#b29">(Johary et al., 2021)</ref>. Similar CMOS sensors might be adapted for in-flight applications that offer relatively simple, inexpensive, and rapid deployment in space. However, it does not guarantee the same performance as its ground-based counterpart. To this end, an example is the TimePIX chip, an innovative and cutting-edge device, emerging as a pivotal instrument in the realm of radiation detection and imaging, particularly in the realm of space exploration. Its remarkable capabilities make it an indispensable tool for the meticulous examination and profound understanding of the intricate radiation environment encountered by intrepid astronauts, ensuring not only their well-being but also the preservation of vital equipment. With its exceptional sensitivity to various radiation particles, the TimePIX chip assumes a pivotal role in meticulous monitoring and meticulous analysis of radiation levels that permeate the vast expanse of space. It provides invaluable insights into discriminating crucial aspects such as particle taxonomy, energy magnitude, and intensity, thereby Physical-Biological factors that affect human space exploration and their associated stress: blue circle-distance, red circle-radiation, green circlegravity field, yellow circle-hostile environment, and pink circle-confinement. Adapted by <ref type="bibr" target="#b2">Barker et al. (2021)</ref>.</p><p>furnishing scientists with essential parameters and aimed at safeguarding astronauts against formidable potent radiation exposure <ref type="bibr" target="#b36">(Kroupa et al., 2015;</ref><ref type="bibr" target="#b63">Urban et al., 2020</ref><ref type="bibr" target="#b64">Urban et al., , 2023;;</ref><ref type="bibr" target="#b62">Urban and Doubravová, 2021)</ref>.</p><p>Alternative radiation detection technologies include a polyacrylamide hydrogel doped with modified boron nitride nanosheets (BNNS-TA) and Fe 3+ ions <ref type="bibr" target="#b28">(Jiang et al., 2022)</ref>. The aBNNS-TA/Fe 3+ /PAAm hydrogel exhibits exceptional mechanical properties, pressure sensitivity and γ-ray resistance. The excellent compressive strength, performance recovery, and high sensitivity make it suitable for use as a pressure sensor in a control circuit or as an attachment to the body for accurate detection of human activity, suggesting its use for nuclear safety monitoring, accident management, and extravehicular activities <ref type="bibr" target="#b28">(Jiang et al., 2022)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>One of the main goals of space research is to extend the human experience to the farthest reaches of space to discover, explore, and exploit uncharted regions of space. However, life in space continues to bring new insights into human physiology and psychology that may lead to the failure of current detection systems <ref type="bibr" target="#b35">(Krishen, 2009)</ref>. Radiation, plasma, atomic oxygen, outgassing, and contamination can drastically limit the life of a space flight and seriously affect the success of a project. Accurate, precise, efficient, and cost-effective health monitoring is consistently important. Biosensor systems are reported to be good analyzers for chemical substance measurements <ref type="bibr" target="#b21">(Haney et al., 2020)</ref>. However, the combination of many harsh conditions creates significant difficulties for the development of suitable instruments. Lightness, compressibility, self-healing, radiation, micrometeoroids, and orbital debris resistance would be all desirable features in sensors design. In this perspective, LoC-based sensors represent the best choice among the finest detection systems able to detect and respond to harsh situations. They can be optical fibers, nanosensors, or vibration sensors in combination with artificial intelligence and telemetry. Microfluidic technology is a good example and the best way to accelerate processes in science and industry today, and it will soon transform the entire industry <ref type="bibr" target="#b35">(Krishen, 2009;</ref><ref type="bibr" target="#b23">Hessel et al., 2020)</ref>.</p><p>In this review, currently used systems for detection of analytes in extreme environments and space exploration were discussed, suggesting PoC and LoC approaches represent the best choice. They ensure accurate and continuous monitoring of the analytes, without sacrificing selectivity or sensitivity. However, new advances in the fields of engineering, nanomaterials and electronics can improve durability, reversibility, sensitivity, and selectivity of the analytical devices, supporting the development of next-generation systems suitable for harsh environment investigation and space exploration.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIGURE 1</head><label>1</label><figDesc>FIGURE 1 Examples of different lab-on-a-chip nano-biosensors and their technologies: (A) Paper-based, (B) Dermal, (C) Wearable, and (D) Micro-fluidic.</figDesc><graphic coords="4,92.19,90.64,411.12,284.11" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIGURE 2</head><label>2</label><figDesc>FIGURE 2    </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc>3 https://doi.org/10.48670/moi-00224, Accessed on 26 April 2023.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FIGURE 3</head><label>3</label><figDesc>FIGURE 3</figDesc><graphic coords="7,69.52,90.64,456.48,264.38" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Frontiers in Microbiology</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Frontiers in Microbiology frontiersin.org</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors thank <rs type="funder">Copernicus Marine Environment Monitoring Service (CMEMS)</rs> (<ref type="url" target="https://doi.org/10.48670/moi-00224">https://doi.org/10.48670/moi-00224</ref>. Accessed on 26 April 2023) for providing the Global Ocean acidification data. 10.3389/fmicb.2023.1215529 Frontiers in Microbiology frontiersin.org</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>This work is partially funded by the <rs type="funder">European Research Council (ERC)</rs> under the <rs type="funder">European Union</rs>'s <rs type="programName">Horizon 2020 research and innovation program</rs> (grant agreement No. <rs type="grantNumber">948972</rs>) to DG.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_PsQyvdq">
+					<idno type="grant-number">948972</idno>
+					<orgName type="program" subtype="full">Horizon 2020 research and innovation program</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>SC and DG conceived the review. All authors contributed to the article and approved the submitted version.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of interest</head><p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Publisher's note</head><p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Chemically bonded thermal impulse sensors for use in extreme environments</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gunawidjaja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Eilers</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.5132549</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page">55102</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The molecular basis for life in extreme environments</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Barquera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Bartlett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Burnim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Byer</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-biophys-100120-072804</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Biophys</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="343" to="372" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Rad-bio-app: a discovery environment for biologists to explore spaceflight-related radiation exposures</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Barker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Gebre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lombardino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gilroy</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41526-021-00143-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">15</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Cell-free DNA (cfDNA) and exosome profiling from a year-long human spaceflight reveals circulating biomarkers</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bezdan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Grigorev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meydan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Pelissier Vatter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cioffi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Rao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.isci.2020.101844</idno>
+	</analytic>
+	<monogr>
+		<title level="j">iScience</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">101844</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Advances in space microbiology</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bijlani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stephens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C C</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.isci.2021.102395</idno>
+	</analytic>
+	<monogr>
+		<title level="j">iScience</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">102395</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Sensors for extreme environments</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bogue</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/02602281211257498</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sens. Rev</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="267" to="272" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Prebiotic synthesis of carboxylic acids, amino acids and nucleic acid bases from formamide under photochemical conditions⋆</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Botta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mattia Bizzarri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Piccinino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fornaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Robert Brucato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Saladino</surname></persName>
+		</author>
+		<idno type="DOI">10.1140/epjp/i2017-11631-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Phys. J. Plus</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Novel paper-based electroanalytical tools for food surveillance</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cinti</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00216-019-01640-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Bioanal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">411</biblScope>
+			<biblScope unit="page" from="4303" to="4311" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Preparation of paper-based devices for reagentless electrochemical (bio)sensor strips</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cinti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Moscone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Arduini</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41596-019-0186-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Protoc</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="2437" to="2451" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Engineering electronic systems for extreme environments</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">V</forename><surname>Clatterbaugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Trethewey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">X</forename><surname>Ling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Dehghani</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/inst.201013414</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Insight</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="14" to="17" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Efficiency of the oxygenic photosynthesis on earth-like planets in the habitable zone</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Covone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Ienco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cacciapuoti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Inno</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/mnras/stab1357</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mon. Not. R. Astron. Soc</title>
+		<imprint>
+			<biblScope unit="volume">505</biblScope>
+			<biblScope unit="page" from="3329" to="3335" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Smart Nanotextiles: materials and their application</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Coyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Diamond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Reference module in materials science and materials engineering</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Lieve</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Woodhead Publishing</publisher>
+			<pubPlace>Amsterdam, Netherlands</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Advanced techniques for manufacturing paperbased microfluidic analytical devices</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Faheem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cinti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Microfluidic Biosensors</title>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wing</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Aaron</forename><forename type="middle">H P</forename></persName>
+		</editor>
+		<meeting><address><addrLine>Cambridge, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="2023">2023</date>
+			<biblScope unit="page" from="159" to="170" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Sensors and smart electronics in harsh environment applications</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Fahrner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Job</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Werner</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s005420100089</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microsyst. Technol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="138" to="144" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Novel approaches for colorimetric measurements in analytical chemistry-a review</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Barreto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Lamarca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C F</forename><surname>Lima Gomes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Flávio Da S Petruci</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.aca.2020.07.030</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1135</biblScope>
+			<biblScope unit="page" from="187" to="203" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">P4 medicine: how systems medicine will transform the healthcare sector and society</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Flores</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Glusman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Brogaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hood</surname></persName>
+		</author>
+		<idno type="DOI">10.2217/pme.13.57</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Per. Med</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="565" to="576" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Precision in harsh environments</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>French</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Krijnen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Roozeboom</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/micronano.2016.48</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microsyst. Nanoeng</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">16048</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Rapid calorimetric detection of bacterial contamination: influence of the cultivation technique</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fricke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Harms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Maskow</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2019.02530</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">2530</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Bio)sensors applied to coral reefs&apos; health monitoring: a critical overview</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gastoldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cinti</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.greeac.2023.100049</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Green Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">100049</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A robust, low-cost and well-calibrated infrasound sensor for volcano monitoring</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grangeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lesage</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jvolgeores.2019.106668</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Volcanol. Geotherm. Res</title>
+		<imprint>
+			<biblScope unit="volume">387</biblScope>
+			<biblScope unit="page">106668</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Ai&apos;s role in deep space</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Haney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Urman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Waseem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Morey</surname></persName>
+		</author>
+		<idno type="DOI">10.21037/jmai-20-15</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Med. Artif. Intell</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">15</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Electrode materials in modern organic electrochemistry</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Heard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J J</forename><surname>Lennox</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.202005745</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="18866" to="18884" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The resource gateway: microfluidics and requirements engineering for sustainable space systems</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hessel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Sarafraz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Tran</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ces.2020.115774</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Eng. Sci</title>
+		<imprint>
+			<biblScope unit="volume">225</biblScope>
+			<biblScope unit="page">115774</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Continuous-flow extraction of adjacent metals-a disruptive economic window for in situ resource utilization of asteroids?</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hessel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Orandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Asrami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goodsite</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nguyen</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/anie.201912205</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="3368" to="3388" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Small solar system bodies as granular media</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hestroffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sánchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Staron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Bagatin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Eggl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Losert</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00159-019-0117-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astron. Astrophys. Rev</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page">117</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A mid-infrared lab-on-a-chip for dynamic reaction monitoring</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hinkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pilat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schwaighofer</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-022-32417-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">4753</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Biotechnological recovery of heavy metals from secondary sources-an overview</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Hoque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">J</forename><surname>Philip</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msec.2010.09.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. C</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="57" to="66" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Flexible, high sensitive and radiation-resistant pressure-sensing hydrogel</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cclet.2021.06.043</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chin. Chem. Lett</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1011" to="1016" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The suitability of smartphone camera sensors for detecting radiation</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Johary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Trapp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aamry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Aamri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tamam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sulieman</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-021-92195-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">12653</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The changing automotive environment: high-temperature electronics</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jacobsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Christopher</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TEPM.2004.843109</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Electron. Packag. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="164" to="176" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">A high-temperature electrochemical sensor based on</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Kalyakin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Lyagaeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Chuikin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Volkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Medvedev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CaZr</title>
+		<imprint>
+			<biblScope unit="volume">0</biblScope>
+			<biblScope unit="issue">95</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>Sc</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">O 3δ for humidity analysis in oxidation atmospheres</title>
+		<idno type="DOI">10.1007/s10008-018-4108-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Solid State Electrochem</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="73" to="79" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Concepts for the in-flight handling of safety critical liquids in biological experiments</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Eisenberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Space safety is no accident</title>
+		<editor>
+			<persName><forename type="first">T</forename><surname>Sgobba</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">I</forename><surname>Rongier</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Berlin, Germany</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Electrochemical sensors in space missions</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Koehne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cor Deiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Thomson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Meyyappan</surname></persName>
+		</author>
+		<idno type="DOI">10.1149/2.F07201IF</idno>
+		<idno>doi: 10.1149/</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Electrochem. Soc. Interface</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="53" to="57" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Space applications for ionic polymer-metal composite sensors, actuators, and artificial muscles</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>F07201if Krishen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actaastro.2009.01.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Astronaut</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="1160" to="1166" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A semiconductor radiation imaging pixel detector for space radiation dosimetry</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kroupa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bahadori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Campbell-Ricketts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Empl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Hoang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Idarraga-Munoz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.lssr.2015.06.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Life Sci. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="69" to="78" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Acclimation during space flight: effects on human emotion</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">P</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/S40779-016-0084-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mil. Med. Res</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">15</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Hazards of human spaceflight</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Löbrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Jeggo</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aaw7086</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">364</biblScope>
+			<biblScope unit="page" from="127" to="128" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">A laboratory of extremophiles: iceland coordination action for research activities on life in extreme environments (CAREX) field campaign</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Marteinsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vaishampayan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kviderova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mapelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Medori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Calfapietra</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/life3010211</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Life</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="211" to="233" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Recent approaches for optical smartphone sensing in resource-limited settings: a brief review</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Mccracken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Yoon</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c6ay01575a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Methods</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="6591" to="6601" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Biosensors and their applications-a review</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mehrotra</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jobcr.2015.12.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Oral Biol. Craniofac. Res</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="153" to="159" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Living at the extremes: extremophiles and the limits of life in a planetary context</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Merino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Aronson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Bojanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Feyhl-Buska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2019.00780</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">780</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Toward total automation of microfluidics for extraterrestial in situ analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Mora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Greer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Stockton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bryant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Willis</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ac202095k</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="8636" to="8641" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Living and working in space: an overview of physiological adaptation, performance, and health risks</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Nicogossian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Huntoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Doarn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Olsson-Francis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Cockell</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mimet.2009.10.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Microbiol. Methods</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Nicogossian</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Williams</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Huntoon</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Doarn</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Polk</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>Schneider</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2010">2016. 2010</date>
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Space physiology and medicine: From evidence to practice 4th ed Experimental methods for studying microbial survival in extraterrestrial environments</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Point-of-care biosensors in medicine: a brief overview of our achievements in this field based on the conducted research in EMRI (endocrinology and metabolism research Institute of Tehran University of medical sciences) over the past fourteen years</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Omidfar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ahmadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Syedmoradi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Khoshfetrat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Larijani</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40200-020-00668-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Diabetes Metab. Disord</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2020">2020. 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Paper-based analytical biosensor Chip designed from graphene-Nanoplateletamphiphilic-diblock-co-polymer composite for cortisol detection in human saliva</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Misra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Daza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Schwartz-Duval</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.analchem.6b04769</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="2107" to="2115" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Tutorial: design and fabrication of nanoparticle-based lateral-flow immunoassays</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Parolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sena-Torralba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Bergua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Calucho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fuentes-Chust</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41596-020-0357-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Protoc</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="3788" to="3816" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Electrochemical Immunosensing of saliva cortisol</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Pasha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kaushik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vasudev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Snipes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bhansali</surname></persName>
+		</author>
+		<idno type="DOI">10.1149/2.017402jes</idno>
+		<idno>doi: 10.1149/</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Electrochem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="page" from="3077" to="B3082" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Microbial extremophiles at the limits of life</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Pikuta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Hoover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tang</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10408410701451948</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Crit. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="183" to="209" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">NH4-Digiscan: an in situ and laboratory ammonium analyzer for estuarine, coastal, and shelf waters</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Plant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Needoba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Coletti</surname></persName>
+		</author>
+		<idno type="DOI">10.4319/lom.2009.7.144</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Limnol. Oceanogr. Methods</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="144" to="156" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Advances in microfluidic PCR for point-of-care infectious disease diagnostics</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biotechadv.2011.06.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnology advances</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="830" to="839" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Planetary habitability: lessons learned from terrestrial analogues</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Preston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Dartnell</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S1473550413000396</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Astrobiol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="81" to="98" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Advanced biosensors for monitoring astronauts&apos; health during long-duration space missions</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mirasoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Guardigli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zangheri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Caliceti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Calabria</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bios.2018.03.062</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biosens. Bioelectron</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="18" to="26" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Life in extreme environments</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Rothschild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Mancinelli</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/35059215</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">409</biblScope>
+			<biblScope unit="page" from="1092" to="1101" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">The smallest space miners: principles of space biomining</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Santomartino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Cockell</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00792-021-01253-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Extremophiles</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Point-of-Care for Evaluating Antimicrobial Resistance through the adoption of functional materials</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Numan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cinti</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.analchem.1c03856</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chem</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="26" to="40" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Tailored point-ofcare biosensors for liquid biopsy in the field of oncology</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Podder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Russo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cinti</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/d2lc00666a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Chip</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="44" to="61" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Review-an overview on recent Progress in screenprinted electroanalytical (bio)sensors</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cinti</surname></persName>
+		</author>
+		<idno type="DOI">10.1149/2754-2726/ac70e2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ECS Sensors Plus</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2022">2022b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Bio-fabrication of thermozyme-based nano-biosensors: their components and present scenario</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Soy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Nigam</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10854-022-07741-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci. Mater. Electron</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="5523" to="5533" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Radiological and nuclear terrorism: their science, effects, prevention, and recovery</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Stabin</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/HP.0000000000001520</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Health Phys</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="513" to="514" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Communication by extracellular vesicles: where we are and where we need to go</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tkach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Théry</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2023.1215529</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cells</title>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="page" from="1226" to="1232" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>Frontiers in Microbiology frontiersin</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Timepix3: temperature influence on X-ray measurements in counting mode with Si sensor</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Urban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Doubravová</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.radmeas.2021.106535</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Radiat. Meas</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page">106535</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Thermal vacuum testing of Timepix3 detector</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Urban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Doubravova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Nentvich</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1748-0221/15/03/C03040</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Instrum</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">3040</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Timepix3: temperature influence on radiation energy measurement with Si sensor</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Urban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Nentvich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Marek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hudec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sieger</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/s23042201</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sensors</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<date type="published" when="2023">2023. 2201</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Study of the impact of long-duration space missions at the international Space Station on the astronaut microbiome</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Voorhies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mark Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Crucian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Feiveson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-019-46303-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2019">2019. 9911</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Acclimation during space flight: effects on human physiology</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kuipers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mukai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Thirsk</surname></persName>
+		</author>
+		<idno type="DOI">10.1503/cmaj.090628</idno>
+	</analytic>
+	<monogr>
+		<title level="j">CMAJ</title>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="page" from="1317" to="1323" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Flow injection analysis as a tool for enhancing oceanographic nutrient measurements-a review</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Worsfold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Clough</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Lohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Monbet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Ellis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Quétel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.aca.2013.06.015</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anal. Chim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">803</biblScope>
+			<biblScope unit="page" from="15" to="40" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<monogr>
+		<title level="m" type="main">Electrochemistry&quot; in Deep eutectic solvents: Synthesis, properties, and applications</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mu</surname></persName>
+		</author>
+		<editor>D. J. Ramón and G. Guillena</editor>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>John Wiley and Sons</publisher>
+			<pubPlace>Hoboken, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Biodiversity and biotechnological applications of Extremophilic microbiomes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Yadav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kaur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Devi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yadav</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Microbiomes of extreme environments</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Yadav</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Rastegari</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">N</forename><surname>Yadav</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Boca Raton, FL</addrLine></address></meeting>
+		<imprint>
+			<publisher>CRC Press</publisher>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">A novel lab-on-Chip spectrophotometric pH sensor for autonomous in situ seawater measurements to 6000 m depth on stationary and moving observing platforms</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Papadimitriou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M C</forename><surname>Rérolle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arundell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Cardwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Walk</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.est.1c03517</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="14968" to="14978" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Detecting marine hazardous substances and organisms: sensors for pollutants, toxins, and pathogens</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Zielinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Busch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Cembella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Daly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Engelbrektsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Hannides</surname></persName>
+		</author>
+		<idno type="DOI">10.5194/os-5-329-2009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ocean Sci</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="329" to="349" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

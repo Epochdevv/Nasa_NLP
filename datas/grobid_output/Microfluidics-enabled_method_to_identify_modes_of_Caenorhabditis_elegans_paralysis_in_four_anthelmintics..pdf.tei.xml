@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Microfluidics-enabled method to identify modes of &lt;i&gt;Caenorhabditis elegans&lt;/i&gt; paralysis in four anthelmintics</title>
+				<funder ref="#_mf2TWc3">
+					<orgName type="full">National Aeronautics and Space Administration</orgName>
+				</funder>
+				<funder ref="#_dNsBRKz #_MRZTXMF">
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>AIP Publishing</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2013-11-06">6 November 2013</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Roy</forename><surname>Lycke</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departments of Biological Sciences &amp; Biomedical Engineering</orgName>
+								<orgName type="institution">Purdue University</orgName>
+								<address>
+									<postCode>47907</postCode>
+									<settlement>West Lafayette</settlement>
+									<region>Indiana</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Archana</forename><surname>Parashar</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Electrical &amp; Computer Engineering</orgName>
+								<orgName type="institution">Iowa State University</orgName>
+								<address>
+									<postCode>50011</postCode>
+									<settlement>Ames</settlement>
+									<region>Iowa</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Santosh</forename><surname>Pandey</surname></persName>
+							<email>pandey@iastate.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Electrical &amp; Computer Engineering</orgName>
+								<orgName type="institution">Iowa State University</orgName>
+								<address>
+									<postCode>50011</postCode>
+									<settlement>Ames</settlement>
+									<region>Iowa</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Microfluidics-enabled method to identify modes of &lt;i&gt;Caenorhabditis elegans&lt;/i&gt; paralysis in four anthelmintics</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Biomicrofluidics</title>
+						<idno type="eISSN">1932-1058</idno>
+						<imprint>
+							<publisher>AIP Publishing</publisher>
+							<biblScope unit="volume">7</biblScope>
+							<biblScope unit="issue">6</biblScope>
+							<date type="published" when="2013-11-06">6 November 2013</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">71126CC76A22B04DB6DECEF7CD8FC6EB</idno>
+					<idno type="DOI">10.1063/1.4829777</idno>
+					<note type="submission">Received 16 September 2013; accepted 29 October 2013;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:41+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The discovery of new drugs is often propelled by the increasing resistance of parasites to existing drugs and the availability of better technology platforms. The area of microfluidics has provided devices for faster screening of compounds, controlled sampling/sorting of whole animals, and automated behavioral pattern recognition. In most microfluidic devices, drug effects on small animals (e.g., Caenorhabditis elegans) are quantified by an end-point, dose response curve representing a single parameter (such as worm velocity or stroke frequency). Here, we present a multi-parameter extraction method to characterize modes of paralysis in C. elegans over an extended time period. A microfluidic device with real-time imaging is used to expose C. elegans to four anthelmintic drugs (i.e., pyrantel, levamisole, tribendimidine, and methyridine). We quantified worm behavior with parameters such as curls per second, types of paralyzation, mode frequency, and number/duration of active/immobilization periods. Each drug was chosen at EC 75 where 75% of the worm population is responsive to the drug. At equipotent concentrations, we observed differences in the manner with which worms paralyzed in drug environments. Our study highlights the need for assaying drug effects on small animal models with multiple parameters quantified at regular time points over an extended period to adequately capture the resistance and adaptability in chemical environments.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>are examples of L-type nAChR agonists, methyridine is an example of N-type nAChR agonist. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b10">11</ref> Tribendimidine is relatively understudied and its mechanism of action is shown to be similar to levamisole and pyrantel. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b11">12</ref> With slow progress in the discovery of new anthelmintics, parasitic worms have developed varying levels of resistance to these compounds. <ref type="bibr" target="#b3">4</ref> In fact, multidrug resistance in parasitic worms is now recognized as a prevalent global menace that overwhelms basic research in chemotherapeutic agents. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> Platforms to investigate the efficacy and resistance of anthelmintics are dependent on the choice of the biological host under study. In vivo animal assays are undoubtedly the best way to test parasitic worms in their natural growth environment. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16</ref> These assays, however, require large quantities of the compounds, huge spaces to house the animals, long wait times, and thus higher research costs. Tests on smaller rodents such as mice and chicken are pragmatic but require about 100 mg of the chemical and are impractical for any large-scale random experiments with multiple chemicals. For these reasons, in vitro assays are the preferred choice in parasitology, especially for primary screening. Standard in vitro assays measure the egg count, larvae development, migration through membrane filters, and electrophysiological signals of muscle tissues and ion channels. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18</ref> Caenorhabditis elegans is an established small animal model in parasitology for studying novel drug targets and modes of drug action. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref> The key reasons that contribute to its wide acceptability are its matured genetics, short lifespan, small size, and conserved genes through generations. Moreover, the relative ease of culturing C. elegans on agarose plates under standard laboratory conditions is in contrast to culturing parasitic worms that have complex life cycles. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref> In this context, microfluidics has served as an enabling technology to study the effects of different drugs and toxins on single or multiple C. elegans. <ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref> Microfluidic devices have integrated various techniques (e.g., droplet generation, automated valve operations, suction, image recognition, laser ablation) to demonstrate high-throughput methods of loading, immobilizing, sorting, and phenotyping worm populations. <ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29</ref> While these technological advancements are commendable, it is reasonable to state that almost all microfluidic-enabled drug studies on C. elegans portray the drug effect using a single parameter measured at a finite time (e.g., velocity, stroke frequency). <ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b30">31</ref> Macroscopic, inhibition migration assays also count the percentage of worms surviving a chemical media within a finite time and plot the data as a dose response curve. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b16">17</ref> Are there other ways to characterize drug effects in these animals besides using a single parameter measured at end-points of the experiments? If different drugs are chosen at the same potency level, will they all exhibit a similar response on worm populations through the exposure time? We hypothesized that the effect of a certain drug could change over the length of experiment (as C. elegans is known to adapt to their environment) <ref type="bibr" target="#b31">32</ref> and quantifying the patterns of worm adaptation could be used as a means to differentiate different drugs.</p><p>To test the above hypothesis, we used a two-dimensional microfluidic platform <ref type="bibr" target="#b24">25</ref> with realtime imaging and a custom worm tracking software. Four anthelmintics are chosen that act on the neuromuscular system of the C. elegans: pyrantel, levamisole, methyridine, and tribendimidine. In each case, the drug concentration used is EC 75 or where 75% of worms are responsive to the drug. The worms are exposed to the individual drugs in a microfluidic device and their activity is recorded for 40 min. Upon initial exposure, an active worm shows three types of movement patterns; crawling, curling, and flailing. After prolonged exposure, the active worm shows periods of being immobile before finally succumbing to the drug. We characterize these behavioral changes by a set of parameters and compared the results among the four drugs. Finally, with an attempt to show the usefulness of this characterization technique for future drug screening, we justify our findings about the efficacy of individual drugs using previous literature.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Device fabrication</head><p>The microfluidic device is fabricated using soft lithography. <ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b25">26</ref> The device design is drawn in AutoCAD TM and sent out to an outside vendor (Fineline Imaging TM ) for printing the physical mask. A UV-sensitive polymer, SU-8, is spin-coated on a clean, 3-in. silicon wafer to create a 80 lm thick layer. The SU-8 is photolithographically patterned with features on the physical mask and developed. Then, particle desorption mass spectrometry (PDMS) polymer is poured on the SU-8 master mold and allowed to dry overnight in a low-pressure chamber at room temperature. The dried PDMS is peeled off the SU-8 master mold, punched with holes for the fluidic ports, and irreversibly bonded to a glass slide-thus creating our microfluidic device. The SU-8 master mold is re-used multiple times to create new PDMS structures. Each microfluidic device, however, is used only once for a single experiment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Experimental setup</head><p>The microfluidic device is physically taped to a microscope stage and filled in a two-step procedure as shown in Fig. <ref type="figure">1</ref>. The filling procedure is modified from our previous work. <ref type="bibr" target="#b24">25</ref> Earlier, we filled the straight microchannels with agarose gel and then filled the drug well with the drug solution. Worms were drawn into the microchannel and drug well using electrotaxis. Electric fields were continuously applied through the experiment to prevent worms from leaving the drug well. Here, the filling procedure was changed to apply electric fields only in the beginning of the experiment. In the first step, 0.8% agarose gel is loaded in a 1 ml syringe and slowly filled into the straight microchannel. The filling is stopped when the forward profile of agarose gel, observed under the microscope, reaches the tapered mouth of the microchannel. L4-stage C. elegans are picked from a culture plate with a sterilized wire and dropped at the input port. After a wait time of around 5-7 min, the worms penetrate the agarose gel, enter the microchannel, and migrate towards the tapered mouth. As the drug well is filled with air, the worms are restricted in the microchannel. In the second step, anthelmintic solution under test is prepared to a pre-specified concentration and filled in the drug well through a side port. Specifically, in the cases of levamisole, pyrantel, and methyridine, the drug well is filled with a mixture of 0.8% agarose prepared in M9 buffer and the anthelmintic. In the case of tribendimidine, a mixture of 0.8% agarose prepared in M9 buffer and the anthelmintic dissolved in 1% Dimethyl sulfoxide (DMSO) is used. For control experiments, 0.8% agarose in M9 buffer (with FIG. <ref type="figure">1</ref>. Images of the experimental setup. (a) A stereozoom microscope with a computer-controlled camera is used to record and analyze real-time videos of worms in microfluidic devices. (b) Snapshot of a microfluidic chip comprising multiple devices fabricated in PDMS polymer and bonded to a glass slide. (c) A magnified image of a single microfluidic device comprising a straight microchannel that merges into a circular drug well through a tapered mouth. The empty device (left) is first filled with 0.8% agarose gel (mixed with yellow food dye here) and worms are allowed to enter through the input port (middle). Thereafter, the drug solution in agarose gel (mixed with blue food dye here) is filled in the drug well (right). and without 1% DMSO) is used. We previously concluded that there is minimal diffusion of fluorescein from the drug well during a 45-min experiment. <ref type="bibr" target="#b24">25</ref> To attract the worms to enter into the drug well, on-chip electrotaxis is used. <ref type="bibr" target="#b24">25</ref> Two platinum electrodes are inserted in the agarose gel, one in the input port and one in the side port, and connected to a d.c. voltage supply by electrical cables. The net resistance between the platinum electrodes is measured to ensure there is a finite resistance of around 1-2 MX. An electric field is applied (5 V/cm) between the two electrodes and worms are coaxed into entering the drug well. From placing the worms on the input port to the start of data collection, the wait time is around 10 min. This time also allows the animals to acclimatize to the microfluidic environment. A Leica MZ16 stereozoom microscope is connected with a high-speed QImaging camera for real-time recording of worm behavior in the drug well. The QCapture software is programmed to record grayscale images of the drug well (every second) for a period of 40 min. Subsequently, the images are stitched into a single.avi file for data analysis. Each experiment is conducted with a certain number of worms (n ffi 3 to 5) and repeated over at least 4 independent trials (N &gt; ¼ 4). With every drug test, control experiments are conducted in parallel. Statistical analysis on the data is performed using the GraphPad Prism software.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. RESULTS</head><p>Previously, we reported the dose response (i.e., percentage of worms responsive to the applied electric field) of C. elegans upon exposure to levamisole. <ref type="bibr" target="#b24">25</ref> Using a similar protocol, experiments are conducted with three other anthelmintics (tribendimidine, pyrantel, and methyridine) and the C. elegans dose response is plotted in Fig. <ref type="figure">2</ref>. To characterize the mode of paralysis in each drug, we chose a critical concentration where 25% of the worms are responsive to the applied electric field (i.e., where 75% of the worms are responsive to the drug, EC 75 ). At EC 100 , worms paralyzed within a very short time to allow any characterization of drug effects; while at EC 50 , worms took over an hour to paralyze resulting in larger videos and longer analysis time. We chose EC 75 as a reasonable concentration for drug potency as most worms paralyzed within 20-25 min with adequate time for exhibiting their drug response. From Fig. <ref type="figure">2</ref>, this concentration for each drug is as follows: 30 lm levamisole, 100 lm tribendimidine, 150 lm pyrantel, and 10 mM methyridine. Next, we show that even at these equipotent concentrations, each drug have a distinct signature effect on worm populations observed over the entire experimental time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Frequency of body curls</head><p>One of our first observations indicated that worms tend to curl more often in drug environments than in control conditions. Fig. <ref type="figure">3</ref>(a) shows a series of images to describe the progression FIG. <ref type="figure">2</ref>. The dose response of C. elegans (represented as the percentage of worms responsive to electrical fields) is plotted for the four drugs used: pyrantel, levamisole, methyridine, and tribendimidine. of a curl exhibited by a sample worm in the microfluidic drug well. For our analysis, a curl is defined as an event that occurs when a worm's head touches or overlaps its tail. Using this definition, we manually count the total number of curls exhibited by an actively moving worm before it eventually paralyzes. Thereafter, the frequency of body curls (i.e., number of curls per second) is calculated by dividing the total number of curls by the total active time. The frequency of body curls is calculated as follows: 0.007 6 0.005 for agar, 0.010 6 0.010 for DMSO, 0.042 6 0.030 for pyrantel, 0.031 6 0.020 for levamisole, 0.014 6 0.010 for methyridine, and 0.032 6 0.026 for tribendimidine. In Fig. <ref type="figure">3</ref>(b), we plot the frequency of body curls as a box plot representation. Here, the bottom and top of each box correspond to the first and third quartiles, respectively, while the horizontal line inside the box denotes the median. The ends of whiskers are the minimum and maximum values of the data set. We compared the results of pyrantel, levamisole, and methyridine with their corresponding control (i.e., 0.8% agarose) and tribendimidine with its control (i.e., 0.8% agarose and 1% DMSO). There is no significant difference between the two control groups. However, the curl frequency is significantly higher in pyrantel and levamisole (p &lt; 0.0001). Between DMSO and tribendimidine, we observed a significantly higher curl frequency in tribendimidine (p &lt; 0.0001). The curl frequency is significantly lower in methyridine than in pyrantel, levamisole, and tribendimidine (p &lt; 0.0001). This indicates that curling is not as predominant in methyridine as in other compounds. To describe the action of methyridine and to further differentiate among other drugs, we needed more parameters that could be extracted from recorded videos.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Mode transitions in an actively moving worm: Crawling, curling, or flailing</head><p>Besides frequent curling actions, an actively moving worm exhibits changes from its natural sinusoidal movement when exposed to drug environments. As shown in Fig. <ref type="figure" target="#fig_0">4</ref>(a), we categorize the nature of a worm's body displacement into three modes: crawling, curling, and flailing. Crawling is the undulatory, sinusoidal movement of a worm that results in forward or backward locomotion. <ref type="bibr" target="#b32">33</ref> Curling, as defined earlier, occurs when the worm's head touches or overlaps its tail. Flailing happens when a worm oscillates its body in half waves about a fixed location and is an unusual swimming-like behavior we observed in 0.8% agarose gel.</p><p>During an experiment, an active worm may exhibit any of the three abovementioned modes of movement (i.e., crawling, curling, and flailing). We manually counted the transitions made by an active worm amongst the three modes of movement. The number of mode transitions is FIG. <ref type="figure">3</ref>. Body curls in actively moving C. elegans upon exposure to anthelmintics. (a) Snapshots of a representative worm (every 500 ms) as it curls its body such that the head touches or overlaps its tail. (b) Frequency of body curls (i.e., the number of curls divided by the total time a worm stays active) is plotted for the four drugs and control conditions (i.e., in 0.8% agarose gel and DMSO). counted within three time periods (30 s, 60 s, and 120 s) from the instance a worm enters into the drug well. A transition frequency is calculated by dividing the number of mode transitions by the time periods of observation. These data are plotted in Fig. <ref type="figure" target="#fig_0">4(b)</ref>. The transition frequency is significantly higher in methyridine than in tribendimidine (p &lt; 0.01 in 30 s, p &lt; 0.001 in 60 and 120 s). The transition frequency is also significantly higher in pyrantel than in tribendimidine (p &lt; 0.05 in 30 s, p &lt; 0.01 in 60 and 120 s). Between levamisole and methyridine, there is significant difference in the 30 s and 120 s periods (p &lt; 0.05). Interestingly, worms exhibited more frequent flailing motion in methyridine than in the other three drugs. In control tests with agar (data not shown), there are no mode transitions because all worms are seen crawling with no curling or flailing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Immobilization patterns leading to paralysis: Being active, temporarily, or permanently immobilized</head><p>As the time of exposure increases, a drug may cause an actively moving worm to show periods of being (partially or completely) immobilized. We grouped these immobilization patterns into three categories: being active, temporarily immobilized or permanently immobilized. From our definition, a worm is considered active (or actively moving) if its entire body is displaced from its original location within a given timeframe (1 s in our case). A worm is permanently immobilized if its entire body remains stationary for at least 600 s, after which we denote the worm as being paralyzed. Our videos indicate that worms that remained immobilized for 600 s never recovered through the length of experiment. A worm is temporarily immobilized if parts of its body (and not the entire body) are still moving or if it can become active after being completely immobile for a certain time period (less than 600 s).</p><p>Fig. <ref type="figure" target="#fig_1">5</ref>(a) illustrates the immobilization patterns for a sample worm in the microfluidic device. We used a custom worm tracking program to locate the body centroid of individual worms in the drug well over the length of the video. <ref type="bibr" target="#b24">25</ref> Tracks of a sample worm are plotted to show three cycles periods of being active and temporarily immobilized. During each active period, the worm moves freely and its track appears linear; while in each temporarily immobilized period, a part of the worm's body shows spasm-like events and its track appears to be zigzag without much displacement. Eventually, the worm may enter a permanently immobilized period where it becomes completely motionless for over 600 s. Fig. <ref type="figure" target="#fig_1">5</ref>(b) plots the percentage of worms that were active, temporarily immobilized, or permanently immobilized at the end of their 40 min drug exposure. In control conditions, a negligible fraction of worms is permanently immobilized. Compared to other drugs, a higher percentage of worms (68%) remain active in methyridine. In pyrantel, none of the worms are active and the population is either temporarily (53.33%) or permanently immobilized (46.66%). The percentages of permanently immobilized worms are comparatively higher in pyrantel and tribendimidine (48.57%) than in other chemical media.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Active and immobilization periods: Count and time duration</head><p>Thus far, we characterized an actively moving worm by transitions between crawling, curling, and flailing. We saw that prolonged drug exposure can cause an active worm to enter temporary or permanent immobilization, which was measured at the end of the 40-min experiment. To add further insights to the time-dependent progression of drug activity, we explored how often and how long an active worm enters periods of immobilization before completely succumbing to the drug.</p><p>The time duration a worm spends in each active or immobilization period also varies in the four drug environments. In Fig. <ref type="figure">6</ref>, we plot the time spent by worms in the individual active and immobilization period, respectively. A permanently immobilized worm is ignored for subsequent analyses. In Fig. <ref type="figure">7</ref>, we plot the probability for a worm being active. Active worms are assigned a probability of 1, and immobile worms have a probability of 0. The median of time durations during each active or immobilization period (from Fig. <ref type="figure">6</ref>) is estimated and used to plot this figure. In general, the time spent in each active period (shown as green bars, Fig. <ref type="figure">6</ref>) decreases with increasing exposure time. On the other hand, the time spent in each immobilization period (shown as red bars, Fig. <ref type="figure">6</ref>) increases with increasing exposure time (except for pyrantel). In other words, an active worm starts pausing for longer time durations (with shorter periods of being active) upon increasing exposure to the drug. In tribendimidine, the time spent in the first two immobilization periods is significantly higher than in other drugs (p &lt; 0.0001). In some worms, the effect of levamisole exposure is even reversible suggesting that this drug may be the least potent amongst the four anthelmintics. All worms remained active in 0.8% agarose and never entered the second immobilization period.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. DISCUSSION</head><p>Some modifications were made in our device design and methodology to simplify the earlier experimental method <ref type="bibr" target="#b24">25</ref> and optimize it for observing events leading to worm paralysis. It was seen that electric field was needed only initially to coax the worms into the drug well. When sufficient number of worms entered the drug well, the electric field was switched off (typically after the first 5-7 min). At the optimal range of electric fields (5 V/cm), we did not observe any behavioral changes in the presence of electric fields. <ref type="bibr" target="#b24">25</ref> In addition, the device dimensions were altered to minimize the chances of a worm leaving the drug well in absence of electric fields. For this, the tapered mouth was made narrower and only one side port was included. The two-step agarose filling process (Fig. <ref type="figure">1</ref>) was also better controlled with a narrower mouth and allowed us to control the time instance when worms enter the drug well. The length of the microchannel was shortened, so the wait time for worm entry into the drug well is reduced. Shrinking the lateral dimensions of every device allowed us to fit up to four devices within the microscope's field of view for parallel runs. Furthermore, in contrast to quantifying drug effects by the sensitivity of electric fields at pre-and post-exposure time instances, <ref type="bibr" target="#b24">25</ref> we FIG. <ref type="figure">6</ref>. The figure shows the time duration worms spend in each active and immobilization periods until they are permanently immobilized. Each pair of active and immobilization periods is numbered sequentially in the y-axis.</p><p>extracted parameters related to movement, immobilization, and body shapes through the period of drug exposure and attempted to show differences across four drugs.</p><p>In equipotent concentrations of both pyrantel and levamisole, the worms exhibited similar movement phenotypes. We observed that an active worm moves in a sinusoidal manner with periods of immobilization where it curls its body and eventually paralyzes. In both chemical environments, a worm undergoes at least five to six active and immobilization periods (Figs. <ref type="figure">6</ref> and <ref type="figure">7</ref>). The average time spent in each active period is similar in both cases and markedly distinct compared to those in methyridine and tribendimidine (Fig. <ref type="figure">6</ref>). The inherent similarities between movement phenotypes in pyrantel and levamisole do suggest that these drugs act on the same subtype of nAChR receptors (i.e., L-subtype). <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b33">34</ref> However, there are some differences between pyrantel and levamisole. The average time spent in each immobilization period is longer in pyrantel than in levamisole (Fig. <ref type="figure">6</ref>). In other words, an active worm in pyrantel prefers to rest longer, curl up, or move less often; whereas an active worm in levamisole spends similar time durations being active or resting/curling. This is also reflected in Fig. <ref type="figure" target="#fig_1">5</ref> where, at the end of an experiment, no worms in pyrantel appear active and are either temporarily or permanently immobilized; whereas around 30% worms are still active in levamisole. These differences suggest that pyrantel may be more effective than levamisole, even being at the same potency concentrations. <ref type="bibr" target="#b6">7</ref> A comparison between tribendimidine and the other two L-subtype nAChR agonists, levamisole and pyrantel, is worth discussing here. It has been shown that tribendimidine affects C. elegans using a similar pathway as levamisole and hence belong to the same class of L-subtype nAChR agonists. <ref type="bibr" target="#b5">6</ref> Since these three drugs have similar mechanisms of action, should we expect differences in the patterns of paralysis? In general, movement phenotypes in tribendimidine are same as those in pyrantel and levamisole. One key difference is noted in the number of active periods and duration of immobilization. In tribendimidine, the number of active periods is reduced and the time duration of immobilization periods is much increased compared to those in levamisole or pyrantel (Fig. <ref type="figure">6</ref>). This may indicate that tribendimidine is more effective at a FIG. <ref type="figure">7</ref>. The figure shows the probability of a worm being active during the length of drug exposure. The median of time durations for active and immobilized periods are calculated from Figure <ref type="figure">6</ref>. The probability of a worm being active is denoted as 1 while that of being immobilized is denoted as 0.</p><p>single dose than levamisole or pyrantel. Evidence of tribendimidine's superior performance compared to the other two L-type nAChR agonists (i.e., levamisole and pyrantel) at single-dose levels has also been suggested in recent studies performed on treating Ascaris or hookworms. <ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b35">36</ref> In addition, the increased number of active periods in levamisole may indicate that worms could recover from drug exposure, if given at concentrations below 10 lm with recovery time over 2 h (data not shown). Hence, we feel that our derived parameters (such as number of active periods and time durations of immobilization) could help compare the effectiveness of a single or a cocktail of multiple anthelmintics for single dose therapies where irreversible paralysis is desired. Of course, this characterization method would serve as a preliminary test to supplement standard in vivo experiments. <ref type="bibr" target="#b11">12</ref> In methyridine, we noticed a distinct departure from the movement phenotype associated with levamisole, pyrantel, and tribendimidine. In this drug, worms exhibited a swimming-like motion where the body formed half waves during moving. Occasionally, the worms would thrash about a fixed location (that we defined as flailing) and then continue their swimming-like motion. Swimming motion is typically seen in C. elegans when the surrounding medium is liquid. It was interesting to observe this swimming-like behavior in the presence of methyridine where the surrounding medium was 0.8% agarose gel. Considering that methyridine acts on the same nAChR receptor, our observed difference in movement could suggest that this drug acts on a different subtype of nAChR receptor. This assumption is in line with previous studies showing that methyridine target N-subtype nAChR receptors and not the L-subtype nAChR receptors. <ref type="bibr" target="#b10">11</ref> In our view, this microfluidic-enabled characterization method will broaden the scope of data extraction from drug screening experiments, improve our understanding of worm resistance and adaptability in adverse chemical environments, and provide faster ways of predicting new and existing drug targets prior to detailed electrophysiological experiments. To the best of our knowledge, such a detailed characterization of worm paralysis upon exposure to anthelmintics has not been conducted before. While we investigated behavioral changes in wild-type C. elegans leading to paralysis, further tests with relevant mutants and parasites could help establish relationships between molecular mechanisms of drug action and the observed phenotypes. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref> In this regard, C. elegans and other model organisms are gaining increased attention for the rapid screening of large sets of small molecules (e.g., membrane-permeable inhibitors of protein function) that induce phenotypic changes in the worm, such as lethality, unco-ordinated movement, slow growth and development, and morphological defects. <ref type="bibr" target="#b41">42</ref> It is expected that the process of discovering novel drugs would rely on large-scale behavioral screening of worms, measurement of multiple parameters with sufficient resolution, standardization of observed phenotypes across disparate platforms, and linkage between the chemical and behavioral libraries. <ref type="bibr" target="#b42">43,</ref><ref type="bibr" target="#b43">44</ref> Interested readers, who wish to use and test our devices on other chemicals or mutants, are welcome to directly email the corresponding author (S.P.). We can provide the fabricated microfluidic devices and tracking software, and discuss the steps for setting up experiments. The device dimensions can be further altered and customized for other parasitic nematodes. A standard desktop computer compatible with Microsoft Windows 7, a large-capacity hard drive, and a microscope with attached camera will be required.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. CONCLUSION</head><p>In summary, we presented a method to characterize the behavioral events of C. elegans over an extended time period: from exposure to the drug to their eventual paralysis. We found that a single parameter was unable to capture the overall drug effects through the experimental period. So, multiple parameters were calculated, such as curls per second, types of paralyzation, mode frequency, and number/duration of active/immobilization periods. We found that pyrantel is more effective than levamisole in immobilizing the worms at the end of the 40-min experiments. In tribendimidine, worms display shorter number of active periods before permanently immobilizing than in pyrantel or levamisole. In methyridine, worms exhibit a swimming-like movement that is different from the normal crawling movement in pyrantel, levamisole, and tribendimidine. Our results may suggest the following: methyridine acts on a different subtype of nAChR receptors than the other three anthelmintics, the action of pyrantel and levamisole is similar but pyrantel is more effective than levamisole, and tribendimidine is more potent than pyrantel or levamisole in causing an irreversible paralysis of the worms. This multi-parameter extraction method expands the repertoire of phenotypic characterization tools available in existing drug-based microfluidic devices. In addition, the method could complement rigorous electrophysiological experiments to rapidly test screen compounds against nematodes, establish suitable drug candidates, and predict the class of target receptor subtypes.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG. 4 .</head><label>4</label><figDesc>FIG. 4. Mode transitions between crawling, curling, and flailing. (a) Snapshots of representative worms during curling (head coiled to or beyond the tail), crawling (sinusoidal movement), and flailing (swimming movement with no net displacement). (b) Boxplot representations of the transition frequency (rate of switching between crawling, curling, and flailing) within 30 s (left), 60 s (middle), and 120 s (right) from the time of entering the drug well.</figDesc><graphic coords="6,128.13,100.01,355.88,208.97" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIG. 5 .</head><label>5</label><figDesc>FIG. 5. Immobilization patterns leading to paralysis. (a) Snapshots of a representative worm undergoing periods of being active and temporarily immobilized. A custom worm tracking program 25 is used to mark the x-y co-ordinates of the worm's body centroid as a function of time (shown in red). (b) The plot shows the percentage of worms that are active (shaded as checkerboard), temporarily immobilized (shaded as horizontal lines), or permanently immobilized (shaded as solid) at the end of 40 min of drug exposure.</figDesc><graphic coords="7,155.85,100.01,300.25,343.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="3,137.82,455.47,336.30,221.61" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="5,155.17,509.39,301.88,186.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="8,128.13,100.01,355.88,256.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="9,128.13,100.01,355.88,264.25" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Lycke, Parashar, and PandeyBiomicrofluidics 7, 064103 (2013)   </p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We are grateful to <rs type="person">Jo Anne Powell-Coffman</rs> for providing C. elegans culture plates, and <rs type="person">Alan P. Robertson</rs> and <rs type="person">Richard Martin</rs> for providing the anthelmintics. In addition, we are thankful to <rs type="person">Richard Martin</rs> for providing valuable insights on the experimental results. This work was supported by <rs type="funder">National Science Foundation</rs> (<rs type="funder">NSF</rs> <rs type="grantNumber">CMMI-1000808</rs>; <rs type="grantNumber">CBET-1150867</rs>) and <rs type="funder">National Aeronautics and Space Administration</rs> (<rs type="grantNumber">NNX12AO60G</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_dNsBRKz">
+					<idno type="grant-number">CMMI-1000808</idno>
+				</org>
+				<org type="funding" xml:id="_MRZTXMF">
+					<idno type="grant-number">CBET-1150867</idno>
+				</org>
+				<org type="funding" xml:id="_mf2TWc3">
+					<idno type="grant-number">NNX12AO60G</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">O</forename><surname>Connell</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrmicro1469</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="568" to="569" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Gasbarre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hoberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Pilitt</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.vetpar.2009.08.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Vet. Parasitol</title>
+		<imprint>
+			<biblScope unit="volume">166</biblScope>
+			<biblScope unit="page" from="275" to="280" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Gasbarre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Lichtenfels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Pilitt</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.vetpar.2009.08.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Vet. Parasitol</title>
+		<imprint>
+			<biblScope unit="volume">166</biblScope>
+			<biblScope unit="page" from="281" to="285" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kaminsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ducray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Clover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rufener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bouvier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wenger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wieland-Berghausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Goebel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gauvry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pautrat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Skripsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Froelich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Komoin-Oka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Westlund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sluder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Maeser</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature06722</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">452</biblScope>
+			<biblScope unit="page" from="176" to="U119" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Woodgate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Besier</surname></persName>
+		</author>
+		<idno type="DOI">10.1071/AN10022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Anim. Reprod. Sci</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="440" to="443" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Aroian</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pntd.0000499</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Neglected Trop. Dis</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">499</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Robertson</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0031182007000029</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Parasitology</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="1093" to="1104" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Robertson</surname></persName>
+		</author>
+		<idno type="DOI">10.1096/fj.06-6264fje</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Faseb J</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">2606</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Powell-Coffman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Martin</surname></persName>
+		</author>
+		<idno type="DOI">10.1096/fj.08-110502</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Faseb J</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">3247</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Leignel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Silvestre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Humbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cabaret</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.vetpar.2010.04.023</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Vet. Parasitol</title>
+		<imprint>
+			<biblScope unit="volume">172</biblScope>
+			<biblScope unit="page" from="80" to="88" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">X</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Robertson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/sj.bjp.0705528</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Brit. J. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="1068" to="1076" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Platzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bellier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Aroian</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0912327107</idno>
+		<title level="m">Proc. Natl. Acad. Sci. U.S.A</title>
+		<meeting>Natl. Acad. Sci. U.S.A</meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="5955" to="5960" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Beugnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kerboeuf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Nicolle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Soubieux</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0304-4017(95)00879-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Vet. Parasitol</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="83" to="94" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kaletta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">O</forename><surname>Hengartner</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrd2031</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Drug Discovery</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="387" to="398" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Atchison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Geary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Manning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Vandewaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Thompson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0041-008X(92)90289-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Toxicol. Appl. Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="133" to="143" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gaba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cabaret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sauve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cortet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Silvestre</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.vetpar.2010.03.040</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Vet. Parasitol</title>
+		<imprint>
+			<biblScope unit="volume">171</biblScope>
+			<biblScope unit="page" from="254" to="262" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bjørn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roepstorff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Waller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nansen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0304-4017(90)90022-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Vet. Parasitol</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="21" to="30" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Bjorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Martin</surname></persName>
+		</author>
+		<ptr target="http://www.fasebj.org/content/13/6/749.long" />
+	</analytic>
+	<monogr>
+		<title level="j">Faseb J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="749" to="760" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Richmond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Jorgensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/12160</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="791" to="797" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ruiz-Lancheros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Viau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Walter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Francis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Geary</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijpara.2010.11.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Parasitol</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="455" to="461" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Simpkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Coles</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jctb.280310110</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Technol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="66" to="69" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Boina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Bloomquist</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/ps.1591</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pest Manage. Sci</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="646" to="653" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mccavera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Wolstenholme</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0031182007000042</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Parasitology</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="1111" to="1121" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Pinnock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Sattelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Gration</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Harrow</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0028-3908(88)90101-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neuropharmacology</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="843" to="848" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Parashar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pandey</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c1lc20170k</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Chip</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="2385" to="2396" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Deutmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pandey</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0031182010001010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Parasitology</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page" from="80" to="88" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Saldanha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Parashar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pandey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Powell-Coffman</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/toxsci/kft138</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Toxicol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="156" to="168" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Crane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.1227</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="637" to="643" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Stirman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Crane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Husson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wabnig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schultheis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gottschalk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.1555</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="153" to="U178" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qin</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/c0lc00256a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Chip</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="2855" to="2863" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b808753a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lab Chip</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1432" to="1435" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Bettinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mcintire</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1601-183X.2004.00080.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Brain Behav</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="266" to="272" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Parashar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lycke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pandey</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3604391</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomicrofluidics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="24112" to="024119" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Trailovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Robertson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijpara.2004.04.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Parasitol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1083" to="1090" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hui-Ming</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tanner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Utzinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chong</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actatropica.2005.01.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Trop</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Steinmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X.-N</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z.-W</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z.-X</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Utzinger</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pntd.0000322</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Neglected Trop. Dis</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">322</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><surname>Boulin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gielen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Richmond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Paoletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-L</forename><surname>Bessereau</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0806933105</idno>
+		<title level="m">Proc. Natl. Acad. Sci. U.S.A</title>
+		<meeting>Natl. Acad. Sci. U.S.A</meeting>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="18590" to="18595" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Buckingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Mee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Sattelle</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijpara.2006.01.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Parasitol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="617" to="624" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Culetto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Baylis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Richmond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Fleming</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Squire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Sattelle</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M404370200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="42476" to="42483" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Davey</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijpara.2008.06.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Parasitol</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="213" to="220" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kaewintajuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Y</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00436-010-1828-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Parasitol. Res</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="27" to="30" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C Y</forename><surname>Kwok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ricker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Stanley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mccourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Cutler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Roy</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature04657</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">441</biblScope>
+			<biblScope unit="page" from="91" to="95" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kokel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Laggner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mateus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Healey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Werdich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Haggarty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Macrae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Shoichet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Peterson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nchembio.307</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem. Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="231" to="237" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mohammadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kruglyak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Ryu</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1741-7007-10-85</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">85</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

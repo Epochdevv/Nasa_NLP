@@ -1,0 +1,1699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Last Mile in Beta-Cell Replacement Therapy for Type 1 Diabetes: Time to Grow Up</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Frontiers Media SA</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2025-04-01">01 April 2025</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Lorenzo</forename><surname>Piemonti</surname></persName>
+							<email>lorenzopiemonti@hsr.it</email>
+							<affiliation key="aff0">
+								<orgName type="department">Unit of Regenerative Medicine and Organ Transplants</orgName>
+								<orgName type="institution">IRCCS Ospedale San Raffaele</orgName>
+								<address>
+									<settlement>Milan</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Università Vita-Salute San Raffaele</orgName>
+								<address>
+									<settlement>Milan</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Last Mile in Beta-Cell Replacement Therapy for Type 1 Diabetes: Time to Grow Up</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Transplant International</title>
+						<title level="j" type="abbrev">Transpl. Int.</title>
+						<idno type="eISSN">1432-2277</idno>
+						<imprint>
+							<publisher>Frontiers Media SA</publisher>
+							<biblScope unit="volume">38</biblScope>
+							<date type="published" when="2025-04-01">01 April 2025</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">823F454417533E54C57F0BB970CD1068</idno>
+					<idno type="DOI">10.3389/ti.2025.14565</idno>
+					<note type="submission">Received: 28 February 2025 Accepted: 21 March 2025</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>diabetes type 1</term>
+					<term>beta cell replacement therapy</term>
+					<term>islet</term>
+					<term>scalability</term>
+					<term>stem cell derived beta cells</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Beta cell replacement therapy for type 1 diabetes (T1D) is undergoing a transformative shift, driven by advances in stem cell biology, gene editing, and tissue engineering. While islet transplantation has demonstrated proof-of-concept success in restoring endogenous insulin production, its clinical impact remains limited by donor scarcity, immune rejection, and procedural complexities. The emergence of stem cell-derived beta-like cells represents a paradigm shift, with initial clinical trials showing promising insulin secretion in vivo. However, translating these breakthroughs into scalable, widely accessible treatments poses significant challenges. Drawing parallels to space exploration, this paper argues that while scientific feasibility has been demonstrated, true accessibility remains elusive. Without a strategic shift, beta cell therapy risks becoming an elite intervention, restricted by cost and infrastructure. Lessons from gene and cell therapies for rare diseases highlight the dangers of unsustainable pricing and limited market viability. To bridge the "last mile" a Quality by Design approach is proposed, emphasizing scalability, ease of use, and economic feasibility from the outset. By emphasizing practical implementation over academic achievements, corporate interests, market economics, or patent constraints, beta cell therapy can progress from proof-of-concept to a viable, widely accessible treatment.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>At the 48th Annual Conference ISPAD, held on 13-16 October 2022, in Abu Dhabi, UAE, I was invited to deliver a lecture titled The Last Mile for Type 1 Diabetes cure <ref type="bibr" target="#b0">[1]</ref>. The intention behind this title was to highlight the ambivalence of the concept: while many interpreted it optimistically as signaling the imminent arrival of a definitive cure, the phrase also carries a cautionary meaning. In many fields, the "last mile" is often the most complex and challenging stage of development, requiring careful navigation to ensure successful implementation <ref type="bibr" target="#b1">[2]</ref>. History teaches us that assuming victory just before the finish line is a surefire way to trip over our own shoelaces.</p><p>The field of beta cell replacement therapy for type 1 diabetes (T1D) is currently undergoing a remarkable transformation <ref type="bibr" target="#b2">[3]</ref>. Over the past two decades, the well-established islet transplantation paradigm has provided compelling proof-of-concept evidence that restoring endogenous insulin production can lead to long-term glycemic control, protection from severe hypoglycemia, and improved quality of life <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref>. However, the approach remains fundamentally constrained by the limited availability of organ donors, the need for lifelong immunosuppression, and the challenges associated with islet engraftment and survival <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref>. In other words, we have a therapy that works beautifully-just for not enough people to make a real difference.</p><p>Recent breakthroughs in stem cell biology, tissue engineering, and gene editing are now reshaping the landscape, with the potential to overcome these intrinsic limitations <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref>. The successful differentiation of stem cell-derived beta-like cells-whether from human embryonic stem cells (ESCs) or induced pluripotent stem cells (iPSCs)-into insulin-producing cells suitable for transplantation represents a paradigm shift <ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref>. Initial clinical trials have demonstrated the feasibility of this approach, with promising preliminary data showing functional insulin secretion in vivo <ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref>. The possibility of encapsulating or genetically engineering these cells to evade immune rejection could eventually obviate the need for chronic immunosuppression, further expanding the therapeutic potential <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>. This progress is the culmination of decades of interdisciplinary research, bringing us to an exciting and optimistic phase in the field. But before we start popping champagne, let's remember that many promising scientific advances have met their demise at the hands of real-world implementation challenges. As we celebrate these successes, it's important to recognize the complexity of what lies ahead. While the idea of the "last mile" in beta-cell replacement may suggest we are nearing a definitive solution, history shows that the final phase often brings its most rewarding challenges, offering opportunities for further breakthroughs and innovation.</p><p>To illustrate this, we can draw an analogy to space exploration. Sending the first humans to the moon was one of the most significant technological feats in modern history, showcasing the scientific ingenuity of our species. Can we say that humanity has mastered lunar travel? Certainly. Have we transitioned from exploration to colonization? Not even close. The Apollo program, which successfully landed twelve men on the moon over 12 years, cost an estimated $288 billion in today's currency and required the effort of 400,000 people. Was it worth it? Undoubtedly. The benefits of space exploration extended far beyond the moon landings themselves, driving innovations in computing, materials science, and medicine. But if our goal had been to establish a thriving lunar metropolis, we would have been woefully unprepared. The engineering required to sustain a permanent presence on the moon is vastly different from what was needed for brief exploration missions.</p><p>Similarly, while we have demonstrated that stem cell-derived beta cells can function in human recipients, scaling this intervention to treat millions of individuals with T1D presents a new set of challenges <ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref>. We've planted the flag, but we're nowhere near ready to move in. For now, we must acknowledge that only a select few will have access to this groundbreaking therapy in its early stages. Let's be realistic: sending twelve men to the moon was a tremendous achievement, but building the infrastructure to support thousands is an entirely different level of challenge-and a much greater one when scaling up to millions. If we continue to approach beta cell replacement with an "Apollo mission" mindset, we risk creating a therapy that could be limited in accessibility. This would necessitate either stringent stratification based on risk-benefit analysis or, in a more troubling scenario, allocation based on financial capacity <ref type="bibr" target="#b34">[35,</ref><ref type="bibr" target="#b35">36]</ref>.</p><p>It's important to note that the biomedical field, while it shares some characteristics with space exploration in terms of complexity, is inherently different. The decentralized, iterative nature of biomedical research allows for faster and more varied innovation, often driven by global collaboration, and offers a more dynamic landscape than the singular focus of space exploration. In this regard, the biomedical field has some distinct advantages, such as flexibility and the potential for rapid progress due to the contributions of many smaller, specialized teams rather than relying on a monolithic, topdown approach. But there are also disadvantages to this fragmented approach. Without a central focus, there is a risk of research becoming too diffuse, lacking the critical mass of knowledge and resources needed to make real breakthroughs in a timely manner. The dispersed nature of the research may lead to silos of knowledge, and sometimes, these separate efforts can lack the cohesion necessary to propel the field forward efficiently. In the case of beta-cell replacement therapy, for instance, without a unified, coordinated strategy, progress may be delayed, and key challenges, such as creating scalable and affordable solutions, could remain unresolved.</p><p>Perhaps we do not fully consider the complexities of the "last mile" in scientific progress, where the challenges of scaling and ensuring widespread accessibility can be more intricate and demanding than the initial breakthroughs themselves. A recent reflection on human genome editing serves as a case in point <ref type="bibr" target="#b36">[37]</ref>. It has been suggested that polygenic genome editing could become feasible within the next three decades, with theoretical models indicating that it could significantly reduce susceptibility to diseases such as coronary artery disease, Alzheimer's, depression, diabetes, and schizophrenia. This is an intriguing prospect with profound ethical implications, but one thing is already clear and underestimated: this approach is unlikely to be applied to a significant portion of the population within any realistic timeframe. Why? Because it would require in vitro fertilization for every individual undergoing genome editing <ref type="bibr" target="#b37">[38]</ref>. Once again, we have explored the possibility, but we have not "colonized" it. For a more immediate comparison to beta cell therapy, let's assume for a moment that, starting today, we could transplant pancreatic islets without requiring immunosuppression. Would that mean we have reached the last mile in curing type 1 diabetes? Not at all. The number of donors would remain severely limited, and the procedure, still highly dependent on skilled operators, could not be automated or broadly implemented. Therefore, only a small group would have access, and this does not even take into account the cost factor. Indeed, when considering the "last mile" in cell-based therapies, one of the major challenges is the cost, which may prevent the therapy from being automated or widely implemented. The case of gene and cell therapies for rare diseases serves as a cautionary tale <ref type="bibr" target="#b38">[39]</ref>. Several promising therapies have been approved but later withdrawn from the market due to unsustainable pricing models and difficulties in reimbursement <ref type="bibr" target="#b39">[40,</ref><ref type="bibr" target="#b40">41]</ref>. Notable examples include Glybera, the first gene therapy approved in Europe, which was withdrawn in 2017, after being deemed commercially unviable, and Strimvelis, a gene therapy for ADA-SCID, which faced similar market challenges. News has recently emerged about the suspension of the development and commercialization of the hemophilia B gene therapy fidanacogene elaparvovec (marketed as Beqvez in the United States and Durveqtix in Europe) by Pfizer <ref type="bibr" target="#b41">[42]</ref>. Fidanacogene elaparvovec marks the ninth advanced therapy to be withdrawn from the European market since 2015, a significant figure considering that only 27 such therapies have reached commercialization in total <ref type="bibr" target="#b42">[43]</ref>. Notably, no patients appear to have received the therapy after its approval in the United States. Its price tag-$3.5 million per patient-certainly does not lend itself to widespread adoption. Another shake-up in the sector came with the recent developments surrounding bluebird bio, Inc. Founded with the mission of developing gene therapies for rare diseases, the company had already sparked debate over the sustainability of advanced therapies back in 2021, following the simultaneous withdrawal of two gene therapies from the European market-one for betathalassemia and the other for cerebral adrenoleukodystrophy (the latter of which remained available for only 3 months). Once valued at $11 billion in 2018, bluebird bio faced mounting financial difficulties due to high development costs and limited market access. Recently, the company was acquired by U.S. funds for a mere $30 million-a staggering devaluation that underscores the economic challenges plaguing biotech firms specializing in advanced therapies. <ref type="foot" target="#foot_0">1</ref> The model used for rare disease therapies may not be directly applicable to widespread conditions like T1D, especially when scaling therapies like betacell replacement. In rare diseases, high per-patient costs are manageable, but for large populations, cost-reduction strategies are essential. A key approach is leveraging economies of scale, particularly in allogeneic therapies, where a single batch can treat multiple patients, spreading fixed costs and reducing per-patient expenses. However, autologous therapies face limitations in this regard due to the need for individualized production, which results in higher costs. Advancements in automation and bioprocessing technologies could reduce costs for both autologous and allogeneic therapies, but there are risks. Despite technological innovations, therapies may remain financially unfeasible for large populations due to high raw material costs, specialized facilities, and regulatory hurdles. Additionally, cost-reduction efforts must not compromise the therapy's quality or efficacy, as this could undermine its longterm success.</p><p>So, the real question is: how we can successfully and safely navigate the "last mile"? One option is to place unwavering faith in scientific progress, if what seems impossible today will inevitably become reality. After all, history is filled with oncefantastical ideas that have materialized into everyday technology. In Star Trek (1964), the crew communicated using sleek, flipopen devices-perfect for intergalactic adventures. Three decades later, Motorola's StarTAC brought that vision to life. Waiting, as Samuel Beckett illustrated in Waiting for Godot, carries profound human dignity. But waiting can also turn into a tragicomedy if it assumes that progress has no intrinsic limits-that it is merely a matter of time.</p><p>A second option is to take a different approach, drawing inspiration from the Quality by Design (QbD) framework <ref type="bibr" target="#b43">[44]</ref><ref type="bibr" target="#b44">[45]</ref><ref type="bibr" target="#b45">[46]</ref>. For those unfamiliar with it, QbD is, above all, a philosophy that shifts the focus from quality control to quality by intentional design. It emphasizes that quality should not be tested into a product but rather built into it from the very beginning. At the core of QbD is the Quality Target Product Profile (QTPP), which defines the desired characteristics of a product, guiding its entire development. Fundamentally, the QbD approach marks a shift from a reactive, retrospective evaluation to a proactive, predictive model. Traditional quality control methods often rely on detecting and correcting issues after production. In contrast, QbD anticipates critical points and constraints during the design phase, allowing for a better understanding of the boundaries within which the process must operate. This shift from "test-and-fix" to "design-andpredict" enables more robust, efficient, and scalable therapeutic solutions, particularly in emerging fields like cell therapy. This concept is particularly crucial in the field of cell therapy, where the QTPP is not just about the intrinsic properties of the cellular product itself. Unlike conventional pharmaceuticals, cell therapies are living drugs, meaning their effectiveness and behavior depend on the dynamic interaction with the patient receiving the treatment. This reciprocal relationship between the therapy and the individual means that the QTPP must account for factors such as patientspecific responses, variability in the cellular product, and the evolving nature of the treatment within the body.</p><p>It is not my intention here to delve into the numerous complex aspects associated with the QbD approach in the field of beta-cell transplantation, aspects that are far from irrelevant. For example, defining Critical Quality Attributes (CQAs) for stem cell-derived beta cells (such as insulin secretion kinetics and purity) requires standardized assays, which remain underdeveloped. Even the discussion regarding the quality and potency of human pancreatic islets remains extensive <ref type="bibr" target="#b46">[47]</ref>. To provide a sense of this complexity, in the recent FDA discussions concerning the approval of the Biologics License Application for pancreatic islets,<ref type="foot" target="#foot_1">foot_1</ref> potency criteria were suggested based on parameters such as ≥70% viable islets, counting based on DTZ staining and microscopic evaluation, as well as the ratio of insulin secretion under high glucose stimulation to low glucose stimulation (≥1). Ironically, some probiotic strains, such as Saccharomyces cerevisiae, could potentially exhibit similar metrics under certain conditions <ref type="bibr" target="#b47">[48]</ref>, highlighting the complexity and challenges in defining appropriate potency criteria for beta cel replacement. Moreover, regulatory alignment with agencies like the FDA/EMA is also understated and warrants more attention. Regulatory agencies play a critical role in the successful development, approval, and commercialization of novel therapies. However, in the case of beta-cell replacement therapies, particularly those derived from stem cells, there is a need for more comprehensive alignment with regulatory standards and guidelines.</p><p>Instead, in this context, I propose the broader adoption of the QTPP concept. Rather than focusing solely on traditional product quality parameters, QTPP advocates for a more comprehensive, patient-centered approach-an approach especially vital in the realm of stem cell-based therapies like beta-cell transplantation. The challenge goes beyond simply creating a functional cellular product; it is also about ensuring its scalability, as a transformative therapy that remains accessible to only a few is little more than an academic achievement. Therefore, rather than concentrating exclusively on the intrinsic qualities of the cellular product, a key step should be the definition of the QTPP-not only in terms of what the therapy is, but also how it will be administered, how it will interact with the patient, and the broader context in which it will be applied (Figure <ref type="figure">1</ref>). If this is the lens through which we view the problem, then as a physician-scientist, I must wonder: what kind of product would I actually want to use? Ideally, it would be cryopreserved and easily thawed at the bedside with warm water, compatible with a standard syringe, and administered much like a simple intramuscular injection-no operating room, no GMP facility for post-thaw reconstitution, no angiographic suite for infusion, etc. . . A final product of just a few milliliters, nothing more. From this endpoint, we must work backward, establishing constraints from the outset. The goal is not to design a product that functions beautifully under ideal conditions but one that remains viable when deployed at scale. The constraints should not reflect what is manageable for an expert in a specialized lab or clinic but what is operationally feasible for millions of patients worldwide. Returning to the Apollo 13 analogy, the lesson lies in NASA's approach to solving the air filter crisis <ref type="bibr" target="#b48">[49]</ref>. They could have designed the ideal filtration system from scratch-but instead, they worked within the limits of what was already onboard, using available materials to construct a viable solution. In today's terms, this was an exercise in design thinking, and it is precisely the mindset we need before moving forward. Recognizing this early is critical. It informs the definition of QTPPs and CQAs, which, in turn, shape every aspect of development-including procedural simplicity, implant size, and invasiveness. Consider this: if we could eliminate the need for an angiographic suite, a surgical team, or anything beyond local anesthesia, would not that already be a breakthrough? Similarly, as a healthcare provider, I must consider: how much can I afford to spend on beta-cell therapy for an individual with T1D? Defining this is essential, as sustainability is a key element of scalability, and in my view, it should be incorporated into the QTPP definition. In this regard, there should be a stronger focus on academic research into the economics of Beta-Cell Replacement Therapy. Furthermore, it is crucial to recognize that the economic sustainability of therapies is not only about cost-effectiveness but also about broader financial considerations. This was demonstrated in the past with hepatitis C treatments in countries with advanced public welfare systems <ref type="bibr" target="#b49">[50]</ref>.</p><p>This phase should begin as soon as possible. Who should take responsibility for it? Undoubtedly, highly specialized academic centers with the necessary multidisciplinary expertise should lead the initial phase, overseeing both the design thinking process and, subsequently, the early-stage clinical trials to optimize the best conditions for implementation. These centers should work in close collaboration with the pharmaceutical industry, respecting each other's areas of expertise and competencies. Following this initial development, a "hub-and-spoke" model should be adopted to enable broader dissemination. From these central expertise hubs, the process can gradually expand, ensuring that the therapy becomes accessible on a larger scale while maintaining the necessary standards of quality and feasibility. Supporting initiatives in this direction is essential, and projects like ACT (Accelerate Cell Therapies;<ref type="foot" target="#foot_2">foot_2</ref> ) by Breakthrough T1D serve as a prime example. ACT aims to significantly accelerate the availability of cell therapy products by uniting efforts in research, development, regulation, and clinical access. A core aspect of this initiative is the establishment of Clinical Centers of Reference for Cell Therapy-expert, multidisciplinary facilities that will play a key role in the fast-tracked adoption of "off-theshelf" cell therapies. These centers will not only provide advanced FIGURE 1 | Two beautifully designed wine glasses that perfectly match the Quality Target Product Profile (QTPP) for a wine glass, yet fail in real-world usability due to a lack of consideration for the interaction with the drinker during the design and prediction phase. Both glasses exhibit ideal material quality, clarity, durability, and aesthetic appeal, fulfilling all standard QTPP criteria. They are made of high-quality, lead-free crystal, ensuring clarity and safety. Their shape and design feature an optimized bowl size and rim thickness to enhance aroma. The capacity and volume allow for proper aeration and optimal serving. They are scratch-and shatter-resistant, suitable for repeated use. Their weight and balance make them comfortable to hold, while their design ensures stability. They are easy to clean, dishwasher-safe, and resistant to stains and odors. Finally, they are scalable for mass production while maintaining quality. However, despite excelling in these technical attributes, the glasses overlook a crucial factor: the interaction between the glass and the drinker: they have an extravagant yet impractical design, making it impossible to drink from without spilling. This serves as a metaphor for the importance of a holistic approach in Quality by Design (QbD): a product must not only meet its defined quality criteria but also be practical, user-friendly, and functional in real-world applications-a principle that applies equally to wine glasses and therapeutic innovations. The represent glasees are part of "The Uncomfortable," a collection of everyday objects that have been intentionally redesigned to be impractical by Athens-based architect Katerina Kamprani.</p><p>treatments but also function as training hubs, helping other centers develop the expertise needed to deliver cutting-edge therapies. By prioritizing collaboration, training, and standardization of care, ACT and similar effort has the potential to ensure that life-changing therapies are accessible to millions of T1D patients worldwide.</p><p>A historical precedent for this approach can be found in bone marrow transplantation, which remains the only true cell therapy widely adopted on a global scale <ref type="bibr" target="#b50">[51]</ref>. The foundations of this therapy were laid in the mid-20th century, with pioneering work by E. Donnall Thomas and George Mathé, who demonstrated that hematopoietic stem cells from bone marrow could be used to reconstitute the blood and immune system in patients with leukemia and other blood disorders. Their work led to the first successful human transplants in the 1960s. Initially, bone marrow transplants were highly experimental and confined to specialized centers. Over time, through continuous optimization of conditioning regimens, donor matching (HLA typing), and graft-versus-host disease management, the procedure became more standardized and scalable. it is an established treatment for thousands of patients worldwide, facilitated by international donor registries and improved cryopreservation techniques that allow for broader accessibility. This evolution underscores the importance of starting with a highly controlled, expert-driven development phase, followed by a strategic expansion model to make cell therapies practical and available on a large scale.</p><p>Ultimately, if we are serious about completing the "last mile" in beta cell replacement, we must acknowledge that it is not a simple continuation of our current trajectory. It demands a fundamental shift in strategy-one that prioritizes not just scientific and technical innovation but also scalability, accessibility, and economic feasibility. Only by adopting this perspective can we transform beta cell replacement from experimental success into a truly viable treatment for millions of people with T1D. How long do we need to wait for having an exogenous insulin-free world? In all honesty, we do not know, but I am sure that the generation of individual with type 1 diabetes who will be definitively cured by beta cel replacement is already born. In the meantime, maintaining the parallel with the moon mission, we must push forward with unwavering commitment, as President John F. Kennedy said: ". . .We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard; because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one we intend to win, and the others, too (Rice Stadium on <ref type="bibr">September 12, 1962</ref>)" This same spirit should guide our efforts in making beta-cell replacement a reality for those who need it most.</p></div>			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>https://www.fiercepharma.com/pharma/once-valued-10b-bluebird-bio-sells-priv ate-equity-firms-29m</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_1"><p>https://www.fda.gov/media/170457/download</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_2"><p>https://www.breakthrought1d.org/project-act/</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>April 2025 | Volume 38 | Article 14565</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>The authors wish to express their sincere gratitude to <rs type="person">SOStegno 70 Insieme</rs> ai ragazzi diabetici <rs type="institution">Associazione Onlus</rs> (Project "Beta is better"), as well as <rs type="person">Paola Macchieraldo</rs>, <rs type="person">Antonio Mincione</rs>, <rs type="person">Luca Casaura</rs>, <rs type="person">Patrizia Pappini Oldrati</rs>, <rs type="person">Paolo Bignoli</rs>, <rs type="person">Andrea Marchesi</rs>, and <rs type="person">Michele Mainardi</rs> for their support of the fundraising campaign "Un brutto t1po," which helps sustain research on beta cell replacement at the <rs type="institution">San Raffaele Diabetes Research Institute in Milan</rs>. I would like to express my sincere gratitude to the Athens-based architect <rs type="person">Katerina Kampani</rs> for her generosity in granting permission to use the representations of her works from The Uncomfortable collection. Her thought-provoking designs have been a source of great inspiration, and I deeply appreciate her willingness to share her art for this purpose.</p></div>
+			</div>
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FUNDING</head><p>The author(s) declare that no financial support was received for the research and/or publication of this article.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>The original contributions presented in the study are included in the article/supplementary material, further inquiries can be directed to the corresponding author.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>LP wrote the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST</head><p>The author declares that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>GENERATIVE AI STATEMENT</head><p>The author(s) declare that no Generative AI was used in the creation of this manuscript.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Ispad Annual Conference 2022 Highlights</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Day</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Grundman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">O</forename><surname>Ahmad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Raicevic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dzikiti</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/pedi.13449</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pediatr Diabetes</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1151" to="1156" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Last Mile Research: A Conceptual Map</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Davison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Bartels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Purkey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Neely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bisung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Collier</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/16549716.2021.1893026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Glob Health Action</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">1893026</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Harnessing Cellular Therapeutics for Type 1 Diabetes Mellitus: Progress, Challenges, and the Road Ahead</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Grattoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Korbutt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Tomei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Pepper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Stabler</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41574-024-01029-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Endocrinol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="14" to="30" />
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Ten-Year Outcomes of Islet Transplantation in Patients with Type 1 Diabetes: Data from the Swiss-French Gragil Network</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lablanche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Borot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wojtusciszyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Skaare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Penfornis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Malvezzi</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/ajt.16637</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Transplant</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="3725" to="3733" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Long-Term Follow-Up of the Edmonton Protocol of Islet Transplantation in the United States</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Brennan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Kopetskie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Sayre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alejandro</forename><forename type="middle">R</forename><surname>Cagliero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Shapiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Amj</forename></persName>
+		</author>
+		<idno type="DOI">10.1111/ajt.13458</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Transplant</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="509" to="517" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Ten-Year Outcome of Islet Alone or Islet after Kidney Transplantation in Type 1 Diabetes: A Prospective Parallel-Arm Cohort Study</title>
+		<author>
+			<persName><forename type="first">M-C</forename><surname>Vantyghem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chetboun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gmyr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jannin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Espiard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Mapihan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+		<idno type="DOI">10.2337/dc19-0401</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2042" to="2049" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Survival after Islet Transplantation in Subjects with Type 1 Diabetes: Twenty-Year Follow-Up</title>
+		<author>
+			<persName><forename type="first">Jrn</forename><surname>Lemos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Baidal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ricordi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fuenmayor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alvarez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alejandro</forename><forename type="middle">R</forename></persName>
+		</author>
+		<idno type="DOI">10.2337/dc20-2458</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="67" to="e68" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Long-Term Outcome of Islet Transplantation on Insulin-Dependent Diabetes Mellitus: An Observational Cohort Study</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fujikura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Anazawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ogura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Okajima</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jdi.13128</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Diabetes Investig</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="363" to="372" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<ptr target="https://citregistry.org/system/files/11th%20Allograft%20report%20May%2031%202022.pdf" />
+		<title level="m">Collaborative Islet Transplant Registry Coordinating Center: Eleventh Allograft Report</title>
+		<meeting><address><addrLine>Rockville, MD</addrLine></address></meeting>
+		<imprint>
+			<publisher>The Emmes Corporation</publisher>
+			<date type="published" when="2022-05-10">2022. May 10, 2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Phase 3 Trial of Transplantation of Human Islets in Type 1 Diabetes Complicated by Severe Hypoglycemia</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Hering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Bridges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Eggerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alejandro</forename><forename type="middle">R</forename><surname>Bellin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename></persName>
+		</author>
+		<idno type="DOI">10.2337/dc15-1988</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1230" to="1240" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Allo Beta Cell Transplantation: Specific Features, Unanswered Questions, and Immunological Challenge</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Caldara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Tomajer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Monti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sordi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Citro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chimienti</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fimmu.2023.1323439</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Immunol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">1323439</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Cell Therapy for Type 1 Diabetes: From Islet Transplantation to Stem Cells</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sordi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Monaco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Piemonti</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000526618</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Horm Res Paediatr</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="658" to="669" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Challenges in Beta Cell Replacement for Type 1 Diabetes</title>
+		<author>
+			<persName><forename type="first">Jrn</forename><surname>Lemos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Skyler</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000542206</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Horm Res Paediatr</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Report of the Key Opinion Leaders Meeting on Stem Cell-Derived Beta Cells</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Odorico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Markmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Melton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nostro</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/tp.0000000000002217</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Transplantation</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1223" to="1229" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Developments in Stem Cell-Derived Islet Replacement Therapy for Treating Type 1 Diabetes</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Hogrebe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ishahak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Millman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.stem.2023.04.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Stem Cell</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="530" to="548" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Strategies for Durable B Cell Replacement in Type 1 Diabetes</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Brusko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Russ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Stabler</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.abh1657</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">373</biblScope>
+			<biblScope unit="issue">6554</biblScope>
+			<biblScope unit="page" from="516" to="522" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The Future of Beta Cells Replacement in the Era of Regenerative Medicine and Organ Bioengineering</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Berishvili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Peloso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Tomei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Pepper</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/ti.2024.12885</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Transpl Int</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page">12885</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Generation of Functional Human Pancreatic B Cells In Vitro</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Pagliuca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Millman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gürtler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Segel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Van Dervort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Ryu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2014.09.040</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="428" to="439" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Reversal of Diabetes with Insulin-Producing Cells Derived In Vitro from Human Pluripotent Stem Cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rezania</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Bruin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Arora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rubin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Batushansky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Asadi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nbt.3033</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1121" to="1133" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Functional, Metabolic and Transcriptional Maturation of Human Pancreatic Islets Derived from Stem Cells</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Balboa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Barsby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lithovius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Saarimäki-Vire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Omar</forename><forename type="middle">-</forename><surname>Hmeadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dyachok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/s41587-022-01219-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1042" to="1055" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Production of Pancreatic Hormone-Expressing Endocrine Cells from Human Embryonic Stem Cells</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>D'amour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Bang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Eliazer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">G</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Agulnick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Smart</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nbt1259</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1392" to="1401" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A Scalable System for Production of Functional Pancreatic Progenitors from Human Embryonic Stem Cells</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Schulz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Agulnick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Babin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Baetge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Bang</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0037004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">37004</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Pancreatic Endoderm Derived from Human Embryonic Stem Cells Generates Glucose-Responsive Insulin-Secreting Cells In Vivo</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kroon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Martinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kadoya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Bang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">G</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Eliazer</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nbt1393</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="443" to="452" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Initial Clinical Evaluation of Vc-01tm Combination Product-A Stem Cell-Derived Islet Replacement for Type 1 Diabetes (T1d)</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pettus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wilensky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Shapiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Senior</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Roep</surname></persName>
+		</author>
+		<idno type="DOI">10.2337/db18-138-or</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am Diabetes Assoc</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Encapsulated Stem Cell-Derived B Cells Exert Glucose Control in Patients with Type 1 Diabetes</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Keymeulen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Groot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jacobs-Tulleneers-Thevissen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Bellin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Kroon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/s41587-023-02055-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1507" to="1514" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Insulin Expression and C-Peptide in Type 1 Diabetes Subjects Implanted with Stem Cell-Derived Pancreatic Endoderm Cells in an Encapsulation Device</title>
+		<author>
+			<persName><forename type="first">Amj</forename><surname>Shapiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Donner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Bellin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hsueh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pettus</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.xcrm.2021.100466</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Rep Med</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">100466</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Implanted Pluripotent Stem-Cell-Derived Pancreatic Endoderm Cells Secrete Glucose-Responsive C-Peptide in Patients with Type 1 Diabetes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ramzy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Ward-Hartstonge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ivison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Garcia</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.stem.2021.10.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Stem Cell</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2047" to="2061" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">836-P: Glucose-Dependent Insulin Production and Insulin-Independence in Type 1 Diabetes from Stem Cell-Derived, Fully Differentiated Islet Cells-Updated Data from the Vx-880 Clinical Trial</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Reichman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ricordi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Naji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Markmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Perkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wijkstrom</surname></persName>
+		</author>
+		<idno type="DOI">10.2337/db23-836-p</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>Suppl. ment_1</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Transplantation of Chemically Induced Pluripotent Stem-Cell-Derived Islets under Abdominal Anterior Rectus Sheath in a Type 1 Diabetes Patient</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Liew</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2024.09.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">187</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page">18</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Treating a Type 2 Diabetic Patient with Impaired Pancreatic Islet Function by Personalized Endoderm Stem Cell-Derived Islet Tissue</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41421-024-00662-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Discov</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">45</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Identifying and Optimizing Critical Process Parameters for Large-Scale Manufacturing of Ipsc Derived Insulin-Producing B-Cells</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yehya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Majcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Nakhwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Senturk</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13287-024-03973-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Stem Cell Res Ther</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">408</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Scalable Generation of 3d Pancreatic Islet Organoids from Human Pluripotent Stem Cells in Suspension Bioreactors</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Pollock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Galicia-Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">L</forename><surname>Gruskin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Alvarez-Dominguez</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-0716-3854-5_4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">2805</biblScope>
+			<biblScope unit="page" from="51" to="87" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Scaling Insulin-Producing Cells by Multiple Strategies</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cayabyab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Yoshihara</surname></persName>
+		</author>
+		<idno type="DOI">10.3803/EnM.2023.1910</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="191" to="205" />
+			<date type="published" when="2024">2024</date>
+			<pubPlace>Seoul</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Development of a Scalable Method to Isolate Subsets of Stem Cell-Derived Pancreatic Islet Cells</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Parent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ashe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Nair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chavez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.stemcr.2022.02.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Stem Cell Rep</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="979" to="992" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Early-Phase Clinical Trials of Bio-Artificial Organ Technology: A Systematic Review of Ethical Issues</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>De Jongh</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">VANGUARD Consortium</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Massey</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">VANGUARD Consortium</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Cronin</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">VANGUARD Consortium</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">Mhn</forename><surname>Schermer</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">VANGUARD Consortium</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Bunnik</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">VANGUARD Consortium</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.3389/ti.2022.10751</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Transpl Int</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">10751</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Legal and Regulatory Challenges for Emerging Regenerative Medicine Solutions for Diabetes</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Thom</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">VANGUARD Consortium</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Cronin</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">VANGUARD Consortium</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1097/tp.0000000000004797</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Transplantation</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1072" to="1079" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Heritable Polygenic Editing: The Next Frontier in Genomic Medicine</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Visscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gyngell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yengo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Savulescu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-024-08300-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">637</biblScope>
+			<biblScope unit="issue">8046</biblScope>
+			<biblScope unit="page" from="637" to="645" />
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">We Need to Talk about Human Genome Editing</title>
+		<idno type="DOI">10.1038/d41586-025-00015-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">637</biblScope>
+			<biblScope unit="issue">8045</biblScope>
+			<biblScope unit="page">252</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Esot Roadmap for Advanced Therapy Medicinal Products in Transplantation: Navigating Regulatory Challenges to Enhance Access and Care</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Berishvili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Piemonti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ejp</forename><surname>De Koning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lindstedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Scholz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Scott</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/ti.2024.13485</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Transpl Int</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page">13485</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The Relevance of Advanced Therapy Medicinal Products in the Field of Transplantation and the Need for Academic Research Access: Overcoming Bottlenecks and Claiming a New Time</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Piemonti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Scholz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>De Jongh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kerr-Conte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Van Apeldoorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jam</forename><surname>Shaw</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/ti.2023.11633</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Transpl Int</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page">11633</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Access to Gene Therapy for Rare Diseases when Commercialization Is Not Fit for Purpose</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bueren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Candotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aiuti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lankester</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41591-023-02208-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Med</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="518" to="519" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Fidanacogene Elaparvovec: First Approval</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dhillon</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40265-024-02017-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Drugs</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="479" to="486" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A Systematic Review of Challenges and Opportunities in the Implementation of Managed Entry Agreements for Advanced Therapy Medicinal Products</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Greco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gwj</forename><surname>Frederix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hooft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ten</forename><surname>Ham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rmt</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.clinthera.2024.11.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Ther</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="16" to="e26" />
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Considerations for the Development of Ipsc-Derived Cell Therapies: A Review of Key Challenges by the Jsrm-Isct Ipsc Committee</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Madrid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Lakshmipathy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bharti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Wall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sato</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jcyt.2024.05.022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cytotherapy</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1382" to="1399" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Critical Analysis of Cgmp Large-Scale Expansion Process in Bioreactors of Human Induced Pluripotent Stem Cells in the Framework of Quality by Design</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rivera-Ordaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Peli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Manzini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barilani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lazzari</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40259-021-00503-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BioDrugs</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="693" to="714" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Advanced Cell-Based Products Generated via Automated and Manual Manufacturing Platforms under the Quality by Design Principle: Are They Equivalent or Different</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Hoang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ttk</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Atl</forename><surname>Ngo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Pham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Q</forename><surname>Bach</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.heliyon.2023.e15946</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Heliyon</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">15946</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Pancreatic Islets Quality and Potency Cannot Be Verified as Required for Drugs: Reflection on the Fda Review of a Biological License Application for Human Islets</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Witkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Anteby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">K</forename><surname>Olaitan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Forbes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Niederhaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ricordi</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/tp.0000000000003880</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Transplantation</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="409" to="e410" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Dithizone Staining of Intracellular Zinc: An Unexpected and Versatile Counterscreen for Auxotrophic Marker Genes in Saccharomyces Cerevisiae</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Yuan</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0025830</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">25830</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Using a Digital Data Analytic Tool to Capture Dynamic Change in Coordination Patterns: An Exploratory Study of the Apollo 13 Mission</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Z</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hoogeboom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Endedijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Schraagen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apergo.2024.104345</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Ergon</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page">104345</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Financial and Feasibility Implications of the Treatment of Hepatitis C Virus in Italy: Scenarios and Perspectives</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Croce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bonfanti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Restelli</surname></persName>
+		</author>
+		<idno type="DOI">10.2147/ceor.S106769</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clinicoecon Outcomes Res</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="377" to="385" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Regenerative Medicine: Case Study for Understanding and Anticipating Emerging Science and Technology</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mathews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abernethy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chaikof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Charo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Q</forename><surname>Daley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Enriquez</surname></persName>
+		</author>
+		<idno type="DOI">10.31478/202311d</idno>
+		<idno>doi:10. 31478/</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NAM Perspect</title>
+		<imprint>
+			<biblScope unit="volume">2023</biblScope>
+			<biblScope unit="page">2023</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

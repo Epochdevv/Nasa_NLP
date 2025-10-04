@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Molecular Muscle Experiment: Hardware and Operational Lessons for Future Astrobiology Space Experiments</title>
+				<funder ref="#_5bunKRt">
+					<orgName type="full">NIH Office of Research Infrastructure Programs</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">UK Space Agency</orgName>
+				</funder>
+				<funder ref="#_c6j4bjJ">
+					<orgName type="full">STFC</orgName>
+				</funder>
+				<funder ref="#_NczgC95">
+					<orgName type="full">ESA</orgName>
+				</funder>
+				<funder ref="#_QBvETFj #_baBY7u7">
+					<orgName type="full">BBSRC</orgName>
+				</funder>
+				<funder ref="#_Zh2AXVz">
+					<orgName type="full">National Aeronautics and Space Administration</orgName>
+					<orgName type="abbreviated">NASA</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Mary Ann Liebert Inc</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-08-01">2020-08-01</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Amelia</forename><forename type="middle">K</forename><surname>Pollard</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Medical School Royal Derby Hospital</orgName>
+								<orgName type="laboratory">MRC Versus Arthritis Centre for Musculoskeletal Ageing Research and NIHR Nottingham BRC</orgName>
+								<orgName type="institution">University of Nottingham</orgName>
+								<address>
+									<settlement>Derby</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christopher</forename><forename type="middle">J</forename><surname>Gaffney</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Sport and Health Sciences</orgName>
+								<orgName type="institution">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Lancaster Medical School</orgName>
+								<orgName type="institution" key="instit1">Furness College</orgName>
+								<orgName type="institution" key="instit2">Lancaster University</orgName>
+								<address>
+									<settlement>Lancaster</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Colleen</forename><forename type="middle">S</forename><surname>Deane</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Sport and Health Sciences</orgName>
+								<orgName type="institution">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michele</forename><surname>Balsamo</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">Kayser Italia</orgName>
+								<address>
+									<settlement>Livorno</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Cooke</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Medical School Royal Derby Hospital</orgName>
+								<orgName type="laboratory">MRC Versus Arthritis Centre for Musculoskeletal Ageing Research and NIHR Nottingham BRC</orgName>
+								<orgName type="institution">University of Nottingham</orgName>
+								<address>
+									<settlement>Derby</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Sport and Health Sciences</orgName>
+								<orgName type="institution">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rebecca</forename><forename type="middle">A</forename><surname>Ellwood</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Medical School Royal Derby Hospital</orgName>
+								<orgName type="laboratory">MRC Versus Arthritis Centre for Musculoskeletal Ageing Research and NIHR Nottingham BRC</orgName>
+								<orgName type="institution">University of Nottingham</orgName>
+								<address>
+									<settlement>Derby</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jennifer</forename><forename type="middle">E</forename><surname>Hewitt</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Chemical Engineering</orgName>
+								<orgName type="institution">Texas Tech University</orgName>
+								<address>
+									<settlement>Lubbock</settlement>
+									<region>Texas</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Beata</forename><forename type="middle">E</forename><surname>Mierzwa</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Cellular and Molecular Medicine</orgName>
+								<orgName type="institution" key="instit1">Ludwig Institute for Cancer Research</orgName>
+								<orgName type="institution" key="instit2">University of California San Diego</orgName>
+								<address>
+									<addrLine>La Jolla</addrLine>
+									<region>California</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alessandro</forename><surname>Mariani</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">Kayser Italia</orgName>
+								<address>
+									<settlement>Livorno</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Siva</forename><forename type="middle">A</forename><surname>Vanapalli</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Chemical Engineering</orgName>
+								<orgName type="institution">Texas Tech University</orgName>
+								<address>
+									<settlement>Lubbock</settlement>
+									<region>Texas</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Timothy</forename><surname>Etheridge</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Sport and Health Sciences</orgName>
+								<orgName type="institution">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nathaniel</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Medical School Royal Derby Hospital</orgName>
+								<orgName type="laboratory">MRC Versus Arthritis Centre for Musculoskeletal Ageing Research and NIHR Nottingham BRC</orgName>
+								<orgName type="institution">University of Nottingham</orgName>
+								<address>
+									<settlement>Derby</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Molecular Muscle Experiment: Hardware and Operational Lessons for Future Astrobiology Space Experiments</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Astrobiology</title>
+						<title level="j" type="abbrev">Astrobiology</title>
+						<idno type="ISSN">1531-1074</idno>
+						<idno type="eISSN">1557-8070</idno>
+						<imprint>
+							<publisher>Mary Ann Liebert Inc</publisher>
+							<biblScope unit="volume">20</biblScope>
+							<biblScope unit="issue">8</biblScope>
+							<biblScope unit="page" from="935" to="943"/>
+							<date type="published" when="2020-08-01" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">C17D938A6606799E03776C2CC26A5646</idno>
+					<idno type="DOI">10.1089/ast.2019.2181</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:42+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Spaceflight-Space biology-Astrobiology-C. elegans-Hardware development</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Biology experiments in space seek to increase our understanding of what happens to life beyond Earth and how we can safely send life beyond Earth. Spaceflight is associated with many (mal)adaptations in physiology, including decline in musculoskeletal, cardiovascular, vestibular, and immune systems. Biological experiments in space are inherently challenging to implement. Development of hardware and validation of experimental conditions are critical to ensure the collection of high-quality data. The model organism Caenorhabditis elegans has been studied in space for more than 20 years to better understand spaceflightinduced (patho)physiology, particularly spaceflight-induced muscle decline. These experiments have used a variety of hardware configurations. Despite this, hardware used in the past was not available for our most recent experiment, the Molecular Muscle Experiment (MME). Therefore, we had to design and validate flight hardware for MME. MME provides a contemporary example of many of the challenges faced by researchers conducting C. elegans experiments onboard the International Space Station. Here, we describe the hardware selection and validation, in addition to the ground-based experiment scientific validation testing. These experiences and operational solutions allow others to replicate and/or improve our experimental design on future missions.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>S pace is an extreme environment in which humans have been routinely living and working for more than 20 years, and ambitions remain to live and work further beyond Earth. Spaceflight is associated with deconditioning of multiple bodily systems, including the musculoskeletal, cardiovascular, vestibular, and immune systems <ref type="bibr" target="#b1">(Demontis et al., 2017;</ref><ref type="bibr" target="#b20">Strollo et al., 2018)</ref>. Physiological decline occurs despite participation in exercise countermeasures, which are a potent stimulus to pro-mote musculoskeletal and cardiovascular adaptation <ref type="bibr" target="#b25">(Trappe et al., 2009)</ref> and optimal immune function <ref type="bibr" target="#b19">(Simpson et al., 2015)</ref> on Earth. While vestibular adaptations take place in the first days after transition to the microgravity environment, decline in musculoskeletal, cardiovascular, and immune systems can worsen with missions of greater duration <ref type="bibr" target="#b2">(Fitts et al., 2010;</ref><ref type="bibr" target="#b20">Strollo et al., 2018)</ref>, potentially limiting our capacity for interplanetary missions such as to Mars <ref type="bibr" target="#b4">(Gaffney et al., 2017)</ref>.</p><p>These challenges have motivated research around strategies to prevent this (mal)adaptation in space. As the precise molecular mechanisms of spaceflight-induced physiological deconditioning have not been identified, this limits our ability to design molecularly rationalized countermeasures.</p><p>Biological experiments in space can, however, be methodologically challenging. Although the United States has designated the US segment of the International Space Station (ISS) as a National Laboratory, experiments are not routinely carried out by using standardized equipment or methods that are in common use in other laboratories on Earth. Size, power, mass, late access for experiment integration onto the rocket, and ability to oversee the experiment remain challenges, despite more than 40 years of conducting biology experiments in space. Thus, the development of hardware and the validation of experimental conditions remain critical in the acquisition of quality data that can ultimately promote understanding of biological changes in space that should underpin rationale countermeasures to physiological changes in space.</p><p>Our current experiment, the Molecular Muscle Experiment (MME), uses the model organism, Caenorhabditis elegans, to explore the molecular mechanisms of spaceflight-induced muscle atrophy. C. elegans is an established model organism for studies on Earth <ref type="bibr" target="#b14">(Kaletta and Hengartner, 2006;</ref><ref type="bibr" target="#b0">Corsi et al., 2015;</ref><ref type="bibr" target="#b18">Shen et al., 2018)</ref> and in space <ref type="bibr" target="#b24">(Szewczyk et al., 2008;</ref><ref type="bibr" target="#b9">Higashitani et al., 2009;</ref><ref type="bibr" target="#b10">Honda et al., 2012</ref><ref type="bibr" target="#b12">Honda et al., , 2014;;</ref><ref type="bibr" target="#b8">Higashibata et al., 2016)</ref>.</p><p>In the context of very limited access to space, the short life span and microscopic size of C. elegans enable data to be collected across the entire life span <ref type="bibr">(Gaffney et al., 2018a)</ref> in high n numbers and replicates to generate robust data rapidly. The operational requirements of MME include many that apply to biological payloads across species (e.g., late access, temperature-controlled upload/download, and time critical astronaut interventions). MME is therefore a generalizable example of many of the challenges in conducting contemporary astrobiology research onboard the ISS.</p><p>C. elegans have been studied in space for more than 20 years by using a variety of spaceflight hardware configurations <ref type="bibr" target="#b13">(Ishioka and Higashibata, 2019)</ref>. With the exception of STS-107 <ref type="bibr" target="#b22">(Szewczyk et al., 2005)</ref>, all past flights involved in the study of C. elegans have used nonstandard laboratory hardware. It is therefore not surprising that C. elegans spaceflight experiments can fail due to lack of sufficient oxygen to support the worms <ref type="bibr" target="#b27">(Warren et al., 2013)</ref>, a problem that can be dealt with through preflight ground testing. Here, we describe the hardware selection and validation in addition to the groundbased experiment sequence validation testing for MME.</p><p>The first key challenge was overcoming the difficulty of growing worms inside plastic bags. The second key challenge was working out timings to allow upload to the ISS using passive temperature control. These studies should allow other researchers to replicate and/or improve our experimental design on future missions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Nematode and bacteria preparation</head><p>The C. elegans strain PD55 (ccIs55 (unc-54::lacZ) V) was used for development and testing phases of this study. Animals were cultured at 20°C by using standard methods on nematode growth media plates. To obtain L1 animals, age synchronizations were carried out by gravity settling as described previously <ref type="bibr" target="#b3">(Gaffney et al., 2014)</ref>. During the hardware development phases, Escherichia coli OP50 was grown overnight in LB-broth, centrifuged, and resuspended in S-Basal; 500 or 5000 L1 were used in experiments with 3-10 mL of OP50.</p><p>During the hardware development phases and all experimentation unless stipulated otherwise, stocks were prepared by adding 5000 L1 larvae to 6 mL of freeze-dried OP50 (LabTie; StartLife, Netherlands) in S-Basal. Freeze-dried OP50 was made by using LabTie's protocol of 1 vial per 250 mL S-Basal. To streamline procedures for launch preparation, worms to be flown (PD55 (ccIs55 (unc-54::lacZ) V), CF1038 (daf-16 (mu86) I), CF1139 (daf-16 (mu86) I; muIs61 (daf-16::GFP)?), PJ1145 (ccIs55 (unc-54::lacZ) V; njEx38 (unc-54p::daf-2(+) + goa-1p::GFP + rol-6 (su1006))), DM2 (dim-1 (ra102) X)) were cultured in freeze-dried OP50 in S-Basal in 75 cm 2 cell culture flasks. Animals were cultured for a minimum of 2 weeks following transfer from plates before synchronization.</p><p>During final preflight testing of the launch procedures, age synchronizations were carried out from liquid culture stocks rather than from plates to obtain 5000 L1 larvae the day before loading into bags. These cultures were left overnight in 6-well tissue culture dishes in a final volume of 500 mL freeze-dried OP50 in S-Basal at 20°C. The next day, 6 mL freeze-dried OP50 was pipetted into each well before loading into flight culture bags.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Validation of culture bags</head><p>The experimental design for launch involved growing worms inside gas-permeable plastic bags onboard the ISS. Therefore, we tested the biocompatibility of three different bag materials: (i) polyethylene (PE) bags (1.5 inch, 250 gauge, Lay Flat Polythene Tubing; Kite Packaging Ltd., United Kingdom), (ii) Japanese Aerospace Exploration Agency ( JAXA) PE bags (Nipro, Japan), and (iii) fluorinated ethylene propylene (FEP) bags (Saint-Gobain Performance Plastics; TOSS GmbH, Germany). The PE bags and FEP bags are low friction and allow good gas exchange of oxygen and carbon dioxide, although gas exchange is reported to be superior in FEP to PE in bags of equal thickness (NB. all bags have previously supported C. elegans cultures in spaceflight experiments onboard the ISS).</p><p>The JAXA bags are a proprietary PE blend that is no longer commercially available. To test the bags, 5000 L1 larvae were placed in the bag with OP50 before bags were heat sealed (Pacseal + impulse heat sealer; Rajapack, United Kingdom), and then, the worms were cultured for 7 days at 20°C. After 7 days, the total worm population in each bag was counted. Three biological replicates were carried out per condition. A one-way analysis of variance (ANOVA) was carried out in GraphPad Prism to compare the populations of worms in the three bags.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Oxygen consumption rates</head><p>To investigate whether diet influenced changes in oxygen consumption rates (OCR), measurements were carried out with the Seahorse XFe24 Analyzer (Agilent, Santa Clara, CA), as previously described <ref type="bibr" target="#b7">(Hewitt et al., 2018;</ref><ref type="bibr" target="#b15">Koopman et al., 2016)</ref>. Worms were cultured in either chemically defined media [C. elegans maintenance media, CeMM <ref type="bibr" target="#b21">(Szewczyk et al., 2003)</ref>, purchased from Cell Guidance Systems custom media service, United Kingdom], or freeze-dried OP50 in S-Basal. Adult animals were washed twice in incubation media [M9 buffer: 22.04 mM KH 2 PO 4 , 42.27 mM Na 2 HPO 4 , 85.56 mM NaCl (final concentrations, sterilized)] and placed in 200 mL M9-filled wells of standard Seahorse plates (20 worms/ well) in 5 replicates per condition. Stable OCR measurements were taken by performing five measurement cycles for basal OCR, nine cycles for maximal OCR following the addition of carbonyl cyanide p-trifluoromethoxyphenylhydrazone (FCCP) (10 mM final well concentration), and five cycles for nonmitochondrial OCR following the addition of sodium azide (40 nM final well concentration).</p><p>OCR measurements were normalized to the number of worms per well. To obtain stable OCR measurements, the final three, seven, and two measurement cycles were used for the statistical analysis of basal, maximal, and nonmitochondrial OCR, respectively, as previously described <ref type="bibr" target="#b7">(Hewitt et al., 2018)</ref>. Differences in OCR were detected with a one-way ANOVA with Tukey's multiple comparison test using GraphPad Prism 8 (La Jolla, CA). Statistical significance was set at p &lt; 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Culture volume optimization</head><p>Age-synchronized L1 larvae were placed into experimental bags containing freeze-dried OP50 in S-Basal (5000 L1 worms per bag). The amount of OP50 in the bag was optimized where 3, 4, 5, 6, 7, 8, 9, and 10 mL volumes were tested. Three biological replicates were carried out per condition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Hardware development and validation</head><p>For flight, the experimental bags were to be placed into European Space Agency (ESA) experiment cassettes (ECs). As C. elegans require oxygen to develop, gas exchange between the inside of the EC and outside of the EC is required. ECs that allowed gas exchange via a gas-permeable Gortex membrane have previously been used with C. elegans onboard the ISS <ref type="bibr" target="#b24">(Szewczyk et al., 2008)</ref>; unfortunately, these were no longer available for use with MME. Therefore, we had to design (Fig. <ref type="figure" target="#fig_0">1</ref>) and validate new ECs (Kayser Italia, Livorno, Italy).</p><p>To validate how well worms would grow inside the ECs, three bags each loaded with 5000 L1 worms and 6 mL freeze-dried OP50 in S-Basal were cultured inside the EC for 1 week at 20°C. Once complete, the population of viable worms in the bags were counted under a dissecting microscope (Nikon SMZ645; Nikon, Japan) and compared against control bags that were otherwise identical except were located outside the EC.</p><p>Two different cage inserts for the ECs were designed and tested to maintain separation between the bags during the turbulent upload phase of launch, to maintain a surface area for gas exchange in flight, and to prevent the bags from freezing together at the end of the experiment. To test which cage design was best, worms were grown in bags alone, in cage design 1, and in cage design 2. Upon selection of cage design 2, further testing was carried out by growing worms in bags alone, in cage 2 alone, and in cage 2 inside an EC. Three biological replicates were carried out per condition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Validation of experimental timings</head><p>As MME was to be uploaded in an active state (e.g., worms were not placed in stasis), and as launches to the ISS are often associated with delays due to inclement weather or technical problems, we needed to validate our experimental design to confirm that it could withstand launch delays. To test this, we obtained upload times from handover to installation on the ISS from NASA cold stowage for previous SpaceX launches (Table <ref type="table" target="#tab_0">1</ref>), as well as data for the performance of 10°C and 12°C ICE Bricks passive upload cold stowage phase change material over upload to ISS time frames.</p><p>Using these data, we loaded 5000 L1 larvae into 6 mL of freeze-dried OP50 in S-Basal into the bags inside the full EC setup (including the cage insert) and tested various upload scenarios. Following upload scenario testing, we ran the full experiment simulating a scheduled launch, a 24 h delay, and a 48 h delay. Following these simulations, the total worm populations were counted and compared with the nominal  (on-time) launch scenario. A nominal launch scenario is associated with the generation of &gt;45,000 worms per bag, which is the requirement for postflight analysis. To determine whether our experimental design could withstand a 24 or 48 h delay, we set a matched population threshold of &gt;45,000 worms per bag at the end of the experiment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Evaluation and selection of culture bags</head><p>Several previous spaceflight experiments have grown worms in liquid culture inside plastic experimental bags <ref type="bibr" target="#b17">(Selch et al., 2008;</ref><ref type="bibr" target="#b24">Szewczyk et al., 2008;</ref><ref type="bibr" target="#b9">Higashitani et al., 2009)</ref>; in some cases, worms were grown with an OP50 diet, in others with a CeMM diet. While it is not usual to grow C. elegans inside plastic bags on Earth, containment of liquid is a safety requirement onboard the ISS. We therefore sought to establish a plastic culture bag that would allow worm growth for MME.</p><p>We evaluated three culture bags based on past use in C. elegans flight experiments. Unsurprisingly, the PE bags we selected to replicate the bags used on ICE-FIRST <ref type="bibr" target="#b24">(Szewczyk et al., 2008)</ref> and the JAXA bags we selected to replicate the bags used on CERISE <ref type="bibr" target="#b9">(Higashitani et al., 2009</ref>) performed well at supporting worm growth (Fig. <ref type="figure">2</ref>). However, the FEP bags we selected to replicate bags tested on Earth <ref type="bibr" target="#b21">(Szewczyk et al., 2003)</ref> for flight use failed to support growth, with more than half of the worms actually dying in the bags (Fig. <ref type="figure">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Diet induces changes in OCR</head><p>Given that past ground tests with FEP bags <ref type="bibr" target="#b21">(Szewczyk et al., 2003)</ref> and a past flight with culture chambers utilizing FEP for gas exchange <ref type="bibr" target="#b16">(Oczypok et al., 2012)</ref> successfully supported C. elegans growth, we wanted to understand why FEP bags did not work in our ground testing (Fig. <ref type="figure">2</ref>). Since both past reports of use of FEP involved growing worms in CeMM rather than the OP50 diet used in MME, we were curious if the failure to grow was due to the food source. Worms grown in CeMM take longer to develop, have longer life expectancies, exhibit altered gene expression, and exhibit the characteristics of dietary restriction <ref type="bibr" target="#b23">(Szewczyk et al., 2006;</ref><ref type="bibr" target="#b28">Zhang et al., 2015)</ref>.</p><p>Given the physiological and gene expression changes in CeMM-grown worms, we hypothesized that worms grown in CeMM have differences in metabolism compared with those grown in OP50. To examine whether these different diets alter metabolism, we used the Seahorse XFe24 Analyzer (Agilent) to measure oxygen consumption in worms grown chronically in CeMM and OP50. As shown in Fig. <ref type="figure">3</ref>, worms grown in CeMM have significantly lower basal levels of oxygen consumption. This suggests that OP50-grown worms could have been limited for oxygen inside the FEP bags, whereas the CeMM grown worms were not. The use of CeMM rather than OP50 as a food source may therefore reduce the oxygen exchange requirement and thus increase the viability of worm experiments conducted inside plastic culture bags on the ISS.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Optimizing culture volume in the flight bags</head><p>Having determined that gas exchange was a limiting factor for worm growth inside plastic culture bags, we re-evaluated the surface area to volume ratio of our bags versus past flights CERISE <ref type="bibr" target="#b9">(Higashitani et al., 2009)</ref> and ICE-FIRST <ref type="bibr" target="#b24">(Szewczyk et al., 2008)</ref> as this ratio also influences oxygen availability for the worms within the bags. As shown in Fig. <ref type="figure">4</ref>, the surface area to volume ratio for CERISE, which used the OP50 diet, was 8.4 cm 2 /mL, whereas the ratio for ICE-FIRST, which used the CeMM diet, was 10 cm 2 /mL. We therefore maintained the size of the bag and altered the volume of worms + OP50 feed solution, testing volumes between 3 and 10 mL. Based on CERISE, which used JAXA bags, we expected a ratio of around 8.4 cm 2 /mL, which equates to a little more than 7 mL of liquid culture in the bag.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FIG. 2.</head><p>Growth of Caenorhabditis elegans in different plastic culture bags. Five thousand L1 larvae were loaded in standard Petri dishes, PE bags, JAXA bags, or FEP bags and cultured for 1 week at 20°C (all conditions in triplicate). Growth in PE bags was not significantly different from Petri dish controls, whereas both JAXA ( **p &lt; 0.01) and FEP ( ****p &lt; 0.0001) have reduced growth compared with controls. Both PE and JAXA produce viable numbers of worms for the analysis requirements, whereas FEP do not. FEP, fluorinated ethylene propylene; JAXA, Japanese Aerospace Exploration Agency; PE, polyethylene. FIG. <ref type="figure">3</ref>. C. elegans grown on a bacterial diet display increased oxygen consumption compared with a chemically defined diet. Twenty adult worms grown on bacterial diet (OP50) or chemically defined diet (CeMM) were analyzed in a Seahorse XF Analyzer (n = 5 replicates per condition). In both the basal state ( ***p &lt; 0.001) and in the maximal state following injection of FCCP ( ****p &lt; 0.0001), oxygen consumption rates are significantly higher in OP50 compared with CeMM. **p &lt; 0.01. CeMM, C. elegans maintenance media; FCCP, carbonyl cyanide p-trifluoromethoxyphenylhydrazone; SA, sodium azide.</p><p>To preserve the limited available stocks of JAXA bags and to validate materials readily available for future flights, we used PE bags instead of the JAXA bags for testing. Testing with PE bags (Fig. <ref type="figure">4</ref>) revealed that the maximum volume in the PE culture bag should be 6-7 mL, which is roughly consistent with the past performance of the JAXA bags during CERISE. Together, these results highlight the importance of considering and testing surface area for gas exchange when designing C. elegans spaceflight experiments involving liquid cultures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Flight hardware validation</head><p>The culture bags were to be held within ECs to provide an additional level of containment, thus increasing the safety of the crew as well as protecting the cultures themselves from launch and/or in-flight damage. As shown in Fig. <ref type="figure" target="#fig_0">1</ref>, cages to contain the bags within the ECs were designed to enforce space between the culture bags during launch, ensure gas exchange, and prevent culture bags from freezing together at the end of the experiment. As shown in Fig. <ref type="figure">5</ref>, when culture bags were used either outside or inside cage design 2, which had more space between the bags, there was no significant difference in worm growth. In contrast, cage design 1, which had less space between the bags, had significantly less growth than outside the cage. Thus, cage design 2 was adopted for MME.</p><p>Next, growth in the culture bags inside the ECs with or without the cages was evaluated. As shown in Fig. <ref type="figure">6</ref> Worm population size after starting with 5000 L1 worms, which were allowed to grow for 7 days at 20°C (n = 3 replicates), using different culture volumes in PE. Worm growth is optimal between 5 and 7 mL culture volume with a surface area to volume ratio in the range of 10 cm 2 /mL. FIG. <ref type="figure">5</ref>. Growth of worms within prototype cages. Five hundred L1 worms were grown in culture bags for 7 days at 20°C, either within or not within a cage design (n = 3 replicates). Worm growth was lower in cage 1 compared with no cage ( **p &lt; 0.01), whereas there was no significant difference in worm growth between no cage and cage 2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FIG. 6.</head><p>Validating growth of worms within the full experimental design. Five thousand L1 worms were grown in PE culture bags for 7 days at 20°C (n = 3 replicates). Three bags were grown without additional hardware, three bags were placed in the cage without the cassette, and three bags were placed in the complete experimental container (cage and cassette, Fig. <ref type="figure" target="#fig_0">1</ref>). No significant differences in growth were observed.</p><p>significant differences in worm growth were noted for worms grown in PE culture bags outside or inside cage design 2, confirming prior testing (Fig. <ref type="figure">5</ref>). Furthermore, there were no significant differences for worms grown in PE culture bags alone versus inside the combined cage and ECs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Optimizing culture conditions for upload</head><p>To allow for comparison of our anticipated gene expression data with gene expression data from ICE-FIRST <ref type="bibr" target="#b24">(Szewczyk et al., 2008)</ref> and CERISE <ref type="bibr" target="#b9">(Higashitani et al., 2009)</ref>, it was important that we time our cultures to enter adulthood following birth and development in space. As our experiment did not involve an activation step like CERISE, we conducted it as a timed upload like ICE-FIRST. However, for MME, the launch vehicle was SpaceX's Dragon and not Russia's Soyuz, and active temperature control during upload was not preferred from an operations perspective.</p><p>Therefore, as SpaceX's Dragon is frequently subjected to launch delays and as phase change materials could be used to maintain temperature during upload, it was important that we test various upload scenarios to establish working timings for upload to the ISS such that the worms were at an appropriate developmental stage, population density, and had not run out of food. As shown in Table <ref type="table" target="#tab_1">2</ref>, we started testing with fixed temperature of a duration calculated to allow P 0 animals to grow to adulthood during upload (days 1-3/4) and the F 1 generation to grow to mid-adulthood after living only in the spaceflight environment (days 3-8). We found that this duration exhausted our food source as evidenced by lack of visible food and presence of Dauer larvae. Reducing growth by 1 day resulted in viable worms of sufficient numbers for analysis (Table <ref type="table" target="#tab_1">2</ref> and <ref type="table" target="#tab_1">Figs. 2</ref> and <ref type="table">6</ref>).</p><p>Unfortunately, with a maximum possible late turnover of payload at launch of-24 h, 3 days from turnover until installation in an incubator onboard the ISS was not a realistic timeline to produce viable animal cultures. Thus, for the timelines/late handover scenario associated with a Dragon launch scenario, similar to ICE-FIRST <ref type="bibr" target="#b24">(Szewczyk et al., 2008)</ref>, we would require active temperature control throughout upload. We therefore moved on to test other scenarios that were, from an operations perspective, preferred.</p><p>We next tested the effect of cold incubation during the prelaunch (1 day) or prelaunch plus longest reported cold stowage upload via Dragon (Table <ref type="table" target="#tab_1">2</ref>, 8 days). For these tests, we also reduced the time of culturing at 20°C by half a day as we anticipated some level of development to occur while at 12°C. As shown in Table <ref type="table" target="#tab_1">2</ref>, chilling of the cultures for the day between handover and launch allowed for viable cultures, subjected to the same operational issues as when culturing at 20°C, whereas 8 days of chilling the cultures did not allow for all cultures tested to be viable.</p><p>We therefore tested short cold stowage upload (1 day handover to launch with 2 days from launch to the ISS) and longest reported cold stowage upload via Dragon (8 days) with a further half-day reduction in the time of culturing at 20°C. As shown in Table <ref type="table" target="#tab_1">2</ref>, both short and long cold stowage followed by 6 days of incubation produced viable cultures. These results suggested that even the longest duration cold stowage followed by a period of incubation onboard the ISS would be a suitable operational solution for MME.</p><p>As passive rather than active temperature control was preferred for upload operations, we tested the effect of passive cold stowage using NASA's phase change materials. Given that 12°C active temperature control during upload produced viable cultures, we first tested NASA's 12°C phase change materials temperature profile during long upload. As shown in Table <ref type="table" target="#tab_1">2</ref>, long cold stowage when using NASA's 12°C phase change materials temperature profile did not produce viable cultures, with worms running out of food about 1 day before the end of the incubation at 20°C. This result may appear surprising; however, the phase change material starts at 10°C and ramps up to 14°C over the period of cold stowage. Thus, from an engineering perspective, the 12°C phase change materials do indeed maintain 12°C -2°C, but from a biological perspective, this is quite different from the 12°C -0.5°C achieved via active temperature control. Confirming that 10°C phase change materials also maintain within +/-2°C, we tested long cold stowage using NASA's 10°C phase change materials temperature profile, which did produce viable cultures (Table <ref type="table" target="#tab_1">2</ref>).</p><p>Having confirmed a viable passive stowage upload scenario for MME, we finally tested the impact of a short upload scenario with the 10°C phase change materials (1 day turnover to launch, 3 days to station, 1 day to put in incubator) and found that this also produced viable cultures (Table <ref type="table" target="#tab_1">2</ref>). Thus, through various iterations of testing that included what we might do to culture worms in our own laboratory, to implementing operational restrictions imposed by launch and upload to the ISS coupled with a better understanding of passive cold stowage performance, we were able to achieve a viable experimental protocol. Importantly, the data from this testing also inform of the ability of the experimental protocol to perform in other, offnominal scenarios. Having finalized an operationally acceptable upload scenario, we prepared for flight. First, to help increase the visibility of our outreach efforts <ref type="bibr">(Gaffney et al., 2018b)</ref>, we developed and finalized a mission logo (Fig. <ref type="figure" target="#fig_3">7</ref>). This was distributed to *2000 members of the public, mainly school children, between final ground testing and launch and created a ''brand'' for our experiment that was used by the UK government and media, which reached an estimated 41 million people.</p><p>Second, in consultation with ESA, we agreed a nominal launch scenario to be used in our final testing (Fig. <ref type="figure" target="#fig_2">8A</ref>) as well as to assess the impact of a 24-and 48-h launch delay on our finalized experimental timeline. Note that a notional period of time (7 days) was used to simulate time in the Minus Eighty Laboratory Freezer for ISS (MELFI) before download of the samples back to Earth. As shown in Fig. <ref type="figure" target="#fig_2">8B</ref>, cultures from the nominal and both launch delay scenarios grew as expected.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>The desired culture bag and EC hardware used in the past were not available for use with MME. Therefore, what should have been a straightforward repurposing of previously flown hardware became a program of work to redesign and revalidate flight hardware. This entailed dealing with the frequent challenges of successfully designing and flying an experiment to the ISS: use and validation of nonstandard laboratory hardware and validation of experimental timings for upload of biologically active experiments to the ISS.</p><p>We evaluated three culture bags based on past use in C. elegans flight experiments. Unsurprisingly, two of the bags selected to replicate bags used in previous flight performed well. However, one of the bags selected, made of FEP, was not compatible with worm growth despite having previously been used. This result was particularly striking as FEP is reported to have better gas exchange properties than PE and is why FEP bags are used to fly cell culture experiments <ref type="bibr" target="#b26">(Vassy et al., 2001)</ref>. Upon closer inspection of the specifications of the PE and FEP bags, it was clear that the PE bags were half as thick as the FEP bags and therefore performed better as a gas exchange surface despite worse performance as a material.</p><p>As both PE and FEP bags are nonstandard equipment for growing C. elegans, these findings highlight the importance of properly testing proposed flight hardware before flight, as selecting FEP bags for better gas exchange and ease of use properties (e.g., the capacity to load animals into bags via injection ports) was the operational preference before testing. Having uncovered that gas exchange did appear to be a concern for growing worms in plastic bags, we tested if culture volume to gas exchange surface area impacted culture growth. Unsurprisingly, we found that it did, which enabled us to optimize culture volume for MME, something not done for ICE-FIRST <ref type="bibr" target="#b24">(Szewczyk et al., 2008)</ref>.  We also examined worm oxygen consumption using the diet from ICE-FIRST, CeMM <ref type="bibr" target="#b24">(Szewczyk et al., 2008)</ref>, and the diet from CERISE, OP50 <ref type="bibr" target="#b9">(Higashitani et al., 2009)</ref>. Consistent with the biological changes for worms grown in CeMM <ref type="bibr" target="#b21">(Szewczyk et al., 2003</ref><ref type="bibr" target="#b23">(Szewczyk et al., , 2006))</ref>, we found that the worms consumed less oxygen. Collectively, our results suggest that growing worms in plastic culture bags does pose a challenge to worm experiment viability. The use of CeMM rather than OP50 as a food source may therefore reduce the oxygen exchange requirement and thus increase the viability of worm experiments conducted inside plastic culture bags on the ISS, but this comes with the added challenge that CeMM is more prone to become contaminated.</p><p>Regardless, it remains clear that proper ground testing is required preflight despite past successful C. elegans spaceflight experiments. Additionally, in contrast to challenges with experimental bags and gas exchange, the development of new ECs, similarly dependent on effective surface area to volume ratios, presented no problems. Gas exchange in the ECs was capable of producing a viable experiment. This result suggests that for future experiments it is likely that gas exchange between the C. elegans culture and ISS will be limited principally by the exchange properties of the culture bags and not the ECs.</p><p>The second most challenging portion of our preflight testing was testing and finalizing suitable scenarios for upload to the ISS that were consistent both with current operational realities and with successfully conducting our experiment. The data on durations from payload handover until integration on the ISS provided us with a realistic range of upload timings and should prove useful for others planning to upload via Dragon with NASA cold stowage.</p><p>Using these timings, we were able to establish that a C. elegans payload can be kept in a stasis during cold upload at 8-12°C, then subsequently grow and reproduce effectively. Of note, while the use of phase change material removed the need for active temperature control during upload, it was critical that we tested the performance of the phase change material temperature profile. Indeed, for biologically active cultures, phase change material provides a significantly different temperature profile than active temperature control.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>In conclusion, we have updated the flight hardware and upload conditions available to support C. elegans experiments onboard the ISS. These validations provide a platform for MME and future investigators to successfully, and efficiently, conduct experiments onboard the ISS.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG. 1 .</head><label>1</label><figDesc>FIG. 1. Hardware for the MME. Images of the hardware used for the experiment include (A) the first cage prototype and (B) the second cage prototype developed by Kayser Italia. (C) The assembly of experimental bags and cages within the EC. EC, experiment cassette; MME, Molecular Muscle Experiment. Color image is available online.</figDesc><graphic coords="3,59.75,453.49,240.09,215.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>FIG. 4. Optimization of culture volume in PE bags. (A) Volume of liquid culture and surface area to volume ratio in CERISE, ICE-FIRST, and MME. (B)Worm population size after starting with 5000 L1 worms, which were allowed to grow for 7 days at 20°C (n = 3 replicates), using different culture volumes in PE. Worm growth is optimal between 5 and 7 mL culture volume with a surface area to volume ratio in the range of 10 cm 2 /mL.</figDesc><graphic coords="5,64.74,59.76,480.19,186.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIG. 8 .</head><label>8</label><figDesc>FIG. 8. Final experimental timeline verification test. (A) Timing details for nominal upload, 24 h, and 48 h delays to launch. (B) Population growth after the full experiment following a nominal upload, and a simulated 24 and 48 h delay.One-way ANOVA is not significant between the three groups. ANOVA, analysis of variance.</figDesc><graphic coords="7,59.75,528.55,492.15,170.19" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FIG. 7 .</head><label>7</label><figDesc>FIG. 7. MME mission logo.</figDesc><graphic coords="7,65.31,59.76,228.08,209.82" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Duration from Launch: 26 H Turnover to NASA Cold Stowage Until Installation on the International Space Station</figDesc><table><row><cell>Mission</cell><cell>Handover to installation, h</cell></row><row><cell>SpX-4</cell><cell>130</cell></row><row><cell>SpX-5</cell><cell>97</cell></row><row><cell>SpX-6</cell><cell>137</cell></row><row><cell>SpX-8</cell><cell>91</cell></row><row><cell>SpX-9</cell><cell>105</cell></row><row><cell>SpX-10</cell><cell>152</cell></row><row><cell>SpX-11</cell><cell>138</cell></row><row><cell>SpX-12</cell><cell>90</cell></row><row><cell>SpX-13</cell><cell>94</cell></row><row><cell>SpX-14</cell><cell>94</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Operation Scenarios Tested</figDesc><table><row><cell></cell><cell>Temperature</cell><cell></cell></row><row><cell>Duration</cell><cell>profile</cell><cell>Outcome</cell></row><row><cell>8 Days</cell><cell>20°C</cell><cell>Not viable, ran out of food</cell></row><row><cell>7 Days</cell><cell>20°C</cell><cell>Viable, no Dauer larvae</cell></row><row><cell>1 Day</cell><cell>12°C</cell><cell>Viable</cell></row><row><cell cols="2">+6.5 Days 20°C</cell><cell></cell></row><row><cell>8 Days</cell><cell>12°C</cell><cell>Some tests ran out of food</cell></row><row><cell cols="2">+6.5 Days 20°C</cell><cell>around day 5.5 at 20°C</cell></row><row><cell>3 Days</cell><cell>12°C</cell><cell>Viable</cell></row><row><cell>+6 Days</cell><cell>20°C</cell><cell></cell></row><row><cell>8 Days</cell><cell>12°C</cell><cell>Viable, food close</cell></row><row><cell>+6 Days</cell><cell>20°C</cell><cell>to exhaustion</cell></row><row><cell>8 Days</cell><cell>NASA 12°C</cell><cell>Ran out of food around</cell></row><row><cell></cell><cell>phase change</cell><cell>day 5 at 20°C</cell></row><row><cell>+6 Days</cell><cell>20°C</cell><cell></cell></row><row><cell>8 Days</cell><cell>NASA 10°C</cell><cell>Viable</cell></row><row><cell></cell><cell>phase change</cell><cell></cell></row><row><cell>+6 Days</cell><cell>20°C</cell><cell></cell></row><row><cell>5 Days</cell><cell>NASA 10°C</cell><cell>Viable</cell></row><row><cell></cell><cell>phase change</cell><cell></cell></row><row><cell>+6 Days</cell><cell>20°C</cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="938" xml:id="foot_0"><p>POLLARD ET AL.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors would like to thank the <rs type="institution">UK Space Agency</rs>, <rs type="institution">ESA</rs>, <rs type="institution">JAXA</rs>, and <rs type="institution">BIOTESC</rs> for their support of the <rs type="institution">Molecular Muscle Experiment</rs>.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding Information</head><p>This work was supported by the <rs type="funder">BBSRC</rs> (Grant Nos. <rs type="grantNumber">BB/N015894/1</rs>, <rs type="grantNumber">BB/P025781/1</rs>); the <rs type="funder">UK Space Agency</rs> and the <rs type="funder">STFC</rs> (Grant No. <rs type="grantNumber">ST/R005737/1</rs>); and <rs type="funder">ESA</rs> (<rs type="programName">designations Molecular Muscle Experiment</rs> and <rs type="grantNumber">ESA-14-ISLRA_Prop-0029</rs>). J.E.H. and S.A.V. were supported by the <rs type="funder">National Aeronautics and Space Administration (NASA)</rs> (<rs type="grantNumber">NNX15AL16G</rs> to S.A.V.). Some strains were provided by the CGC, which is funded by <rs type="funder">NIH Office of Research Infrastructure Programs</rs> (<rs type="grantNumber">P40 OD010440</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_QBvETFj">
+					<idno type="grant-number">BB/N015894/1</idno>
+				</org>
+				<org type="funding" xml:id="_baBY7u7">
+					<idno type="grant-number">BB/P025781/1</idno>
+				</org>
+				<org type="funding" xml:id="_c6j4bjJ">
+					<idno type="grant-number">ST/R005737/1</idno>
+				</org>
+				<org type="funding" xml:id="_NczgC95">
+					<idno type="grant-number">ESA-14-ISLRA_Prop-0029</idno>
+					<orgName type="program" subtype="full">designations Molecular Muscle Experiment</orgName>
+				</org>
+				<org type="funding" xml:id="_Zh2AXVz">
+					<idno type="grant-number">NNX15AL16G</idno>
+				</org>
+				<org type="funding" xml:id="_5bunKRt">
+					<idno type="grant-number">P40 OD010440</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Disclosure Statement</head><p>No competing financial interests exist.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Address correspondence to:</head><p>Nathaniel J. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A transparent window into biology: a primer on Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Corsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wightman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chalfie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="page" from="387" to="407" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Human pathophysiological adaptations to the space environment</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Demontis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Germani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Caiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Barravecchia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Passino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angeloni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">547</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Prolonged space flight-induced alterations in the structure and function of human skeletal muscle fibres</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Fitts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Trappe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Costill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Gallagher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Creer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Colloton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Romatowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Bain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Riley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">588</biblScope>
+			<biblScope unit="page" from="3567" to="3592" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Methods to assess subcellular compartments of muscle in C. elegans</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Gaffney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Bass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Barratt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<idno type="DOI">10.3791/52043</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Vis Exp e</title>
+		<imprint>
+			<biblScope unit="page">52043</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The effect of long-term confinement and the efficacy of exercise countermeasures on muscle strength during a simulated mission to Mars: data from the Mars500 study</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Gaffney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fomina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Babich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kitov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Uskov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sport Med Open</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">40</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Greater loss of mitochondrial function with ageing is associated with earlier onset of sarcopenia in C. elegans</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Gaffney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Barratt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Constantin-Teodosiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Greenhaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aging</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="3382" to="3396" />
+			<date type="published" when="2018">2018</date>
+			<pubPlace>Albany. NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Worms in space for outreach on earth: Space Life Science activities for the classroom</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Gaffney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Deane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cooke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Balsamo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hewitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vanapalli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etheridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Phillips</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gravit Space Res</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="74" to="82" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Muscle strength deficiency and mitochondrial dysfunction in a muscular dystrophy model of Caenorhabditis elegans and its functional response to drugs</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hewitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lesanpezeshki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Deane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Gaffney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etheridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Vanapalli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dis Model Mech</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">dmm</biblScope>
+			<biblScope unit="page">36137</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Microgravity elicits reproducible alterations in cytoskeletal and metabolic gene and protein expression in space-flown Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hashizume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nemoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etheridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sugimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Baba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mogami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fukui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashitani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">15022</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">C. elegans RNAi space experiment (CERISE) in Japanese Experiment Module KIBO</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hashizume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sugimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nemoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etheridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Takanami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fukui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamazaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ishioka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Sci Space</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="183" to="187" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Genes down-regulated in spaceflight are involved in the control of longevity in Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Matsunaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yonezawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kawano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kuriyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shimazu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ishioka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Honda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">942</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Pollard</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Spaceflight and ageing: reflecting on Caenorhabditis elegans in space</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Narici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gerontology</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="138" to="142" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Space experiments using C. elegans as a model organism</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ishioka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-50909-9_3-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Handbook of Space Pharmaceuticals</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="32" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Finding function in novel targets: C. elegans as a model organism</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kaletta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">O</forename><surname>Hengartner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Drug Discov</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="387" to="399" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A screening-based platform for the assessment of cellular respiration in Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Koopman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Michels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Dancy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kamble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mouchiroud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Auwerx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Nollen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Houtkooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Protoc</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1798" to="1816" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Remote automated multi-generational growth and observation of an animal in low Earth orbit</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Oczypok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Etheridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stodieck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Johnsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baillie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J R Soc Interface</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="596" to="599" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Genomic response of the nematode Caenorhabditis elegans to spaceflight</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Selch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Imamizo-Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ishioka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Conley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Sp Res</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="807" to="815" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Caenorhabditis elegans: a convenient in vivo model for assessing the impact of food bioactive compounds on obesity, aging, and Alzheimer&apos;s disease</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Food Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1" to="22" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Exercise and the regulation of immune functions</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kunz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Agha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Graff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog Mol Biol Transl Sci</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="355" to="380" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Recent progress in space physiology and aging</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Strollo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gentile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Strollo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mambro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vernikos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1551</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Chemically defined medium and Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kozak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Conley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">19</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Caenorhabditis elegans survives atmospheric breakup of STS-107, Space Shuttle Columbia</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Mancinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Mclamb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Blumberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Conley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="690" to="705" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Delayed development and lifespan extension as features of metaboliclifestyle alteration in C. elegans under dietary restriction</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Udranszky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kozak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sunga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Jacobson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Conley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">209</biblScope>
+			<biblScope unit="page" from="4129" to="4139" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Description of international Caenorhabditis elegans experiment first flight (ICE-FIRST)</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tillman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Conley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Granger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Segalat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kagawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Adachi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fujimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kuriyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ishioka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fukui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baillie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gasset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Eche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaput</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">M</forename><surname>Viso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Sp Res</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="1072" to="1079" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Exercise in space: human skeletal muscle after 6 months aboard the International Space Station</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Trappe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Costill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gallagher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Creer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Riley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Fitts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="1159" to="1168" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The effect of weightlessness on cytoskeleton architecture and proliferation of human breast cancer cell line MCF-7</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vassy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Portet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Beil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Millot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fauvel-Lafeve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Karniguian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gasset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Irinopoulou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Calvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Rigaut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schoevaert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1104" to="1106" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Evaluation of the fluids mixing enclosure system for life science experiments during a commercial Caenorhabditis elegans spaceflight experiment</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Golden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hanover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Love</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Shephard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Space Res</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="2241" to="2250" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">TMC-1 attenuates C. elegans development and sexual behaviour in a chemically defined food environment</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Gualberto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Correa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Garcia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">6345</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

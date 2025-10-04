@@ -1,0 +1,2254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Longitudinal multi-omics analysis of host microbiome architecture and immune responses during short-term spaceflight</title>
+				<funder>
+					<orgName type="full">Basic Science Research Program</orgName>
+				</funder>
+				<funder ref="#_NJfhqU8">
+					<orgName type="full">National Institutes of Health</orgName>
+				</funder>
+				<funder ref="#_sXbGBkP">
+					<orgName type="full">LLS</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Scientific Computing Unit</orgName>
+					<orgName type="abbreviated">SCU</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">MOGAM Science Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">NASA Space Biology Program (Science Mission Directorate, Biological and Physical Sciences Division)</orgName>
+				</funder>
+				<funder ref="#_4TkMpaq #_DBeD65X">
+					<orgName type="full">NASA</orgName>
+				</funder>
+				<funder ref="#_wVxmWJE">
+					<orgName type="full">Ministry of Education</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">WorldQuant Foundation</orgName>
+				</funder>
+				<funder ref="#_GjGKJfw">
+					<orgName type="full">GI Research Foundation (GIRF)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Research Foundation of Korea</orgName>
+					<orgName type="abbreviated">NRF</orgName>
+				</funder>
+				<funder ref="#_GWXeVDV #_eFDUdPR #_Nz6RNAS #_G8Dv9qg #_He3GMVg #_zrRQcfJ #_8TPbw8V">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-06-11">11 June 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Braden</forename><forename type="middle">T</forename><surname>Tierney</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physiology and Biophysics</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jangkeun</forename><surname>Kim</surname></persName>
+							<idno type="ORCID">0000-0002-8733-9925</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physiology and Biophysics</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eliah</forename><forename type="middle">G</forename><surname>Overbey</surname></persName>
+							<idno type="ORCID">0000-0002-2866-8294</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Krista</forename><forename type="middle">A</forename><surname>Ryon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physiology and Biophysics</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jonathan</forename><surname>Foox</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physiology and Biophysics</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Maria</forename><forename type="middle">A</forename><surname>Sierra</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Tri-Institutional Biology and Medicine program</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chandrima</forename><surname>Bhattacharya</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Tri-Institutional Biology and Medicine program</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Namita</forename><surname>Damle</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Deena</forename><surname>Najjar</surname></persName>
+							<idno type="ORCID">0009-0009-7950-2866</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physiology and Biophysics</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="institution">Albert Einstein College of Medicine</orgName>
+								<address>
+									<settlement>Bronx</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jiwoon</forename><surname>Park</surname></persName>
+							<idno type="ORCID">0000-0003-0045-1429</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physiology and Biophysics</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">Sebastian</forename><surname>Garcia Medina</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nadia</forename><surname>Houerbi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physiology and Biophysics</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Cem</forename><surname>Meydan</surname></persName>
+							<idno type="ORCID">0000-0002-0663-6216</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physiology and Biophysics</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jeremy</forename><surname>Wain Hirschberg</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jake</forename><surname>Qiu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ashley</forename><forename type="middle">S</forename><surname>Kleinman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physiology and Biophysics</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gabriel</forename><forename type="middle">A</forename><surname>Al-Ghalith</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="institution">Seed Health, Inc</orgName>
+								<address>
+									<settlement>Venice</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matthew</forename><surname>Mackay</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Tri-Institutional Biology and Medicine program</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Evan</forename><forename type="middle">E</forename><surname>Afshin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physiology and Biophysics</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Raja</forename><surname>Dhir</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="institution">Seed Health, Inc</orgName>
+								<address>
+									<settlement>Venice</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department">Swiss Institute of Allergy and Asthma Research (SIAF)</orgName>
+								<orgName type="institution">University of Zurich</orgName>
+								<address>
+									<settlement>Davos</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Joseph</forename><surname>Borg</surname></persName>
+							<idno type="ORCID">0000-0002-2220-5651</idno>
+							<affiliation key="aff8">
+								<orgName type="department" key="dep1">Department of Applied Biomedical Science</orgName>
+								<orgName type="department" key="dep2">Faculty of Health Sciences</orgName>
+								<orgName type="institution">University of Malta</orgName>
+								<address>
+									<settlement>Msida</settlement>
+									<country key="MT">Malta</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christine</forename><surname>Gatt</surname></persName>
+							<idno type="ORCID">0000-0003-0100-7952</idno>
+							<affiliation key="aff8">
+								<orgName type="department" key="dep1">Department of Applied Biomedical Science</orgName>
+								<orgName type="department" key="dep2">Faculty of Health Sciences</orgName>
+								<orgName type="institution">University of Malta</orgName>
+								<address>
+									<settlement>Msida</settlement>
+									<country key="MT">Malta</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nicholas</forename><surname>Brereton</surname></persName>
+							<idno type="ORCID">0000-0002-2434-3249</idno>
+							<affiliation key="aff9">
+								<orgName type="department">School of Biology and Environmental Science</orgName>
+								<orgName type="institution">University College Dublin</orgName>
+								<address>
+									<settlement>Dublin</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Benjamin</forename><forename type="middle">P</forename><surname>Readhead</surname></persName>
+							<affiliation key="aff10">
+								<orgName type="department">ASU-Banner Neurodegenerative Disease Research Center</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Semir</forename><surname>Beyaz</surname></persName>
+							<affiliation key="aff11">
+								<orgName type="institution">Cold Spring Harbor Laboratory</orgName>
+								<address>
+									<settlement>Cold Spring Harbor</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kasthuri</forename><forename type="middle">J</forename><surname>Venkateswaran</surname></persName>
+							<affiliation key="aff12">
+								<orgName type="laboratory">Jet Propulsion Laboratory</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kelly</forename><surname>Wiseman</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Juan</forename><surname>Moreno</surname></persName>
+							<affiliation key="aff13">
+								<orgName type="institution">Element Biosciences</orgName>
+								<address>
+									<settlement>San Diego</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrew</forename><forename type="middle">M</forename><surname>Boddicker</surname></persName>
+							<affiliation key="aff13">
+								<orgName type="institution">Element Biosciences</orgName>
+								<address>
+									<settlement>San Diego</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Junhua</forename><surname>Zhao</surname></persName>
+							<affiliation key="aff13">
+								<orgName type="institution">Element Biosciences</orgName>
+								<address>
+									<settlement>San Diego</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bryan</forename><forename type="middle">R</forename><surname>Lajoie</surname></persName>
+							<affiliation key="aff13">
+								<orgName type="institution">Element Biosciences</orgName>
+								<address>
+									<settlement>San Diego</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ryan</forename><forename type="middle">T</forename><surname>Scott</surname></persName>
+							<idno type="ORCID">0000-0003-0654-5661</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Andrew</forename><surname>Altomare</surname></persName>
+							<affiliation key="aff13">
+								<orgName type="institution">Element Biosciences</orgName>
+								<address>
+									<settlement>San Diego</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Semyon</forename><surname>Kruglyak</surname></persName>
+							<affiliation key="aff13">
+								<orgName type="institution">Element Biosciences</orgName>
+								<address>
+									<settlement>San Diego</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shawn</forename><surname>Levy</surname></persName>
+							<affiliation key="aff13">
+								<orgName type="institution">Element Biosciences</orgName>
+								<address>
+									<settlement>San Diego</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">George</forename><forename type="middle">M</forename><surname>Church</surname></persName>
+							<affiliation key="aff15">
+								<orgName type="institution">Harvard Medical School and the Wyss Institute</orgName>
+								<address>
+									<settlement>Boston</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christopher</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+							<idno type="ORCID">0000-0002-1850-1642</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physiology and Biophysics</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">BioAstra, Inc</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff16">
+								<orgName type="department">The WorldQuant Initiative for Quantitative Prediction</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Longitudinal multi-omics analysis of host microbiome architecture and immune responses during short-term spaceflight</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Nature Microbiology</title>
+						<title level="j" type="abbrev">Nat Microbiol</title>
+						<idno type="eISSN">2058-5276</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">9</biblScope>
+							<biblScope unit="issue">7</biblScope>
+							<biblScope unit="page" from="1661" to="1675"/>
+							<date type="published" when="2024-06-11">11 June 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">19D3616AAFFEEB810D35928114BFAB3E</idno>
+					<idno type="DOI">10.1038/s41564-024-01635-8</idno>
+					<note type="submission">Received: 31 August 2023 Accepted: 9 February 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:39+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Longitudinal multi-omics analysis of host microbiome architecture and immune responses during short-term spaceflight</head><p>Maintenance of astronaut health during spaceflight will require monitoring and potentially modulating their microbiomes. However, documenting microbial shifts during spaceflight has been difficult due to mission constraints that lead to limited sampling and profiling. Here we executed a six-month longitudinal study to quantify the high-resolution human microbiome response to three days in orbit for four individuals. Using paired metagenomics a nd m et at ra ns cr ip tomics alongside single-nuclei immune cell profiling, we characterized time-dependent, multikingdom microbiome changes across 750 samples and 10 body sites before, during and after spaceflight a t e i g ht t i m ep o i nts. We found that most alterations were transient across body sites; for example, viruses increased in skin sites mostly during flight. However, longer-term shifts were observed in the oral microbiome, including increased plaque-associated bacteria (for example, Fusobacteriota), which correlated with immune cell gene expression. Further, microbial genes associated with phage activity, toxinantitoxin systems and stress response were enriched across multiple body sites. In total, this study reveals in-depth characterization of microbiome and immune response shifts experienced by astronauts during short-term spaceflight and the associated changes to the living environment, which can help guide future missions, spacecraft design and space habitat planning.</p><p>The sources and health impacts of spaceflight-associated microbiome shifts are an open, yet important area of study. Microbes play manifold roles in human physiology; understanding the complex interplay between the space environment and host-microbiome composition is critical. This is especially true with the recent proliferation of commercial spaceflight missions and increased space tourism: individuals with increasingly diverse medical histories will travel into space and to the Moon (for example, dearMoon) <ref type="bibr" target="#b0">1</ref> , and these crews will also carry a more complex history and range of microbiome states (for example, recent antibiotic usage). In this new age, astronauts can be immunocompromised, cancer survivors, elderly or have other health profiles that put them severe other severe outcomes, especially relative to previous NASA, ESA, JAXA and ROSCOSMOS missions <ref type="bibr" target="#b1">2</ref> .</p><p>Microbes are already associated with many spaceflight-specific health indications. In microgravity, many individuals experience gastrointestinal discomfort (that is, constipation), which is heavily linked to gut microbiome composition <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref> . The skin barrier is disrupted and often inflamed, allowing potential invasion of pathobionts or otherwise inflammatory microorganisms <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref> . Although the mechanisms are not entirely understood, the immune system experiences suppression during spaceflight, leading to inflammation or a 'reactivation' of latent infections, such as herpes viruses <ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref> . As a result, identifying the sources and impacts of microbiome changes as a function of spaceflight will be essential for the development of microbiome-targeted, spaceflight-relevant diagnostics and therapeutics.</p><p>classifier between flight and the abundance of (1) bacterial species, (2)  viral genera and non-redundant proteins. We grouped false discovery rate (FDR) significant (q-value &lt; 0.05) features into four categories: transiently increased in-flight, transiently decreased in-flight, persistently increased in/after flight and persistently decreased in/after flight. We additionally fit generalized linear models (GLMs) alongside LMEs and identified the two approaches to be generally concordant (Extended Data Fig. <ref type="figure" target="#fig_3">2</ref>).</p><p>In total, we observed a predominantly transient restructuring of the oral, nasal and skin microbiomes as a function of flight (Fig. <ref type="figure" target="#fig_12">1b-c</ref> and Extended Data Fig. <ref type="figure" target="#fig_5">3</ref>). Across all ten sites swabbed and regressed, over 821,337 associations were statistically significant (adjusted P &lt; 0.05) and grouped into one of the four categories of interest. These comprised 314,701 distinct microbial features: 792 were viral, 767 were bacterial and the remaining were microbial genes. The majority (73.5%) of significant and categorized features were transiently increased in abundance, yet 24.6% were transiently depleted during flight, and 0.6% and 1.1% of features appeared to continually increase or decrease (respectively) following the crew's return to Earth across multiple timepoints. Transient shifts were more dramatic than persistent ones. The limited persistence of changes indicates that, while microbial communities may restructure in space, the relative abundance of altered organisms, as well as their gene expression, generally reset upon returning to Earth. Despite these changes, we note that this analysis alone does not indicate the degree to which spaceflight itself, versus other confounding factors such as altered diet, affects the host microbiota.</p><p>Different body sites displayed distinct time trends that varied depending on molecular type (gene expression vs relative abundance) and domain of life. Time-dependent shifts were apparent in all body sites. The oral microbiome displayed a restructuring in both relative abundance and bacterial gene expression; 161 bacterial and viral taxonomies were transiently increased, 173 were transiently decreased, 62 were persistently increased and 12 were persistently decreased (Fig. <ref type="figure" target="#fig_12">1c</ref>). Alternatively, the skin microbiome demonstrated fewer persistent changes, with 933 transiently increased (metagenomic) taxa across all eight skin sites. The number and direction of altered microbiome features were generally consistent across classification methods (Extended Data Fig. <ref type="figure" target="#fig_10">4</ref>), and most taxonomic associations were unique to individual body sites (Extended Data Fig. <ref type="figure">5</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bacterial and viral shifts during and after spaceflight</head><p>We next interrogated the taxonomies of bacterial shifts during spaceflight. The organisms with the strongest effects were distinct across biological modalities; in other words, an increase in gene expression did not necessarily imply the existence of a similar increase in the abundance of DNA ascribed to a given species. This discordance was apparent in the oral microbiome (Fig. <ref type="figure" target="#fig_3">2</ref>), for example, where there was almost no overlap between the organisms that altered in terms of relative abundance and those that altered in terms of gene expression.</p><p>Specifically, the oral microbiome demonstrated flight-dependent variation in the metatranscriptomic expression of bacteria associated with dental decay and biofilm formation (Fig. <ref type="figure" target="#fig_3">2</ref>). Various members of Fusobacteriota, a progenitor to gum and tooth disease previously reported as spaceflight-associated, demonstrated an increase either in or after spaceflight <ref type="bibr" target="#b26">27</ref> . These included Fusobacterium hwasookii, Fusobacterium nucleatum and Leptotrichia hofstadii. Other oral biofilm species known to aggregate synergistically with Fusobacterium species in the mouth were also enriched in and after flight; these included Streptococcus gordonii A, multiple Campylobacter species and Actinomyces oris species <ref type="bibr" target="#b27">28</ref> . Also, there was a persistent loss in the expression of Streptococcus oralis spp. and Lachnoanaerobaculum gingivalis, and a transient decrease in Veillonella spp. Alloscardovia omnicolens was the only organism with a strong, persistent increase in metagenomic levels. We compared the MetaPhlAn4 associations to those identified Microbial physiology, genetics and community composition are also dramatically affected by the space environment, probably due to the stressors of microgravity and radiation <ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref> . These changes, taken together, alter the nature of microbial communities and, therefore, their cumulative impact on the host <ref type="bibr" target="#b20">21</ref> . We recently documented the 'International Space Station (ISS) effect', in which organisms on the ISS exhibit increasing resistance to antibiotics over time, despite not having been exposed to them in the first place <ref type="bibr" target="#b21">22</ref> . Many Biosafety Level 2 organisms, including Haemophilus influenzae, Klebsiella pneumonia, Salmonella enterica, Shigella sonnei and Staphylococcus aureus, have been observed to exhibit ecological succession in the environment of the ISS, demonstrating the propensity of the space environment to select for specific community compositions and gene content <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b23">24</ref> .</p><p>Early studies in aerospace medicine have indicated that the microbiomes of humans and the built environment shift as a function of spaceflight <ref type="bibr" target="#b24">25</ref> ; however, there are many open questions regarding spaceflight's microbiome architecture: the totality of detectable flight-associated compositional and expression shifts in the set of all bacteria, viruses and microbial genes in the host and their surrounding environment (Glossary/Supplementary Table <ref type="table">1</ref>). Also, the proportion of organisms acquired from other crew members, versus from the environment, remains unclear, and the transience of microbiome changes post-flight remains opaque. Notably, the metatranscriptomic activity of human-associated microbes in response to flight is completely absent. These questions predominantly remain because previous studies have been hampered by (1) limited sample sizes, (2) a lack of longitudinal data and (3) a focus on single sequencing modalities (that is, amplicon sequencing or only DNA profiles).</p><p>To interrogate microbiome community activity in spaceflight, we recently executed a longitudinal, multi-omic (metagenomics, metatranscriptomics, single-cell immunome) sampling study of the SpaceX Inspiration4 mission (i4)-the first all-civilian commercial spaceflight. Over a 6-month window, the crew collected environmental (that is, from the Dragon capsule), skin (n = 8 sites), nasal and oral swabs at eight timepoints before, during and after a 3-day, high-elevation (590 km) mission in orbit, as well as peripheral blood mononuclear cells (PBMCs) before and after spaceflight (n = 3 per flight window). We focused on expression and abundance shifts and their relationship to host immune status as a function of spaceflight. Our results yield a standardized approach for temporally monitoring microbial exposomic changes as a function of spaceflight and, in total, characterize the microbiome architecture <ref type="bibr" target="#b25">26</ref> of biomedically relevant taxa that are activated or repressed during short-term spaceflight.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The human microbiome is altered in short-term spaceflight</head><p>The i4 crew collected a microbiome dataset spanning eight timepoints: three before flight, three after flight and two during flight. In total, we sequenced 385 metagenomic and 365 metatranscriptomic swabs comprising ten body sites representing the oral, nasal and skin microbiomes (n = 750 samples, Fig. <ref type="figure" target="#fig_12">1a</ref>), plus eight stool samples (from two participants before and after flight). Locations inside the Dragon capsule were swabbed twice in flight and also before spaceflight (a separate capsule was utilized for crew training).</p><p>We used a diverse set of short-read alignment and de novo assembly approaches to estimate the microbial community taxonomic and functional composition of our dataset (Extended Data Fig. <ref type="figure" target="#fig_1">1</ref>, Methods and Supplementary Figs. <ref type="figure" target="#fig_1">1</ref><ref type="figure" target="#fig_3">2</ref><ref type="figure" target="#fig_5">3</ref><ref type="figure" target="#fig_10">4</ref><ref type="figure">5</ref><ref type="figure">6</ref><ref type="figure">7</ref>). We queried whether the conditions of short-term spaceflight (potentially including, for example, microgravity, radiation or altered dietary and cleaning habits) altered overall bacterial and viral community composition and expression consistently across the crews. Via a linear mixed effect (LME) modelling approach, we executed a microbiome-association study (MAS), computing associations for each taxonomic rank and Article <ref type="url" target="https://doi.org/10.1038/s41564-024-01635-8">https://doi.org/10.1038/s41564-024-01635-8</ref> in the GTDB database and found similar results, especially regarding the overall enrichment of Fusobacterium sp. in flight.</p><p>Many of the strongest bacterial skin microbiome alterations (Fig. <ref type="figure" target="#fig_5">3</ref>) were predominantly metagenomic, as opposed to metatranscriptomic. We hypothesized that this may indicate the acquisition of new but non-transcriptionally active species from the surrounding environment and crew. For example, persistent increases were mostly in the metagenomic content of various gut microbes (for example, Bacteroides, Parabacteroides, Blautia, Enterocloster); this may result from altered hygiene habits during spaceflight.</p><p>As with the oral microbiome, there was little concordance between metagenomic and metatranscriptomic changes. On the other hand, Corynebacterium species (common skin commensals) experienced metatranscriptomic, temporary depletion in-flight, and Acinetobacter spp. demonstrated a persistent depletion. These 'typical' skin microbes (for example, Corynebacterium, Staphylococcus, Variovorax, Acinetobacter) underwent changes in metatranscriptomic activity, whereas organisms not universally found on the human skin (for example, Mesorhizobium spp., Prevotella spp.) tended to experience metagenomic shifts, again indicating the potential acquisition of non-transcriptionally active organisms from different niches.</p><p>However, the landscape of viral activity and depletion covered region-specific, prokaryotic-and eukaryotic-targeting viral genera (Fig. <ref type="figure" target="#fig_5">3b</ref>). The majority of detectable viral activity comprised phages in the skin microbiome (that is, DNA viruses targeting prokaryotic hosts), and it was concentrated in the gluteal crease. Most viral activity was transiently increased in-flight across diverse lineages. For example, Uroviricota, Cressdnaviricota and Phixviricota shifted across the oral, skin and nasal microbiomes. However, phyla containing biomedically relevant, potential human pathogens also increased,  Body swabs were collected from ten different sites, comprising three microbial ecosystems (oral, nasal, skin) around the body at eight different timepoints surrounding launch. These are referred to as L-92, L-44, L-3, FD2, FD3, R+1, R+45, R+82, where 'L' refers to pre-launch, 'FD' corresponds to flight day (that is, in-flight) and 'R' refers to return (that is, post-flight). Following collection and paired metagenomic/metatranscriptomic sequencing, samples were processed with a MAS to extract taxonomic (bacterial or viral) and functional features to determine their changes relative to flight. b, The time trajectories of persistently/transiently increased/decreased significant findings, filtering for strong associations (see Methods). Plots with one line had either no significant findings or none that met the filtering criteria. Grey shaded area indicates 95% confidence intervals. The orange shaded area refers to the samples collected while subjects were in orbit. c, Significant features by specific swabbing sites.</p><formula xml:id="formula_0">L -4 4 F D 1 R + 1 R + 8 2 L -9 2 1 0 1 1 0 3 1 0 5 1 0 1 1 0 3 1 0 5 1 0 1 1 0 3 1 0 5 1 0 1 1 0 3 1 0 5 1 0 1 1 0 3 1 0 5 1 0 1 1 0 3 1 0 5 1 0 1 1 0 3 1 0 5 1 0 1 1 0 3 1 0 5 1 0 1 1 0 3 1 0 5 1 0 1 1 0 3 1 0 5 L -3 F D 2 R + 4 5 L -4 4 F D 1 R + 1 R + 8 2 L -9 2 L -3 F D 2 R +</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A core functional microbial landscape of spaceflight</head><p>We next aimed to characterize the consistency with which microbial gene abundances changed across time and body site across 3.6 million non-redundant genes. First, we explored the broad functions of the genes that fell into either the transiently increased or transiently decreased categories. The increases in DNA content on the skin, as well as decreases in nasal microbiome content, were immediately apparent (Extended Data Fig. <ref type="figure">6a</ref>, third and first columns, respectively), and the oral microbiome and gluteal crease also underwent large metatranscriptomic increases. Of note, the category that exhibited the greatest fluctuation in genes was 'amino acid transport and metabolism'.</p><p>In the exposed areas of the skin, such as the forearm, the genes that were changed in this category mostly came from metagenomic data.</p><p>-20 -10 0 10 20 -20 -10 0 10 20 log 2 (fold change) Transient decrease Persistent decrease Transient increase Persistent increase Oral microbiome shifts Pre-flight Post-flight</p><p>Lachnoanaerobaculum gingivalis Streptococcus oralis_T Streptococcus australis_A Streptococcus oralis_E Streptococcus sp.905221365 Streptococcus sp.905221335 Alloscardovia omnicolens Streptococcus sp.900546335 Streptococcus infantis_F Streptococcus gordonii_A Parvimonas micra Leptotrichia hofstadii Fusobacterium hwasookii Prevotella pallens Peptostreptococcus sp.900759325 Actinomyces oris_D Actinomyces oris_B Streptococcus sanguinis_H Actinomyces gerencseriae Streptococcus constellatus Actinomyces oris_C Tannerella sp.002890585 Rothia mucilaginosa_B Veillonella sp.900766125 Veillonella sp.018367495 Streptococcus parasanguinis Neisseria flavescens Neisseria flavescens_C Neisseria subflava_B Veillonella sp.900765235 Veillonella sp.902834965 Rothia mucilaginosa Neisseria flavescens_A Neisseria subflava_A Veillonella parvula Veillonella parvula_A Nanosynbacter sp.900555425 Neisseria perflava Haemophilus_D parainfluenzae_K Prevotella oris Veillonella sp.905214495 Streptococcus infantis_C Actinomyces sp.001278845 Streptococcus sp.001556435 Porphyromonas sp.003640335 Ottowia sp.001262075 Lachnoanaerobaculum umeaense Lancefieldella rimae Anaeroglobus micronuciformis Prevotella denticola Prevotella nigrescens Capnocytophaga granulosa Lachnoanaerobaculum umeaense Pediococcus pentosaceus F0058 sp.000163695 Nanogingivalis sp.013333405 Lachnoanaerobaculum orale Stomatobaculum longum HOT-345 sp.013333605 Nanogingivalis sp.015257795 Streptococcus sp.001578805 Pauljensenia sp.900554605 Nanogingivalis gingivitcus Gemella morbillorum Chryseobacterium gleum Haemophilus_D pittmaniae Prevotella scopos Zobellella_D taiwanensis Aquabacterium sp.016219375 Sphingomonas sp.016743815 Ottowia beijingensis Frigoribacterium sp.001422285 Providencia huaxiensis Paracoccus acridae Streptococcus alactolyticus UBA2009 sp.016132445 Kocuria palustris_A Corynebacterium xerosis Metagenomics Metatranscriptomics In less exposed body sites (that is, oral, gluteal crease), the activity in this category was primarily metatranscriptomic. This may indicate the dramatic degree to which microbial nutrient needs change in-flight, probably from a combination of features ranging from environmental strain transfer, competition and host dietary changes. The oral, nasal and skin microbiomes demonstrated consistency in the functions that were altered during spaceflight, especially in the metagenomic data. We observed five different categories of proteins of interest enriched among increased features: antibiotic and heavy metal resistance, haem binding/export, lantibiotic-associated genes, phage-associated genes and toxin-antitoxin systems (Extended Data Figs. <ref type="figure">6b</ref> and <ref type="figure">7-9</ref>). Lantibiotic biosynthesis again displayed a discordant response between sequencing types; it was decreased in the metagenomic data but increased in metatranscriptomics. Phage proteins, toxin-antitoxin systems, and antibiotic-related/heavy metal pathways increased noticeably across all host niches. As in other spaceflight studies <ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b28">29</ref> , we specifically observed an increase in the RelB toxin-antitoxin genes, most notably through metatranscriptomics.</p><p>Post-auricular T-zone Belly button Forearm Gluteal crease Belly button Gluteal crease T-zone Armpit Belly button Forearm Gluteal crease Nape of neck Post-auricular T-zone Toe web space -30 -20 -10 0 10 20 30-30 -20 -10 0 10 20 30 log 2 (fold change)</p><p>Persistent decrease Persistent increase Transient decrease Transient increase Acinetobacter kanungonis Acinetobacter towneri_A Acinetobacter sp.002296655 Corynebacterium sp.001831515 Sphingomonas ginsenosidimutans Lachnospira sp.000436475 Corynebacterium genitalium_A Corynebacterium auriscanis Corynebacterium sp.900618065 Corynebacterium resistens Roseovarius litoreus Alloprevotella sp.015259235 Pseudoxanthomonas_A sp.900104255 CAISGS01 sp.017418605 Pseudoxanthomonas_A sp.001427585 Pseudoxanthomonas_A sp.900116385 Eikenella halliae Eikenella corrodens_B Kingella_A denitrificans Eikenella exigua Oribacterium sp.015258095 Sediminibacterium sp.017537025 Lactobacillus pullistercoris Halobellus rufus Nitrospira_F inopinata CAISGS01 sp.017418605 Bifidobacterium dentium Bradyrhizobium denitrificans Mesorhizobium terrae Blautia_A massiliensis Blautia_A sp.900751995 Bifidobacterium bifidum Pseudokineococcus lusitanus CAISGS01 sp.017418605 Burkholderia vietnamiensis Pseudarthrobacter oxydans Limnospira fusiformis Bradyrhizobium denitrificans Mesorhizobium terrae Staphylococcus pasteuri Sphingomonas zeae Natronomonas sp.009741925 Natronomonas gomsonensis Lactobacillus amylovorus Enterobacter hormaechei_A Comamonas terrigena Comamonas thiooxydans Enterobacter kobei Pseudomonas nitroreducens_B Escherichia albertii Limosilactobacillus portuensis Burkholderia multivorans Clostridium sp.900759995 Ezakiella sp.900540185 Ezakiella massiliensis Prevotella sp.000758925 Porphyromonas_A somerae Fenollaria sp.905332505 Porphyromonas uenonis Prevotella colorans Prevotella timonensis_A Eggerthella lenta Streptococcus pasteurianus CAISGS01 sp.017418605 Staphylococcus auricularis Staphylococcus carnosus Pseudomonas_E parafulva_B Bradyrhizobium denitrificans Mesorhizobium terrae Variovorax sp.003019815 Halobellus rufus Anoxybacillus flavithermus_G CAISGS01 sp.017418605 Staphylococcus auricularis Bradyrhizobium denitrificans Mesorhizobium terrae Sphingopyxis sp.014595975 CAISGS01 sp.017418605 Bradyrhizobium denitrificans Mesorhizobium terrae Oceanisphaera sp.012518835 Alloprevotella sp.900541335 Mesorhizobium sp.001899205 Zoogloea sp.017309145 Methylobacterium sp.003111705 CAISGS01 sp.017418605 Agrobacterium pusense Shinella sp.001262505 Massilia oculi Psychrobacter sp.000511655 Sphingomonas endophytica_A Methylobacterium thiocyanatum Tepidimonas fonticaldi Sphingomonas hankookensis Sphingomonas sp.003951315 Sphingomonas sp.014193845 Sphingomonas palmae Agrobacterium sp.900468285 Sphingomonas hominis Actinomycetospora corticicola Devosia sp.001425445 Sphingomonas sp.001421355 plots on top of each one. Dashed grey vertical lines demarcate an L 2 FC of zero. Plotted taxa were selected by ranking significant features in each category and sequencing type (RNA/DNA) by L 2 FC and showing up to 10 at once. b, Host and molecular type of viral genera associated with flight.</p><p>Article <ref type="url" target="https://doi.org/10.1038/s41564-024-01635-8">https://doi.org/10.1038/s41564-024-01635-8</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microbial similarity between the capsule and crew members</head><p>We observed that, on average, bacterial beta diversity appeared to decrease after flight (Fig. <ref type="figure" target="#fig_10">4a</ref>), indicating a broad convergence of the crew microbiome. When ranking sites by similarity to the capsule mid-flight (Fig. <ref type="figure" target="#fig_10">4a</ref>, from left to right), the beta diversity correlated with the degree of environmental exposure for a given sampling site.</p><p>For example, the oral microbiome remained highly dissimilar from the microbiome of the capsule and other sites, whereas the forearm microbiome became much more similar to that of the walls of the Dragon capsule and other crew members, which matches the degree of exposure of that body site. Further, our MAS also indicated that during spaceflight, the composition of the crews' microbiota changed, most notably in the skin niche, although the sources of these alterations were unclear. We hypothesized that these shifts in community composition and the overall increase in microbiome similarity could simply be a result of individuals cohabitating in a tight space; however, a change in gene expression in the oral microbiome, where microbial exchange is probably less likely, could derive from other ecological or other exposure changes such as diet or immune alterations.</p><p>Therefore, we next identified shared microbial signatures between individuals and the environment. Specifically, we queried whether host microbiomes converged during and after flight and whether putative microbial exchange occurred within individuals, between individuals, or both within individuals and the capsule, utilizing recently published methods <ref type="bibr" target="#b29">30</ref> to determine whether strain-level markers could discern the directionality of microbial exchange across environments.</p><p>Overall (Fig. <ref type="figure" target="#fig_10">4b</ref>), we found that while in flight, marker genes for individual microbial strains were mostly shared between skin microbiome samples from the same individual (and not across individuals). The capsule had variation in overlap with individuals, with most occurring in exposed skin. Moreover, there were more potential shared microbial strains between the capsule and different individuals by the second sampling in-flight (Fig. <ref type="figure" target="#fig_10">4c</ref>), indicating an influence of cohabitation a, Beta diversities for bacterial metagenomics. Heat map colour corresponds to average beta diversity, with black being the midpoint (0.5), blue being totally dissimilar (1.0) and grey being highly similar (0.0). Columns are hierarchically clustered. The interpretation for a single cell is for the crew member annotated on the right-hand side: the value encoded refers to the dissimilarity of that individual's body site (as indicated on the column) to all other cells in that column (so the capsule and all other crew samples from the same site). For example, the bottom right cell indicates C004's average forearm dissimilarity to all other crew member's forearm swabs. b, Strain-sharing events between the crew and the capsule during the mid-flight timepoints. c, The number of strain-sharing events across time, where an event is defined as the detection of the same strain between two different swabbing locations. d, Organisms with at least two strain-sharing events detected within a given timepoint.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Article</head><p><ref type="url" target="https://doi.org/10.1038/s41564-024-01635-8">https://doi.org/10.1038/s41564-024-01635-8</ref> time on migration. Strains identified by StrainPhlAn, such as Mes-orhizobium_hungaricum|t__SGB11031, identified as present in multiple locations mid-flight (Fig. <ref type="figure" target="#fig_10">4d</ref>), were similar in part to those GTDB species identified as increased metagenomically (but not transcriptionally) across exposed skin sites (Fig. <ref type="figure" target="#fig_5">3</ref>). Notably, most of these putative sharing between individuals were present after flight, as opposed to before the mission, indicating in-flight transfer. Finally, we note that in this dataset, which contains numerous low-biomass samples, any indications of strain-sharing are difficult to validate (for example, contamination could potentially drive some of the findings), so the following results should be validated in future skin microbiome and aerospace studies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Spaceflight microbiome shifts associate with host gene expression</head><p>Having mapped the architecture of microbiome changes surrounding spaceflight and identified the source of some of those changes, we next searched for indications of a link between microbiome ecology and the host immune system. To do so, we integrated the observations from our MAS with host immune single-nuclei transcriptome data from PBMCs. Via averaging across single-nuclei sequencing information, we estimated the gene expression of nine host immune cell subpopulations and we computed differentially expressed genes within cell types post-flight using lasso regression to identify candidate relationships between flight-associated, increased microbial features and immune cell subpopulation gene expression. Specifically, we aimed to identify whether metatranscriptomic or metagenomic (that is, cohabitation-derived) changes were more likely to be correlated with immune transcriptome changes. We observed many putative relationships between host immune cell expression, body site and microbial features (Fig. <ref type="figure">5a</ref>). Bacterial species, specifically in the oral microbiome, had many metatranscriptomic associations across all cell types. In terms of relative abundance (that is, metagenomics), oral microbes were associated with CD4 T cells, CD8 T cells and CD16 monocytes, which are known for innate immune response against pathogens <ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b31">32</ref> . Skin bacteria had very few associations with immune cells (compared to oral) in both metagenomics and metatranscriptomics. The overall lack of associations between skin bacteria and immune response was interesting, as it indicated that while microbes are potentially acquired during flight (as observed in Fig. <ref type="figure" target="#fig_10">4</ref>), these acquired microbes may have limited immediate impact on the host. In other words, there was limited evidence that strain-sharing due to cohabitation drove a strong altered immune state in humans. Conversely, we did observe a limited link in our data between viruses and immune cell expression, with natural killer (NK) cells, CD14 monocytes, dendritic cells and CD16 monocytes showing the most viral associations; these associations were predominantly in the skin microbiome, which may relate to previous observations of increase viral shedding in astronauts.</p><p>Next, we examined a subset of microorganisms with expression and abundance changes that correlated with host genes across multiple immune cell types (Fig. <ref type="figure">5b</ref>). A small group of metagenomically detected viruses were associated with many different immune genes; one genus (Family Genomoviridae) targets fungi and was correlated with 13 genes in natural killer cells. The presence of this virus on the skin makes additional sense given that fungi are known skin symbionts. The other associated viruses had unclassified hosts or targeted bacteria.</p><p>In the oral microbiome, pathobiont gene expression was associated with immune cell gene expression. Streptococcus pneomoniae A had the largest number of genes associated with it; 30/32 genes were found in natural killer cells. Streptoccocus gordonii A, which was persistently increased after flight was associated with many different immune cell subtypes (N = 32 genes), including CD4 T cells, CD14 monocytes, CD16 monocytes and dendritic cells. The only oral bacterial relative abundance increase during or after flight that was associated with many immune cell subtypes was in Gemella morbillorum. The other oral microbes with the strongest oral associations included other medically relevant organisms, as well as some typical commensals: Pauljensenia hongkongensis, Campylobacter_A concisus_R, Actinomyces massiliensis, Haemophilus_A parahaemolyticus, Leptotrichia_A sp905371725, Porphyromonas catoniae and many Streptococcus spp.</p><p>The microbial genes (Fig. <ref type="figure">5c</ref>) associated with the most human genes were detected via both shifts in relative abundance (DNA) as well as expression (RNA). They spanned many different protein annotations, yet there were some commonalities among those that were correlated with many immune cell subpopulations. Most notably, these annotations, across both metagenomics and metatranscriptomics, included transcription factors, cell surface proteins and transporters. Pertinent to our previous results (Extended Data Fig. <ref type="figure">6b</ref>), the top microbial gene (for example, hemX) in the nasal microbiome was the haem uptake protein IsdC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>In this study, which comprises the largest dataset of spaceflightassociated microbiome data so far, we systematically queried the microbiome architecture of short-term spaceflight. Previous efforts, such as the NASA twins study, have had difficulty mapping microbiome shifts due to small sample sizes, restricted body site sampling (n = 3) and limited sequencing modalities <ref type="bibr" target="#b24">25</ref> . Here we show significant bacterial, viral and gene-level microbiome shifts and their potential relationship to host immune response, which can help inform sampling and monitoring for future missions.</p><p>Chief among our findings was that native microbiome shifts were highly correlated with host immune changes. Naturally, a microbial shift can affect the host immune system, or vice versa, without the initial cause being 'space-specific' (that is, due to microgravity or radiation). Dietary factors or other confounders could drive a portion of these effects. Putative convergence in microbiome signatures (Fig. <ref type="figure" target="#fig_10">4a</ref>), for example, could be (and probably is) a function of humans residing in close quarters. Moreover, crews have been documented as experiencing immune and viral reactivation <ref type="bibr" target="#b14">15</ref> ; typically, this effect is not attributed solely to cohabitation, and we showed here that species potentially acquired from the environment in flight were not associated with immune cell changes-a topic that has been debated in previous studies <ref type="bibr" target="#b24">25</ref> . We claim, therefore, that it is unlikely that strain sharing due to close quarters, or even variable sanitation in-flight, could explain the entirety of the link between host immune response and the microbiome. Future manuscripts, of course, could leverage this dataset as well as data from analogue astronaut studies on Earth to test this hypothesis more rigorously.</p><p>An additional paper focuses more on the host-side of immune activation <ref type="bibr" target="#b32">33</ref> , reporting specific human genes that seem to be associated with microbial features and integrating additional datasets. However, for completeness, we briefly document here some human genes of interest that were microbiome-associated. By cell type, we documented the most strongly associated genes with microbial features. For bacteria, gene functions were annotated with, for example, long non-coding RNAs (across all cell types), immunoglobulin genes (CD14 monocytes) and interferon regulatory factors. We additionally uncovered associations with specific immune modulatory genes such as CXCL10, XCL1, CXCL8 (immune cell migration), NLRC5, HLA genes, CD1C (antigen presentation/co-stimulation), SLC2A9 (immune cell metabolism), IRF1, NR4A3 and STAT1 (transcription factors that specify immune cell states) that increased across multiple immune cell types (B cells, CD4 T cells, CD8 T cells, CD14 monocytes, DCs, NK cells).</p><p>A limitation of our work is its observational nature, which arises from the overall study design and an opportunistic mission. Despite having more samples than all other astronaut microbiome studies combined, this effort still hosts a relatively small crew size (n = 4), and we cannot determine from these data alone if an outside effect on the Article <ref type="url" target="https://doi.org/10.1038/s41564-024-01635-8">https://doi.org/10.1038/s41564-024-01635-8</ref> </p><p>immune system is altering their abundance or expression or if microbiome ecology may be driving these and similar changes. Given the nascence of the multi-omic space biomedicine (and the difficulty of sample collection), we were limited in this study to simply observing shifts in microbes and, from multi-omic data integration, inferring hypotheses regarding the overall nature of the mid-flight microbe-immune axis. S k i n O r a l N a s a l S k i n O r a l N a s a l S k i n O r a l N a s a l S k i n O r a l N a s a l S k i n O r a l N a s a l S k i n O r a l N a s a l S k i n O r a l N a s a l S k i n O r a l N a s a l S k i n 300 600 900 No. associated taxa/microbial genes Metagenomics Metatranscriptomics METAGENOMICS METATRANSCRIPTOMICS 0 10 20 30 0 10 20 30 Gemella morbillorum Actinomyces massiliensis Streptococcus sp.905221215 Streptococcus sp.905221545 Streptococcus halitosis Streptococcus pneumoniae Streptococcus sp.903645285 Streptococcus sp.905221155 Streptococcus constellatus Streptococcus mitis_AF Streptococcus symci Leptotrichia_A sp.905371725 Streptococcus oralis_K Streptococcus mitis_BT Prevotella pallens Streptococcus mitis_AI Streptococcus sanguinis_E Streptococcus mitis_S Haemophilus_A parahaemolyticus Porphyromonas catoniae Streptococcus mitis_BE Streptococcus sanguinis_H Streptococcus sp.905221165 Pauljensenia hongkongensis Abiotrophia sp.001815865 Streptococcus gordonii_A Streptococcus pneumoniae_A Mesorhizobium terrae Staphylococcus pasteuri Blafavirus-P Bat badicivirus 1 Firunevirus-P Kahraivirus-P Gochnauervirinae-P Trucevirus-P Genomoviridae-E Apukhovirus-P No. associated human genes CD4 T CD8 T Other T B NK CD14 mono CD16 mono DC Other Bac Vir Gene Bac Bac Vir Gene Metagenomics 0 25 50 75 100 0 25 50 75 100 The spaceflightassociated (increased in abundance or expression) bacteria and viruses that were associated with the greatest number of host genes. Viral genera are labelled 'E' for targeting a eukaryotic host and 'P' for targeting a prokaryote. If no definite host is known, no label was assigned. c, The spaceflight-associated microbial genes that were associated with the greatest number of host genes. We sorted for genes within each body site and selected the top 15 with the greatest number of human gene associations. The legend at the bottom of a is relevant for all figures where those colours appear.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Article</head><p><ref type="url" target="https://doi.org/10.1038/s41564-024-01635-8">https://doi.org/10.1038/s41564-024-01635-8</ref> </p><p>As a result, there are several opportunities to expand on this work in future studies and missions. Analytically, our lasso-based approach for immune-microbe interaction modelling of immune cell gene expression changes does not inherently allow for statistical inference or account for inter-individual variation. Further, some of our samples had very low biomass, requiring PCR-amplification (18 cycles) for RNA-sequencing data, which can increase duplicate rates of sequences. For this reason, we attempted to take a conservative and systematic modelling approach to our effort. Specifically, (1) we implemented multiple algorithms and compared their concordance, (2) set coverage thresholds for bacterial and viral taxa to filter probable false positives, (3) used multiple, state-of-the-art taxonomic classifiers and compared our findings among all of them, (4) mapped reads across five databases and (5) implemented and compared both generalized linear models and mixed effect models, bearing in mind that the latter can face interpretability challenges with smaller sample sizes. Additional modelling strategies, including network analyses <ref type="bibr" target="#b33">34</ref> , could be implemented in addition to those we have tested here. For example, recently developed network models or methods for controlling false positive rates in compositional data could be potentially useful <ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b34">35</ref> .</p><p>We additionally used 76 negative controls to attempt to avert false positive signals, which can stem from contamination and the kitome. Depending on their aim, future studies should alter collection methods to increase the amount of biomass collected during sampling (for example, using one swab for multiple skin sites) or examine relatively unbiased methods of amplification <ref type="bibr" target="#b35">36</ref> . In addition, they should encourage more detailed reporting on diet and cleaning methods (for example, wet wipes) to adjust for potential confounders introducing foreign microbial DNA into the host.</p><p>Further, in this study, we attempted to measure viral shifts as a function of flight. Measuring viral abundances in metagenomic and (particularly) metatranscriptomic data is extremely challenging. First, the decontamination process we used to remove environmental contaminants was not designed for organisms as ubiquitous and with such short, diverse genomes as viruses. Second, high-resolution taxonomic classification of viruses is non-trivial. We observed, for example, many spaceflight-associated viruses with unusual names, often mapping to viral species not typically found in or on humans. Simply put, the viral universe is so vast that these alignments may represent both read alignments and as well as spurious read mapping (and databases lacking the strains that are truly present). While our benchmarking efforts (Extended Data Fig. <ref type="figure" target="#fig_12">10</ref>) increased our confidence in our results, the viral taxonomic and functional mapping field is an area that will benefit the most from improved methods in the future.</p><p>Additional experiments and missions can further test a microbiomederived theory of spaceflight-associated immune changes. In addition to stress-testing our findings and increasing sample sizes, future spaceflight studies should consider several enhancements. For instance, they should compare sequestered ground controls to discern differences between space-driven and proximity-driven immune shifts. In addition, future efforts should design experiments that enable a deeper view into the causality of microbe-immune associations. Exploring some of these hypotheses through animal or organoid models could be valuable, as well as comparison to large control cohorts.</p><p>In total, spaceflight microbiome studies are hyperbolic extensions of human exposome research. They capture a group of effectively immunocompromised individuals who share a self-contained environment that does not undergo microbial exchange with the outside world. Since these studies are rare, the range of immune system dynamics is just beginning to be explored. Overall, we describe here data and methods to map the axes of host-microbe-environment interaction, such that these observations and hypotheses can be tested and even modulated in future studies. Indeed, the increased access to space guarantees more opportunities to study astronauts, their microbiomes and their spacecraft while also motivating a strong health and medical impetus to plan for future missions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Informed consent and ethics approval</head><p>This study was completely in accordance with appropriate ethics guidelines. All participants consented at an informed consent briefing at SpaceX (Hawthorne, California), and samples were collected and processed under the approval of the institutional review board at Weill Cornell Medicine, under Protocol 21-05023569. All crew members provided written informed consent for data and sample sharing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample collection, extraction and sequencing</head><p>We sequenced analysed samples from human skin, oral and nasal environmental swabs before, during and after a 3-day mission to space. This dataset comprised paired metagenomic and metatranscriptomic sequencing for each swab. A total of 750 samples were collected in this study by the four crew members of the SpaceX Inspiration4 mission. The samples were taken from 10 body sites (Fig. <ref type="figure" target="#fig_12">1a</ref>) across 8 collection points (3 pre-launch, 2 mid-flight and 3 post-flight) between June 2021 and December 2021. The crew additionally collected 20 samples from multiple Dragon capsules from 10 different locations. We note that some crew members (two adult male, two adult female) were using wet wipes (UPC, 036000317985) to bathe themselves in-flight in between swabbing; however, not every crew member did so, and SpaceX did not require this to be a consistent protocol among the crew. Wet wipes used by the crew were neither reused nor shared, which should limit any influence of this confounding variable. No statistical methods were used to predetermine sample sizes but our sample sizes are greater than any previous publication in this field.</p><p>The crew were each provided sterile Isohelix Buccal Mini Swabs (Isohelix, MS-03) and 1.0 ml dual-barcoded screw-top tubes (Thermo Scientific, 3741-WP1D-BR/1.0 ml) prefilled with 400 μl of DNA/RNA Shield storage preservative (Zymo Research, R1100). Following sample collection, swabs were immediately transferred to the barcoded screw-top tubes and kept at room temperature for less than 4 days before being stored at 4 °C until processing. Additional descriptions of the sample collection and sequencing methods are available in companion publications <ref type="bibr" target="#b36">37</ref> DNA, RNA and proteins were isolated from each sample using the QIAGEN AllPrep DNA/RNA/Protein kit (QIAGEN, 47054) according to manufacturer protocol, yet omitting steps one and two. To lyse biological material from each sample, 350 μl of each sample was transferred to a QIAGEN PowerBead tube with 0.1 mm glass beads and secured to a Vortex-Genie 2 using an adapter (1300-V1-24) before being homogenized for 10 min. Of the subsequent lysate, 350 μl was transferred to a spin-column before proceeding with the protocol. Concentrations of the isolated DNA, RNA and protein for each sample were measured by fluorometric quantitation using the Qubit 4 fluorometer (Thermo Fisher, Q33238) and a corresponding assay kit. The Qubit 1Xds DNA HS Assay kit was used for DNA concentration (Q33231) and the RNA HS Assay kit (Q32855) was used for RNA concentration.</p><p>For shotgun metagenomic sequencing, library preparation for Illumina NGS platforms was performed using the Illumina DNA FLEX Library Prep kit (20018705) with IDT for Illumina DNA/RNA US indexes (20060059). Following library preparation, quality control was assessed using a BioAnalyzer 2100 (Agilent, G2939BA) and the High Sensitivity DNA assay. All libraries were pooled and sequenced on an S4 flow cell of the Illumina NovaSeq 6000 Sequencing System with 2 × 150-bp paired-end reads.</p><p>For metatranscriptomic sequencing, library preparation and sequencing were performed at Discovery Life Sciences (Huntsville, Alabama). The extracted RNA went through an initial purification and cleanup with DNase digestion using the Zymo Research RNA Clean &amp; Concentrator Magbead kit (R1082) following the Article <ref type="url" target="https://doi.org/10.1038/s41564-024-01635-8">https://doi.org/10.1038/s41564-024-01635-8</ref> manufacturer-recommended protocol on the Beckman Coulter Biomek i5 liquid handler (B87583). Following cleanup, ribosomal RNA reduction for RNA-seq library reactions was performed using the New England Bioscience NEBnext rRNA Depletion kit (Human/Mouse/Rat) (E6310X), and libraries were prepared using the NEBnext Ultra II Directional RNA Library Prep kit (E7760X) with GSL 8.8 IDT Plate Set B indexes. Following library preparation, quality control was assessed using the Roche KAPA Library Quantification kit (KK4824). All libraries were pooled and sequenced on an S4 flow cell of the Illumina NovaSeq 6000 Sequencing System with 2 × 150-bp paired-end reads.</p><p>For faecal collection, all participants were provided with DNA Genotek OMNIgene-GUT (OM-200) kits for gut microbiome DNA collection. Each participant was instructed to empty their bladder and collect a faecal sample free of urine and toilet water. From the faecal specimen, each participant used a sterile single-use spatula, provided by the OMNIgene-GUT kit, to collect the faeces and deposit it into the OMIgene-GUT tube. Once deposited and sealed, the user was instructed to shake the sealed tube for 30 s to homogenize the sample and release the storage buffer. All samples from each timepoint were stored at room temperature for less than 3 days before storing at -80 °C long term. Faecal samples collected using the OMNIgene-GUT kit are stable at room temperature (15-25 °C) for up to 60 days.</p><p>DNA was isolated from each sample using the QIAGEN PowerFecal Pro DNA kit (51804). OMNIgene-GUT tubes were thawed on ice (4 °C) and vortexed for 10 s. Then, 400 μl of homogenized faeces was transferred into the QIAGEN PowerBead Pro tube with 0.1 mm glass beads and secured to a Vortex-Genie 2 using an adapter (1300-V1-24) before being homogenized at maximum speed for 10 min. The remainder of the protocol was completed as instructed by the manufacturer. The concentration of the isolated DNA was measured by fluorometric quantitation using the Qubit 4 fluorometer (Thermo Fisher, Q33238), and the Qubit 1Xds DNA Broad Range Assay kit was used for DNA concentration (Q33265).</p><p>For shotgun metagenomic sequencing, library preparation for Illumina NGS platforms was performed using the Illumina DNA FLEX Library Prep kit (20018705) with IDT for Illumina DNA/RNA US indexes (20060059). Following library preparation, quality control was assessed using a BioAnalyzer 2100 (Agilent, G2939BA) and the High Sensitivity DNA assay. All libraries were pooled and sequenced on the Illumina NextSeq 2000 Sequencing System with 2 × 150-bp paired-end reads.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample quality control</head><p>All metagenomic and metatranscriptomic samples underwent the same quality control pipeline before downstream analysis. Software used was run with the default settings unless otherwise specified. The majority of our quality control pipeline makes use of bbtools (v.38.92), starting with clumpify (parameters: optical = f, dupesubs = 2,dedupe = t) to group reads, bbduk (parameters: qout = 33 trd = t hdist = 1 k = 27 ktrim = 'r' mink = 8 overwrite = true trimq = 10 qtrim = 'rl' threads = 10 minlength = 51 maxns = -1 minbasefrequency = 0.05 ecco = f) to remove adapter contamination, and tadpole (parameters: mode = correct, ecc = t, ecco = t) to remove sequencing error <ref type="bibr" target="#b37">38</ref> . Unmatched reads were removed using bbtool's repair function. Alignment to the human genome with Bowtie2 v.2.2.3 (parameters: -very-sensitive-local) was done to remove potentially human-contaminating reads <ref type="bibr" target="#b38">39</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metagenomic assembly, bacterial and viral binning, and bin abundance quantification</head><p>We assembled all samples with MetaSPAdes v.3.14.3 (-assembleronly) <ref type="bibr" target="#b39">40</ref> . Assembly quality was gauged using MetaQUAST (v.5.0.2) <ref type="bibr" target="#b40">41</ref> . We binned contigs into bacterial metagenome-assembled genomes on a sample-by-sample basis using MetaBAT2 v.2.12.1 (parameters: -minContig 1500) <ref type="bibr" target="#b41">42</ref> . Depth files were generated with MetaBAT2's built-in 'jgi_summarize_bam_contig_depths' function. Alignments used in the binning process were created with Bowtie2 v.2.2.3 (parameters: -very-sensitive-local) and formatted into index bamfiles with samtools v.1.0.</p><p>Genome bin quality was checked using the 'lineage' workflow of CheckM (v.1.2) <ref type="bibr" target="#b42">43</ref> . Medium and high-quality bins were dereplicated using deRep v.3.2.2 (parameters: -p 15 -comp 50 -pa 0.9 -sa 0.95 -nc 0.30 -cm larger). The resulting database of non-redundant bins was formatted as an xtree database (parameters: xtree BUILD k 29 comp 2), and sample-by-sample alignments and relative abundances were completed with the same approach as before. Bins were assigned taxonomic annotations with GTDB-tK (v.2.1.1) <ref type="bibr" target="#b43">44</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Identification and taxonomic annotation of assembled viral contigs</head><p>To identify putative viral contigs, we used CheckV (v.0.8.1) <ref type="bibr" target="#b44">45</ref> . For downstream viral abundance quantification, we filtered for contigs annotated as medium quality, high quality or complete. This contig database was dereplicated using BLAST and clustered at the 99% identity threshold as described above using established and published approaches (<ref type="url" target="https://github.com/snayfach/MGV/tree/master/ani_cluster">https://github.com/snayfach/MGV/tree/mas- ter/ani_cluster</ref>) <ref type="bibr" target="#b45">46</ref> . The non-redundant viral contigs were formatted as an xtree database (parameters: xtree BUILD k 29 comp 0), and sample-by-sample alignments and relative abundances were computed with the same approach as before, the only difference being the coverage cut-off used to filter out viral genomes, which was lowered to 1% total and 0.05% unique due to the fact that those in question came directly from the samples analysed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gene catalogue construction and functional annotation</head><p>We generated gene catalogues using an approach piloted in previous studies <ref type="bibr" target="#b46">[47]</ref><ref type="bibr" target="#b47">[48]</ref><ref type="bibr" target="#b48">[49]</ref> . Bakta v.1.5.1 was used to call putative open reading frames (ORFs) <ref type="bibr" target="#b49">50</ref> . The annotations reported in this study (for example, Fig. <ref type="figure">5</ref>) derive directly from Bakta. We clustered predicted and translated ORFs (at 90% requisite overlap and 90% identity) into homology-based sequence clusters using MMseqs2 v. 13.4511 (parameters: -easy-clustermin-seq-id 0.9 -c 0.9) <ref type="bibr" target="#b50">51</ref> . The resulting 'non-redundant' gene catalogue and its annotations were used in the functional analysis. We computed the abundance of the representative consensus sequences selected by MMseqs2 by alignment of quality-controlled reads with Diamond (v.2.0.14) <ref type="bibr" target="#b51">52</ref> . We computed the total number of hits and computed gene relative abundance by dividing the number of aligned reads to a given gene by its length and then by the total number of aligned reads across all genes in a sample.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Benchmarking short-read viral taxonomic classification against the GenBank database</head><p>To identify viral taxonomic abundance via short-read alignment, we mapped reads to a database of all complete, dereplicated (by BLAST at 99% sequence identity) GenBank viral genomes. We used the Xtree aligner for this method (see below); however, given the difficulty of assigning taxonomic ranks to viral species on the basis of alignment alone, we first benchmarked this process. We used Art <ref type="bibr" target="#b52">53</ref> to generate synthetic viral communities at random abundances from 100 random viruses from the GenBank database. We then aligned (with Xtree) back to these genomes, filtered for 1% total coverage and/or 0.5% unique coverage, and compared expected read mapping vs observed read mapping. We additionally computed true/false positive rates on the basis of the proportion of taxa identified that were present in the mock community (true positive) versus those that were not (false positive) versus those that were present but not identified (false negative). Overall, we identified optimal classification at the genus level, with &gt;98% true positive rate (that is, 98/100 taxa identified) and low false positive/negative rates (for example, &lt;10 taxa not present in the sample identified) (Extended Data Fig. <ref type="figure" target="#fig_12">10a</ref>,<ref type="figure">b</ref>). Species-level classification had higher false negative rates (generally arising from multimapping reads Article <ref type="url" target="https://doi.org/10.1038/s41564-024-01635-8">https://doi.org/10.1038/s41564-024-01635-8</ref> to highly similar species) and a 60-70% true positive rate. Genus-level classification also yielded a nearly perfect correlation (&gt;0.99 on average) between expected and observed read mappings (Extended Data Fig. <ref type="figure" target="#fig_12">10c</ref>). As a result, while we report analyses for every taxonomic rank in the supplement, in the main text we describe only genus-level viral analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Overview of short-read taxonomic classification via alignment</head><p>In total, we used and compared seven different short-read mapping methods (MetaPhlAn4/StrainPhlAn, Xtree, Kraken2/Bracken run with four different settings, and Phanta), which together utilize five different databases that span bacterial, viral and fungal life. In addition, we identified and computed the relative abundance of non-redundant genes as well as bacterial and viral metagenome-assembled genomes. Subsequent downstream regression analyses were run on each resultant abundance table at each taxonomic rank.</p><p>Unless otherwise stated, for the figures involving taxonomic data used in the main text of this paper, we used XTree (<ref type="url" target="https://github.com/GabeAl/UTree">https://github.com/  GabeAl/UTree</ref>) (parameters: -redistribute). XTree is a recent update to Utree 54 containing an optimized alignment approach and increased ease of use. In brief, it is a k-mer-based aligner (akin to Kraken2 (ref. 55)  but faster and designed for larger databases) that uses capitalist read redistribution <ref type="bibr" target="#b55">56</ref> to pick the highest-likelihood mapping between a read and a given reference based on the overall support of all reads in a sample for said reference. It reports the total coverage of a given query genome, as well as total unique coverage, which refers to coverage of regions found in only one genome of an entire genome database. We computed beta diversity (Bray-Curtis) metrics for taxonomic abundances using the vegan package in R <ref type="bibr" target="#b56">57</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bacteria-specific short-read classification</head><p>For bacterial alignments, we generated an Xtree k-mer database (parameters: BUILD k 29 comp 0) from the Genome Taxonomy Database representative species dataset (Release 207) and aligned both metagenomic and metatranscriptomic samples. We filtered bacterial genomes for those that had at least 0.5% coverage and/or 0.25% unique coverage. Relative abundance was calculated by dividing the total reads assigned to a given genome by the total number of reads assigned to all genomes in a given sample. We additionally ran MetaPhlAn4 (ref. 58) (default settings) as an alternative approach to bacterial taxonomic classification.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Virus-specific short-read classification</head><p>For viral GenBank alignments, we generated an Xtree database (parameters: BUILD k 17 comp 0) from all complete GenBank viral genomes. We first dereplicated these sequences with BLAST 99% identity threshold via published approaches (<ref type="url" target="https://github.com/snayfach/MGV/tree/master/ani_cluster">https://github.com/snayfach/MGV/tree/  master/ani_cluster</ref>) <ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b58">59</ref> . We filtered for genomes with 1%/0.5% total/ unique coverage. Relative abundance was calculated identically as with the bacterial samples. We additionally ran Phanta (default settings) as an alternative to this approach for viral classification <ref type="bibr" target="#b59">60</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Kraken2 (multikingdom) short-read classification</head><p>As another set of methods for measuring taxonomic sample composition, we used Kraken2 and bracken, both with the default settings, to call taxa and quantify their abundances, respectively <ref type="bibr" target="#b54">55,</ref><ref type="bibr" target="#b60">61</ref> . We used the default kraken2 reference databases, which include all NCBI listed taxa (bacteria, fungal and viral genomes) in RefSeq as of September 2022. We ran Kraken2 with four different settings: default (confidence = 0) and unmasked reads, confidence = 0 and masked reads, confidence = 0.2 and unmasked reads, and confidence = 0.2 and masked reads. In the cases where we masked reads before alignment (to filter repeats and determine whether fungal and other eukaryotic alignments were probably false positives), we used bbmask running default settings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evaluation of bacterial and viral short-read classification</head><p>To evaluate our taxonomic profiling approach, we first compared the top ten genus-level classifications by body site before and after decontamination for each classifier in metagenomic and metatranscriptomic data. We observed general concordance among the various classification methods; for instance, the predominant skin genera consistently identified included Staphylococcus, Cutibacterium and Corynebacterium. The oral microbiome included Streptococcus, Rothia and Fusobacterium. Kraken2, which uses a database comprising both eukaryotic and prokaryotic organisms, identified fungi in the skin microbiome, as expected. The swabs from the Dragon capsule predominantly contained a diverse array of environmental microbes.</p><p>We compared these results at additional taxonomic ranks and with other taxonomic classifiers. For example, to discern higher specificity of the viral changes, we additionally fit species-level virus associations. While species-level viral taxonomic classification can be difficult due to high read misalignments (Extended Data Fig. <ref type="figure" target="#fig_12">10</ref>), we wanted to determine whether we could observe a higher-resolution picture of viral activity due to spaceflight, as this effect is known to be space-associated (as opposed to bacterial skin to skin transmission, which could be a result of sharing tight quarters and not a space-specific effect).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample decontamination with negative controls</head><p>We observed that many of the swabs collected, especially those from the skin sites, comprised low-biomass microbial communities; there are many documented challenges in analysing these data <ref type="bibr" target="#b61">62,</ref><ref type="bibr" target="#b62">63</ref> . To filter environmental contamination and the kitome <ref type="bibr" target="#b63">64</ref> influencing our findings, we collected and sequenced negative controls of both (1) the water that sterile swabs were dipped in before use, as well as (2) the ambient air around the sites of sample collection and processing for sequencing.</p><p>Following taxonomic classification and identification of de novo assembled microbial genes, we removed potential contaminants from samples by comparison to our negative controls. We ran the same classification approaches for each negative control sample as described in the above paragraphs. This yielded, for every taxonomy classification approach and accompanying database, a dataframe of negative controls alongside a companion dataframe of experimental data. On each of these dataframe pairs, we then used the isContaminant function (parameters: method = 'prevalence', threshold = 0.5) of the decontam package <ref type="bibr" target="#b64">65</ref> to mutually high-prevalence taxa between the negative controls and experimental samples. The guidance for implementation of the decontam package, including the parameter used, was derived from the following R vignette: <ref type="url" target="https://benjjneb.github.io/decontam/vignettes/decontam_intro.html">https://benjjneb.github.io/decontam/  vignettes/decontam_intro.html</ref>. Note that we used both metagenomic and metatranscriptomic negative control samples to decontaminate all data, regardless of whether those data were themselves metagenomic or metatranscriptomic. This decision was made to increase the overall conservatism of our approach.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MAS on bacteria, viruses and genes</head><p>Four mixed-model specifications were used for identifying microbial feature relationships with flight. Time is a variable encoded with three levels corresponding to the time of sampling relative to flight: pre-flight, mid-flight and post-flight. The reference group was the mid-flight timepoint, indicating that any regression coefficients had to be interpreted relative to flight (that is, a negative coefficient on the pre-launch timepoint implies that a feature was increased in-flight). We fit these models for all genes, viruses, and bacteria identified in our dataset by assembly, XTree (GTDB/GenBank), MetaPhlAn4, Kraken2 (all four algorithmic specifications), Phanta and gene catalogue construction. Each variable encoding a body site is binary, encoding whether a sample did or did not come from a particular region.</p><p>To search for features that were changed across the entire body, we fit overall associations, oral associations, skin associations and nasal associations: </p><formula xml:id="formula_1">∼ β 0 + β 1 Time + (1|Crew.ID) + ϵ i (1)</formula><p>For associations with oral changes, we used:</p><formula xml:id="formula_2">ln (microbial_feature_abundance + minval) ∼ β 0 + β 1 Time × Oral + (1|Crew.ID) + ϵ i (2)</formula><p>For associations with nasal changes, we used:</p><formula xml:id="formula_3">ln (microbial_feature_abundance + minval) ∼ β 0 + β 1 Time × Nasal + (1|Crew.ID) + ϵ i (3)</formula><p>For identifying associations with skin swabs, we fit the following model: The β characters in each of the above equations refer to the beta coefficients on a given variable in that given regression. The ε characters refer to the regression residuals. Note that in the final equation ( <ref type="formula">4</ref>), the reference groups are samples deriving from the nasal and oral microbiomes; this means that highlighted taxa will be those associated with time and skin sites as compared to the oral and nasal sites. We additionally fit these same model specifications without the random effect and compared the results in Extended Data Fig. <ref type="figure" target="#fig_3">2</ref>. Data distributions were assumed to be normal but not tested for every single microbial feature. Individual data points for each feature are present in the online data stored at figshare <ref type="bibr" target="#b65">66</ref> and with NASA GeneLab (see Data availability). We used the lme4 (ref. 67) package to compute associations between microbial features (that is, taxa or genes) abundance and time as a function of spaceflight and body site. For all data types, we aimed to remove potential contamination before running any associations. We estimated P values on all models with the ImerTest package using its default settings <ref type="bibr" target="#b66">67,</ref><ref type="bibr" target="#b67">68</ref> . We adjusted for false positives using Benjamini-Hochberg adjustment and used a q-value cut-off point of 0.05 to gauge significance.</p><formula xml:id="formula_4">ln (microbial_feature_abundance + minval) ∼ β 0 + β 1 Time × Armpit + β 2 Time × ToeWeb + β 3 Time × NapeOfNeck</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Identifying and plotting time-dependent trends in microbial features</head><p>We grouped microbial features associated with flight into six different categories. These were determined since our model contained a categorical variable encoding a sample's timing relative to flight: whether it was taken before, during or afterwards. Since the modelling reference group was 'mid-flight', the interpretation of any coefficients would be directionally oriented relative to mid-flight microbial feature abundances. As a result, we were able to categorize features on the basis of the jointly considered direction of association and significance for the 'pre-flight' and 'post-flight' levels of this variable. The below listed categories are all included in the association summaries provided on figshare <ref type="bibr" target="#b65">66</ref> (see 'Data availability').</p><p>1. Transient increase in-flight-negative coefficient on the pre-flight variable level, negative coefficient on the post-flight variable, statistically significant for both 2. Transient increase in-flight (low priority)-negative coefficient on the pre-flight variable level, negative coefficient on the postflight variable, statistically significant for at least one of the two 3. Transient decrease in-flight-positive coefficient on the pre-flight variable level, positive coefficient on the post-flight variable level, statistically significant for both 4. Transient decrease in-flight (low priority)-positive coefficient on the pre-flight variable level, positive coefficient on the post-flight variable level, statistically significant for at least one of the two 5. Potential persistent increase-negative coefficient on the pre-flight variable level, positive coefficient on the post-flight variable level, statistically significant for at least one of the two 6. Potential persistent decrease-positive coefficient on the pre-flight variable level, negative coefficient on the post-flight variable level, statistically significant for at least one of the two</p><p>We used these groups to surmise the time trends reported in the figures. It would be intractable to visualize every association of interest, so we prioritized within each category on the basis of the absolute value of beta-coefficients and adjusted P values. In Fig. <ref type="figure" target="#fig_12">1c</ref>, we removed the 'low priority' categories (two and four above) and only looked at the top 100 most increased and decreased significant genes, by group, relative to flight. We did so to make fitting splines feasible (especially in the case of genes, which had so many associations) and filter out additional noise due to low association-size findings.</p><p>We took a similar approach for the barplots in Figs. <ref type="figure" target="#fig_3">2</ref><ref type="figure" target="#fig_5">3</ref><ref type="figure" target="#fig_10">4</ref>and Extended Data Figs. <ref type="figure">7</ref><ref type="figure">8</ref><ref type="figure">9</ref>. We again filtered out the low priority associations and selected, for each body site represented in the figure (for example, oral, skin, nasal), the top N with the greatest difference in absolute value of average L 2 FC relative to the mid-flight timepoints. In other words, we selected for microbial features with dramatic overall L 2 FCs. We maximized N on the basis of the available space in the figure in question. We note that the complete, categorized association results are available in the online data resource (see Data availability).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Detecting microbial sharing between the crew and environment before, during and after flight</head><p>We modelled our species/strain-sharing analysis on the basis of ref. 30. Briefly, we used the -s flag in MetaPhlAn4 to generate sam files that could be fed into StrainPhlAn. We used the sample2markers.py script to generate consensus markers and extracted markers for each identified strain using extract_markers.py. We ran StrainPhlAn with the settings recommended in ref. 30 (-markers_in_n_samples 1, -sam-ples_with_n_markers 10 -mutation_rates -phylophlan_mode accurate). We then used the tree distance files generated by StrainPhlAn to identify strain-sharing cut-offs on the basis of the prevalence of different strains (detailed tutorial: <ref type="url" target="https://github.com/biobakery/MetaPhlAn/wiki/Strain-Sharing-Inference">https://github.com/biobakery/MetaPhlAn/  wiki/Strain-Sharing-Inference</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Association with host immune gene subtypes</head><p>The single-cell sequencing approach and averaging of host genes to identify expression levels are documented in refs. 33,69. The resultant averaged expression levels across cell types were associated with microbial feature abundance/expression using lasso regression. We used the same log transformation approach as in the mixed effects modelling for the microbial features, and we centred and rescaled the immune expression data. In total, we computed one regression per immune cell type (N = 8) per relevant microbial feature, with the independent variables being all human genes (N = 30,601). We selected features on the basis of their grouping described above, picking only those that were increased transiently or persistently increased after flight. Due to the volume of gene-catalogue associations, we only analysed persistently increased genes. We report outcomes with non-zero coefficients in the text.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure generation and additional data processing notes</head><p>The GNU parallel package was used for multiprocessing on the Linux command line <ref type="bibr" target="#b69">70</ref> . We additionally used a series of separate R packages for analysis and visualization <ref type="bibr" target="#b66">67,</ref><ref type="bibr" target="#b67">68,</ref><ref type="bibr" target="#b70">[71]</ref><ref type="bibr" target="#b71">[72]</ref><ref type="bibr" target="#b72">[73]</ref><ref type="bibr" target="#b73">[74]</ref><ref type="bibr" target="#b74">[75]</ref><ref type="bibr" target="#b75">[76]</ref> . Figures were compiled in Adobe Illustrator.</p><p>COUNTS PERCENTAGE 0e+00 2e+07 4e+07 6e+07 0 25 50 75 100 METAGENOMICS METATRANSCRIPTOMICS aligned_read_counts aligned_read_fraction KRAKEN2 --CONF-0.2 --REFSEQ KRAKEN2 --MASK --REFSEQ KRAKEN2 --MASK/CONF-0.2 --REFSEQ KRAKEN2 --REFSEQ METAPHLAN4 XTREE --BACTERIAL_MAGS XTREE --GENBANK_VIRUSES XTREE --GTDB XTREE --VIRAL_MAGS KRAKEN2 --CONF-0.2 --REFSEQ KRAKEN2 --MASK --REFSEQ KRAKEN2 --MASK/CONF-0.2 --REFSEQ KRAKEN2 --REFSEQ METAPHLAN4 XTREE --BACTERIAL_MAGS XTREE --GENBANK_VIRUSES XTREE --GTDB XTREE --VIRAL_MAGS 2 4 6 8 0.00 0.25 0.50 0.75 1.00 method value a c METAGENOMICS METATRANSCRIPTOMICS log(aligned_read_counts) aligned_read_fraction Extended Data Fig. <ref type="figure" target="#fig_1">1</ref> | Data processing workflow and summary statistics. a) After quality-controlling reads, we executed two different, parallel, workflows to identify the microbial taxa and genes that comprised each sample. We used seven different algorithmic approaches (Xtree, MetaPhlAn4/StrainPhlAn4, Phanta, Kraken2 with multiple parameter settings) and four different databases to classify short reads into different taxonomic categories (bottom left). We also did a de novo assembly analysis to identify the abundance of non-redundant genes/functions as well as Metagenome-Assembled bacterial and viral genomes. We executed all regression analyses for every resultant abundance matrix across the taxonomic ranks ranging from species to phylum. b) Counts and percentages of reads aligning to the human reference genome. c) Aligned reads by taxonomic classification method. For metagenomics, N per column is 385 biologically independent samples, for metatranscriptomics, N is 365 biologically independent samples. These numbers correspond to all microbiome samples collected. Lines on box plots indicate minimum and maximum values. The median is the centerline, and the bounds of the box are the interquartile range. The whiskers extend to 1.5 times the interquartile range of the upper and lower quartiles. Extended Data Fig. <ref type="figure">7</ref> | Gene level analysis, oral microbiome. The strongest associations between genes and flight for the oral microbiome. X-axes are the average L2FC of all pre-or post-flight timepoints compared to the average midflight abundances for a given taxon. Columns correspond to different association categories that are described visually by the example line plots on top of each one. Dotted, gray, horizontal lines demarcate an L2FC of zero. Plotted taxa were selected by ranking significant features in each category by L2FC and showing up to 10 at once.</p><formula xml:id="formula_5">K R A K E N 2 -- C O N F -0 . 2 -- R E F S E Q K R A K E N 2 -- M A S K -- R E F S E Q K R A K E N 2 -- M A S K / C O N F -0 . 2 -- R E F S E Q K R A K E N 2 -- R E F S E Q M E T A P H L A N 4 P H A N T A X T R E E -- B A C T E R I A L _ M A G S X T R E E -- G E N B A N K _ V I R U S E S X T R E E -- G T D B X T R E E -- V I R A L _ M A G S K R A K E N 2 -- C O N F -0 . 2 -- R E F S E Q K R A K E N 2 -- M A S K -- R E F S E Q K R A K E N 2 -- M A S K / C O N F -0 . 2 -- R E F S E Q K R A K E N 2 -- R E F S E Q M E T A P H L A N 4 P H A N T A X T R E E -- B A C T E R I A L _ M A G S X T R E E -- G E N B A N K _ V I R U S E S X T R E E -- G T D B X T R E E -- V I R A L _ M A G S<label>2</label></formula><p>Extended Data Fig. <ref type="figure" target="#fig_12">10</ref> | Viral classifier benchmarking. Benchmarking a across taxonomic ranks. Synthetic viral communities were generated from 100 genomes at random levels of abundance (from the GenBank database used in the rest of this study). a) The number of recovered genomes out of 100, for 10 mock communities for the genus and species levels. N = 10 independently generated mock communities. b) The number of true positive (identified and present in the sample), false positive (identified but not present in the sample), and false negative (that is, not recovered) genomes for the genus and species levels. N = 10 independently generated mock communities. c) The correlation between observed and expected read counts for each taxon as a function of being a true positive, false positive, or false negative. Lines on box plots in A and B indicate minimum and maximum values. The median is the centerline, and the bounds of the box are the interquartile range. The whiskers extend to 1.5 times the interquartile range of the upper and lower quartiles.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>c</head><figDesc>Significant</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 |</head><label>1</label><figDesc>Fig.1| Overview of dataset and summary of changes. a, Collection and analytic approach. Body swabs were collected from ten different sites, comprising three microbial ecosystems (oral, nasal, skin) around the body at eight different timepoints surrounding launch. These are referred to as L-92, L-44, L-3, FD2, FD3, R+1, R+45, R+82, where 'L' refers to pre-launch, 'FD' corresponds to flight day (that is, in-flight) and 'R' refers to return (that is, post-flight). Following collection and paired metagenomic/metatranscriptomic sequencing, samples were</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 2 |</head><label>2</label><figDesc>Fig. 2 | The oral microbiome architecture of spaceflight. The strongest associations between bacteria and flight for the oral microbiome. X axes are average log 2 fold change (L 2 FC) of all pre-flight or post-flight timepoints compared to the average mid-flight abundances for a given taxon. Columns correspond to different association categories that are described visually by</figDesc><graphic coords="4,169.33,70.34,364.32,482.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>r s i s t e n t d e c r e a s e P e r s i s t e n t i n c r e a s e T r a n s i e n t d e c r e a s e T r a n s i e n t i n c r e a s e P e r s i s t e n t d e c r e a s e P e r s i s t e n t i n c r e a s e T r a n s i e n t d e c r e a s e T r a n s i e n t i n c r e a s eFig. 3 |</head><label>3</label><figDesc>Fig. 3 | The skin microbiome and viral architecture of spaceflight. a, The strongest associations between bacteria and flight for the skin microbiome. X axes are the average L 2 FC of all pre-or post-flight timepoints compared to the average mid-flight abundances for a given taxon. Columns correspond to different association categories that are described visually by the example line</figDesc><graphic coords="5,124.13,72.66,159.60,461.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>F l i g h t 1 F l i g h t 2 SFig. 4 |</head><label>124</label><figDesc>Fig.4| Microbial propagation through the Dragon capsule and the crew. a, Beta diversities for bacterial metagenomics. Heat map colour corresponds to average beta diversity, with black being the midpoint (0.5), blue being totally dissimilar (1.0) and grey being highly similar (0.0). Columns are hierarchically clustered. The interpretation for a single cell is for the crew member annotated on the right-hand side: the value encoded refers to the dissimilarity of that individual's body site (as indicated on the column) to all other cells in that column</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><figDesc>Immune cell gene expression and microbial features altered in-flight</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Count 6 Fig. 5 |</head><label>65</label><figDesc>Fig. 5 | The landscape of potential immune-microbiome associations related to spaceflight. a, The total number of microbial features, by type, associated with different immune cell subtypes gene expression for those that were long-term increased (left) or decreased (right) after flight. b, The spaceflightassociated (increased in abundance or expression) bacteria and viruses that were associated with the greatest number of host genes. Viral genera are labelled 'E' for</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><figDesc>Article https://doi.org/10.1038/s41564-024-01635-8 ln (microbial_feature_abundance + minval)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>+β 4</head><label>4</label><figDesc>Time × Postauricular + β 5 Time × Forehead + β 6 Time × BellyButton +β 7 Time × GlutealCrease + β 8 Time × TZone + (1|Crew.ID) + ϵ i (4)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>. 1 |</head><label>1</label><figDesc>See next page for caption.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>. 2 |. 3 |Extended Data Fig. 4 |Extended Data Fig. 6 |</head><label>2346</label><figDesc>-S P E C IF IC L M E R -S P E C IF IC S H A R E D G L M -S P E C IF IC L M E R -S P E C IF IC S H A R E D G L M -S P E C IF IC L M E R -S P E C IF ICS H A R E D -S P E C IF IC L M E R -S P E C IF IC S H A R E D G L M -S P E C IF IC L M E R -S P E C IF IC S H A R E D G L M -S P E C IF IC L M E R -S P E C IF IC S H A R E DNull model results. Similarity between FDR-significant associations fit with mixed versus generalized linear models (sans a random effect).s is t e n t d e c r e a s e P e r s is t e n t in c r e a s e T r a n s ie n t d e c r e a s e T r a n s ie n t in c r e a sSupplemental Microbiome Association Study output. a)The total number of features (bacterial species, viral genera, or genes) found to be statistically associated with either pre-or post-flight timepoints across sequencing methods. Features are grouped by the categories laid out in the Methods regarding the nature of their changes relative to flight b-c) The time trajectories of persistently/transiently increased/decreased significant findings split by body site, filtering for strong [see Methods] associations. Plots with one or no lines had either no significant findings or none that met the filtering criteria. Gray shaded area indicates 95% confidence intervals. .2-MASK KRAKEN2-CONF0.0-MASKKRAKEN2-CONF0.2-NOMASK KRAKEN2-CONF0.0-NOMASK 1e+01 1e+03 1e+05 1e+01 1e+03 1e+05 1e+01 1e+03 1e+05 1e+01 1e+03 1e+05 1e+01 1e+03 1e+05 1e+01 1e+03 1e+05 1e+01 1e+03 1e+05 1e+01 1e+03 1e+05 1e+01 1e+03 1e+05 1e+01 1e+03 1e+05 1e+01 1e+03 1e+05 Regression results by specific body sites. Regression results across short-read taxonomic classification methods.The functional response of the microbiome to spaceflight. a) COG categories of all genes associated with flight. b) Groups of specific protein products that were associated with spaceflight. The legend in the black box is relevant for all figures where those colors appear.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="23,387.12,64.82,136.44,614.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="25,241.20,70.89,301.92,612.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="27,300.76,71.58,245.16,612.24" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Nature Microbiology | Volume 9 | July 2024 | 1661-1675</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank the <rs type="funder">WorldQuant Foundation</rs>, the <rs type="funder">Scientific Computing Unit (SCU)</rs> at WCM, <rs type="funder">NASA</rs> (<rs type="grantNumber">NNX14AH50G</rs>, <rs type="grantNumber">NNX17AB26G</rs>, <rs type="grantNumber">80NSSC22K0254</rs>, <rs type="grantNumber">NNH18ZTT001N-FG2</rs>, <rs type="grantNumber">80NSSC23K0832</rs>), <rs type="person">L. Radvinsky</rs>, <rs type="person">K. Chudnovsky</rs>, the <rs type="funder">National Institutes of Health</rs> (<rs type="grantNumber">R01MH117406</rs>, <rs type="grantNumber">P01CA214274 R01CA249054</rs>, <rs type="grantNumber">R01ES032638</rs>, <rs type="grantNumber">R01AI151059</rs>), the <rs type="funder">LLS</rs> (<rs type="grantNumber">MCL7001-18</rs>, <rs type="grantNumber">LLS 9238-16</rs>, <rs type="grantNumber">7029-23</rs>), and the <rs type="funder">GI Research Foundation (GIRF)</rs>. We also thank <rs type="person">J. Gandara</rs> at the <rs type="affiliation">Microbiome Core Lab at Weill Cornell Medical College</rs> for sequencing support. J.K. thanks <rs type="funder">MOGAM Science Foundation</rs> and was supported by the <rs type="funder">Basic Science Research Program</rs> through the <rs type="funder">National Research Foundation of Korea (NRF)</rs> funded by the <rs type="funder">Ministry of Education</rs> (<rs type="grantNumber">RS-2023-00241586</rs>). We acknowledge curation support from the <rs type="institution">NASA Open Science Data Repository/GeneLab</rs>, which is funded by the <rs type="funder">NASA Space Biology Program (Science Mission Directorate, Biological and Physical Sciences Division)</rs>. We thank <rs type="person">Boryung</rs> for support and the <rs type="institution">Global Space Healthcare Initiative and Humans in Space Program</rs>. We thank <rs type="person">B. Kent</rs> for drawing the cartoon in Fig. <ref type="figure">1</ref>. Figure <ref type="figure">1</ref> was created in part with BioRender.com.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_4TkMpaq">
+					<idno type="grant-number">NNX14AH50G</idno>
+				</org>
+				<org type="funding" xml:id="_DBeD65X">
+					<idno type="grant-number">NNX17AB26G</idno>
+				</org>
+				<org type="funding" xml:id="_GWXeVDV">
+					<idno type="grant-number">80NSSC22K0254</idno>
+				</org>
+				<org type="funding" xml:id="_eFDUdPR">
+					<idno type="grant-number">NNH18ZTT001N-FG2</idno>
+				</org>
+				<org type="funding" xml:id="_NJfhqU8">
+					<idno type="grant-number">80NSSC23K0832</idno>
+				</org>
+				<org type="funding" xml:id="_Nz6RNAS">
+					<idno type="grant-number">R01MH117406</idno>
+				</org>
+				<org type="funding" xml:id="_G8Dv9qg">
+					<idno type="grant-number">P01CA214274 R01CA249054</idno>
+				</org>
+				<org type="funding" xml:id="_He3GMVg">
+					<idno type="grant-number">R01ES032638</idno>
+				</org>
+				<org type="funding" xml:id="_sXbGBkP">
+					<idno type="grant-number">R01AI151059</idno>
+				</org>
+				<org type="funding" xml:id="_zrRQcfJ">
+					<idno type="grant-number">MCL7001-18</idno>
+				</org>
+				<org type="funding" xml:id="_8TPbw8V">
+					<idno type="grant-number">LLS 9238-16</idno>
+				</org>
+				<org type="funding" xml:id="_GjGKJfw">
+					<idno type="grant-number">7029-23</idno>
+				</org>
+				<org type="funding" xml:id="_wVxmWJE">
+					<idno type="grant-number">RS-2023-00241586</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Article</head><p><ref type="url" target="https://doi.org/10.1038/s41564-024-01635-8">https://doi.org/10.1038/s41564-024-01635-8</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The data that support this study are available at the NASA GeneLab/ NASA Open Science Data Repository with the identifiers OSD-630 (<ref type="url" target="https://doi.org/10.26030/cyfk-5f38">https://doi.org/10.26030/cyfk-5f38</ref>), OSD-570 (<ref type="url" target="https://doi.org/10.26030/41s1-j243">https://doi.org/  10.26030/41s1-j243</ref>), OSD-572 (<ref type="url" target="https://doi.org/10.26030/8v5d-xn21">https://doi.org/10.26030/8v5d-xn21</ref>) and OSD-573 (<ref type="url" target="https://doi.org/10.26030/x57b-4722">https://doi.org/10.26030/x57b-4722</ref>). Additional processed datasets (gene catalogues, taxonomic and gene abundances) are available on figshare at <ref type="url" target="https://figshare.com/projects/Longitudinal_multi-omics_analysis_of_host_microbiome_architecture_and_immune_responses_during_short-term_spaceflight/176043">https://figshare.com/projects/Longitu- dinal_multi-omics_analysis_of_host_microbiome_architecture_and_  immune_responses_during_short-term_spaceflight/176043</ref> (ref. <ref type="bibr" target="#b65">66)</ref>. This figshare repository additionally contains figures detailing the top most abundant taxa for each alignment algorithm before and after decontamination. Select data can be visualized online through the SOMA Data Explorer: <ref type="url" target="https://soma.weill.cornell.edu">https://soma.weill.cornell.edu</ref>. The Gen-Bank viral database used was the most recent as of 26 July 2022. The GTDB database used was the 202 release. The MetaPhlan4 database was mpa_vJan21_CHOCOPhlAnSGB_202103. The Kraken2 database contained all NCBI listed taxa (bacteria, fungal and viral genomes) in RefSeq as of 1 September 2022. The Phanta database was the most recent as of 1 August 2022. The Bakta databases were the most recent as of 18 August 2022. Source data are provided with this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Code availability</head><p>Code used to generate figures and analyses from this project is available at <ref type="url" target="https://github.com/eliah-o/inspiration4-omics">https://github.com/eliah-o/inspiration4-omics</ref>.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistics and reproducibility</head><p>No statistical method was used to predetermine sample size; all possible samples from all crew members (N = 4) were taken. No sequenced data were excluded from the analyses; however, samples were quality controlled before bioinformatic and statistical analysis to remove duplicated reads, trim adapters and low-quality bases, remove human contamination and remove potential microbial contamination (using negative controls). The experiments were not randomized. Data collection and analysis were not performed blind to the conditions of the experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reporting summary</head><p>Further information on research design is available in the Nature Portfolio Reporting Summary linked to this article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>C.E.M., B.T.T. and E.G.O. conceptualized and designed the study. B.T.T. led the paper drafting, data organization and processing. All authors read and approved the paper and contributed editing, analytic recommendations, and/or assistance in responding to reviewers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>B.T.T. was compensated for consulting with Seed Health and Enzymetrics Biosciences on microbiome study design. R.D. and G.A.A.-G. are employees of Seed Health. C.E.M. is a co-founder of Cosmica Biosciences. E.E.A. is a consultant for Thorne HealthTech. G.M.C. has conflicts, detailed here: <ref type="url" target="https://arep.med.harvard.edu/gmc/tech.html">https://arep.med.harvard.edu/  gmc/tech.html</ref>. J.F. and M.M. are employees of Tempus Labs. J.M., A.M.B., J.Z., B.R.L., A.A., S.K. and S.L. are employees of Element Biosciences, which sequenced a subset of samples used in this study. Unless otherwise mentioned, none of the companies listed had a role in conceiving, executing, or funding the work described here.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head><p>Extended data is available for this paper at <ref type="url" target="https://doi.org/10.1038/s41564-024-01635-8">https://doi.org/10.1038/s41564-024-01635-8</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary information</head><p>The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1038/s41564-024-01635-8">https://doi.org/10.1038/s41564-024-01635-8</ref>.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bacterial species</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Medical qualification of a commercial spaceflight participant: not your average astronaut</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Jennings</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aviat. Space Environ. Med</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="475" to="484" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Space medicine in the era of civilian spaceflight</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stepanek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Blue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Parazynski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N. Engl. J. Med</title>
+		<imprint>
+			<biblScope unit="volume">380</biblScope>
+			<biblScope unit="page" from="1053" to="1060" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Gastrointestinal function in simulated space flight microgravity</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Iovino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dig. Liver Dis</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page">140</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Space flight nutrition research: platforms and analogs</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Uchakin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Tobin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrition</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="926" to="929" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Gut microbiome and space travelers&apos; health: state of the art and possible pro/prebiotic strategies for long-term space missions</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Turroni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">553929</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The effects of microgravity on the digestive system and the new insights it brings to the life sciences</title>
+		<author>
+			<persName><forename type="first">J.-Q</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Life Sci. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="74" to="82" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Investigation of spaceflight induced changes to astronaut microbiomes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Morrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">659179</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Effects of spaceflight on human skin</title>
+		<author>
+			<persName><forename type="first">Á</forename><surname>Farkas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Farkas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Skin Pharmacol. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="239" to="245" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Skin microbiome considerations for long haul space flights</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Caswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Eshelby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Cell Dev. Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">956432</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Transcriptomics analysis reveals molecular alterations underpinning spaceflight dermatology</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cope</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s43856-024-00532-9</idno>
+		<ptr target="https://doi.org/10.1038/s43856-024-00532-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Commun. Med</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The epithelial barrier theory: development and exacerbation of allergic and other chronic inflammatory diseases</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">C</forename><surname>Kucuksezer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Asia Pac. Allergy</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="28" to="39" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Dysregulation of the epithelial barrier by environmental and other exogenous factors</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mitamura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contact Dermatitis</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="615" to="626" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Immune system dysregulation during spaceflight: potential countermeasures for deep space exploration missions</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Crucian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1437</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Spaceflight virology: what do we know about viral threats in the spaceflight environment?</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pavletić</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="210" to="224" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Latent virus reactivation in astronauts on the international space station</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Mehta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">npj Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Asymptomatic reactivation and shed of infectious varicella zoster virus in astronauts</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Cohrs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Schmid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Gilden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Med. Virol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="1116" to="1122" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Multiple latent viruses reactivate in astronauts during Space Shuttle missions</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Mehta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Behav. Immun</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="210" to="217" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Microbial growth and physiology in space: a review</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Cioletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Mishra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SAE Trans</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="1594" to="1604" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Karouia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">204</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Crewmember microbiome may influence microbial composition of ISS habitable surfaces</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Avila-Herrera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">231838</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Growth of 48 built environment bacterial isolates on board the International Space Station (ISS)</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Coil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">1842</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Multidrug-resistant Acinetobacter pittii is adapting to and exhibiting potential succession aboard the International Space Station</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Tierney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">210</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Checinska Sielaff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">50</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Comparative genomics of novel Agrobacterium G3 strains isolated from the International Space Station and description of Agrobacterium tomkonis sp</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">nov. Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">765943</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The NASA Twins Study: a multidimensional analysis of a year-long human spaceflight</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Garrett-Bakelman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">364</biblScope>
+			<biblScope unit="page">8650</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Gene-level metagenomic architectures across diseases yield high-resolution microbiome diagnostic indicators</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Tierney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Kostic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Patel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">2907</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Fusobacterium orchestrates oral biofilms</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Hofer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">576</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Fusobacterium species and subspecies differentially affect the composition and architecture of supra-and subgingival biofilms models</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Thurnheer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Karygianni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Flury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Belibasakis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1716</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Distribution of genes of toxin-antitoxin systems of mazEF and relBE families in bifidobacteria from human intestinal microbiota] (in Russian)</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">V</forename><surname>Averina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Alekseeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Abilev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Il'in</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">N</forename><surname>Danilenko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetika</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="315" to="327" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The person-to-person transmission landscape of the gut and oral microbiomes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Valles-Colomer</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41564-024-01635-8</idno>
+		<ptr target="https://doi.org/10.1038/s41564-024-01635-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">614</biblScope>
+			<biblScope unit="page" from="125" to="135" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Monocytemediated defense against microbial pathogens</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Serbina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Hohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Pamer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="421" to="452" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The role of CD8 T cells in innate immunity and in antigen non-specific protection</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Berg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Forman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="338" to="343" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Single-cell multi-ome and immune profiles of the Inspiration4 crew reveal conserved, cell-type and sex-specific responses to spaceflight</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-024-49211-2</idno>
+		<ptr target="https://doi.org/10.1038/s41467-024-49211-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Inferring correlation networks from genomic survey data</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Alm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Comput. Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">1002687</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">LinDA: linear models for differential abundance analysis of microbiome compositional data</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">95</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Assessment of REPLI-g Multiple Displacement Whole Genome Amplification (WGA) techniques for metagenomic applications</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ahsanuddin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomol. Tech</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="46" to="55" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Collection of biospecimens from the Inspiration4 Mission establishes the standards for the Space Omics and Medical Atlas (SOMA)</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Overbey</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-024-48806-z</idno>
+		<ptr target="https://doi.org/10.1038/s41467-024-48806-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bushnell</surname></persName>
+		</author>
+		<ptr target="http://sourceforge.net/projects/bbmap" />
+		<title level="m">BBTools software package</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Functional signatures of oral dysbiosis during periodontitis progression revealed by microbial metatranscriptome analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Duran-Pinedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Teles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Krishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Frias-Lopez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Med</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">27</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">metaSPAdes: a new versatile metagenomic assembler</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nurk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Meleshko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Korobeynikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Pevzner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="824" to="834" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">MetaQUAST: evaluation of metagenome assemblies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mikheenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Saveliev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gurevich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1088" to="1090" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">MetaBAT 2: an adaptive binning algorithm for robust and efficient genome reconstruction from metagenome assemblies</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Kang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">7359</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Parks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Imelfort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Skennerton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hugenholtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Tyson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1043" to="1055" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Tk: a toolkit to classify genomes with the Genome Taxonomy Database</title>
+		<author>
+			<persName><forename type="first">P.-A</forename><surname>Chaumeil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mussig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hugenholtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Parks</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gtdb-</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btz848</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/btz848" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">CheckV assesses the quality and completeness of metagenome-assembled viral genomes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nayfach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="578" to="585" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Metagenomic compendium of 189,680 DNA viruses from the human gut microbiome</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nayfach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="960" to="970" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Quantifying shared and unique gene content across 17 microbial ecosystems</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zimmerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Tierney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Kostic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">mSystems</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="118" to="123" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Towards the biogeography of prokaryotic genes</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Coelho</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-021-04233-4</idno>
+		<ptr target="https://doi.org/10.1038/s41586-021-04233-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The landscape of genetic content in the gut and oral human microbiome</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Tierney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Host Microbe</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">8</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Bakta: rapid and standardized annotation of bacterial genomes via alignment-free sequence identification</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Schwengers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microb. Genom</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">685</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Steinegger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Söding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1026" to="1028" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Fast and sensitive protein alignment using DIAMOND</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Buchfink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Huson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="59" to="60" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">ART: a next-generation sequencing read simulator</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Marth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="593" to="594" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Evaluating the information content of shallow shotgun metagenomics</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hillmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">mSystems</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="69" to="87" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Improved metagenomic analysis with Kraken 2</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Langmead</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">257</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">BURST enables mathematically optimal short-read alignment for big data</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Al-Ghalith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Knights</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/2020.09.08.287128</idno>
+		<ptr target="https://doi.org/10.1101/2020.09.08.287128" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Preprint at bioRxiv</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">a package of R functions for community ecology</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dixon</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Vegan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Veg. Sci</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="927" to="930" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Extending and improving metagenomic taxonomic profiling with uncharacterized species using MetaPhlAn 4</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blanco-Míguez</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41587-023-01688-w</idno>
+		<ptr target="https://doi.org/10.1038/s41587-023-01688-w" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Basic local alignment search tool</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Altschul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lipman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="page" from="403" to="410" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Phage-inclusive profiling of human gut microbiomes with Phanta</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Pinto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Bhatt</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41587-023-01799-4</idno>
+		<ptr target="https://doi.org/10.1038/s41587-023-01799-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">estimating species abundance in metagenomics data</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Breitwieser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thielen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Salzberg</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bracken</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ Comput. Sci</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">104</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Microbiome applications for pathology: challenges of low microbial biomass samples during diagnostic testing</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Selway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Eisenhofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Weyrich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Pathol. Clin. Res</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="97" to="106" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Optimization of low-biomass sample collection and quantitative PCR-based titration impact 16S rRNA microbiome resolution</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G J</forename><surname>Clokie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol. Spectr</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">225522</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">How the &apos;kitome&apos; influences the characterization of bacterial communities in lepidopteran samples with low bacterial biomass</title>
+		<author>
+			<persName><forename type="first">Paniagua</forename><surname>Voirol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Valsamakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Hilker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="1780" to="1793" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Simple statistical identification and removal of contaminant sequences in marker-gene and metagenomics data</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Relman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Callahan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">226</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tierney</surname></persName>
+		</author>
+		<ptr target="https://figshare.com/projects/Longitudinal_multi-omics_analysis_of_host_microbiome_architecture_and_immune_responses_during_short-term_spaceflight/176043" />
+		<title level="m">Longitudinal multi-omics analysis of host microbiome architecture and immune responses during short-term spaceflight</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Fitting linear mixed-effects models using lme4</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mächler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bolker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Stat. Softw</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="1" to="48" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">lmerTest Package: tests in linear mixed effects models</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kuznetsova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Brockhoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H B</forename><surname>Christensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Stat. Softw</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="1" to="26" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">The Space Omics and Medical Atlas (SOMA) and international astronaut biobank</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Overbey</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-024-07639-y</idno>
+		<ptr target="https://doi.org/10.1038/s41586-024-07639-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+		<title level="m" type="main">GNU Parallel</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Tange</surname></persName>
+		</author>
+		<idno type="DOI">10.5281/zenodo.1146014</idno>
+		<ptr target="https://doi.org/10.5281/zenodo.1146014" />
+		<imprint>
+			<date type="published" when="2018">2018. 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Welcome to the Tidyverse</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wickham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Open Source Softw</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">1686</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wickham</surname></persName>
+		</author>
+		<ptr target="https://ggplot2-book.org/" />
+		<title level="m">ggplot2: Elegant Graphics for Data Analysis</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">UMAP: uniform manifold approximation and projection</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mcinnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Healy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Melville</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41564-024-01635-8</idno>
+		<ptr target="https://doi.org/10.1038/s41564-024-01635-8" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Open Source Softw</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">861</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Reshaping data with the reshape package</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wickham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Stat. Softw</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1" to="20" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">UpSet: visualization of intersecting sets</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lex</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gehlenborg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Strobelt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vuillemot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pfister</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Vis. Comput. Graph</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1983" to="1992" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<monogr>
+		<title level="m" type="main">krassowski/complexupset: v1.3.5</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krassowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lagger</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Max</surname></persName>
+		</author>
+		<idno type="DOI">10.5281/zenodo.3700590</idno>
+		<ptr target="https://doi.org/10.5281/zenodo.3700590" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

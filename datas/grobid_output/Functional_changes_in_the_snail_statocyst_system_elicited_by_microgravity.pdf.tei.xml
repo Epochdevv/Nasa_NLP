@@ -1,0 +1,1939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Functional Changes in the Snail Statocyst System Elicited by Microgravity</title>
+				<funder ref="#_VZfdsm2">
+					<orgName type="full">Russian Foundation for Basic Research, Russian Academy of Science</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">RF President Council</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Public Library of Science (PLoS)</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2011-03-29">March 29, 2011</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Pavel</forename><forename type="middle">M</forename><surname>Balaban</surname></persName>
+							<email>balaban@ihna.msk.ru</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Higher Nervous Activity and Neurophysiology</orgName>
+								<orgName type="institution">Russian Academy of Sciences</orgName>
+								<address>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aleksey</forename><forename type="middle">Y</forename><surname>Malyshev</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Higher Nervous Activity and Neurophysiology</orgName>
+								<orgName type="institution">Russian Academy of Sciences</orgName>
+								<address>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Victor</forename><forename type="middle">N</forename><surname>Ierusalimsky</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Higher Nervous Activity and Neurophysiology</orgName>
+								<orgName type="institution">Russian Academy of Sciences</orgName>
+								<address>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nikolay</forename><surname>Aseyev</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Higher Nervous Activity and Neurophysiology</orgName>
+								<orgName type="institution">Russian Academy of Sciences</orgName>
+								<address>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tania</forename><forename type="middle">A</forename><surname>Korshunova</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Higher Nervous Activity and Neurophysiology</orgName>
+								<orgName type="institution">Russian Academy of Sciences</orgName>
+								<address>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Natasha</forename><forename type="middle">I</forename><surname>Bravarenko</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Higher Nervous Activity and Neurophysiology</orgName>
+								<orgName type="institution">Russian Academy of Sciences</orgName>
+								<address>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>M. S</roleName><forename type="first">M</forename><forename type="middle">S</forename><surname>Lemak</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Higher Nervous Activity and Neurophysiology</orgName>
+								<orgName type="institution">Russian Academy of Sciences</orgName>
+								<address>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matvey</forename><surname>Roshchin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Higher Nervous Activity and Neurophysiology</orgName>
+								<orgName type="institution">Russian Academy of Sciences</orgName>
+								<address>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Igor</forename><forename type="middle">S</forename><surname>Zakharov</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Koltzov Institute of Developmental Biology</orgName>
+								<orgName type="institution">Russian Academy of Sciences</orgName>
+								<address>
+									<settlement>Moscow</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yekaterina</forename><surname>Popova</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Max-Planck-Institut</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Richard</forename><surname>Boyle</surname></persName>
+							<email>richard.boyle@nasa.gov</email>
+							<affiliation key="aff2">
+								<orgName type="department">Max-Planck-Institut</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>California</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">fu ¨r Neurobiologie</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Functional Changes in the Snail Statocyst System Elicited by Microgravity</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">PLoS ONE</title>
+						<title level="j" type="abbrev">PLoS ONE</title>
+						<idno type="eISSN">1932-6203</idno>
+						<imprint>
+							<publisher>Public Library of Science (PLoS)</publisher>
+							<biblScope unit="volume">6</biblScope>
+							<biblScope unit="issue">3</biblScope>
+							<biblScope unit="page">e17710</biblScope>
+							<date type="published" when="2011-03-29">March 29, 2011</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">291A35C63ECCA664CB0BEAC24DA71FEF</idno>
+					<idno type="DOI">10.1371/journal.pone.0017710</idno>
+					<note type="submission">Received August 3, 2010; Accepted February 11, 2011;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background:</head><p>The mollusk statocyst is a mechanosensing organ detecting the animal's orientation with respect to gravity. This system has clear similarities to its vertebrate counterparts: a weight-lending mass, an epithelial layer containing small supporting cells and the large sensory hair cells, and an output eliciting compensatory body reflexes to perturbations.</p><p>Methodology/Principal Findings: In terrestrial gastropod snail we studied the impact of 16-(Foton M-2) and 12-day (Foton M-3) exposure to microgravity in unmanned orbital missions on: (i) the whole animal behavior (Helix lucorum L.), (ii) the statoreceptor responses to tilt in an isolated neural preparation (Helix lucorum L.), and (iii) the differential expression of the Helix pedal peptide (HPep) and the tetrapeptide FMRFamide genes in neural structures (Helix aspersa L.). Experiments were performed 13-42 hours after return to Earth. Latency of body re-orientation to sudden 90u head-down pitch was significantly reduced in postflight snails indicating an enhanced negative gravitaxis response. Statoreceptor responses to tilt in postflight snails were independent of motion direction, in contrast to a directional preference observed in control animals. Positive relation between tilt velocity and firing rate was observed in both control and postflight snails, but the response magnitude was significantly larger in postflight snails indicating an enhanced sensitivity to acceleration. A significant increase in mRNA expression of the gene encoding HPep, a peptide linked to ciliary beating, in statoreceptors was observed in postflight snails; no differential expression of the gene encoding FMRFamide, a possible neurotransmission modulator, was observed.</p><p>Conclusions/Significance: Upregulation of statocyst function in snails following microgravity exposure parallels that observed in vertebrates suggesting fundamental principles underlie gravi-sensing and the organism's ability to adapt to gravity changes. This simple animal model offers the possibility to describe general subcellular mechanisms of nervous system's response to conditions on Earth and in space.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Of all the environmental parameters under which a living organism has been exposed in the course of its evolution only gravity has remained constant. Predation, climate, vegetation, and terrestrial or aquatic habitation, for example, have changed, but the intensity and direction of gravity have not. Most extant vertebrates are gnathostomes or jawed, but in the Devonian period about 400 million years ago the majority of vertebrates were ostracoderms or jawless. Despite this shift within vertebrata, fossil evidence shows that the elaborate sensory structures used to sense the acceleration forces are remarkably conserved <ref type="bibr" target="#b0">[1]</ref>. Although less is available in the fossil record on invertebrate sensory structures, recent gene expression studies suggest that gravisensing statocyst system in eumetazoans is in the same way elemental and highly conserved <ref type="bibr" target="#b1">[2]</ref>. The organism's ability to detect gravity and to live under a gravitational load is critical for its survival. Even rudimentary ciliated protozoa display positive or negative geotaxis <ref type="bibr" target="#b2">[3]</ref>. Most if not all invertebrate species can orient their bodies' axis with respect to gravity, but only in a few crustaceans, insects and mollusks has gravireception been more thoroughly studied. In insects it is remarkably robust, but equally complex in design. In gastropods the statocyst is the predominant gravisensing organ, and it has clear similarities to its vertebrate counterparts: a weightlending mass comprised of calcium carbonate particles called statoconia (the particles are called otoconia in mammals), and an epithelial layer containing small supporting cells carrying microvilli and giant sensory hair cells carrying, in some species such as land snails, true (9+2)-type kinocilia (supporting cells and kinocilium-bearing hair cells populate the mammalian vestibular sensory regions). Differences lie in the mode of transmission to higher centers. In the snail the nerve bundle from each statocyst projects rostrally into the cerebral ganglion on each side, and each fiber is the axon of an individual hair cell. In vertebrates the nerve bundle from each otolith organ projects into the brainstem bilaterally, and each fiber is the axon of a cranial nerve afferent receiving synaptic inputs from the more numerous hair cells. Similarities once again appear in the existence of efferent fibers in the statocyst nerve projecting from other neural areas for both gastropods <ref type="bibr" target="#b3">[4]</ref> and vertebrates <ref type="bibr" target="#b4">[5]</ref>.</p><p>With the advent of space flight it is possible to address fundamental questions on the biological principle(s) of gravireception in animals, from humans to invertebrates. A key question is: despite the constancy of gravity, does the nervous system adapt to novel transitions in gravity states, even for transitions of brief duration measured in days? Another key question is: because of the elemental nature of gravireception, do animals respond similarly to altered gravity states and adapt to the new, and in the case of postflight the original, environment? In this study we address these questions in an invertebrate model.</p><p>In two unmanned orbital missions on the Russian spacecrafts Foton M-2 and M-3 we investigated the response of the snail gravisensing system to the space mission, which persists largely of the mG exposure, within a brief delay after landing. The terrestrial snail Helix lucorum Linnaeus (Pulmonata, Gastropoda) offered an excellent model of study. Because these animals are small, we had a sufficient sample size and still remained within our volume limit. Snails are resilient and can remain metabolically active under confined conditions for weeks. Importantly, certain behaviors and the cellular networks underlying them are well described in this animal <ref type="bibr" target="#b5">[6]</ref>. Experiments were designed to evaluate the impact of changes in gravity states on three separate but related areas of statocyst function. First, we studied the behavioral (whole animal) response to sudden orientation shifts with respect to gravity, known as negative gravitaxis. This is a ubiquitous behavior found throughout nature. Second, we used electrophysiological techniques in the same subpopulation of snails examined for their behavioral response to tilt to determine the postflight response of individual hair cells to controlled tilts. In vertebrates, the cranial nerve afferents reporting to the brain the head acceleration sensed by the inner ear hair cells show a hypersensitivity, or upregulation, of the discharge response during the first days following microgravity exposure <ref type="bibr" target="#b6">[7]</ref>. And third, in a separate population of smaller snails (H. aspersa) we examined the subcellular expression patterns of specific neuropeptide genes. Primary statocyst receptor cells express a product of the preproHPep gene -a pedal peptide, HPep, under physiological load <ref type="bibr" target="#b7">[8]</ref>, and regulation of this gene expression pattern might signal how the statocyst receptor is 'tuned' by the gravity vector. The second neuropeptide studied was FMRFamide, an endogenous peptide found in the nervous system throughout the animal kingdom. In invertebrates FMRFamides in fact constitute a major class of peptide neurotransmitters.</p><p>Preliminary conference reports on Foton M-2 and Foton M-3 flight experiments were presented <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b9">10]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Creating persistent conditions for microgravity</head><p>The Foton series of spacecraft uses a modified Soyuz-U launcher and a recoverable satellite. The temperature inside the satellite is controlled via heaters and fans, and the satellite is tumbled in orbit to expose the outer surface evenly to the Sun. The satellite is sealed tightly, but the atmospheric composition is not maintained. As a result only short duration missions of 2-3 weeks with species requiring minimal advanced life support are flown on this platform. Temperature measures within the satellite were down-linked periodically from orbit to control the delayed asynchronous control experiments. A temperature sensor was also placed within the snail habitat to validate its correspondence to the satellite temperature. Because the satellite in orbit is in a free fall towards Earth, the snails were exposed to mG not zero G, in the range of 10 23 -10 25 G. For Foton M-2 the snails were returned to the laboratory at 30 h after landing. For M-3 the delay was significantly reduced to 13 h by chartering a private flight.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Animals</head><p>Experimental protocol was in accordance with the USA NIH ''Guide for the Care and Use of Laboratory Animals'' and approved by the Russian Academy of Sciences. Because restrictions existed on the weight and volume of the habitat, two closely related species of snails were selected. Juvenile H. aspersa were used specifically for the histochemistry studies to provide an adequate sample size for each procedure. These snails are reared in laboratory under controlled conditions to allow selection based on age, weight, and quantity. For Foton M-2 and M-3 20 (1-4 g) and 20 (1-2 g) small H. aspersa were flown, respectively. A larger snail, H. lucorum, was desirable for the behavioral and electrophysiological studies. These snails were obtained through commercial vendors, and did not represent siblings or statistical cohorts except they were of relatively comparable weight within each group. For Foton M-2 and M-3 15 (12-18 g) and 16 (3-8 g) adult H. lucorum were flown, respectively.</p><p>Before flight all snails were weighed and an identifying number was painted on the shell of each large snail. The snail habitat was divided into 2 chambers to separately house the small and large snails. Snails are both hibernators (winter) and estivators (summer/ dryness). Entering into either of these low metabolic states would conceivably mask any effect of the space flight. In an effort to prevent estivation, ample food and water sources were provided over the course of the mission, and the temperature within the habitat (and satellite) was maintained within 19-22uC (optimal temperature for the entire payload). Charcoal filters were also placed in the habitat to control fungal and algal growth. Inspection of the habitat upon return to the lab after landing of M-2 and M-3 clearly indicated that the snails were active and consumed the available food during the mission.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Behavioral Studies</head><p>In the wild as the snail crawls along a plant its weight can cause the leaf and snail to drop vertically. The snail stays attached and faces head down, and will reorient itself by rotating 180u about its axis and crawl up the plant against the gravity vector. This behavior is termed negative gravitaxis. The negative gravitaxis response of each large snail was tested prior to launch and similarly tested postflight. In the test the snail was positioned on a horizontal plastic surface containing a fine grid pattern and hinged to permit a controlled 90u vertical pitch of the animal. The snail at this time, T0, is oriented with its long axis parallel to the vertical and head facing down. Typically, after a delay the animal reorients itself by 180u and moves upward on the platform. Each test was recorded on video and the latency of re-orientation at 2-4 fixed body positions was calculated off-line. For M-2 mission all animals were tested in the negative gravitaxis paradigm. To allow the necessary time for the neural recording paradigms for the M-3 mission the behavioral testing was scored in 5 flight snails at T0-T2 latencies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Electrophysiology Studies</head><p>After the behavioral tests were concluded (M-2: 31-35 h after landing; M-3: 14-18 h after landing), the snail's nervous system was isolated and prepared for electrophysiological studies of the statocyst response to tilt mimicking the ''head down'' and the ''tail down'' behavioral conditions. To capture the likely neural response to the space mission it is critical that recordings are conducted not only as quickly as possible after the flight, but with the least amount of time between subjects. Thus we designed whole nerve recording techniques from the statocyst nerve, n. vestibularis, which contains the axons of 13 statoreceptors, and protocols to systematically and consistently record the greatest number of statoreceptors in the shortest period of time in each snail.</p><p>The preparation was made by rapidly cooling the snails to 4uC and anesthetized by injecting isotonic MgCl 2 saline (,15% of the animal weight). Next, the central ganglionic ring was dissected free from the animal and pinned to a silicone-elastomer (Sylgard)coated dish. The tissue was bathed in a saline solution containing (in mM) 100 NaCl, 4 KCl, 7 CaCl 2 , 5 MgCl 2 , and 10 Tris-HCl buffer (pH 7.8). Neural commissures connecting the left and right pedal ganglia were severed. The dish contained two chambers that were isolated from each other using a Vaseline barrier. One chamber contained a pedal ganglion with an intact statocyst and the other contained the corresponding cerebral ganglion with attached ommatophores, and the two neural structures were connected by the n. vestibularis through the isolation bridge. In the M-2 experiments, the ganglia were first treated with Protease (1 mg/ml) (Type XIV, SIGMA, USA) for 10 min at room temperature, washed out with saline solution, and the connective tissue sheath was completely removed to improve recording quality. Only microdissection techniques were used in the whole nerve recordings of M-3 experiments to improve recording quality. Extracellular recording of n. vestibularis activity was made using Ag/AgCl electrodes, one placed in each saline bath of the two chambers. The signal was amplified (300-30006) and filtered (20-2 kHz) by a differential amplifier (NB Lab, Russia), digitized (10 kHz conversion) and acquired into commercial software (Digidata 1200A A/D converter and Axoscope 9.0 software, Axon Instruments, USA), and stored on a computer for subsequent analysis.</p><p>Natural stimulation of the statocyst was performed on a custom tilt setup, which was slightly modified for the experiments of Foton M-3 to enhance testing. Figure <ref type="figure" target="#fig_0">1A</ref> shows a cartoon of the tilt platform with the isolated neural preparation. In both series of experiments the preparation dish was positioned at 45u or 90u steps to test the statocyst's physiological response at different orientations with respect to gravity. 0u orientation was defined as the position in which rise of the platform (Fig. <ref type="figure" target="#fig_0">1A</ref>) mimicked a downward pitch of the animal's head in intact snails (Fig. <ref type="figure" target="#fig_0">1B</ref>, middle cartoon), and corresponded to T0 (see Fig. <ref type="figure" target="#fig_1">2A</ref>) in the behavioral experiments. Increments in degrees were taken in a counter-clockwise direction, as viewed from above, up to a 'tail down' or 'head-up' snail tilt of 180u (Fig. <ref type="figure" target="#fig_0">1B</ref>, lower cartoon). Platform tilt was pneumatically driven in M-2 experiments, and its direction was controlled by an electronically controlled valve manually switched on/off. To align the platform movements to the precise extracellular signal the start and finish times of tilt were manually tagged. Measured time of platform rise was 1.1 s (peak tilt velocity 17.3u/s), fall was 1 s, and the mid-point of tilt profile was set as time 0 for later analysis. We improved the stimulus paradigm for M-3 experiments by using a microcontrolleroperated DC stepper motor with worm gearing to drive the platform tilt. The duration of tilt motion was thereby adjustable, and permitted delivering stimuli with different, but still brief, acceleration phases to ensure a response threshold to tilt was reached. This flexibility in adjusting the test protocol was particularly important in the postflight experiments where differences in threshold and response saturation might occur. We tested 4 different durations of 19u platform rise in the range from 550-3020 ms (6.3-34.5u/s). Angle of platform movement was measured by an in-line potentiometer, whose moving rod was used as the axis of rotation. The potentiometer measures were recorded on a separate channel and the beginning of movement was set as time 0.</p><p>Sample recordings and stimulations were first made to correct the volume of buffered saline, and the gain and filters settings. After this calibration procedure, the main protocol of stimulation started and was the same for all applied orientations. For Foton M-2 experiments the protocol was 1 min recording in the horizontal position, upward pitch to hold position and 30 s recording, followed by return to horizontal and 30 s recording, repeated 3-times with 30 s background recording between trials. For the experiments of Foton M-3 test epochs using different speeds of tilt were added that extended the main protocol to 1 min of recording in each position: horizontal -up (3020 ms ramp time)-down (3020 ms) -up (2085 ms ramp time) -down (2085 ms) -up (1075 ms ramp time) -down (1075 ms) -up (550 ms ramp time) -down (550 ms).</p><p>Spike sorting based on template extraction was used to identify the discharge pattern of individual statoreceptors. All records were imported into Spike2 (version5; CED, UK). Cursors were positioned to zero point of stimulation, marked by the tags (Foton M-2) or in accordance with auxiliary potentiometer channel (Foton M-3). Spike discrimination was made for all records in the built-in Spike2 module by template, made from every record. For individual records, different types of identified spikes varied from 2 to 12 (distinguished by non-intersecting principal component analysis clouds), probably depending on quality of nerve and statocyst preparation. Data of total nerve activity were analyzed by constructing post-stimulus histograms built on spike count per time bin (0.2 s for M-2 and 0.3 s for M-3) in the range of 210 to 30 s from zero point of tilt stimulation. For M-2 data the mean of 3 repetitive stimulations in main protocol was used for further analyses. An example of the whole nerve recording and spike sorting in one preparation is shown in Fig. <ref type="figure" target="#fig_0">1C</ref>. Six individual cells were identified and their response properties are commonly encountered in all preparations. Statocyst cells have (Cells 4 and 5) or do not have (Cells 1-3 and 6) spontaneous firing rates, show a peak excitation during the transient phases of tilt (Cells 1-6), show a response decay following termination of the acceleration (and velocity) phases of tilt motion (Cells 1-6), and have variable levels of sustained excitation during the duration of the tilt displacement (Cells 4-6).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gene Expression Studies in the Snail Central Nervous System (CNS)</head><p>In situ hybridization (ISH) with digoxigenin-labeled RNA probes was used for preproHPep and preproFRMFa gene expression analysis in the CNS of control and postflight snails. The mRNA probe to preproHPep (Accession Number: U62544) was synthesized by D.A. Poteryaev of the Engelhardt Institute of Molecular Biology (Moscow) as previously described <ref type="bibr" target="#b10">[11]</ref>. The mRNA probe to Helix preproFRMFa (Accession Number: L20768) was synthesized by F. Rozov of the Engelhardt Institute of Molecular Biology (Moscow) to 421 na. sequence of 39 region of preproFRMFa cDNA. In control experiments no staining was detected with antisense probes to both peptides.</p><p>In Foton M-2 experiments the juvenile H. aspersa snails were divided into 2 groups for tracing the changes in preproHPep expression: the first half was prepared upon receipt of the snails at 30 h after landing and the other half was processed 12 h later. The test groups included 21 ''naive'' snails (10 naı ¨ve vivarium snails, 4 snails 24 h after foot cut, and 7 snails 24 h after 10 min exposure to 3.75 G centrifugation), 12 asynchronous control M-2 snails, and 12 postflight animals (6 prepared 30 h postflight and 6 prepared 42 h postflight).</p><p>In Foton M-3 experiments all H. aspersa snails were used for the ISH experiments and fixed upon receipt of the snails at 14 h after landing. Four H. aspersa and four H. lucorum were used for tracing the changes in FMRFa expression, and 16 H. aspersa for tracing the changes in preproHPep expression. Snails were anesthetized by injection of isotonic MgCl 2 (,15% of body weight). The central ganglionic ring was removed from the animal and pinned to a Sylgard-coated dish. After fixation for 2 h in 4% paraformaldehyde at room temperature (,20uC), the connective tissue sheath was removed using fine forceps and scissors. Preparations were dehydrated and then rehydrated (to increase tissue permeability) by sequential incubation in 3:1, 1:1 and 1:3 phosphate buffer-TWEEN (PTW)/methanol solutions. Preparations were treated next with 10 mg/ml Proteinase K solution, post-fixed in 4% paraformaldehyde, washed in glycine and PTW, treated with 1% hydroxylammonium chloride and prehybridized 6-8 h in hybridization buffer. Tissues were then moved to a hybridization buffer containing digoxigenin-labeled RNA probe and hybridized for 12-14 h. Preparations were then washed thoroughly, incubated in 10% heat-inactivated sheep serum and incubated in antidigoxigenin antibodies conjugated to alkaline phosphatase for 12-14 h. Tissues were washed and incubated in substrate for alkaline phosphatase in the dark. The alkaline phosphatase substrate gives a deep-purple reaction product. Reaction was stopped after visual inspection with TRIS-EDTA buffer. Preparations were then cleared in xylene, mounted in Permount, and viewed under the light microscope.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunochemistry</head><p>In the Foton M-2 mission we studied the changes in pattern of pedal peptide distribution in the nervous system and statocysts of H. aspersa by using whole-mount immunocytochemistry. The antiserum against pedal peptide (TPep) was the kind gift of Dr. D. Willows (USA). Eight postflight animals and 11 control animals were used. Neural tissues were dissected in saline and fixed for 1 h at room temperature (RT) in 4% paraformaldehyde in phosphatebuffered saline (PBS). After fixation, the neural tissues were washed for 1 h in 70% ethanol, followed by several rinses in PBS. Prior to incubation with the primary antibody solution, wholemounts were washed for 2 h in blocking solution containing 0.5% Triton X-100, 0.01% sodium azide, 5% normal goat serum (Sigma), and 1% bovine serum albumin (Sigma) in PBS. The staining procedure was done at RT using the blocking solution for all washes and antibody dilutions: primary antibody for 48-72 h followed by wash for 6 h; and secondary antibody for 24-36 h followed by wash for 6 h. Secondary antibody was AlexaFluor TM 488-conjugated goat anti-rabbit IgG (Molecular Probes, Caltag Laboratories) diluted to 1:200. For archival storage, the wholemount preparations were washed with PBS and embedded without dehydration series in Aqua Poly/Mount media (Polysciences, Inc). Preparations were examined using an AxioPlan (Zeiss, Germany) fluorescence microscope connected to a digital camera (Camedia C-4000; Olympus, USA) for acquiring images. In control experiments, the primary antiserum was omitted. No staining resulted in this series.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Delayed Asynchronous Control Experiments</head><p>Two days after launch in both M-2 and M-3 missions a delayed asynchronous ground control test was initiated. Snails were housed in a comparable habitat and placed into a tightly sealed incubator whose temperature was adjusted according to the down-linked temperature data from the satellite, thereby exposing the snails to a contained atmospheric composition and to the same temperature profile as the flight snails. It should be noted that not all parameters between non-flight and flight snails are controllable. The major differences are as follows. Flight snails were transported to Baikonur Cosmodrome in Kazakhstan for launch. Snails were exposed to ,9 min of varying acceleration (up to ,9 G) before reaching orbit altitude. As the satellite re-enters Earth's atmosphere, the animals are again exposed to sustained and transient (e.g. parachute deployment) increases in gravitational forces until landing. After landing the satellite is opened, the contents are transported by helicopter to the nearest airfield, and flown to Moscow. In the case of Foton M-2 the delay was 30 h. For the M-3 mission a private charter was procured to get the specimens to the laboratory in 13 h.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Behavioral experiments</head><p>Foton M-2. Negative gravitaxis is a behavioral orientation response in the direction opposite to the gravity vector. To elicit this behavioral response the snail is pitched 90u head-down, akin to its own weight bending the leaf downward. The snail will detect this change in head orientation with respect to gravity, principally via the statocysts, and rotate its body 180u to face upward against the gravity vector. Flight snails in general re-oriented themselves faster than their control counterparts in this test. Cartoon in Fig. <ref type="figure" target="#fig_1">2A</ref> shows the selected body positions where time measures were taken: at T0 the snail is pitched head-down from the horizontal plane, T1 is the time in which the snail has initiated a head turn, T4 is the final phase of complete re-orientation, and T2 and T3 are intermediate body positions in time (shown Fig. <ref type="figure" target="#fig_1">2A</ref>). We scored the latency of each phase of behavioral performance from the videotape off-line. The plot in Fig. <ref type="figure" target="#fig_1">2B</ref> compares the averaged latencies of the behavioral responses at the separate 4 phases for the 14 postflight and 8 control snails. Flight snails performed faster at each phase, and this was significant (p,0.05; nonparametric, two-tailed, unpaired Mann-Whitney test) at T3 and T4 (marked *).</p><p>Foton M-3. The protocol of behavioral testing of this mission was changed to accommodate the time required to complete the additional electrophysiology protocols. It was abbreviated to capture the initial fast re-orientation responses of phases 1 and 2 (T1 and T2 in Fig. <ref type="figure" target="#fig_1">2A</ref>) following a horizontal to vertical headdown pitch of the snail at T0. We tested the latency of negative gravitaxis response before the flight in 6 control and 6 flightdesignated snails and after the flight in the same snails (one flight snail died). Comparison of averaged latencies of the behavioral responses at the two phases for the negative gravitaxis response for the 5 flight and 6 control snails showed significant differences in performance. Flight snails reacted faster than their control counterparts to pitch stimulation (Fig. <ref type="figure" target="#fig_1">2C</ref>), and this was significant (p ,0.02; nonparametric, two-tailed, unpaired Mann-Whitney test), and faster after than before the flight in the same animal (p,0.04). Results clearly suggest the existence of changes in behavior of the postflight snails and confirm the results of Foton-M-2 mission.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Electrophysiological experiments in isolated CNS with intact statocysts</head><p>Background statocyst activity. Spontaneous firing rate of the statocyst nerve was measured in the dark in control and postflight snails in both Foton M-2 and M-3 experiments. Three 10 s intervals were taken for analysis in each record. Tilt stimulation was not presented for at least several minutes before the first analyzed interval. No significant (Mann-Whitney Rank Sum Test) difference in level of firing rate (average firing rate 6 SEM, in spikes/s) was observed between control and postflight snails for both M-2 (n = 4) and M-3 (n = 8) missions: 5.661.03 vs 5.8161.97 and 6.2361.63 vs 5.7360.92, respectively.</p><p>Summary of Statocyst Responses. We made significant improvements to the tilt apparatus for the M-3 experiments. These improvements impacted our ability and rationale to tabulate the responses of M-2 and M-3 experiments into one population, and thus they are presented separately. Table <ref type="table" target="#tab_0">1</ref> gives the averaged cumulative responses of the control and flight snails in the 2 missions. Tilt responses were scored as the total sum of spikes during the first 2 s after onset of tilt. Data are derived from the records shown in Fig. <ref type="figure" target="#fig_2">3A</ref> for M-2 and Fig. <ref type="figure" target="#fig_2">3B</ref> for M-3, and displayed in the bar graph of Fig. <ref type="figure" target="#fig_2">3C</ref>. An increase in magnitude of response to tilt after flight is evident in both sets of experiments, but it was insignificantly different from control records in the M-2 study. In the M-3 experiments, the difference in response magnitude between control and flight snails was the nearly twofold and was highly statistically significant (p,0.01, unpaired Student's t-test).</p><p>Effect of tilt duration on statocyst response. The neural response of the statocyst to natural tilt stimulation was recorded in 5 flight and 4 control M-2 snails and in 8 flight and 8 control M-3 snails. The behavioral results of the snails of the same groups were obtained earlier or in parallel. The isolated neural preparations were placed in an orientation so that the rise of the platform corresponded to a head down tilt in the intact animal. Duration of tilt from one position to another for M-2 was fixed (Fig. <ref type="figure" target="#fig_2">3A</ref>) and was 1 s (fall) to 1.1 s (rise, or 17.3u/s). In M-3 experiments the duration (speed) of rise/fall was varied in 4 steps from 550 ms (34.5u/s) to 3020 ms (6.3u/s). As a result the acceleration phase of tilt, although still brief, was varied to ensure a response threshold was reached in both the control and postflight snails. Responses are plotted in Fig. <ref type="figure" target="#fig_2">3</ref> at the fastest (D), slowest (E), and an intermediate speed (B) comparable to the M-2 tilt profile. It is evident from the results that in postflight animals the peak of response is significantly higher (p,0.01, marked by *, ANOVA with post hoc analysis) at all stimulus speeds, greater than 2-fold at the faster speeds (Fig. <ref type="figure" target="#fig_2">3B</ref> and <ref type="figure">D</ref>) and nearly 2-fold at the slowest test speed (Fig. <ref type="figure" target="#fig_2">3E</ref>). A similar, but not significant, tendency was observed after Foton M-2 flight (Fig. <ref type="figure" target="#fig_2">3A</ref>). The neural population response to tilt is characterized by an initial rise in spike rate to a peak followed by decay, often exponentially, toward the baseline after tilt motion has stopped. This rate rise and fall was not altered by the space flight, only significantly elevated in postflight snails at each tilt speed (Fig. <ref type="figure" target="#fig_2">3F</ref>; p,0.02*).</p><p>Effect of tilt direction on statocyst response. In control animals the statocyst response to tilt at 0u orientation (corresponding to snail's head down) was consistently, but not significantly, larger than at 180u (snail's tail down) in both Foton M-2 (Fig. <ref type="figure" target="#fig_3">4A</ref>) and M-3 (Fig. <ref type="figure" target="#fig_3">4B</ref>) experiments. Responses at 90u and 270u orientations were similar to responses at 0u (data not shown). These results reflect an orientation selectivity of the animal that normally exists and is the basis of negative gravitaxis. But in postflight animals this directionality of statocyst responses to the same tilt stimulus was disturbed. To clearly illustrate this effect, we plotted a difference between the responses obtained at the two opposed orientations (Fig. <ref type="figure" target="#fig_3">4C</ref>, <ref type="figure">D</ref>). To make this plot, the average number of spikes of the two responses were subtracted within each preparation and then averaged by group. If no preference to orientation exists, the difference of responses in the plot will be close to zero; and conversely the greater the distance from zero, the more significant is the difference. A significant difference between flight and control snail was observed at several time points for both M-2 (Fig. <ref type="figure" target="#fig_3">4C</ref>) and M-3 (Fig. <ref type="figure" target="#fig_3">4D</ref>) experiments indicating that responses differed for tilts in the opposite sense (statistical significance was evaluated by repeated measures ANOVA with Tukey post-hoc analysis, p,0.02 for several time points, marked by *). In control snails the statocyst is tuned to 'head down' tilt (and more spikes are generated at this orientation), while in postflight snails the directional selectivity was not so clear but tended to be opposite (Fig. <ref type="figure" target="#fig_3">4 B</ref>, <ref type="figure">D</ref>). This finding suggests that the neural responses of the statocyst to adequate vestibular The total number of spikes was collected over a 2 s interval after the onset of tilt in control and postflight snails for both M-2 and M-3 experiments. The tilt duration was comparable for the M-2 (1100 ms; Fig. <ref type="figure" target="#fig_2">3A</ref>) and M-3 (1075 ms; Fig. <ref type="figure" target="#fig_2">3B</ref>) experiments. The control and flight snails had highly significant differences in magnitude of tilt response in the M-3 experiments (*p,0.01, Student's t-test for difference between the means). doi:10.1371/journal.pone.0017710.t001 stimulation in the postflight snails are independent of the tilt direction, while in the control animals a directional preference for head down tilt occurs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Postflight changes in gene expression in CNS</head><p>Foton M-2. The differential expression pattern of the preproHPep gene was examined in the CNS of postflight and asynchronous control snails, in centrifuged animals, and foot injury ground control snails. Snail CNS with statocysts was stained for products of expression of preproHPep gene: for proHPep mRNA using in situ hybridization (ISH) and for processed peptide using immunohistochemistry (IHC) with anti-TPep antibody. Stained cells containing the proHPep mRNA and HPep peptide were observed in cerebral, subesophageal ganglionic complex, and in pedal ganglia in all preparations. No systematic differences were observed between postflight and asynchronous control snails in general location and overall pattern of the stained ganglion neurons (data not shown). On the contrary, a qualitative difference in staining of the statocyst receptors was observed (Table <ref type="table" target="#tab_1">2</ref>). No staining was found in control snails, while in about 50% of statocysts a specific staining of 2-3 neurons adjacent to the vestibular nerve was observed in snails 30 h postflight. The number of stained statocyst receptors decreased after 42 h postflight. Naı ¨ve snails from the same batch showed no staining of statocyst receptors, whereas 24 h after a noxious stimulus was presented by an incision of the skin on the foot some staining was observed (Table <ref type="table" target="#tab_1">2</ref>). No significant differences were observed for pedal peptide expression pattern between IHC and ISH patterns of staining in CNS, both in control and flight animals. Nevertheless, the three statocyst receptors identifiable by their position were always stained by means of a specific antibody suggesting a high level of the neuropeptide in the normal state; and the same neurons were stained only in postflight animals using ISH suggesting an activation of transcription during mG exposure.</p><p>Foton M-3. In M-3 experiments we used only ISH for revealing postflight changes in mRNA expression of two genes, preproHPep and preproFMRFa. We examined the differential expression pattern of the preproFMRFa gene in control (n = 8) and postflight (n = 8) snails. The preproFMRFa gene was expressed in all circumesophageal ganglia, and the pattern of expression was very stable and similar in control and postflight preparations. No expression was found in statocysts of control or postflight snails. Thus, our results do not confirm the participation of this small neuropeptide in observed changes in behavior and statocyst function.</p><p>The expression pattern of the preproHPep gene was reinvestigated in the postflight and control snails using ISH with mRNA following the Foton M-3 mission. The M-3 results qualitatively match those of the Foton M-2. Specifically stained cells were similarly observed in cerebral, subesophageal ganglia complex, and in pedal ganglia in all preparations. No systematic differences were observed between the postflight and control snails with respect to location and pattern of the stained ganglion neurons (Fig. <ref type="figure" target="#fig_4">5</ref>, <ref type="figure">A-F</ref>). Once again a qualitative difference in staining of the statocyst neurons in postflight snails was observed (Fig. <ref type="figure" target="#fig_4">5</ref>, <ref type="figure">G</ref> and <ref type="figure">I</ref>). In control animals (11 snails, 22 statocysts examined) the 3 specifically located neurons expressing preproH-Pep gene were found in 59% of cases, while in 16 postflight snails fixed 14 h after landing the expression was found in 96% of cases (Table <ref type="table" target="#tab_1">2</ref>). Since there are only 13 receptors in total in each statocyst, an up-regulation of gene expression in several of them represents possible changes in their function. This specific increase in gene expression in statocysts is indicative of the physiological load and may reflect the flight experience.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Space flight offers unique opportunities to study how gravity shapes life on Earth. It also offers novel challenges to the organism. Upon entry into microgravity (mG) the astronaut typically experiences a Space Adaptation Syndrome consisting of a varying degree of disorientation similar in many ways to terrestrial motion sickness. Within days symptoms mostly weaken and dissipate over the course of the mission. After space flight as brief as 1-2 weeks the astronaut undergoes a new adaptation phase or a readaptation to Earth's 1 G <ref type="bibr" target="#b11">[12]</ref>. Vestibular studies conducted in space clearly show that the near elimination of the linear acceleration of gravity directly impacts the function of the human otolith organs <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b12">13]</ref>. Studies in lower vertebrates, such as fish <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15]</ref> and amphibians <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref>, have revealed remarkably similar results that reflect direct changes in gravireception of the otolith organs. The vertebrate otolith organs and the invertebrate statolith organs show a strong structural correspondence, likely due to their ancestral involvement in balance and equilibrium <ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref>. There is also developing evidence of molecular homology of the snail statoreceptors with the vertebrate hair cells <ref type="bibr" target="#b22">[23]</ref>. Thus, it is possible that the snail might serve as a model organism in space neurobiology studies. In addition to Foton M-2 and M-3 (present study), snails have flown on the Shuttle, Russian space station MIR, and International Space Station missions in the past <ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref>, and will be discussed in greater detail below.</p><p>In this study we investigated the structure and function of the gravi-sensing statocyst receptor as rapidly as possible following exposure to spaceflight in two separate missions. We assume that the observed changes were primarily the result of mG exposure. Inflight monitoring of statocyst function was not technically feasible in these missions. We observed a change, an upregulation, in the expression of a peptide associated with the statocyst. Pedal peptide was first identified by Lloyd in sea slug Aplysia californica <ref type="bibr" target="#b27">[28]</ref>. The precise role of this peptide in the nervous system is still unknown. However, it has been shown that pedal peptide modulated the ciliary beat frequency of epithelial cells in Tritonia <ref type="bibr" target="#b28">[29]</ref>. In 1997 the gene encoding pedal peptide was identified in terrestrial snail Helix lucorum <ref type="bibr" target="#b10">[11]</ref>. Based on in situ hybridization data this gene is widely expressed in the nervous system of Helix and in some statoreceptors as well. Taking into account the known effect of pedal peptide on cilia beating and muscle contraction <ref type="bibr" target="#b29">[30]</ref>, we can assume that it might play an important role in the regulation of mechanical transduction processes of the hair bundles of statoreceptors, such as regulation of actin-myosin complex within the cilia <ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref>, and the observed change in expression of gene encoding pedal peptide (Table <ref type="table" target="#tab_1">2</ref>) suggests existence of lasting influence of the flight.</p><p>Despite the small number of receptor cells in each statocyst, they were uniformly labelled for this pedal neuropeptide. A feasible interpretation of these HPep data is the existence of a mosaic expression of different peptides in the receptors <ref type="bibr" target="#b7">[8]</ref>. This mosaic pattern is believed to encode varying information on the position and relative movement of the snail. In this case the degree of HPep expression from an almost negligible level to a significant level may indicate a change in signal transmitted to the nervous system from the gravi-sensing organ. It is tempting to speculate that the HPep expression patterns observed in postflight snails directly reflect, at least in part, the recorded behavioral and physiological changes, but this remains to be proven.</p><p>In the M-3 mission we also investigated the expression pattern of the FMRFamide gene in postflight and control snails using mRNA expression techniques. Although FMRFamide is not normally expressed in statocyst receptor cells <ref type="bibr" target="#b33">[34]</ref>, this neuropeptide can act to reduce calcium influx via regulation of the cell's secretory machinery <ref type="bibr" target="#b34">[35]</ref>, thereby modulating synaptic transmission, and perhaps playing a role in synaptic plasticity <ref type="bibr" target="#b35">[36]</ref>. More recent evidence suggests that the expression and regulation of an FMRFamide-related neuropeptide gene family are possibly linked to the state of the organism <ref type="bibr" target="#b36">[37]</ref>. No differential expression of the preproFMRFa gene was observed in the statocysts of control or postflight M-3 snails. Thus, our data suggest that FMRFamide is an unlikely candidate involved in the statocyst response to the novel space environment.</p><p>We measured the whole statocyst nerve activity in one recording session in control and postflight snails, and observed a significant increase in the total number of spikes in the postflight snails. This  technique minimized any potential trauma to the statocyst organ itself and was considered the optimal method given the timesensitive nature of the data. However, it does leave open the question as to the source of the overall level of excitation. The postflight increase in the total spike number could be the result of amplifying the normal discharges of responding cells or recruiting otherwise non-responding cells or both. To adequately answer this question we must wait until preflight and postflight recordings are made in each animal under identical recording conditions. The physiological results reported here in the isolated statocyst in snails are in line with the vertebrate data <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13]</ref>, and conform to the proposition that mG exposure leads to changes in gravireceptor function. At the same time this similarity in neural response to mG exposure between the vertebrates and invertebrates is intriguing: the increased neural sensitivity in the vertebrate was detected in the otolith nerve afferents <ref type="bibr" target="#b6">[7]</ref>, one synapse away from the hair cell, whereas the increased neural sensitivity reported here in the snail was detected directly at the receptor level. Both the vertebrate otolith and invertebrate statolith structures are physically arranged for an optimal response to 1 G perceived during their development, and any departure from this arrangement in either direction will induce a perturbation of the detection mechanisms. However, the common neural response might be driven by shared or completely independent mechanism(s) with reference to adaptation to altered gravity. Different speculative hypotheses have been proposed <ref type="bibr" target="#b6">[7]</ref>. In light of the current results in snails we need to re-open this debate. Possible mechanisms underlying the adaptive changes in statocyst function following mG exposure might involve a structural reformation, a change in neural signaling, or even a mixture of both.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Structural Changes</head><p>A widely considered mechanism is a change in the weightlending statoconia (or otoconia). Structurally, these are minute calcareous particles surmounting the neural epithelium. In mG, it is argued, the organism counters the loss of the gravity vector by increasing calcium carbonate production and depositing more mass on the statoconia. The total weight of the statoconia mass remains negligible while in mG, and thus changes are seen upon return to normal 1 G. A number of studies support this argument. The test mass (utricular or saccular otolith or statolith) of the freshwater pond snail, Biomphalaria glabrata <ref type="bibr" target="#b24">[25]</ref>, marine mollusk, Aplysia californica <ref type="bibr" target="#b23">[24]</ref>, Xenopus <ref type="bibr" target="#b37">[38,</ref><ref type="bibr" target="#b38">39]</ref>, newt <ref type="bibr" target="#b23">[24]</ref>, and swordtail fish <ref type="bibr" target="#b24">[25]</ref> reared in space increased relative to ground-reared controls. In the opposite sense the test mass in Aplysia californica <ref type="bibr" target="#b23">[24]</ref> and cichlid fish <ref type="bibr" target="#b24">[25]</ref> born in hypergravity was reduced <ref type="bibr" target="#b23">[24]</ref>. Exposure to mG has been linked to an increased growth of the statoconia in Helix <ref type="bibr" target="#b25">[26]</ref>, similar to the reported results in other species.</p><p>However, the predominant evidence in other species studied during developmental or adult stages is either no effect on test mass or ambiguous results <ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref><ref type="bibr" target="#b44">[45]</ref><ref type="bibr" target="#b45">[46]</ref><ref type="bibr" target="#b46">[47]</ref>. In the fish the neural response to mG exposure was manifested in hypersensitivity without a distortion of its directional selectivity, and readaptation, defined as the process of adaptation to normal gravity, occurred relatively quickly <ref type="bibr" target="#b6">[7]</ref>. In the present results the snail's neural response to mG exposure was manifested also in hypersensitivity, but with a loss of its directional selectivity. Although this finding does not confirm a structural change has occurred in the snail, it cannot be ruled out. It may also be hypothesized that the unweighting of the statoconia mass in mG induces a change in the mechanical linkage between the statoconia and hair cell stereocilia, but a morphological analysis is required to test this possibility.</p><p>The prevailing evidence in the vertebrate pointed towards an increase in synaptic strength originating in the hair cell and conveyed to the afferent contacts. The experimental findings in rat <ref type="bibr" target="#b47">[48,</ref><ref type="bibr" target="#b48">49]</ref> provided direct evidence that reformation of the hair cell synaptic machinery can be caused by mG. An increase in the number of synaptic ribbons in rat utricular hair cells as a result of mG exposure is in line with the increased sensitivity found in fish utricular afferents <ref type="bibr" target="#b6">[7]</ref>. In the snail (present results) the increased sensitivity was found directly in the hair cell itself, thus excluding a mechanism utilizing plasticity of the hair cell-afferent synaptic complex. It should be noted that no direct membrane measurements have been taken from vertebrate hair cells following mG exposure, thereby leaving open the possibility that the increased sensitivity observed in the nerve afferents simply reflected an increased sensitivity of the receptor potential in the hair cell itself. In other words, a common mechanism in regulation of the hair cell sensitivity between invertebrate and vertebrates cannot be excluded.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Changes in Cellular Signaling</head><p>A direct action on intracellular signaling might occur in the gravi-receptor itself. Without empirical evidence acquired in flight we can only speculate on the possibility of modifiable elements, such as changes in myosin motors or ionic channels, within the cell. Sensory receptors in invertebrates can generate action potentials and these potentials are modifiable by changes in environmental conditions, for example during learning. The primary sensory neuron is the first site at which cellular plasticity occurs during classical conditioning <ref type="bibr" target="#b49">[50]</ref>. In the conditioned Hermissenda an enhanced excitability in type B photoreceptors involves a reduction in the peak amplitude of voltage-dependent (I A , I Ca ) and Ca 2+ -dependent (I K,Ca ) currents, an increase in the input resistance, and an increase of firing rate elicited by the conditioned stimulus (CS) or extrinsic current <ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref><ref type="bibr" target="#b52">[53]</ref>. In type A photoreceptors an enhanced excitability to extrinsic current, increases in CS-elicited firing rate, and decreases in the magnitude of two K+ currents are seen <ref type="bibr" target="#b53">[54]</ref><ref type="bibr" target="#b54">[55]</ref><ref type="bibr" target="#b55">[56]</ref><ref type="bibr" target="#b56">[57]</ref><ref type="bibr" target="#b57">[58]</ref>. In Lymnaea classical conditioning can be directly mediated by the statocyst hair cells and sensory information for associative learning converges onto the cell <ref type="bibr" target="#b58">[59]</ref>. At least 3 distinct K+ currents are expressed in the soma of hair cells <ref type="bibr" target="#b59">[60]</ref> and modification of these channels would likely influence its excitability.</p><p>Mature vertebrate hair cells develop generator or receptor potentials, but their plasticity to environmental variations is largely unknown. Delayed expressions of voltage-gated sodium current <ref type="bibr" target="#b60">[61]</ref> and potassium currents <ref type="bibr" target="#b61">[62]</ref> have been reported in neonatal utricular hair cells of rats raised in hypergravity, suggesting a direct influence of altered gravity on sensory cell sensitivity. Prolonged deviation of the sensory hair bundle can lead to adaptation of otolith hair cell receptor potentials <ref type="bibr" target="#b62">[63,</ref><ref type="bibr" target="#b63">64]</ref>. In the opposite sense prolonged unweighting of the otolith mass and thus tonic unloading of the otolith stereocilia could conceivably lead to adaptation of receptor potentials. A manifestation of this adaptation can be seen in the responses of some otolith afferents to prolonged steps of linear acceleration <ref type="bibr" target="#b64">[65,</ref><ref type="bibr" target="#b65">66]</ref>. Microgravity might be thought of as a step of motion of the hair bundle in the ''off'' direction for the hair cell, and adaptation in the transducer mechanism might negate any aberrant afferent response in mG. The onset and time course of adaptation response of the transducer might be both rapid and long-lasting, but remains conjectural.</p><p>One last mechanism needs to be considered. In addition to the feed-forward flow of signals from the hair cells to the more central cell areas that process the information to provide orientation, balance, and muscle tonus, a centrifugal pathway exists from the more central areas back to the sensory organs themselves. This efferent pathway is known for the gastropod statocyst <ref type="bibr" target="#b66">[67]</ref> and cephalopod <ref type="bibr" target="#b67">[68,</ref><ref type="bibr" target="#b68">69]</ref>, and in vertebrates for all hair cell structures <ref type="bibr" target="#b69">[70]</ref><ref type="bibr" target="#b70">[71]</ref><ref type="bibr" target="#b71">[72]</ref><ref type="bibr" target="#b72">[73]</ref>. In Hermissenda hair cells are capable of inhibiting neighboring hair cells and those on the opposite side via chemical and electrical synapses <ref type="bibr" target="#b73">[74,</ref><ref type="bibr" target="#b74">75]</ref>. In the toadfish efferent vestibular neurons directly inhibit the hair cell by shunting its membrane potential and at the same time increase the afferent firing rate <ref type="bibr" target="#b75">[76]</ref>, thereby effectively enhancing signal processing, for example, during large and rapid escape or feeding behaviors. In series of experiments on a Foton satellite and aboard the Mir space station this feedback mechanism was studied in the snail <ref type="bibr" target="#b26">[27]</ref>. Eliminating the feedback to the statoreceptors by severing its nerve between 31-36 h after landing did not alter the firing rate in proximal portion of the nerve in postflight snails, but it did so in control snails, leading these investigators to conclude that mG exposure might inactivate the efferent innervation of the statoreceptors. Although it is likely that hair cells are under a continuous efferent adjustment based on prevailing behavioral requirements, it is not yet known whether the efferent innervation of the hair cell organs in any species is capable of a long-term calibrating influence based on the existing gravity level.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Experimental paradigm of behavioral and physiology tests. A. Cartoon of tilt platform used in neural recordings. Petri dish is fixed on a platform that can be mechanically tilted to a maximum displacement angle of 19u. In Foton M-2 experiments the tilt duration was fixed to 1.1 s (17.3u/s peak tilt velocity) and in Foton M-3 experiments the tilt duration was varied in 4 steps from 550-3020 ms (6.3-34.5u/s peak tilt velocity). Activity of the statocyst nerve was recorded using electrically separate chambers for statocyst and cerebral ganglion with the nerve passing over a Vaseline bridge. B. Head-down or head-up tilt of snail correspond to tilting platform with the preparation oriented at 0u (middle panel) and 180u (lower panel), respectively. C. Example of whole nerve response to tilt and cell sorting technique. Traces from bottom to top: whole nerve statocyst discharge (bar = 5 mV), platform position during tilt stimulus was recorded using a potentiometer (bar = 10u), and six identified cells in this preparation labeled Cell 1-6 (bar = 2 spikes/s). doi:10.1371/journal.pone.0017710.g001</figDesc><graphic coords="4,58.05,60.77,334.16,341.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Negative gravitaxis response in control and postflight snails. A. Phases of the stereotypic response to sudden shift of the snail with platform from horizontal to ''head down'' position. B. Latency of gravitaxis reaction phases acquired during Foton M-2 experiments. The plot shows averaged (6SEM) time of the behavioral responses at 4 phases of the negative gravitaxis response in 14 flight and 8 control snails. Flight snails were faster in their response to pitch stimulation at each phase, and the difference reach level of significance p,0.05 at the later phases T3 and T4. C. Changes in latency of gravitaxis reaction of T2 phase acquired during Foton M-3 experiments. The plot shows averaged (6SEM) time of the behavioral responses at the T2 phase in 5 flight and 6 control snails tested before (black columns) and after (open columns) flight. Flight snails were faster than control snails as a group in their response to pitch stimulation, insignificant at T1 (not shown) but significant (p,0.02) at T2 phase. Postflight gravitaxis responses were significantly faster (shorter latency of T2; p,0.04) than pre-flight responses recorded in the same snail. doi:10.1371/journal.pone.0017710.g002</figDesc><graphic coords="5,58.05,60.77,452.64,257.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Postflight increase of statocyst response to vestibular stimulation. A. Averaged statocyst nerve responses (mean spike rate 6 SEM sampled at 0.2 s bin width) of 5 postflight (open circles) and 4 control (filled circles) snails (Foton M-2) to platform tilt. The increased response of the postflight snails to tilt was insignificant. The stimulation and recording protocols were improved for the Foton M-3 experiments. Averaged statocyst nerve responses (mean spike rate 6 SEM sampled at 0.3 s bin width) of 8 postflight (open circles) and 8 control (filled circles) snails to platform tilt of 1075 ms ramp time or 17.7u/s (B; close to M-2 ramp time), and at a faster (D; 550 ms or 34.5u/s) and a slower (E; 3020 ms or 6.3u/s) ramp times. At all tilt speeds the magnitude of the statocyst response was significantly increased (indicated by * in each plot) in postflight snails. C. Cumulative number of spikes over 2 s period following the onset of tilt for M-2 and M-3 experiments. Spike numbers were taken from time 0-2 s in the plots shown in panels A and B for control and postflight snails to allow a more direct comparison between the two missions. Control data were comparable in both missions, but the postflight results were significantly different in M-3 experiments (p,0.01, Student's t-test). F. The significant hypersensitivity of the statocyst to tilt following mG exposure is shown by plotting the total number of spikes (mean 6 SEM) over a 4 s period following tilt onset at 4 peak velocities in the 8 control and 8 postflight snails (p,0.01**; p,0.02*). doi:10.1371/journal.pone.0017710.g003</figDesc><graphic coords="7,58.05,71.72,496.23,542.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Postflight changes in directional sensitivity of statocyst response to tilt. A, B: Electrophysiological responses to tilt in statocyst nerve of 4 control and 5 postflight snails (A; Foton M-2) and 8 control and 8 postflight snails (B; Foton M-3) are shown at head down and head up (or tail down) orientations. Scales are expanded in each plot for illustrative purposes. C, D: averaged difference between statocyst nerve responses to tilt corresponding to ''head-up'' and ''head-down'' positions are plotted for M-2 (C) and M-3 (D) experiments. A response near zero indicates no directional preference. In both M-2 and M-3 series control and postflight snails the statocyst response demonstrated the opposite directional selectivity. A significant difference between postflight and control snails was observed in the middle portion of tilt in both M-2 and M-3 experiments (p,0.02, RM-ANOVA with Tukey post-hoc analysis). doi:10.1371/journal.pone.0017710.g004</figDesc><graphic coords="8,58.05,335.74,496.23,314.02" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Localization of neurons expressing preproHPep gene in snail CNS and statocyst using in situ hybridization. Left panels (A, C, E, G) are images taken from control snails; right panels (B, D, F, I) are those taken from postflight snails. The staining in control and postflight snails was qualitatively similar in the CNS structures, but consistently different in the statocyst. A, B: cerebral ganglia; C, D: suboesophageal ganglia complex; E, F: pedal ganglia; G, I: statocysts. Note the labelled statocyst receptor cells in postflight snails in I (indicated by arrows) and lack of staining in control snails in G. H: for illustrative purposes the immunohistochemistry of HPep in a preflight snail shows the location of 3 receptors with respect to the statocyst nerve. Expression of this gene was observed only in these cells in all preparations. Calibration: A-F, 500 mm; G-I, 50 mm. doi:10.1371/journal.pone.0017710.g005</figDesc><graphic coords="10,58.05,42.86,452.64,616.54" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Averaged Cumulative Neural Responses to Tilt.</figDesc><table><row><cell>Snail</cell><cell>Mean ± SEM</cell></row><row><cell>M2 control</cell><cell>33.168.3 (n = 4)</cell></row><row><cell>M2 flight</cell><cell>42.268.7 (n = 5)</cell></row><row><cell>M3 control</cell><cell>33.365.9 (n = 8)</cell></row><row><cell>M3 flight</cell><cell>61.367.1 (n = 8)*</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Expression of the Helix Pedal Peptide (HPep) gene in statocysts of snails exposed to microgravity and under different ground conditions.</figDesc><table><row><cell>Condition/Flight</cell><cell>Snails (N = )</cell><cell>Statocysts (N = )</cell><cell>Quantity of statocysts with HPep expression</cell></row><row><cell>Naı ¨ve/M-2</cell><cell>10</cell><cell>20</cell><cell>No staining observed in statocysts</cell></row><row><cell>Naı ¨ve, 24 h after foot cut/M-2</cell><cell>4</cell><cell>8</cell><cell>2 stained neurons observed in 1 statocyst</cell></row><row><cell>Naı ¨ve, 24 h after 3.75 G centrifugation/M-2</cell><cell>7</cell><cell>14</cell><cell>No staining observed in statocysts</cell></row><row><cell>30 h postflight/M-2</cell><cell>6</cell><cell>12</cell><cell>6 statocysts (50%) showed staining</cell></row><row><cell>42 h postflight/M-2</cell><cell>6</cell><cell>12</cell><cell>4 statocysts (33%) showed staining</cell></row><row><cell>Control/M-2</cell><cell>12</cell><cell>24</cell><cell>No staining observed in statocysts</cell></row><row><cell>14 h postflight/M-3</cell><cell>16</cell><cell>32</cell><cell>Expression observed in 29 statocysts (91%)</cell></row><row><cell>Control/M-3</cell><cell>11</cell><cell>22</cell><cell>Expression observed in 13 statocysts (59%)</cell></row><row><cell>doi:10.1371/journal.pone.0017710.t002</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>PLoS ONE | www.plosone.org</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>March 2011 | Volume 6 | Issue 3 | e17710</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>Authors thank <rs type="person">D. Willows</rs> for HPep serum. The authors would like to express their particular gratitude to <rs type="person">Dr. Eugene A. Ilyin</rs> of the <rs type="affiliation">Institute for Biomedical Problems (Russian Academy of Sciences, Moscow, Russia</rs>) and <rs type="person">Mr. Michael Skidmore</rs> of <rs type="affiliation">Ames Research Center (NASA, Moffett Field, California, USA</rs>) for their extraordinary efforts to launch this project and support throughout the missions.</p></div>
+			</div>
+			<div type="funding">
+<div><p>This research was supported by grants from the <rs type="funder">RF President Council</rs> for grants to <rs type="person">P. Balaban</rs>, <rs type="funder">Russian Foundation for Basic Research, Russian Academy of Science</rs>, <rs type="grantNumber">NASA 03-OBPR-04</rs> and a <rs type="programName">Fundamental Space Biology Program</rs> grant to <rs type="person">R. Boyle</rs>. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_VZfdsm2">
+					<idno type="grant-number">NASA 03-OBPR-04</idno>
+					<orgName type="program" subtype="full">Fundamental Space Biology Program</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The Devonian and Downtonian vertebrates of Spitsbergen. 1. Family Cephalaspidae</title>
+		<author>
+			<persName><forename type="first">¨ea</forename><surname>Stensio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Skrifter om Svalbard og Ishavet</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1" to="391" />
+			<date type="published" when="1927">1927</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Expression of Pax258 in the gastropod statocyst: insights into the antiquity of metazoan geosensory organs</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>O'brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Degnan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evol Dev</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="572" to="578" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Geotaxis in the cilitated protozoon Loxodes</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fenchel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Finlay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="17" to="33" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Efferente Aktivita ¨t in den Statonerven einiger Landpulmonaten (Gastropoda)</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Wolff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Z vergl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="401" to="409" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Nerve endings in the maculae and cristae of the chinchilla vestibule, with a special reference to the efferents. Third Symposiumon &apos;&apos;The Role of the Vestibular Organs in Space Exploration</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Rasmussen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1967">1967</date>
+			<biblScope unit="page" from="183" to="200" />
+			<pubPlace>Pensacola, Florida</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Naval Aerospace Medical Institute</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Cellular mechanisms of behavioral plasticity in terrestrial snail</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Balaban</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurosci Biobehav Rev</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="597" to="630" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Neural readaptation to 1 G following return from space</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Boyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Mensinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Usui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Intravaia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="2118" to="2122" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Mosaic arrangement of SCPb-, FMRFamide-, and histamine-like immunoreactive sensory hair cells in the statocyst of the gastropod mollusc Pleurobranchaea japonica</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ohsuga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kurokawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kuwasawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Tissue Res</title>
+		<imprint>
+			<biblScope unit="volume">300</biblScope>
+			<biblScope unit="page" from="165" to="172" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Structure and function of the snail statocyst system after a 16-day flight on Foton M-2</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Balaban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Malyshev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Zakharov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Aseev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">I</forename><surname>Bravarenko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Grav Physio</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="P201" to="P204" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Structure and function of the snail statocyst system after orbital missions on Foton M-2 and M3</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Balaban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Malyshev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">N</forename><surname>Ierusalimsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Aseev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Korshunova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Grav Physiol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="273" to="P276" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Characterization of cDNA clone encoding pedal peptide in terrestrial snail</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Poteryaev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Zakharov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Balaban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Uvarov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Belyavsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuroreport</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="3631" to="3635" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Reason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Brandt</surname></persName>
+		</author>
+		<title level="m">Motion Sickness</title>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Vestibular experiments in space</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Yakushin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Holstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Tomko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Experimentation with animal models in space</title>
+		<editor>
+			<persName><forename type="first">G</forename><surname>Sonnenfeld</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Elsevier B</publisher>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="105" to="164" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A critical period for functional vestibular development in zebrafish</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Moorman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cordova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Davies</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Dyn</title>
+		<imprint>
+			<biblScope unit="volume">223</biblScope>
+			<biblScope unit="page" from="285" to="291" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Altered gravitational forces affect the development of the static vestibuloocular reflex in fish (Oreochromis mossambicus)</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sebastian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Esseling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Horn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurobiol</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="59" to="72" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Altered gravitational experience during early periods of life affects the static vestibulo-ocular reflex of tadpoles of the Southern Clawed Toad, Xenopus laevis Daudin</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sebastian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Esseling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Horn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="213" to="222" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The minimum duration of microgravity experience during space flight which affects the development of the vestibuloocular reflex in an amphibian (Xenopus laevis)</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sebastian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Horn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurosci Lett</title>
+		<imprint>
+			<biblScope unit="volume">253</biblScope>
+			<biblScope unit="page" from="171" to="174" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Microgravity-induced modifications of the vestibuloocular reflex in Xenopus laevis tadpoles are related to development and the occurrence of tail lordosis</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Horn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">209</biblScope>
+			<biblScope unit="page" from="2847" to="2858" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Altered gravity affects ventral root activity during fictive swimming and the static vestibuloocular reflex in young tadpoles (Xenopus laevis)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bo ¨ser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dournon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gualandris-Parisot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Horn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Ital Biol</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="1" to="20" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Structural organization of the sensory systems of the snail</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">V</forename><surname>Zaitseva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurosci Behav Physiol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="47" to="57" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Biology of Sensory Systems</title>
+		<author>
+			<persName><forename type="first">Cum</forename><surname>Smith</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Brusca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Brusca</surname></persName>
+		</author>
+		<title level="m">Invertebrates</title>
+		<meeting><address><addrLine>Sunderland, Massachusetts</addrLine></address></meeting>
+		<imprint>
+			<publisher>Sinauer Associates</publisher>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Expression of Pax258 in the gastropod statocyst: insights into the antiquity of metazoan geosensory organs</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>O'brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Degnan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Evol Dev</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="572" to="578" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Development of gravity-sensing organs in altered gravity conditions: opposite conclusions from an amphibian and a molluscan preparation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Wiederhold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Pedrozo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hejl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Grav Physiol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="51" to="P54" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Otoliths developed in microgravity</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Wiederhold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nomura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Grav Physiol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="39" to="42" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Electrophysiological characteristics of the statocyst receptor cells in snails Helix lucorum following exposure to microgravity in unmanned spacecraft &apos;&apos;Foton&apos;&apos; and piloted space station &apos;&apos;Mir</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Gorgiladze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Kozyrev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">ˇam</forename><surname>Nosovskil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aviakosm Ekolog Med</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="41" to="46" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Effect of static and dynamic influences on receptors of equilibrium organ of Helix lucorum after 163-day orbital flight in &apos;&apos;Mir&apos;&apos; station</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Gorgiladze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Kozyrev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Nosovskii</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Biol Med</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="114" to="118" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Sequence of pedal peptide: a novel neuropeptide from the central nervous system of Aplysia</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Lloyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Connolly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="312" to="317" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Modulation of ciliary beat frequency by neuropeptides from identified molluscan neurons</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Willows</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Pavlova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Phillips</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="page" from="1433" to="1439" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Relatedness among contractile and membrane proteins: evidence for evolution from common ancestral genes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Weltman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Dowben</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="3230" to="3234" />
+			<date type="published" when="1973">1973</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Actin filaments in sensory hairs of inner ear receptor cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Flock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Cheung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="339" to="343" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Three different actin filament assemblies occur in every hair cell: each contains a specific actin crosslinking protein</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Drenckhahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Engel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ho ¨fer D, Merte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tilney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="641" to="651" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Actin cores of hair-cell stereocilia support myosin motility</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Shepherd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Corey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Block</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="8627" to="8631" />
+			<date type="published" when="1990">1990</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Distribution of FMRFamide-like immunoreactive neurons in the central nervous system of the snail Helix pomatia</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Elekes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Na</forename><surname>¨ssel Dr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Tissue Res</title>
+		<imprint>
+			<biblScope unit="volume">262</biblScope>
+			<biblScope unit="page" from="177" to="190" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Intraterminal injection of synapsin I or calcium-calmodulin-dependent protein kinase II alters neurotransmitter release at the squid giant synapse</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Llina ´s</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Mcguiness</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Leonard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Suaimori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Greenaard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Nat1 Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="3035" to="3039" />
+			<date type="published" when="1985">1985</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Facilitatory and inhibitory transmitters modulate calcium influx during action potentials in Aplysia sensory neurons</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Blumenfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Spira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Kandel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Siegelbaum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="487" to="499" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Expression and regulation of an FMRFamide-related neuropeptide gene family in Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Comp Neurol</title>
+		<imprint>
+			<biblScope unit="volume">475</biblScope>
+			<biblScope unit="page" from="540" to="550" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Structure of the vestibular apparatus and ionic composition of the body of Xenopus laevis larvae as affected by weightlessness</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Lychakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Lavrova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Kosm Biol Aviakosm Med</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="48" to="52" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Functional and adaptive changes in the vestibular apparatus in space flight</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Lychakov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiologist</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="204" to="205" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Observations on saccules of rats exposed to long-term hypergravity</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Stith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Stockwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Oyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aerospace Med</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="705" to="710" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Effects of sustained acceleration on the morphological properties of otoconia in hamsters</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Sondag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>De Jong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Marle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Oosterveld</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Otolaryngol</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="227" to="230" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Otoconial alterations after embryonic development in hypergravity</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Sondag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Jong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Van Marle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Willekens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Oosterveld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Res Bull</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="353" to="356" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Centrifugation of 2 g does not affect otoconial mineralization in chick embryos</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ballarino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Howland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page" from="R305" to="R310" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Is the growth of the otolith controlled by its weight?</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Howland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ballarino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Vestibular System: Function and Morphology</title>
+		<editor>
+			<persName><forename type="first">T</forename><surname>Gualtierotti</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<date type="published" when="1981">1981</date>
+			<biblScope unit="page" from="77" to="87" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The development of the vestibular apparatus under conditions of weightlessness</title>
+		<author>
+			<persName><forename type="first">Yaa</forename><surname>Vinnikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">G</forename><surname>Gazenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Titova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Bronshteyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Govardovskiy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arkhiv anatomii, gistologii i embriologii</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="11" to="16" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The development of the vestibular apparatus under conditions of weightlessness</title>
+		<author>
+			<persName><forename type="first">Yaa</forename><surname>Vinnikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">G</forename><surname>Gazenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Lychakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">'</forename><surname>Pal</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Lr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zhurnal obshchey biologii</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="147" to="163" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Vestibular endorgan of the frog after the space flight and postural alteration of the neurectomized frog-its morphological and functional resilience</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Susuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Harada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sekitani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vestib Res</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="253" to="258" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Morphological changes in rat vestibular system following weightlessness</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Ross</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Vestib Res</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="241" to="251" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Changes in ribbon synapses and rough endoplasmic reticulum of rat utricular macular hair cells in weightlessness</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Ross</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Otolaryngol</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="490" to="499" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Time-dependent changes in excitability after one-trial conditioning of Hermissenda</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Crow</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Siddiqi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="3460" to="3464" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Cellular and molecular analysis of associative learning and memory in Hermissenda</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Crow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="136" to="147" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Memory storage and neural systems</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Alkon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Amer</title>
+		<imprint>
+			<biblScope unit="volume">261</biblScope>
+			<biblScope unit="page" from="42" to="50" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Invertebrate learning: Current perspectives</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Sahley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Crow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Learning and Memory</title>
+		<editor>
+			<persName><surname>Martinez</surname><genName>Jr</genName></persName>
+		</editor>
+		<editor>
+			<persName><surname>Jl</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Kesner</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1998">1998</date>
+			<biblScope unit="page" from="197" to="209" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Associative learning changes intrinsic to Hermissenda type A photoreceptors</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Farley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Richards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Grover</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behav Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="135" to="152" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Ionic basis of learning-correlated excitability changes in Hermissenda type A photoreceptors</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Farley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="1861" to="1888" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Differential expression of correlates of classical conditioning in identified medial and lateral type A photoreceptors of Hermissenda</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Frysztak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Crow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="2889" to="2897" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Enhancement of type B and A photoreceptor inhibitory synaptic connections in conditioned Hermissenda</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Frysztak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Crow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1245" to="1250" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Synaptic enhancement and enhanced excitability in presynaptic and postsynaptic neurons in the conditioned stimulus pathway of Hermissenda</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Frysztak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Crow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="4426" to="4433" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Photoresponse from the statocyst hair cell in Lymnaea stagnalis</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tsubata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Iizuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Horikoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sakakibara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurosci Lett</title>
+		<imprint>
+			<biblScope unit="volume">337</biblScope>
+			<biblScope unit="page" from="46" to="50" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Potassium currents in isolated statocyst neurons and RPeD1 in the pond snail, Lymnaea stagnalis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sakakibara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Okuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nomura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Horikoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lukowiak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="3884" to="3892" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Hypergravity affects the developmental expression of voltage-gated sodium current in utricular hair cells</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brugeaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gaboyard-Niay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Puel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chabbert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuroreport</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1697" to="1701" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Electrophysiological properties of the utricular primary transducer are modified during development under hypergravity</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chabbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brugeaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lennan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lehouelleur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="2497" to="2500" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Adaptation of mechanoelectrical transduction in hair cells of the bullfrog&apos;s sacculus</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Eatock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Corey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Hudspeth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="282" to="236" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Adaptation in hair cells</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Eatock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Neurisci</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="285" to="314" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Physiology of peripheral neurons innervating otolith organs of the squirrel monkey. I. Response to static tilts and to longduration centrifugal force</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ferna ´ndez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Goldberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="970" to="984" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">The vestibular nerve of the chinchilla. IV. Discharge properties of utricular afferents</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Goldberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Desmadryl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Baird</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ferna ´ndez C</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="781" to="790" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Einige Ergebnisse zur Ultrastrukur der Statocysten von Limax maximus, Limax flavus und Arion empiricorum (Pulmonata)</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Wolff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Z Zellforsch</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="251" to="270" />
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">The central afferent and efferent organization of the gravity receptor system of the statocyst of Octopus vulgaris</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Colmers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="461" to="476" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Synaptic interactions between crista hair cells in the statocyst of the squid Alloteuthis subulata</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chrachri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Williamson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="656" to="666" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">The vestibular efferent system</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ferna ´ndez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Lindsay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Otolaryngol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="449" to="451" />
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Innervation patterns in the organ of corti of the cat</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Spoendlin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Otolaryngol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="239" to="254" />
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">The post-synaptic action of efferent fibres in the lateral line organ of the burbot Lota Zota</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Flock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Russell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol (Lond)</title>
+		<imprint>
+			<biblScope unit="volume">235</biblScope>
+			<biblScope unit="page" from="591" to="605" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Central distribution of octavolateral afferents and efferents in a teleost (mormyridae)</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Comp Neurol</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page" from="391" to="414" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Hair cell generator potentials</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Alkon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Physiol</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="619" to="637" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Hair cell interactions in the statocysts of Hermissenda</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Detwiler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Alkon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Physiol</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="618" to="642" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Efferent Control of Hair Cell and Afferent Responses in the Semicircular Canals</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Boyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Rabbitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Highstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="1513" to="1525" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

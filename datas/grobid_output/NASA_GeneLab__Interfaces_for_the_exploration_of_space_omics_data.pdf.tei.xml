@@ -1,0 +1,1266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">NASA GeneLab: interfaces for the exploration of space omics data</title>
+				<funder>
+					<orgName type="full">National Aeronautics and Space Administration</orgName>
+				</funder>
+				<funder ref="#_UgstmAF">
+					<orgName type="full">(Science Mission Directorate, Biological and Physical Sciences Division)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Oxford University Press (OUP)</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-10-20">20 October 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Daniel</forename><forename type="middle">C</forename><surname>Berrios</surname></persName>
+							<idno type="ORCID">0000-0003-4312-9552</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">USRA/NASA Ames Research Center</orgName>
+								<address>
+									<postCode>94035</postCode>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jonathan</forename><surname>Galazka</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<postCode>94035</postCode>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kirill</forename><surname>Grigorev</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Weill Cornell Medicine</orgName>
+								<address>
+									<postCode>10065</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country>USA and</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Samrawit</forename><surname>Gebre</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">KBR/NASA Ames Research Center</orgName>
+								<address>
+									<postCode>94035</postCode>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Sylvain</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+							<email>sylvain.v.costes@nasa.gov</email>
+							<affiliation key="aff1">
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<postCode>94035</postCode>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">NASA GeneLab: interfaces for the exploration of space omics data</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Nucleic Acids Research</title>
+						<idno type="ISSN">0305-1048</idno>
+						<idno type="eISSN">1362-4962</idno>
+						<imprint>
+							<publisher>Oxford University Press (OUP)</publisher>
+							<biblScope unit="volume">49</biblScope>
+							<biblScope unit="issue">D1</biblScope>
+							<biblScope unit="page" from="D1515" to="D1522"/>
+							<date type="published" when="2020-10-20">20 October 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">60BA6E64C0D0E7BDF7AD68FE1A61C4A6</idno>
+					<idno type="DOI">10.1093/nar/gkaa887</idno>
+					<note type="submission">Received August 21, 2020; Revised September 16, 2020; Editorial Decision September 25, 2020; Accepted October 06, 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:43+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The mission of NASA's GeneLab database (<ref type="url" target="https://genelab.nasa.gov/">https:  //genelab.nasa.gov/</ref>) is to collect, curate, and provide access to the genomic, transcriptomic, proteomic and metabolomic (so-called 'omics') data from biospecimens flown in space or exposed to simulated space stressors, maximizing their utilization. This large collection of data enables the exploration of molecular network responses to space environments using a systems biology approach. We review here the various components of the GeneLab platform, including the new data repository web interface, and the GeneLab Online Data Entry (GEODE) web portal, which will support the expansion of the database in the future to include companion nonomics assay data. We discuss our design for GEODE, particularly how it promotes investigators providing more accurate metadata, reducing the curation effort required of GeneLab staff. We also introduce here a new GeneLab Application Programming Interface (API) specifically designed to support tools for the visualization of processed omics data. We review the outreach efforts by GeneLab to utilize the spaceflight data in the repository to generate novel discoveries and develop new hypotheses, including spearheading data analysis working groups, and a high school student training program. All these efforts are aimed ultimately at supporting precision risk management for human space exploration.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Scientists are leveraging space-based platforms such as the International Space Station (ISS) and earth-based laboratories such as the NASA Space Radiation Laboratory to study the effects of space on biological organisms, generat-ing nucleic acid, protein, and metabolite profiling data at an unprecedented rate. The 2011 National Research Council (NRC) Decadal Survey presaged this 'wave of change' almost a decade ago, and called for the development of more powerful informatics technologies to meet the growing needs of these researchers <ref type="bibr" target="#b0">(1)</ref>. The Survey also promulgated the use of a systems biology approach by space biosciences investigators, which led to the formation of the GeneLab project (<ref type="url" target="https://genelab.nasa.gov/">https://genelab.nasa.gov/</ref>), a science initiative at NASA to maximize omics data collected from spaceflight and ground simulation experiments, and including the creation in 2014 of the NASA GeneLab data repository (<ref type="url" target="https://genelab-data.ndc.nasa.gov/">https://genelab-data.ndc.nasa.gov/</ref> ) <ref type="bibr" target="#b0">(1)</ref>. The mission of GeneLab is to maximize the utilization of valuable biospecimens flown in space or exposed to simulated space stressors through the collection and curation of genomic, transcriptomic, proteomic and metabolomic (socalled 'omics') data, in order to enable the exploration of molecular network responses to space environments using a systems biology approach. Our designs for the data repository continue to be guided by the FAIR principles <ref type="bibr" target="#b1">(2,</ref><ref type="bibr" target="#b2">3)</ref>. To foster open science in space biology research and to stimulate research opportunities based on an integrated multi-omics analysis approach, investigators who generate omics data are encouraged to contact GeneLab for the latest information concerning data submission requirements and procedures. All GeneLab repository data are open-access.</p><p>We review here the various components (Figure <ref type="figure" target="#fig_0">1</ref>) of the database, then describe its new data repository web interface and the GeneLab Online Data Entry (GEODE) web portal, which provides 'self-service' data curation, and will support the expansion of the database in the future to include companion non-omics assay data. We discuss our design strategies for GEODE, emphasizing how they promote investigators providing more accurate metadata using controlled vocabularies, reducing the curation effort required of GeneLab staff. We also introduce here a new GeneLab D1516 Nucleic Acids Research, 2021, Vol. 49, Database issue Application Programming Interface (API) specifically designed to support tools for the visualization of processed omics data. Such visualization tools are essential to fulfil an 'Open Science' mandate, democratizing the access to data and allowing the scientific community at large to gain new knowledge on how spaceflight affects life, from humans and mice, to plants and microbes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>GENELAB DATABASE HOLDINGS</head><p>As of August 2020, GeneLab houses data from 271 studies representing investigations of many kinds of spaceflight experimental factors: gravity level (microgravity, hypergravity), ionizing radiation, circadian disruption, and atmospheric pressure, together with information on confounding variables such as organism diet, age, and sample preservation methods, for a variety of biological organisms (Figure <ref type="figure" target="#fig_1">2</ref>). Approximately half the studies in the GeneLab repository are from experiments conducted in space, and the other half from ground-based (space analogue) environments (4). Mammalian (primarily rodent and human cell line) investigations account for a majority the studies. Other organisms studied include various flowering plants, (e.g. Arabidopsis thaliana), microbes, nematodes (primarily Caenorhabditis elegans), insects (Drosophila melanogaster), and bony fish. Although, the most prevalent study assay type is transcription profiling, the database also includes studies of protein expression, whole genome sequencing, metabolite profiling, metagenomics, epigenomics and epitranscriptomics. Investigators continue to submit data from new kinds of assays at an ever-increasing rate, particularly new kinds of RNA se-quencing assays, such as spatial transcription profiling (5) data <ref type="bibr" target="#b5">(6)</ref>. Accommodating these new kinds of assays have not required GeneLab data systems software development, only minor changes to systems configuration files.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA PROCESSING STANDARDIZATION</head><p>Since its inception GeneLab has focused on adopting best practices regarding the use of community-derived standards for metadata and data processing. For submitted metadata, GeneLab curators encourage the use of domain ontologies, and meticulously, manually harmonize submitted metadata with those of existing studies (1). To support consistent interpretation of submitted data, GeneLab curators augment submitted metadata for spaceflight studies with spacecraft environmental metadata. For example, for experiments conducted on board the U.S. Space Transportation System (the 'Space Shuttle'), on the ISS, and on board various other spacecraft, GeneLab has gathered, summarized, and attached radiation exposure metadata to the other experiment metadata submitted by investigators (4). Ambient CO 2 , temperature, and humidity data are also gathered, summarized, and associated with each sample for metadata submitted for ISS experiments.</p><p>GeneLab has also begun to process submitted transcriptomic data using consensus pipelines developed by representatives of the space biology community (<ref type="url" target="https://github.com/nasa/GeneLab_Data_Processing">https://github.  com/nasa/GeneLab Data Processing</ref>). This yields gene expression analysis data that are then made available in the database together with the raw data, and all intermediate data processing files. At the time of this writing, 103 GeneLab transcription profiling studies in the database have processed data available.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>KEY DATABASE FEATURES</head><p>When originally designed, the GeneLab data systems sought merely to replicate features of existing, publiclyavailable life sciences data repositories that have long been recognized as valuable to end-users. These included the use of persistent, immutable accession numbers for submitted data, completely open access, and an API to allow for data file and metadata retrieval. Since this original design several years ago, GeneLab has sought to improve on this set of features, and implement new ones in line with advancing end-user needs and new, community-derived design principles for data repositories.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>User interface</head><p>The initial user interface for the data repository organized study metadata using a series of tabs, one each for administrative, protocol, sample, and assay metadata. However, this layout makes it difficult for users to see more than one active tab's content at the same time. We have since revised the layout to use navigable, movable, and collapsible sections for each kind of metadata (Figure <ref type="figure" target="#fig_2">3</ref>) so that users can create custom displays to organize and view the exact kind of metadata they want.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Increased FAIRness</head><p>Digital object identifiers. From its inception, GeneLab has sought to implement community-derived (i.e. open) stan-dards for the data and metadata it curates, and for the operation of the database (end-user interactions, curation by GeneLab, etc.). Largely concurrent with the design of the GeneLab Data Repository, the global scientific community converged on a set of optimal design features for data repositories, now termed the FAIR (Findability, Accessibility, Interoperability, and Reusability) principles. In the area of Findability, the data repository now provides Digital Object Identifiers (DOIs) for all submitted datasets. DOIs have guaranteed persistence, and resolution control mechanisms that are centralized (independent of the data source), and provide users of the GeneLab datasets with a way to cite them easily and uniformly. In addition, each version of a dataset (distinguished by changes in data files or in metadata) is tracked in the data repository, and users can opt to see previous versions through the web interface (Figure <ref type="figure" target="#fig_2">3</ref>). This ensures persistence of the specific version of data as cited by others. Finally, NASA is currently developing processes for the automated submission to other databases of data submitted first to GeneLab, with the twin goals of making the data more findable from extramural database systems, and reducing the burden to data providers of generating multiple data submissions.</p><p>Accessibility. All data in the GeneLab data repository continues to be accessible to all users without user authentications. To provide the greatest accessibility to its data analysis tools and collaborative workspace, the GeneLab analysis and collaboration platforms have integrated the widelyavailable Google credentialing system into its authentication systems. Users can opt to use their Google-managed credentials or, if they have them, use their NASA creden- tials to access these subsystems. It is our intention that this development leads to increased access to and usage of these tools for more investigators.</p><p>Linked data. One the biggest areas where many data repositories fall short using FAIR-based metrics is interoperability (2), which often presents a barrier to data reusability. In order to support systems interoperation and increase data reuse, the GeneLab repository data uses the widely known ISA experiment model <ref type="bibr" target="#b6">(7)</ref> for tagging data files with metadata. The ISA model leverages community-developed concept vocabularies (ontologies), so that there is agreement among users on metadata meaning, and therefore data characterization. Furthermore these models support linkage of data values ('linked data') so that, for example, biological samples, personnel or resources reused across experiments need only be described once by the first experiment to refer to them. Subsequent investigations that also use these objects then can quickly search for and refer to them in their investigation descriptions.</p><p>In the specific domain of space biology, it is common to re-use samples across different investigations, given the high cost of generating biological sample data in space environments. In many other application areas, it is common to reuse parts of experimental protocols, and these too can be similar referred to by data submitters using the ISA model, rather than duplicated semantically in the data repository.</p><p>Web-browser data submissions. The most recent addition to the GeneLab Data Systems is GEODE, the GeneLab Environment for Online Data Entry. This interface sup-ports the creation of complex metadata descriptions of datasets, and was built in collaboration with, and by extending an interface originally developed by, the Metabolights (8) database at EBI. This web browser interface (Figure <ref type="figure" target="#fig_3">4</ref>) allows users to develop ISA-tab sets of metadata through either a guided submission 'wizard', in which users create metadata step-by-step, or 'Study Overview' method, in which metadata can be arbitrarily edited. Data submitters and GeneLab curation staff can both create metadata using GEODE; submitters are limited to editing only their own submitted metadata, while GeneLab curation staff can access and edit all metadata. The web interface provides the capability for submitters (or curators) to look up metadata concepts in online ontologies dynamically, which reduces metadata normalization effort of the curation staff. Furthermore, GEODE provides continuously available data set editing for submitters (or curators), so that they can rapidly and efficiently update and correct their data; any data set owner (or curator) can change the status of their published data sets to 'In Review', make changes to the data/metadata, and re-submit it for release at any time.</p><p>Enhanced API. GeneLab has always provided an Application Programming Interface (API) for the retrieval of individual experiment data and metadata files. Improvements in this API now enables users to query the database for samples, potentially across multiple datasets and assays, by combinations of values of metadata fields, and then to retrieve sample-associated experiment data. Both the data and the accompanying annotations are returned in a tabular format suitable for downstream processing in a variety of languages and environments commonly used by data scientists. This, in turn, empowers researchers to conduct multidataset and multi-omics analyses, such as investigating the impact of single experiment factors on a variety of organisms during space flight. For example, the API can be leveraged to interrogate the entirety of the GeneLab database for RNA-Seq assay gene expression counts from all samples from Mus musculus that experienced a specified level of ionizing radiation; such a request returns gene counts from multiple datasets as well as all other metadata values associated with the samples (status of space flight, radiation dose, diet, age, etc.), immediately providing the end-user with data and annotations suitable to build a complex model that accounts for all main and confounding factors known to the database. The API also supports queries for multiple assay types, for example, all transcriptomic and epigenomic assays, facilitating multi-omics data analyses. This enhanced API layer is currently being leveraged within GeneLab to provide advanced data visualizations of GeneLab processed data <ref type="bibr" target="#b8">(9)</ref>. These include a data table browser for sample data and annotations, and common statistical data visualizations such as principal component analysis, in a webbrowser interface. Finally, we should note that, as the data API leverages the versatile ISA-Tab format to bring annotations to data files, this API could be easily extended to numerous types of assay data, not just omics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>COMMUNITY</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scientific outreach</head><p>A key goal of the GeneLab project is to bring together a community of scientists to generate novel hypotheses and make valuable scientific discoveries using the data in the GeneLab database. GeneLab has sought to engage working groups of students, bioinformaticians, space biologists, researchers and citizen scientists by providing freely-available data analysis tools and support for their use. Users can access user guides and tutorial videos on how to use the various GeneLab applications, including how to analyze RNAseq datasets using the GeneLab Analysis Platform (<ref type="url" target="https://genelab.nasa.gov/help/tutorials">https://  genelab.nasa.gov/help/tutorials</ref>). Furthermore, NASA has developed the GeneLab 4 High School (GL4HS) training program, in which fifteen high school students learn how to use the GeneLab tools over four weeks to analyze spaceflight microarray and RNA-seq data, how to generate follow-on hypotheses based on these analyses, how to design a ground-based experiment to test these hypotheses, and ultimately write research proposals for the experiments (<ref type="url" target="https://www.nasa.gov/ames/genelab-for-high-schools">https://www.nasa.gov/ames/genelab-for-high- schools</ref>). GeneLab is also launching an Education Working Group, a group of educators and scientists, who will develop educational content that promotes the use of the GeneLab database, and its visualization and analytical tools.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D1520 Nucleic Acids Research, 2021, Vol. 49, Database issue</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis working groups</head><p>In 2018 GeneLab formed four Analysis Working Groups (AWGs) comprised of over 100 scientists and students from multiple space agencies, academia, and industry, for the purpose of optimizing and standardizing the processing of raw omics data from the GeneLab repository. The AWGs work in four major areas: animal, plant, microbial, and multi-omics data processing. The consensus data processing pipelines developed in each group are then used by GeneLab to process the data in the repository (see Data Processing Standardization above). The AWGs have begun to utilize the processed data to publish insights in important areas of space biology <ref type="bibr" target="#b9">(10)</ref><ref type="bibr" target="#b10">(11)</ref><ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data re-use</head><p>The number of GeneLab studies continue to grow rapidly, providing more opportunities for meta-analysis. Currently there are 18 publications of this type linked to repository datasets that together leveraged 78 repository datasets (see <ref type="url" target="https://genelab.nasa.gov/publications/derived">https://genelab.nasa.gov/publications/derived</ref>). In addition, an increasing number of extramural visualization tools are consuming the processed data in the repository through its API. For example, the Test of Arabidopsis Space Transcriptome (TOAST) tool has a graphical user interface through which users can quickly compare the data from plant spaceflight experiments using real-time, gene-specific queries, or explore gene networks of interest <ref type="bibr" target="#b14">(15)</ref>. Likewise, Project MANGO (<ref type="url" target="https://www.ebi.ac.uk/metagenomics/super-studies/3">https://www.ebi.ac.uk/  metagenomics/super-studies/3</ref>) users can generate and visualize taxonomic analyses of GeneLab processed data to explore the microbiome of the ISS.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FUTURE DIRECTIONS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Astronaut data</head><p>In 2011 the National Research Council of the U.S. recognized the importance of collecting astronaut data, in addition to model organism data in the Decadal Survey <ref type="bibr" target="#b15">(16)</ref>: 'because of the limited number of humans who undergo exposure to the space environment, maintaining an extensive and well-organized database and managing it as a resource to be shared with the scientific community has long been viewed as an essential step for scientific discovery'. However, anonymizing astronaut data presents a unique challenge as the cohort is indeed extremely small, and very few metadata (e.g. just gender and flight dates) may be used to identify individuals. Nevertheless, to achieve greater reuse of these data, they too should be made part of an Open Science framework using FAIR principles. They should be stored in non-proprietary formats based on open (community-derived) standards, with open access and with linkages to other data that provide important context <ref type="bibr" target="#b16">(17)</ref>. This goal was nicely summarized by Higman et al. <ref type="bibr" target="#b16">(17)</ref>, 'data should be as open as possible, as closed as necessary'. More effort should be put into identifying what types of data can remain open, even if one can identify the individuals to which they belong. For example, gene expression levels do not present any sensitive information in the context of the response to stresses like microgravity and radiation. Such information should therefore be made available through open science frameworks as soon as these data are released for publication by investigators. Any information revealing sensitive and personal information, such as that which can be derived from DNA or RNA sequences, would remain access-controlled.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enabling precision space risk management</head><p>Although valuable knowledge has been gained from experiments conducted in space or from space simulations on the ground, little progress has been made in terms of modelling the impact of spaceflight on humans. Most risk models have been focusing on space radiation and cancer <ref type="bibr" target="#b17">(18)</ref><ref type="bibr" target="#b18">(19)</ref><ref type="bibr" target="#b19">(20)</ref>. The strong epidemiological data on cancer risk from ionizing radiation <ref type="bibr" target="#b20">(21)</ref> and the existence of accelerators dedicated to simulating space radiation have been the main thrust behind these risk models. Ionizing radiation is an easy-to-use experimental factor, with good quantitative input and output, enabling mathematical models. Briefly, scientists control precisely the dose, the dose rate and the type of radiation delivered and they can measure precisely short-term endpoints such as DNA double strand breaks <ref type="bibr" target="#b21">(22,</ref><ref type="bibr" target="#b22">23)</ref>. Interestingly, such responses have been shown to be modulated by the genetic background of an individual <ref type="bibr" target="#b23">(24)</ref><ref type="bibr" target="#b24">(25)</ref><ref type="bibr" target="#b25">(26)</ref>, eventually leading to DNA mutations and cancer <ref type="bibr" target="#b26">(27)</ref><ref type="bibr" target="#b27">(28)</ref><ref type="bibr" target="#b28">(29)</ref>. Because modelling requires quantitative data, omics data are very well suited to informing risk models and to tackling more challenging stressors such as microgravity. The growing amount of omics data generated by NASA principal investigators and the recent guidelines from NASA emphasizing the importance of submitting all omics data to GeneLab are therefore exciting developments for modellers. Indeed, the software architecture designed by GeneLab and its strategies around data and metadata harmonization will enable the development of the next generation of space risk models. By classifying experimental factors into digital objects and by transforming raw data into comparable quantitative endpoints using a workflow approved by the community, GeneLab lets users see how space factors affect a large array of biological processes <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b30">(30)</ref><ref type="bibr" target="#b31">(31)</ref><ref type="bibr" target="#b32">(32)</ref>. By establishing mathematical laws describing the relationship between factors' values and biological endpoints, one can start building more elaborate computer models. By integrating information from other NASA databases with more qualitative data (e.g. immunocytochemistry, behavioural data) using the same metadata schema and harmonization strategies, GeneLab can continue to evolve as a knowledge-based system, fully leveraging advances in machine learning, providing insights on enabling human life in space, and enabling individualized space risk models for precision space medicine.</p><p>GeneLab plans to utilize machine learning algorithms and artificial intelligence (AI) to maximize the usage of its data, especially in the context of modelling and extrapolation to human risks. Such effort may start by providing a portal proposing mechanistic models describing known health risks (cancer, muscle atrophy, bone loss, etc.). Such a tool would allow users to test how well GeneLab omics data and data from other databases support these models and test alternative models. Such approach will involve collaborating with the NASA Ames Life Sciences Data Archive (ALSDA), which archives biospecimens and nonomics data from mammalian and microbial NASA experiments.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. The GeneLab database and its connections to intramural and extramural systems. The database API is leveraged extensively by components of the GeneLab Data Systems: the database web browser interface (A), the GeneLab Online Data Entry tool (B), a workspace tool for private data sharing (C), and the GeneLab data visualization server (D). The database API is also being used to power various extramural data analytics and visualization tools (E, F). The GeneLab Public Analytics platform (G) and Data Processing systems (H) access the repository data files directly.</figDesc><graphic coords="2,114.77,69.67,368.64,260.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. GeneLab database content by study experiment environment (A), study assay type by year of data publication (B), and organism studied by year of data publication (C).</figDesc><graphic coords="3,71.64,69.47,481.99,255.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Redesigned 'individual study page' of the GeneLab data repository. Users can click on the section links (A) to navigate to each panel of metadata, open/close (collapse) each panel of metadata using the arrow on the panel header (B), and/or drag panels to re-order metadata displays (C). For each study dataset, a DOI is generated (D), and every submitted version of the dataset can be displayed using a drop-down menu (E).</figDesc><graphic coords="4,65.27,69.07,467.79,258.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. The GEODE web browser interface used by both data submitters and GeneLab data curation staff. Below the data set 'Status' and desired release date fields (A) are the user-entered title, contact(s) and brief study description fields (B), the user-selected chosen taxon(s) studied (C), relevant publication objects (D) and subsections for users to specify further details of the study's description, protocols, samples, assays and study files (E), all validated against the ISA model.</figDesc><graphic coords="5,142.63,69.75,340.25,289.56" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>We would like to thank all members of the <rs type="institution">GeneLab</rs> team and the data systems team in particular: <rs type="person">Ms Jamie Bales</rs>, <rs type="person">Mr Peter O'Donnell</rs>, <rs type="person">Ms Sonja Caldwell</rs> and <rs type="person">Mr Matias Fernandez</rs>, for developing the database and web applications.</p></div>
+			</div>
+			<div type="funding">
+<div><p><rs type="programName">FUNDING Space Biology Program</rs> <rs type="funder">(Science Mission Directorate, Biological and Physical Sciences Division)</rs> of the <rs type="funder">National Aeronautics and Space Administration</rs>. Funding for open access charge: <rs type="institution">NASA</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_UgstmAF">
+					<orgName type="program" subtype="full">FUNDING Space Biology Program</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY</head><p>NASA GeneLab is an open-access data repository (<ref type="url" target="https://genelab.nasa.gov">https:  //genelab.nasa.gov</ref>).</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Conflict of interest statement. None declared.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">GeneLab: Omics database for spaceflight experiments</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gebre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fogle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Berrios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Galazka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1753" to="1759" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">FAIRness and usability for open-access omics data systems</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Berrios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2018 AMIA Annual Symposium. AMIA</title>
+		<meeting>the 2018 AMIA Annual Symposium. AMIA</meeting>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="232" to="241" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The FAIR Guiding Principles for scientific data management and stewardship</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dumontier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Aalbersberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Appleton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Axton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Baak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Blomberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Boiten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Da Silva Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Bourne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Data</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">160018</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">NASA GeneLab project: bridging space radiation omics with ground studies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kidane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Berrios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Gebre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Radiat. Res</title>
+		<imprint>
+			<biblScope unit="volume">189</biblScope>
+			<biblScope unit="page" from="553" to="559" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Visualization and analysis of gene expression in tissue sections by spatial transcriptomics</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Ståhl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Salmén</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vickovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lundmark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Navarro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Magnusson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Giacomello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Asp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Westholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Huss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">353</biblScope>
+			<biblScope unit="page" from="78" to="82" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Spatially resolved transcriptional analysis of hearts from mice flown on the RR-3 mission</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Galazka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Giacomello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Lai Polo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Andrusivova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saravia-Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fogle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Andrusivova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Giacomello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Andrusivova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Boyko</surname></persName>
+		</author>
+		<idno>.26030/09s2-9×11 version 2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeneLab</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">linkedISA: semantic representation of ISA-Tab experimental metadata</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>González-Beltrán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Maguire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Sansone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rocca-Serra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">MetaboLights: a resource evolving in response to the needs of its scientific community</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Haug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cochrane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Nainala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">V</forename><surname>Jayaseelan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>O'donovan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="440" to="D444" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<author>
+			<persName><forename type="first">D</forename><surname>Berrios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Weitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Grigorev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gebre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 12th International Conference on Bioinformatics and Computational Biology</title>
+		<editor>
+			<persName><forename type="first">Q</forename><surname>Ding</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">O</forename><surname>Eulenstein</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">H</forename><surname>Al-Mubaid</surname></persName>
+		</editor>
+		<meeting>the 12th International Conference on Bioinformatics and Computational Biology</meeting>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="89" to="98" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Hallmarks of space biology: the next stage of exploration</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hassane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Grabham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Keune</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bristow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Klotz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>In press</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chakravarty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fogle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fazelinia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A D</forename><surname>Silveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Boyko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><forename type="middle">L</forename><surname>Polo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Saravia-Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hardiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">19195</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">GeneLab database analyses suggest long-term impact of space radiation on the cardiovascular system by the activation of FYN through reactive oxygen species</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Grabham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="661" to="683" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">NASA genelab platform utilized for biological response to space radiation in animal models</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stainforth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cahill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Da Silveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Rathi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hardiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Chauhan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cancers</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="318" to="341" />
+			<date type="published" when="2020">2020</date>
+			<pubPlace>Basel</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Mice exposed to combined chronic low-dose irradiation and modeled microgravity develop long-term neurological sequelae</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Overbey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Da Silveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G T</forename><surname>Tahimic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Reinsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stanbouly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Galazka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">W</forename><surname>Mao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="4094" to="5010" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Test of arabidopsis space transcriptome: a discovery environment to explore multiple plant biology spaceflight experiments</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Barker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lombardino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rasmussen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gilroy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="147" to="147" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Committee on a Midterm Assessment of Implementation of the Decadal Survey on Life and Physical Sciences Research at NASA</title>
+	</analytic>
+	<monogr>
+		<title level="m">A Midterm Assessment of Implementation of the Decadal Survey on Life and Physical Sciences Research at NASA</title>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>The National Academies Press</publisher>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+		<respStmt>
+			<orgName>National Academies of Sciences Engineering and Medicine (U.S. ; National Academies of Sciences Engineering and Medicine (U.S. ; Aeronautics and Space Engineering Board ; National Academies of Sciences Engineering and Medicine (U.S. ; Space Studies Board. and National Academies of Sciences Engineering and Medicine (U.S. ; Division on Engineering and Physical Sciences</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Three camps, one destination: the intersections of research data management, FAIR and open</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rosie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bangert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Insights</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="18" to="27" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Radiation risk and human space exploration</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Schimmerling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Cucinotta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="27" to="34" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Cancer risk from exposure to galactic cosmic rays: implications for space exploration by human beings</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Cucinotta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Durante</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Oncol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="431" to="435" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Simulating space radiation-Induced breast tumor incidence using automata</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Heuskin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Osseiran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Radiat. Res</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page" from="27" to="38" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Solid cancer incidence in atomic bomb survivors: 1958-1998</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Preston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tokuoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Funamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Soda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mabuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kodama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Radiat. Res</title>
+		<imprint>
+			<biblScope unit="volume">168</biblScope>
+			<biblScope unit="page" from="1" to="64" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Imaging features that discriminate between foci induced by high-and low-LET radiation in human fibroblasts</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Boissiere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ravani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Romano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Parvin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Barcellos-Hoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Radiat. Res</title>
+		<imprint>
+			<biblScope unit="volume">165</biblScope>
+			<biblScope unit="page" from="505" to="515" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Characterizing the DNA damage response by cell tracking algorithms and cell features classification using high-content time-lapse analysis</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Georgescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Osseiran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rojec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bombrun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">129438</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Persistence of gamma-H2AX foci in bronchial cells correlates with susceptibility to radiation associated lung cancer in mice</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">O</forename><surname>Ochola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sharif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Bedford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Keefe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Fallgren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Demant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Weil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Radiat. Res</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="67" to="75" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Dose, LET and strain dependence of radiation-induced 53BP1 foci in 15 mouse strains ex vivo introducing novel DNA damage metrics</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Penninckx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cekanaviciute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Degorre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Guiet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Viger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lucas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Radiat. Res</title>
+		<imprint>
+			<biblScope unit="volume">192</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">53BP1 repair kinetics for prediction of in vivo radiation susceptibility in 15 mouse strains</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pariset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Penninckx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Degorre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Guiet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lopez Macha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cekanaviciute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Snijders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Paris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+		<idno type="DOI">10.1667/RADE-20-00122.1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Radiat. Res</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Large-mutation spectra induced at hemizygous loci by low-LET radiation: evidence for intrachromosomal proximity effects</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Costes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sachs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hlatky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vannais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Waldren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fouladi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Radiat. Res</title>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="page" from="545" to="557" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Georgescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Deschamps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Yannone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+		<title level="m">Genomic Instability and Cancer Metastasis</title>
+		<imprint>
+			<publisher>Springer Science &amp; Business Media</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="75" to="93" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Simulating space radiation-induced breast tumor incidence using automata</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Heuskin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Osseiran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Radiat. Res</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page" from="27" to="38" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Research</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<date type="published" when="1522">1522. 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Exploring the effects of spaceflight on mouse physiology using the open access NASA GeneLab platform</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shirazi-Fard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Berrios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Gebre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Galazka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Vis. Exp</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page">58447</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chakravarty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fogle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fazelinia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A D</forename><surname>Silveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Boyko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Polo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Saravia-Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hardiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">19195</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Global transcriptomic analysis suggests carbon dioxide as an environmental stressor in spaceflight: a systems biology GeneLab case study</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cekanaviciute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">4191</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

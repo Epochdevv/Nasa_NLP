@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Analyzing the relationship between gene expression and phenotype in space-flown mice using a causal inference machine learning ensemble</title>
+				<funder>
+					<orgName type="full">NASA Human Research Program (HRP), Science Mission Directorate, and Biological and Physical Sciences</orgName>
+					<orgName type="abbreviated">BPS</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">NASA Center for Climate Simulation</orgName>
+					<orgName type="abbreviated">NCCS</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">NASA High-End Computing</orgName>
+					<orgName type="abbreviated">HEC</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2025-01-18">2025-01-18</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">James</forename><forename type="middle">A</forename><surname>Casaletto</surname></persName>
+							<email>james.casaletto@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Blue Marble Space Institute of Science</orgName>
+								<orgName type="institution" key="instit2">NASA Ames</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ryan</forename><forename type="middle">T</forename><surname>Scott</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">KBR</orgName>
+								<orgName type="institution" key="instit2">NASA Ames</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Makenna</forename><surname>Myrick</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">University of Florida</orgName>
+								<address>
+									<settlement>Gainesville</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Graham</forename><surname>Mackintosh</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Bay Area Environmental Research</orgName>
+								<orgName type="institution">NASA Ames</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hamed</forename><surname>Chok</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Blue Marble Space Institute of Science</orgName>
+								<orgName type="institution" key="instit2">NASA Ames</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Amanda</forename><surname>Saravia-Butler</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">KBR</orgName>
+								<orgName type="institution" key="instit2">NASA Ames</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Adrienne</forename><surname>Hoarfrost</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Marine Science</orgName>
+								<orgName type="institution">University of Georgia</orgName>
+								<address>
+									<settlement>Athens</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jonathan</forename><forename type="middle">M</forename><surname>Galazka</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field Mountain View</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lauren</forename><forename type="middle">M</forename><surname>Sanders</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field Mountain View</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sylvain</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+						</author>
+						<title level="a" type="main">Analyzing the relationship between gene expression and phenotype in space-flown mice using a causal inference machine learning ensemble</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Scientific Reports</title>
+						<title level="j" type="abbrev">Sci Rep</title>
+						<idno type="eISSN">2045-2322</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">15</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2025-01-18" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">BBCE452114ABFD4035D056CF6A59D895</idno>
+					<idno type="DOI">10.1038/s41598-024-81394-y</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T10:08+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Spaceflight has several detrimental effects on human and rodent health. For example, liver dysfunction is a common phenotype observed in space-flown rodents, and this dysfunction is partially reflected in transcriptomic changes. Studies linking transcriptomics with liver dysfunction rely on tools which exploit correlation, but these tools make no attempt to disambiguate true correlations from spurious ones. In this work, we use a machine learning ensemble of causal inference methods called the Causal Research and Inference Search Platform (CRISP) which was developed to predict causal features of a binary response variable from high-dimensional input. We used CRISP to identify genes robustly correlated with a lipid density phenotype using transcriptomic and histological data from the NASA Open Science Data Repository (OSDR). Our approach identified genes and molecular targets not predicted by previous traditional differential gene expression analyses. These genes are likely to play a pivotal role in the liver dysfunction observed in space-flown rodents, and this work opens the door to identifying novel countermeasures for space travel.</p><p>Rodent studies demonstrate that spaceflight negatively impacts liver function <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref> . Astronaut studies including the seminal NASA Twins Study also reveal a theme of lipid dysregulation <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> . Despite these findings, there has been relatively little research studying the impact of microgravity or space radiation on the liver, with more research emphasis on central nervous system effects and carcinogenesis. This is a key knowledge gap considering the disruption of such a critical organ could impact astronaut health and jeopardize the success of future longterm space missions. Identifying the genetic and molecular mechanisms implicated in spaceflight-induced liver dysfunction is required as a first step in precisely mitigating those deleterious effects. Traditional statistical methods identify correlations which may or may not be spurious, especially in high-dimensional, highthroughput data analysis 6 . While randomized controlled trials are considered the gold standard for identifying non-spurious, causal relationships between dependent and independent variables 7 , such experiments can be very expensive and time consuming, or logistically infeasible, especially in a spaceflight environment where sample sizes are limited. Instead, we turn to new machine learning (ML) approaches to identify genes in transcriptomic data predictive of a lipid metabolic response from spaceflight and ground control rodent liver samples.</p><p>Tools which are commonly used to analyze high-dimensional data, and ML algorithms in general, share an intrinsic flaw. They discover those patterns in data which minimize training error, but training data are often flawed by selection bias, label bias, capture bias, and negative set bias 8 . Algorithms which train on biased datasets inherit these data biases. Minimizing training error encourages algorithms to indiscriminately absorb all the correlations found in training data, real or spurious. Spurious correlations resulting from data biases are unrelated to the true underlying signal 9 . Recently, disambiguating true correlations from spurious ones has been studied in the context of causal inference. For this reason, we leverage tools from the causal inference domain to identify genes which are robustly correlated with a phenotype. While such genes are putatively causal,</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>validating true causality is beyond the scope of this research. In this research, we use CRISP-an ensemble machine learning platform developed by the Frontier Development Laboratory (FDL) 2020 Astronaut Health team <ref type="bibr" target="#b9">10</ref> to enhance biological and medical research with heterogeneous and high-dimensional observational data <ref type="bibr" target="#b10">11</ref> . The FDL team used CRISP to identify genetic drivers that differentiate two subtypes of colorectal cancer and to implicate operational taxonomic units of the associated microbiome.</p><p>The algorithms in the CRISP platform are based on the concept of invariance as a proxy for causal inference. Invariance is a property of a feature which reflects how well a classification algorithm performs using that feature to predict a response invariantly; that is, on data which were generated in different environments, under different circumstances, different conditions, or using different interventions <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13</ref> . An algorithm based on invariance can identify those features that predict the target label regardless of the background data generating processes that gave rise to the dataset. The classic example is a machine learning classifier built to distinguish images of cows from images of camels <ref type="bibr" target="#b13">14</ref> . A machine learning classifier that is overfit to a particular environment may learn that a cow is an animal that lives in green pastures while a camel is an animal that lives in beige deserts. Given a cow on a sandy beach, this classifier would likely call it a camel. By contrast, a classifier based on invariance would be optimized to ignore the background environment and learn the salient features which truly distinguish a cow from a camel, such as the dimensions of the neck and legs and the shape of the face. Classification algorithms which exploit invariance promote learning correlations that are stable across training environments, as these are expected to persist on out-of-distribution data (i.e. data generated in environments not seen by the algorithm during training) and therefore be robustly correlated to and more likely causal of the response variable <ref type="bibr" target="#b14">15</ref> .</p><p>In this research, we leverage several data transformations for augmenting the dataset that additionally provide an environment in which to leverage the CRISP invariance strategy. We use CRISP to identify genes potentially causal of a high lipid density phenotype in space-flown mice liver tissue. We establish a binary threshold of lipid density using scalar values associated with oil red O (ORO) stained tissue. To compare our method with traditional differential gene expression tools, we use EdgeR and DESeq2. We also compare our results with those derived from generic machine learning classifiers including random forest and empirical risk minimization. Overall, we find that CRISP identifies a biologically relevant set of genes which are uniquely predictive of a high lipid density response in space-flown mice. Gene set enrichment and pathway analyses reveal that the dysfunctional regulation of the genes identified by CRISP is implicated in the spectrum of diseases caused by non-alcoholic fatty liver disease (NAFLD). The mice in the experiment flight group were only in space for a maximum of 54 days, yet their gene expression profiles were altered significantly enough to manifest markers of NAFLD. NASA has gathered a significant amount of biomedical data on the effect of short-term spaceflight (&lt; 6 months), from the astronauts of the Apollo missions to those who fly on the International Space Station (ISS). What matters now is not merely the impact of being in space, but rather the impact of living there. Surviving long-term spaceflight (&gt; 6 months) is necessary for the success of the planned Artemis and Mars missions <ref type="bibr" target="#b15">16</ref> . Our study provides the first machine learning analysis of gene expression predictive of a disease-related response to spaceflight in the liver.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods and data</head><p>The data we used for our experiment include transcriptomic and histology data from the liver tissue of spaceflown and ground-control mice. The overall workflow for our data and methods is depicted in Fig. <ref type="figure">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>NASA open science data repository</head><p>The NASA Open Science Data Repository (OSDR) provides AI-ready datasets allowing rapid deployment of machine learning algorithms for data mining. This is possible because OSDR is a FAIR database (Findable, Accessible, Interoperable, Reusable) <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b16">17</ref> with rich metadata providing full context for the data and experiments. The full set of metadata for the samples in our experiment is shown in Supplementary Table <ref type="table">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA-seq data</head><p>This study uses transcriptomic data from four OSDR datasets: OSD-47 <ref type="bibr" target="#b16">17</ref> (version 11), OSD-48 17 (version 10), OSD-137 <ref type="bibr" target="#b17">18</ref> (version 6), and OSD-168 <ref type="bibr" target="#b16">17</ref> (version 10). These datasets were generated from three rodent research (RR) missions: RR-1 CASIS, RR-1 NASA, and RR-3. Two different strains of mice were used: C57 and Balb/C. The RR-1 CASIS experiment was designed to study the effects of microgravity of C57 mice on muscle degeneration due to spaceflight (OSD-47). The RR-1 NASA mission was designed to validate the experimental hardware and scientific capabilities on the International Space Station (OSD-48). The RR-3 mission was designed to study countermeasures in Balb/C mice for loss of mass in muscle and bone that have been observed in spaceflight (OSD-137 and OSD-168). The OSD-168 dataset was not based on a separate mission but rather to test the utility of External RNA Control Consortium (ERCC) RNA sequencing controls and therefore constitute technical replicates in our experiments. These rodent research missions were originally designed as randomized controlled experiments, with mice randomly assigned to the groups described in Table <ref type="table">1</ref>.</p><p>In our analyses, we consider the mice in the basal, vivarium, and ground experimental groups as "nonflight" and compare them with the flight group. We are re-using these data to explore the relationship between the transcriptomes and a phenotype, constituting the data as observational in our research. Indeed, the causal inference algorithms in the CRISP platform ensemble were designed to run on observational data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Liver histology phenotype data</head><p>Liver tissues used for gene expression were quantified for lipid density using the oil red O (ORO) staining protocol. ORO is a fat soluble, hydrophobic dye that stains lipid molecules red <ref type="bibr" target="#b18">19</ref> . ORO percent positivity was calculated for each sample from the stained images, providing a scalar value that measures the lipid densityhigher ORO positivity values directly correspond to higher lipid densities. ORO positivity is the de facto histological biomarker for diagnosing the spectrum of disorders in non-alcoholic fatty liver disease (NAFLD) post mortem. Because OSD-168 is comprised of technical replicates, the ORO positivity data are associated with the biological replicates in OSD-47, OSD-48, and OSD-137 and not in OSD-168 itself.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data preparation</head><p>A typical machine learning pipeline includes a data preprocessing step. At the very least, the data must be prepared to satisfy the assumptions and requirements of the algorithms which use the data. CRISP requires that the features be real-valued, that the target be binary, and that the environment string be ASCII text, as described in the following sections.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Binarized target</head><p>The ORO positivity scalar values in our dataset range from 0.91 to 26.94, but the CRISP platform only permits binary targets (low and high) for classification. We converted the scalar value to a per-mission binary value using the mean value between flight and non-flight medians. The thresholds are depicted in the box-and-whisker plot of Fig. <ref type="figure">2</ref> as a horizontal dashed blue line.</p><p>Using the thresholds per mission indicated in Fig. <ref type="figure">2</ref>, a sample was assigned a binary target of 0 if its ORO positivity is less than the threshold value and 1 if its ORO positivity is greater than or equal to the threshold value.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Group Description</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Basal</head><p>Housed in standard vivarium cages on Earth, euthanized 1 day after launch Vivarium Housed in standard vivarium cages on Earth, euthanized n days after launch</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ground</head><p>Housed in ISS habitat cages on Earth, euthanized n days after launch Flight Housed in ISS habitat cages on ISS, euthanized n days after launch Table <ref type="table">1</ref>. The four experimental groups of mice from the OSDR datasets. The basal, vivarium, and ground groups were combined as "non-flight" samples.</p><p>Fig. <ref type="figure">1</ref>. Experiment setup to compare the most predictive genes of space-flown and ground-control murine lipid density from liver tissue RNA-seq data using both traditional (non-causal inference) methods and the CRISP ensemble of causal inference methods. Gene expression data were transformed to augment the data set and then combined into a single matrix. Environment strings were assigned to each sample based on the name of the transformation performed and the RNA-seq library preparation method. Binary labels (0 and 1) were assigned to each sample based on a threshold value of lipid density. We compare which methods (causal or non-causal inference) perform better at identifying the top genes implicated in the lipid density phenotype.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Feature transformations and data augmentation</head><p>There are many types of transformations, including power-scaling and normalization, that are commonly performed on data as pre-processing steps in a machine learning pipeline. Gonzalez et al. <ref type="bibr" target="#b19">20</ref> and others have shown that while data preprocessing is a necessary step in a machine learning pipeline, there isn't much agreement as to which is the best. Some data transformations are more volatile than others. A data transformation may change the data so drastically that it destroys some of the underlying signals of interest. This lack of data preprocessing standard exists in transcriptomic data analysis as well <ref type="bibr" target="#b20">21</ref> . In our research, instead of choosing one pre-processing method, we used several methods as shown in Table <ref type="table">2</ref>. This technique of adding differently transformed samples to a dataset is referred to as data augmentation and is a common practice in machine learning <ref type="bibr" target="#b21">22</ref> . Standardization (converting values to z-scores) is a proven method of data harmonization when combining multiple datasets into one dataset <ref type="bibr" target="#b22">23</ref> . Each transformation was considered a separate environment across which CRISP must find genes invariantly correlated to the target. We exploit CRISP's built-in search for invariance across environments and consider each transformation as a perturbation of the data akin to a causal intervention <ref type="bibr" target="#b23">24</ref> .</p><p>Figure <ref type="figure" target="#fig_1">3</ref> shows the original data distribution (named "identity") and the data after having been transformed and plotted as (variance vs mean) coordinates in log scale.</p><p>The mean-variance plots of the differently transformed data in Fig. <ref type="figure" target="#fig_1">3</ref> reveals that certain transformations change the data significantly while other transformations are relatively mild in effect, compared to the original raw data. In addition to these transformations, we applied some basic filtering of the input to remove transcripts which don't have ENSEMBL identifiers, don't code for a protein, have counts of 0 in 80% or more of the samples, have a coefficient of variation less than 0.1, or have counts less than 50 in 80% or more of the samples, as shown in Supplementary Table <ref type="table">6</ref>. This filtering produced the final set of 8,092 genes which we subsequently used in all downstream analysis.</p><p>To prevent data leakage, we first separated the data into training, validation, and test datasets and standardized the training and validation sets separately <ref type="bibr" target="#b31">31</ref> . We held out 90% of the raw data for testing and did not perform any transformations on it <ref type="bibr" target="#b32">32</ref> . We held out 10% of the raw data for validation, and we used all the augmented data during the training phase.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Technical batch effects</head><p>We examined the dataset for batch effects and found that only the type of library preparation of the RNA-seq experiments generating the transcriptomic data clearly separate the samples, as shown in Fig. <ref type="figure">4a</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Transformation Description Reference</head><p>Log scale Scales values to their log base 2 Quinn et al. <ref type="bibr" target="#b25">25</ref> Square root Scales values to their square roots Zhang et al. <ref type="bibr" target="#b26">26</ref> Median of ratios Scales values to account for sequencing depth, gene length, and outliers Robinson et al. <ref type="bibr" target="#b27">27</ref> Centered log ratio Transforms data to eliminate over-dispersion Anders et al. <ref type="bibr" target="#b28">28</ref> Box-Cox Transforms non-normal data into a normal shape Sun et al. <ref type="bibr" target="#b29">29</ref> Z-score Scales values to their number of standard deviations from the mean Zwiener et al. <ref type="bibr" target="#b30">30</ref> Table <ref type="table">2</ref>. Description of and reference for each gene expression data transformation used in pre-processing of data. These 5 transformations (log, square root, median of ratios, centered log ratio, and Box-Cox) provide 6 times more data for building the models and create environments in which to leverage invariance for CRISP. The z-scores of each transformation were individually calculated prior to merging the datasets. Fig. 4. PCA plots of OSD datasets colorized by the different covariates, including (a) library preparation, (b) dataset, (c) experimental group, (d) mouse strain, and (e) Rodent Research study. The first two principal components capture 92% of the total variance of the gene expression. Colorizing by library preparation in Fig. 4a shows a distinct separation of all samples. Unlike Fig. <ref type="figure">4a</ref> (library preparation), Fig. <ref type="figure">4b</ref>-e do not show a clean separation of samples colored by covariate. To account for this library preparation batch effect, we include the library preparation in the environment string, as discussed in the following section.</p><p>Constructing the environment string CRISP defines the environments of each sample by associating with it an environment string value. Different values of this string represent known perturbations in the data generating process for that sample. In our experiment, the two known perturbations of the data include the library preparation and the data transformation. Because the other covariates do not cluster in the PCA plot, we conclude they do not create a batch effect and therefore are not included in the environment string. Causal inference algorithms which exploit environment invariance theoretically perform better on out-of-distribution data when the number of environments used to train the model is high <ref type="bibr" target="#b11">12</ref> . However, if the number of samples in the dataset is small (which is intrinsic to transcriptomic experiments), then the environment string must be selected such that there are enough samples in each partition to test for significance. Therefore, we restricted our choice of environment string to include only known perturbations of the data-i.e. transformation and library preparation-and excluded perturbations of unknown effect such as study and group. We show results using strain in the environment string in Supplemental Figs. <ref type="figure">4</ref> and <ref type="figure" target="#fig_3">5</ref>.</p><p>Table <ref type="table">3</ref> shows a snippet of one fictitious sample's input data after having performed the 5 data transformations and the standardization. The identity transformation is the original data, standardized. The environment string (here, called "env") is a concatenation of the sample library preparation (here, "polyA") and the transformation name (e.g. "boxcox"). Only the binary ORO threshold (called "oro_thresh") for the sample remains unchanged across the same sample as well as for its respective technical replicates of OSD-168, if they exist. As a result of performing these 5 data transformations, our combined dataset size of 51 samples was increased six-fold to 306 samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Running CRISP experiments</head><p>With the data in place, we turn now to how we run the CRISP in silico experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CRISP ensemble methods</head><p>CRISP is an ensemble of machine learning methods which have been designed to identify features causal of a target <ref type="bibr" target="#b10">11</ref> . We leveraged CRISP to identify genes potentially causal of a phenotype. There are 2 types of algorithms in CRISP: one based on invariant causal prediction (ICP) <ref type="bibr" target="#b12">13</ref> ; and one based on invariant risk minimization (IRM) <ref type="bibr" target="#b11">12</ref> . There is a linear and non-linear version of each of these algorithms. The linear versions use linear combinations of the feature space to construct a binary output, and the non-linear versions use non-linear combinations (multi-layer perceptrons with non-linear activation functions) of the feature space to construct a binary output. Both algorithms rely on invariance as a proxy for causality, and invariance in turn relies on having data partitioned by known interventions or perturbations. Each of these methods trains a model using a training set, selects model hyper-parameters using a validation set, and provides a final model accuracy on a held-out test set. CRISP partitions the data into different environments such that the model is trained on data from one environment and then validated and tested on the data from the other environments. CRISP uses two methods of feature reduction to reduce the number of variables to search. The first method removes features whose correlation to the target is below a certain threshold, and the second method uses a multi-layer perceptron to identify the most salient features based on model feature importance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CRISP configuration</head><p>CRISP experiments are configured with several parameters in a JSON configuration file. By default, the test_ val_split parameter defines how much data to dedicate for training, testing, and validation. We overrode this default data splitting configuration and explicitly defined the training, testing, and validation data subsets. The training data is used to train the model parameters, the validation data is used to select the optimal set of model hyperparameters, and the test data is held out after the model is trained and validated to report accuracy. It is this held-out test accuracy that we subsequently report on. The max_features parameter defines the number of features each model in the ensemble should find as most predictive of the target. We used the default value of 20 in our CRISP experiment. The data_options parameter defines the file location containing the dataset,</p><p>Sample Gnai3 Apoh … env oro_thresh Mmus_FLT_I_boxcox -0.012137 -0.011788 … polyA:boxcox 1 Mmus_FLT_I_clr 0.969207 3.344341 … polyA:clr 1 Mmus_FLT_I_log -0.011233 2.079650 … polyA:log 1 Mmus_FLT_I_norm 0.969207 3.344341 … polyA:norm 1 Mmus_FLT_I_sqrt 0.388949 5.967345 … polyA:sqrt 1 Mmus_FLT_I_identity -0.011230 2.079653 … polyA:identity 1</p><p>Table 3. One fictitious mouse sample's gene expression data (columns truncated to 2 genes) after 5 data transformations and standardization. The environment string ("env") includes the name of the library preparation ("polyA" or "ribo-depleted") and the name of the transformation. The binary ORO threshold ("oro_thresh") is set to either 0 (low ORO positivity) or 1 (high ORO positivity).</p><p>which columns in that dataset are to be used as predictors, which column is the environment variable, and which column is the target variable. There are several other parameters that may be configured in this JSON configuration file which get consumed by the machine learning algorithms configured in the ensemble. The JSON configuration we used in our experiment is shown in Supplementary Fig. <ref type="figure">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CRISP ensemble voting</head><p>CRISP is an ensemble of machine learning algorithms. Ensembles are used to combine a set of multiple "weak" learners into a single "strong" learner to minimize training errors <ref type="bibr" target="#b33">33</ref> . Each model in the ensemble is trained on the dataset to identify the features most predictive of the target. After training, each model selects the features (20 by default) which it found as most predictive of the target. For the linear models-linear invariant risk minimization (linear IRM) and linear invariant causal prediction (linear ICP)-the features which are most predictive are those whose coefficients of the linear model have the highest absolute values. For non-linear models-non-linear invariant risk minimization (non-linear IRM) and non-linear invariant causal prediction (non-linear ICP)-the most predictive features are selected through sensitivity analysis (the features which have the highest impact on the response variable). After each model has selected its top-most predictive features, the ensemble votes to elect a single set of (by default, 20) features to present as the final result of the experiment. Non-Causal Empirical risk minimization (ERM) and random forest (RF) are not causal predictors and do not participate in CRISP's selection of the features. Non-causal ERM relies on statistical minimization of risk or error, while RF is another non-causal method which combines decision trees for a classification result. They are included in the experiment only as a basis of comparison to the causal predictors (non-linear IRM, linear ICP, non-linear ICP, and linear IRM). CRISP attributes the highest weight to the feature that the highest accuracy model gives the largest coefficient (or highest sensitivity). Conversely, the lowest ranking feature from the worst performing model will be attributed the lowest weight. Furthermore, the higher degree of concordance across the ensemble (i.e. how many models found the feature in their top 20 list), the higher the weighted coefficient of that feature. This attribution weight w(k) of feature k is calculated as shown in the following equation.</p><formula xml:id="formula_0">w (k) = p k • 1 M M ∑ m=1 am • sm (k)</formula><p>The values p k represent the fraction of models which found this feature k in its list of top (by default, 20) features.</p><p>The number M is the number of models CRISP is configured to use. The values s m (k) are the absolute values of the linear coefficients (for linear models) or sensitivity factors (for non-linear models) scaled to the unit interval.</p><p>The values a m are the predictive accuracies of the models. In this way, CRISP identifies those features that are most predictive of the target from the highest number of best performing models.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CRISP results on synthetic data</head><p>To help validate whether CRISP is truly identifying features robustly correlated to the target, we ran an experiment in which we synthetically generated a feature space with a known causal relationship to a target using structural equation modeling. Of the 6 known causal features, the CRISP ensemble found 5 of them in its list of top 20 features, as shown in Supplementary Fig. <ref type="figure" target="#fig_2">6</ref>. The probability of this happening at random is 0.00124 as shown in Supplementary Eq. 1. By contrast, the RF and ERM classifiers didn't find any of the 6 causal features in their top 20 list. This is further evidence that CRISP can distinguish robustly correlated features from uncorrelated ones.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CRISP updates</head><p>Accompanying this paper we publish a CRISPv1.1 code release, with the following updates. First, we updated the linear IRM code to output continuous feature weights such that the coefficients are now on the unit interval [0, 1]. We create confusion matrices for the test results and append them to the results so that we can calculate sensitivity, specificity, and F-1 scores. We changed the default batch size from 128 to 8 to improve accuracy. We updated the configuration to provide a means to override the default method used to split the data into training, testing, and validation sets. Last, we updated the post-processing step by putting their feature coefficients on the scale of z-scores.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>In this section, we show the results of the CRISP experiment. We validate our findings using pathway analysis, gene set enrichment analysis, the Scalable Precision Medicine Open Knowledge Engine (SPOKE), and a search of relevant literature. We show the results of the gene expression analysis using DESeq2 and EdgeR to compare the CRISP results with commonly used bioinformatic tools.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CRISP results</head><p>Each of the models in the ensemble trains on the same data set to identify the features which best predict the target across all environments. Figure <ref type="figure" target="#fig_3">5</ref> depicts the confusion matrices and performance metrics for each model in the ensemble. The best and worst accuracies in the experiment do not participate in the ensemble vote. The RF test accuracy was the best out of all the models, scoring a 100% accuracy rate (and therefore perfect precision, recall, and F1-score). Conversely, ERM accuracy was the lowest. Non-linear ICP has 89% test accuracy and therefore contributes the most to the ensemble results. Conversely, linear IRM performed the worst across the ensemble (58% test accuracy) and therefore contributes the least to the ensemble results. The linear ICP algorithm did not predict any samples to have a low lipid density, so its precision and F1-scores are undefined.</p><p>The bar chart in Fig. <ref type="figure" target="#fig_2">6</ref> shows the degree to which each gene across the ensemble is predictive of the lipid density response variable. Based on Fig. <ref type="figure" target="#fig_2">6</ref>, we see that the Mup11 gene was found in the top 20 genes most predictive of lipid density in all 5 models. By contrast, the Fasn gene was found in the top 20 genes most predictive of lipid density in only 3 of the models.</p><p>The biological functions of the 20 CRISP genes are shown in Table <ref type="table">4</ref>. The functions were derived from the information provided in the NCBI Gene tool at <ref type="url" target="https://www.ncbi.nlm.nih.gov/gene/">https://www.ncbi.nlm.nih.gov/gene/</ref>.  We will discuss later in this section that the genes CRISP found are not only involved in lipid metabolism but many have also been implicated in NAFLD.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Validation using gene set enrichment analysis</head><p>We used the 20 genes from the CRISP experiment to perform Gene Set Enrichment Analysis (GSEA, h t t p s : / / w w w . g s e a -m s i g d b . o r g / g s e a / m s i g d b / a n n o t a t e . j s p ) using the Human Molecular Signatures Database (MSigDB) ontology gene sets (C5) collection version v2023.2.Mm. This tool finds those gene ontologies from all ontology gene sets (GO: Gene Ontology and HPO: Human Phenotype Ontology) that have a significant overlap with the query gene set in the mouse genome. Table <ref type="table">5</ref> shows the top gene sets in the C5 collection that significantly overlap with these 20 mouse genes.</p><p>The genes which enrich these gene sets include Apoc3, Apoc1, Cyp2e1, Scd1, Fasn, Star, Gamt, Apoe, Cyp3a41b, and Alg5. These gene sets are consistent with our lipid density phenotype as they are involved in the metabolism of fats, and we will explore the scientific literature to determine how these genes are implicated in NAFLD in the "Validation from scientific literature" section.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Validation using pathway analysis</head><p>We submitted the 20 genes resulting from our CRISP experiment, and as background all 8,092 genes which were used in our CRISP experiment, to the KEGG pathway <ref type="bibr" target="#b34">34</ref> of the ShinyGO 0.80 pathway analysis tool ( h t t p s : / / b i o i n f o r m a t i c s . s d s t a t e . e d u / g o / ) . This tool finds the Gene Ontology pathways which overlap with the query gene set as compared to the background gene set. Table <ref type="table">6</ref> shows the enriched pathway that ShinyGO identified. Process in which a triglyceride-rich and very-low-density lipoprotein particles are removed from the blood via receptor-mediated endocytosis and its constituent parts degraded &lt; 0.001 Table <ref type="table">5</ref>. Gene set enrichment analysis using gene ontology gene sets, showing the false discovery rate (FDR) adjusted significance q-value. All of these gene sets statistically significantly overlap the CRISP gene result set and their associated biological processes are directly involved in the metabolism of lipid proteins.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gene set name Description</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gene Function of protein</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Alb</head><p>Carrier protein for various molecules such as steroids and fatty acids in blood</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Alg5</head><p>Enables dolichyl-phosphate beta-glucosyltransferase activity</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Apoc1</head><p>Transports lipids from the intestines to other locations in the body</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Apoc3</head><p>Regulates metabolism of lipoproteins and play a role in lipid storage</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Apoe</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Transports lipoproteins in the blood</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cyp2a22</head><p>Enables enzyme binding activity; heme binding activity; and monooxygenase activity</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cyp2e1</head><p>Enables monooxygenase activity</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cyp3a41b</head><p>Enables several functions, including caffeine oxidase activity; iron ion binding activity; and monooxygenase activity</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fasn</head><p>Enables fatty acid synthase activity</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gamt</head><p>Enables guanidinoacetate N-methyltransferase activity and identical protein binding activity</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Lars2</head><p>Involved in leucyl-tRNA aminoacylation and mitochondrial translation</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mup11</head><p>The MUP family proteins bind to, concentrate, and stabilize many volatile scent substances (e.g. pheromones), thereby controlling both pheromone transport in circulation and pheromone release into the air</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mup17 Mup22 Scd1</head><p>Enables metal ion binding activity; palmitoyl-CoA 9-desaturase activity; and stearoyl-CoA 9-desaturase activity Serpina3k Enable serine-type endopeptidase inhibitor activity</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Slco1a1</head><p>Enables anion transmembrane transporter activity and identical protein binding activity</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Star</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enables cholesterol binding activity</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tpm2</head><p>Binds to actin filaments and stabilize them by regulating access to actin modifying proteins</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ugt3a2</head><p>Enables UDP-glycosyltransferase activity Table <ref type="table">4</ref>. The top 20 mouse genes identified in the CRISP experiment as robustly predictive of the threshold lipid density phenotype (listed alphabetically) and a short description of the protein they encode.</p><p>Using the enrichment false discovery rate metric of significance, the significant pathways relating to our gene set include cholesterol metabolism, fatty acid metabolism, and alcoholic liver disease. Cholesterol and fatty acid metabolism are consistent with both our gene set enrichment analysis as well as our lipid density phenotype. Lipid dysregulation is a key factor of fatty liver disease: the accumulation of lipids creates a lipotoxic environment that can lead to inflammation, oxidative stress, fibrosis, and liver damage. The genes enriching these 3 pathways include Apoe, Star, Apoc3, Apoc1, Fasn, Scd1, and Cyp2e1. We will explore the scientific literature to determine how these genes are implicated in NAFLD in the "Validation from scientific literature" section.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Validation from SPOKE</head><p>The Scalable Precision Medicine Open Knowledge Engine (SPOKE) is a massive knowledge graph of biomedical information which may be leveraged for a variety of purposes from drug discovery to disease diagnosis <ref type="bibr" target="#b35">35</ref> . We used SPOKEv5 to identify disease conditions (derived from the Disease Ontology Knowledgebase <ref type="bibr" target="#b36">36</ref> ) from the list of 20 genes that CRISP found. Table <ref type="table" target="#tab_2">7</ref> identifies those disease conditions and their associated adjusted pvalue.</p><p>All these statistically significant disease ontologies are consistent with a high lipid density phenotype and NAFLD. Metabolic dysfunction-associated steatotic liver disease (MASLD) is the more recent term used for NAFLD.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Validation from scientific literature</head><p>Table <ref type="table">8</ref> shows one relatively recent and relevant research article that discusses the relationship of NAFLD to each of the CRISP genes which enrich the pathways and gene sets previously discussed.</p><p>Except for Alg5, all the genes from the gene set and pathway enrichment analyses have previously been shown to be dysregulated in liver inflammation, liver disease, non-alcoholic steatohepatitis (NASH), and NAFLD. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparing CRISP results to other analyses</head><p>In this section, we compare the results of our CRISP experiments with other tools which associate features with targets including DESeq2, random forest, and empirical risk minimization.</p><p>Disease ontology Adjusted p-value Metabolic dysfunction-associated steatotic liver disease (DOID: 0080208) &lt; 0.001 Lipid storage disease (DOID:9455) &lt; 0.001 Steatotic liver disease (DOID:9452) 0.001 Disease of metabolism (DOID: 0014667) 0.001 genes Number of KEGG pathway genes Fold enrichment Enrichment FDR Cholesterol metabolism 4 49 45.2 &lt; 0.001 Fatty acid metabolism 2 62 19.8 0.049 Alcoholic liver disease 3 139 15.8 0.01 Table <ref type="table">6</ref>. Enriched gene ontology pathways involving the genes from the CRISP experiment. The fold enrichment column uses the number of CRISP genes and KEGG pathway genes to measure how overrepresented the CRISP genes are as compared to the background. This fold enrichment is then used to provide an enrichment false discovery rate (FDR), all of which are below our 0.05 threshold of significance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparing results from CRISP and DESeq2</head><p>We used DESeq2 version 1.34.0 to perform differential gene expression analysis (DGEA) on the data on the same set of genes as we used in CRISP to identify which genes are significantly differentially expressed between the high and low ORO groups. DESeq2 performs its own filtering and normalization steps, so we did not transform the data. Because of the distinct batch effect due to library preparation, we added the library preparation covariate to the column data and included it in the DESeq2 design formula along with the ORO threshold value. DESeq2 did not find any genes that were significantly differentially expressed when setting the Benjamini-Hochberg adjusted p-value cutoff to 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparing results from CRISP and EdgeR</head><p>We used EdgeR version 3.36.0 to perform DGEA on the data on the same set of genes as we used in CRISP to identify which genes are significantly differentially expressed between the high and low ORO groups. EdgeR performs its own filtering and normalization steps, so we did not transform the data. Because of the distinct batch effect due to library preparation, we added the library preparation covariate to the column data and included it in the EdgeR design formula along with the ORO threshold value. Table <ref type="table" target="#tab_4">9</ref> shows the 6 differentially expressed genes from the EdgeR experiment using 0.05 as the Bonferroni adjusted p-value threshold and not using a log2 fold change threshold. Submitting these genes to the GSEA tool, we see that these genes are implicated in hyperplasia, abnormal myocardium morphology, reduced systolic function, weakness of facial musculature, and areflexia (shown in Supplementary Tables <ref type="table">2</ref> and <ref type="table">3</ref>). The ShinyGO tool finds several pathways overlapping these 6 genes, from cardiomyopathy to ovarian steroidogenesis, folate biosynthesis, cortisol synthesis and secretion, thyroid hormone synthesis, pancreatic secretion, cardiomyopathy, Cushing Syndrome, and various metabolic pathways including galactose, cholesterol, fructose, and lipid metabolism. Given such a wide range of pathways and gene sets that affect so many different organs and pathologies, it is not at all clear what, if any, conclusions could be drawn from the EdgeR gene result set.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gene Function</head><p>Atp1a2 Integral membrane protein responsible for establishing and maintaining the electrochemical gradients of Na and K ions across the plasma membrane</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Des</head><p>This gene encodes a muscle-specific class III intermediate filament. Homopolymers of this protein form a stable intracytoplasmic filamentous network connecting myofibrils to each other and to the plasma membrane and are essential for maintaining the strength and integrity of skeletal, cardiac and smooth muscle fibers Hsd3b1 Predicted to be involved in several processes, including C21-steroid hormone metabolic process; hippocampus development; and response to corticosterone</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tpm2</head><p>This gene encodes beta-tropomyosin, a member of the actin filament binding protein family, and mainly expressed in slow, type 1 muscle fibers</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Star</head><p>Predicted to enable cholesterol binding activity. Acts upstream of or within cellular lipid metabolic process; glucocorticoid metabolic process; and regulation of steroid biosynthetic process Akr1b7 Predicted to act upstream of or within cellular lipid metabolic process Table <ref type="table">8</ref>. Research articles implicating the changes in expression of the CRISP-identified genes in the spectrum of lipid dysregulation and NAFLD. Selection criteria for these articles include journal impact factor (greater than 3), date of publication (within the last 10 years), and relevance to a causal relationship between expression of the gene and the progression of NAFLD.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis of gene distributions</head><p>Taken together, the genes enriched in the pathways and gene sets shown in Tables <ref type="table">5</ref> and <ref type="table">6</ref> include Alg5, Apoc1, Apoc3, Apoe, Cyp2e1, Cyp3a41b, Fasn, Gamt, Scd1, and Star. Figure <ref type="figure" target="#fig_7">7</ref> shows the box-and-whisker plots of the distributions of the raw counts of gene expression for each of these 10 genes between the flight samples and non-flight samples.</p><p>As indicated in Fig. <ref type="figure" target="#fig_7">7</ref>, not all the differences between flight and non-flight lipid densities are statistically significant. This suggests that using statistics alone to identify genes predictive of a response may be insufficient in some circumstances. Indeed, the CRISP platform is intended to complement current approaches which rely heavily, if not entirely, on statistical methods.</p><p>Analyzing results from CRISP when using non-augmented data Running CRISP without data augmentation (i.e. using the original gene expression of the n = 51 samples and using only library preparation in the environment string), CRISP identified the genes in Supplementary Fig. <ref type="figure" target="#fig_7">7</ref> as most predictive of the phenotype. However, pathway enrichment analysis on these 20 genes reveals a long list of pathways, not all of which are related to the phenotype (e.g. hormone synthesis, nitrogen metabolism, and coronavirus disease). We attribute this result to the lack of training data, poor model performance, and insufficient exploitation of invariance in the CRISP experiment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analyzing results from CRISP when using other environment strings</head><p>We include Supplementary Figs. <ref type="figure">2</ref> and <ref type="figure" target="#fig_1">3</ref> to show the CRISP results and model performance when using group in the environment variable rather than library preparation. Because the mean lipid density is significantly different between flight and non-flight groups, we expected the accuracy to be higher in the CRISP models predicting the lipid density response when using the group (flight vs non-flight) in the environment variable rather than library preparation. However, the performance of the ensemble was not as good, and the downstream analyses were inconsistent with respect to liver metabolism. We attribute this to the fact that while the metabolic response to spaceflight in the liver was statistically significantly different than ground control, the gene expression data between the 2 groups does not separate in the PCA plot, as shown in Fig. <ref type="figure">4c</ref>.</p><p>We include Supplementary Figs. <ref type="figure">4</ref> and <ref type="figure" target="#fig_3">5</ref> to show the CRISP results and model performance when using strain in the environment variable rather than library preparation. We observe that while the CRISP experiments have 50% concordance in their gene sets, using library preparation as the environment variable yields more biologically specific and plausible results. The gene ontologies and pathways enriched by the genes that CRISP found when using strain in the environment variable are not uniformly related to lipid metabolism and include pathways such as cardiomyopathy and thyroid hormone synthesis. Analyzing results from the random forest classifier CRISP includes non-causal algorithms in its ensemble to compare results with causal algorithms. While random forest lays no claim to identify features causal of a target, the algorithm is one of the best-performing and highly used ML classification algorithms <ref type="bibr" target="#b37">37</ref> . The CRISP ensemble uses the RandomForestClassifier module from version 0.24.2 of the scikit-learn package. Like its causal counterparts, the random forest algorithm calculates a feature importance metric which can be used to define confidence in the results. Among the top 20 genes that random forest identified as predictive of the lipid density response, none of them are involved in the lipid metabolic process according to the NCBI Gene tool. Neither the ShinyGO nor the GSEA enrichment tools found any overlapping pathways or gene ontologies using these 20 genes as input. We conclude that the random forest classifier found spurious correlations between the expression of those 20 genes and the lipid density response. The 20 genes which random forest found as most predictive of the lipid density phenotype are shown in Supplementary Table <ref type="table">4</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analyzing results from empirical risk minimization</head><p>Following the same analysis as with random forest, here we analyze the results from empirical risk minimization (ERM). ERM uses the canonical minimization of the sum of the squares of the residuals as its unconditional objective function. It does not partition the data into environments like IRM. As such, it is perhaps the closest comparison to the linear IRM and non-linear IRM results from CRISP. Among the 20 genes that ERM identified as predictive of the lipid density response, none of them are involved in the lipid metabolic process according to NCBI. Neither the ShinyGO nor the GSEA enrichment tools found any overlapping pathways or gene ontologies using these 20 genes as input. We conclude that the ERM classifier found spurious correlations between the expression of those 20 genes and the lipid density response. The 20 genes which ERM found as most predictive of the lipid density phenotype are shown in Supplementary Table <ref type="table">5</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The CRISP platform trains an ensemble of binary classifiers on data in one environment and validates and tests them using the data from the other environments. Separating the environments in this way ensures that the ensemble algorithms are rewarded for finding correlations that are independent of biases in the data generating processes. Classifying data independently of the environment is the definition of invariance in this context and leads to more robustly correlated results. Using the CRISP ensemble, we've identified a set of genes which are predictive of high and low lipid density. These genes are significantly associated with gene sets and genetic pathways that are consistent with NAFLD or similar liver dysfunction. On the other hand, machine learning methods such as empirical risk minimization and random forest do not distinguish between spurious and nonspurious correlations. In our experiment, their top 20 genes are not biologically related to lipid metabolism, despite the random forest classifier having the highest held-out test accuracy (100%) of all the models in predicting lipid density.</p><p>The DESeq2 package did not find any genes significantly correlated to our phenotype. The EdgeR package found 6 genes whose expression was significantly correlated to the lipid density response variable-one of which (Star) was also found by CRISP. However, gene set enrichment and pathway analysis tools found a wide variety of conditions and processes associated with these 6 genes, leaving the results difficult to interpret. We attribute these quantitative and qualitative differences in results to the environment invariance modeling approach that the CRISP ML algorithms use in conjunction with the data augmentation methods we leveraged.</p><p>As opposed to the non-specific pathways enriched by the EdgeR genes, the CRISP genes enrich lipid metabolism pathways including cholesterol, fatty acid, and NAFLD pathways-all of which are consistent with using lipid density as a response in our machine learning models. The NAFLD pathway is significantly enriched by the CRISP gene result set and includes Cyp2e1, Fasn, and Scd1 genes with a 0.014 strength of association, as shown in Table <ref type="table">6</ref>. As noted in Table <ref type="table">8</ref>, the literature is consistent in finding these genes implicated in experiments on NAFLD. Moreover, the SPOKE knowledge graph found MASLD (the new name for NAFLD) to be the most significantly associated disease ontology with the CRISP gene result set.</p><p>The use of data augmentation in this CRISP experiment is crucial. Not only does augmentation provide known perturbations of the data as required by CRISP, data augmentation also provides more samples to train, test, and validate the ensemble of machine learning classifiers. Even so, having more samples than 51 would enrich the underlying gene expression signals which would lead to even more robust correlations. We therefore recommend future spaceflight experiments to increase the cohort size and make the liver a standard tissue to collect, process, and analyze. We acknowledge a caveat that the OSD-137 study used the Balb/c mouse strain, while the other three studies used the C57BL6 strain. These two mouse strains are known to have differing responses to spaceflight <ref type="bibr" target="#b4">5</ref> . Thus, a future study would benefit from further investigating the responses of the different mouse strains in larger cohorts.</p><p>To further validate our findings, one could explore other data associated with these same rodents including proteomic and methylation data, as well as leverage existing molecular tests of liver function. A future analysis of the gene expression of ground models of NAFLD may help validate the genes identified here by CRISP. Future work could focus on randomized controlled experiments specifically designed to manipulate the function of each putative gene to verify they do, in fact, cause high or low lipid density in liver tissue. For example, reverse transcriptase PCR or quantitative immunohistochemistry studies on liver samples from controlled experiments could provide key validation results. Adverse outcome pathways (AOPs) related to fatty liver, steatosis, and NAFLD could be explored to identify the molecular pathways responsible for the lipid density phenotype and to gain a more complete purview of the putative dysfunction. Additionally, to further elucidate a link to human manifestation of NAFLD or similar liver dysfunction, it will be important to address the species differences between mouse and human.</p><p>In this research, we provide a novel approach to identify potentially causal genes associated with liver dysfunction during spaceflight. These genes constitute potential biomarkers of NAFLD for targeted monitoring or therapeutics development in the future that would otherwise be more time consuming or impossible to identify with traditional statistical or experimental approaches. Given the expense of randomized controlled experiments, having a targeted set of genes putatively causal of the response is invaluable. While the results of our research link the expression of certain genes to a lipid dysregulation phenotype in liver tissue, our approach can be generalized to other tissues, phenotypes, and even other -omics data. For NASA to embark on longer and more frequent space missions, understanding the impact of spaceflight on biological function is paramount. To this end, there are many data sets in OSDR left to explore, and more are continuing to be published.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 2 .Fig. 4 .</head><label>24</label><figDesc>Fig. 2. Box-and-whisker plots for ORO values (y-axis) based on mission (x-axis). The dashed blue line is the rodent research mission threshold that was calculated as the mean of the two group medians (yellow lines). The 2-sided student t-test p-values show that the differences between the medians of flight and non-flight samples are all significant. The top of each box represents the 75th percentile, the bottom of each box represents the 25th percentile, and the solid black lines on the very top and bottom represent the maxima and minima, respectively.</figDesc><graphic coords="4,155.91,50.50,283.68,117.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Scatter plots of variance versus mean for different transformations used in preprocessing. The vertical and horizontal axes are shown in log2 scale after having standardized the data. The identity transformation represents the original, untransformed data. The square root (sqrt) transformation computes the square root of each expression value. The normalization (norm) transformation uses the median of ratios method from the R DESeq2 package. The centered log ratio (clr) method divides each row of gene expression data by the mean of that row and returns the logarithms of those ratios. The log transformation computes the logarithm (base 2) of each expression value. The boxcox transformation is a type of power transformation that makes the gene expression data more normally distributed.</figDesc><graphic coords="5,126.25,50.50,427.92,239.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. The weight of the top 20 genes and their degree of concordance across the ensemble. The direction of the bar indicates whether the gene expression is predictive of high or low lipid density. Each bar is colored by the number of models which found that gene in their list of the top 20 most predictive genes.</figDesc><graphic coords="8,113.29,400.23,440.88,210.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. (a-g) Show confusion matrices and (h) shows performance metrics for each model in the CRISP ensemble. The horizontal rows are the actual classes, and the vertical columns are the predicted classes. We assigned the low lipid density class (0) to "positive" and the high lipid density class (1) to "negative" for the purpose of calculating precision, recall, and F1-score. Precision and F1-score values are undefined for the linear ICP model because it did not predict any positive classes, as shown in (d). The higher the accuracy of the model, the higher the weight associated with the results of that model in the ensemble.</figDesc><graphic coords="8,102.49,50.50,451.68,248.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FDR</head><figDesc>GOBP MONOCARBOXYLIC ACID BIOSYNTHETIC and METABOLIC PROCESS Chemical reactions and pathways resulting in the formation and metabolism of monocarboxylic acids &lt; 0.001 GOBP LIPID and CELLULAR LIPID METABOLIC PROCESS Chemical reactions and pathways involving lipids &lt; 0.001 GOBP SMALL MOLECULE BIOSYNTHETIC PROCESS Chemical reactions and pathways resulting in the formation of small molecules &lt; 0.001 GOBP ORGANIC ACID BIOSYNTHETIC and METABOLIC PROCESS Chemical reactions and pathways resulting in the formation and metabolism of organic acids &lt; 0.001 GOBP TRIGLYCERIDE RICH and VERY LOW DENSITY LIPOPROTEIN PARTICLE CLEARANCE</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><figDesc>Fuior et al. discuss how the overexpression of Apoc1 in mice may lead to hyperlipidemia. Lu et al. demonstrated that overexpression of Apoc3 manifests in features similar to NAFLD, including increased hepatic lipid content. Harjumaki et al. discuss the role of Cyp2e1 in the development of NASH which is a precursor condition to NAFLD, suggesting that the over-expression of the Cyp2e1 enzyme and subsequent oxidative stress is sufficient to induce hepatic lipid accumulation. Woolsey et al. found that hepatic mRNA expression of Cyp3a41b in NASH was 69% lower than control livers. Testing its pharmacological inhibition in human cell culture, O'Farrell et al. consider Fasn to be a promising therapeutic target for NASH as they observed that its reduced expression reduced overall triglyceride content, markers of fibrosis and inflammation, and development of hepatocellular carcinoma. The Gamt gene encodes an enzyme which helps synthesize creatine, and Marinello et al. found that its supplementation has been demonstrated to prevent NAFLD progression. Qin et al. describe how aberrant transcriptional activation of Scd1 causes excessive lipid accumulation and promotes progression of NAFLD (among other metabolic complications), making it a promising therapeutic target. Finally, Qiu et al. found that Star overexpression, among other protective roles, can reduce hepatic lipid accumulation-suggesting it may be a potential therapeutic target for NAFLD.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Box-and-whisker plots of the distributions of gene expression for each of the genes with associated Wilcoxon p-values comparing flight and non-flight groups.Several p-values are not statistically significant, suggesting that only using statistics to analyze differences in gene expression between groups may not be sufficient.</figDesc><graphic coords="12,98.41,50.50,455.76,260.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="3,101.53,50.50,452.64,258.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 7 .</head><label>7</label><figDesc>Disease ontologies and associated Bonferroni-corrected p-values. All the disease ontology identifiers (DOID) that SPOKE found as statistically significantly associated with the CRISP result gene set are related to dysfunctional lipid metabolism.</figDesc><table><row><cell>Pathways</cell><cell>Number of CRISP</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 9 .</head><label>9</label><figDesc>Gene result set using EdgeR to find differentially expressed genes between low and high ORO groups. Half of these genes are involved in lipid metabolism (Akr1b7, Tpm2, and Star). Apoc1 Fuior, E. V. &amp; Gafencu, A. V. Apolipoprotein C1: Its Pleiotropic Effects in Lipid Metabolism and Beyond. IJMS20, 5939 (2019) Apoc3 Paiva, A. A., Raposo, H. F., Wanschel, A. C. B. A., Nardelli, T. R. &amp; Oliveira, H. C. F. Apolipoprotein CIII Overexpression-Induced Hypertriglyceridemia Increases Nonalcoholic Fatty Liver Disease in Association with Inflammation and Cell Death. Oxidative Medicine and Cellular Longevity2017, 1838679 (2017) Apoe Lu, W. et al. ApoE deficiency promotes non-alcoholic fatty liver disease in mice via impeding AMPK/mTOR mediated autophagy. Life Sciences252, 117601 (2020) Cyp2e1 Harjumäki, R., Pridgeon, C. S. &amp; Ingelman-Sundberg, M. CYP2E1 in Alcoholic and Non-Alcoholic Liver Injury. Roles of ROS, Reactive Intermediates and Lipid Overload. IJMS22, 8221 (2021)</figDesc><table><row><cell cols="2">CRISP genes Research implicating gene expression in lipid dysregulation</cell></row><row><cell>Alg5</cell><cell>N/A</cell></row><row><cell>Cyp3a41b</cell><cell>Woolsey, S. J., Mansell, S. E., Kim, R. B., Tirona, R. G. &amp; Beaton, M. D. CYP3A Activity and Expression in Nonalcoholic Fatty Liver Disease. Drug Metab Dispos43, 1484-1490 (2015)</cell></row><row><cell>Fasn</cell><cell>O'Farrell, M. et al. FASN inhibition targets multiple drivers of NASH by reducing steatosis, inflammation and fibrosis in preclinical models. Sci Rep12, 15661 (2022)</cell></row><row><cell>Gamt</cell><cell>Marinello, P. C. et al. Creatine supplementation protects against diet-induced non-alcoholic fatty liver but exacerbates alcoholic fatty liver. Life Sciences310, 121064 (2022)</cell></row><row><cell>Scd1</cell><cell>Sun, Q. et al. SCD1 is the critical signaling hub to mediate metabolic diseases: Mechanism and the development of its inhibitors. Biomedicine &amp; Pharmacotherapy170, 115586 (2024)</cell></row><row><cell>Star</cell><cell>Qiu, Y. et al. Steroidogenic acute regulatory protein (StAR) overexpression attenuates HFD-induced hepatic steatosis and insulin resistance. Biochimica et Biophysica Acta (BBA)-Molecular Basis of Disease1863, 978-990 (2017)</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Scientific Reports | (2025) 15:2363 2 | https://doi.org/10.1038/s41598-024-81394-y</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Scientific Reports | (2025) 15:2363 3 | https://doi.org/10.1038/s41598-024-81394-y</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Scientific Reports | (2025) 15:2363 4 | https://doi.org/10.1038/s41598-024-81394-y</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>Scientific Reports | (2025) 15:2363 5 | https://doi.org/10.1038/s41598-024-81394-y www.nature.com/scientificreports/</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>Scientific Reports | (2025) 15:2363 6 | https://doi.org/10.1038/s41598-024-81394-y www.nature.com/scientificreports/</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5"><p>Scientific Reports |(2025) 15:2363</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_6"><p>| https://doi.org/10.1038/s41598-024-81394-y www.nature.com/scientificreports/</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_7"><p>| https://doi.org/10.1038/s41598-024-81394-y</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_8"><p>Scientific Reports | (2025) 15:2363 10 | https://doi.org/10.1038/s41598-024-81394-y www.nature.com/scientificreports/</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_9"><p>Scientific Reports | (2025) 15:2363 12 | https://doi.org/10.1038/s41598-024-81394-y</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_10"><p>Scientific Reports | (2025) 15:2363 13 | https://doi.org/10.1038/s41598-024-81394-y www.nature.com/scientificreports/</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This research was supported by the <rs type="funder">NASA Human Research Program (HRP), Science Mission Directorate, and Biological and Physical Sciences (BPS) Division</rs>. We thank the <rs type="institution" subtype="infrastructure">HRP Radiation Element Translational Radiation Research and Countermeasures</rs> team and the <rs type="institution">GeneLab team</rs> for collaboration. Resources supporting this work were provided by the <rs type="funder">NASA High-End Computing (HEC) Program</rs> through the <rs type="funder">NASA Center for Climate Simulation (NCCS)</rs> at <rs type="institution">Goddard Space Flight Center</rs>. We also wish to thank <rs type="person">Charlotte Nelson</rs> from <rs type="institution">Mate Bioservices, Inc.</rs> for providing us the results from the SPOKE tool.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">HRP Radiation Element Translational Radiation Research and Countermeasures</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>All the mouse liver transcriptomic data and histological lipid data are available at <ref type="url" target="https://osdr.nasa.gov">https://osdr.nasa.gov</ref>. Direct links to the individual datasets are as follows: <ref type="url" target="https://osdr.nasa.gov/bio/repo/data/studies/OSD-47">https://osdr.nasa.gov/bio/repo/data/studies/OSD-47</ref>, h t t p s : / / o s d r . n a s a . g o v / b i o / r e p o / d a t a / s t u d i e s / O S D -4 8 , <ref type="url" target="https://osdr.nasa.gov/bio/repo/data/studies/OSD-137">https://osdr .nasa.gov/bi o/repo/data/ studies/OSD -137</ref>, h t t p s : / / o s d r . n a s a . g o v / b i o / r e p o / d a t a / s t u d i e s / O S D -1 6 8 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Code availability</head><p>All software for this experiment is at <ref type="url" target="https://github.com/nasa/AI4LS/tree/main/crispv1.1">https://github.com/nasa/AI4LS/tree/main/crispv1.1</ref>. Received: 12 April 2024; Accepted: 26 November 2024</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>JC designed and executed the CRISP experiments, made the updates to the CRISP software, and wrote most of the manuscript. RS and JG identified the mouse liver transcriptomic and histological lipid data. MM interpreted the pathway analyses. HC analyzed some of the underlying algorithms of the CRISP platform. ASB, AH, LS, GM, and SC reviewed the manuscript and provided integral feedback.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing financial or non-financial interests with respect to this research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Information</head><p>The online version contains supplementary material available at h t t p s : / / d o i . o r g / 1 0 . 1 0 3 8 / s 4 1 5 9 8 -0 2 4 -8 1 3 9 4 -y .</p><p>Correspondence and requests for materials should be addressed to J.A.C.</p><p>Reprints and permissions information is available at <ref type="url" target="www.nature.com/reprints">www.nature.com/reprints</ref>.</p><p>Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p><p>Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit h t t p : / / c r e a t i v e c o m m o n s . o r g / l i c e n s e s / b y -n c -n d / 4 . 0 / .</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Spaceflight activates lipotoxic pathways in mouse liver</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Jonscher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">152877</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">19195</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Hepatology in space: Effects of spaceflight and simulated microgravity on the liver</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vinken</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/liv.15444</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Liver Int. Liv. h t t p s</title>
+		<imprint>
+			<biblScope unit="issue">1 0</biblScope>
+			<date type="published" when="1944-04">4 4 4 (2022</date>
+		</imprint>
+	</monogr>
+	<note>/ l i v . 1 5</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The NASA twins study: A multidimensional analysis of a year-long human spaceflight</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Garrett-Bakelman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">364</biblScope>
+			<biblScope unit="page">8650</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Comprehensive multi-omics analysis reveals mitochondrial stress as a central biological hub for spaceflight impact</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Da Silveira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Confronting false discoveries in single-cell differential expression</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Squair</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">5692</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Randomised controlled trials-The gold standard for effectiveness research: Study design: Randomised controlled trials</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hariton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Locascio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BJOG Int. J. Obstet. Gynaecol</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="1716" to="1716" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Unbiased look at dataset bias</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Torralba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Efros</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CVPR.2011.5995347</idno>
+		<ptr target="https://doi.org/10.1109/CVPR.2011.5995347" />
+	</analytic>
+	<monogr>
+		<title level="m">CVPR 2011 1521-1528</title>
+		<meeting><address><addrLine>Colorado Springs, CO, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Building machines that learn and think like people</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Lake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Ullman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Tenenbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Gershman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behav. Brain Sci</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page">253</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Learnings from Frontier Development Lab and SpaceML-AI Accelerators for NASA and ESA</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ganju</surname></persName>
+		</author>
+		<idno type="DOI">10.48550/ARXIV.2011.04776</idno>
+	</analytic>
+	<monogr>
+		<title level="m">o r g / 1 0</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>h t t p s : / / d o i . / A R X I V . 2 0 1 1 . 0 4 7 7 6</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Prototyping CRISP: A Causal Relation and Inference Search Platform applied to Colorectal Cancer Data</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Budd</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/LifeTech52111.2021.9391819</idno>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE 3rd Global Conference on Life Sciences and Technologies (LifeTech)</title>
+		<meeting><address><addrLine>Nara, Japan</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2021">2021. 2021</date>
+			<biblScope unit="page" from="517" to="521" />
+		</imprint>
+	</monogr>
+	<note>h t t p s : / / d o i . o r g / 1 0 . 1 1 0 9 / L i f e T e c h 5 2 1 1 1 . 2 0 2 1 . 9 3 9 1 8 1 9 .</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Invariant risk minimization</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arjovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bottou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gulrajani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lopez-Paz</surname></persName>
+		</author>
+		<ptr target="http://arxiv.org/abs/1907.02893" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Causal inference using invariant prediction: Identification and confidence intervals</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bühlmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meinshausen</surname></persName>
+		</author>
+		<ptr target="http://arxiv.org/abs/1501.01332" />
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Preprint at</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Recognition in terra incognita</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Beery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Van Horn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Perona</surname></persName>
+		</author>
+		<idno type="DOI">10.48550/ARXIV.1807.04975</idno>
+		<ptr target="https://doi.org/10.48550/ARXIV.1807.04975" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bühlmann</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Invariance</surname></persName>
+		</author>
+		<idno type="DOI">10.48550/ARXIV.1812.08233</idno>
+		<ptr target="https://doi.org/10.48550/ARXIV.1812.08233" />
+		<title level="m">Causality and Robustness</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Long-term spaceflight and the cardiovascular system</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Vernice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meydan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Afshinnekoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Preci. Clin. Med</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="284" to="291" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<author>
+			<persName><forename type="first">R</forename><surname>Globus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cadena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Galazka</surname></persName>
+		</author>
+		<idno type="DOI">10.26030/K5C1-JD05</idno>
+		<ptr target="https://doi.org/10.26030/K5C1-JD05" />
+	</analytic>
+	<monogr>
+		<title level="m">Rodent Research-1 (RR1) National Lab Validation Flight: Mouse liver transcriptomic, proteomic, and epigenomic data</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Rodent Research-3-CASIS: Mouse liver transcriptomic, proteomic, and epigenomic data</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Globus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Galazka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cramer</surname></persName>
+		</author>
+		<idno type="DOI">10.26030/9K6W-4C28</idno>
+		<ptr target="https://doi.org/10.26030/9K6W-4C28" />
+	</analytic>
+	<monogr>
+		<title level="j">NASA GeneLab</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Is oil red-O staining and digital image analysis the gold standard for quantifying steatosis in the liver?</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Levene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kudo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Thursz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">M</forename><surname>Anstee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Goldin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hepatology</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1859" to="1859" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Towards Explaining the Effects of Data Preprocessing on Machine Learning</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Gonzalez Zelaya</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICDE.2019.00245</idno>
+		<ptr target="https://doi.org/10.1109/ICDE.2019.00245" />
+	</analytic>
+	<monogr>
+		<title level="m">IEEE 35th International Conference on Data Engineering (ICDE) 2086-2090</title>
+		<meeting><address><addrLine>Macao, Macao</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Analytic Pearson residuals for normalization of single-cell RNA-seq UMI data</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lause</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Berens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kobak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">258</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Understanding data augmentation for classification: When to warp?</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Stamatescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mcdonnell</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/DICTA.2016.7797091</idno>
+		<ptr target="https://doi.org/10.1109/DICTA.2016.7797091" />
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Digital Image Computing: Techniques and Applications (DICTA) 1-6</title>
+		<meeting><address><addrLine>Gold Coast, Australia</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2016">2016. 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Harmonizing heterogeneous transcriptomics datasets for machine learning-based analysis to identify spaceflown murine liver-specific changes</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ilangovan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">npj Micrograv</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">61</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Selecting data augmentation for simulating interventions</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ilse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Tomczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Forré</surname></persName>
+		</author>
+		<idno type="DOI">10.48550/ARXIV.2005.01856</idno>
+		<idno>1 0 . 4 8 5 5</idno>
+		<imprint/>
+	</monogr>
+	<note>Preprint at h t t p s : / / d o i</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.48550/ARXIV.2005.01856</idno>
+	</analytic>
+	<monogr>
+		<title level="j">A R X I V</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">0</biblScope>
+			<biblScope unit="page" from="5" to="6" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Benchmarking differential expression analysis tools for RNA-Seq: Normalizationbased vs. log-ratio transformation-based methods</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Quinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Crowley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Richardson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinf</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">274</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Novel data transformations for RNA-seq differential expression analysis</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">4820</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A scaling normalization method for differential expression analysis of RNA-seq data</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Oshlack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">25</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Differential expression analysis for sequence count data</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Anders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">106</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Systematic of RNA-Seq normalization methods using measurement error models</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="2584" to="2591" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Transforming RNA-Seq data to improve the performance of prognostic gene signatures</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Zwiener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Frisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Binder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">85150</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Guiding questions to avoid data leakage in biological machine learning applications</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bernett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1444" to="1453" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Avoiding common machine learning pitfalls</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Lones</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.patter.2024.101046</idno>
+		<ptr target="https://doi.org/10.1016/j.patter.2024.101046" />
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The strength of weak learnability</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Schapire</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mach. Learn</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="197" to="227" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">KEGG: Kyoto encyclopedia of genes and genomes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kanehisa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="27" to="30" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The scalable precision medicine open knowledge engine (SPOKE): A massive knowledge graph of biomedical information</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Morris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page">80</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Human disease ontology 2018 update: Classification, content and workflow expansion</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Schriml</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="955" to="D962" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">A Review on Random Forest: An Ensemble Classifier</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Parmar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Katariya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Patel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Intelligent Data Communication Technologies and Internet of Things (ICICI) 2018</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Hemanth</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">X</forename><surname>Fernando</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Lafata</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Z</forename><surname>Baig</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="758" to="763" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

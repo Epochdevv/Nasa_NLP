@@ -1,0 +1,2029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Microbial Tracking-2, a metagenomics analysis of bacteria and fungi onboard the International Space Station</title>
+				<funder ref="#_f3P3Dpw">
+					<orgName type="full">NASA</orgName>
+				</funder>
+				<funder ref="#_SVJ2HcZ">
+					<orgName type="full">NASA Space Biology NPP</orgName>
+				</funder>
+				<funder ref="#_YETjrPT #_fSukvaT">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_64MdWvt">
+					<orgName type="full">Department of Pharmaceutical Chemistry</orgName>
+				</funder>
+				<funder ref="#_ZKXxqHc #_2aUNzFJ">
+					<orgName type="full">NASA Space Biology</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-06-29">2022-06-29</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Camilla</forename><surname>Urbaniak</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Biotechnology and Planetary Protection Group</orgName>
+								<orgName type="laboratory" key="lab2">Jet Propulsion Laboratory</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<postCode>91109</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory" key="lab1">Biotechnology and Planetary Protection Group</orgName>
+								<orgName type="laboratory" key="lab2">Jet Propulsion Laboratory</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<postCode>91109</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">D</forename><surname>Morrison</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Physical and Life Sciences Directorate</orgName>
+								<orgName type="institution">Lawrence Livermore National Laboratory</orgName>
+								<address>
+									<settlement>Livermore</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">James</forename><forename type="middle">B</forename><surname>Thissen</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Physical and Life Sciences Directorate</orgName>
+								<orgName type="institution">Lawrence Livermore National Laboratory</orgName>
+								<address>
+									<settlement>Livermore</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fathi</forename><surname>Karouia</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">KBRwyle</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<addrLine>Moffett Field</addrLine>
+									<settlement>Mountain View</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Pharmaceutical Chemistry</orgName>
+								<orgName type="institution">University of California San Francisco</orgName>
+								<address>
+									<settlement>San Francisco</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Exobiology Branch</orgName>
+								<orgName type="institution" key="instit1">Blue Marble Space Institute of Science</orgName>
+								<orgName type="institution" key="instit2">NASA Ames Research Center</orgName>
+								<address>
+									<postCode>94035</postCode>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Space Biosciences Research Branch</orgName>
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<addrLine>Moffett Field</addrLine>
+									<settlement>Mountain View</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Satish</forename><surname>Mehta</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department">JesTech</orgName>
+								<orgName type="institution">NASA-Johnson Space Center</orgName>
+								<address>
+									<settlement>Houston</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Crystal</forename><surname>Jaing</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Physical and Life Sciences Directorate</orgName>
+								<orgName type="institution">Lawrence Livermore National Laboratory</orgName>
+								<address>
+									<settlement>Livermore</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kasthuri</forename><surname>Venkateswaran</surname></persName>
+							<idno type="ORCID">0000-0002-6742-0873</idno>
+							<affiliation key="aff0">
+								<orgName type="laboratory" key="lab1">Biotechnology and Planetary Protection Group</orgName>
+								<orgName type="laboratory" key="lab2">Jet Propulsion Laboratory</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<postCode>91109</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory" key="lab1">Biotechnology and Planetary Protection Group</orgName>
+								<orgName type="laboratory" key="lab2">Jet Propulsion Laboratory</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<postCode>91109</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Microbial Tracking-2, a metagenomics analysis of bacteria and fungi onboard the International Space Station</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Microbiome</title>
+						<title level="j" type="abbrev">Microbiome</title>
+						<idno type="eISSN">2049-2618</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">10</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2022-06-29" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">4AA27B7E4B288552AEF5D84EDA5897F9</idno>
+					<idno type="DOI">10.1186/s40168-022-01293-0</idno>
+					<note type="submission">Received: 24 September 2021 Accepted: 19 May 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:26+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>International Space Station</term>
+					<term>Microbial monitoring</term>
+					<term>Microbiome</term>
+					<term>Metagenomics</term>
+					<term>Microbial tracking</term>
+					<term>Built environment</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background:</head><p>The International Space Station (ISS) is a unique and complex built environment with the ISS surface microbiome originating from crew and cargo or from life support recirculation in an almost entirely closed system. The Microbial Tracking 1 (MT-1) project was the first ISS environmental surface study to report on the metagenome profiles without using whole-genome amplification. The study surveyed the microbial communities from eight surfaces over a 14-month period. The Microbial Tracking 2 (MT-2) project aimed to continue the work of MT-1, sampling an additional four flights from the same locations, over another 14 months.</p><p>Methods: Eight surfaces across the ISS were sampled with sterile wipes and processed upon return to Earth. DNA extracted from the processed samples (and controls) were treated with propidium monoazide (PMA) to detect intact/ viable cells or left untreated and to detect the total DNA population (free DNA/compromised cells/intact cells/viable cells). DNA extracted from PMA-treated and untreated samples were analyzed using shotgun metagenomics. Samples were cultured for bacteria and fungi to supplement the above results.</p><p>Results: Staphylococcus sp. and Malassezia sp. were the most represented bacterial and fungal species, respectively, on the ISS. Overall, the ISS surface microbiome was dominated by organisms associated with the human skin. Multidimensional scaling and differential abundance analysis showed significant temporal changes in the microbial population but no spatial differences. The ISS antimicrobial resistance gene profiles were however more stable over time, with no differences over the 5-year span of the MT-1 and MT-2 studies. Twenty-nine antimicrobial resistance genes were detected across all samples, with macrolide/lincosamide/streptogramin resistance being the most widespread. Metagenomic assembled genomes were reconstructed from the dataset, resulting in 82 MAGs. Functional assessment of the collective MAGs showed a propensity for amino acid utilization over carbohydrate metabolism. Co-occurrence analyses showed strong associations between bacterial and fungal genera. Culture analysis showed the microbial load to be on average 3.0 × 10 5 cfu/m 2 Conclusions: Utilizing various metagenomics analyses and culture methods, we provided a comprehensive analysis of the ISS surface microbiome, showing microbial burden, bacterial and fungal species prevalence, changes in the microbiome, and resistome over time and space, as well as the functional capabilities and microbial interactions of</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The microbiome of the built environment has been increasingly linked to human health and disease. The composition of built environments is largely influenced by its occupants <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> but can also be affected by external features such as seasonal variations <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>, architectural design <ref type="bibr" target="#b6">[7]</ref>, and level of urbanization <ref type="bibr" target="#b7">[8]</ref>. The International Space Station (ISS) is a unique hermetically sealed built environment and being one of the most isolated inhabited built environments; access to it is highly controlled and limited. In between the routine arrival of new supplies and crew members, the ISS is completely isolated from external microbial sources. The arrival of new crew members and supplies is therefore the only source for introducing new micro-organisms to the ISS. These isolated conditions have raised concerns about the introduction and proliferation of potentially harmful microorganisms into the microbial communities of piloted spaceflight and how this could affect human health.</p><p>For decades, space-faring nations were interested in the influence of microgravity, radiation, and other spaceflight conditions on the survival and proliferation of microorganisms. During the Apollo program, NASA collected pre-and post-flight samples from locations within the Command Module as part of a program to identify medically relevant microbes and to elucidate changes in the crew microflora <ref type="bibr" target="#b8">[9]</ref>. Subsequently, Skylab surfaces were swabbed pre-launch and periodically throughout the three manned missions to characterize the bacterial exchange between the crew and internal surfaces <ref type="bibr" target="#b9">[10]</ref>. The Soviet Union regularly monitored the microflora of Salyut 6, 7, and Mir during their operation. Onboard station Mir, air samples were collected approximately once a month, and surface samples from various locations throughout the spacecraft were collected at the end of each mission <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref>. Thorough monitoring onboard Mir revealed potential health and equipment risks from the bacteria and fungi that colonized the interior surfaces <ref type="bibr" target="#b13">[14]</ref>. These culture-based surveillance procedures were instrumental in developing the microbial surveillance standards for the ISS <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16]</ref>.</p><p>Since inception, to maintain the cleanliness of ISS, traditional culture-based approaches are being used and microbial burden measured. However, research activities are being conducted to characterize the microbiome of ISS surfaces and air using state-of-the-art molecular techniques. Air, water, and surface samples were collected during the initial stage of habitation of the ISS to identify the baseline microbiota <ref type="bibr" target="#b16">[17]</ref>. Since then, several studies have investigated the microbial population of ISS dust <ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref>, surfaces <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22]</ref>, and water <ref type="bibr" target="#b22">[23]</ref>. In addition to cataloging the microbial population of the ISS, studies have also focused on the persistence of antimicrobial resistance (AMR) genes <ref type="bibr" target="#b23">[24]</ref> and pathogens <ref type="bibr" target="#b24">[25]</ref> onboard the ISS. These investigations provide important information for the long-term health and safety of crew members.</p><p>The previous Microbial Tracking-1 (MT-1) study <ref type="bibr" target="#b25">[26]</ref> examined the community structure and function of eight ISS surfaces over a period of 14 months, during three sampling sessions. The Microbial Tracking-2 (MT-2) study continued this objective and further sampled the same surface locations over the course of 1.5 years, during four additional flight sessions. In this paper, the MT-2 samples were analyzed for species presence and stability of the entire microbial community. The microbial diversity and composition for each location and time point were characterized to reveal how the microbial population was changing over time. The persistence of antimicrobial resistance genes was also analyzed to evaluate the stability of the ISS resistome in a changing microbiome. Co-occurrence analysis between bacterial and fungal species was analyzed to gain insight into the microbial associations in this unique built environment. Genomes were assembled from the metagenome reads (referred to as metagenome-assembled genomes, or MAGs) with taxonomy and functional assessment analyses performed on these MAGs. This paper also compared the results obtained during the previous MT-1 study. Together, these studies provide snapshots of the microbial population on the ISS across 5 years, allowing for dynamics and stability patterns of the surface microbiome to be evaluated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Thirty-two surface samples were collected over the course of 14 months (2017-2018) from the ISS. The locations sampled are listed in Table <ref type="table" target="#tab_0">1</ref> and correspond to the same eight locations that were sampled during the MT-1 study that ran from 2015 to 2016 <ref type="bibr" target="#b25">[26]</ref>. In addition to the sampling wipes, wipes that were taken out of the kits and exposed to the ISS environment (but not used for sampling) were designated as controls and processed this unique built microbiome. Data from this study may help to inform policies for future space missions to ensure an ISS surface microbiome that promotes astronaut health and spacecraft integrity.</p><p>alongside the samples. The flight sampling sessions are denoted as flights 4-7 (F4-F7), while the flight sampling sessions for the previously published MT-1 study are denoted as flights 1-3 (F1-F3).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microbial burden</head><p>All microbial domains of life were detected on the ISS, with bacteria being the most represented (82%), followed by fungi (10%), viruses (0.06%), and archaea (0.03%), along with reads that could not be identified (7%) (Dataset S1). Of the total population, 38% could be attributed to viable organisms, based on the read counts obtained from propidium monoazide (PMA)-treated samples (which measures viable/intact organisms), with bacteria still being the most dominant group [bacteria (58%), fungi (37%), viruses (0.01%), archaea (0.004%), unclassified (4%)] (Dataset S1).</p><p>The viable bacterial and fungal load was compared between F4 to F7. The average bacterial read count across all four flights was 7 × 10 5 counts/m 2 , with no statistically significant differences between them (Fig. <ref type="figure" target="#fig_0">1A</ref>). This contrasts with the fungal read counts which did differ between flights, with F6 having the highest average sequence reads at 7.0 × 10 5 counts/m 2 (Fig. <ref type="figure" target="#fig_0">1B</ref>).  Plate count assays were also performed. The cultivable bacterial burden was highest at F6, with an average of 2.7 × 10 6 cfu/m 2 , and lowest at F7, with 1.0 × 10 2 cfu/m 2 (Fig. <ref type="figure" target="#fig_0">S1A</ref>). F6 also had the highest cultivable fungal burden at 1.1 × 10 4 cfu/m 2 , with F7 having below detectable fungal counts (Fig. <ref type="figure" target="#fig_0">S1A</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microbial diversity Alpha diversity</head><p>Three alpha diversity indices were used to measure the microbial diversity within each sample: observed richness (Fig. <ref type="figure">2</ref>, top panel), exponentiated Shannon index (Fig. <ref type="figure">2</ref>, middle), and reciprocal Simpson index (Fig. <ref type="figure">2</ref>, bottom). Included for comparison were also the MT-1 samples from F1-F3. The Kruskal-Wallis statistical test was used to determine the differences between flights, and no significant differences were observed across any of the seven flights. There were also no differences across any of the eight locations sampled (Fig. <ref type="figure">S2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Beta diversity</head><p>Comparison between surface samples was visualized using principal coordinates analysis (PCoA) using Euclidean distances (Fig. <ref type="figure">3</ref>) and organized by location (Fig. <ref type="figure">3A</ref>) and flight (Fig. <ref type="figure">3B</ref>) to identify possible trends. No apparent microbiome differences were observed between locations; however, samples did appear to cluster by flight group. These observations were supported by PERMANOVA analysis of the Euclidean distances which found a significant difference between centroids and dispersions of the flight groups (P &lt; 0.001) but not between the locations (P = 0.229). Surface samples were also visualized and analyzed by non-metric multidimensional scaling (NMDS) using Jaccard distances (Fig. <ref type="figure">S3</ref>), and the same trends were noted as with the PCoA data above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Taxonomic profile of ISS microbial community</head><p>The top 12 most abundant bacterial species across all surface samples are shown in Fig. <ref type="figure" target="#fig_2">4</ref> with all but one being was first isolated from a fecal sample. Lactococcus lactis is used in the dairy industry for the production of various cheeses and buttermilk. The read counts for the top 12 bacteria, organized by flight and location (including controls), are shown in Fig. <ref type="figure" target="#fig_2">S4</ref>.</p><p>The top 12 most abundant fungal species across all surface samples are shown in Fig. <ref type="figure" target="#fig_3">5</ref>. These include Malassezia globose, Malassezia restricta, and Malassezia sympodialis which are part of the healthy skin microflora. The Malassezia species constitute the majority of fungal reads in most surface samples regardless of location. Rhodotorula glutinis and Yarrowia lipolytica are common environmental fungi, and Aspergillus kawachii, Cyberlindnera jadinii, and Debaryomyces hansenii are used in the food industry. Blumeria graminis (barley powdery mildew), Penicillium aurantiogriseum (asparagus and strawberry pathogen), Puccinia striiformis (Stripe rust), and Puccinia triticina (wheat leaf rust) are all associated with plant diseases but pose no known harm to human health. The read counts for the top 12 fungi, organized by flight and location (including controls), are shown in Fig. <ref type="figure" target="#fig_3">S5</ref>.</p><p>Differential abundance analysis of taxa was performed at the species level. Samples were grouped by flight group (i.e., F4, F5, F6, and F7) or location (i.e., dining table, crew quarters, etc.) for analysis. While there were no differentially abundant species across locations (P &lt; 0.05), there were 20 differentially abundant species across flights (P &lt; 0.05) (Table <ref type="table" target="#tab_1">2</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Functional analyses</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Co-occurrence of microbial taxa</head><p>Inference of microbial ecological interactions was obtained from patterns of occurrence of the genera present in the samples. PMA-treated samples were analyzed to determine which viable bacterial and fungal genera were found to co-associate with each other. The top 50 most abundant bacteria and fungi were included in the analysis. As seen from the genus association profile in Fig. <ref type="figure">S6</ref>, Aspergillus had the most co-associations, with other fungi and bacteria while Pseudomonas did not have any. The gene association matrix in Fig. <ref type="figure">6</ref> shows which bacteria and fungi co-occurred with each other. Of the bacteria and fungi that were included in the analysis, the associations were all positive (i.e., presence of one likely means the presence of another) with no negative associations (i.e., presence of one likely means the absence of another).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Antimicrobial resistance profiles</head><p>Twenty-nine AMR categories were detected in the metagenomics dataset with multidrug and macrolide/ lincosamide/streptogramin (MLS) resistance having the highest read counts and found in all 32 samples (Fig. <ref type="figure">S7</ref>). Bacitracin, beta-lactam, diaminopyrimidine, and tetracycline resistance were also found across all samples, except from F6_1S (surface location # 1 [cupola], F6; Fig. <ref type="figure">S7</ref>). The "unclassified" category was also found in all samples (except F6_1S), and the genes that were grouped into this category were all DNA-binding regulatory proteins involved in the stress response.</p><p>Of the 29 AMR categories detected above, 17 were detected in the PMA-treated group. Multidrug and MLS resistance genes still had the highest counts, though were not found in every sample, as in the non-PMA group (Fig. <ref type="figure">7</ref>). Multi-dimensional scaling analysis comparing MT-2 and MT-1 samples (both PMA and non-PMA treated) showed no differences in the AMR profiles between the two studies, suggesting that the ISS resistome is relatively stable (Fig. <ref type="figure">8</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Metagenome-assembled genomes</head><p>Metagenomic-assembled genomes (MAGs) were constructed from the 32 samples collected during flights 4-7, with 82 MAGs able to be assembled using a 50% minimum completion cutoff. Of those 82, 15 had over 90% completion. The percent completion, contamination, GC content, taxonomy, N50 (a measure of assembly quality), and genome size are summarized in Dataset S2. The heatmap in Fig. <ref type="figure">9</ref> shows the distribution and abundance of each MAG across all samples.</p><p>To extract functional information from these MAGs, annotation was performed on each MAG. Clusters of orthologous groups (COG) information was extracted from each annotated MAG and compiled together to provide a functional assessment of the collective microbial community, with the complete list of each COG ID presented in Dataset S3. Each annotated gene with a COG ID was then grouped together based on COG functional categories and the proportion of each functional category represented in the pie chart in Fig. <ref type="figure" target="#fig_0">10</ref>. The most represented functional groups were amino acid transport and metabolism (12%); translation, ribosomal structure, and biogenesis (11%); and carbohydrate transport and metabolism (9%). Genes/proteins involved in the defense mechanisms and the exchange of genetic material (i.e., mobilome) had a relatively small representation (3% and 0.1%, respectively).</p><p>We decided to examine MAG Pseudomonas granadensis (bin.33, 99.38% completion) in further detail because it was 99.97% similar (compared by average nucleotide identity) to the whole-genome sequences of P. granadensis isolates, cultured during this study (flight 4, dining table) <ref type="bibr" target="#b26">[27]</ref>. In addition, P. granadensis belongs to the P. fluorescens group which has many biologically relevant properties. While generally considered a BSL-1 organism, it can cause severe diseases in people who are immunocompromised and can lead to the spoilage of milk. It also exhibits biocontrol properties through its protection of plant roots from plant pathogens. Examination of MAG P. granadensis (bin.33) showed 17 genomic islands, which is indicative of horizontal gene transfer (HGT) events. Functional analysis showed that 3% of its genome was made up of virulence and defense genes specifically related to tolerance/resistance of fluroquinolones, beta-lactams, copper, cobalt-zinc-cadmium, streptothricin, chromium, and colicin E2, as well as having multi-drug efflux pumps (Fig. <ref type="figure">S8</ref>). The genome also carried genes that could increase survival under unfavorable conditions, such as those involved in biofilm formation; osmotic, periplasmic, and oxidative stress; and dormancy and sporulation (Fig. <ref type="figure">S8</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The microbiome of eight surfaces from across the ISS was sampled during four separate sampling sessions (F4-F7). The viable microbiome was assessed with shotgun metagenomic sequencing of samples that had been treated with PMA, as well as with plate count assays. Both techniques were consistent in their results, showing that the microbiome was similar across all eight locations for a given flight and validates what was previously published for MT-1 <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b27">28]</ref> and with other ISS surface Fig. <ref type="figure">6</ref> Co-occurrence analysis. The co-occurrence analysis was performed using the 50 most abundant genera to determine the associations among organisms. The matrix shows which genera co-occurred with each other. Blue shows the positive co-occurrences (i.e., if you find one in the community, it is likely you will find another-for example, Aspergillus and Fusarium), yellow shows the negative co-occurrences (i.e., if you find one, it is likely the other will be absent), and gray shows the random occurrences that are most likely due to random chance alone-for example, Cladosporium and Fusarium Fig. <ref type="figure">7</ref> Heat map of the ISS viable resistome. The metagenomic dataset was analyzed with DeepARG to look for anti-microbial resistance genes. The genes were then grouped into classes of resistance (i.e., "beta-lactam"), which is displayed in this heatmap (y-axis). The heatmap shows the relative abundance of each resistance class in each sample collected, with red being the most abundant and green the least. Gray indicates zero counts detected in that sample. The samples analyzed (x-axis) are from the PMA-treated samples which detect viable/intact cells. x-axis naming: Fx_xS_P, with F referring to the flight (i.e., F4) and S referring to the location of the surface sampled (i.e., 1S is location 1, the port panel next to the cupola). The AMR counts were normalized based on the 16S rRNA counts (See figure on next page.) Fig. <ref type="figure">7</ref> (See legend on previous page.)</p><p>microbiome studies <ref type="bibr" target="#b28">[29]</ref>. The spatial uniformity in this hermetically sealed, closed habitat suggests that microbial movement occurs readily, which should be taken into consideration if a situation arises that requires microbial sequestration.</p><p>While no spatial differences were found, temporal differences did exist, with different microbial profiles and microbial loads observed among the various flights, consistent with our previous analyses <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b27">28]</ref>. One influence driving these temporal differences could be the different cohorts of astronauts onboard the ISS during each sampling session. Two recent studies have noted that the crew microbiome may shape microbial composition on ISS habitable surfaces <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b29">30]</ref>, and in this study, the majority of bacteria and fungi that were detected from surfaces were human-associated, such as Staphylococcus, Fig. <ref type="figure">8</ref> Comparison of ISS viable resistome among flights. NMDS plot comparing the antimicrobial resistance profile of the ISS community. Metagenomic data collected from the PMA-treated samples (viable/intact cells) during each of the flight sampling sessions for both the current MT-2 study (F4-F7) and the previous MT-1 study (F1-F3) was analyzed by DeepARG. Each dot represents a sample and takes into account the presence of an antimicrobial resistance gene and its abundance. Locations are depicted by colors and MT-1 vs MT-2 study, by symbols Fig. <ref type="figure">9</ref> MAG abundance heatmap. Genomes were assembled from the metagenomics reads and placed into "bins, " with each "bin" representing one metagenomic assembled genome ("MAG"). These bins were generated from the metagenomic data consisting of the 32 samples collected during the course of the study. Each bin is shown on the y-axis. The abundances are expressed as genome copies per million reads and presented, with the log10 values plotted. Red represents a high relative abundance and blue a low relative abundance. The white color represents the absence of that bin in the sample. The bin numbers were highlighted based on the phylum it was assigned to, with yellow = Actinobacteria, green = Firmicutes, blue = Bacteroidetes, and purple = Proteobacteria. Full taxonomic info for each bin can be found in Dataset S2. The x-axis shows the sample that was analyzed and the relative abundance of that bin (i.e., MAG) in that sample. x-axis naming: Fx_xS, with F referring to the flight (i.e., F4) and S referring to the location of the surface sampled (i.e., 1S is location 1, the port panel next to the cupola) (See figure on next page.) Propionibacterium, Streptococcus, Haemophilus, and Malassezia or those related to food products that are ingested by humans, such as Aspergillus kawachii and Lactococcus lactis. Astronaut-ISS surface exchange would parallel what has been found with Earth-based built environment studies, where human occupation significantly impacts a given indoor environment <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b31">32]</ref>. To garner a better understanding of just how significant humanenvironment interactions are in shaping the microbiomes of the ISS and the astronauts residing there, ongoing analyses by the MT-2 project team are examining astronaut data at pre-flight, in-flight, and post-flight time points and examining their microbiomes in conjunction with the ISS surface microbiome.</p><p>Staphylococcus sp. and Malassezia sp. were the most represented bacterial and fungal species, respectively, on the ISS. While bacteria dominated the ISS microbiome in both the PMA and non-PMA samples, it is worth noting that the proportion of fungi increased from 10% in the total population (viable/dead) to 37% in the viable population, while bacteria decreased from 82% (total) to 58% (viable). This would suggest that viable/intact fungal cells are more readily captured when ISS surfaces are sampled, compared to bacteria. This could be because these fungi are able to withstand the routine cleaning regimes on the ISS or the conditions surrounding the sample storage/descent to Earth/sample processing, better than those bacteria.</p><p>In addition to examining which microbes were present, we also examined their properties, which may help inform policies and practices to mitigate harmful effects on astronauts and the spacecraft. One such functional examination was that of the ISS "viable resistome" which is the composition of antimicrobial resistance genes within the PMA-treated metagenomic dataset. We found a genetic composition that could provide resistance against 17 classes of drugs, many of which were broad-spectrum antibiotics, such as aminoglycosides, beta-lactams, fluoroquinolones, and tetracycline, all of which are part of the medical toolkit onboard the ISS. The most prevalent resistance genes were against macrolide, lincosamide, and streptogramin (MLS) antibiotics and those involved in multidrug resistance, such as outer membrane porins, efflux pumps, and ABC transporters. MLS antibiotics occupy one of the leading positions among antibiotics used in outpatient treatment <ref type="bibr" target="#b32">[33]</ref> and are used to treat a range of bacterial infections, especially methicillinresistant staphylococcal skin and soft tissue infections <ref type="bibr" target="#b33">[34,</ref><ref type="bibr" target="#b34">35]</ref>, thus making it a very important drug on the ISS. Genetic resistance to MLS was found in every single sample in the total metagenomic dataset (non-PMA-treated), and in 17 out of 32 PMA-treated samples, making MLS resistance widespread across the ISS.</p><p>The AMR resistance profiles did not differ across all seven flights, suggesting that even amidst changes in community composition (which we observed among the seven flights), the resistome of this microbial community is relatively stable and alludes to genetic redundancy. Functional redundancy has been documented in other microbial systems such as in plants <ref type="bibr" target="#b35">[36]</ref>, human gut <ref type="bibr" target="#b36">[37]</ref>, oceans <ref type="bibr" target="#b37">[38]</ref>, and soil <ref type="bibr" target="#b38">[39]</ref>. One study has shown Fig. <ref type="figure" target="#fig_0">10</ref> Pie chart of the cluster of orthologous groups. Functional assessment was performed by comparing the annotated MAGs against the COG database and assigning each COG ID to a category. The counts from each category are displayed as a percentage of the total counts in the pie chart that HGT plays a substantial role in maintaining redundancy, and when HGT rates were high, the functional profile of the microbiome was very stable and recalcitrant to change, even when taxonomy was variable <ref type="bibr" target="#b39">[40]</ref>. Our results emphasize the importance of deciphering microbial behavior and community interactions for better approaches to safety and health, since removing or preventing the growth of one or two species may not ameliorate any negative functional effects.</p><p>Strong microbial interactions were observed in this study through a co-occurrence analysis used to predict the likelihood of genera to co-inhabit a particular niche, either through positive associations or through negative ones. While many positive associations were calculated, no negative associations were accounted for. The genus that exhibited the most positive associations was Aspergillus and co-occurred with both bacteria and fungi, while at the other "end" of the spectrum, Pseudomonas had no associations and exhibited only random occurrences. While wet lab studies would need to be conducted to make an accurate assessment of the impact of these ISS polymicrobial community interactions on the surrounding environment and astronaut health, some inferences can be made from the literature. In our study, Aspergillus and Fusarium formed a strong association. Co-infection studies of A. flavus with F. graminearum or F. verticillioides in maize have shown that the presence of these Fusarium species leads to enhanced aflatoxin B1 (AFB1) production by A. flavus, even in the absence of any changes in growth, probably due to a stress response caused by fungal competition <ref type="bibr" target="#b40">[41,</ref><ref type="bibr" target="#b41">42]</ref>. AFB1 is a secondary metabolite produced by A. flavus and A. parasiticus and is a very potent carcinogen that can cause hepatocellular carcinoma in humans when ingested or when it permeates the skin <ref type="bibr" target="#b42">[43]</ref>. While reads for A. flavus were extremely low on ISS surfaces, the species is naturally found in foods, such as grains, cereal, corn, and peanuts. In light of the co-occurrence interactions described above and the known fact that the ISS is a stressed environment for microbes, which could increase AFB1 production as well as other mycotoxins, it may be necessary to pay close attention to microbial monitoring of food sources destined for space.</p><p>Aspergillus and Staphylococcus were another positive association found in the dataset and may prove to be beneficial for both crew and the ISS. In an in vitro study analyzing mixed A. fumigatus-S. aureus biofilms, it was shown that S. aureus strongly inhibited the development of A. fumigatus biofilms <ref type="bibr" target="#b43">[44]</ref>. The antibiofilm effects of S. aureus on A. fumigatus were a lack of extracellular matrix (ECM) disorganized fungal structures, abortive hyphae, and limited hyphal growth <ref type="bibr" target="#b43">[44]</ref>. Conidia were also scarce, had modifications on their surface, and showed lysis <ref type="bibr" target="#b43">[44]</ref>. In contrast, A. fumigatus single culture biofilms showed extremely organized structures, abundant hyphal growth, hyphal anastomosis, and channels, as well as some conidia and ECM <ref type="bibr" target="#b43">[44]</ref>. Aspergillus biofilms (i) cause aspergillosis, an infection causing allergic reactions, lung disease, and infections in other organs <ref type="bibr" target="#b44">[45,</ref><ref type="bibr" target="#b45">46]</ref>; (ii) have been implicated in microbially induced corrosion of bronze and copper <ref type="bibr" target="#b46">[47]</ref>; and (iii) have been found in tap water in private homes, hospitals, and industrial premises, resulting in altered taste, odor, the production of allergenic compounds, and mycotoxins <ref type="bibr" target="#b47">[48,</ref><ref type="bibr" target="#b48">49]</ref>. Aspergillus biofilms are difficult to eradicate once formed, so preventing their formation, possibly with mixed microbial communities of the "right" organisms, may be the best way to combat its effects on the ISS.</p><p>Functional assessment was also performed by assembling reads into contigs to obtain metagenome-associated genomes or "MAGs. " Across the samples collected, 82 MAGs were able to be constructed and annotated with 15 having over 90% completeness, and comprising environmental, human-associated, and probiotic bacteria. The functional profile of the collective MAGs showed the highest representation of (i) amino acid transport and metabolism and (ii) translation, ribosomal structure, and biogenesis. While these two pathways are among the main metabolic pathways in bacteria and fungi, their relative abundances were higher than carbohydrate utilization pathways. This may be significant in the context of a recent study comparing "unrestricted" built environments (public houses, public buildings, private houses) with "confined" built environments (intensive care units (ICU), cleanrooms, cleanroom gowning areas) where it was shown that each of the three "confined" environments had a considerably higher representation of amino acid utilization compared to carbohydrate utilization, with the opposite being true for the "unrestricted" environments (higher carbohydrate utilization compared to amino acids) <ref type="bibr" target="#b49">[50]</ref>. While there are too few comparative studies to make any assumptions, it does raise the question as to whether organisms in more extreme built environments such as the ISS, ICU, and cleanrooms rely on different metabolic processes to survive and/or proliferate. The ability to generate good-quality MAGs from this dataset will allow us to better understand the dynamics of exchange across the ISS. For example, future analyses by the MT-2 project team will compare the ISS surface MAGs and astronaut MAGs (who were onboard the ISS at the time of collection) to track the movement of strains across ISS locations and across astronauts. Questions we hope to address in the forthcoming work are what factors contribute to the spread of certain organisms from one location to another, how long does a strain persist once deposited on a surface and after cleaning, and whether there is an exchange between astronauts even if they were not on board at the same time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>Utilizing various metagenomics analyses as well as culture, this paper has provided a comprehensive analysis of the ISS surface microbiome, showing microbial burden, bacterial and fungal species prevalence, how the microbiome and resistome changes over time and space, and the functional capabilities and microbial interactions of this unique built environment. Data from this study may help to inform policies for future space missions to ensure an ISS surface microbiome that promotes astronaut health and spacecraft integrity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample kit preparation and sample collection</head><p>Sampling wipes were prepared at the Jet Propulsion Laboratory (JPL; Pasadena, CA) by moistening polyester wipes (9″ × 9″; ITW Texwipe, Mahwah, NJ), each with 15 mL of sterile molecular grade water (Sigma-Aldrich, St. Louis, MO). Moistened wipes were aseptically transferred to a sterile zip lock bag and then assembled into the ISS sampling kit (at NASA Ames Research Center (ARC)), which also contained sterile gloves (KIMTEC Pure G3 White; Nitrile Clean-room Certified; Cat. HC61190), benzalkonium chloride wipes (Hygea ® , PDI-BZK D35185), and sterile bitran bags (VWR, Cat. 4742-S) for return. The implementation team at NASA ARC delivered the kit to the Cargo Mission Contract at Johnson Space Center (Texas) which was then transferred to Kennedy Space Center (Florida) in order to be loaded into the Space Exploration Technologies (SpaceX) Dragon spacecraft prior to launch. Eight different locations were sampled on the ISS using the premoistened polyester wipes which were the same locations as those sampled during the previous microbial tracking study . The list of locations sampled is presented in Table <ref type="table" target="#tab_0">1</ref>. Flight 4 sampling occurred in 2017, and flight 5, 6, and 7 sampling occurred in 2018. A diagram of locations can be found in Figure <ref type="figure" target="#fig_0">1</ref> of the MT-1 published manuscript <ref type="bibr" target="#b25">[26]</ref>.</p><p>As per the study requirements, there was no cleaning at least 4 days prior to sampling. Cleaning outside that time frame was conducted as per routine ISS activities and was performed with disinfectant wipes containing octyl decyl dimethyl ammonium chloride (0.0399%), dioctyl dimethyl ammonium chloride (0.01995%), didecyl dimethyl ammonium chloride (0.01995%), alkyl (50% C14, 40% C12, 10% C16) dimethylbenzylammonium chloride, and dimethylbenzylammonium chloride (0.0532%).</p><p>During each flight sampling session, the same crew member sampled each of the eight locations. Using the sterile gloves from the sampling kit, he/she sampled 1 m 2 with the pre-moistened polyester wipes and donned a new pair of individually packed sterile gloves before sampling the next location. A control wipe (environmental control) was taken out from the zip lock bag, unfolded, waved for 30 s, and packed back inside a new sterile zip lock. One control wipe was included for each flight session. Similarly, an unused wipe that was flown to the ISS and brought back to Earth along with the samples served as a negative control for sterility testing. After sample collection, the samples were stored at 4 °C in orbit and then returned to Earth after 10 days for flight 4, 8 days for flight 5, 22 days for flight 6, and 11 days for flight 7. The kits were delivered to JPL immediately after arrival to Earth at 4 °C with processing at JPL commencing within 2 h of receipt.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample processing</head><p>Sample processing took place in a cleanroom at JPL. In a certified biosafety cabinet, each wipe was aseptically removed from the zip lock bag and transferred to a 500-mL bottle containing 200 mL of molecular grade sterile phosphate-buffered saline (PBS; pH 7.4, Sigma). The wipe inside the bottle was shaken vigorously for 2 min followed by concentration with a Concentrating Pipette using 0.22-μm Hollow Fiber Polysulfone tips (Innova Prep, Drexel, MO). The captured microbes were released from the concentrating pipette using 1 mL of Inno-vaPrep's elution fluid containing PBS with 0.075% Tween. The concentrate was topped up to 5 mL using sterile, molecular grade 1× PBS (pH 7.4, Sigma).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA extraction</head><p>The concentrate, from above, was split into two 1.5-mL aliquots. One aliquot was treated with PMA (18.25 μL of 2 mM, resulting in a final concentration of 25 μM) to assess cells that were viable or had an intact cell membrane <ref type="bibr" target="#b50">[51]</ref>, while the second aliquot was handled in a similar manner but without the addition of PMA. The PMA-and non-PMA-treated aliquots were incubated in the dark at RT for 5 min, followed by 15 min of photoactivation using the PMA-Lite ™ LED Photolysis Device, specifically designed for photoactivation of PMA (Biotium, Hayward, CA). The PMA-and non-PMA-treated aliquots were split into two 0.75-mL aliquots. One aliquot was transferred to bead beating tubes containing Lysing Matrix E (MP Biomedicals, Santa Ana, CA), followed by bead beating for 60 s using the vortex sample holder (MO Bio, Carlsbad, CA). The bead-beaten aliquot and the aliquot without bead beating were combined for their corresponding PMA-treated and non-treated samples. DNA extraction was performed with the Maxwell 16 automated system (Promega, Madison, WI), in accordance with the manufacturer's instructions using the Maxwell 16 Tissue LEV Total RNA purification kit. A Maxwell control without any sample added in its cartridge was run concurrently with the samples. The extracted DNA was eluted in 50 μL of water and stored at -20 °C until further analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Culture analysis</head><p>One hundred microliters, in duplicate, of the concentrate, was plated on Reasoner's 2A agar (R2A) (for environmental bacteria), blood agar (for pathogenic bacteria), and potato dextrose agar (PDA) supplemented with 100 μg/mL of chloramphenicol (for fungi). All plates were purchased from Hardy Diagnostics (Santa Maria, CA). R2A and PDA plates were incubated at room temperature for 7 days, while blood agar plates were incubated at 37 °C for 1-2 days (depending on growth). Colonies were counted and the colony-forming units per m 2 calculated. After colony counting, single colonies were re-streaked on fresh plates to ensure pure culture and incubated at the appropriate temperature and time, and the biomass was then archived in 30% glycerol and stored at -80 °C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Shotgun metagenomics sequencing and taxonomic classification</head><p>Metagenomics sequencing and taxonomic classification were performed as described previously <ref type="bibr" target="#b29">[30]</ref>. Briefly, DNA libraries were prepared for sequencing using the Nextera DNA Library Preparation Kit (Illumina, Inc., San Diego, CA). Quality and fragment size were assessed on the Agilent Tapestation 4200 (Agilent Technologies, Santa Clara, CA). Libraries were quantitated using the Qubit fluorimeter (Thermo Fisher Scientific, Waltham, MA) and normalized to equivalent DNA quantities, pooled, and diluted according to the manufacturer's standard recommendations. Shotgun metagenomic sequencing was performed using an Illumina NextSeq 500 with the NextSeq Series High Output Kit v2 (Illumina Inc., San Diego, CA), using 150 base pair paired-end reads. Taxonomic classification of the metagenomic reads was accomplished using the Livermore Metagenomics Analysis Toolkit (LMAT version 1.2.4b with the "April 4, 2014, LMAT Grand" reference database [lmat-4-14.20mer.db]) <ref type="bibr" target="#b51">[52]</ref>. Reads mapping to genus Homo or below were removed from the analysis. The raw sequencing data has been deposited in NASA's GeneLab Database accession number GLDS-252. A list of read counts for all species detected from each sample and control wipe is shown in Dataset S4.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Contamination control</head><p>The total number of reads and the number of reads annotated at the genus and species level are shown in Table <ref type="table" target="#tab_0">S1</ref>. The F4-F7 negative control wipe flown to the ISS had fewer total reads compared to their corresponding flight group wipes used to sample the ISS surfaces. The microbial composition of the control samples was determined the same way as the surface samples, and the top species detected among the control samples is shown by read number (Fig. <ref type="figure">S9</ref>). The control samples showed no indication of contamination or microbial read counts that could alter the microbial profiles identified in the surface samples.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Alpha diversity</head><p>The alpha diversity of each sample was calculated at the genus and species level using the "renyi" and "estimateR" functions available through the vegan package (v.2.5-5) <ref type="bibr" target="#b23">[24]</ref>. The Renyi entropy of each sample was calculated for orders 0, 1, and 2, some things referred to as the Hill numbers <ref type="bibr" target="#b24">[25]</ref>, representing the sample's observed richness, exponentiated Shannon index, and reciprocal Simpson index, respectively. We compared the alpha diversity estimations between locations and flight groups to track the changes between the sampling locations and across all flight groups. Statistical testing was done using Student's t-test and Kruskal-Wallis test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Beta diversity and ordination</head><p>The ecological distance between the surface samples was measured using the "distance" function and visualized using the "ordinate" function from the phyloseq package (v.1.24.3) <ref type="bibr" target="#b25">[26]</ref>. Non-metric and classical multidimensional scaling was used to visualize the similarity between the surface samples using the Jaccard and Euclidean distance, respectively. The Jaccard distance was used to measure the difference in taxon presence-absence profiles, and the Euclidean distance was used to measure the difference in taxon abundance profiles between samples. Prior to measuring the Euclidean distance between each sample, the taxon read counts were transformed into Euclidean space using the center-log ratio (clr) <ref type="bibr" target="#b26">[27]</ref>. To determine if the centroid and dispersion between the locations and flight groups were different, a PER-MANOVA test was performed using the "adonis2" function available through the vegan package (v.2.5-6) <ref type="bibr" target="#b23">[24]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Differential abundant analysis</head><p>Genus and species level read counts were transformed using the clr method prior to testing for differentially abundant taxa. We performed two separate differential abundance analyses. The first analysis looked at the differences in taxon abundance between the surface locations, and the second analysis looked at the differences in taxon abundance between the flight groups. Differential abundance analysis on the clr-transformed reads was performed using the ALDEx2 package (v.1.16.0) using the "aldex.kw" function <ref type="bibr" target="#b52">[53]</ref>. Taxa with P values &lt; 0.05 were considered differentially abundant, and all P values were adjusted for multiple testing using the Benjamini and Hochberg method <ref type="bibr" target="#b28">[29]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Antimicrobial resistance profiles</head><p>The raw metagenomic sequences were analyzed with DeepARG: a deep learning approach for predicting antibiotic resistance genes from metagenomic data which uses the CARD and ARDB databases for classification using the DIAMOND aligner <ref type="bibr" target="#b53">[54]</ref>. Briefly, the pipeline first removes low-quality reads using TRIMMOMATIC, then merges the reads into one big file (VSEARCH) which are then classified with the deepARG algorithm, and the results are normalized to the 16S rRNA abundance in the sample. The parameters used to predict the AMR genes from our metagenomics dataset were based on 80% coverage, 50% homology, a minimum probability of 0.8, and an E-value of 1e-10.</p><p>• fast, convenient online submission • thorough peer review by experienced researchers in your field • rapid publication on acceptance</p><p>• support for research data, including large and complex data types • gold Open Access which fosters wider collaboration and increased citations maximum visibility for your research: over 100M website views per year</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>•</head><p>At BMC, research is always in progress.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Learn more biomedcentral.com/submissions</head><p>Ready to submit your research Ready to submit your research ? Choose BMC and benefit from:</p><p>? Choose BMC and benefit from:</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig.1Metagenomic read counts obtained from surface wipes sampled during flights 4-7. Each dot of the graph represents a location sampled on the ISS. The line represents the average read count for a specific flight from all eight locations. PMA-treated samples were analyzed which measures viable/intact cells. A Read counts of the bacterial population. B Read counts of the fungal population. The Kruskal-Wallis one-way analysis of variance test, followed by the post hoc false discovery rate was used to compare the read counts between flights</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 Fig. 3</head><label>23</label><figDesc>Fig. 2 Alpha diversity metrics for MT-1 and MT-2 samples. The species richness (top row), exponentiated Shannon index (middle row), and inverse Simpson index (bottom row) are shown for each sample. Samples are grouped by flight group and colored by surface location</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4</head><label>4</label><figDesc>Fig.<ref type="bibr" target="#b3">4</ref> Top 12 most abundant bacterial species across all surface samples. The percent of mapped reads for each species in each sample. Samples were grouped in columns by surface location and arranged in order by flight group. "Other" refers to those bacterial species detected that were not in the top 12</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 5</head><label>5</label><figDesc>Fig.<ref type="bibr" target="#b4">5</ref> Top 12 most abundant fungal species across all surface samples. The percent of mapped reads for each species in each sample. Samples were grouped in columns by surface location and arranged in order by flight group. "Other" refers to those fungal species detected that were not in the top 12</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Locations sampled across the International Space Station. All eight 8 locations were sampled over the course of four different flights-flight 4 (F4), flight 5 (F5), flight 6 (F6), and flight 7 (F7). Flight 4 was sampled in 2017, and F5, F6, and F7 were sampled throughout 2018</figDesc><table><row><cell>Location number</cell><cell>Location description</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Species identified as differentially abundant between the sampling flight groups. Kruskal-Wallis (KW) and general linear model (GLM) raw P values and Benjamini and Hochberg adjusted P values (Q values) are shown for each species</figDesc><table><row><cell>Species</cell><cell>P value (KW)</cell><cell>Q value (KW)</cell><cell>P value (GLM)</cell><cell>Q value (GLM)</cell></row><row><cell>Thiobacillus thioparus</cell><cell>1.36E-04</cell><cell>2.11E-01</cell><cell>9.60E-09</cell><cell>1.17E-05</cell></row><row><cell>Magnetospirillum magnetotacticum</cell><cell>2.31E-04</cell><cell>2.13E-01</cell><cell>1.98E-08</cell><cell>3.01E-05</cell></row><row><cell>Yarrowia lipolytica</cell><cell>1.70E-04</cell><cell>2.09E-01</cell><cell>8.49E-07</cell><cell>4.04E-04</cell></row><row><cell>Tetragenococcus halophilus</cell><cell>1.79E-04</cell><cell>2.11E-01</cell><cell>8.25E-07</cell><cell>7.28E-04</cell></row><row><cell>Ralstonia pickettii</cell><cell>3.87E-04</cell><cell>2.20E-01</cell><cell>5.01E-06</cell><cell>1.31E-03</cell></row><row><cell>Methyloversatilis universalis</cell><cell>7.02E-04</cell><cell>2.36E-01</cell><cell>1.81E-05</cell><cell>5.07E-03</cell></row><row><cell>Acidovorax sp. CF316</cell><cell>4.65E-04</cell><cell>2.25E-01</cell><cell>1.74E-05</cell><cell>5.47E-03</cell></row><row><cell>Lactococcus raffinolactis</cell><cell>7.31E-03</cell><cell>4.10E-01</cell><cell>4.83E-05</cell><cell>1.22E-02</cell></row><row><cell>Thiobacillus denitrificans</cell><cell>4.39E-04</cell><cell>2.22E-01</cell><cell>1.54E-04</cell><cell>1.43E-02</cell></row><row><cell>Nevskia ramosa</cell><cell>2.04E-04</cell><cell>2.13E-01</cell><cell>1.14E-04</cell><cell>1.49E-02</cell></row><row><cell>Leuconostoc lactis</cell><cell>8.67E-04</cell><cell>2.45E-01</cell><cell>1.26E-04</cell><cell>2.04E-02</cell></row><row><cell>Sphingobium sp. Ant17</cell><cell>8.20E-04</cell><cell>2.47E-01</cell><cell>3.02E-04</cell><cell>2.55E-02</cell></row><row><cell>Leuconostoc mesenteroides</cell><cell>2.65E-03</cell><cell>3.25E-01</cell><cell>1.79E-04</cell><cell>2.60E-02</cell></row><row><cell>Cellvibrio sp. BR</cell><cell>1.04E-03</cell><cell>2.54E-01</cell><cell>5.15E-04</cell><cell>3.29E-02</cell></row><row><cell>Bradyrhizobium japonicum</cell><cell>5.11E-03</cell><cell>3.85E-01</cell><cell>3.15E-04</cell><cell>3.53E-02</cell></row><row><cell>Emiliania huxleyi</cell><cell>2.54E-03</cell><cell>3.12E-01</cell><cell>3.86E-04</cell><cell>4.08E-02</cell></row><row><cell>Herbaspirillum huttiense</cell><cell>1.27E-03</cell><cell>2.64E-01</cell><cell>7.49E-04</cell><cell>4.27E-02</cell></row><row><cell>Bacillus subtilis</cell><cell>1.85E-03</cell><cell>2.99E-01</cell><cell>7.69E-04</cell><cell>4.39E-02</cell></row><row><cell>Pectobacterium carotovorum</cell><cell>4.04E-03</cell><cell>3.45E-01</cell><cell>4.60E-04</cell><cell>4.64E-02</cell></row><row><cell>Chloroflexi bacterium JGI 0002000-F10</cell><cell>7.12E-04</cell><cell>2.36E-01</cell><cell>5.80E-04</cell><cell>4.79E-02</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We would like to thank the <rs type="institution">NASA</rs> astronauts for collecting the samples aboard the ISS. We also thank the MT-2 implementation team at <rs type="institution">NASA Ames Research Center</rs> for their work in the kit assembly, flight manifest, and crew operations.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>This research was funded by a <rs type="programName">2014 Space Biology</rs> <rs type="grantNumber">NNH14ZTT002N</rs> grant no. <rs type="grantNumber">19-12829-38</rs> under Task Order <rs type="grantNumber">NNN13D111T</rs> award to KV. CU was funded by a <rs type="funder">NASA Space Biology NPP</rs> post-doc fellowship. MM, JT, and CJ were funded by the <rs type="funder">NASA Space Biology</rs> under contract #: <rs type="grantNumber">80NSSC18K0113</rs>. Part of the research described in this publication was carried out at the <rs type="institution">Jet Propulsion Laboratory, California Institute of Technology</rs>, under a contract with <rs type="funder">NASA</rs>. SM was funded by <rs type="funder">NASA Space Biology</rs> under contract #: <rs type="grantNumber">80NSSC18K0113</rs>. DS was funded by the <rs type="funder">NASA</rs> <rs type="programName">Ames Space Biology program</rs>. FK was supported through the <rs type="projectName">KBRwyle/FILMSS</rs> subcontract with the <rs type="funder">Department of Pharmaceutical Chemistry</rs> at the <rs type="institution">University of California, San Francisco</rs>, # <rs type="grantNumber">NNA14AB82C</rs>, at the <rs type="institution">NASA Ames Research Center</rs>. The funders had no role in the study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_YETjrPT">
+					<idno type="grant-number">NNH14ZTT002N</idno>
+					<orgName type="program" subtype="full">2014 Space Biology</orgName>
+				</org>
+				<org type="funding" xml:id="_fSukvaT">
+					<idno type="grant-number">19-12829-38</idno>
+				</org>
+				<org type="funding" xml:id="_SVJ2HcZ">
+					<idno type="grant-number">NNN13D111T</idno>
+				</org>
+				<org type="funding" xml:id="_ZKXxqHc">
+					<idno type="grant-number">80NSSC18K0113</idno>
+				</org>
+				<org type="funding" xml:id="_2aUNzFJ">
+					<idno type="grant-number">80NSSC18K0113</idno>
+				</org>
+				<org type="funded-project" xml:id="_f3P3Dpw">
+					<orgName type="project" subtype="full">KBRwyle/FILMSS</orgName>
+					<orgName type="program" subtype="full">Ames Space Biology program</orgName>
+				</org>
+				<org type="funding" xml:id="_64MdWvt">
+					<idno type="grant-number">NNA14AB82C</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Availability of data and materials</head><p>The raw sequencing data has been deposited in NASA's GeneLab Database accession number GLDS-252 (<ref type="url" target="https://urldefense.us/v3/__https:/genelab-data.ndc.nasa.gov/genelab/accession/GLDS-252/__;!!G2kpM7uM-TzIFchu!m-NdlStZxG5oQ6y-6rCp2Gekqb1qBFjTkKh5da7vi2hyRNzQ-XWVmrJVSrscsQEyW-o$">https:// genel</ref> ab-data. ndc. nasa. gov/ genel ab/ acces sion/ GLDS-252/) and NCBI SRA under accession number PRJNA781277 (<ref type="url" target="https://www.ncbi.nlm.nih.gov/search/all/?term=PRJNA781277">https:// www. ncbi. nlm. nih. gov/ search/ all/? term= PRJNA 781277</ref>).</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Co-occurrence analysis of viable organisms</head><p>Genus co-occurrence from the PMA-treated samples was examined using the "cooccur" R package. This package applied the probabilistic model of genus co-occurrence <ref type="bibr" target="#b54">[55]</ref> to a set of genera distributed among the 32 samples (8 locations, 4 flights). The algorithm calculated the observed and expected frequencies of co-occurrence between each pair of genera. The expected frequency was based on the distribution of each genus being random and independent of the other genera. The package also includes functions for visualizing co-occurrence results and was used to prepare Figs. <ref type="figure">8</ref> and <ref type="figure">9</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Functional profiles</head><p>Metagenome assembled genomes were constructed from the 32 samples (F4-F7, non-PMA-treated samples) using the MetaWRAP pipeline (<ref type="url" target="https://github.com/bxlab/metaWRAP">https:// github. com/ bxlab/  metaW RAP</ref>) <ref type="bibr" target="#b55">[56]</ref> which performed read quality control, assembly, visualization, taxonomic profiling, extracting draft genomes (binning), and functional annotation. Assembly was performed with MegaHit (due to the large dataset) and the bin_refinement cutoff set to minimum completion of 50% and maximum contamination of 10%. Taxonomy was assigned using NCBI_nt and NCBI_tax databases and verified with CheckM. The abundances of each bin (i.e., MAG) in each sample was expressed as genome copies per million reads using Salmon. Functional analysis of the annotated genomes was performed by extracting the cluster of orthologous group (COG) IDs from the annotated gff files generated by MetaW-RAP and assigning each ID to a COG category (<ref type="url" target="https://www.ncbi.nlm.nih.gov/research/cog/">https://  www</ref>. ncbi. nlm. nih. gov/ resea rch/ cog/). The draft genome of Pseudomonas granadensis was analyzed by SEED and the Rapid Annotation of microbial genomes using Subsystems Technology (RAST) <ref type="bibr" target="#b56">[57]</ref> and genomic islands assessed with IslandViewer 4 <ref type="bibr" target="#b57">[58]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Information</head><p>The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1186/s40168-022-01293-0">https:// doi.  org/ 10. 1186/ s40168-022-01293-0</ref>.</p><p>Additional file 1: Figure <ref type="figure">S1</ref>. Microbial burden assessment using culture. Bacteria were grown on R2A and blood agar plates and the cfu/m 2 averaged from each type of plate and then plotted. Fungi were grown on PDA plates. Each dot and corresponding number represents one of the eight surface locations sampled. X-axis labels: "BAC" refers to the bacterial load and "PDA" to the fungal load. Fx refers to one of the four flight sampling events.   Co-occurrence analysis. Co-occurrence analysis was performed using the 50 most abundant genera to determine associations amongst organisms. The x-axis shows the organisms that were included in the analysis and the y-axis shows the percent of either negative, positive or random associations. Gray bars represent random associations, blue bars represent positive associations and yellow bars represent negative associations. The genera are listed in order of least occurrences (left) to most occurrences (right). Figure <ref type="figure">S7</ref>. Heat map of ISS resistome. The metagenomic dataset was analyzed with DeepARG to look for antimicrobial resistance genes. The genes were then grouped into classes of resistance (i.e "beta-lactam"), which is displayed in this heatmap (y-axis). The heat-map shows the relative abundance of each resistance class in each sample collected, with red being the most abundant and green the least. Gray indicates zero counts detected in that sample The samples analyzed (x-axis) are from the non-PMA treated samples. x-axis naming: Fx_xS, with F referring to the flight (i.e., F4) and S referring to the location of the surface sampled (i.e., 1S is location 1, the port panel next to cupola). The AMR counts were normalized based on the 16S rRNA counts. Figure <ref type="figure">S8</ref>. Subsystem category distribution of Pseudomonas fluroescens metagenome assembled genome. The metaWRAP pipeline was used to assemble and annotate draft genomes constructed from the metagenomic data of 32 samples (F4-F7), otherwise known as MAGs-metagenomic assembled genomes. The MAG of Pseudomonas fluorescens was further analyzed with SEED and RAST. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authors' contributions</head><p>CU processed the ISS surface samples, extracted the DNA, performed the plate count assays, analyzed and interpreted the metagenomics data, and wrote the manuscript. MM analyzed and interpreted the metagenomics data and wrote the manuscript. JT performed the sequencing experiments and helped with the data curation. FK helped with the project implementation, metadata, and administration. DS helped with the project conceptualization and investigation. SM helped with the project conceptualization, funding acquisition, and astronaut sample coordination. CJ helped with the project conceptualization and funding acquisition, assisted with the project administration, supervised the project, and contributed to the manuscript. KV helped with the project conceptualization and funding acquisition and contributed to the manuscript. All authors read and approved the final manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declarations</head><p>Ethics approval and consent to participate Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Consent for publication</head><p>All authors have agreed to publish the manuscript in BMC Microbiome.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare that they have no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Publisher's Note</head><p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Size-resolved emission rates of airborne bacteria and fungi in an occupied class room</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hospodsy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Nazaroff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peccia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Indoor Air</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="339" to="351" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Bacterial colonization and succession in a newly opened hospital</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lax</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sangwan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Larsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Handley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Richardson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Transl Med</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">391</biblScope>
+			<biblScope unit="page">6500</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Ecological succession and viability of human-associated microbiota on restroom surfaces</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Gibbons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fouquier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sangwan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Gilbert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="765" to="773" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Longitudinal homogenization of the microbiome between both occupants and the built environment in a cohort of United States Air Force Cadets</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cralle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Stamper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Maestre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Stearns-Yoder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">70</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Seasonal variability in bacterial and fungal diversity of the near-surface atmosphere</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Bowers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Clements</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Emerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wiedinmyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Hannigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fierer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="12097" to="12106" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Particle-size distributions and seasonal diversity of allergenic and pathogenic fungi in outdoor air</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bibby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hospodsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rismani-Yazdi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Nazaroff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1801" to="1811" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Architectural design influences the diversity and structure of the built environment microbiome</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Kembel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kline</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Northcutt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Womack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1469" to="1479" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Urban greenness influences airborne bacterial community composition</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mhuireach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Altrichter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ladau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Meadow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Pollard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Total Environ</title>
+		<imprint>
+			<biblScope unit="volume">571</biblScope>
+			<biblScope unit="page" from="680" to="687" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Biomedical results of Apollo: National Aeronautics and Space Administration</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Dietlein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Berry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>West</surname></persName>
+		</author>
+		<idno>NASA- SP-368</idno>
+		<ptr target="https://ntrs.nasa.gov/search.jsp?R=19760005580" />
+		<imprint>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Biomedical results from Skylab: National Aeronautics and Space Administration</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Deitlein</surname></persName>
+		</author>
+		<idno>NASA-SP-377</idno>
+		<ptr target="https://ntrs.nasa.gov/citations/19770026836" />
+		<imprint>
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Review of the knowledge of microbial contamination of the Russian manned spacecraft</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Novikova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microb Ecol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="127" to="132" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Survey of environmental biocontamination on board the International Space Station</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Novikova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Boever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Poddubko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Deshevaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Polikarpov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rakova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="5" to="12" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Bacterial population in Russian space station &quot;Mir</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ezaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol Immunol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="819" to="828" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Biological induced corrosion of materials II: new test methods and experiences from MIR station</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Klintworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Reher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Viktorov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bohle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Astronaut</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">7-12</biblScope>
+			<biblScope unit="page" from="569" to="578" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Microbial contamination of spacecraft</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<ptr target="https://pubmed.ncbi.nlm.nih.gov/11865864/" />
+	</analytic>
+	<monogr>
+		<title level="j">Gravit Space Biol Bull</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Microbial monitoring of crewed habitats in space-current status and future perspectives</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yamaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Oubre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Makimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Leys</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbes Environ</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="250" to="260" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Microbial characterization during the early habitation of the International Space Station</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Thrasher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Healy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microb Ecol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="119" to="126" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Resilient microorganisms in dust samples of the International Space Station-survival of the adaptation specialists</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Perras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Alekhova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Krause</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aleksandrova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="21" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Microbiomes of the dust particles collected from the International Space Station and Spacecraft Assembly Facilities</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Checinska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Probst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vaishampayan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Stepanov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">50</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">International Space Station environmental microbiome -microbial inventories of ISS filter debris</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vaishampayan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cisneros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">O</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Perry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Microbiol Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="6453" to="6466" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Four-year bacterial monitoring in the International Space Station-Japanese experiment module &quot;Kibo&quot; with culture-independent approach</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ichijo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yamaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tanigaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shirakawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nasu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">16007</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A microbial survey of the International Space Station (ISS)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Coil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Y</forename><surname>Neches</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cavalier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Severance</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">e4029</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Microbial surveillance of potable water sources of the International Space Station</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bruce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Skuratov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pierson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SAE Trans</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="283" to="292" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Detection of antimicrobial resistance genes associated with the International Space Station environmental surfaces</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urbaniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Sielaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Frey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jaing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">814</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Space station conditions are selective but do not alter microbial characteristics relevant to human health</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kögler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mahnert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rettberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schwendner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">3990</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces</title>
+		<author>
+			<persName><forename type="first">Checinska</forename><surname>Sielaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Urbaniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gbm</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">50</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Draft genome sequences of various bacterial phyla isolated from the International Space Station</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urbaniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Debieu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol Resour Announc</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="214" to="221" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Karouia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">204</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Study of the impact of long-duration space missions at the International Space Station on the astronaut microbiome</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Voorhies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Crucian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Feiveson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">9911</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Crewmember microbiome may influence microbial composition of ISS habitable surfaces</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Avila-Herrera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Thissen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urbaniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Be</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Karouia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">231838</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Longitudinal analysis of microbial interaction between humans and the indoor environment</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lax</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hampton-Marcell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Owens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Handley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="issue">6200</biblScope>
+			<biblScope unit="page" from="1048" to="1052" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Co-occurrence patterns of bacteria within microbiome of Moscow subway</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Klimenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Tyakht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Toshchakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Shevchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Korzhenkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Afshinnekoo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Struct Biotechnol J</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="314" to="322" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Differences in distribution of MLS antibiotics resistance genes in clinical isolates of staphylococci belonging to species: S. epidermidis, S. hominis, S. haemolyticus, S. simulans and S. warneri</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Szemraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Czekaj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kalisz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Szewczyk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">124</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Treatment of methicillin-resistant Staphylococcus aureus infections with quinupristin-dalfopristin in patients intolerant of or failing prior therapy</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Drew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Perfect</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Srinath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kurkimilis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dowzicky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Talbot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Antimicrob Chemother</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="775" to="784" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Inducible clindamycin resistance in Staphylococcus aureus isolated from clinical samples</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Appalaraju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jayakumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Commun Dis</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="263" to="268" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Function and functional redundancy in microbial systems</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Louca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Polz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mazel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mbn</forename><surname>Albright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="936" to="943" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Functional redundancy-induced stability of gut microbiota subjected to disturbance</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Moya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ferrer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="402" to="413" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Ocean plankton. Structure and function of the global ocean microbiome</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sunagawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Coelho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chaffron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Kultima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Labadie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Salazar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">348</biblScope>
+			<biblScope unit="issue">6237</biblScope>
+			<biblScope unit="page">1261359</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Functional redundancy of soil microbiota -does more always mean better?</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grządziel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pol J Soil Sci</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page">75</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Deciphering functional redundancy in the human microbiome</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X-W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A-K</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dahlin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">6217</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Aspergillus flavus and Fusarium verticillioides interaction: modeling the impact on mycotoxin production</title>
+		<author>
+			<persName><forename type="first">Camardo</forename><surname>Leggieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Giorni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pietri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Battilani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">2653</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Impact of fungi co-occurrence on mycotoxin contamination in maize during the growing season</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Giorni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bertuzzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Battilani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1265</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Aflatoxin B1-induced hepatocellular carcinoma in developing countries: geographical distribution, mechanism of action and prevention</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Hamid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Tesfamariam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">G</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oncol Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1087" to="1092" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Antibiosis interaction of Staphylococccus aureus on Aspergillus fumigatus assessed in vitro by mixed biofilm formation</title>
+		<author>
+			<persName><forename type="first">Ramírez</forename><surname>Granillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Canales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mgm</forename><surname>Espíndola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mes</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martínez</forename><surname>Rivera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>De Lucio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vmb</forename><surname>Tovar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Avr</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">33</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Biofilm formation by Aspergillus fumigatus</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kaur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Mycol</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="2" to="9" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Exposure to Aspergillus in home and healthcare facilities&apos; water environments: focus on biofilms</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rautemaa-Richardson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microorganisms</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">7</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The dual role of microbes in corrosion</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Van Veen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="542" to="551" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Fungi, water supply and biofilms</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kauffmann-Lacroix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Imbert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Exp Med Biol</title>
+		<imprint>
+			<biblScope unit="volume">931</biblScope>
+			<biblScope unit="page" from="49" to="61" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Yeasts and yeast-like fungi in tap water and groundwater, and their transmission to household appliances</title>
+		<author>
+			<persName><forename type="first">Novak</forename><surname>Babič</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zalar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ženko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Džeroski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gunde-Cimerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fungal Ecol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="30" to="39" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Man-made microbial resistances in built environments</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mahnert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Moissl-Eichinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zojer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bogumil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mizrahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rattei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">968</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">New perspectives on viable microbial communities in low-biomass cleanroom environments</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vaishampayan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Probst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">La</forename><surname>Duc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Bargoma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Benardini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="312" to="324" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Using populations of human and microbial genomes for organism detection in metagenomes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Ames</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Marti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Slezak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Gokhale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Allen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1056" to="1067" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Unifying the analysis of high-throughput sequencing datasets: characterizing RNA-seq, 16S rRNA gene sequencing and selective growth experiments by compositional data analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jns</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Macklaim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Mcmurrough</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Edgell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Gloor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">15</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">DeepARG: a deep learning approach for predicting antibiotic resistance genes from metagenomic data</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Arango-Argoty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Garner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pruden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Heath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vikesland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">23</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">A probabilistic model for analysing species co-occurrence</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Veech</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glob Ecol Biogeogr</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="252" to="260" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">MetaWRAP-a flexible pipeline for genome-resolved metagenomic data analysis</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">V</forename><surname>Uritskiy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Diruggiero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">158</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">The SEED and the Rapid Annotation of microbial genomes using Subsystems Technology (RAST)</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Overbeek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Pusch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Olsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Disz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="206" to="D214" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>Database issue</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">IslandViewer 4: expanded prediction of genomic islands for larger-scale datasets</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bertelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Laird</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simon</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">University</forename><surname>Research</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Computing</forename><surname>Group</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">Y</forename><surname>Lau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hoad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">W1</biblScope>
+			<biblScope unit="page" from="30" to="W35" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Cultivation in Space Flight Produces Minimal Alterations in the Susceptibility of Bacillus subtilis Cells to 72 Different Antibiotics and Growth-Inhibiting Compounds</title>
+				<funder ref="#_p7XjVPj">
+					<orgName type="full">NASA</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">D</forename><surname>Morrison</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Patricia</forename><surname>Fajardo-Cavazos</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Wayne</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Microbiology and Cell Science</orgName>
+								<orgName type="institution">University of Florida</orgName>
+								<address>
+									<settlement>Gainesville</settlement>
+									<region>Florida</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Carolina State University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Cultivation in Space Flight Produces Minimal Alterations in the Susceptibility of Bacillus subtilis Cells to 72 Different Antibiotics and Growth-Inhibiting Compounds</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">FE08EDA7DA81565336055DDC27F7390F</idno>
+					<idno type="DOI">10.1128/AEM.01584-17.</idno>
+					<note type="submission">Received 19 July 2017 Accepted 11 August 2017 Accepted manuscript posted online 18 August 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:25+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>antibiotic profiling</term>
+					<term>Bacillus subtilis</term>
+					<term>International Space Station</term>
+					<term>phenotype</term>
+					<term>space flight</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Past results have suggested that bacterial antibiotic susceptibility is altered during space flight. To test this notion, Bacillus subtilis cells were cultivated in matched hardware, medium, and environmental conditions either in space flight microgravity on the International Space Station, termed flight (FL) samples, or at Earthnormal gravity, termed ground control (GC) samples. The susceptibility of FL and GC samples was compared to 72 antibiotics and growth-inhibitory compounds using the Omnilog phenotype microarray (PM) system. Only 9 compounds were identified by PM screening as exhibiting significant differences (P Ͻ 0.05, Student's t test) in FL versus GC samples: 6-mercaptopurine, cesium chloride, enoxacin, lomefloxacin, manganese(II) chloride, nalidixic acid, penimepicycline, rolitetracycline, and trifluoperazine. Testing of the same compounds by standard broth dilution assay did not reveal statistically significant differences in the 50% inhibitory concentrations (IC 50 s) between FL and GC samples. The results indicate that the susceptibility of B. subtilis cells to a wide range of antibiotics and growth inhibitors is not dramatically altered by space flight.</p><p>IMPORTANCE This study addresses a major concern of mission planners for human space flight, that bacteria accompanying astronauts on long-duration missions might develop a higher level of resistance to antibiotics due to exposure to the space flight environment. The results of this study do not support that notion.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>I n physical terms, the space flight environment (e.g., microgravity, radiation, etc.), causes a number of changes in a microbial cell's immediate surroundings, such as the loss of convective mass and heat transfer and a reduction in mechanical shear force. Alterations in such fundamental physical parameters affect the rates at which gases, nutrients, signaling molecules, and waste products are exchanged between the microbe and its surroundings. Microbes perceive these alterations as environmental stress (the so-called "space flight syndrome") and mount a complex set of stress responses <ref type="bibr" target="#b0">(1)</ref>. There is considerable interest in studying the responses of microorganisms to the human space flight environment, driven in part by reports that: (i) astronaut immune function becomes dysregulated during long-term space flight (2-4); (ii) certain pathogenic and opportunistic bacteria appear to exhibit enhanced virulence in space flight <ref type="bibr" target="#b2">(3,</ref><ref type="bibr" target="#b4">5)</ref>; and (iii) space flight can alter the antibiotic resistance of some microorganisms <ref type="bibr" target="#b5">(6)</ref><ref type="bibr" target="#b6">(7)</ref><ref type="bibr" target="#b7">(8)</ref>. However, the results of experiments to evaluate the effect of space flight on any particular phenotype appear to differ depending on the microorganism tested and the experimental setup. It is thus becoming evident that the physiological responses of microbes to the space flight environment differ, and that it is unlikely that one single model is sufficient to explain them.</p><p>Antibiotic resistance in space. One often-quoted consequence of the space flight stress response of microbes is an increased resistance to antibiotics (reviewed in reference 9). Early studies of microbial antibiotic resistance in microgravity focused mainly on transient physiologic changes leading to increased or decreased antibiotic susceptibility <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10)</ref>. An increase in microbial antibiotic resistance in the microgravity environment was concluded from experiments performed on Salyut 7 <ref type="bibr" target="#b9">(10)</ref> and the space shuttles Challenger <ref type="bibr" target="#b5">(6)</ref> and Discovery <ref type="bibr" target="#b6">(7)</ref>. In these experiments, the increased antibiotic resistance observed in space was apparently a physiologic, not a heritable genetic, response that was reversible upon return of the microbial cultures to normal gravity <ref type="bibr" target="#b10">(11)</ref>. However, a recent careful review of the literature regarding antibiotic resistance in space led Taylor to conclude that "the anomalies generated by this confusing body of work can only be completely resolved by further in-flight experimentation undertaken in systematic fashion" <ref type="bibr" target="#b2">(3)</ref>.</p><p>In contrast, space flight has been documented to cause genetic alterations (i.e., mutations) leading to antibiotic resistance. In experiments performed on space station Mir and the International Space Station (ISS), it was observed that both the frequency and the spectrum of mutations conferring resistance to the antibiotics streptomycin in Escherichia coli <ref type="bibr" target="#b11">(12)</ref> and rifampin in Staphylococcus epidermidis <ref type="bibr" target="#b12">(13)</ref> were clearly altered. Experiments on the ISS have demonstrated that horizontal transfer of antibiotic resistance plasmids can occur among both Gram-positive and Gram-negative bacteria <ref type="bibr" target="#b13">(14)</ref>. Furthermore, an exchange of microflora has been reported among cosmonauts in ground-based confinement scenarios, among Apollo astronauts, and among Shuttle and ISS crews (reviewed in reference 9). Taken together, these observations may lead to a scenario in which opportunistic pathogens could gain antibiotic resistance, establish residence inside the habitat or in astronauts, and disseminate through the astronaut population.</p><p>To test the notion that antibiotic resistance becomes enhanced during space flight, we chose to measure the resistance of space-versus Earth-grown bacterial cells to a large battery of antibiotics belonging to several classes with differing modes of action. For this study, we chose to use the Gram-positive bacterium Bacillus subtilis, which possesses several advantages as a model organism: (i) it is susceptible to a wide range of antibiotics, (ii) it is easily cultivated and amenable to genetic manipulation, (iii) it forms dormant spores, making it an easy system to prepare for space flight, (iv) it is the best-studied Gram-positive bacterium, and (v) the development of its genetics, genomics, and molecular biology is highly advanced. The advantage of using the welldeveloped B. subtilis system is that any potential effect of space flight can readily be investigated in further detail. We therefore describe here the phenotypic profiling of B. subtilis in response to 72 different antibiotics and growth inhibitors after growth on the ISS compared to that of matched ground controls.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>PM screening for differential antibiotic resistance in FL versus GC samples. Using Omnilog phenotype microarray (PM) plates PM-11C, PM-12B, and PM-13B (Table <ref type="table" target="#tab_0">1</ref>), triplicate B. subtilis flight (FL) and ground control (GC) samples were screened for their resistance to 72 antibiotics and growth inhibitors. Each compound was tested at four different concentrations, and FL samples were compared to GC samples. For the majority of compounds tested (63 of 72), no significant difference was detected in FL versus GC samples by PM screening, and statistically significant differences were detected for 9 of the 72 compounds tested (Table <ref type="table" target="#tab_0">1</ref>). These nine inhibitors were divided into two groups. The first group consisted of FL samples which showed significantly increased resistance compared to GC samples, and the second group consisted of FL samples which showed significantly decreased resistance compared to GC samples.</p><p>Compounds with higher resistance in FL samples. In PM assays, FL samples displayed significantly greater resistance toward 3 of the growth inhibitors tested: enoxacin, 6-mercaptopurine, and trifluoperazine (Table <ref type="table" target="#tab_1">2</ref>; Fig. <ref type="figure">1</ref>).</p><p>Enoxacin. Enoxacin is a broad-spectrum bactericidal antibiotic belonging to the fluoroquinolone family that is no longer used clinically in the United States. It acts primarily by inhibiting DNA gyrase and topoisomerase IV <ref type="bibr" target="#b14">(15)</ref>. The resistance to enoxacin was observed to be Ͼ50-fold higher in FL (area under the curve [AUC] of 2,508 Ϯ 627) than in GC (AUC of 44 Ϯ 58) samples (Table <ref type="table" target="#tab_1">2</ref>). Examination of the dose response of FL versus GC samples to enoxacin showed that FL cultures were significantly more resistant than GC cultures at the highest enoxacin concentration tested, in well E08 (Fig. <ref type="figure">1A</ref>).</p><p>6-Mercaptopurine. The DNA synthesis inhibitor 6-mercaptopurine is primarily used as an anticancer and immunosuppressive drug and is not currently used clinically to treat bacterial infections. However, recent studies have indicated that it can inhibit the growth of Mycobacterium spp. <ref type="bibr" target="#b15">(16,</ref><ref type="bibr" target="#b16">17)</ref>. The resistance to 6-mercaptopurine was observed to be ϳ2-fold higher in FL (AUC of 3,722 Ϯ 894) than in GC (AUC of 1,835 Ϯ 11) samples (Table <ref type="table" target="#tab_1">2</ref>). An examination of the dose response of FL versus GC samples to 6-mercaptopurine revealed that FL cultures were significantly more resistant than GC cultures in the second well tested, C02 (Fig. <ref type="figure">1B</ref>).</p><p>Trifluoperazine. Trifluoperazine is an efflux pump inhibitor originally identified as an antipsychotic and anxiolytic drug but has since been shown to exhibit broad-spectrum in vitro antimicrobial activity <ref type="bibr" target="#b17">(18,</ref><ref type="bibr" target="#b18">19)</ref>. The resistance to trifluoperazine was observed to be ϳ1.8-fold higher in FL (AUC of 3,659 Ϯ 749) than in GC (AUC of 2,018 Ϯ 628) samples (Table <ref type="table" target="#tab_1">2</ref>). Examination of the dose response of FL versus GC samples to trifluoperazine showed  that FL cultures were significantly more resistant than GC cultures at the second concentration tested, in well G10 (Fig. <ref type="figure">1C</ref>).</p><p>Compounds with higher resistance in GC samples. GC samples were observed to be significantly more resistant than FL samples to 6 growth inhibitors [lomefloxacin, nalidixic acid, penimepicycline, rolitetracycline, manganese(II) chloride, and cesium chloride] (Table <ref type="table" target="#tab_1">2</ref>; Fig. <ref type="figure">2</ref>).</p><p>Lomefloxacin and nalidixic acid. Lomefloxacin and nalidixic acid are both fluoroquinolone antibiotics belonging to the same family as enoxacin <ref type="bibr" target="#b19">(20)</ref> and which also inhibit FIG 2 Resistance profiles of FL (white bars) and GC (gray bars) samples to lomefloxacin (A), nalidixic acid (B), penimepicycline (C), rolitetracycline (D), CsCl (E), and Mg(II)Cl 2 (F). Data are shown as means Ϯ standard deviations of the areas under the curves (AUCs). *, P Յ 0.05 by Student's t test (n ϭ 3); n.d., not detected.</p><p>DNA gyrase and topoisomerase IV <ref type="bibr" target="#b20">(21,</ref><ref type="bibr" target="#b21">22)</ref>. The resistance to lomefloxacin was observed to be ϳ1.4-fold lower in FL (AUC of 3,222 Ϯ 776) than in GC (AUC of 4,509 Ϯ 135) samples, and the resistance to nalidixic acid was also observed to be ϳ1.4-fold lower in FL (AUC of 2,496 Ϯ 200) than in GC (AUC of 3,437 Ϯ 105) samples (Table <ref type="table" target="#tab_1">2</ref>). An examination of the dose response of FL versus GC samples to lomefloxacin showed that FL cultures were significantly more sensitive than GC cultures at the highest concentration of lomefloxacin tested, in well B12 (Fig. <ref type="figure">2A</ref>) and at the third concentration of nalidixic acid tested, in well E11 (Fig. <ref type="figure">2B</ref>). Note that at the highest concentration of nalidixic acid tested (well E12), FL samples appeared to be more resistant than GC samples. However, we were unable to compare FL versus GC samples statistically, because no metabolic activity was detected in the GC samples (Fig. <ref type="figure">2B</ref>).</p><p>Penimepicycline. Penimepicycline is a combination of mepicycline, a derivative of tetracycline which inhibits protein synthesis by binding to the 30S ribosomal subunit <ref type="bibr" target="#b22">(23)</ref>, and phenoxymethylpenicillin, a derivative of the cell wall inhibitor penicillin <ref type="bibr" target="#b23">(24)</ref>; this antibiotic is no longer commercially available. The resistance to penimepicycline was observed to be slightly (ϳ1.2-fold) but significantly lower in FL (AUC of 3,738 Ϯ 269) than in GC (AUC of 4,400 Ϯ 160) samples (Table <ref type="table" target="#tab_1">2</ref>). An examination of the dose response of FL versus GC samples to penimepicycline showed that FL cultures were significantly more sensitive than GC cultures at the second concentration tested, in well B06 (Fig. <ref type="figure">2C</ref>).</p><p>Rolitetracycline. Rolitetracycline is also a semisynthetic derivative of tetracycline <ref type="bibr" target="#b22">(23)</ref>. The resistance to rolitetracycline was observed to be slightly (ϳ1.1-fold) but significantly lower in FL (AUC of 4,556 Ϯ 53) than in GC (AUC of 4,998 Ϯ 167) samples (Table <ref type="table" target="#tab_1">2</ref>). An examination of the dose response of FL versus GC samples to rolitetracycline showed that FL cultures were significantly more sensitive than GC cultures at the first concentration tested, in well D09 (Fig. <ref type="figure">2D</ref>).</p><p>Cesium chloride. Cesium chloride (CsCl) is known to be toxic to many microorganisms, but its cellular target(s) and mechanism(s) of action are poorly understood <ref type="bibr" target="#b24">(25)</ref>. The resistance to CsCl was observed to be significantly lower (ϳ1.13-fold and ϳ1.27fold) in FL than in GC samples at the two highest concentrations tested, exhibiting AUCs of 3,219 Ϯ 68 and 2,467 Ϯ 91 (FL) versus AUCs of 3,462 Ϯ 112 and 3,139 Ϯ 100 (GC), respectively (Table <ref type="table" target="#tab_1">2</ref>). An examination of the dose response of FL versus GC samples to CsCl showed that FL cultures were significantly more sensitive than GC cultures at the third and fourth concentrations tested, in wells F03 and F04 (Fig. <ref type="figure">2E</ref>).</p><p>Mn(II)Cl 2 . Growth inhibition by manganese results from its competitive replacement of a magnesium cofactor in essential enzymes <ref type="bibr" target="#b25">(26)</ref>. Resistance to Mn(II)Cl 2 was observed to be slightly lower (ϳ1.06-fold) in FL (AUC of 5,391 Ϯ 120) than in GC (AUC of 5,713 Ϯ 133) samples (Table <ref type="table" target="#tab_1">2</ref>). An examination of the dose response of FL versus GC samples to Mn(II)Cl 2 revealed that FL cultures were significantly more sensitive than GC cultures in the third well tested, G07 (Fig. <ref type="figure">2F</ref>).</p><p>Additional DNA gyrase inhibitors. We noted above that of the 9 compounds exhibiting differing resistance levels by PM screening in FL versus GC samples, three (enoxacin, lomefloxacin, and nalidixic acid) belonged to the quinolone/fluoroquinolone family of DNA gyrase inhibitors, suggesting that DNA supercoiling may be affected by space flight. The gyrase inhibitors ofloxacin, oxolinic acid, and novobiocin were also included in our initial Omnilog PM screening, but were not identified as exhibiting significant differences in FL versus GC samples (Table <ref type="table" target="#tab_0">1</ref>). When the PM data were examined more closely (Fig. <ref type="figure" target="#fig_1">3</ref>), we observed that ofloxacin, oxolinic acid, and novobiocin were not present in PM plates at concentration ranges useful for determining resistance or sensitivity to these antibiotics. In the cases of ofloxacin and oxolinic acid, both FL and GC samples grew equally well at all four concentrations tested (Fig. <ref type="figure" target="#fig_1">3A</ref> and <ref type="figure">B</ref>). On the other hand, the growth of FL and GC samples was essentially inhibited completely at all 4 concentrations of novobiocin tested (Fig. <ref type="figure" target="#fig_1">3C</ref>). Thus, no conclusions about the relative resistance of FL versus GC samples to these three antibiotics could be drawn from the PM screening experiment. Consequently, we chose to test the resistance of FL versus GC samples to ofloxacin, oxolinic acid, and novobiocin using the broth dilution method as described in the following section.</p><p>IC 50 s of FL versus GC samples by broth dilution. While PM microplates were very convenient and useful for high-throughput screening of the resistance profiles of FL and GC samples to many antibiotics, they also presented a number of limitations. First, the actual concentrations of the antibiotics present in the PM screening plates are proprietary information. Second, in some instances, the antibiotic concentrations in PM plates were not within a useful range (Fig. <ref type="figure" target="#fig_1">3</ref>). Third, not all representatives of each antibiotic class are included on PM plates. For these reasons, we chose to more closely quantify antibiotic resistance levels (50% inhibitory concentrations [IC 50 s]) of FL and GC samples to a selection of antibiotics using the broth dilution method as described in Materials and Methods. We determined the IC 50 s of FL and GC samples to antibiotics identified as significantly different in PM plates (6-mercaptopurine, enoxacin, lomefloxacin, nalidixic acid, and trifluoperazine). We also tested quinolone/fluoroquinolone antibiotics that were included in PM plates but were outside a useful concentration range (ofloxacin, oxolinic acid, and novobiocin). In addition, due to their common clinical use and their inclusion in the ISS pharmacy <ref type="bibr" target="#b26">(27)</ref>, we also decided to determine the IC 50 s for the fluoroquinolone antibiotics ciprofloxacin and levofloxacin, which were not included in the PM panels used. Each of the 10 antibiotics were screened over a range of concentrations allowing normal growth to complete sensitivity, and IC 50 s were determined for each sample using normalized A, , and AUC. The broth dilution data are presented graphically for ciprofloxacin as an example of how the IC 50 s were determined for each antibiotic (Fig. <ref type="figure" target="#fig_2">4</ref>), and the complete data set of IC 50 s for all 10 antibiotics is presented in Table <ref type="table" target="#tab_2">3</ref>. Examination of the data revealed no statistically significant differences between the IC 50 s for FL versus GC samples regardless of the parameter used (A, , or AUC) for any of the 10 antibiotics tested (Table <ref type="table" target="#tab_2">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Understanding the development of bacterial antibiotic resistance in the human space flight environment is relevant to long-term human missions to distant exploration targets such as asteroids or Mars <ref type="bibr" target="#b10">(11)</ref>. In particular, the possibility that space flight increases the resistance of microorganisms to antibiotics and other biocidal compounds has long been of concern to mission planners. In the experiments reported here we measured the antibiotic resistance profiles of B. subtilis cells, grown in the space flight environment onboard the International Space Station and in matched ground control conditions, to a battery of 72 antibiotics and growth inhibitors using Omnilog PM microplates. In PM microplates, no significant difference in the resistance levels between FL versus GC samples was observed for 63 out of the 72 compounds tested (Table <ref type="table" target="#tab_0">1</ref>). Only 9 of 72 antibiotics tested in PM plates demonstrated statistically significant differences in the resistance levels of FL versus GC samples (Table <ref type="table" target="#tab_1">2</ref>). However, the magnitude of differences in FL versus GC resistance to 8 of the 9 antibiotics, while statistically significant, was very modest (2-fold or less) (Table <ref type="table" target="#tab_1">2</ref>). Furthermore, FL samples were more resistant than GC samples to only 3 of the 9 antibiotics, but were more sensitive than GC samples to 6 of the 9 antibiotics tested (Table <ref type="table" target="#tab_1">2</ref>). In PM microarrays, FL samples were dramatically more resistant than GC samples to only one of the 72 antibiotics tested, enoxacin (Ͼ50-fold; Table <ref type="table" target="#tab_1">2</ref>). This result will be discussed further below. Taken together, the PM data do not support the generally held contention that growth of microbes under space flight conditions leads to increased antibiotic resistance.</p><p>We next used standard broth dilution assays to determine the IC 50 s for 10 clinically relevant antibiotics that warranted closer examination. No statistically significant differences in IC 50 s were observed between the FL and GC samples for any of the antibiotics tested, regardless of the growth parameter examined (maximum growth achieved [A], maximum growth rate [], or AUC) (Table <ref type="table" target="#tab_2">3</ref>). For most of the antibiotics tested, these results were not surprising, given the very slight (2-fold or less) effects seen in the PM microplate assays (Table <ref type="table" target="#tab_1">2</ref>). In the case of only one antibiotic, enoxacin, were the PM and broth dilution results clearly at odds. This discrepancy may be due to the different variables tested in the two assays. In PM microplates, metabolic activity is  measured photometrically using a redox dye, whereas in the broth dilution assay, cell growth is measured by turbidity, i.e., by optical density. Regardless, the results of the two assays do not support the notion that space flight increases the antibiotic resistance of microorganisms. We feel obliged to discuss alternative factors that might affect the above conclusion. First, the choice of growth media, culture conditions, test organisms, and space flight hardware can account for differing responses to the space flight environment (reviewed in reference 3). Second, the experimental design we used might deemphasize differences between FL and GC samples. Despite the different environments in which FL and GC samples were grown, the actual antibiotic resistance assays were performed under Earth-bound laboratory conditions. It is possible that during the 24-hour duration of the assays, FL samples might have readapted physiologically to 1ϫ g, thus minimizing differences with the GC samples. While it is difficult to control for this factor, we note a previous space flight experiment in which Salmonella enterica serovar Typhimurium cells were grown in FL and GC, and FL samples were shown to be more virulent in BALB/c mice on Earth after space flight <ref type="bibr" target="#b27">(28)</ref>.</p><p>The results presented here indicate that space flight causes only minimal alterations in the phenotypic response of B. subtilis cells to antibiotic susceptibility, with the possible exception of enoxacin. The probability that any differences seen could have resulted from a genetic change, such as a mutation, is very low. In a separate experiment using the same biological research in canisters (BRIC)-21 FL and GC samples as those tested here, we measured the frequencies of mutations to antibiotic resistance in all of the FL and GC petri dish fixation units (PDFUs) used in this study (data to be published elsewhere). In all 12 samples, the mutation frequencies were less than 10 Ϫ7 (i.e., less than 1 mutant per 10 million cells). This frequency is much too low to produce an effect on the antibiotic resistance of the bulk population.</p><p>To gain a more accurate understanding of the response of microbial cells to antibiotics in space, it would be ideal to design experiments for the high-throughput screening of antibiotics directly in the space flight environment. A preliminary step has already been taken in this direction. For example, the resistance of Saccharomyces cerevisiae yeast to the antifungal agent voriconazole was shown to differ in FL versus GC samples using the free-flying PharmaSat nanosatellite <ref type="bibr" target="#b7">(8)</ref>; such a design could readily be adapted for high-throughput in-flight antibiotic screening either by a free-flying nanosatellite or by a small semiautonomous payload sent to the ISS.</p><p>Taken at face value, it would seem that the results of this study imply that there is little cause for alarm regarding the emergence of antibiotic-resistant microbes during human space flight. However, it should be emphasized that these in vitro experiments exploring antibiotic resistance only touch upon one small facet of the chemotherapy of a potentially infected astronaut. Many aspects of the interplay among the host, the microbe, and the antibiotic (such as modes of entry, routes of pathogenesis, pharmacokinetics, etc.), which have been studied extensively in Earth-bound clinical settings, have yet to be explored in the space flight environment.</p><p>As a final note, aside from their clinical significance, antibiotics have long been used to probe basic biological processes at the molecular level (such as replication, transcription, translation, membrane and cell wall biogenesis, etc.). From this perspective, it is interesting to note that among the 9 antibiotics flagged by PM screening as showing different sensitivities in FL versus GC samples, 3 belonged to the quinolone/ fluoroquinolone class of compounds (lomefloxacin, enoxacin, and nalidixic acid). These compounds inhibit DNA gyrases, which are type II DNA topoisomerases that function to (i) condense DNA in the cell, (ii) maintain DNA under the optimal supercoiled state for gene expression, and (iii) decatenate DNA during chromosome partitioning (29); all three functions of DNA gyrases are essential for cell viability, and moreover, are sensitive to environmental changes. From the above observations, it is attractive to speculate that the growth of cells in the space flight environment may lead to alterations in DNA supercoiling, hence, in global gene expression <ref type="bibr" target="#b29">(30)</ref>. This notion could be tested directly by measuring the superhelicity of DNA in FL versus GC cells of B. subtilis in a manner similar to that previously described <ref type="bibr" target="#b30">(31)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head><p>Bacterial strain, medium, and growth conditions. The bacterium used was B. subtilis strain 168 from our laboratory stock collection. The medium used throughout for routine cultivation and plating was Trypticase soy-yeast extract (TSY) medium consisting of (g/liter): tryptone, 15; soytone, 5; NaCl, 5; yeast extract, 3; K 2 HPO 4 , 2.5; glucose, 2.5; final pH 7. For semisolid plates, agar was added at 15.0 g/liter. For the cultivation of space flight and ground control cells in space flight hardware, TSY medium containing 10% (vol/vol) glycerol was prepared by mixing equal volumes of sterile double-strength TSY and sterile 20% (vol/vol) glycerol. This medium was used because it supports cell growth to a high density and was used in a prior space flight experiment <ref type="bibr" target="#b12">(13)</ref>. Spores of strain 168 were prepared and purified as described previously <ref type="bibr" target="#b31">(32)</ref> and were stored at 4°C in deionized water. An examination by phase-contrast microscopy confirmed that the spore preparation was devoid of vegetative cells and contained Ͼ99% phase-bright spores. The spore suspension was heat activated (65°C for 20 min) before use. From a working suspension (10 8 /ml) of spores in water, aliquots of 0.1 ml (ϳ10 7 CFU) were applied to the bottoms of sterile 60-mm-diameter petri dishes (Falcon catalog no. 1007; Fisher Scientific) and air dried for 48 to 72 h at room temperature protected from light prior to placement in space flight hardware.</p><p>BRIC space flight hardware. Samples were integrated into biological research in canisters-dual chamber (BRIC-DC) space flight hardware, which has been described in detail previously <ref type="bibr" target="#b32">(33)</ref><ref type="bibr" target="#b33">(34)</ref><ref type="bibr" target="#b34">(35)</ref>. BRIC canisters hold six 60-mm-diameter petri dish bottoms in small subcompartments called petri dish fixation units (PDFUs). Each PDFU allows for the injection of medium, referred to as actuation, to initiate bacterial growth. For flight (FL) experiments, 2 BRIC canisters were used, each containing five PDFUs and one HOBO temperature data logger (Onset, Inc., Cape Cod MA). Postflight asynchronous ground control (GC) experiments were conducted using the same hardware and configuration as in the FL experiment. Each PDFU was loaded with a petri dish containing air-dried spores, and 17 ml of sterile TSY plus 10% glycerol medium was loaded into a separate reservoir. To prevent contamination, all reagents and equipment used were sterilized in an autoclave prior to use, and PDFUs were assembled using an aseptic technique within a biosafety level 2 (BSL2)-rated biological safety cabinet.</p><p>Experimental flight timeline. The BRIC-PDFU payload described above was the 21st BRIC mission to space, and was designated BRIC-21. The payload was launched from Kennedy Space Center (KSC) on the 6th SpaceX cargo resupply mission to the ISS (SpaceX-6 CRS) on 14 April 2015, using the Falcon 9 rocket and Dragon capsule configuration. The growth of flight (FL) samples was initiated by the injection of 8.5 ml TSY plus 10% glycerol medium on 20 April 2015 (Fig. <ref type="figure" target="#fig_3">5A</ref>), and they were incubated at ambient ISS temperature for 25 h (Fig. <ref type="figure" target="#fig_3">5B</ref>). Temperature data were logged at 10-min intervals during the FL experiment. The average temperature recorded during the growth periods in the FL canister was 22.8 Ϯ 0.07°C. Preflight experimentation indicated that under these conditions of medium, temperature, and time, cells grew to the late exponential phase (data not shown). At the end of the incubation period, BRIC canisters were transferred into Ϫ80°C freezers, and the HOBO units registered temperatures below 0°C within 60 min (FL) and 80 min (GC) (Fig. <ref type="figure" target="#fig_3">5B</ref>). All HOBO units performed nominally for the entire duration of the experiment. On 21 April 2015, growth was terminated by the transfer of the BRIC canisters to the onboard minus eighty-degree laboratory freezer for ISS (MELFI). FL samples were kept frozen for their return to Earth in the Dragon capsule on 21 May 2015 and were maintained in the frozen state until their return to KSC on 1 June 2015 for deintegration. Samples were recovered from BRIC canisters in the frozen state, transported on dry ice to the laboratory, and stored at Ϫ80°C.</p><p>Postflight asynchronous ground control (GC) experiment samples were prepared and treated using the same BRIC-PDFU hardware, configuration, schedule, and temperature profile as in the FL experiment. BRIC-PDFU hardware was incubated in the ISS environmental simulation (ISSES) chamber at KSC, which was programmed to play back the ISS temperature profile recorded by the HOBO data loggers during the flight (Fig. <ref type="figure" target="#fig_3">5B</ref>). The average temperature recorded in the GC experiment was 22.8 Ϯ 0.21°C. After 25 h of incubation, the samples were transferred to a Ϫ80°C freezer.</p><p>Antibiotic resistance profiling using phenotype microarray. The determination of antibiotic resistance patterns among FL and GC samples was performed using the Omnilog phenotype microarray (PM) system (Biolog, Inc., Hayward, CA) using the manufacturer's recommend plates, reagents, and protocols. Frozen FL and GC cultures were partially thawed at room temperature, and then the partially frozen cell slurries were transferred into sterile 15-ml conical centrifuge tubes and placed immediately on ice to complete the thawing. The culture volumes recovered were recorded for later calculations. Each culture was mixed thoroughly by vortexing, and an aliquot was removed for viable cell count determination. Cells were recovered by centrifugation (7,000 ϫ g for 20 min at 0°C) in a benchtop centrifuge, and cell pellets were immediately suspended by vortex mixing in 5 ml of inoculating fluid (IF) IF-10b (Biolog, Hayward, CA). Cells were then diluted with fresh IF-10b until the suspension reached an optical density at 660 nm (OD 660 ) of 0.08 in a UV-visible (UV-Vis) spectrophotometer (Shimadzu model UV 1800). From a prior calibration curve, we determined that this OD 660 in a standard 1-cm-path-length cuvette corresponded to 81% transmittance in Biolog's turbidimeter (data not shown).</p><p>Omnilog PM plates PM-11C, PM-12B, and PM-13B are 96-well microtiter plates, with each plate containing 4 different concentrations of 24 different antibiotics or growth-inhibiting compounds. (Note that the concentration of each compound in each well is information proprietary to Biolog, Inc.) A complete list of the 72 compounds in these plates is available at <ref type="url" target="http://www.biolog.com/pdf/pm_lit/PM11-PM20.pdf">http://www.biolog.com/pdf/pm_lit/  PM11-PM20.pdf</ref>. An inoculation mixture was prepared consisting of (per plate): 10 ml of IF-10b, 1 ml of PM additive (12ϫ), 0.12 ml of dye mix H, and 0.88 ml of cell suspension. Each well was inoculated with 100 l of the inoculation mixture and incubated at 37°C for 24 h in the Omnilog PM instrument (Biolog). Cell metabolism was monitored by the change in color of a redox dye. In the instrument, absorbance readings from all wells were automatically recorded at 15-min intervals and assigned arbitrary values ("Omnilog units") from 0 to 350. All assays were performed using triplicate FL and GC samples. Antibiotics and growth inhibitors that displayed significant differences between FL and GC samples in the PM system were chosen for closer examination by the broth dilution assay, described below.</p><p>Antibiotic resistance levels using broth dilution assays. The quantification of antibiotic resistance was determined by the broth dilution assay <ref type="bibr" target="#b35">(36)</ref>. Briefly, frozen FL or GC samples were thawed on ice as described above and immediately inoculated into liquid TSY plus 10% glycerol medium containing various concentrations of each test antibiotic in a 96-well microtiter plate format. To prevent evaporation, plates were sealed with gas-permeable membranes (Breathe-Easy membrane; Sigma-Aldrich, St. Louis, MO). Plates were placed in a microplate absorbance spectrophotometer (model ELx808; BioTek Instruments, Inc., Winooski, VT) set at 37°C. Optical density at 620 nm (OD 620 ) was recorded at 15-min intervals for 24 h. All assays were performed using triplicate FL and GC samples.</p><p>Data set properties and analyses. The complete PM data set consisted of 2 conditions (FL versus GC) ϫ 3 replicates ϫ 3 PM plates ϫ 96 wells per plate ϫ 96 kinetic time points per well, resulting in a total of 165,888 data points in 1,728 kinetic curves. Data were exported into Microsoft Excel and the statistical environment R (37) for further analysis. R packages were obtained from the comprehensive R archive network (CRAN) at <ref type="url" target="https://cran.r-project.org/">https://cran.r-project.org/</ref>. Using the R package grofit <ref type="bibr" target="#b37">(38)</ref>, four growth models (logical, gompertz, gompertz.exp, and Richards) were fit to the data points of each curve. From the model, the software could calculate four statistical parameters for quantifying properties within each curve: length of the lag phase (), maximum growth rate (), maximum growth achieved (A), and area under the curve (AUC). Because the AUC is dependent upon the other three parameters, and thus is more broadly discriminatory, we chose the comparison of AUC values for the initial screening between FL and GC samples by PM.</p><p>The complete broth dilution data set consisted of 2 conditions (FL versus GC) ϫ 3 replicates ϫ 10 antibiotics ϫ 97 time points per curve, for a total of 5,820 data points within 420 curves. Best-fit curves were generated by spline interpolation using the R grofit software gcFitSpline, and the 50% inhibitory concentration (IC 50 ) was computed for each sample over a range of antibiotic concentrations. IC 50 s were determined using A, , and AUC for every well. The parameters A and were included to separately analyze the dose response of the maximum growth rate and maximum OD of FL and GC samples. The three parameters were normalized by subtracting the corresponding parameter from the blank well and dividing by that from the control (i.e., no antibiotic) well. The normalized values were transferred into GraphPad Prism version 7.02 for Windows (GraphPad Software, La Jolla, CA). GraphPad then calculated the IC 50 for each antibiotic by fitting to each sample a log(inhibitor) versus response nonlinear regression model with variable slope.</p><p>All statistical analyses comparing FL and GC samples were performed using Student's t tests contained in the R statistical package stats <ref type="bibr" target="#b36">(37)</ref>. Differences with P values Յ 0.05 were considered statistically significant.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG 1 FIG 2</head><label>12</label><figDesc>FIG 1 Resistance profiles of FL (white bars) and GC (gray bars) samples to enoxacin (A), 6-mercaptopurine (B), and trifluoperazine (C). Data are shown as means Ϯ standard deviations of the areas under the curves (AUCs). *, P Յ 0.05 by Student's t test (n ϭ 3).</figDesc><graphic coords="4,41.50,72.83,432.00,148.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIG 3</head><label>3</label><figDesc>FIG 3 Resistance profiles of FL (white bars) and GC (gray bars) samples to ofloxacin (A), oxolinic acid (B), and novobiocin (C). Data are shown as means Ϯ standard deviations of the areas under the curves (AUCs). Data were not significantly different (Student's t test, P Ͼ 0.05, n ϭ 3). n.d., not detected.</figDesc><graphic coords="6,41.50,72.84,432.00,152.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIG 4</head><label>4</label><figDesc>FIG<ref type="bibr" target="#b3">4</ref> Typical data from broth dilution assays used to compute the IC 50 s presented in Table3. Data for ciprofloxacin is presented as an example. Maximum absorbance (A; left), maximum growth rate (; center), and area under the curve (AUC; right) are presented for flight (FL; open circles) and ground control (GC; open triangles) samples. Data are averages Ϯ standard deviations (n ϭ 3). Solid circles and triangles denote the computed IC 50 s for FL and GC samples derived from the growth data. These points are offset slightly from the dashed line at 0.5 for clarity.</figDesc><graphic coords="7,41.50,72.84,432.00,154.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FIG 5 (</head><label>5</label><figDesc>FIG 5 (A) Actuation of BRIC-21 canister by European Space Agency (ESA) astronaut Samantha Cristoforetti aboard the ISS. (B) Temperature data recorded at 10-min intervals from BRIC-21 FL (circles) and GC (triangles) samples. Actuation time is denoted by the upward arrow, and the termination of experiment by moving to the Ϫ80°C freezer is denoted by the downward arrow. Note that the data are offset by 2°C in order to display both curves.</figDesc><graphic coords="9,49.66,72.81,312.00,142.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1</head><label>1</label><figDesc>Antibiotics and growth inhibitors included in phenotype microarray (PM) plates a</figDesc><table><row><cell>Plate</cell><cell>Compounds</cell></row><row><cell>PM11C</cell><cell>Amikacin, amoxicillin, bleomycin, capreomycin, cefazolin, ceftriaxone, cephalothin, chloramphenicol, chlortetracycline, cloxacillin,</cell></row><row><cell></cell><cell>colistin, demeclocycline, enoxacin, erythromycin, gentamicin, kanamycin, lincomycin, lomefloxacin, minocycline, nafcillin,</cell></row><row><cell></cell><cell>nalidixic acid, neomycin, potassium tellurite, ofloxacin</cell></row><row><cell>PM12B</cell><cell>L-Aspartic-␤-hydroxamate, dodecyltrimethylammonium bromide, 5-fluoroorotic acid, benzethonium chloride, carbenicillin,</cell></row><row><cell></cell><cell>novobiocin, oxacillin, paromomycin, penimepicycline, polymyxin B, 2,4-diamino-6,7-diisopropylpteridine, penicillin G, rifampin,</cell></row><row><cell></cell><cell>DL-serine hydroxamate, sisomicin, spectinomycin, spiramycin, sulfadiazine, sulfamethazine, sulfamethoxazole, sulfathiazole,</cell></row><row><cell></cell><cell>tetracycline, tobramycin, vancomycin</cell></row><row><cell>PM13B</cell><cell>Ampicillin, azlocillin, cefuroxime, cytosine-1-␤-D-arabinofuranoside, 2,2-dipyridyl, doxycycline, 5-fluorouracil, Geneticin, glycine,</cell></row><row><cell></cell><cell>manganese(II) chloride, 6-mercaptopurine, moxalactam, oxolinic acid, rolitetracycline, ruthenium red, trifluoperazine,</cell></row><row><cell></cell><cell>tylosin cesium chloride, cobalt chloride, cupric chloride, dequalinium chloride, manganese chloride, nickel chloride, potassium</cell></row><row><cell></cell><cell>chromate, thallium(I) acetate</cell></row><row><cell cols="2">a Compounds in boldface exhibited significantly higher resistance in FL samples. Underlined compounds exhibited significantly higher resistance in GC samples (P Յ</cell></row><row><cell cols="2">0.05 by Student's t test, n ϭ 3).</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 2</head><label>2</label><figDesc>Antibiotics and growth inhibitors exhibiting a significant different between FL and GC samples in PM assays a</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell>AUC</cell><cell></cell><cell></cell></row><row><cell>Plate</cell><cell>Well</cell><cell>Growth Inhibitor</cell><cell>FL</cell><cell>GC</cell><cell>P value</cell></row><row><cell>11C</cell><cell>B12</cell><cell>Lomefloxacin</cell><cell>3,222 Ϯ 776</cell><cell>4,509 Ϯ 135</cell><cell>0.0470</cell></row><row><cell>11C</cell><cell>E08</cell><cell>Enoxacin</cell><cell>2,508 Ϯ 627</cell><cell>44 Ϯ 58</cell><cell>0.0025</cell></row><row><cell>11C</cell><cell>E11</cell><cell>Nalidixic Acid</cell><cell>2,496 Ϯ 200</cell><cell>3,437 Ϯ 105</cell><cell>0.0019</cell></row><row><cell>12B</cell><cell>B06</cell><cell>Penimepicycline</cell><cell>3,738 Ϯ 269</cell><cell>4,400 Ϯ 160</cell><cell>0.0216</cell></row><row><cell>13B</cell><cell>C02</cell><cell>6-Mercaptopurine</cell><cell>3,722 Ϯ 894</cell><cell>1,835 Ϯ 11</cell><cell>0.0216</cell></row><row><cell>13B</cell><cell>D09</cell><cell>Rolitetracycline</cell><cell>4,556 Ϯ 53</cell><cell>4,998 Ϯ 167</cell><cell>0.0120</cell></row><row><cell>13B</cell><cell>F03</cell><cell>Cesium chloride</cell><cell>3,219 Ϯ 68</cell><cell>3,642 Ϯ 112</cell><cell>0.0051</cell></row><row><cell>13B</cell><cell>F04</cell><cell>Cesium chloride</cell><cell>2,467 Ϯ 91</cell><cell>3,139 Ϯ 100</cell><cell>0.0010</cell></row><row><cell>13B</cell><cell>G07</cell><cell>Manganese(II) chloride</cell><cell>5,391 Ϯ 120</cell><cell>5,713 Ϯ 133</cell><cell>0.0352</cell></row><row><cell>13B</cell><cell>G10</cell><cell>Trifluoperazine</cell><cell>3,659 Ϯ 749</cell><cell>2,018 Ϯ 628</cell><cell>0.0437</cell></row></table><note><p>a Data are presented as the means Ϯ standard deviations of AUC values (n ϭ 3). Differences with P Յ 0.05 (Student's t test) were considered significant.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>TABLE 3</head><label>3</label><figDesc>Comparison of IC 50 s between FL and GC samples in broth dilution assays a</figDesc><table><row><cell></cell><cell>IC 50</cell></row><row><cell></cell><cell>A</cell></row><row><cell>Antibiotic b</cell><cell>Unit (/ml)</cell></row></table><note><p>a Data are presented as averages Ϯ standard deviations (n ϭ 3). P values were calculated using Student's t tests. b Abbreviations: 6-MP, 6-mercaptopurine; CIP, ciprofloxacin; ENX, enoxacin; LVX, levofloxacin; LMX, lomefloxacin; NAL, nalidixic acid; NVB, novobiocin; OXO, oxolinic acid; OFL, ofloxacin; TPZ, trifluoperazine.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>November 2017 Volume 83 Issue 21 e01584-17 aem.asm.org 2</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>November 2017 Volume 83 Issue 21 e01584-17 aem.asm.org 3</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>November 2017 Volume 83 Issue 21 e01584-17 aem.asm.org 4</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>November 2017 Volume 83 Issue 21 e01584-17 aem.asm.org 5</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>November 2017 Volume 83 Issue 21 e01584-17 aem.asm.org 6</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5"><p>November 2017 Volume 83 Issue 21 e01584-17 aem.asm.org 7</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_6"><p>November 2017 Volume 83 Issue 21 e01584-17 aem.asm.org 8</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_7"><p>November 2017 Volume 83 Issue 21 e01584-17 aem.asm.org 9</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_8"><p>November 2017 Volume 83 Issue 21 e01584-17 aem.asm.org 10</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_9"><p>November 2017 Volume 83 Issue 21 e01584-17 aem.asm.org 11</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We thank the <rs type="institution">BRIC-21</rs> payload development team (<rs type="person">D. Dimapilis</rs>, <rs type="person">A. D. Flowers</rs>, <rs type="person">C. Grosse</rs>, <rs type="person">J. Harp</rs>, <rs type="person">D. Houze</rs>, <rs type="person">H. Levine</rs>, <rs type="person">G. Newsham</rs>, <rs type="person">S. Manning-Roach</rs>, <rs type="person">J. Smodell</rs>, and <rs type="person">G. Washington</rs>) for their excellent assistance.</p><p>This work was supported by <rs type="funder">NASA</rs> <rs type="grantName">Research Opportunities in Space Biology</rs> grant <rs type="grantNumber">NNX14AT38G</rs> to W.L.N. and P.F.-C.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_p7XjVPj">
+					<idno type="grant-number">NNX14AT38G</idno>
+					<orgName type="grant-name">Research Opportunities in Space Biology</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m">Recapturing a future for space exploration: life and physical sciences research for a new era</title>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>National Academies Press</publisher>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+		<respStmt>
+			<orgName>National Research Council</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Terrestrial stress analogs for spaceflight associated immune system dysregulation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Crucian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chouker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Actor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Salam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sams</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbi.2014.01.011</idno>
+		<ptr target="https://doi.org/10.1016/j.bbi.2014.01.011" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain Behav Immun</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="23" to="32" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Impact of space flight on bacterial virulence and antibiotic susceptibility</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno type="DOI">10.2147/IDR.S67275</idno>
+		<ptr target="https://doi.org/10.2147/IDR.S67275" />
+	</analytic>
+	<monogr>
+		<title level="j">Infect Drug Resist</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="249" to="262" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Could spaceflight-associated immune system weakening preclude the expansion of human presence beyond Earth&apos;s orbit?</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Guéguinou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huin-Schohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bascove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Bueb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tschirhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Legrand-Frossi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Frippiat</surname></persName>
+		</author>
+		<idno type="DOI">10.1189/jlb.0309167</idno>
+		<ptr target="https://doi.org/10.1189/jlb.0309167" />
+	</analytic>
+	<monogr>
+		<title level="j">J Leukoc Biol</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="1027" to="1038" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Low-shear force associated with modeled microgravity and spaceflight does not similarly impact the virulence of notable bacterial pathogens</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Rosenzweig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eunson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Chopra</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00253-014-6025-8</idno>
+		<ptr target="https://doi.org/10.1007/s00253-014-6025-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Microbiol Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="8797" to="8807" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Antibiotic activity in space</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lapchine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Moatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gasset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Richoilley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Templier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tixador</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Drugs Exp Clin Res</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="933" to="938" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Behavior of bacteria and antibiotics under space conditions</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tixador</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gasset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Eche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Moatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lapchine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woldringh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Toorop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Moatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Delmotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tap</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aviat Space Environ Med</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="551" to="556" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">PharmaSat: drug dose response in microgravity from a free-flying integrated biofluidic/optical culture-andanalysis satellite</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Ricco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Parra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Niesel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Piccini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mcginnis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kudlicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Hines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Timucin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Beasley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ricks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mcintyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Friedericks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Henschke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Diaz-Aguado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kitts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rasay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Agasid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Luzzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ronzano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Squires</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yost</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc SPIE, Microfluidics, BioMEMS</title>
+		<meeting>SPIE, Microfluidics, BioMEMS<address><addrLine>Bellingham, WA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011">2011. 7929</date>
+		</imprint>
+		<respStmt>
+			<orgName>, and Medical Microsystems IX</orgName>
+		</respStmt>
+	</monogr>
+	<note>abstract</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Antibiotic efficacy and microbial virulence during space flight</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Klaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Howard</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tibtech.2006.01.008</idno>
+		<ptr target="https://doi.org/10.1016/j.tibtech.2006.01.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Trends Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="131" to="136" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Study of minimal inhibitory concentration of antibiotics on bacteria cultivated in vitro in space (Cytos 2 experiment)</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tixador</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Richoilley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gasset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Templier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Bes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Moatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lapchine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aviat Space Environ Med</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="748" to="751" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Towards rational treatment of bacterial infections during extended space travel</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Sommer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijantimicag.2005.06.002</idno>
+		<ptr target="https://doi.org/10.1016/j.ijantimicag.2005.06.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Antimicrob Agents</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="183" to="187" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">rpsL mutation induction after space flight on MIR</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Yatagai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fujie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nagaoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ohnishi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0027-5107(00)00069-5</idno>
+		<ptr target="https://doi.org/10.1016/S0027-5107(00)00069-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Mutat Res</title>
+		<imprint>
+			<biblScope unit="volume">453</biblScope>
+			<biblScope unit="page" from="1" to="4" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Cultivation of Staphylococcus epidermidis in the human spaceflight environment leads to alterations in the frequency and spectrum of spontaneous rifampicin-resistance mutations in the rpoB gene</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fajardo-Cavazos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2016.00999</idno>
+		<ptr target="https://doi.org/10.3389/fmicb.2016.00999" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">999</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Conjugation-mediated plasmid exchange between bacteria grown under space flight conditions</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Boever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mergeay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ilyin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Forget-Hanus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Van Der Auwera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mahillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1007/BF02919469</idno>
+		<ptr target="https://doi.org/10.1007/BF02919469" />
+	</analytic>
+	<monogr>
+		<title level="j">Microgravity Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="138" to="144" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Mechanism of action of quinolones against Escherichia coli DNA gyrase</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bogaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kojima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hattori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nakamura</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AAC.37.4.839</idno>
+		<ptr target="https://doi.org/10.1128/AAC.37.4.839" />
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob Agents Chemother</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="839" to="845" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Unanticipated Mycobacterium tuberculosis complex culture inhibition by immune modulators, immune suppressants, a growth enhancer, and vitamins A and D: clinical implications</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Greenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Y</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shahidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Clifford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Brown</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijid.2014.01.026</idno>
+		<ptr target="https://doi.org/10.1016/j.ijid.2014.01.026" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="37" to="43" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Antibiotic susceptibility profile of Mycobacterium avium subspecies hominissuis is altered in low-iron conditions</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kopinc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lapanje</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jac/dks313</idno>
+		<ptr target="https://doi.org/10.1093/jac/dks313" />
+	</analytic>
+	<monogr>
+		<title level="j">J Antimicrob Chemother</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="2903" to="2907" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">In vitro antimicrobial activity of 18 phenothiazine derivatives: structure-activity relationship</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bourlioux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Moreaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Boureau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">APMIS Suppl</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="40" to="43" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Trifluoperazine: a broad spectrum bactericide especially active on staphylococci and vibrios</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mazumder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ganguly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Dastidar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Chakrabarty</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0924-8579(01)00324-7</idno>
+		<ptr target="https://doi.org/10.1016/S0924-8579(01)00324-7" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Antimicrob Agents</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="403" to="406" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Overview of the fluoroquinolone antibiotics</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Just</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacotherapy</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2 Pt 2</biblScope>
+			<biblScope unit="page" from="4" to="S17" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Mechanism of action of lomefloxacin</title>
+		<author>
+			<persName><forename type="first">Ljv</forename><surname>Piddock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wise</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AAC.34.6.1088</idno>
+		<ptr target="https://doi.org/10.1128/AAC.34.6.1088" />
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob Agents Chemother</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1088" to="1093" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Mechanism of action of nalidixic acid: purification of Escherichia coli nalA gene product and its relationship to DNA gyrase and a novel nicking-closing enzyme</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sugino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Peebles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Kreuzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Cozzarelli</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.74.11.4767</idno>
+		<ptr target="https://doi.org/10.1073/pnas.74.11.4767" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="4767" to="4771" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Tetracycline antibiotics: mode of action, applications, molecular biology, and epidemiology of bacterial resistance</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Chopra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Roberts</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/MMBR.65.2.232-260.2001</idno>
+		<ptr target="https://doi.org/10.1128/MMBR.65.2.232-260.2001" />
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol Mol Biol Rev</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="232" to="260" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Mepicycline, a new soluble tetracycline derivative, protects penicillin from penicillinase inactivation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gradnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ferrero</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000219997</idno>
+		<ptr target="https://doi.org/10.1159/000219997" />
+	</analytic>
+	<monogr>
+		<title level="j">Chemotherapia</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="242" to="251" />
+			<date type="published" when="1962">1962</date>
+			<pubPlace>Basel</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Cesium accumulation by microorganisms: uptake mechanisms, cation competition, compartmentalization, and toxicity</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Avery</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF01569888</idno>
+		<ptr target="https://doi.org/10.1007/BF01569888" />
+	</analytic>
+	<monogr>
+		<title level="j">J Ind Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="76" to="84" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Magnesium-dependent processes are targets of bacterial manganese toxicity</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Hohle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>'brian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename></persName>
+		</author>
+		<idno type="DOI">10.1111/mmi.12687</idno>
+		<ptr target="https://doi.org/10.1111/mmi.12687" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="736" to="747" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m">Emergency medical procedures manual for the International Space Station (ISS)</title>
+		<meeting><address><addrLine>Houston, TX</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+		<respStmt>
+			<orgName>NASA ; NASA ; Johnson Space Center</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Khz</forename><surname>Bentrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ramamurthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Quick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Porwollik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mcclelland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tsaprailis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Radabaugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kilcoyne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Joshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Neiman-Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Parra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dumars</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Norwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bober</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Devich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ruggles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Goulart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rupert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stodieck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Stafford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Catella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Schurr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Buchanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Morici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mccracken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Baker-Coleman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Stefanyshyn-Piper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nickerson</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0707155104</idno>
+		<ptr target="https://doi.org/10.1073/pnas.0707155104" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="16299" to="16304" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The twisted life of DNA in the cell: bacterial topoisomerases</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Luttinger</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2958.1995.tb02369.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1365-2958.1995.tb02369.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="601" to="606" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Chromosome architecture is a key element of bacterial cellular organization</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Ptacin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shapiro</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/cmi.12049</idno>
+		<ptr target="https://doi.org/10.1111/cmi.12049" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="45" to="52" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Dramatic increase in negative superhelicity of plasmid DNA in the forespore compartment of sporulating cells of Bacillus subtilis</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Setlow</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/jb.172.1.7-14.1990</idno>
+		<ptr target="https://doi.org/10.1128/jb.172.1.7-14.1990" />
+	</analytic>
+	<monogr>
+		<title level="j">J Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">172</biblScope>
+			<biblScope unit="page" from="7" to="14" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Sporulation, germination, and outgrowth</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Setlow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Molecular biological methods for Bacillus</title>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Harwood</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Cutting</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>J. Wiley &amp; Sons</publisher>
+			<date type="published" when="1990">1990</date>
+			<biblScope unit="page" from="391" to="450" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Spaceflight transcriptomes: unique responses to a novel environment</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Zupanska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Ostrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shanker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Farmerie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Amalfitano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ferl</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/ast.2011.0696</idno>
+		<ptr target="https://doi.org/10.1089/ast.2011.0696" />
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="40" to="56" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A flight-rated petri dish apparatus providing two-stage fluid injection for aseptic biological investigations in space</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Mccray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Best</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Levine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Abstr. 31st Int Conf Environmental Systems</title>
+		<meeting><address><addrLine>Orlando, FL</addrLine></address></meeting>
+		<imprint>
+			<publisher>SAE International</publisher>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Establishing standard protocols for bacterial culture in Biological Research in Canister (BRIC) hardware</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fajardo-Cavazos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gravit Space Res</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="58" to="69" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Agar and broth dilution methods to determine the minimal inhibitory concentration (MIC) of antimicrobial substances</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Wiegand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hilpert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Hancock</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nprot.2007.521</idno>
+		<ptr target="https://doi.org/10.1038/nprot.2007.521" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Protoc</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="163" to="175" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<author>
+			<persName><forename type="first">Team</forename><surname>Core</surname></persName>
+		</author>
+		<ptr target="http://www.R-project.org/" />
+		<title level="m">R: a language and environment for statistical computing, v3.3.0. R Foundation for Statistical Computing</title>
+		<meeting><address><addrLine>Vienna, Austria</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">grofit: fitting biological growth curves with R</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kahm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hasenbrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lichtenberg-Frate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ludwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kschischo</surname></persName>
+		</author>
+		<idno type="DOI">10.18637/jss.v033.i07</idno>
+		<ptr target="https://doi.org/10.18637/jss.v033.i07" />
+	</analytic>
+	<monogr>
+		<title level="j">J Stat Softw</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1" to="21" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

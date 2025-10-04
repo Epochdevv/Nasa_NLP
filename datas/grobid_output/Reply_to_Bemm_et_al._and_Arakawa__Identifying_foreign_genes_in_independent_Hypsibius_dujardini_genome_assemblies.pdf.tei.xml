@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Reply to Bemm et al. and Arakawa: Identifying foreign genes in independent &lt;i&gt;Hypsibius dujardini&lt;/i&gt; genome assemblies</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Proceedings of the National Academy of Sciences</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2016-05-12">2016-05-12</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Thomas</forename><forename type="middle">C</forename><surname>Boothby</surname></persName>
+							<email>tboothby@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">University of North Carolina at</orgName>
+								<address>
+									<addrLine>Chapel Hill</addrLine>
+									<postCode>27599</postCode>
+									<settlement>Chapel Hill</settlement>
+									<region>NC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bob</forename><surname>Goldstein</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">University of North Carolina at</orgName>
+								<address>
+									<addrLine>Chapel Hill</addrLine>
+									<postCode>27599</postCode>
+									<settlement>Chapel Hill</settlement>
+									<region>NC</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Reply to Bemm et al. and Arakawa: Identifying foreign genes in independent &lt;i&gt;Hypsibius dujardini&lt;/i&gt; genome assemblies</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Proceedings of the National Academy of Sciences</title>
+						<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+						<idno type="ISSN">0027-8424</idno>
+						<idno type="eISSN">1091-6490</idno>
+						<imprint>
+							<publisher>Proceedings of the National Academy of Sciences</publisher>
+							<biblScope unit="volume">113</biblScope>
+							<biblScope unit="issue">22</biblScope>
+							<date type="published" when="2016-05-12" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">28D968A266F389E74EC526D7CDD91D54</idno>
+					<idno type="DOI">10.1073/pnas.1601149113</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:48+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Our report <ref type="bibr" target="#b0">(1)</ref> describing the discovery of extensive horizontal gene transfer in a tardigrade genome has raised questions from other groups who were sequencing the Hypsibius dujardini genome in parallel or who have done new experiments and analyses since our report <ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref>. Bemm et al. <ref type="bibr" target="#b1">(2)</ref> now report filtering our data for likely contaminants, resulting in a new, prefiltered genome assembly. <ref type="bibr">Arakawa (3)</ref> has sequenced genomes of starved, washed, individual animals that had been treated with antibiotics for 48 h, and used this genomic sequence and RNA-Seq data to identify likely bona fide tardigrade contigs. Two other reports have contributed data and analysis: Delmont and Eren (4) used a newly published analysis and visualization platform, Anvi'o <ref type="bibr" target="#b5">(6)</ref>, to identify likely contaminants in our genome assembly, and Koutsovoulos et al. ( <ref type="formula">5</ref>) applied useful taxon-annotated GC coverage plots (Blobplots) <ref type="bibr" target="#b6">(7)</ref> to our data and reported an independent genome assembly.</p><p>Before discussing the robustness of our finding of extensive horizontal gene transfer in tardigrades, we first note that we mistakenly uploaded an outdated version of our assembly to public databases. This assembly was 252 Mb, larger than the 212.3-Mb assembly that we had used in our report <ref type="bibr" target="#b0">(1)</ref>, as pointed out correctly by others <ref type="bibr" target="#b4">(5)</ref>. The 212.3-Mb assembly used in our report is available at the link provided below. The originally uploaded 252-Mb assembly includes ∼40 Mb of sequence that we had identified as microbial contamination (see methods detailed at <ref type="url" target="https://github.com/Hd-tg-genome/PNAS_response">https://github.com/Hd-tg-genome/PNAS_response</ref>). This mistake may have contributed to discrepancies and issues raised by others. For example, Bemm et al. <ref type="bibr" target="#b1">(2)</ref> identified 39 Mb of untrusted assembly, similar to the ∼40 Mb we filtered. Similarly, Delmont and Eren (4) identified whole bacterial genomes in our 252-Mb assembly, which were already largely filtered out in our 212.3-Mb assembly. We apologize to other groups for this mistake.</p><p>A central finding of our original report (1) is a high rate of foreign genes in the H. dujardini genome, which has been argued by others <ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref> to be an artifact of incomplete filtering of contaminating microbial sequences. The availability of these other groups' independent assemblies and multiple filtering approaches [via k-mer selection (2) or GC% and coverage <ref type="bibr" target="#b4">(5)</ref>] allows us to test the robustness of our conclusions. Because any metric used will have its own particular strengths and weaknesses, we used three different approaches: (i) employing the horizontal gene transfer (HGT) index ( <ref type="formula">8</ref>), (ii) identifying genes that align to prokaryotic but not eukaryotic sequences, and (iii) identifying a base level of HGT, i.e., "class C" genes as defined by Crisp et al. <ref type="bibr" target="#b8">(9)</ref>.</p><p>Using the HGT index, we find that 3.8-7.1% of genes in these independent H. dujardini assemblies appear foreign (Fig. <ref type="figure">1A</ref>). Examination of genes with prokaryotic but not eukaryotic alignments resulted in the identification of 164-384 genes (Fig. <ref type="figure">1B</ref>). Class C genes in various H. dujardini assemblies range from 2.5% to 4.6% (Fig. <ref type="figure">1C</ref>). For each of these metrics, the proportion and/or number of foreign genes found in H. dujardini is substantially elevated compared with typical animals (Fig. <ref type="figure">1</ref>) <ref type="bibr" target="#b7">(8)</ref><ref type="bibr" target="#b8">(9)</ref><ref type="bibr" target="#b9">(10)</ref><ref type="bibr" target="#b10">(11)</ref>.</p><p>In favor of these foreign genes not being contaminants is the fact that, in these independent assemblies, most genes identified as foreign reside on scaffolds together with tardigrade genes. Furthermore, foreign vs. tardigrade genes from these assemblies are represented at similar proportions in the other assemblies. On the whole, these independent assemblies show robust coverage of scaffolds from genomic and RNAseq reads of four independent sequencing efforts [including cleaned, antibiotic-treated individuals (3)] (Fig. <ref type="figure" target="#fig_1">2</ref>). If these genes of foreign origin are considered to be contaminants and their scaffolds are removed, the completeness and size of each assembly is severely affected.</p><p>Together, these data suggest that H. dujardini is likely to have an elevated level of foreign genes, most likely acquired by HGT rather than being artifacts of remaining contaminants. The level of HGT that we infer remains higher than in most animals that have been tested (Fig. <ref type="figure">1</ref>), although not as high a level as we had originally concluded <ref type="bibr" target="#b0">(1)</ref>.</p><p>It has been suggested that many foreign genes in the H. dujardini genome might not be functional or might be contaminants because RNAseq reads do not map to some of these genes <ref type="bibr" target="#b2">(3,</ref><ref type="bibr" target="#b4">5)</ref>. However, it is well documented in the literature that many HGT genes are expressed at low levels or, in some cases, are not expressed at all. For example, it is known that essentially the entire Wolbachia genome has been transferred into the genome of Drosophila ananassae, yet only ∼2% (28/1,206) of these horizontally acquired genes are transcribed at detectable levels <ref type="bibr" target="#b11">(12)</ref>. Follow-up investigations confirmed extensive HGT into the nuclear genome of this Drosophila species but failed to detect biologically relevant expression of any foreign genes <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b13">14)</ref>. Thus, although identification of an expressed foreign gene could be viewed as evidence in favor of HGT, lack of expression alone is not a criterion for disproving HGT. We speculated that HGT might be important for tardigrade biology, but we restricted our analysis to HGT rather than functional HGT <ref type="bibr" target="#b0">(1)</ref>. The RNAseq datasets <ref type="bibr" target="#b2">(3,</ref><ref type="bibr" target="#b4">5)</ref> will aid in assessing potential functions of these genes.</p><p>We acknowledge that different groups have concluded different proportions of HGT in the H. dujardini genome and that different metrics will give different estimates for the proportion of foreign genes in the genome. We have our own concerns about some of the methods used by other groups to exclude genes from our assembly (see <ref type="url" target="https://github.com/Hd-tg-genome/PNAS_response">https://github.com/Hd-tg-genome/PNAS_response</ref>), but we appreciate that the work of multiple groups is moving the science forward rapidly. All genomes are iterations, and we fully expect that new data and new technologies will refine this genome much as they have for the human genome and others. The true proportion of HGT may well lie between the various current estimates and may best be resolved with new sequencing technologies and bioinformatic and phylogenetic approaches.</p><p>Fig. <ref type="figure">1</ref>. Identification of foreign sequences in independent H. dujardini assemblies by different methods. (A) Foreign genes in independent H. dujardini genome assemblies were identified using the HGT index <ref type="bibr" target="#b7">(8)</ref>. The percent of all foreign genes in each dataset is shown. Tardigrade data are labeled in blue. Rotifer (animals with high levels of HGT) data are shown in brown. Data for other invertebrates (Caenorhabditis elegans and Drosophila melanogaster) are labeled in green. Rotifer, C. elegans, and D. melanogaster data were obtained from ref. 8. (B) Foreign genes were identified by selecting only those genes with BLAST hits to prokaryotes, but not eukaryotes (Evalue cutoff 1e-5). Note that this is a significantly more stringent approach for identifying foreign genes than the HGT index, and it excludes identification of prokaryotic genes with metazoan homologs, nonmetazoan eukaryotic genes, or metazoan genes that have been horizontally transferred. The raw number of all foreign genes in each dataset is shown.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Fig.1. Identification of foreign sequences in independent H. dujardini assemblies by different methods. (A) Foreign genes in independent H. dujardini genome assemblies were identified using the HGT index<ref type="bibr" target="#b7">(8)</ref>. The percent of all foreign genes in each dataset is shown. Tardigrade data are labeled in blue. Rotifer (animals with high levels of HGT) data are shown in brown. Data for other invertebrates (Caenorhabditis elegans and Drosophila melanogaster) are labeled in green. Rotifer, C. elegans, and D. melanogaster data were obtained from ref. 8. (B) Foreign genes were identified by selecting only those genes with BLAST hits to prokaryotes, but not eukaryotes (Evalue cutoff 1e-5). Note that this is a significantly more stringent approach for identifying foreign genes than the HGT index, and it excludes identification of prokaryotic genes with metazoan homologs, nonmetazoan eukaryotic genes, or metazoan genes that have been horizontally transferred. The raw number of all foreign genes in each dataset is shown. Tardigrade data are labeled in blue. Rotifer (animals with high levels of HGT) data are shown in brown. Data for other invertebrates (C. elegans and D. melanogaster) are labeled in green. Rotifer and C. elegans data were derived from ref.<ref type="bibr" target="#b7">8</ref>. D. melanogaster data were obtained by performing HGT index analysis (see methods at https://github.com/Hd-tg-genome/PNAS_response) and the applying selection criteria detailed above. (C) Class C genes were identified in various datasets using the parameters detailed in ref.<ref type="bibr" target="#b8">9</ref>. Data for chordate and ecdysozoan animals were obtained from ref. 9, and the source of other datasets is noted parenthetically on the x axis. Plotted on the y axis is the percent of total genes that are classified as Class C foreign genes according to the methods used in ref.<ref type="bibr" target="#b8">9</ref>. Data for rotifer species are colored brown. Data from various tardigrade assemblies are colored blue. Data for other ecdysozoan animals (the group of animals to which tardigrades belong) are colored in green. Data for chordate animals are colored purple. The numbers above bars denote the percent of all genes classified as Class C foreign genes.</figDesc><graphic coords="3,42.86,47.85,502.87,431.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Foreign genes are contained in scaffolds confirmed by multiple datasets. 14 next-generation sequencing read datasets, originating from 4 independent sequencing projects, were mapped against (A) Bemm et al.'s (2) and (B) Koutsovoulos et al.'s (5) assembly and visualized using Anvi'o (6). Tracks showing coverage of Moleculo long-read (LR), Pacbio, and short-insert library reads [University of North Carolina (UNC) 300, 500, and 800] from our original study (1) are colored blue. Tracks showing coverage by genomic reads from ref. 5 are colored purple. Tracks showing coverage by genomic and pooled RNAseq reads generated by Dr. Kazuharu Arakawa are colored green. The track showing coverage by pooled RNAseq reads generated by Dr. Itai Yanai is colored yellow. Black tick marks in the outer rings indicate scaffolds that contain foreign sequences identified using the method indicated in parentheses. Highlighted in red are scaffolds that are covered by genomic reads originating from only one group's sequencing effort. Highlighted in orange are scaffolds covered by two of three groups' genomic reads.</figDesc><graphic coords="4,42.86,47.85,502.87,253.81" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Boothby and Goldstein PNAS | May 31, 2016 | vol. 113 | no. 22 | E3059</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Evidence for extensive horizontal gene transfer from the draft genome of a tardigrade</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Boothby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">52</biblScope>
+			<biblScope unit="page" from="15976" to="15981" />
+			<date type="published" when="2015">2015</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Genome of a tardigrade: Horizontal gene transfer or bacterial contamination?</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bemm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Weiß</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schultz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Förster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="3054" to="E3056" />
+			<date type="published" when="2016">2016</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">No evidence for extensive horizontal gene transfer from the draft genome of a tardigrade</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Arakawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page">E3057</biblScope>
+			<date type="published" when="2016">2016</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Identifying contamination with advanced visualization and analysis practices: Metagenomic approaches for eukaryotic genome assemblies</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">O</forename><surname>Delmont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Eren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">1839</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">No evidence for extensive horizontal gene transfer in the genome of the tardigrade Hypsibius dujardini</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Koutsovoulos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="5053" to="5058" />
+			<date type="published" when="2016">2016</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Anvi&apos;o: An advanced analysis and visualization platform for &apos;omics data</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Eren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">1319</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Blobology: Exploring raw genome data for contaminants, symbionts and parasites using taxonannotated GC-coverage plots</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Koutsovoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Blaxter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Genet</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">237</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Biochemical diversification through foreign gene expression in bdelloid rotifers</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boschetti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">1003035</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Expression of multiple horizontally acquired genes is a hallmark of both vertebrate and invertebrate genomes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crisp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boschetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Perry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tunnacliffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Micklem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">50</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Massive horizontal gene transfer in bdelloid rotifers</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Gladyshev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Meselson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Arkhipova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">320</biblScope>
+			<biblScope unit="issue">5880</biblScope>
+			<biblScope unit="page" from="1210" to="1213" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Horizontal gene transfer in bdelloid rotifers is ancient, ongoing and more frequent in species from desiccating habitats</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Eyres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">90</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Widespread lateral gene transfer from intracellular bacteria to multicellular eukaryotes</title>
+		<author>
+			<persName><forename type="first">Dunning</forename><surname>Hotopp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">317</biblScope>
+			<biblScope unit="issue">5845</biblScope>
+			<biblScope unit="page" from="1753" to="1756" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Extensive duplication of the Wolbachia DNA in chromosome four of Drosophila ananassae</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Klasson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">1097</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Efficient subtraction of insect rRNA prior to transcriptome analysis of Wolbachia-Drosophila lateral gene transfer</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Res Notes</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">230</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

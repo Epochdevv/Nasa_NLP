@@ -1,0 +1,2527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Spaceflight induces changes in gene expression profiles linked to insulin and estrogen</title>
+				<funder ref="#_YCCBP3Z">
+					<orgName type="full">National Institutes of Health</orgName>
+				</funder>
+				<funder ref="#_gs8AcCj">
+					<orgName type="full">Translational Research Institute</orgName>
+				</funder>
+				<funder ref="#_QUcvK3E">
+					<orgName type="full">NASA Cooperative</orgName>
+				</funder>
+				<funder ref="#_rYbMxm3">
+					<orgName type="full">LLS</orgName>
+				</funder>
+				<funder ref="#_qwRBBvx #_ZSYmtWW #_AdDnUgS #_fwk2rSQ #_HFtjpaP">
+					<orgName type="full">NASA</orgName>
+				</funder>
+				<funder ref="#_jTQUNsW #_V8Wdmrp #_PbcHsUC #_gW5gyCp">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Osteopathic Heritage Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Osteopathic Heritage Foundation Ralph S. Licklider</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">WorldQuant and GI Research Foundation</orgName>
+				</funder>
+				<funder ref="#_VkucW3g">
+					<orgName type="full">Scientific Computing Unit</orgName>
+					<orgName type="abbreviated">SCU</orgName>
+				</funder>
+				<funder ref="#_5xdNNex">
+					<orgName type="full">Horizon Center for Doctoral Training at the University of Nottingham</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Heritage College of Osteopathic Medicine</orgName>
+				</funder>
+				<funder ref="#_JgzV8Em">
+					<orgName type="full">BioRender</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-06-11">2024-06-11</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Begum</forename><forename type="middle">Aydogan</forename><surname>Mathyk</surname></persName>
+							<idno type="ORCID">0000-0001-9832-6284</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Obstetrics and Gynecology</orgName>
+								<orgName type="institution">University of South Florida Morsani College of Medicine</orgName>
+								<address>
+									<settlement>Tampa</settlement>
+									<region>FL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marshall</forename><surname>Tabetah</surname></persName>
+							<idno type="ORCID">0000-0002-1651-7659</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Agricultural and Biological Engineering</orgName>
+								<orgName type="institution">Purdue University</orgName>
+								<address>
+									<postCode>47907</postCode>
+									<settlement>West Lafayette</settlement>
+									<region>IN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rashid</forename><surname>Karim</surname></persName>
+							<idno type="ORCID">0000-0002-5179-5259</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Electrical Engineering and Computer Science</orgName>
+								<orgName type="institution">University of Cincinnati</orgName>
+								<address>
+									<postCode>45220</postCode>
+									<settlement>Cincinnati</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Novartis Institutes for Biomedical Research</orgName>
+								<address>
+									<addrLine>181 Massachusetts Ave</addrLine>
+									<postCode>02139</postCode>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Victoria</forename><surname>Zaksas</surname></persName>
+							<idno type="ORCID">0000-0001-7916-4902</idno>
+							<affiliation key="aff4">
+								<orgName type="department">Center for Translational Data Science</orgName>
+								<orgName type="institution">University of Chicago</orgName>
+								<address>
+									<postCode>60637</postCode>
+									<settlement>Chicago</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Clever Research Lab</orgName>
+								<address>
+									<postCode>62704</postCode>
+									<settlement>Springfield</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jangkeun</forename><surname>Kim</surname></persName>
+							<idno type="ORCID">0000-0002-8733-9925</idno>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Physiology and Biophysics and World Quant Initiative for Quantitative Prediction</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<postCode>10021</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>Anu</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department" key="dep1">Department of Cancer Biology &amp; Therapeutics</orgName>
+								<orgName type="department" key="dep2">Precision Oncology and Multi-omics clinic</orgName>
+								<orgName type="department" key="dep3">Genetic counseling clinic</orgName>
+								<orgName type="department" key="dep4">Department of Clinical Biochemistry</orgName>
+								<orgName type="institution">MVR Cancer Centre and Research Institute</orgName>
+								<address>
+									<settlement>Calicut</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Masafumi</forename><surname>Muratani</surname></persName>
+							<affiliation key="aff8">
+								<orgName type="department">Transborder Medical Research Center</orgName>
+								<orgName type="institution">University of Tsukuba</orgName>
+								<address>
+									<postCode>305-8575</postCode>
+									<settlement>Ibaraki</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="department" key="dep1">Department of Genome Biology</orgName>
+								<orgName type="department" key="dep2">Faculty of Medicine</orgName>
+								<orgName type="institution">University of Tsukuba</orgName>
+								<address>
+									<postCode>305-8575</postCode>
+									<settlement>Ibaraki</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alexia</forename><surname>Tasoula</surname></persName>
+							<affiliation key="aff10">
+								<orgName type="department">Department of Life Science Engineering</orgName>
+								<orgName type="institution">FH Technikum</orgName>
+								<address>
+									<settlement>Vienna</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ruth</forename><forename type="middle">Subhash</forename><surname>Singh</surname></persName>
+							<affiliation key="aff11">
+								<orgName type="department">Department of Biophysics</orgName>
+								<orgName type="institution">University of Mumbai</orgName>
+								<address>
+									<postCode>400029</postCode>
+									<settlement>Mumbai</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yen-Kai</forename><surname>Chen</surname></persName>
+							<affiliation key="aff12">
+								<orgName type="department">School of Biological Sciences</orgName>
+								<orgName type="institution">University of Auckland</orgName>
+								<address>
+									<settlement>Auckland</settlement>
+									<country key="NZ">New Zealand</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eliah</forename><surname>Overbey</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Physiology and Biophysics and World Quant Initiative for Quantitative Prediction</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<postCode>10021</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jiwoon</forename><surname>Park</surname></persName>
+							<idno type="ORCID">0000-0003-0045-1429</idno>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Physiology and Biophysics and World Quant Initiative for Quantitative Prediction</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<postCode>10021</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Henry</forename><surname>Cope</surname></persName>
+							<idno type="ORCID">0000-0002-4984-0567</idno>
+							<affiliation key="aff13">
+								<orgName type="department">School of Medicine</orgName>
+								<orgName type="institution">University of Nottingham</orgName>
+								<address>
+									<postCode>DE22 3DT</postCode>
+									<settlement>Derby</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hossein</forename><surname>Fazelinia</surname></persName>
+							<affiliation key="aff14">
+								<orgName type="department">Department of Biomedical and Health Informatics and Proteomics Core Facility</orgName>
+								<orgName type="institution">Children&apos;s Hospital of Philadelphia</orgName>
+								<address>
+									<addrLine>3401 Civic Center Blvd</addrLine>
+									<postCode>19104</postCode>
+									<settlement>Philadelphia</settlement>
+									<region>PA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Davide</forename><surname>Povero</surname></persName>
+							<idno type="ORCID">0000-0002-9519-7576</idno>
+							<affiliation key="aff15">
+								<orgName type="department">Division of Gastroenterology and Hepatology</orgName>
+								<orgName type="institution">Mayo Clinic</orgName>
+								<address>
+									<postCode>55905</postCode>
+									<settlement>Rochester</settlement>
+									<region>MN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Joseph</forename><surname>Borg</surname></persName>
+							<idno type="ORCID">0000-0002-2220-5651</idno>
+							<affiliation key="aff16">
+								<orgName type="department" key="dep1">Department of Applied Biomedical Science</orgName>
+								<orgName type="department" key="dep2">Faculty of Health Sciences</orgName>
+								<address>
+									<postCode>MSD2090</postCode>
+									<settlement>Msida</settlement>
+									<country key="MT">Malta</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Remi</forename><forename type="middle">V</forename><surname>Klotz</surname></persName>
+							<affiliation key="aff17">
+								<orgName type="department">Department of Stem Cell Biology &amp; Regenerative Medicine</orgName>
+								<orgName type="institution">University of Southern California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Min</forename><surname>Yu</surname></persName>
+							<affiliation key="aff17">
+								<orgName type="department">Department of Stem Cell Biology &amp; Regenerative Medicine</orgName>
+								<orgName type="institution">University of Southern California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Steven</forename><forename type="middle">L</forename><surname>Young</surname></persName>
+							<affiliation key="aff18">
+								<orgName type="department">Division of Reproductive Endocrinology and Infertility</orgName>
+								<orgName type="institution">Duke School of Medicine</orgName>
+								<address>
+									<settlement>Durham</settlement>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christopher</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+							<idno type="ORCID">0000-0002-1850-1642</idno>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Physiology and Biophysics and World Quant Initiative for Quantitative Prediction</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<postCode>10021</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nathaniel</forename><surname>Szewczyk</surname></persName>
+							<idno type="ORCID">0000-0003-4425-9746</idno>
+							<affiliation key="aff13">
+								<orgName type="department">School of Medicine</orgName>
+								<orgName type="institution">University of Nottingham</orgName>
+								<address>
+									<postCode>DE22 3DT</postCode>
+									<settlement>Derby</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff19">
+								<orgName type="department" key="dep1">Ohio Musculoskeletal and Neurological Institute</orgName>
+								<orgName type="department" key="dep2">Heritage College of Osteopathic Medicine</orgName>
+								<orgName type="institution">Ohio University</orgName>
+								<address>
+									<postCode>45701</postCode>
+									<settlement>Athens</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Riley</forename><forename type="middle">M</forename><surname>St Clair</surname></persName>
+							<affiliation key="aff20">
+								<orgName type="department">Department of Life Sciences</orgName>
+								<orgName type="institution">Quest University</orgName>
+								<address>
+									<settlement>Squamish</settlement>
+									<region>BC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fathi</forename><surname>Karouia</surname></persName>
+							<idno type="ORCID">0000-0002-1142-9684</idno>
+							<affiliation key="aff21">
+								<orgName type="department">Exobiology Branch</orgName>
+								<orgName type="institution" key="instit1">Blue Marble Space Institute of Science</orgName>
+								<orgName type="institution" key="instit2">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff22">
+								<orgName type="department">Center for Space Medicine</orgName>
+								<orgName type="institution">Space Research Within Reach</orgName>
+								<address>
+									<settlement>San Francisco</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Afshin</forename><surname>Beheshti</surname></persName>
+							<email>afshin.beheshti@nasa.gov</email>
+							<idno type="ORCID">0000-0003-4643-531X</idno>
+							<affiliation key="aff23">
+								<orgName type="department">Stanley Center for Psychiatric Research</orgName>
+								<orgName type="institution">Baylor College of Medicine</orgName>
+								<address>
+									<settlement>Houston</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff24">
+								<orgName type="institution">Broad Institute of MIT and Harvard</orgName>
+								<address>
+									<settlement>Cambridge</settlement>
+									<region>MA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff25">
+								<orgName type="department">Space Biosciences Division</orgName>
+								<orgName type="institution" key="instit1">Blue Marble Space Institute of Science</orgName>
+								<orgName type="institution" key="instit2">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Moffett Field</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Spaceflight induces changes in gene expression profiles linked to insulin and estrogen</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Communications Biology</title>
+						<title level="j" type="abbrev">Commun Biol</title>
+						<idno type="eISSN">2399-3642</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">7</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2024-06-11" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">85359A6D2BD393EBCFB9DDAF9198DF0E</idno>
+					<idno type="DOI">10.1038/s42003-023-05213-2</idno>
+					<note type="submission">Received: 23 May 2023; Accepted: 3 August 2023;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:28+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Organismal adaptations to spaceflight have been characterized at the molecular level in model organisms, including Drosophila and C. elegans. Here, we extend molecular work to energy metabolism and sex hormone signaling in mice and humans. We found spaceflight induced changes in insulin and estrogen signaling in rodents and humans. Murine changes were most prominent in the liver, where we observed inhibition of insulin and estrogen receptor signaling with concomitant hepatic insulin resistance and steatosis. Based on the metabolic demand, metabolic pathways mediated by insulin and estrogen vary among muscles, specifically between the soleus and extensor digitorum longus. In humans, spaceflight induced changes in insulin and estrogen related genes and pathways. Pathway analysis demonstrated spaceflight induced changes in insulin resistance, estrogen signaling, stress response, and viral infection. These data strongly suggest the need for further research on the metabolic and reproductive endocrinologic effects of space travel, if we are to become a successful interplanetary species.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>W</head><p>e have entered an era in which living and working in space is a reality. Studies show that spaceflight has health risks such as central nervous system and cardiovascular dysfunction, cancer risk, immune dysregulation, muscle and bone loss, and fatty liver <ref type="bibr" target="#b0">1</ref> . At the molecular level, risks include oxidative stress, DNA damage, cosmic radiation exposure, mitochondrial dysfunction, microbiome shift, and epigenetic alterations <ref type="bibr" target="#b0">1</ref> . Of these, mitochondrial dysfunction and oxidative stress have been identified as major space-related risks <ref type="bibr" target="#b1">2</ref> . Mitochondria are not only the powerhouse of the cell but also the center of many metabolic pathways. Insulin is a highly conserved anabolic and mitogenic peptide hormone that acts as a master regulator of energy metabolism across species, including humans <ref type="bibr" target="#b2">3</ref> . It is secreted by the pancreas in response to increased plasma glucose, and exerts its effects on most organs including the kidney and liver as well as skeletal muscle, and bone <ref type="bibr" target="#b3">4</ref> . Insulin receptor is a transmembrane receptor belonging to the family of receptor tyrosine kinases (RTKs) <ref type="bibr" target="#b4">5</ref> and undergoes autophosphorylation upon activation, leading to a downstream signaling cascade which influences cellular function, particularly glucose metabolism. Insulin resistance (IR) arises when these downstream molecular pathways do not respond appropriately in target tissues, thus impeding the physiologic response to insulin. In the physiological state, IR can also be observed due to opposing actions from counterregulatory hormones such as glucagon, glucocorticoids, and catecholamines. Insulin resistance is further associated with metabolic abnormalities such as diabetes, lipid dysfunction, nonalcoholic fatty liver disease (NAFLD), cardiovascular disease, retinopathy, and polycystic ovary syndrome (PCOS). Each of these factors is also interconnected, thus resulting in a potentially vicious cycle.</p><p>The presence of insulin resistance during spaceflight has been reported, and sex differences play a role, with female astronauts displaying better Homeostatic Model Assessment for Insulin Resistance (HOMA-IR) values than male astronauts <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> . Sex differences play a role in diseases and metabolism both on Earth and in space <ref type="bibr" target="#b7">8</ref> . Some of these differences may be attributed to sex hormones. Estrogens play a variety of roles and serve many functions in women's lives. Besides being a reproductive hormone, estrogen is involved in metabolism as well as in the cardiovascular, nervous, and immune systems <ref type="bibr" target="#b8">9</ref> . Estrogen signaling activates membrane and nuclear receptors in both canonical and non-canonical ways to modulate metabolism, and promote growth, proliferation, and differentiation of diverse cell types <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11</ref> . Estrogen receptors are ESR1, estrogen receptor beta (ESR2), and G-protein coupled estrogen receptor 1 (GPER1). There are also estrogen-related receptors alpha, beta and gamma (ESRRA, ESRRB, ESRRG) which are structurally similar to ESR1 and ESR2 <ref type="bibr" target="#b11">12</ref> but whose ligands are unknown. ESRRA also has DNA sequence homology to the estrogen receptor and can be activated by phytoestrogens (i.e. genistein) <ref type="bibr" target="#b12">13</ref> . These receptors play pivotal roles in metabolism, insulin resistance, NAFLD, and mitochondrial function <ref type="bibr" target="#b11">12</ref> . Besides that, an unbalanced ratio of these receptors may have an impact on metabolism <ref type="bibr" target="#b13">14</ref> . Additionally, estrogen and insulin combine in controlling metabolic pathways. In animal models, knockout of the estrogen receptor alpha (ERα) (ESR1) in both male and female mice results in insulin resistance and dysglycemia <ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref> . Estrogen receptors promote pancreatic cell survival, enhance insulin production, and improve insulin sensitivity <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> . Female and male ESR1-/-mice both display reduced GLUT4 expression, further emphasizing the role of estrogen in glycemic control <ref type="bibr" target="#b13">14</ref> . Clinically, compared to premenopausal women, postmenopausal women have an increased risk of adverse metabolic profiles such as type 2 diabetes, insulin resistance, impaired glucose and lipid profiles, increased android fat deposition, sarcopenia, and osteoporosis <ref type="bibr" target="#b19">20</ref> . Estrogens also positively correlate with bone and muscle mass and are protective against disuse atrophy <ref type="bibr" target="#b20">21</ref> . Thus, there is substantial reason to believe that insulin and estrogen signaling are key pathways regulating health in space.</p><p>The amount of knowledge in the literature about how insulin and estrogen signaling and related pathways change during spaceflight is currently sparse. Our preliminary findings reported possible insulin and estrogen signaling alteration during spaceflight <ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b22">23</ref> . A few published studies show insulin resistance parameters may change during spaceflight but data are conflicting, suggesting either decreased insulin or no change <ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b24">25</ref> . Similarly, data on estrogen signaling are conflicting with one study revealing downregulation of ESR1 and ESR2 in the uterus <ref type="bibr" target="#b25">26</ref> whereas a recent study found no alterations in estrogen receptor expression in rodent ovaries <ref type="bibr" target="#b26">27</ref> . To address these gaps in our knowledge of insulin and estrogen signaling in response to spaceflight we examined these signaling pathways across multiple tissues in rodents from the same mission as well as in a group of astronauts and a set of commercial spaceflight participants/ astronauts. Our results indicate significant changes in these pathways in response to spaceflight in both mice and people. These observations lay the foundation for further studies aimed at understanding the metabolic alterations induced by spaceflight as well as highlighting insulin and estrogen signaling as potential targets for countermeasures in future spaceflight missions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Spaceflight demonstrates global impact of insulin and estrogen signals across different organs in female mice. To understand how insulin and estrogen signaling change during spaceflight we examined gene expression in mice that were flown to the International Space Station (ISS) for 37 days. For this purpose, adrenal glands (OSD-98), kidney (OSD-102), liver (OSD-168), eyes (OSD-100), and skeletal muscles (i.e. quadriceps (OSD-103), gastrocnemius (OSD-101), soleus (OSD-104), tibialis anterior (OSD-105), and extensor digitorum longus (OSD-99)) were utilized (Fig. <ref type="figure" target="#fig_0">1a</ref>). The transcriptomic data (RNA-seq) was obtained for 16-week-old female mice from the NASA GeneLab platform <ref type="bibr" target="#b27">28</ref> and were analyzed for insulin signaling, estrogen signaling and insulin resistance related genes and pathways. The gene lists for these hormones were obtained from the NCBI resource <ref type="bibr" target="#b28">29</ref> (i.e. 'insulin signaling' mus musculus). The greatest number of differentially expressed genes (DEGs) were observed in the mouse liver (n = 3670), followed by soleus (n = 3518) and extensor digitorum longus (EDL) (n = 1859) muscles. In all, 2677 DEGs were unique to the liver, 2048 DEGs were unique to soleus muscle, and 784 DEGs were unique to EDL (Fig. <ref type="figure" target="#fig_0">1b</ref>). The least number of DEGs was noted in the adrenal gland (n = 61) and 28 of them were unique to it (Fig. <ref type="figure" target="#fig_0">1b</ref>). There are a total of 1970 unique genes from the NCBI curated gene list which are commonly encountered across insulin resistance, insulin signaling and estrogen signaling pathways. Most of the genes from the NCBI list related to insulin resistance, insulin signaling, and estrogen signaling were downregulated in the liver (Fig. <ref type="figure" target="#fig_0">1c</ref>). In total, 645 out of the 1970 unique genes from the NCBI resource had gene expression values across all nine tissues. These genes were divided into seven biologically relevant clusters associated with insulin resistance and signaling (Fig. <ref type="figure" target="#fig_0">1d</ref>). In particular, the last cluster (cluster 7) at the bottom of the heatmap were related to Gene Ontology (GO) processes <ref type="bibr" target="#b29">30</ref> such as lipid localization and glycerolipid metabolic processes which are related to obesity which in turn can lead to a decrease in insulin sensitivity <ref type="bibr" target="#b30">31</ref> (Supplementary Fig. <ref type="figure" target="#fig_0">1</ref>).</p><p>In general, two genes were differentially expressed (i.e., upregulated) across all tissues in the RR-1 samples; ARNTL and NPAS2. Across skeletal muscles, 21 DEGs were commonly encountered, out of which 11 DEGs were upregulated and 9 DEGs were downregulated. UCKL1OS was only upregulated in soleus. Many of them were related to the circadian clock, such as NR1D2, NPAS2, PER2, PER3, CIART, DBP, ARNTL, and SOX4. In terms of insulin signaling linked genes, in muscles, ARNTL, MT1, SOX4 were upregulated and DBP and PER2 were downregulated. The genes associated with circadian rhythm, indicates the global effect of spaceflight on the circadian clock and its association with insulin signaling. Overall, from our analysis, the liver was the most impacted organ by spaceflight, with the highest number of DEGs, alongside insulin and estrogen receptor signaling predicted to be inhibited (z-scores: -3.772 and -5.859, respectively).</p><p>Common insulin and estrogen signaling genes altered by spaceflight in female rodents. To determine if there are any universally shared insulin and estrogen pathways being regulated throughout the different organs during spaceflight, we performed further analysis on the 145 shared genes linked to insulin and estrogen signaling as well as insulin resistance (Fig. <ref type="figure" target="#fig_0">1e</ref>). 56 out of 145 common genes across the insulin resistance and insulin signaling pathways had gene expression values across all nine tissues. The genes were clustered into three clusters where the top enriched pathways from GO processes were: triglyceride-rich lipoprotein particle remodeling for cluster 1, positive regulation of insulin secretion for cluster 2, and carbohydrate homeostasis for cluster 3 (Fig. <ref type="figure" target="#fig_1">2a</ref>). The disease enrichment analysis revealed that 62 out of 145 genes were associated with diseases, with the top enriched disease being diabetes mellitus, followed by fatty liver (Fig. <ref type="figure" target="#fig_1">2b</ref>). Human genes at the intersection of these pathways were used in a similar manner, and the top enriched disease was obesity, followed by hypertension (Fig. <ref type="figure" target="#fig_1">2c</ref>). Thus, enriched diseases in both species emphasize the importance of insulin and estrogen signaling in metabolic diseases.</p><p>Further pathway analysis utilizing gene set enrichment analysis (GSEA), focused on specific insulin and estrogen pathways, demonstrated differences in the enrichment of gene sets across organs (Fig. <ref type="figure" target="#fig_2">3a</ref>). The majority of gene sets related to insulin and insulin resistance were predicted to be inhibited in the liver (OSD-168) such as insulin receptor signaling pathway, response to troglitazone and adipogenesis (Fig. <ref type="figure" target="#fig_2">3a</ref>). Kidney (OSD-102) and eye (OSD-100) also showed similar inhibition for insulin pathways, such as insulin pathway, insulin receptor signaling pathway, response to insulin (Fig. <ref type="figure" target="#fig_2">3A</ref>). Interestingly, a set of muscle tissues (i.e. tibialis anterior (OSD-105) and EDL (OSD-99)) were shown to be activated for response to insulin, while the quadriceps (OSD-103) and gastrocnemius (OSD-101) showed negative enrichment scores for response to insulin (Fig. <ref type="figure" target="#fig_2">3a</ref>). It is known that during spaceflight the soleus muscle is impacted first with muscle mass loss which can lead to downstream dysregulation related to metabolic, inflammatory, and immune functions <ref type="bibr" target="#b31">32</ref> .</p><p>Overall, there are similar organ dependent patterns for estrogen-specific pathways observed (Fig. <ref type="figure" target="#fig_2">3a</ref>). Estrogen metabolism and signaling pathways were negatively enriched in the kidney (OSD-102), liver (OSD-168), and quadriceps muscle The liver had the highest number of unique genes while adrenal had the lowest. The two genes that were common across all nine tissues were related to circadian rhythm and insulin signaling. c Global gene level heatmap of 1970 unique genes from NCBI curated gene list which are common across insulin resistance, insulin signaling and estrogen signaling pathways. Genes are the rows and columns are the nine tissues analyzed from the RR1 mission. Genes were further divided into being unique to only one of these pathways or a combination of the pathways. Heatmap shows the z-scores of logFC values from the nine tissues and the tissues are clustered using hierarchical clustering. Liver was the most affected with genes being downregulated across all pathways when comparing flight vs pre-flight. d Heatmap of 645 unique genes from NCBI curated gene list which have log fold change values across all 9 tissues. Hierarchical clustering of genes shows clusters being related to GO biological processes relevant to insulin resistance, insulin signaling and estrogen signaling (Fig. <ref type="figure" target="#fig_0">S1</ref>). e Venn diagram of insulin resistance, insulin signaling and estrogen signaling pathways with their corresponding unique and overlapping genes from the NCBI curated gene list. There are a total of 145 genes that are common across all three pathways.</p><p>(OSD-103). Specific estrogen signaling pathways, such as pubertal breast, were negatively enriched in the liver, eye, and adrenal gland, while being positively enriched in the (OSD-99) and tibialis anterior (OSD-105) muscles (Fig. <ref type="figure" target="#fig_2">3a</ref>).</p><p>When analyzing the specific leading-edge genes involved in the insulin and estrogen pathway predictions, we observed that a subset of these genes were related to the circadian rhythm (i.e., ARNTL, CLOCK, CRY2, PER3, NFIL3, and NR1D2) (Fig. <ref type="figure" target="#fig_2">3b</ref>). The majority of these gene expressions were in the same direction across organs; however, some unique differences were observed. PFKM was upregulated only in the soleus muscle (OSD-104) (Fig. <ref type="figure" target="#fig_2">3b</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gene expression changes and proteomics suggest underlying insulin resistance in spaceflight-induced hepatosteatosis.</head><p>Notably, the liver is a key metabolic organ that orchestrates and regulates a plethora of metabolic pathways, including estrogen and insulin signaling <ref type="bibr" target="#b32">33</ref> . During spaceflight, the liver RNA-seq data exhibits the most pronounced and unique impact on metabolic pathways as well as insulin and estrogen signaling. A comprehensive analysis of liver samples harvested after 37 days of spaceflight, revealed that both insulin and estrogen receptor signaling are predicted to be inhibited in the liver during spaceflight, as compared to ground controls (z-scores: -3.772 and -5.859, respectively). Our findings indicate that several genes of the insulin signaling pathway denoted development of insulin resistance and hepatic steatosis (z-scores: 2.481 and 3.737, respectively). Furthermore, insulin receptor was downregulated in the liver during spaceflight, along with inhibition of mitochondrial fatty acid oxidation (FAO), which may indicate derangement of mitochondrial activity. In addition, disruption of estrogen signaling has been extensively reported to aggravate hepatic insulin resistance <ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b33">34</ref> . According to this evidence, our analysis showed inhibition of estrogen receptor signaling in the liver during spaceflight (z-score: -5.859). Remarkably, genes associated with mitochondrial complex I, complex II, and ATP synthase were downregulated in the estrogen signaling network (Fig. <ref type="figure" target="#fig_10">4a</ref>). This is particularly relevant considering that estrogen receptors play a key role in mitochondrial activity and biogenesis <ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref> . In livers harvested from mice after spaceflight, we observed impairment of estrogen signaling, which in turn may hamper oxidative phosphorylation by mainly affecting complex I (Fig. <ref type="figure" target="#fig_10">4a</ref>) <ref type="bibr" target="#b37">38</ref> .</p><p>Specific analysis of pathways related to hepatic steatosis (Fig. <ref type="figure" target="#fig_10">4b</ref>, <ref type="figure">c</ref>) revealed that the SREBP pathway was one of the top positively enriched pathways (Fig. <ref type="figure" target="#fig_10">4b</ref>). This pathway is known to be involved in metabolic-associated chronic liver diseases such as Nonalcoholic Fatty Liver Disease (NAFLD) <ref type="bibr" target="#b38">39</ref> . Furthermore, response to insulin and insulin signaling pathways were universally enriched in hepatic steatosis during spaceflight, with insulin receptor (INSR) and downstream targets (i.e IRS1, AKT1, AKT2) among the top enriched genes for hepatic steatosis (Fig. <ref type="figure" target="#fig_10">4c</ref>). Among the top leading genes, we additionally identified MFN2, which encodes for Mitofusin 2, a mitochondrial fusion protein associated with insulin signaling and oxidative stress in NAFLD <ref type="bibr" target="#b39">40,</ref><ref type="bibr" target="#b40">41</ref> . In summary, our findings suggest that during spaceflight, alterations of insulin and estrogen signaling may lead to the development of hepatic steatosis.</p><p>We also performed proteomics analysis using RR-1 data, which revealed that the liver displayed the most insulin and estrogenrelated protein abundance changes (Fig. <ref type="figure" target="#fig_4">5a</ref>). In the liver, proteins involved in lipid metabolism such as hormone sensitive lipase, Apoe, Sphk2 and Ldlr, showed notable changes in protein abundance. These proteins are also linked to insulin signaling, insulin resistance, hepatic steatosis and glucose metabolism disorder (Fig. <ref type="figure" target="#fig_4">5b-e</ref>). Lipe encodes hormone sensitive lipase (HSL) which hydrolyses lipids (i.e. triacylglycerols) in various tissues. Insulin inhibits HSL activity while counteracting hormones such as glucocorticoids, glucagon, and catecholamines activate HSL during stress or starvation <ref type="bibr" target="#b41">42</ref> . Increased ApoE protein abundance was observed in the kidney, adrenal gland, and significantly in the liver (Fig. <ref type="figure" target="#fig_4">5c</ref>, <ref type="figure">d</ref>). Apolipoprotein E (ApoE) is one of the major lipoproteins in the cholesterol metabolism and it uptakes VLDL, IDL and chylomicron remnants from the circulation. It is also a major ligand for the LDL receptor. There was a significant increase in the abundance of LDL receptors in the liver, while it decreased in the adrenal gland (Fig. <ref type="figure" target="#fig_4">5c-e</ref>). In terms of estrogen signaling related proteins, we observed changes in protein abundance associated with mitochondrial complexes (Fig. <ref type="figure" target="#fig_4">5f</ref>). This was observed mostly in muscles, and the majority of these mitochondrial proteins belong to NADH dehydrogenases in complex I (i.e. NDUFA5 encodes a subunit of complex I) (Fig. <ref type="figure" target="#fig_4">5f</ref>).</p><p>Alterations in insulin and estrogen linked genes in the rodent skin. Both insulin and estrogen act in the skin and contribute to important functions such as wound healing and skin integrity. Further, certain skin conditions have been associated with insulin resistance (i.e., acanthosis nigricans) <ref type="bibr" target="#b42">43</ref> . Thus, we utilized rodent data sets (RR-5, RR-7, MHU-2) to analyze skin gene expressions linked to insulin resistance, insulin, and estrogen signaling. We observed differences in pathway enrichment scores between female and male mice (Fig. <ref type="figure" target="#fig_5">6a</ref>). During the first 25 days of flight, estrogen and insulin signaling, as well as insulin resistance pathways, were negatively enriched in the skin of female C3H mice; however, these pathways were positively enriched during the 75 days of flight (Fig. <ref type="figure" target="#fig_5">6a</ref>). We also noted similarities and differences across strains. Within the same mission (RR-7), pathway enrichments in C3H mice varied based on flight duration, while the insulin resistance pathway was positively enriched in C57BL mice regardless of flight duration (Fig. <ref type="figure" target="#fig_5">6a</ref>). The insulin resistance pathway was positively enriched during 75 days of flight in two different strains (Fig. <ref type="figure" target="#fig_5">6a</ref>). Further, in female mice, the insulin resistance pathway was positively enriched in various strains and different missions, except in C3H strains exposed to 25 days of flight (Fig. <ref type="figure" target="#fig_5">6a</ref>). In the skin of male mice, differences in enrichment scores were observed based on the tissue (dorsal vs femoral skin) and diet (Fig. <ref type="figure" target="#fig_5">6a</ref>).</p><p>In female and male rodent skin samples, we found differences in gene expressions related to insulin and estrogen signaling (Fig. <ref type="figure" target="#fig_5">6b</ref>). Most of the significant up-and downregulations were observed in the male mice, especially in the dorsal skin (Fig. <ref type="figure" target="#fig_5">6B</ref>). Certain genes involved in tissue remodeling, extracellular matrix, wound healing, and collagen synthesis (i.e., ACE, FN1, IGFBP5, MMP3, COL6A3, COL6A1, COL1A1, COL5A1, BGN, FASN, LOXL2) were downregulated only in male mice (Fig. <ref type="figure" target="#fig_5">6b</ref>). FN1 encodes fibronectin which is an essential component of the extracellular matrix (ECM) and participates in cell migration, adhesion, and wound repair <ref type="bibr" target="#b43">44</ref> . Matrix metalloproteinases (MMPs) are involved in tissue remodeling; MMP3 regulates the rate of wound healing and was downregulated in the skin of male mice <ref type="bibr" target="#b44">45</ref> . Further, epidermal lipids contribute to the skin's barrier function <ref type="bibr" target="#b45">46</ref> . Fatty acids can be synthesized in the epidermis, and FASN encodes fatty acid synthase, which was downregulated in male mice. Insulin receptor (INSR), IRS2, estrogen receptor 1 (ESR1), and ESRRG were upregulated in male mice dorsal skin (Fig. <ref type="figure" target="#fig_5">6b</ref>). Estrogen promotes skin and mucosa epithelialization <ref type="bibr" target="#b46">47,</ref><ref type="bibr" target="#b47">48</ref> . Sex differences may play a role in wound healing and variations in healing rates have been reported in literature <ref type="bibr" target="#b48">49,</ref><ref type="bibr" target="#b49">50</ref> . In female mice, S100s9, Nr4a2, Nr4a3, Il6, and Egf2 were significantly downregulated only in the skin of C3H mice during 25 days of flight (Fig. <ref type="figure" target="#fig_5">6b</ref>). Although we noticed some changes in the pathway enrichment scores, results need to be interpreted carefully, due to differences in missions, durations, strains, housing, and diet.</p><p>Changes in insulin signaling genes and pathways conserved in astronauts. To explore if insulin and estrogen signaling-related genes are affected in astronauts during spaceflight, human samples were used to map genes of interest. We utilized astronaut data from the Japanese Space Agency (JAXA) Cell-Free Epigenome (CFE) Study mission <ref type="bibr" target="#b50">51</ref> with astronauts in space for 120 days. Specifically, for the JAXA mission RNA-seq was conducted on plasma cell-free RNAs (cfRNAs) from 6 astronauts that were on the International Space Station (ISS) for 120 days from pre-flight, during flight, and post flight time points.</p><p>Insulin signaling linked genes are dysregulated during and after spaceflight in astronauts (Fig. <ref type="figure" target="#fig_6">7a</ref>). Some genes were specifically upregulated within the first month upon return (R + 3d, R + 30d) such as AVP, FFAR4, GLP1R, RIMS2, FGF6, NR1H4, PRLH, CPE, and APOM. The FFAR4 encodes free fatty acid receptor 4, is widely expressed in tissues and has been associated with  metabolic and cardiovascular diseases <ref type="bibr" target="#b51">52</ref> . The GLP1R is another key gene encoding glucagon-like peptide (GLP-1) receptor which stimulates insulin secretion (Fig. <ref type="figure" target="#fig_6">7a</ref>). Additionally, insulin secretion was among the enriched pathways (Fig. <ref type="figure" target="#fig_6">7a</ref>). GLP-1 receptor agonist is currently used in the treatment of diabetes and obesity <ref type="bibr" target="#b52">53</ref> .</p><p>Certain genes involved in insulin signaling were upregulated throughout the postflight period. MAF is a transcription factor that is known to regulate and activate insulin gene expression <ref type="bibr" target="#b53">54</ref> (Fig. <ref type="figure" target="#fig_6">7a</ref>). Similarly, RARRES2, which encodes chemerin, was also upregulated throughout postflight. Chemerin is an adipokine that is associated with insulin resistance and obesity <ref type="bibr" target="#b54">55</ref> . AKT1 is the main downstream of insulin signaling and was upregulated during postflight which also correlates with the postflight PI3K/ AKT enrichment (Fig. <ref type="figure" target="#fig_6">7a</ref>). CRH, GCGR, and SLC2A3 are other important genes related to endocrine hormones and insulin. The glucagon receptor, encoded by GCGR, is the primary receptor for glucagon. Glucagon counteracts the actions of insulin and has a role in stress response <ref type="bibr" target="#b55">56</ref> . The GCGR was upregulated throughout the entire postflight period (Fig. <ref type="figure" target="#fig_6">7b</ref>). SLC2A3 encodes for a glucose transporter named GLUT3 and is widely expressed in various cells. SLC2A3 was downregulated upon return from spaceflight (Fig. <ref type="figure" target="#fig_6">7b</ref>). The cholesterol metabolism was the top activated pathway for postflight upregulated genes involved in insulin signaling (Fig. <ref type="figure" target="#fig_6">7a</ref>). Insulin secretion, regulation of lipolysis in adipocytes, Cushing syndrome, and circadian entrainment were other enriched pathways (Fig. <ref type="figure" target="#fig_6">7a</ref>).</p><p>Glucagon signaling was the top activated pathway for downregulated genes associated with insulin signaling (Fig. <ref type="figure" target="#fig_6">7b</ref>). Insulin resistance, lipid and atherosclerosis, AMPK signaling, oxytocin signaling and viral infection related pathways (i.e., HPV, CMV infections, HTLV1) were other enriched pathways (Fig. <ref type="figure" target="#fig_6">7b</ref>). The MS4A1 gene encodes CD20, a B-cell marker, and it was downregulated during postflight but upregulated during flight (Fig. <ref type="figure" target="#fig_6">7b</ref>).</p><p>Further, some of the gene expressions changed at specific time points. Interestingly, CRP was upregulated upon return (R + 3d) and was downregulated a month later (R + 30d) (Fig. <ref type="figure" target="#fig_6">7a</ref>). Followup samples showed upregulation of CRP on the second and third months postflight (Fig. <ref type="figure" target="#fig_6">7a</ref>). CRP is also linked to estrogen signaling and insulin resistance (Figs. <ref type="figure" target="#fig_7">8a</ref>, <ref type="figure" target="#fig_8">9a</ref>). This is important as the CRP gene encodes c-reactive protein, which is an inflammatory marker. Elevated CRP levels correlate with both fasting insulin and insulin resistance parameters (i.e. HOMA-IR) <ref type="bibr" target="#b56">57</ref> . Columns represent pathways, while rows represent datasets from multiple spaceflight missions, split by biological sex. Asterisks (*) overlaying cells denote statistical significance. b Gene-level heatmaps (one for each pathway). Heatmap of t-scores for highly significant (FDR ≤ 0.01) differentially expressed genes associated with the insulin and estrogen signaling as well as insulin resistance. Columns represent datasets from multiple spaceflight missions, and rows correspond to genes. Asterisks (*) overlaying cells denote statistical significance; genes must be significant in at least one of the datasets to be displayed.</p><p>Insulin Resistance related genes and pathways during and after spaceflight. The majority of insulin signaling related genes and their alterations could result in insulin resistance which would be a great concern during long-term spaceflight. AKT1 was upregulated and AKT3 was downregulated throughout the postflight period (Fig. <ref type="figure" target="#fig_7">8a</ref>, <ref type="figure">b</ref>). AKT1 and AKT3 are members of serine/ threonine kinases and are downstream of insulin signaling.</p><p>Insulin resistance can be seen with hormonal dysfunctions like acromegaly, hyperaldosteronism, and Cushing disease <ref type="bibr" target="#b57">58</ref> . Aldosterone is responsible for fluid and sodium balance and CYP11B2, and encodes aldosterone synthase, which was upregulated within the first week upon return from spaceflight (R + 3d) (Fig. <ref type="figure" target="#fig_7">8a</ref>), a period that overlaps with intravascular fluid changes upon return. Other genes associated with insulin resistance are MT-ND1 and MT-ND6. MT-ND1, and MT-ND6 genes encode subunits of NADH dehydrogenase in mitochondria complex I. Both genes were upregulated during spaceflight (Fig. <ref type="figure" target="#fig_7">8a</ref>, <ref type="figure">b</ref>). Mitochondria are the center of many biochemical pathways, and one of them is fatty acid oxidation where insulin and estrogen exert their effects. CD36 and CPT1A are other key genes in fatty acid metabolism and were upregulated during the various phases of spaceflight (Fig. <ref type="figure" target="#fig_7">8b</ref>). The CD36 is responsible for fatty acid uptake into cells and is associated with insulin resistance and cardiovascular disease. LEPR, APP, CXCL5, LYPLAL1, GHL3 are other upregulated insulin resistance related genes during flight (Fig. <ref type="figure" target="#fig_7">8b</ref>).</p><p>In the pathway analysis, postflight upregulated genes linked to insulin resistance, showed enrichment of endocrine resistance, estrogen signaling, cholesterol metabolism, regulation of lipolysis in adipocytes, and maturity onset diabetes of the young (MODY) pathways (Fig. <ref type="figure" target="#fig_7">8a</ref>). Downregulated genes in flight or postflight vs preflight are given in Fig. <ref type="figure" target="#fig_7">8b</ref>. There was a trend of upregulation of these genes during spaceflight (Fig. <ref type="figure" target="#fig_7">8b</ref>). These genes showed enriched pathways of insulin resistance, type II diabetes mellitus, AGE-RAGE signaling pathway in diabetic complications and diabetic cardiomyopathy (Fig. <ref type="figure" target="#fig_7">8b</ref>).</p><p>The genes involved in insulin signaling and resistance from human data revolve around key cellular metabolic events such as lipid metabolism, viral infection pathways, and estrogen signaling. The endocrine-metabolic signature observed here illustrates the prominence of regulation of action of insulin during and after spaceflight. Additionally, there is a prominent immune-mediated cytokine and adipokine response to spaceflight in humans. This corroborates growth inducing actions of insulin via the prominent PI3K/Akt and the Ras/MAPK pathways.</p><p>Estrogen signaling related genes and their pathways during and after spaceflight. ESR1 encodes Estrogen Receptor 1 (Estrogen Receptor alpha), the primary receptor for estrogens, which is widely expressed in both rodents and humans. Estrogen signaling via this receptor can alter energy metabolism and conversely, gonadal estrogen production is regulated by the state of energy. ESR1-regulated pathways include insulin signaling, insulin resistance, leptin signaling, and fatty acid synthesis. ESR1 was upregulated within 2 months (R + 3d, R + 30d, R + 60d) and then downregulated again in the 3rd month (R + 120d) postflight (Fig. <ref type="figure" target="#fig_8">9a</ref>). A similar trend during postflight was observed for PER1 expressions (Fig. <ref type="figure" target="#fig_8">9a</ref>). PER1 encodes Per1 protein, which is one of the major components of circadian rhythm. Circadian rhythm and circadian clock genes are closely related to metabolism and hormones. CYP17A1 was upregulated during postflight, which encodes a key enzyme in steroidogenesis for cortisol and sex steroid synthesis (Fig. <ref type="figure" target="#fig_8">9a</ref>).</p><p>Estrogen-related genes altered postflight, with most being upregulated throughout the postflight period (Fig. <ref type="figure" target="#fig_8">9a</ref>), included ZNF423, GAL, EGFR, FST, PAX2, SLC34A1, GREB1, F5, FGF23, AKT1 and NOS1. These genes are also implicated in the constitutive PIK3CA signaling pathway and myogenesis. This could be a direct effect of spaceflight-induced physical stress as nuclear-initiated estrogen signaling (NICE) can induce corticotropin-releasing hormone CRH through the induction of nitric oxide (NOS1 upregulation) and via PI3K signaling activation <ref type="bibr" target="#b58">59</ref> . Similarly, selected genes CRHR2, PRKCD, TRIM24, IL6ST, MALAT1, OXTR, INPP4B, KMT2C, LEPR, and TAB2 within the downregulated cohort revealing a consistent pattern of change with spaceflight represent a niche of interleukin 6/JAK/ STAT3 and MAPK signaling.</p><p>Estrogen-linked upregulated genes at postflight showed that steroid hormone biosynthesis was the top activated pathway (Fig. <ref type="figure" target="#fig_8">9a</ref>). Other enriched pathways were ovarian steroidogenesis, estrogen signaling, Cushing syndrome, and retinol metabolism in favor of stress response and sex steroid synthesis. Estrogen-linked downregulated genes and their associated pathways showed activation of insulin resistance, AGE-RAGE signaling pathway in diabetic complications, lipid and atherosclerosis, and growth hormone synthesis pathways (Fig. <ref type="figure" target="#fig_8">9b</ref>). Estrogen also has a role in immunity, and enrichment of viral infection pathways like CMV, HTLV1 and HPV infections are also detected (Fig. <ref type="figure" target="#fig_8">9b</ref>).</p><p>Intricate dance of insulin and estrogen signaling and insulin resistance. Some of the genes in the human samples were related to both insulin and estrogen signaling as well as insulin resistance including IGFBP1, FGF23, WNT5A, CRP, ESR1, EGFR, FST, NCOR1, CD36, CYP17A1, SHBG, KISS1, LEPR. The leptin receptor (LEPR) and its signaling are crucial for metabolism and obesity <ref type="bibr" target="#b30">31</ref> . LEPR was downregulated upon return from spaceflight, regardless of the time interval (Figs. <ref type="figure" target="#fig_6">7b</ref>, <ref type="figure" target="#fig_7">8b</ref>, and <ref type="figure" target="#fig_8">9b</ref>). The CYP17A1 gene was upregulated upon return (Fig. <ref type="figure" target="#fig_6">7a</ref>). CYP17A1, encodes steroidogenic enzymes, 17 alpha-hydroxylase, and 17,20 lyase. These enzymes are responsible for the production of cortisol, estrogen and androgens, and their deficiencies have been linked to both hormonal imbalance and metabolic dysfunction such as hypertension. Most hormones bind to proteins in the circulation. Sex hormone binding globulin (SHBG) binds sex steroid hormones (estrogen and testosterone), and because of this interaction, the amount of SHBG is important as decreasing SHBG levels may lead to increasing free testosterone and estradiol levels, and vice versa. SHGB was upregulated 1 month upon return (R + 30d) and downregulated at the 3rd month (Figs. <ref type="figure" target="#fig_6">7a</ref>, <ref type="figure" target="#fig_7">8a</ref>, and <ref type="figure" target="#fig_8">9a</ref>). Overlapping pathways were also observed such as PI3K-Akt signaling, cAMP signaling, insulin resistance, and estrogen signaling. It is well known that changes in estrogen signaling have been associated with insulin resistance <ref type="bibr" target="#b59">60</ref> , as seen in our results showing the enrichment of the estrogen signaling pathway via insulin resistance linked genes. Viral infection related pathways are enriched with both insulin and estrogen downregulated genes (Figs. <ref type="figure" target="#fig_6">7b</ref> and <ref type="figure" target="#fig_8">9b</ref>).</p><p>Insulin and estrogen signaling changes are observed in multiple human missions. To explore if sex differently impacted insulin signaling, estrogen signaling, and insulin resistance, we utilized astronaut data (2 female and 2 male) from the first civilian commercial 3-day space mission, referred to as Inspiration4 (i4) <ref type="bibr" target="#b60">61</ref> . From the i4 mission, single-cell gene expression data from peripheral blood mononuclear cells (PBMCs) and skin spatial transcriptomics data were generated.</p><p>Genes in the estrogen signaling, insulin signaling, and insulin resistance overlapped less than 10% with DEGs at R + 1 from PBMCs and subpopulations (CD4 T, CD8 T, other T, B, NK, CD14 Mono, CD16 Mono, DC) (Fig. <ref type="figure" target="#fig_9">10a</ref>). Among these overlapping genes, the percentage of the upregulated genes were higher than downregulated genes (Fig. <ref type="figure" target="#fig_9">10a</ref>). Log 2 Female DEGs to Male DEGs ratios varied across cell types, based on insulin and estrogen linked gene categories. Log 2 Female DEGs to Male DEGs ratios were positive in most cell types for insulin signaling (i.e. PBMCs, CD4 T, CD8 T, NK, DC, and 'other' subpopulations) (Fig. <ref type="figure" target="#fig_9">10b</ref>). Certain cell types showed either a positive or negative ratio, depending on the hormone of interest. For instance, in females, in terms of DC, the DEGs ratio was positive for insulinlinked genes, but negative for estrogen-linked genes. In estrogen signaling, downregulated genes of B and other cell types were higher in females (Fig. <ref type="figure" target="#fig_9">10b</ref>). In CD4 T cells, the ratios were positive in insulin, estrogen signaling and IR linked genes (Fig. <ref type="figure" target="#fig_9">10b</ref>). We also calculated insulin resistance, estrogen signaling, and insulin signaling scores to track the changes over spaceflight. Higher enrichment scores were observed in all signaling pathways on R + 82, in comparison to R + 1 (Fig. <ref type="figure" target="#fig_9">10c</ref>). In general, there was not a strong sex difference across cells (Fig. <ref type="figure" target="#fig_9">10c</ref>). In certain cell types, differences in enrichment scores were observed depending on mission timeline and sex (Fig. <ref type="figure" target="#fig_9">10c</ref>). In dendritic cells (DC), three pathways were positively enriched on R + 82 in both sexes; however, enrichment scores were different among females and males on R + 45 (Fig. <ref type="figure" target="#fig_9">10c</ref>). T cell metabolism is modulated through insulin receptor signaling during inflammation and infection <ref type="bibr" target="#b61">62</ref> . Alternatively, energy consumption due to T cell activation drives upregulation of insulin receptors <ref type="bibr" target="#b62">63</ref> . Therefore, it is evident that insulin signaling is a key immune-metabolic event during increased physiologic demands, as in i4 cohort findings. Similarly, estrogen receptor alpha is known to mediate T cell-dependent inflammatory reactions in a diseased state <ref type="bibr" target="#b11">12</ref> .</p><p>We also compared these findings in human skin data. To perform spatial transcriptomics analysis, we compared transcript profiles of preflight (L-44) and postflight (R + 1) tissue sections across four compartments within the skin, including outer epidermis (OE), inner epidermis (IE), outer dermis (OD) and vasculature (VA). While statistical analysis is limited by small sample sizes, we found slight differences between male and female skin compartments. Using the ssGSEA approach, overall, we observed increased enrichments in insulin resistance genes and decreased enrichments in estrogen and insulin signaling genes. There were slight sex differences, and the degrees of variation were region-specific. For example, we saw the strongest loss and sex-dependent variation of estrogen and insulin signaling signatures in VA regions (Fig. <ref type="figure" target="#fig_9">10d</ref>). Insulin resistance linked genes were more enriched in females in the postflight vascular compartment and outer epidermis relative to preflight samples. In inner epidermis, both insulin and estrogen-signaling-linked genes showed larger changes in enrichments in females than in males.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Consistent with past reports that insulin signaling is a central regulator of gene expression changes and lipid metabolism in response to spaceflight in the worm, C. elegans <ref type="bibr" target="#b63">64,</ref><ref type="bibr" target="#b64">65</ref> , we find that gene expression changes related to insulin signaling occur in spaceflown rodents and humans. Further, we find that estrogen signaling gene expression changes also occur in both spaceflown rodents and humans.</p><p>In mice, the liver and soleus muscle were the tissues that displayed the largest changes in global gene expression (Fig. <ref type="figure" target="#fig_0">1b</ref>). These tissues also displayed large changes in insulin and estrogen signaling gene expression (Fig. <ref type="figure" target="#fig_0">1c</ref>, <ref type="figure">d</ref>). In the liver, insulin receptor (INSR) and downstream kinases AKT1 and AKT2 were downregulated during spaceflight. These changes were accompanied by decreased expression of other insulin receptor signaling genes. The metabolic pathways directly controlled by insulin were inhibited, which resulted in activation of dysglycemia, insulin resistance, and hepatic steatosis. This last prediction is particularly striking given the increase in liver mass in these mice in a prior study utilizing the same cohort <ref type="bibr" target="#b65">66</ref> . Hepatic steatosis is a direct consequence of insulin resistance and can in turn exacerbate insulin resistance, leading to the development of a metabolic syndrome, and thus resulting in a vicious cycle <ref type="bibr" target="#b66">67</ref> . Prior studies have reported that during spaceflight, mice developed hepatomegaly <ref type="bibr" target="#b65">66</ref> and hepatic lipid accumulation <ref type="bibr" target="#b67">68,</ref><ref type="bibr" target="#b68">69</ref> . Further, the livers used in our analysis showed histologic evidence of lipid accumulation via Oil Red O staining in a prior study <ref type="bibr" target="#b67">68</ref> . Thus, our results suggest that disrupted insulin signaling may underlie these changes. In addition to the insulin signaling changes, the impaired estrogen signaling we observed (z-score &lt; -2), may contribute to hepatic insulin resistance.</p><p>In rodents, both male and female estrogen receptor knockout mice display insulin resistance <ref type="bibr" target="#b14">15</ref> . Further, both insulin and estrogen actively play a role in metabolism and our findings also suggest that mitochondrial dysfunction, previously reported during spaceflight 2 , may be due to alterations in insulin and estrogen signaling (Fig. <ref type="figure" target="#fig_10">4a</ref>). PGC-1α, encoded by PPARGA1A, is a master regulator in metabolism and mitochondrial biogenesis <ref type="bibr" target="#b69">70</ref> . PPARGC1A downregulation in the liver was observed in both insulin and estrogen gene expression changes. Additionally, estrogen regulates mitochondrial function and biogenesis <ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref> . In our liver data, downregulation of mitochondrial complex I, complex 2, and ATP synthase genes were observed in the estrogen signaling network (Fig. <ref type="figure" target="#fig_10">4a</ref>). Thus, alterations in insulin and estrogen signaling in the liver may contribute to whole body alterations in metabolism in response to spaceflight.</p><p>Soleus muscle was the second most affected tissue in mouse studies. Soleus is a slow twitch (type I) muscle fiber, dense in mitochondria to provide sustained oxidative capacity for longterm demands. Prior studies show atrophy in the soleus muscle after spaceflight in both rodents and humans <ref type="bibr" target="#b65">66</ref> , and differential gene expressions between soleus and EDL muscle in rodents <ref type="bibr" target="#b70">71</ref> . Myostatin (MSTN) controls muscle mass and has been reported to be upregulated in microgravity in the soleus muscle but not in EDL <ref type="bibr" target="#b71">72</ref> ; we confirm this observation. Other muscle atrophy related genes, FBX032 (Atrogin-1) and TRIM63, and mechanoreceptor PIEZO1 were also downregulated in the soleus. The downregulation of FBX032 and TRIM63 suggest the decline in soleus muscle size <ref type="bibr" target="#b65">66</ref> is not caused by increases in muscle protein degradation. This is consistent with past reports that muscle protein degradation is not increased in flight, but rather that protein synthesis declines <ref type="bibr" target="#b72">73</ref> . Previous studies in astronauts have suggested that altered insulin signaling may underlie muscle atrophy <ref type="bibr" target="#b24">25</ref> . Further, in a prior study from the same mission, mice soleus muscle weight was decreased by 19%, despite no change in body weight and being physically active in space <ref type="bibr" target="#b65">66</ref> . Given that insulin promotes protein synthesis, our finding of decreased expression in soleus of IRS2 (Insulin receptor substrate 2), one of major downstream insulin signaling, suggests that insulin alterations contribute to declines in protein synthesis to promote muscle atrophy in flight; this is also consistent with suggestions from spaceflown C. elegans <ref type="bibr" target="#b64">65</ref> . On the contrary, insulin receptor signaling was activated in the EDL (z-score: 2.52). Moreover, insulin-induced ACACA, a rate-limiting enzyme in lipogenesis, was upregulated indicating an insulin responsive state in the EDL. Further, the majority of the insulin signaling significant genes at the intersection of soleus and EDL were regulated in opposite directions, which shows distinctive insulin response in these muscles (Supplementary Data 1).</p><p>Estrogen also promotes muscle growth, regeneration, insulin sensitivity, and controls muscle inflammation <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b73">74</ref> . Estrogenrelated receptor beta and gamma (ESRRB, ESRRG) induce mitochondrial function in myotubes and have a role in shifting muscle fibers towards oxidative types <ref type="bibr" target="#b74">75</ref> . Muscle-specific ESR1 knockout mice models showed decreased oxidative metabolism, impaired mitochondrial fission and glucose metabolism <ref type="bibr" target="#b75">76</ref> . Thus, our findings that ESR1 receptor was upregulated and ESRRB and ESRRG were downregulated in soleus, while ESRRA, ESRRB, ESRRG were all upregulated in the EDL, suggest diverse actions of estrogen in muscle metabolism during spaceflight. Interestingly, while soleus size declined and EDL remained stable, as consistent with past studies <ref type="bibr" target="#b65">66</ref> , the gene expression changes in soleus and EDL were distinct with EDL displaying an enrichment for growth pathways (Fig. <ref type="figure" target="#fig_2">3</ref>), also consistent with prior studies <ref type="bibr" target="#b70">71</ref> . Estrogen receptor signaling pathways were activated in both EDL and soleus muscles. Soleus muscle mass recovery is reported to be slower after hindlimb suspension in ovariectomized mice <ref type="bibr" target="#b76">77</ref> . Additionally, increased estrogen receptor expressions were reported following muscle trauma in regenerating myofibers <ref type="bibr" target="#b73">74</ref> . Thus, estrogen receptor signaling activation and upregulation of ESR1 could be a compensatory mechanism against muscle disuse in the soleus muscle, whereas, in EDL the ESR signaling activation could support muscle growth and energy metabolism. Adipose tissue is another endocrine organ which is a part of crosstalk between muscle and liver. Our results are limited to muscle and liver, as adipose tissue was not available for analysis.</p><p>Studies in humans have more constraints than in model organisms, thus for the present study we were limited to blood samples and skin in spaceflown humans. However, as insulin and estrogen are circulating hormones, changes in their effects should be detected in these tissues; albeit at lower levels such as in the non-liver and non-soleus tissues in rodents (Fig. <ref type="figure" target="#fig_0">1</ref>). As with the worm and rodent data, changes in insulin resistance related genes were detected inflight and postflight. Postflight samples from human subjects displayed upregulated insulin signaling genes (i.e., AKT1, RARRES2) as well as enriched insulin secretion and PI3K/AKT signaling (Fig. <ref type="figure" target="#fig_7">8a</ref>), possibly suggesting decline in these pathways inflight. Additionally, postflight upregulation of the glucagon signaling pathway may indicate underlying postflight stress and may result in insulin resistance. Overall, postflight upand down-regulated genes associated with insulin signaling displayed enriched lipid metabolism, hormones (i.e., estrogen, growth hormone, glucagon), circadian rhythm, and immune system pathways. Also, in the human data, we found the estrogen signaling pathway was enriched with insulin related genes. ESR1 was upregulated within 2 months (R + 3d, R + 30d, R + 60d) and then downregulated in the 3rd month (R + 120d). In correlation with this finding CYP17A1 was upregulated postflight. These findings may explain the enriched ovarian steroidogenesis and steroid hormone synthesis pathways seen postflight. Estrogen is closely related to the immune system, as an example, Treg cell distribution changes during menstrual cycles and increases during the follicular phase <ref type="bibr" target="#b77">78</ref> .</p><p>In our data, dendritic cells in females showed higher enrichment scores in estrogen and insulin linked genes on R + 45 than male counterparts (Fig. <ref type="figure" target="#fig_9">10c</ref>). Sex difference was also observed in both rodent and human skin samples. In human skin, in the vascular region (VA) of the dermis, insulin resistance-related genes were more enriched in females during postflight while insulin and estrogen signaling-related genes were less enriched (Fig. <ref type="figure" target="#fig_9">10d</ref>). In rodent skin samples, certain genes associated with tissue remodeling and collagen synthesis (i.e. COL1A1, COL6A3, COL6A1, COL5A1) (Fig. <ref type="figure" target="#fig_5">6b</ref>) were downregulated in male mice (Fig. <ref type="figure" target="#fig_5">6b</ref>). Interestingly, increased urinary COL1A1 and COL3A1 levels have been reported in the NASA twin study <ref type="bibr" target="#b78">79</ref> . Insulin and estrogen both play an active role in skin homeostasis, and insulin resistance has been linked to certain skin conditions <ref type="bibr" target="#b42">43</ref> . Dermis is a connective tissue rich in vasculature, fibroblasts, collagen and elastic fibers, glands, hair follicles, and nerve endings. Both insulin and estrogen signaling exist in vascular endothelium and cause vasodilation via nitric oxide <ref type="bibr" target="#b79">80,</ref><ref type="bibr" target="#b80">81</ref> . Insulin-resistant states could impair vascular endothelium <ref type="bibr" target="#b81">82,</ref><ref type="bibr" target="#b82">83</ref> . Estrogen promotes skin and mucosal epithelialization and proliferation. Studies reported positive impact of estrogen in wound healing <ref type="bibr" target="#b83">84</ref> . Clinically, topical estrogen is used in the treatment of vulvovaginal atrophy, and it proliferates epithelium <ref type="bibr" target="#b47">48</ref> . Although our findings are limited by sample size, differences in the enrichment scores based on sex and skin compartments warrant future research on skin conditions after spaceflight in a sex and hormone-dependent manner. Further, due to our study setting, we cannot conclude on certain space-related environmental factors, such as lunar soil and dust, and their effects on insulin and estrogen signaling in the skin.</p><p>In conclusion, we find insulin and estrogen signaling are altered during and after spaceflight in rodents and people. These changes impact metabolism and forebode comorbidities. One advantage of the rodent data is that genes for pathways of interest were examined in various tissues from the same sample cohort, including mice of the same strain and age. However, a key limitation of our study is the small number of human participants. Future studies should include different rodent strains, more human subjects, and different mission profiles to gain more knowledge on these genes/pathways of interest and expand our results. Particular attention should be paid to the effects on reproductive hormone synthesis and actions, as these impact a wide range of tissues, including bone health, energy metabolism and, of course species survival via reproduction. Personalized healthcare using genomic data is the way of the future for both Earth and beyond <ref type="bibr" target="#b84">85</ref> . Therefore, as we progress toward becoming an interplanetary species, further study on reproductive endocrinology and metabolism in space is essential for success.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Animal and sample collection. All omics data related to mouse samples were obtained from NASA's GeneLab public omics repository <ref type="bibr" target="#b85">86</ref> . The data derived from spaceflight experiments carried out onboard the ISS as part of the Rodent Research-1 (RR-1), RR-5, RR-7, and MHU-2 missions. A description of the experimental design, the corresponding type of tissues, and the data accessed are summarized in Supplementary Table <ref type="table">1</ref>. All previous animal experiments and methods were performed in accordance with the relevant guidelines at each principal investigators' institutions and were approved by the Institutional Animal Care and Use committee (IACUC). A detailed description of the methodology for obtaining tissue samples and processing is available in NASA's GeneLab platform.</p><p>For the RR-1 mission, in summary, forty female 12-week-old C57Bl/6 J (Jackson Lab, Bar Harbor, ME) were selected based on similar body weights for 4 experimental groups (16-week-old at launch, n = 10/group): baseline control, vivarium control, habitat control, and flight. Flight mice were launched onboard the ISS on 21 September 2014. Relevant to this study, the habitat control was placed in the ISS Environmental Simulator at NASA KSC on a 4-day delay to mimic flight temperature, CO 2 , and humidity conditions on the ISS for the duration of spaceflight. Flight mice were exposed to microgravity for a total of 37 days (33 days on ISS and 4 days in the Dragon Capsule). Mice were euthanized by injection of Euthasol followed by cervical dislocation and immediately fast frozen intact or partially dissected prior to carcasses being frozen in the Minus Eighty Degree Laboratory Freezer (MELFI) aboard the ISS. All ground mice were processed similarly. Flight mice carcasses returned to Earth February 2015 and were then maintained along with the control mice frozen at the Biospecimen Sharing Program (BSP) at the Ames Research Center until dissection <ref type="bibr" target="#b65">66</ref> .</p><p>Samples were collected and processed as previously described <ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b67">68</ref> . Mouse carcasses were removed from -80 °C storage and thawed at room temperature for 15-20 min. Multiple tissues were collected from each carcass. This study was based on the following tissue types, the Adrenal glands (OSD-98), Extensor digitorum longus muscle (OSD-99), Eye (OSD-100), Gastrocnemius muscle (OSD-101), Kidney (OSD-102), Quadriceps Muscle (OSD-103), Soleus muscle (OSD-104), Tibialis anterior muscle (OSD-105), and Liver (OSD-168, OSD-48).</p><p>RNA sequencing and analysis. Protocol for each dataset is available on the GeneLab platform (Table <ref type="table">S1</ref>). Data validation and quality control was performed with FASTQC and Trim Galore! read alignment to the mouse genome using STAR RNA-seq aligner generation of gene-level expected count data with RSEM <ref type="bibr" target="#b86">87</ref> . UpSet plots were generated using the UpSetR package in R. The UpSet plot bars were sorted from the largest number of genes to the smallest number of genes in each intersection set with each set having ≥ 2 genes. Heat maps were created using packages available through R (pheatmap and complexheatmap). Hierarchical clustering was used for the heatmaps where Euclidean distance was used as a distance measure and the complete linkage method was used to find similar clusters.</p><p>For the gene set enrichment analysis (GSEA) Pathway Analysis, the Genelab datasets are re-analyzed to produce the t-score. The Differential Expression (DE) analysis is accomplished using DESeq2 version 1.26.0 <ref type="bibr" target="#b87">88</ref> , in R software version 4.1.2. Expected counts from the RSEM step were extracted and rounded up to the next integer and used as input for DE analysis. The ensembl IDs of the genes in the DE datasets were annotated to their corresponding gene symbols using the R package biomaRt <ref type="bibr" target="#b88">89,</ref><ref type="bibr" target="#b89">90</ref> . The murine skin datasets were analyzed via a similar pipeline available at <ref type="url" target="https://github.com/henrycope/spaceflight-skin-transcriptomics-insulin-estrogen">https://github.com/henrycope/spaceflight-skin-transcriptomics-insulin- estrogen</ref>, using R version 4.1.0, DESeq2 version 1.32, and biomaRt version 2.48.3.</p><p>We performed GSEA on the differentially expressed datasets using fGSEA <ref type="bibr" target="#b90">91</ref> to determine to what extent insulin and estrogen pathways were impacted in spaceflight. Estrogen-and insulin-specific gene pathways were selected using the Molecular Signatures Database (MSigDB) <ref type="bibr" target="#b90">91,</ref><ref type="bibr" target="#b91">92</ref> . The latest version MSigDB v2022.1 was used in the pathway search. The keyword "estrogen" was used to identify the estrogen-specific pathways through all database collections and all contributors within the Mus musculus species. Similarly, the keyword "insulin" was used to identify insulin-specific pathways through all contributors and Mus musculus database collections. The outcome of the fGSEA analysis is the normalized enrichment score (NES) of any given pathway, alongside valuable information on the analysis, such as the adjusted p-value, and the leading-edge genes of the pathway. The NES is the enrichment score normalized based on the number of genes in the gene set. It indicates the representation of the pathway genes in the dataset gene list, which is priorly ranked according to the values of the t-score of the genes. A positive NES indicates that the pathway genes are mostly represented at the top of the gene list, while a negative NES indicates that the pathway genes are mostly represented at the bottom of the gene list. The plots of normalized enrichment score (NES) of the different pathways for a given dataset are rendered using ggplot2 <ref type="bibr" target="#b92">93</ref> , and the heatmaps across different datasets or different genes are rendered using the ComplexHeatmap R package.</p><p>We used Ingenuity Pathway Analysis (IPA) software (Ingenuity Systems) for canonical pathway analysis and subsequent predictions in each tissue with statistically significant genes with a fold-change ≥ 1.2 (and ≤ -1.2) comparing flight conditions versus habitat ground controls (FDR &lt; 0.05 as stated above). Low fold-change has become quite standard when trying to identify genes that are differentially expressed, as low cutoffs are less affected by different data normalization schemes and they are less likely to eliminate key genes operating under very tight level regulation <ref type="bibr" target="#b60">61</ref> . IPA was used to predict statistically significant activation or inhibition of canonical pathways using activation Z-score statistics (≥2, activated or ≤-2, inhibited) <ref type="bibr" target="#b93">94</ref> .</p><p>Cell-Free Epigenome JAXA Study plasma cfRNA data. Aggregated normalized RNA expression values were shared through NASA's GeneLab platform with accession number: OSD-530 <ref type="bibr" target="#b50">51</ref> . Blood samples were collected from 6 astronauts before, during, and after the spaceflight on the ISS. cfRNA samples were obtained by purifying total RNA from plasma samples and analyzed by RNA-seq. Mean expression values from normalized read counts of 6 astronauts were used for the analysis in this report. Heatmaps were made for the specific genes on the normalized values per time point using R package pheatmap version 1.0.12. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Unique differentially expressed genes across tissues in mice. a Graphical abstract showing the samples and analysis created in BioRender. b UpSet plot showing the number of differentially expressed genes (FC cutoff of 1.2 and p-adj&lt;0.05) that are unique to each tissue and overlapping different tissues.The liver had the highest number of unique genes while adrenal had the lowest. The two genes that were common across all nine tissues were related to circadian rhythm and insulin signaling. c Global gene level heatmap of 1970 unique genes from NCBI curated gene list which are common across insulin resistance, insulin signaling and estrogen signaling pathways. Genes are the rows and columns are the nine tissues analyzed from the RR1 mission. Genes were further divided into being unique to only one of these pathways or a combination of the pathways. Heatmap shows the z-scores of logFC values from the nine tissues and the tissues are clustered using hierarchical clustering. Liver was the most affected with genes being downregulated across all pathways when comparing flight vs pre-flight. d Heatmap of 645 unique genes from NCBI curated gene list which have log fold change values across all 9 tissues. Hierarchical clustering of genes shows clusters being related to GO biological processes relevant to insulin resistance, insulin signaling and estrogen signaling (Fig.S1). e Venn diagram of insulin resistance, insulin signaling and estrogen signaling pathways with their corresponding unique and overlapping genes from the NCBI curated gene list. There are a total of 145 genes that are common across all three pathways.</figDesc><graphic coords="3,57.66,50.80,480.02,253.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig.2Insulin resistance, insulin and estrogen signaling related genes and diseases. a Heatmap for 56 out of 145 common genes across the insulin resistance and insulin signaling pathways for which there were gene expression values across all nine tissues. b Disease enrichment plot showing top 10 diseases from mouse genome database (MGD) being enriched using 145 unique genes common across insulin resistance, insulin signaling and estrogen signaling. The y axis shows the disease labels and the x axis shows the ratio of disease relevant genes to the total number of genes found from the 145 genes that were present in MGD. The dots in the enrichment plots are colored by the FDR values and the sizes of the dots indicate the number of genes found to be enriched for a disease. Diabetes and fatty liver are the top two enriched diseases which are related to estrogen and insulin signaling. c Disease enrichment plot is shown with top 10 diseases from human curated sources (e.g., UniProt, ClinGen) using species relevant genes out of 145 genes from the NCBI list. Obesity and fatty liver are the top two enriched diseases which are also related to estrogen and insulin signaling.</figDesc><graphic coords="4,57.66,50.80,480.02,310.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 Gene set enrichment analysis of insulin and estrogen pathways. a A heatmap of the normalized enrichment scores (NES) of estrogen and insulin pathways impacted by spaceflight in datasets of RR-1 mission samples. The dark gray locations in the heatmap indicate missing values for the NES, resulting from off-range adjusted p-values (padj) at which the NES is obtained. The assumed range is padj &lt; 0.3. A positive NES indicates activation of the pathways, while at negative NES the pathway is inhibited. In the pathways, the full meaning of CRGS is 'Cellular Response to Glucose Stimulus'; and the full meaning of IERSP is 'Intracellular Estrogen Receptor Signaling Pathway'. The pathways are categorized into several types, and the MSigDB database from which the pathway is sourced is indicated in parentheses. b A heatmap of the t-score of the overlapping leading-edge pathway genes across the datasets of the RR-1 mission samples. The dark gray locations in the heatmap indicate the absence of a value for the t-score, resulting from off-range adjusted p-values (padj) at which the t-score is obtained. The assumed range is padj &lt; 0.05. The leading-edge genes are the genes that contribute to the GSEA predicted pathways. The overlapping leading-edge genes are commonly leading-edge genes to at least four of the datasets.</figDesc><graphic coords="5,57.66,50.80,480.02,267.02" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4</head><label>4</label><figDesc>Fig. 4 Hepatic steatosis in mice liver. a The hepatic steatosis canonical pathway with the significantly regulated genes for liver tissue from mice flown to space compared to ground control mice. The lower panel is the mitochondrial complexes and the significantly regulated genes involved visualized by ShinyGo v0.76.3 and KEGG pathway diagrams. The boxes highlighted in yellow indicate genes related to estrogen receptor signaling. Panel was created in BioRender. b Lollipop plot illustrating the normalized enrichment scores (NES) of hepatic steatosis pathways in OSD-168 (liver tissue). Only pathways with a NES obtained at an adjusted p-value &lt;0.3 (padj &lt; 0.3) are shown. c An illustration of common leading-edge genes across pathways of insulin and estrogen in a heatmap of the normalized enrichment scores (NES) of the pathways impacted by spaceflight in OSD-168 (liver tissue). Only pathways with NES at padj &lt; 0.3 are shown, and only genes that are among leading edge genes seven (7) or more of the pathways are shown.</figDesc><graphic coords="6,57.66,50.80,480.02,375.99" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5</head><label>5</label><figDesc>Fig. 5 Quantitative proteomics screening of different tissues from the RR1 mission samples. a Heatmaps for logFC (Flight vs. Ground) of proteins across the estrogen signaling, insulin signaling, and insulin resistance pathways. Normalized protein intensity values were used to calculate the logFC through the Limma package. Columns represent datasets from different tissues in the RR1 missions, and rows correspond to proteins. The gray cells in the heatmap indicate missing values. Asterisks (*) overlaying cells denote statistical significance (p-value &lt; 0.05). Liver displayed the most protein abundance changes across these pathways. Protein abundance changes for (b) insulin receptor signaling, (c) insulin resistance, (d) hepatic steatosis, (e) glucose metabolism disorders, and (f) estrogen receptor signaling, were also depicted in different heatmaps. All 0 values for b-f are for proteins which were not present in the data.</figDesc><graphic coords="7,98.59,50.80,398.16,599.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6</head><label>6</label><figDesc>Fig. 6 Insulin and estrogen signaling, insulin resistance pathways in skin rodent samples. a Pathway enrichment heatmap. Heatmap of normalized enrichment scores for insulin resistance, insulin signaling, and estrogen signaling pathways in spaceflight vs ground control comparisons of murine skin.Columns represent pathways, while rows represent datasets from multiple spaceflight missions, split by biological sex. Asterisks (*) overlaying cells denote statistical significance. b Gene-level heatmaps (one for each pathway). Heatmap of t-scores for highly significant (FDR ≤ 0.01) differentially expressed genes associated with the insulin and estrogen signaling as well as insulin resistance. Columns represent datasets from multiple spaceflight missions, and rows correspond to genes. Asterisks (*) overlaying cells denote statistical significance; genes must be significant in at least one of the datasets to be displayed.</figDesc><graphic coords="8,57.66,50.80,480.02,369.47" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7</head><label>7</label><figDesc>Fig. 7 Insulin Signaling linked genes and pathways from JAXA Cell-Free Epigenome (CFE). a Heatmap of the significantly upregulated genes compared to pre-flight for either flight or post-flight of normalized plasma cell-free RNA expression values and associated pathways for insulin signaling over time for the six astronauts over 120 days in space from JAXA study. The values shown on are the averaged normalized expression values for all six astronauts each time point during flight and post-flight. The four pre-flight time points were averaged together, since the changes for genes in the time leading up to flight are considered to be the same and part of the baseline values. For the time, L = Launch (i.e., meaning time after launch from Earth and length in space) and R = Return to Earth. Based on heatmap, pathway analysis performed using ShinyGO to reveal the top 30 pathways (FDR &lt; 0.05) being regulated for postflight upregulated insulin linked genes. The red bold font texts are the pathways that are directly known to regulate the insulin pathway in the pathway figure. b Heatmap and associated pathways showing insulin signaling linked downregulated genes in postflight or flight vs preflight. Based on heatmap, pathway analysis performed using ShinyGO to reveal which pathways are being regulated for downregulated insulin linked genes. The pathways and lollipop plots demonstrate top 30 pathways (based on FDR). The red bold font texts are the pathways that are directly known to regulate the insulin pathway in the pathway figure.</figDesc><graphic coords="9,57.66,50.80,480.02,483.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 8</head><label>8</label><figDesc>Fig. 8 Insulin Resistant linked genes and pathways from JAXA Cell-Free Epigenome (CFE). a Heatmap of the significantly upregulated genes compared to pre-flight for either flight or post-flight of normalized plasma cell-free RNA expression values and associated pathways for insulin resistant over time for the six astronauts over 120 days in space from JAXA study. The values shown on are the averaged normalized expression values for all six astronauts each time point during flight and post-flight. The four pre-flight time points were averaged together, since the changes for genes in the time leading up to flight are considered to be the same and part of the baseline values. For the time, L = Launch (i.e., meaning time after launch from Earth and length in space) and R = Return to Earth. Based on heatmap, pathway analysis performed using ShinyGO to reveal the top 30 pathways (FDR &lt; 0.05) being regulated for postflight upregulated insulin-resistant linked genes. The red bold font texts are the pathways that are directly known to regulate the insulin pathway in the pathway figure. b Heatmap and associated pathways showing insulin resistant linked downregulated genes in postflight or flight vs preflight. Based on heatmap, pathway analysis performed using ShinyGO to reveal which pathways are being regulated for downregulated insulin-linked genes. The pathways and lollipop plots demonstrate top 30 pathways (based on FDR). The red bold font texts are the pathways that are directly known to regulate the insulinresistant pathway in the pathway figure.</figDesc><graphic coords="10,57.66,50.80,480.02,257.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 9</head><label>9</label><figDesc>Fig. 9 Estrogen Signaling linked genes and pathways from JAXA Cell-Free Epigenome (CFE). a Heatmap of the significantly upregulated genes compared to pre-flight for either flight or post-flight of normalized plasma cell-free RNA expression values and associated pathways for estrogen signaling over time for the six astronauts over 120 days in space from JAXA study. The values shown on are the averaged normalized expression values for all six astronauts each time point during flight and post-flight. The four pre-flight time points were averaged together, since the changes for genes in the time leading up to flight are considered to be the same and part of the baseline values. For the time, L = Launch (i.e., meaning time after launch from Earth and length in space) and R = Return to Earth. Based on heatmap, pathway analysis performed using ShinyGO to reveal the top 30 pathways (FDR &lt; 0.05) being regulated for postflight upregulated estrogen signaling linked genes. The red bold font texts are the pathways that are directly known to regulate the insulin pathway in the pathway figure. b Heatmap and associated pathways showing estrogen signaling linked downregulated genes in postflight or flight vs preflight. Based on heatmap, pathway analysis performed using ShinyGO to reveal which pathways are being regulated for downregulated estrogen signaling linked genes. The pathways and lollipop plots demonstrate top 30 pathways (based on FDR). The red bold font texts are the pathways that are directly known to regulate the estrogen signaling pathway in the pathway figure.</figDesc><graphic coords="11,57.66,50.80,480.02,265.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 10</head><label>10</label><figDesc>Fig. 10 Insulin and estrogen signaling in inspiration4 astronaut PBMC and skin samples. a Percent overlap of genes associated with insulin and estrogen signaling in single cell RNA-seq PBMC data, by cell types. b Log2 Female to male gene ratios from panel c. Fold changes of enrichment scores in response to spaceflight by sex, postflight collection time points, and cell types, PBMC data. The color scale bar represents fold change values are relative to preflight. d Fold changes of enrichment scores in postflight relative to preflight time point, by sex and tissue compartments (OE outer epidermis, IE inner epidermis, OD outer dermis, VA vasculature) in skin biopsy data. The color scale bar represents fold change values.</figDesc><graphic coords="12,57.66,50.80,480.02,277.57" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Inspiration 4 (</head><label>4</label><figDesc>i4) astronaut sample collection. Inspiration4 was the world's first all-civilian mission to orbit Earth. Four civilians, two males and two females, spent three days in Low-Earth Orbit (LEO) at 585 km above Earth. The mission launched from NASA Kennedy Space Center on 15 September 2021 and splashed down in the Atlantic Ocean near Cape Canaveral on September 18th, 2021. Several humanrelated experiments were carried out to study the effects of spaceflight on human health and performance in collaboration with SpaceX, the Translational Research Institute for Space Health (TRISH) at Baylor College of Medicine (BCM), and Weill Cornell Medicine. The experiments carried out on the Inspiration4 crewmembers were performed in accordance with the relevant guidelines at the principal investigators' institutions. Moreover, the different study designs and the</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>COMMUNICATIONS BIOLOGY | (2024) 7:692 | https://doi.org/10.1038/s42003-023-05213-2 | www.nature.com/commsbio</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgements N.S. was supported by grants from <rs type="funder">NASA</rs> [<rs type="grantNumber">NSSC22K0250</rs>; <rs type="grantNumber">NSSC22K0278</rs>] and acknowledges the support of the <rs type="funder">Osteopathic Heritage Foundation</rs> through funding for the <rs type="funder">Osteopathic Heritage Foundation Ralph S. Licklider</rs>, D.O., Research Endowment in the <rs type="funder">Heritage College of Osteopathic Medicine</rs>. A.B. was supported by <rs type="funder">NASA</rs> grant <rs type="grantNumber">16-ROSBFP_GL-0005</rs>: <rs type="grantNumber">NNH16ZTT001N-FG</rs> Appendix G: <rs type="projectName">Solicitation of Proposals for Flight and Ground Space Biology Research</rs> (Award Number: <rs type="grantNumber">80NSSC19K0883</rs>). C.E.M. thanks the <rs type="funder">Scientific Computing Unit (SCU)</rs> at WCM, the <rs type="funder">WorldQuant and GI Research Foundation</rs>, <rs type="funder">NASA</rs> (<rs type="grantNumber">NNX14AH50G</rs>, <rs type="grantNumber">NNX17AB26G</rs>, <rs type="grantNumber">NNH18ZTT001N-FG2</rs>, <rs type="grantNumber">80NSSC22K0254</rs>, <rs type="grantNumber">80NSSC23K0832</rs>, the <rs type="funder">Translational Research Institute</rs> through <rs type="funder">NASA Cooperative</rs> Agreement <rs type="grantNumber">NNX16AO69A</rs>), the <rs type="funder">National Institutes of Health</rs> (<rs type="grantNumber">R01MH117406</rs>), and the <rs type="funder">LLS</rs> (<rs type="grantNumber">MCL7001-18</rs>, <rs type="grantNumber">LLS 9238-16</rs>, <rs type="grantNumber">7029-23</rs>). H.C. is supported by the <rs type="funder">Horizon Center for Doctoral Training at the University of Nottingham</rs> (<rs type="grantName">UKRI</rs> grant no. <rs type="grantNumber">EP/S023305/1</rs>). Graphical abstract (Fig. 1a) Created with <rs type="funder">BioRender</rs>.com.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_qwRBBvx">
+					<idno type="grant-number">NSSC22K0250</idno>
+				</org>
+				<org type="funding" xml:id="_ZSYmtWW">
+					<idno type="grant-number">NSSC22K0278</idno>
+				</org>
+				<org type="funding" xml:id="_AdDnUgS">
+					<idno type="grant-number">16-ROSBFP_GL-0005</idno>
+				</org>
+				<org type="funded-project" xml:id="_jTQUNsW">
+					<idno type="grant-number">NNH16ZTT001N-FG</idno>
+					<orgName type="project" subtype="full">Solicitation of Proposals for Flight and Ground Space Biology Research</orgName>
+				</org>
+				<org type="funding" xml:id="_VkucW3g">
+					<idno type="grant-number">80NSSC19K0883</idno>
+				</org>
+				<org type="funding" xml:id="_fwk2rSQ">
+					<idno type="grant-number">NNX14AH50G</idno>
+				</org>
+				<org type="funding" xml:id="_HFtjpaP">
+					<idno type="grant-number">NNX17AB26G</idno>
+				</org>
+				<org type="funding" xml:id="_V8Wdmrp">
+					<idno type="grant-number">NNH18ZTT001N-FG2</idno>
+				</org>
+				<org type="funding" xml:id="_PbcHsUC">
+					<idno type="grant-number">80NSSC22K0254</idno>
+				</org>
+				<org type="funding" xml:id="_gs8AcCj">
+					<idno type="grant-number">80NSSC23K0832</idno>
+				</org>
+				<org type="funding" xml:id="_QUcvK3E">
+					<idno type="grant-number">NNX16AO69A</idno>
+				</org>
+				<org type="funding" xml:id="_YCCBP3Z">
+					<idno type="grant-number">R01MH117406</idno>
+				</org>
+				<org type="funding" xml:id="_rYbMxm3">
+					<idno type="grant-number">MCL7001-18</idno>
+				</org>
+				<org type="funding" xml:id="_gW5gyCp">
+					<idno type="grant-number">LLS 9238-16</idno>
+				</org>
+				<org type="funding" xml:id="_5xdNNex">
+					<idno type="grant-number">7029-23</idno>
+					<orgName type="grant-name">UKRI</orgName>
+				</org>
+				<org type="funding" xml:id="_JgzV8Em">
+					<idno type="grant-number">EP/S023305/1</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>Majority of the datasets utilized are publicly available at the NASA GeneLab website (<ref type="url" target="https://osdr.nasa.gov/bio/repo">https://osdr.nasa.gov/bio/repo</ref>), including rodent data; Adrenal glands (OSD-98), Extensor digitorum longus muscle (OSD-99), Eye (OSD-100), Gastrocnemius muscle (OSD-101), Kidney (OSD-102), Quadriceps Muscle (OSD-103), Soleus muscle (OSD-104), Tibialis anterior muscle (OSD-105), Liver (OSD-168, OSD-48), Skin (OSD-238, OSD-239, OSD-240, OSD-241, OSD-254), JAXA CFE data (OSD-530).</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>corresponding methods to collect and analyze the biological samples were approved by BCM IRB. All biological data derived from the Inspiration4 mission were collected pre and post flights. For this study, only data from blood samples and skin biopsies were used. Pre-flight samples were collected at L-92, L-44, and L-3 days prior to launch to space. Upon return, post-flight samples were collected at R + 1, R + 45, and R + 82 days.</p><p>i4 PBMC Single-cell sequencing and analysis. Blood samples were collected before (Pre-launch: L-92, L-44, and L-3) and after (Return; R + 1, R + 45, and R + 82) the spaceflight. Chromium Next GEM Single Cell 5' v2, 10x Genomics was used to generate single cell data from isolated PBMCs. Subpopulations were annotated based on Azimuth human PBMC ref. <ref type="bibr" target="#b94">95</ref> . ssGSEA was used to calculate the pathway scores of Insulin Resistance, Estrogen Signaling, Insulin Signaling. Heatmaps are generated by the pheatmap R package.</p><p>Skin spatial transcriptomics. For skin spatial transcriptomics data, 4 mm diameter skin biopsies were obtained from all Inspiration4 crew members, once before flight and as soon as possible after return (L-44 and R + 1). These biopsies were flash frozen and processed with the NanoString GeoMx platform. A 20x scan was used to select 95 freeform regions of interest (ROIs) to guide selection of regions of interest. From immunofluorescence staining, we identified epidermis, dermis (OD), and vasculatures (VA); we subdivided epidermis into outer and inner layers, which corresponded to granular and spinous layer for outer epidermal (OE), and basal layer for inner epidermal (IE). GeoMx WTA sequencing reads from NovaSeq6000 were compiled into FASTQ files corresponding to each ROI and converted to digital count conversion files using the NanoString GeoMx NGS DnD Pipeline. From the Q3 normalized count matrix that accounts for factors such as capture area, cellularity, and read quality, the DESeq2 method was used to perform differential expression analysis.</p><p>Proteomics sample preparation and data processing. The specific details of the proteomics method was previously published and can be found on GeneLab's platform. In brief, after protein homogenization, solubilization, and hydrolysis, resulting peptides were dried and labeled using TMT isobaric tags. The labeled peptides were analyzed on the Orbitrap Fusion mass spectrometer (Thermo Fisher Scientific). The Fusion MS instrument was operated in positive ion data-dependent mode with synchronous precursor selection (SPS)-MS3 analysis for reporter ion quantitation. Peptide and protein identification and quantification was performed with MaxQuant (1.6.2.3) using a mouse reference database from Uniprot. Protein groups containing matches to decoys or contaminants were discarded. Subsequently, Internal Reference Scaling (IRS) method was employed to normalize protein intensities between different TMT experiments using common proteins in pooled internal standards. The data was log2 transformed and scaled by subtracting the median for each sample. Limma was employed to determine differentially protein abundance between the flight group versus the ground control. All data was plotted as heatmaps using pheatmap (ver.1.0.12).</p><p>Statistics and reproducibility. All statistics are described throughout the methods. Briefly, for all RNA-seq data we utilized a cutoff of FDR (or adjusted p-value) &lt; 0.05. For pathway analysis (i.e. GSEA analysis) as indicated in the methods we used a FDR &lt; 0.25, which is the recommended statistical cutoff to utilize for GSEA analysis <ref type="bibr" target="#b91">92</ref> .</p><p>Reporting summary. Further information on research design is available in the Nature Portfolio Reporting Summary linked to this article. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head><p>Supplementary information The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1038/s42003-023-05213-2">https://doi.org/10.1038/s42003-023-05213-2</ref>.</p><p>Correspondence and requests for materials should be addressed to Begum Aydogan Mathyk or Afshin Beheshti.</p><p>Peer review information Communications Biology thanks Marion Korach-André and the other, anonymous, reviewers for their contribution to the peer review of this work. Primary Handling Editors: Joao Valente. A peer review file is available.</p><p>Reprints and permission information is available at <ref type="url" target="http://www.nature.com/reprints">http://www.nature.com/reprints</ref> Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Fundamental biological features of spaceflight: advancing the field to enable deep-space exploration</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Afshinnekoo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="1162" to="1184" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Comprehensive multi-omics analysis reveals mitochondrial stress as a central biological hub for spaceflight impact</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Da Silveira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Insulin: the master regulator of glucose metabolism</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Norton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shannon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gastaldelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Defronzo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page">155142</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Mechanisms of insulin action and insulin resistance</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Shulman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="2133" to="2223" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The insulin receptor: both a prototypical and atypical receptor tyrosine kinase</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Hubbard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb. Perspect. Biol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="8946" to="008946" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Increased postflight carotid artery stiffness and inflight insulin resistance resulting from 6-mo spaceflight in male and female astronauts</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Hughson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol. -Heart Circ. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">310</biblScope>
+			<biblScope unit="page" from="628" to="H638" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Insulin secretion and sensitivity in space flight: diabetogenic effects</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Tobin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Uchakin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Leeper-Woodford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrition</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="842" to="848" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The impact of sex and gender on adaptation to space: executive summary</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Women&apos;s Health</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="941" to="947" />
+			<date type="published" when="2002">2002. 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The immune system is a natural target for estrogen action: opposing effects of estrogen in two prototypical autoimmune diseases</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ansar Ahmed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">635</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Estrogen receptor signaling mechanisms</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fuentes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Silveyra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Protein Chem. Struct. Biol</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="135" to="170" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Non-canonical estrogen signaling in endocrine resistance</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ranganathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nadig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nambiar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Endocrinol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">708</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Estrogen-related receptor alpha: an under-appreciated potential target for the treatment of metabolic diseases</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tripathi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Yen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">1645</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Drug-target interaction network analysis of gene-phenotype connectivity maintained by genistein</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Biol. J. Comput. Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1678" to="1687" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Estrogen and glycemic homeostasis: the fundamental role of nuclear estrogen receptors ESR1/ESR2 in glucose transporter GLUT4 regulation</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C R</forename><surname>Gregorio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Laurindo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">F</forename><surname>Machado</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cells</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">99</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Loss of nuclear and membrane estrogen receptor-α differentially impairs insulin secretion and action in male and female mice</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Allard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="490" to="501" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Males require estrogen signaling too: sexual dimorphism in the regulation of glucose homeostasis by nuclear ERα</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">U</forename><surname>Alejandro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="471" to="473" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The impact of ERα action on muscle metabolism and insulin sensitivity -strong enough for a man, made for a woman</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Hevener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Drew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ribas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Metab</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="20" to="34" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Extranuclear estrogen receptor-alpha stimulates NeuroD1 binding to the insulin promoter and favors insulin synthesis</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P S</forename><surname>Wong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="13057" to="13062" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The role of skeletal muscle estrogen receptors in metabolic homeostasis and insulin sensitivity</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Hevener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Drew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ribas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Exp. Med. Biol</title>
+		<imprint>
+			<biblScope unit="volume">1043</biblScope>
+			<biblScope unit="page" from="257" to="284" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Menopause transition and cardiovascular disease risk: implications for timing of early prevention: a scientific statement from the American Heart Association</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>El Khoudary</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="506" to="e532" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Functions of estrogen and estrogen receptor signaling on skeletal muscle</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ikeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Horie-Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Inoue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Steroid Biochem. Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page">105375</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Effects of spaceflight on estrogen receptor expression and signaling</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Mathyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Alvarado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Quaas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fertil. Steril</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page">21</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Expression of insulin resistance related genes during spaceflight</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Mathyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Alvarado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Quaas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fertil. Steril</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page">107</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Arterial structure and function during and after longduration spaceflight</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M C</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="108" to="123" />
+			<date type="published" when="1985">1985. 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Development of insulin resistance by astronauts during spaceflight</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Stein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Schulter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Boden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aviat. Space Environ. Med</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="1091" to="1096" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Spaceflight inhibits ovarian follicle development, induces down regulation of estrogen receptor alpha, and alters metabolic pathways and gene expression in mouse uterus</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Holets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Roby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Tash</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Reprod</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="18" to="18" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Effects of spaceflight aboard the International Space Station on mouse estrous cycle and ovarian gene expression</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">NASA GeneLab: interfaces for the exploration of space omics data</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Berrios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Galazka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Grigorev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gebre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Costes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1515" to="D1522" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Entrez Gene: gene-centered information at NCBI</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Maglott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ostell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Pruitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tatusova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="52" to="D57" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The Gene Ontology Resource: 20 years and still GOing strong</title>
+		<author>
+			<orgName type="collaboration">Ontology Consortium</orgName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="330" to="D338" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>The Gene</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Leptin and obesity: role and clinical implication</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Obradovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Endocrinol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">585887</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Effects of spaceflight on musculoskeletal health: a systematic review and meta-analysis, considerations for interplanetary travel</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Comfort</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="2097" to="2114" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The role of estrogen in insulin resistance: a review of clinical and preclinical data</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Paoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zakharia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Werstuck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Pathol</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="1490" to="1498" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Estrogen signaling prevents diet-induced hepatic insulin resistance in male mice with obesity</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Emfinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Palmisano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Stafford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Physiol. Endocrinol. Metab</title>
+		<imprint>
+			<biblScope unit="volume">306</biblScope>
+			<biblScope unit="page" from="1188" to="E1197" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Estrogens, estrogen receptors effects on cardiac and skeletal muscle mitochondria</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ventura-Clapier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Piquereau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Veksler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Garnier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Endocrinol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">557</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Estrogenic control of mitochondrial function</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Klinge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Redox Biol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">101435</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Editorial: new insights into estrogen/estrogen receptor effects in the cardiac and skeletal muscle</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Lowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kararigas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Endocrinol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">141</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">17β-estradiol directly lowers mitochondrial membrane microviscosity and improves bioenergetic function in skeletal muscle</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Torres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page">7</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Role of SREBPs in liver diseases: a mini-review</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Moslehi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hamidi-Zad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Transl. Hepatol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="332" to="338" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Deficient endoplasmic reticulummitochondrial phosphatidylserine transfer causes liver disease</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Hernández-Alvarez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">177</biblScope>
+			<biblScope unit="page">17</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Maternal serum mitofusin-2 levels in patients with preeclampsia: the possible role of mitochondrial dysfunction in preeclampsia</title>
+		<author>
+			<persName><forename type="first">Aydogan</forename><surname>Mathyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Matern. -Fetal Neonatal Med</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1861" to="1866" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Update on the synergistic effect of HSL and insulin in the treatment of metabolic disorders</title>
+		<author>
+			<persName><forename type="first">Y.-L</forename><surname>Lan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-C</forename><surname>Lou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lyu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ther. Adv. Endocrinol. Metab</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">2042018819877300</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Skin manifestations of insulin resistance: from a biochemical stance to a clinical diagnosis and management</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>González-Saldivar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rodríguez-Gutiérrez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ocampo-Candiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>González-González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gómez-Flores</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dermatol. Ther</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="37" to="51" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Molecular mechanisms of skin wound healing in nondiabetic and diabetic mice in excision and pressure experimental wounds</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Baldassarro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Tissue Res</title>
+		<imprint>
+			<biblScope unit="volume">388</biblScope>
+			<biblScope unit="page" from="595" to="613" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Metalloproteinases and Wound Healing</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Caley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L C</forename><surname>Martins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>O'toole</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Wound Care</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="225" to="234" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Fatty acid transporters in skin development, function and disease</title>
+		<author>
+			<persName><forename type="first">M.-H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Khnykin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1841</biblScope>
+			<biblScope unit="page" from="362" to="368" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Topical estrogen application to wounds promotes delayed cutaneous wound healing in 80week-old female mice</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mukai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nakajima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Asano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakatani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">225880</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">GSM Position Statement Editorial Panel. The 2020 genitourinary syndrome of menopause position statement of The North American Menopause Society</title>
+		<author>
+			<persName><forename type="first">Nams</forename><surname>The</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Menopause</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="976" to="992" />
+			<date type="published" when="2020">2020. 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Assessing wound closure in mice using skin-punch biopsy</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Rowland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Correll</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">STAR Protoc</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">101989</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Estrogen accelerates cutaneous wound healing by promoting proliferation of epidermal keratinocytes via Erk/Akt signaling pathway</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Physiol. Biochem</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="959" to="968" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muratani</surname></persName>
+		</author>
+		<idno type="DOI">10.26030/R2XR-H714</idno>
+		<ptr target="https://doi.org/10.26030/R2XR-H714" />
+		<title level="m">Cell-free RNA Analysis Of Plasma Samples Collected From Six Astronauts in JAXA Cell-Free Epigenome (CFE) Study</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">FFAR4: a new player in cardiometabolic disease?</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Stuttgen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sahoo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Endocrinology</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page">111</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>bqab</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Emerging role of GLP-1 receptor agonists in the treatment of obesity</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Neff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Kushner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Metab. Syndr. Obes. Targets Ther</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="263" to="273" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Differentially expressed Maf family transcription factors, c-Maf and MafA, activate glucagon and insulin gene expression in pancreatic islet alpha-and beta-cells</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kataoka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Endocrinol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="9" to="20" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Chemerin: a multifaceted adipokine involved in metabolic disorders</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Helfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q.-F</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Endocrinol</title>
+		<imprint>
+			<biblScope unit="volume">238</biblScope>
+			<biblScope unit="page" from="79" to="R94" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Glucagon in stress and energy homeostasis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Bloom</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Minireview</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Endocrinology</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page" from="1049" to="1054" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Association between fasting insulin and C-reactive protein among adults without diabetes using a two-part model: NHANES 2005-2010</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Missel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetol. Metab. Syndr</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">29</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Insulin resistance in endocrine disorders -treatment options</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rogowicz-Frontczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Majchrzak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zozulińska-Ziółkiewicz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Endokrynol. Pol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="334" to="351" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Rapid membrane effect of estrogens on stimulation of corticotropin-releasing hormone</title>
+		<author>
+			<persName><forename type="first">Y.-J</forename><surname>Qi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychoneuroendocrinology</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page">104680</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Estrogen: an emerging regulator of insulin action and mitochondrial function</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Gupte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Pownall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Hamilton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Diabetes Res</title>
+		<imprint>
+			<biblScope unit="page">916585</biblScope>
+			<date type="published" when="2015">2015. 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Collection of biospecimens from the inspiration4 mission establishes the standards for the space omics and medical atlas (SOMA)</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Overbey</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-024-48806-z</idno>
+		<ptr target="https://doi.org/10.1038/s41467-024-48806-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Insulin receptor-mediated stimulation boosts T cell immunity during inflammation and infection</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tsai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="922" to="934" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The insulin receptor plays a critical role in T cell function and adaptive immunity</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Fischer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Immunol. Baltim. Md</title>
+		<imprint>
+			<biblScope unit="volume">198</biblScope>
+			<biblScope unit="page" from="1910" to="1920" />
+			<date type="published" when="1950">1950. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Comparative transcriptomics identifies neuronal and metabolic adaptations to hypergravity and microgravity in caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R G</forename><surname>Willis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">iScience</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">101734</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Microgravity elicits reproducible alterations in cytoskeletal and metabolic gene and protein expression in space-flown Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashibata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">15022</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Validation of a new rodent experimental system to investigate consequences of long duration space habitation</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Choi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">2336</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Hepatic steatosis as a marker of metabolic dysfunction</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fabbrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Magkos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="4995" to="5019" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Multi-omics analysis of multiple missions to space reveal a theme of lipid dysregulation in mouse liver</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beheshti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">19195</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Spaceflight activates lipotoxic pathways in mouse liver</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Jonscher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">152877</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">PGC-1alpha: a key regulator of energy metabolism</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Ward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Physiol. Educ</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="145" to="151" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Mammalian and invertebrate models as complementary tools for gaining mechanistic insight on muscle responses to spaceflight</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cahill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">9470</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Gene expression profiling in slow-type calf soleus muscle of 30 days space-flown mice</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gambara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">169314</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Space travel directly induces skeletal muscle atrophy</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Vandenburgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chromiak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shansky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Del Tatto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lemaire</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1031" to="1038" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Estrogen signaling effects on muscle-specific immune responses through controlling the recruitment and function of macrophages and T cells</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Liao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Skelet. Muscle</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Estrogen-related receptor gamma is a key regulator of muscle mitochondrial activity and oxidative capacity</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Rangwala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="page" from="22619" to="22629" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Skeletal muscle action of estrogen receptor α is critical for the maintenance of mitochondrial function and metabolic homeostasis in females</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ribas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Transl. Med</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="334" to="354" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Estrogen status and skeletal muscle recovery from disuse atrophy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Mcclung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Goldsmith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Carson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Physiol. Bethesda Md</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="2012" to="2023" />
+			<date type="published" when="1985">1985. 2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Expansion of CD4+CD25+and FOXP3+ regulatory T cells during the follicular phase of the menstrual cycle: implications for human reproduction</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Arruvito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sanz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Banham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fainboim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Immunol. Baltim. Md</title>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="page" from="2572" to="2578" />
+			<date type="published" when="1950">1950. 2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">The NASA Twins Study: a multidimensional analysis of a year-long human spaceflight</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Garrett-Bakelman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">364</biblScope>
+			<biblScope unit="page">8650</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Estrogen induced changes in Aktdependent activation of endothelial nitric oxide synthase and vasodilation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Florian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Angle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Magder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Steroids</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="637" to="645" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Insulin resistance, cardiovascular stiffening and cardiovascular disease</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page">154766</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Insulin&apos;s actions on vascular tissues: Physiological effects and pathophysiological contributions to vascular complications of diabetes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Metab</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page">101236</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">The association between diabetes and dermal microvascular dysfunction non-invasively assessed by laser Doppler with local thermal hyperemia: a systematic review with metaanalysis</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Dupon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Schaap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Draijer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cardiovasc. Diabetol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Estrogen effects on wound healing</title>
+		<author>
+			<persName><forename type="first">H.-C</forename><surname>Horng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Mol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">2325</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Routine omics collection is a golden opportunity for European human research in space and analog environments</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cope</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Patterns (N. Y.)</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">100550</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">GeneLab: omics database for spaceflight experiments</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinform. Oxf. Engl</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1753" to="1759" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">STAR: ultrafast universal RNA-seq aligner</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dobin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinform. Oxf. Engl</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="15" to="21" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Love</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Anders</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">550</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Mapping identifiers for the integration of genomic datasets with the R/Bioconductor package biomaRt</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Durinck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Spellman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Birney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Protoc</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1184" to="1191" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">BioMart and Bioconductor: a powerful link between biological databases and microarray data analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Durinck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="3439" to="3440" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<monogr>
+		<title level="m" type="main">Fast Gene Set Enrichment Analysis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Korotkevich</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/060012</idno>
+		<ptr target="https://doi.org/10.1101/060012" />
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Molecular signatures database (MSigDB) 3.0</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liberzon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1739" to="1740" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wickham</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-24277-4</idno>
+		<ptr target="https://doi.org/10.1007/978-3-319-24277-4" />
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>Springer International Publishing</publisher>
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Causal analysis approaches in Ingenuity Pathway Analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krämer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tugendreich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinform. Oxf. Engl</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="523" to="530" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Comprehensive integration of single-cell data</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Stuart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">177</biblScope>
+			<biblScope unit="page">21</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

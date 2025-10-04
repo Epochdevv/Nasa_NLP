@@ -1,0 +1,3376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Organization of the ER–Golgi interface for membrane traffic control</title>
+				<funder ref="#_he3RHnn #_Vg4gCmW">
+					<orgName type="full">US National Institutes of Health</orgName>
+				</funder>
+				<funder ref="#_5aWKtrH">
+					<orgName type="full">Chemical Sciences, Geosciences and Biosciences Division, Office of Basic Energy Sciences, Office of Science, U.S. DOE</orgName>
+				</funder>
+				<funder ref="#_ctarwSD">
+					<orgName type="full">NASA</orgName>
+				</funder>
+				<funder ref="#_ww3Mfd9">
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+				<funder ref="#_rU7mqFS #_MySAqn4">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2014-06-20">2014 June 20.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Federica</forename><surname>Brandizzi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Plant Biology</orgName>
+								<orgName type="laboratory">DOE Plant Research Laboratory</orgName>
+								<orgName type="institution">Michigan State University</orgName>
+								<address>
+									<postCode>48824</postCode>
+									<settlement>East Lansing</settlement>
+									<region>Michigan</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Charles</forename><surname>Barlowe</surname></persName>
+							<email>charles.barlowe@dartmouth.edu.</email>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Biochemistry</orgName>
+								<orgName type="department" key="dep2">Dartmouth Medical School</orgName>
+								<address>
+									<postCode>03755</postCode>
+									<settlement>Hanover</settlement>
+									<region>New Hampshire</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Organization of the ER–Golgi interface for membrane traffic control</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Nature Reviews Molecular Cell Biology</title>
+						<title level="j" type="abbrev">Nat Rev Mol Cell Biol</title>
+						<idno type="ISSN">1471-0072</idno>
+						<idno type="eISSN">1471-0080</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">14</biblScope>
+							<biblScope unit="issue">6</biblScope>
+							<biblScope unit="page" from="382" to="392"/>
+							<date type="published" when="2014-06-20">2014 June 20.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D3946A37ECBB1EB8DD3CE42EB987D867</idno>
+					<idno type="DOI">10.1038/nrm3588</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:44+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Coat protein complex I (COPI) and COPII are required for bidirectional membrane trafficking between the endoplasmic reticulum (ER) and the Golgi. While these core coat machineries and other transport factors are highly conserved across species, high-resolution imaging studies indicate that the organization of the ER-Golgi interface is varied in eukaryotic cells. Regulation of COPII assembly, in some cases to manage distinct cellular cargo, is emerging as one important component in determining this structure. Comparison of the ER-Golgi interface across different systems, particularly mammalian and plant cells, reveals fundamental elements and distinct organization of this interface. A better understanding of how these interfaces are regulated to meet varying cellular secretory demands should provide key insights into the mechanisms that control efficient trafficking of proteins and lipids through the secretory pathway.</p><p>The secretory pathway in eukaryotic cells is responsible for biogenesis and proper intracellular distribution of a wide range of proteins, complex carbohydrates and lipids. Trafficking in the secretory pathway is highly dynamic and responsive to specific cellular functional demands. Forward transport (also known as anterograde transport) of newly synthesized proteins and lipids is initiated at the endoplasmic reticulum (ER) and, as such, ER-to-Golgi transport represents a vital gateway to the endomembrane system.</p><p>Membrane traffic between the ER and the Golgi is bidirectional and occurs via similar mechanisms. In both cases, a carrier forms on the donor organelle and then tethers to and</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>fuses with the target organelle (FIG. <ref type="figure">1</ref>). Distinct machineries facilitate the formation of carriers for anterograde and retrograde transport, which are thought to ensure fidelity and directionality of trafficking: coat protein complex II (COPII) operates in the anterograde pathway from the ER, and COPI functions in the retrograde route from the Golgi. Although in vitro studies suggest that the formation of COPI-and COPII-coated carriers is mechanistically similar and can occur via the action of minimal components (including heteromeric coat complexes, ADP-ribosylation factor (ARF) and SAR1 (secretionassociated RAS-related 1) GTPases and their regulatory guanine nucleotide exchange factors (GEFs) and GTPase-activating proteins (GAPs)</p><p>, other elements are necessary to coordinate the two trafficking routes in vivo and thereby maintain organelle structure and function. This is supported by evidence demonstrating that chemical disruption of the COPI route with the ARF GEF inhibitor brefeldin A leads to the collapse of ER export <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> , which may be due to depletion of proteins required for the formation of COPII carriers that occurs because Golgi-to-ER retrieval is blocked. Similarly, dominantnegative versions of SAR1 that block COPII assembly rapidly disrupt Golgi structure and function <ref type="bibr" target="#b0">1</ref> . While the cellular functions of COPI and COPII as well as interdependence of the anterograde and retrograde trafficking routes are generally conserved across eukaryotes, the organization of the ER-Golgi interface varies greatly in different species. For example, plants and some yeast species have a compact organization of the ER and Golgi, whereas in animal cells the two organelles are separated by a pleomorphic intermediate compartment.</p><p>The distribution of COPII budding sites on the ER, the nature of the transport vesicles themselves and the dependence on cytoskeletal components also vary. Furthermore, there seems to be enormous plasticity in the ER-Golgi interface, which can adapt to accommodate variations in COPII carrier size and number commensurate with cargo dimensions and quantity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Box 1</head><p>The COPII coat complex and anterograde transport</p><p>The coat protein complex II (COPII) machinery consists of the SAR1 (secretionassociated RAS-related 1) GTPase and the two subcomplexes SEC23-SEC24 and SEC13-SEC31 (REF. 34) (see the figure, left panel). Activation of SAR1 is coordinated by the endoplasmic reticulum (ER) membrane-anchored guanine nucleotide exchange Box 2</p><p>The COPI coat complex and retrograde transport</p><p>The coat protein complex I (COPI) consists of a heptameric (α, β, β′, γ, δ, ε, ζ) complex, also called coatomer <ref type="bibr">125</ref> , with two main subcomplexes: the γ-COP-δ-COP-ζ-COP-β-COP tetrameric complex, which constitutes the inner layer core; and the α-COP-β′-COP-ε-COP trimeric complex, which forms the outer layer of the COPI coat 126 (see the figure, left panel). Once activated by ADP-ribosylation factor (ARF) guanine nucleotide exchange factors (GEFs) containing a conserved SEC7 domain, myristoylated membrane-anchored ARF GTPases recruit COPI to Golgi membranes (right panel). The coatomer subunits α-COP, β′-COP, γ-COP and δ-COP recognize sorting motifs on the cytosolic domain of membrane cargo and mediate cargo incorporation into nascent COPI vesicles <ref type="bibr">127</ref> . ARF GTPase-activating proteins (GAPs) bind cytoplasmic signals on cargo proteins, γ-COP and β′-COP subunits as well as active ARFs (not shown). Stimulation of the GTPase activity of ARFs by ARF GAPs leads to the release of ARF from the complex and ARF GAP and coat dissociation <ref type="bibr">127,</ref><ref type="bibr">128</ref> (not shown). At the endoplasmic reticulum (ER)-Golgi interface, COPI facilitates retrograde transport from the Golgi and ER-Golgi intermediate compartment (ERGIC). A retrograde Golgi-ER pathway has also been suggested to recycle lipids 129 and ER resident proteins 130 . However, its occurrence in vivo was demonstrated through experiments using brefeldin A (BFA) in which the addition of the drug allowed Golgi-specific oligosaccharide modification of ER-retained vesicular stomatitis virus G-protein <ref type="bibr">131</ref> . The results were interpreted as a consequence of a redistribution of resident Golgi proteins to the ER. In accordance with this hypothesis, reversible BFA-induced disruption of the Golgi has been observed in microscopy studies <ref type="bibr">132,</ref><ref type="bibr">133</ref> . It is now established that primary targets of BFA are ARF GEFs, such as GBF1 in mammalian cells <ref type="bibr">134,</ref><ref type="bibr">135</ref> . BFA stabilizes the interaction of inactive ARFs with their GEFs 136 as well as ARF GEF binding to Golgi membranes 134 , which in turn inactivates ARF. These results underscore that the integrity of the anterograde traffic route depends tightly on the homeostasis of the retrograde pathway, which ensures not only the retrieval of resident proteins that escape the ER but also facilitates the recycling of lipids and trafficking machinery necessary for ER export and carrier fusion to the Golgi. Therefore, inhibition of the retrograde trafficking route leads to the collapse of anterograde trafficking.</p><p>In this Review, we discuss how the ER-Golgi interface and COPII-mediated trafficking varies in different species. We focus on the plant and mammalian systems as exquisite examples of how divergent adaptation of common components of the trafficking system has allowed the unique needs of differentiated eukaryotic cell types to be met. Ultimately, a more complete understanding of these observed morphologies in molecular terms should provide crucial insights into regulatory mechanisms that control protein and lipid trafficking in the early secretory pathway.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The ER and Golgi: partners in secretion</head><p>The ER is responsible for initiating the synthesis, folding and quality control, as well as priming the glycosylation, of a large part of the cellular proteome. It has a unique architecture that is characterized by a network of interconnected membrane tubules and sheets that form closed polygons. Most proteins that have been synthesized in the ER are transported to the Golgi during their biogenesis. The Golgi has several fundamental cellular roles. First, it functions as a central platform for connecting anterograde and retrograde protein flow within the secretory pathway <ref type="bibr" target="#b2">3</ref> . Second, it serves as a complex carbohydrate 'factory' that supplies the material needed to build the plant cell wall and the glycoprotein matrix surrounding animal cells, as well as the donor groups for glycosylation of many proteins and lipids <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref> . Last, the Golgi also provides a membrane scaffold for the dynamic binding of various signalling and sorting proteins <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12</ref> . In most eukaryotes, the membranes of the Golgi assume a characteristic stacked morphology with cisternae that differ in enzymatic content and activity <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b13">14</ref> . This highly polarized organization defines cis-, medialand transcisternae, with the cis-most cisternae facing the ER <ref type="bibr" target="#b14">15</ref> . The trans-most cisternae face the trans-Golgi network (TGN), a tubular vesicular cluster that executes final sorting steps to post-Golgi destinations, exchanges material with the endocytic pathway and can, at least in plants, exist as an independent organelle from the Golgi <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b16">17</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Basic elements of the ER-Golgi interface</head><p>With a few notable exceptions, including cytoplasmic, nuclear and signal peptide-containing proteins <ref type="bibr" target="#b17">18</ref> , secreted proteins follow a conventional ER-Golgi secretory route. To exit the ER, fully folded soluble and membrane cargos are packaged into COPII-coated carriers at specialized, long-lived subdomains of the ER, termed ER exit sites (ERES) <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20</ref> . Although the number, size and dynamics of ERES vary across cell types and species, most eukaryotic cells examined so far display these organized export zones on ER membranes. ERES are enriched in COPII and appear as discrete puncta during fluorescence imaging of COPII coat proteins <ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b23">[23]</ref><ref type="bibr" target="#b24">[24]</ref> . In addition to the core COPII components, large multidomain SEC16 proteins localize to ERES and are required for export site assembly and function <ref type="bibr" target="#b25">25,</ref><ref type="bibr" target="#b26">26</ref> . Indeed, current models suggest that SEC16 establishes an ERES scaffold that recruits COPII to export zones through multiple interactions with coat subunits <ref type="bibr" target="#b27">27</ref> . In all cell types studied, the COPII machinery seems to conduct at least two critical functions: first, the inner layer SAR1 and SEC23-SEC24 COPII subunits bind to and select specific cargo for packaging into ERderived transport vesicles; second, polymerization of the outer layer SEC13-SEC31 COPII complex into a cage structure deforms ER membranes to drive transport vesicle formation</p><p>ER-derived transport intermediates fuse with acceptor membranes through a series of targeting and fusion events that also rely on a highly conserved machinery <ref type="bibr" target="#b28">28</ref> . In general, membrane targeting depends on RAB GTPases that function in concert with extended coiled-coil domain proteins, such as p115 (known as Uso1 in yeast), as well as the multisubunit TRAPPI (transport protein particle I) complex <ref type="bibr" target="#b29">[29]</ref><ref type="bibr" target="#b30">[30]</ref><ref type="bibr" target="#b31">[31]</ref> . Targeted COPII vesicles proceed to fusion through regulated assembly of ternary SNARE complexes between donor vesicle and acceptor membrane compartments (BOX 3). In the return Golgi-to-ER route, COPI subunits recognize retrograde sorting signals in recycled cargos, and this mediates the incorporation of selected cargos into COPI-coated transport intermediates (BOX 2). Targeting of COPI vesicles to the ER requires the multisubunit DSL1 tethering complex to direct SNARE-mediated membrane fusion of COPI vesicles with ER membranes <ref type="bibr" target="#b32">32</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Box 3 Tethering and SNARE-mediated fusion of COPII vesicles</head><p>The directionality and fidelity of coat protein complex II (COPII) vesicle fusion is mediated by concerted action of RAB GTPases, tethering factors and integral membrane SNARE proteins. In mammalian cells, the vesicle targeting stage depends on RAB1 (REF. 30) and the extended coiled-coil domain tethering factors p115, GM130 (cis-Golgi matrix of 130 kDa) and GRASP65 (Golgi reassembly-stacking protein of 65 kDa) <ref type="bibr">137,</ref><ref type="bibr">138</ref> as well as the 170 kDa multisubunit TRAPPI (transport protein particle I) tethering complex (comprising BET3 (blocked early in transport 3), BET5, TRS20 (TRAPP subunit 20 (also known as Sedlin), TRS23, TRS31 and TRS33) that exerts guanine nucleotide exchange factor (GEF) activity towards RAB1 (REFS 139,140). RAB1•GTP recruits p115 and tethers vesicles to acceptor membranes. Therefore, the activation of RAB1 on acceptor membranes by TRAPPI may generate a localized signal to tether COPII vesicles. The BET3 subunit of TRAPPI also binds directly to the SEC23 subunit of COPII and can tether COPII vesicles at a close distance <ref type="bibr" target="#b31">31</ref> . Fusion of COPII-tethered vesicles depends on a set of four tail-anchored integral membrane SNARE proteins named syntaxin 5, membrin (also known as GOSR2), BET1 and SEC22B <ref type="bibr">[141]</ref><ref type="bibr">[142]</ref><ref type="bibr">[143]</ref> . SNARE proteins contain a conserved membrane-proximal heptad repeat sequence known as the SNARE motif, and trans-assembly of cognate sets of SNARE proteins from donor and acceptor membranes into four-helix bundles drives bilayer fusion <ref type="bibr">144,</ref><ref type="bibr">145</ref> . Therefore, trans-assembly of syntaxin 5, membrin, BET1 and SEC22B between tethered COPII vesicles and Golgi acceptor membranes catalyses fusion. The conserved syntaxin 5binding protein SLY1 is also required for this vesicle fusion step 146 and may serve to coordinate the vesicle tethering and fusion stages. Regulation at these multiple stages in COPII vesicle tethering and fusion may have crucial roles in determining ER-Golgi morphology and levels of coated transport intermediates, but is relatively unexplored.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mechanisms of interface control</head><p>While most cell types examined use these basic conserved ER-Golgi trafficking components, studies are revealing additional layers of control that influence the morphology of the ER-Golgi interface and transport carriers. In some cases, the COPII export machinery seems to have adapted to manage diverse secretory cargos. For example, certain mammalian cell types must export large secretory cargos from the ER such as 300-400 nm procollagen fibres <ref type="bibr" target="#b33">33</ref> or 100-500 nm lipoprotein particles, which are larger than the reported size of a standard 60-90 nm COPII-coated vesicle <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b34">34</ref> . Several lines of evidence indicate that the COPII cage is flexible <ref type="bibr" target="#b35">35,</ref><ref type="bibr" target="#b36">36</ref> , and this would allow the formation of larger COPII-coated intermediates and thereby the transport of large cargo. A combination of structural approaches has revealed that SEC13-SEC31 subunits can self-assemble into polyhedral cages of distinct orders through moderate variation in geometries of subunit interactions <ref type="bibr" target="#b37">[37]</ref><ref type="bibr" target="#b38">[38]</ref><ref type="bibr" target="#b39">[39]</ref> (FIG. <ref type="figure" target="#fig_0">2</ref>). Such flexibility in the COPII cage has also been observed in cells <ref type="bibr" target="#b40">40</ref> and in reconstitution studies using COPII proteins and giant unilamellar vesicles <ref type="bibr" target="#b41">41</ref> . These studies show that the COPII coat can form extended tubular structures and constricted tubules resembling 'beads on a string' that are of sufficient dimensions to accommodate procollagen fibres.</p><p>Consistent with the idea that transport carriers can adapt to accommodate particular cargo, genetic studies have revealed that isoform-specific mutations in SEC23A cause developmental defects due to deficiencies in collagen secretion, whereas smaller secretory cargos undergo normal trafficking <ref type="bibr" target="#b42">[42]</ref><ref type="bibr" target="#b43">[43]</ref><ref type="bibr" target="#b44">[44]</ref> . Similarly, human chylomicron retention disease has been linked to mutations in the SAR1B isoform, which cause fat malabsorption due to deficiency in the secretion of large lipoproteins from enterocytes <ref type="bibr" target="#b45">45,</ref><ref type="bibr" target="#b46">46</ref> . Interestingly, the interaction of SAR1 isoforms with distinct coat subunits and appropriate regulation of SAR1 GTPase activity seem to be crucial for the export of large procollagen and chylomicron cargos in COPII carriers. Recent studies have also revealed that monoubiquitylation of the SEC31 subunit is required for ER export of procollagen in developing mouse embryonic stem cells <ref type="bibr" target="#b47">47</ref> . This post-translational modification could alter SEC31 structure and flexibility or recruit a cofactor that influences COPII assembly to generate large vesicles. Collectively, these findings support a model wherein distinct subunits of COPII can be assembled in different geometries and modulated by SAR1 GTPase activity to produce different sized transport carriers in various cell types.</p><p>The composition, size and number of ERES also vary across cell types and are influenced by the cargo that is being secreted. Cells that export large procollagen from the ER depend on the transmembrane TANGO1-cTAGE5 (transport and Golgi organization protein 1cutaneous T cell lymphoma-associated antigen 5) complex that localizes to ERES and has a crucial role in ER export of selected cargo <ref type="bibr" target="#b48">48,</ref><ref type="bibr" target="#b49">49</ref> . The TANGO1-cTAGE5 complex interacts with SEC23-SEC24, but is not itself packaged into COPII carriers. Instead, it is thought to coordinate procollagen capture into large vesicles at ERES through binding to lumenal procollagen and regulation of cytoplasmic SEC23-SEC24 (REF. 49). Interestingly, orthologues of TANGO1 and cTAGE5 have only been identified in vertebrates, suggesting that this complex has evolved to manage large cargo in specialized cell types. Indeed, in plant cells, large cellulose fibrils are polymerized directly at the plasma membrane rather than being assembled before their secretion <ref type="bibr" target="#b50">50</ref> . In addition to the effects of cargo dimension on ERES composition, secretory cargo load influences ERES size and number. For example, in plant cells the number of ERES and the recruitment of SEC24 to ERES increases in cells transiently expressing ER export-competent membrane cargo. However, this occurs only if the cargo contained an ER export motif <ref type="bibr" target="#b51">51</ref> . In mammalian cells, acute increases in cargo load cause ERES to fuse, producing larger but fewer exit sites. Conversely, a chronic rise in secretory cargo increases both the size and number of ERES <ref type="bibr" target="#b52">52</ref> as well as the expression of SEC24 and SEC16 in part through the activation of an ER stress-sensing unfolded protein response (UPR) pathway <ref type="bibr" target="#b53">53</ref> . These findings demonstrate that cargo type, size and volume influence ERES structure and abundance, and that the cargo can influence the organization of the ER-Golgi interface. More generally, the UPR is likely to have a prominent role in controlling ER-Golgi membrane structure and function during the development of many cell types.</p><p>After secretory cargos have exited the ER in COPII carriers, these intermediates fuse with target membranes using a conserved core machinery. However, the distances that these ERderived carriers travel and the requirement for cytoskeletal filaments differ depending on the cell type. The target membrane for COPII carriers also varies in addition to the set of tethering factors that are engaged. For example, animal cells rely on microtubules to guide COPII vesicles towards an ER-Golgi intermediate compartment (ERGIC) en route to cis-Golgi compartments <ref type="bibr" target="#b54">54</ref> . Indeed, multiple types of microtubule-based motors localize to this intermediate compartment and are thought to generate the pleomorphic membrane structures that are characteristic of the ERGIC <ref type="bibr" target="#b55">55</ref> . By contrast, in other species, including yeast that have a more compact ER-Golgi organization, COPII vesicles seem to fuse directly to cis-Golgi compartments <ref type="bibr" target="#b56">56</ref> .</p><p>In the following sections, we examine more closely the organization of the ER-Golgi interface across species with a focus on plant and mammalian systems as two well-studied examples of how the ER-Golgi interface has been adapted to meet cellular needs. Specifically, we compare current models for COPII carrier-mediated trafficking from the ER in mammalian cells (in which the ER and Golgi compartments are separated and depend on an intermediate compartment for efficient transport) with trafficking in plant cells (in which Golgi stacks are closely associated with the ER and are highly mobile).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Variations in the ER-Golgi interface</head><p>Models comparing the ER-Golgi interface in mammalian and plant cells are shown in FIG. <ref type="figure" target="#fig_1">3</ref> and FIG. <ref type="figure" target="#fig_2">4</ref>. In cultured mammalian cells, the Golgi stacks are clustered and connected by inter-cisternal tubules to form a Golgi ribbon <ref type="bibr" target="#b57">57</ref> . This configuration is fundamentally different from plants, in which the Golgi is composed of individual stacks of flattened cisternae <ref type="bibr" target="#b58">58,</ref><ref type="bibr" target="#b59">59</ref> , termed Golgi bodies or stacks. This morphology is seen in the insect Drosophila melanogaster <ref type="bibr" target="#b60">60</ref> and the yeast Pichia pastoris <ref type="bibr" target="#b21">22</ref> as well as in the unicellular parasites Trypanosoma brucei <ref type="bibr" target="#b61">61</ref> and Toxoplasma gondii <ref type="bibr" target="#b62">62</ref> . The yeast Saccharomyces cerevisiae may represent an extreme example, in which cis-, medial-and trans-Golgi cisternae seem to be completely unstacked <ref type="bibr" target="#b21">22</ref> . Notably, the plant Golgi is distinct from these other species in that it shows rapid motility (up to 4 μm per sec) <ref type="bibr" target="#b58">58</ref> , and this requires the activity of actomyosin motors <ref type="bibr" target="#b59">59,</ref><ref type="bibr" target="#b63">[63]</ref><ref type="bibr" target="#b64">[64]</ref><ref type="bibr" target="#b65">[65]</ref> and close association with tubular ER strands. This latter feature is underscored by the absence in plants of the ERGIC, which is found in mammalian cells <ref type="bibr" target="#b66">[66]</ref><ref type="bibr" target="#b67">[67]</ref><ref type="bibr" target="#b68">[68]</ref><ref type="bibr" target="#b69">[69]</ref> .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The ERGIC as a distinct intermediate organelle</head><p>Implicit in the ER-Golgi organization of eukaryotic species are different strategies to efficiently transport cargo from the ER to the Golgi. In S. cerevisiae and in plant cells, ER-Golgi transport fits a simple model whereby COPII carriers shuttle cargo from the ER to the Golgi by fusing directly with the cis-Golgi <ref type="bibr" target="#b70">70</ref> or by generating new cisternae by homotypic fusion. In mammalian cells, the situation is more complex as the distances between ERES and the cis-Golgi compartment are longer than in yeast and plant cells. Indeed, the ERGIC may be necessary to facilitate this long-distance transport in mammalian cells. Previous models described the ERGIC as a specialized domain of the ER <ref type="bibr" target="#b71">71</ref> or the cis-Golgi <ref type="bibr" target="#b72">72</ref> , although it may be more appropriate to consider the ERGIC as a distinct organelle <ref type="bibr" target="#b73">73,</ref><ref type="bibr" target="#b74">74</ref> that functions in COPI-dependent sorting of retrograde cargo, in concentration of anterograde biosynthetic cargo <ref type="bibr" target="#b75">75</ref> and possibly in post-ER protein quality control <ref type="bibr" target="#b76">76</ref> . Early live-cell imaging analyses suggested that ERGIC structures may move from ERES to the Golgi by tracking on microtubules <ref type="bibr" target="#b54">54,</ref><ref type="bibr" target="#b77">77</ref> . These results seeded the transport complex model <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b78">78</ref> whereby newly uncoated COPII vesicles would fuse to form transient pleiomorphic vesicular tubular clusters, which would then be transported to the Golgi via long-range microtubule tracks and dynein motors. The tubular clusters would either homotypically fuse to form new cis-Golgi cisternae, or they would fuse with the first cisternae of the cis-Golgi. COPI-coated vesicles formed from tubular clusters and cis-Golgi membranes would then recycle components back to the ER (FIG. <ref type="figure" target="#fig_1">3a</ref>).</p><p>An alternative model for ER-Golgi protein transport in mammalian cells, termed the stable compartment model, views the ERGIC as a more static structure. This model proposes that positioning of the ERGIC between ERES and the Golgi facilitates a two-step transport process, which involves short-range microtubule-independent transport of COPII vesicles from ERES to the ERGIC followed by long-range microtubule-dependent transport of anterograde cargo-rich domains from the ERGIC to the cis-Golgi. Microtubule-associated proteins such as the microtubule plus enddirected motor kinesin and the minus end-directed motor dynein have been found in association with the ERGIC. Moreover, functional analyses indicate that kinesin operates in recycling of membranes to the ER, whereas dynein is needed for anterograde transport <ref type="bibr" target="#b54">54,</ref><ref type="bibr" target="#b79">79,</ref><ref type="bibr" target="#b80">80</ref> . In the stable compartment model, kinesin and dynein would mediate steady-state positioning of the ERGIC but also have an active role in transport: kinesin would facilitate microtubule plus end-directed retrograde trafficking to the ER and dynein-dynactin would facilitate the transport from the ERGIC to the cis-Golgi <ref type="bibr" target="#b74">74</ref> . Elements of the actin cytoskeleton such as actin-binding proteins (spectrin) <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b81">81</ref> and regulatory GTPases (CDC42) <ref type="bibr" target="#b82">82</ref> have also been invoked as dynactin-recruiting factors during this process. Currently, it is not clear whether the stable compartment or the transport complex model better explain ERGIC function in trafficking. Imaging studies have shown that small soluble cargo is sorted into Golgi-directed carriers from long-lived ERGIC structures <ref type="bibr" target="#b83">83</ref> , although the machinery responsible for this event has not been defined. It is also possible that both mechanisms operate to transport cargos of varying size that move through the ERGIC. For example, smaller cargo molecules could move through more mobile transport carriers, whereas larger cargo present in mammalian cells may be trafficked in ERGIC transport complexes. Dual-label imaging experiments that simultaneously monitor ERGIC markers and a broad range of secretory cargo may help resolve this issue.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>COPII carrier dynamics in plant cells</head><p>Analyses in plant cells indicating that ER export can occur while Golgi stacks are moving in close association with ER tubules <ref type="bibr" target="#b84">84</ref> raise a fundamental question of how proteins and membranes are efficiently transported from the ER to mobile Golgi stacks (FIG. <ref type="figure" target="#fig_1">3b</ref>). One model has postulated that an active ERES produces a localized signal that uncouples a Golgi stack from actin-associated motors and causes it to pause near this site. Completion of membrane and cargo transfer to and from the ER would be followed by inactivation of this 'pausing' cue, allowing the Golgi stack to resume its movement <ref type="bibr" target="#b58">58</ref> . This model assumes that the association of ERES with Golgi stacks is not continuous and that COPII foci may be dispersed over the ER, awaiting interaction with a suitable Golgi stack. However, analyses of Arabidopsis thaliana SEC13 expressed in A. thaliana and in tobacco leaf epidermal cells as well as in BY2 cells showed that SEC13 is present in foci that have continuous association with Golgi stacks <ref type="bibr" target="#b85">85</ref> rather than being dispersed over the ER. A continuous association of foci with Golgi stacks has also been validated in several reports in which other COPII proteins were labelled, including SAR1, SEC23 and SEC24, and that investigated both heterologous as well as endogenous plant expression systems <ref type="bibr" target="#b51">51,</ref><ref type="bibr" target="#b85">[85]</ref><ref type="bibr" target="#b86">[86]</ref><ref type="bibr" target="#b87">[87]</ref><ref type="bibr" target="#b88">[88]</ref><ref type="bibr" target="#b89">[89]</ref><ref type="bibr" target="#b90">[90]</ref><ref type="bibr" target="#b91">[91]</ref><ref type="bibr" target="#b92">[92]</ref><ref type="bibr" target="#b93">[93]</ref><ref type="bibr" target="#b94">[94]</ref><ref type="bibr" target="#b95">[95]</ref> (FIG. <ref type="figure" target="#fig_2">4f</ref>). Together, this supports the model that ERES are in continuous association with Golgi stacks <ref type="bibr" target="#b24">24,</ref><ref type="bibr" target="#b96">96</ref> .</p><p>The presence of COPII vesicles in plants is still debated. Vesicle-like structures have been rarely detected <ref type="bibr" target="#b89">89,</ref><ref type="bibr" target="#b97">[97]</ref><ref type="bibr" target="#b98">[98]</ref><ref type="bibr" target="#b99">[99]</ref> in electron microscopy analyses of high-pressure frozen A. thaliana tissues; moreover, the directionality of such structures (that is, whether these are budding or fusing intermediates) could not be established. Nonetheless, in studies of high-pressure freeze-substituted A. thaliana root tip cells, immunogold labelling analyses with antibodies specific for A. thaliana SAR1 and SEC23 showed labelling of some vesicle-like structures <ref type="bibr" target="#b67">67,</ref><ref type="bibr" target="#b99">99</ref> . The difficulty to visualize budding COPII vesicles in plants raises the possibility that these entities may be very quickly consumed at the ER surface. Through optical manipulation of individual Golgi stacks with laser tweezers 100 in highly vacuolated cells, it has been shown that lateral displacement of individual Golgi stacks is followed by continued link-age and rapid growth of the attached ER tubule. This finding indicates that in these plant cells the Golgi and ER are firmly attached, possibly through a tethering matrix at the Golgi-ER interface that physically links the two organelles together <ref type="bibr" target="#b84">84</ref> .</p><p>The association of ERES with individual Golgi stacks in plant cells is conceptually feasible in the context of a matrix-mediated attachment of the ER with Golgi stacks. For example, ERES could facilitate export to a Golgi stack at an ER-Golgi interface that is relatively static. Such an organization would be more energy efficient than a system that stochastically produces ERES. This may be analogous to Caenorhabditis elegans in which ERES are closely juxtaposed to the Golgi and proteins such as the SEC-16-interacting protein TFG-1 direct movement of COPII carriers away from the ER 101 . It is also possible that in addition to ERES-associated Golgi, new ERES may be formed on the ER to initiate de novo assembly of Golgi stacks. Fluorescent protein localization analysis has shown that the YFP-SEC24 fusion protein is enriched at the Golgi surface <ref type="bibr" target="#b97">97</ref> , and this was proposed to represent the accumulation of COPII carriers before fusion <ref type="bibr" target="#b97">97</ref> . This possibility is consistent with findings in yeast and mammalian cells showing that COPII may be partially retained on ERderived carriers until they reach the Golgi 102 . As mentioned above, putative COPII vesicles have been detected in close association with cis-cisternal Golgi elements in electron microscopy analyses of A. thaliana cells, and the formation of these initial cis-cisterna may be functionally analogous to the mammalian ERGIC <ref type="bibr" target="#b67">67</ref> . Disassembly of COPII coats is initiated when SAR1 hydrolyses its bound GTP (BOX 1), although coat subunits seem to be slowly released after carrier formation. It has also been shown that fluorescent protein fusions of two plant SAR1 isoforms distribute along the ER facing the Golgi <ref type="bibr" target="#b87">87</ref> . Together, these findings suggest that ER export in plant cells relies on a unique organization in which a specialized subdomain of the ER and an associated Golgi stack act as a secretory unit with COPII carriers being formed and quickly released at the ER subdomain and partially coated COPII carriers then associating with the Golgi. Additional validation of this model could be achieved by analysing the subcellular distribution of SEC16, which would be predicted to associate with the ER-facing Golgi stacks. A scenario in which COPII vesicles form and are transported from the ER at a rate that is faster than COPII uncoating at the Golgi is consistent with the observation that fluorescently tagged versions of COPII components can be readily visualized in live plant cells, although COPII vesicles have rarely been seen at an ultrastructural level in plants <ref type="bibr">[103]</ref><ref type="bibr">[104]</ref><ref type="bibr">[105]</ref><ref type="bibr">[106]</ref> .</p><p>In contrast to mammalian cells, plant ER-Golgi transport does not depend on cytoskeletal components. In highly vacuolated plant cells, the Golgi undergoes actomyosin-dependent movement, but chemical inhibition of this movement does not disrupt the transport between the ER and Golgi. This has been demonstrated by fluorescence recovery after photobleaching (FRAP), in which markers were tracked in immobilized Golgi after treating cells with actin-disrupting chemicals 2 . Microtubules also do not seem to be involved in ER-Golgi protein transport in plants; for example, rates of ER-Golgi protein traffic are similar in cells with depolymerized actin and in cells depleted of both actin and microtubules 2 . Fluorescence recovery of cycling proteins has also been observed upon photobleaching of Golgi in untreated cells <ref type="bibr" target="#b24">24</ref> , again supporting the model that ER export can occur toward motile Golgi. However, it has not yet been established whether there are differences in ER-Golgi transport kinetics between cells with disrupted versus intact actin, or between fast or slow moving Golgi stacks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Different forms for unique functions</head><p>A conserved core machinery transports biosynthetic cargo forward in the early secretory pathway and is balanced with retrieval routes that maintain the ER and Golgi compartments. In eukaryotic cells, COPII assembly produces transport intermediates from the ER, which then rely on RAB GTPase-dependent tethering factors and the SNARE-dependent membrane fusion machinery for delivery of cargo to the Golgi. Similarly, retrograde transport depends on the COPI machinery to produce retrograde-directed vesicles that also require conserved tethering factors and SNARE proteins for fusion with ER membranes. In spite of this conservation, diversity in eukaryotic cell types and cellular functions generate tremendous variety in the organization of this ER-Golgi interface. Each trafficking step between ER and Golgi compartments provides multiple opportunities for regulation that could influence vesicle and organelle size and shape. Indeed, there are now clear examples in which the expression levels of these core components and their covalent modification (for example, phosphorylation or ubiquitylation) alter the morphology of COPII carriers. Moreover, the additional control provided by accessory factors such as TANGO1 and cTAGE5 and cytoskeletal components in certain cell types also affects ER-Golgi organization. Finally, inherent flexibility in both the COPII <ref type="bibr" target="#b35">35</ref> and COPI 107 coats that allows cargos of different sizes to be accommodated can influence the morphology of ER-Golgi transport intermediates in different cell types.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The influence of cargo</head><p>The striking differences in the organization of ER-Golgi interfaces across species that are revealed by in vivo morphological analyses probably reflect cellular specialization related to the types of cargo that must be transported as well as the overall cell structure and function. If we consider the possibility that distinct morphologies observed reflect functional adaptation of the core transport machinery, a molecular understanding of these differences should provide important insights into how trafficking and compartmental organization are integrated within the early secretory pathway. For example, the existence of an ERGIC in certain cell types and not in others remains mysterious. As discussed above, P. pastoris yeast cells <ref type="bibr" target="#b56">56</ref> and vacuolated plant cells 106 lack an ERGIC but instead contain compact ER-Golgi units (≤300 nm distance between the two organelles) that are thought to be firmly connected through a tethering matrix. However, such a compact arrangement may not provide the space that would be needed for the assembly of large cargo into dissociating transport carriers without generating membrane connections between the ER and Golgi compartments. Indeed, there are no known large secretory cargos (≥300nm) in P. pastoris or A. thaliana. By contrast, active secretory cells in vertebrates generally contain an ERGIC, and these cell types often transport large cargo molecules such as procollagen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cellular architecture as a driving force for interface organization</head><p>Although the cargo that is being transported may be one driver of ER-Golgi organization, an alternative structural demand for the ERGIC in vertebrate cells may be to bridge the large distance between the perinuclear ER and the plasma membrane. In this context, the ERGIC and a microtubule network may be needed to facilitate efficient transport and limit diffusion of intermediates. By contrast, the plant ER and Golgi are 'sandwiched' within a thin layer of cytoplasm between the tonoplast and the plasma membrane due to the presence of a central vacuole that occupies most of the cell volume (FIG. <ref type="figure" target="#fig_2">4d</ref>). Cytoskeletal elements may therefore not be needed to facilitate bidirectional ER-Golgi traffic or to restrict diffusion of transport intermediates. Finally, a more extensive set of ER-Golgi tethering factors is present in cells that contain an ERGIC. In plants, there are no apparent homologues of mammalian GRASP65 (Golgi reassembly-stacking protein of 65 kDa), GM130 (cis-Golgi matrix of 130 kDa) and giantin vesicle tethering factors 108 . However, plants do require a p115 homologue for ER-Golgi transport and express other Golgi-localized coiled-coil domain proteins with sequence identify to tethering factors <ref type="bibr">109</ref> . Although the function of these proteins has yet to be determined, this simplified set of tethering factors may underlie matrix-mediated attachment of ER-Golgi units in plants. Nevertheless, questions regarding how the ERGIC is generated and maintained in mammalian cells remain unanswered. Interestingly, loss of GM130 leads to the disruption of the mammalian Golgi ribbon 110 . The absence of GM130 homologues in plants may suggest that the acquisition or loss of specialized tethering factors may have been a contributing factor for the unique organization of the plant Golgi during evolution from the last common eukaryotic ancestor.</p><p>Notably, variations in the ER-Golgi interface can also exist within the same species. For example, most characterizations of ERES in plant cells have been acquired in highly vacuolated cells. In specialized tissues such as root meristem cells and columella cells that are comparatively less vacuolated, a large percentage of Golgi stacks (≤70%) have been reported to not closely associate with the ER 106 . How ER export occurs towards Golgi stacks in these cells is unknown. Although most cells are highly vacuolated in plants, these findings underscore that the organization of the ER and Golgi can vary and suggest that specific ER export mechanisms are in place to suit the organization of specific cell types, even within the same organism.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions and perspectives</head><p>A useful guide for the biologist's view of the cell has been that structure reflects function. This perspective has been powerfully applied to the study of membrane traffic with an understanding that the molecular basis for observed membrane structures and dynamics is tightly coupled with function. In this Review, we focus on individual stages in membrane transport that influence organization of the ER-Golgi interface. Through a comparative analysis of model systems, we begin to see how this core structural machinery is adapted to meet cell-specific requirements. However, future studies will need to further integrate cellular regulatory networks that control biosynthetic rates and flux through trafficking routes with this core machinery. For example, changing developmental and environmental conditions that alter the profile of protein and lipid cargos must be integrated in a manner that maintains the organization of the ER-Golgi interface. Global regulation through the UPR clearly has a key homeostatic role in coordinating protein and lipid biosynthetic rates in response to environmental conditions. But studying how the UPR orchestrates such adaptation may be challenging because there are multiple branches of the UPR in animal and plant cells <ref type="bibr" target="#b53">53,</ref><ref type="bibr">111</ref> , and these are likely to work in concert with several other signalling networks that regulate membrane traffic. Advancing such 'systems-level' questions will depend on the identification of all required factors, in vivo microscopy and cell-free assays to accurately measure cargo biosynthetic and transport rates, as well as the elucidation of the sensor networks that are in place for overall coordination of distinct trafficking steps. Continued comparative analyses across a range of model organisms should ultimately allow us to further define the mechanisms that underlie the regulation of ER-Golgi transport in the context of cellular function.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Glossary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Anterograde transport</head><p>Membrane traffic pathway in which a linear assembly of membrane-bound compartments facilitates cargo movement towards the cell surface</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Retrograde transport</head><p>Membrane traffic pathway in which a linear assembly of membrane-bound compartments facilitates cargo movement towards the ER</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ER exit sites (ERES)</head><p>Specialized regions on the surface of endoplasmic reticulum (ER) membranes where coat protein complex II (COPII) coat subunits are recruited and assembled into COPII carrier vesicles that transport secretory cargo from the ER</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Unfolded protein response (UPR)</head><p>A system of ancestral signalling pathways that are activated upon increased secretory protein load in the endoplasmic reticulum to ensure maintenance of cellular homeostasis</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ER-Golgi intermediate compartment (ERGIC)</head><p>An organelle that is visible in most mammalian cells at the interface between the endoplasmic reticulum (ER) and the Golgi and that is implicated in cargo concentration and sorting</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 1. Bidirectional transport between the ER and the Golgi is mediated by COPI and COPII carriers</head><p>Bidirectional transport of secretory cargo between the endoplasmic reticulum (ER) and the Golgi requires budding, movement, tethering, as well as uncoating and fusion of coat protein complex II (COPII) and COPI carriers with their respective compartments. These include bulk-flow cargo, membrane cargo and receptor-dependent luminal cargo. COPII carriers facilitate selective and bulk-flow cargo export towards the Golgi. One important function of COPI is to facilitate retrieval of escaped luminal proteins containing K/HDEL retrieval signals that are recognized by the K/HDEL receptor as well as other machinery required for optimal anterograde transport. Carrier fusion is mediated by vesicular SNARE proteins (v-SNAREs) and target-SNAREs (t-SNAREs) upon anchoring of the carriers to their target compartment via tethers. The α-vertex angle is constant at 60° in each of the conditions. Under conditions in which SEC23-SEC24 is added to SEC13-SEC31, cuboctahedral (a 24 edged polygon) and icosidodecaheral (a 60 edged polygon) cage geometries were observed with each edge consisting of a SEC13-SEC31 heterotetramer. As the β-angle approaches 120° in the case of very large vesicles or tubules, the COPII cage may produce near-planar lattices <ref type="bibr" target="#b35">35</ref> . Distinct arrangements in the COPII cage are thought to allow for the range of COPII vesicle carriers necessary to accommodate varying cargo sizes. Vesicles reach the ERGIC in a microtubule-independent manner where they are tethered through the interaction between SEC23 and the TRAPPI (transport protein particle I) tethering complex. COPI mediates forward protein transport from the ERGIC towards the Golgi as well as recycling back to the ER membrane (the latter is not shown). b | In plant cells, ERES and Golgi are closely associated, possibly through a matrix (indicated in grey) that holds the ER and the Golgi together. The existence of COPII vesicles in plants is still debated (denoted by the question mark); vesicle-like structures have been seen <ref type="bibr" target="#b89">89,</ref><ref type="bibr" target="#b97">97,</ref><ref type="bibr" target="#b99">99,</ref><ref type="bibr">106</ref> rarely in electron microscopy analyses of high-pressure frozen Arabidopsis thaliana tissues, although it was unclear whether they were undergoing budding or fusion. Unlike mammalian cells, plant cell ER-Golgi transport does not rely on the microtubule cytoskeleton. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. The architecture of the COPII cage facilitates transport of diverse cargo Structural analyses have demonstrated that the coat protein complex II (COPII) cage, which consists of the SEC13-SEC31 and SEC23-SEC24 subcomplexes, has a flexible architecture. a | Electron microscope reconstruction model of the SEC13-SEC31 cuboctahedral cage that is formed with purified mammalian SEC13-SEC31 (REF. 37) (Electron Microscopy Data Bank (EMDataBank) accession number: EMDB1232). b | Schematic representation of SEC31-SEC13 (shown in green and blue, respectively) heterotetramers arranged at a vertex point, indicating variable angles in the observed geometry of COPII cages. c | The structures for the SEC13-SEC31 assembly unit<ref type="bibr" target="#b38">38</ref> and the SEC13-SEC31 cage<ref type="bibr" target="#b37">37</ref> in the presence of SEC23 (REF. 147) and SEC23-SEC24 (REF.35) have been reported. Variations in the SEC31 hinge (135°-165°) as well as in the β-vertex angle (90°-108°) of the SEC13-SEC31 cage have been documented and are listed in the table. The α-vertex angle is constant at 60° in each of the conditions. Under conditions in which SEC23-SEC24 is added to SEC13-SEC31, cuboctahedral (a 24 edged polygon) and icosidodecaheral (a 60 edged polygon) cage geometries were observed with each edge consisting of a SEC13-SEC31 heterotetramer. As the β-angle approaches 120° in the case of very large vesicles or tubules, the COPII cage may produce near-planar lattices<ref type="bibr" target="#b35">35</ref> . Distinct arrangements in the COPII cage are thought to allow for the range of COPII vesicle carriers necessary to accommodate varying cargo sizes.</figDesc><graphic coords="22,190.92,62.00,290.16,254.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. The ER-Golgi interface and ERES have a distinct organization in mammals and plants a | In mammalian cells, ER exit sites (ERES) are orientated towards a juxtaposed endoplasmic reticulum (ER)-Golgi intermediate compartment (ERGIC). Coat protein complex II (COPII)-coated vesicles originate within cup-shaped ER subdomains, which are associated with the plus end of microtubules. Upon fission of vesicles from the ERES, the SEC13-SEC31 cage is depolymerized, but the SEC23-SEC24 coat is partially retained.Vesicles reach the ERGIC in a microtubule-independent manner where they are tethered through the interaction between SEC23 and the TRAPPI (transport protein particle I) tethering complex. COPI mediates forward protein transport from the ERGIC towards the Golgi as well as recycling back to the ER membrane (the latter is not shown). b | In plant cells, ERES and Golgi are closely associated, possibly through a matrix (indicated in grey) that holds the ER and the Golgi together. The existence of COPII vesicles in plants is still debated (denoted by the question mark); vesicle-like structures have been seen<ref type="bibr" target="#b89">89,</ref><ref type="bibr" target="#b97">97,</ref><ref type="bibr" target="#b99">99,</ref>106   rarely in electron microscopy analyses of high-pressure frozen Arabidopsis thaliana tissues, although it was unclear whether they were undergoing budding or fusion. Unlike mammalian cells, plant cell ER-Golgi transport does not rely on the microtubule cytoskeleton.</figDesc><graphic coords="23,108.48,62.00,455.04,169.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Cellular architecture contributes to the ER-Golgi organization and positioning of ERES in mammalian and plant cells a,b | Side-view schematic (a) or direct view (b) of a cultured mammalian cell, showing the relative positioning of the nucleus, endoplasmic reticulum (ER) network and the Golgi. The inset shows the distribution of ER exit sites (ERES), which are dispersed over the cytoplasmic ER network and concentrated in regions near the Golgi. c | Confocal image of hepatocarcinoma cells (HHU7 cells) co-transfected with SEC24-mCherry and VSVG-YFP, which label ERES and the ER, respectively. d | Side-view diagram of a plant cell showing that the ER is sandwiched between the tonoplast vacuole and the plasma membrane. e | Diagram illustrating the distribution of the ER network at the cortical region of a plant cell. The inset depicts the organization of the ER, ERES and closely associated Golgi complexes; the mobility of Golgi stacks is indicated by the dashed arrows. f | Confocal images of a tobacco leaf epidermal cell co-expressing the ER and Golgi marker ERD2-GFP (shown in green, right panel) and YFP-SEC24A (shown in red, middle panel). The merged image reveals a large overlap of fluorescent signals at punctae that represent Golgi and ERES. The image in panel c courtesy of K. Hirschberg, Tel Aviv University, Israel. The images in panel f courtesy of L. Renna, Michigan State University, USA.</figDesc><graphic coords="24,183.36,62.00,305.28,300.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="21,190.92,62.00,290.16,257.52" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Nat Rev Mol Cell Biol. Author manuscript; available in PMC 2014 June 20.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>F.B is supported by grants from the <rs type="funder">US National Institutes of Health</rs> (<rs type="grantNumber">R01 GM101038</rs>), <rs type="funder">Chemical Sciences, Geosciences and Biosciences Division, Office of Basic Energy Sciences, Office of Science, U.S. DOE</rs> (<rs type="grantNumber">DE-FG02-91ER20021</rs>), <rs type="funder">NASA</rs> (<rs type="grantNumber">NNX12AN71G</rs>) and the <rs type="funder">National Science Foundation</rs> (<rs type="grantNumber">MCB 0948584</rs>; <rs type="grantNumber">1243792</rs>). C.B. acknowledges support from the <rs type="funder">US National Institutes of Health</rs> (<rs type="grantNumber">R01 GM52549</rs>).</p></div>
+			</div>
+			<div type="funding">
+<div><p>for SAR1 (<rs type="grantNumber">REF. 113</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_he3RHnn">
+					<idno type="grant-number">R01 GM101038</idno>
+				</org>
+				<org type="funding" xml:id="_5aWKtrH">
+					<idno type="grant-number">DE-FG02-91ER20021</idno>
+				</org>
+				<org type="funding" xml:id="_ctarwSD">
+					<idno type="grant-number">NNX12AN71G</idno>
+				</org>
+				<org type="funding" xml:id="_ww3Mfd9">
+					<idno type="grant-number">MCB 0948584</idno>
+				</org>
+				<org type="funding" xml:id="_Vg4gCmW">
+					<idno type="grant-number">1243792</idno>
+				</org>
+				<org type="funding" xml:id="_rU7mqFS">
+					<idno type="grant-number">R01 GM52549</idno>
+				</org>
+				<org type="funding" xml:id="_MySAqn4">
+					<idno type="grant-number">REF. 113</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests statement</head><p>The authors declare no competing financial interests.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Maintenance of Golgi structure and function depends on the integrity of ER export</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Polishchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Caplan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hirschberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lippincott-Schwartz</surname></persName>
+		</author>
+		<idno type="PMID">11706049</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="557" to="570" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Membrane protein transport between the endoplasmic reticulum and the Golgi in tobacco leaves is energy dependent but cytoskeleton independent: evidence from selective photobleaching</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Brandizzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Snapp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lippincott-Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hawes</surname></persName>
+		</author>
+		<idno type="PMID">12084828</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1293" to="1309" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Molecular basis for Golgi maintenance and biogenesis</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Altan-Bonnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sougrat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lippincott-Schwartz</surname></persName>
+		</author>
+		<idno type="PMID">15261668</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="364" to="372" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The Golgi apparatus: 100 years of progress and controversy</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Farquhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Palade</surname></persName>
+		</author>
+		<idno type="PMID">9695800</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="2" to="10" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">The Golgi Apparatus</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Driouich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Staehelin</surname></persName>
+		</author>
+		<editor>Berger, EG.</editor>
+		<editor>Roth, J.</editor>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+			<publisher>Birkhäuser Verlag</publisher>
+			<biblScope unit="page" from="275" to="301" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Structural models of primary cell walls in flowering plants: consistency of molecular structure with the physical properties of the walls during growth</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Carpita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Gibeaut</surname></persName>
+		</author>
+		<idno type="PMID">8401598</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant J</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1" to="30" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Disrupting two Arabidopsis thaliana xylosyltransferase genes results in plants deficient in xyloglucan, a major primary cell wall component</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Cavalier</surname></persName>
+		</author>
+		<idno type="PMID">18544630</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1519" to="1537" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The Golgi localization of Arabidopsis thaliana β1,2-xylosyltransferase in plant cells is dependent on its cytoplasmic and transmembrane sequences</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dirnberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bencur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Steinkellner</surname></persName>
+		</author>
+		<idno type="PMID">12175019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="273" to="281" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Biosynthesis and immunolocalization of Lewis a-containing N-glycans in the plant cell</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Fitchette</surname></persName>
+		</author>
+		<idno type="PMID">10517824</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="333" to="344" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Plant glycosyltransferases</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Keegstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Raikhel</surname></persName>
+		</author>
+		<idno type="PMID">11312132</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="219" to="224" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Spectrin tethers and mesh in the biosynthetic pathway</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>De Matteis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Morrow</surname></persName>
+		</author>
+		<idno type="PMID">10852813</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="2331" to="2343" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Control of MAP kinase signaling to the nucleus</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kondoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Torii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nishida</surname></persName>
+		</author>
+		<idno type="PMID">15902482</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chromosoma</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="86" to="91" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Plant N-glycan processing enzymes employ different targeting mechanisms for their spatial arrangement along the secretory pathway</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Saint-Jore-Dupas</surname></persName>
+		</author>
+		<idno type="PMID">17138701</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="3182" to="3200" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Mapping the distribution of Golgi enzymes involved in the construction of complex oligosaccharides</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rabouille</surname></persName>
+		</author>
+		<idno type="PMID">7615680</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="1617" to="1627" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The growing Golgi: in search of its independence</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Klumperman</surname></persName>
+		</author>
+		<idno type="PMID">11146667</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="E217" to="E219" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Imaging and imagination: understanding the endo-lysosomal system</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Van Meel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Klumperman</surname></persName>
+		</author>
+		<idno type="PMID">18274773</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Histochem Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="253" to="266" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Arabidopsis vacuolar H-ATPase subunit E isoform 1 is required for Golgi organization and vacuole function in embryogenesis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dettmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hong-Hermesdorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Stierhof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schumacher</surname></persName>
+		</author>
+		<idno type="PMID">16461582</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="715" to="730" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Mechanisms of regulated unconventional protein secretion</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Nickel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rabouille</surname></persName>
+		</author>
+		<idno type="PMID">19122676</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Rev Mol Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="148" to="155" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The organization of endoplasmic reticulum export complexes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Bannykh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Balch</surname></persName>
+		</author>
+		<idno type="PMID">8858160</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="19" to="35" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Dynamics of transitional endoplasmic reticulum sites in vertebrate cells</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Glick</surname></persName>
+		</author>
+		<idno type="PMID">10982397</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Cell</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="3013" to="3030" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Human SEC13Rp functions in yeast and is located on transport vesicles budding from the endoplasmic reticulum</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Shaywitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Orci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ravazzola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Swaroop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Kaiser</surname></persName>
+		</author>
+		<idno type="PMID">7876304</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="769" to="777" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Golgi structure correlates with transitional endoplasmic reticulum organization in Pichia pastoris and Saccharomyces cerevisiae</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">W</forename><surname>Rossanese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="page" from="69" to="81" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">cerevisiae have distinct ERES and Golgi organizations and proposes a model in which Golgi organization correlates with ERES organization</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Demonstrates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pastoris</surname></persName>
+		</author>
+		<idno type="PMID">10189369</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Dual modes of endoplasmic reticulum-to-Golgi transport in dendrites revealed by live-cell imaging</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Horton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Ehlers</surname></persName>
+		</author>
+		<idno type="PMID">12867502</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="6188" to="6199" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Endoplasmic reticulum export sites and Golgi bodies behave as single mobile secretory units in plant cells</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Dasilva</surname></persName>
+		</author>
+		<idno type="PMID">15208385</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1753" to="1771" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>Shows that ERES and motile Golgi stacks form a secretory unit system that is unique to eukaryotic cells</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Sec16 is a determinant of transitional ER organization</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Connerly</surname></persName>
+		</author>
+		<idno type="PMID">16111939</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Biol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1439" to="1447" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Sec16 defines endoplasmic reticulum exit sites and is required for secretory cargo export in mammalian cells</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Townley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Koka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Stephens</surname></persName>
+		</author>
+		<idno type="PMID">17005010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Traffic</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1678" to="1687" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Regulation of coat assembly -sorting things out at the ER</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Barlowe</surname></persName>
+		</author>
+		<idno type="PMID">20439155</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="447" to="453" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Entry and exit mechanisms at the cis-face of the Golgi complex</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lorente-Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Barlowe</surname></persName>
+		</author>
+		<idno>.1101/cshperspect.a005207</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb Perspect Biol</title>
+		<imprint>
+			<date>Apr 11.2011 10</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Initial docking of ER-derived vesicles requires Uso1p and Ypt1p but is independent of SNARE proteins</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ballew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Barlowe</surname></persName>
+		</author>
+		<idno type="PMID">9545229</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="2156" to="2165" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Rab1 recruitment of p115 into a cis-SNARE complex: programming budding COPII vesicles for fusion</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Allan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Moyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Balch</surname></persName>
+		</author>
+		<idno type="PMID">10903204</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">289</biblScope>
+			<biblScope unit="page" from="444" to="448" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">TRAPPI tethers COPII vesicles by binding the coat subunit Sec23</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cai</surname></persName>
+		</author>
+		<idno type="PMID">17287728</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">445</biblScope>
+			<biblScope unit="page" from="941" to="944" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A link between ER tethering and COP-I vesicle uncoating</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wenzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Wurm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Schmitt</surname></persName>
+		</author>
+		<idno type="PMID">19758564</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Cell</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="403" to="416" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Procollagen traverses the Golgi stack without leaving the lumen of cisternae: evidence for cisternal maturation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bonfanti</surname></persName>
+		</author>
+		<idno type="PMID">9875853</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="993" to="1003" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">COPII: a membrane coat formed by Sec proteins that drive vesicle budding from the endoplasmic reticulum</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Barlowe</surname></persName>
+		</author>
+		<idno type="PMID">8004676</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="895" to="907" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note>Reports, for the first time, that COPII-coated transport intermediates exist and reconstitutes COPII carriers in vitro</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Structural basis for cargo regulation of COPII coat assembly</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Stagg</surname></persName>
+		</author>
+		<idno type="PMID">18692470</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="474" to="484" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The structure of a COPII tubule</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>O'donnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Maddox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stagg</surname></persName>
+		</author>
+		<idno type="PMID">20828620</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Struct Biol</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="page" from="358" to="364" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Structure of the Sec13/31 COPII coat cage</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Stagg</surname></persName>
+		</author>
+		<idno type="PMID">16407955</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Reveals the three-dimensional reconstruction of SEC13-SEC31 cages at 30 Å resolution that defined a flexible</title>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="volume">439</biblScope>
+			<biblScope unit="page" from="234" to="238" />
+		</imprint>
+	</monogr>
+	<note>cuboctahedron geometry of the COPII outer coat</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Structure and organization of coat proteins in the COPII cage</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Mancias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goldberg</surname></persName>
+		</author>
+		<idno type="PMID">17604721</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="1325" to="1336" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The structure of the Sec13/31 COPII cage bound to Sec23</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bhattacharya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jod</forename><surname>Stagg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="PMID">22543240</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">420</biblScope>
+			<biblScope unit="page" from="324" to="334" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Immuno-electron tomography of ER exit sites reveals the existence of free COPII-coated transport carriers</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zeuschner</surname></persName>
+		</author>
+		<idno type="PMID">16531996</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="377" to="383" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Multibudded tubules formed by COPII on artificial liposomes</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bacia</surname></persName>
+		</author>
+		<idno type="PMID">22355536</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">17</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Cranio-lenticulo-sutural dysplasia is caused by a SEC23A mutation leading to abnormal endoplasmic-reticulum-to-Golgi trafficking</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Boyadjiev</surname></persName>
+		</author>
+		<idno type="PMID">16980979</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Genet</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="1192" to="1197" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Secretory COPII coat component Sec23a is essential for craniofacial chondrocyte maturation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Lapierre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Frotscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Goldenring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Knapik</surname></persName>
+		</author>
+		<idno type="PMID">16980978</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Genet</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="1198" to="1203" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The genetic basis of a craniofacial disease provides insight into COPII coat assembly</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Fromme</surname></persName>
+		</author>
+		<idno type="PMID">17981132</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Cell</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="623" to="634" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Mutations in a Sar1 GTPase of COPII vesicles are associated with lipid absorption disorders</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="PMID">12692552</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Genet</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="29" to="31" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Anderson&apos;s disease (chylomicron retention disease): a new mutation in the SARA2 gene associated with muscular and cardiac abnormalities</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Silvain</surname></persName>
+		</author>
+		<idno type="PMID">18786134</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Genet</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="546" to="552" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Ubiquitin-dependent regulation of COPII coat size and function</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jin</surname></persName>
+		</author>
+		<idno type="PMID">22358839</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">482</biblScope>
+			<biblScope unit="page" from="495" to="500" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">TANGO1 facilitates cargo loading at endoplasmic reticulum exit sites</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Saito</surname></persName>
+		</author>
+		<idno type="PMID">19269366</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="891" to="902" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">cTAGE5 mediates collagen secretion through interaction with TANGO1 at endoplasmic reticulum exit sites</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Saito</surname></persName>
+		</author>
+		<idno type="PMID">21525241</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Cell</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="2301" to="2308" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Plant cell walls</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Keegstra</surname></persName>
+		</author>
+		<idno type="PMID">20921169</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">154</biblScope>
+			<biblScope unit="page" from="483" to="486" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">De novo formation of plant endoplasmic reticulum export sites is membrane cargo induced and signal mediated</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Hanton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chatre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Renna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Matheson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Brandizzi</surname></persName>
+		</author>
+		<idno type="PMID">17322335</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page" from="1640" to="1650" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Adaptation of endoplasmic reticulum exit sites to acute and chronic increases in cargo load</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Farhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kaufman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Hauri</surname></persName>
+		</author>
+		<idno type="PMID">18650939</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="2043" to="2054" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">The unfolded protein response: from stress pathway to homeostatic regulation</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Walter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ron</forename><forename type="middle">D</forename></persName>
+		</author>
+		<idno type="PMID">22116877</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">334</biblScope>
+			<biblScope unit="page" from="1081" to="1086" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">A pioneering study that uses fluorescent protein technology to visualize ER export of secretory cargo along microtubules in live mammalian cells</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Presley</surname></persName>
+		</author>
+		<idno type="PMID">9288971</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">389</biblScope>
+			<biblScope unit="page" from="81" to="85" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note>ER-to-Golgi transport visualized in living cells</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Functional coupling of microtubules to membranes -implications for membrane structure and dynamics</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Stephens</surname></persName>
+		</author>
+		<idno type="PMID">22736043</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="2795" to="2804" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Tomographic evidence for continuous turnover of Golgi cisternae in Pichia pastoris</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mogelsvang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gomez-Ospina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Soderholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Glick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Staehelin</surname></persName>
+		</author>
+		<idno type="PMID">12808029</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Cell</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="2277" to="2291" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Dynamics of proteins in Golgi membranes: comparisons between mammalian and plant cells highlighted by photobleaching techniques</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Brandizzi</surname></persName>
+		</author>
+		<idno type="PMID">14745496</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Mol Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="172" to="185" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Stop-and-go movements of plant Golgi stacks are mediated by the acto-myosin system</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nebenfuhr</surname></persName>
+		</author>
+		<idno type="PMID">10594100</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="1127" to="1142" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Stacks on tracks: the plant Golgi apparatus traffics on an actin/ER network</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Boevink</surname></persName>
+		</author>
+		<idno type="PMID">9750355</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant J</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="441" to="447" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Functional genomics reveals genes involved in protein secretion and Golgi organization</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bard</surname></persName>
+		</author>
+		<idno type="PMID">16452979</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">439</biblScope>
+			<biblScope unit="page" from="604" to="607" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Golgi duplication in Trypanosoma brucei</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>He</surname></persName>
+		</author>
+		<idno type="PMID">15138289</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">165</biblScope>
+			<biblScope unit="page" from="313" to="321" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The nuclear envelope serves as an intermediary between the ER and Golgi complex in the intracellular parasite Toxoplasma gondii</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Hager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Striepen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Tilney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Roos</surname></persName>
+		</author>
+		<idno type="PMID">10413671</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="2631" to="2638" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Myosin XI-K is required for rapid trafficking of Golgi stacks, peroxisomes, and mitochondria in leaf cells of Nicotiana benthamiana</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Avisar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Prokhnevsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Makarova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Koonin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Dolja</surname></persName>
+		</author>
+		<idno type="PMID">18178670</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="1098" to="1108" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Two class XI myosins function in organelle trafficking and root hair development in Arabidopsis</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Peremyslov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Prokhnevsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Avisar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Dolja</surname></persName>
+		</author>
+		<idno type="PMID">18178669</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="1109" to="1116" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Truncated myosin XI tail fusions inhibit peroxisome, Golgi, and mitochondrial movement in tobacco leaf epidermal cells: a genetic tool for the next generation</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Sparkes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Teanby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hawes</surname></persName>
+		</author>
+		<idno type="PMID">18503043</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Bot</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="2499" to="2512" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">The plant Golgi apparatus -going with the flow</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hawes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Satiat-Jeunemaitre</surname></persName>
+		</author>
+		<idno type="PMID">15922463</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1744</biblScope>
+			<biblScope unit="page" from="93" to="107" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Cis-Golgi cisternal assembly and biosynthetic activation occur sequentially in plants and algae</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Donohoe</surname></persName>
+		</author>
+		<idno type="PMID">23369235</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Traffic</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="551" to="567" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">SNARE status regulates tether recruitment and function in homotypic COPII vesicle fusion</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bentley</surname></persName>
+		</author>
+		<idno type="PMID">17038314</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="page" from="38825" to="38833" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Reconstitution of COPII vesicle fusion to generate a pre-Golgi intermediate compartment</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Hay</surname></persName>
+		</author>
+		<idno type="PMID">15611329</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">167</biblScope>
+			<biblScope unit="page" from="997" to="1003" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">The mechanisms of vesicle budding and fusion</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Bonifacino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Glick</surname></persName>
+		</author>
+		<idno type="PMID">14744428</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="153" to="166" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Endoplasmic reticulum: a dynamic patchwork of specialized subregions</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sitia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Meldolesi</surname></persName>
+		</author>
+		<idno type="PMID">1421566</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Cell</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1067" to="1072" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">The Golgi complex: in vitro veritas?</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mellman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Simons</surname></persName>
+		</author>
+		<idno type="PMID">1547485</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="829" to="840" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">The recycling pathway of protein ERGIC-53 and dynamics of the ER-Golgi intermediate compartment</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Klumperman</surname></persName>
+		</author>
+		<idno type="PMID">9788882</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="3411" to="3425" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">The ER-Golgi intermediate compartment (ERGIC): in search of its identity and function</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Appenzeller-Herzog</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Hauri</surname></persName>
+		</author>
+		<idno type="PMID">16723730</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="2173" to="2183" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Vesicular tubular clusters between the ER and Golgi mediate concentration of soluble secretory proteins by exclusion from COPIcoated vesicles</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Martinez-Menarguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Geuze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Slot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Klumperman</surname></persName>
+		</author>
+		<idno type="PMID">10412983</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="81" to="90" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Proteomics of endoplasmic reticulum-Golgi intermediate compartment (ERGIC) membranes from brefeldin A-treated HepG2 cells identifies ERGIC-32, a new cycling protein that interacts with human Erv46</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Breuza</surname></persName>
+		</author>
+		<idno type="PMID">15308636</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="47242" to="47253" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Demonstrates in vivo a temporal uncoupling of the roles of the COPI and COPII machineries in bidirectional membrane traffic at the ER-Golgi interface in mammalian cells</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Scales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pepperkok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Kreis</surname></persName>
+		</author>
+		<idno type="PMID">9323141</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="1137" to="1148" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note>Visualization of ER-to-Golgi transport in living cells reveals a sequential mode of action for COPII and COPI</note>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Illuminating the secretory pathway: when do we need vesicles?</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Stephens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pepperkok</surname></persName>
+		</author>
+		<idno type="PMID">11228150</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="1053" to="1059" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Kinesin is the motor for microtubule-mediated Golgi-to-ER membrane traffic</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lippincott-Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Cole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marotta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Conrad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Bloom</surname></persName>
+		</author>
+		<idno type="PMID">7844144</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="293" to="306" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Dynamic association of cytoplasmic dynein heavy chain 1a with the Golgi apparatus and intermediate compartment</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Roghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">J</forename><surname>Allan</surname></persName>
+		</author>
+		<idno type="PMID">10574715</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="4673" to="4685" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Spectrins and the Golgi</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Beck</surname></persName>
+		</author>
+		<idno type="PMID">15921768</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1744</biblScope>
+			<biblScope unit="page" from="374" to="382" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Coatomer-bound Cdc42 regulates dynein recruitment to COPI vesicles</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="PMID">15866890</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">169</biblScope>
+			<biblScope unit="page" from="383" to="389" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Live imaging of bidirectional traffic from the ERGIC</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ben-Tekaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Miura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pepperkok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Hauri</surname></persName>
+		</author>
+		<idno type="PMID">15632110</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="357" to="367" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Grab a Golgi: laser trapping of Golgi bodies reveals in vivo interactions with the endoplasmic reticulum</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Sparkes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ketelaar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Ruijter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hawes</surname></persName>
+		</author>
+		<idno type="PMID">19220813</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Traffic</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="567" to="571" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>Uses laser-trap technology in live cells and demonstrates that the ER and the Golgi are physically attached in highly vacuolated plant cells</note>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Dynamic organization of COPII coat proteins at endoplasmic reticulum export sites in plant cells</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Hanton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Matheson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chatre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Brandizzi</surname></persName>
+		</author>
+		<idno type="PMID">19000162</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant J</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="963" to="974" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">In tobacco leaf epidermal cells, the integrity of protein export from the endoplasmic reticulum and of ER export sites depends on active COPI machinery</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stefano</surname></persName>
+		</author>
+		<idno type="PMID">16553898</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant J</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="95" to="110" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Plant Sar1 isoforms with near-identical protein sequences exhibit different localisations and effects on secretion</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Hanton</surname></persName>
+		</author>
+		<idno type="PMID">18322804</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="283" to="294" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Biogenesis of cytoplasmic membranous vesicles for plant potyvirus replication occurs at endoplasmic reticulum exit sites in a COPI-and COPII-dependent manner</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="PMID">18842721</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Virol</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="12252" to="12264" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Membrane dynamics in the early secretory pathway</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Herranz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bubeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pepperkok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ritzenthaler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Crit Rev Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="199" to="225" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Interaction of the K + -channel KAT1 with the coat protein complex II coat component Sec24 depends on a di-acidic endoplasmic reticulum export motif</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sieben</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mikosch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Brandizzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Homann</surname></persName>
+		</author>
+		<idno type="PMID">18702673</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant J</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="997" to="1006" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Golgi membrane dynamics after induction of a dominant-negative mutant Sar1 GTPase in tobacco</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Osterrieder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hummel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hawes</surname></persName>
+		</author>
+		<idno type="PMID">19861656</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Bot</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="405" to="422" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">The plant ER-Golgi interface</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hawes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Osterrieder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hummel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sparkes</surname></persName>
+		</author>
+		<idno type="PMID">18513377</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Traffic</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1571" to="1580" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Arginine/lysine residues in the cytoplasmic tail promote ER export of plant glycosylation enzymes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schoberer</surname></persName>
+		</author>
+		<idno type="PMID">18939950</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Traffic</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="101" to="115" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">A missense mutation in the Arabidopsis COPII coat protein Sec24A induces the formation of clusters of the endoplasmic reticulum and Golgi apparatus</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Faso</surname></persName>
+		</author>
+		<idno type="PMID">19933202</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="3655" to="3671" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">cis-Golgi proteins accumulate near the ER exit sites and act as the scaffold for Golgi regeneration after brefeldin A treatment in tobacco BY-2 cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ito</surname></persName>
+		</author>
+		<idno type="PMID">22740633</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Cell</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="3203" to="3214" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">ER import sites and their relationship to ER exit sites: a new model for bidirectional ER-Golgi transport in higher plants</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lerich</surname></persName>
+		</author>
+		<idno type="PMID">22876251</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">143</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">ERES (ER exit sites) and the &apos;secretory unit concept</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Langhans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Meckel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lerich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Robinson</surname></persName>
+		</author>
+		<idno type="PMID">22360601</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Microsc</title>
+		<imprint>
+			<biblScope unit="volume">247</biblScope>
+			<biblScope unit="page" from="48" to="59" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">The ER/Golgi interface -is there anything in-between?</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hawes</surname></persName>
+		</author>
+		<idno type="PMID">22645598</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">73</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Identification and characterization of COPIa-and COPIbtype vesicle classes associated with plant and algal Golgi</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Donohoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Staehelin</surname></persName>
+		</author>
+		<idno type="PMID">17185411</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="163" to="168" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">Optical tweezer micromanipulation of filamentous fungi</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Arlt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Poon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Read</surname></persName>
+		</author>
+		<idno type="PMID">16908207</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Fungal Genet Biol</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title level="a" type="main">TFG-1 function in protein secretion and oncogenesis</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Witte</surname></persName>
+		</author>
+		<idno type="PMID">21478858</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="550" to="558" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title level="a" type="main">Sequential interactions with Sec23 control the direction of vesicle traffic</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lord</surname></persName>
+		</author>
+		<idno type="PMID">21532587</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">473</biblScope>
+			<biblScope unit="page" from="181" to="186" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title level="a" type="main">High pressure freezing of intact plant tissues. Evaluation and characterization of novel features of the endoplasmic reticulum and associated membrane systems</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Staehelin</surname></persName>
+		</author>
+		<idno type="PMID">3396590</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="81" to="93" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<analytic>
+		<title level="a" type="main">Reevaluation of the effects of brefeldin A on plant cells using tobacco Bright Yellow 2 cells expressing Golgi-targeted green fluorescent protein and COPI antisera</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ritzenthaler</surname></persName>
+		</author>
+		<idno type="PMID">9225461</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1151" to="1165" />
+			<date type="published" when="1997">2002. 1997</date>
+		</imprint>
+	</monogr>
+	<note>The plant ER: a dynamic organelle composed of a large number of discrete functional domains Plant J</note>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<analytic>
+		<title level="a" type="main">ER-to-Golgi transport by COPII vesicles in Arabidopsis involves a ribosomeexcluding scaffold that is transferred with the vesicles to the Golgi matrix</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Staehelin</surname></persName>
+		</author>
+		<idno type="PMID">18810574</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Protoplasma</title>
+		<imprint>
+			<biblScope unit="volume">234</biblScope>
+			<biblScope unit="page" from="51" to="64" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<title level="a" type="main">The structures of COPI-coated vesicles reveal alternate coatomer conformations and interactions</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Faini</surname></persName>
+		</author>
+		<idno type="PMID">22628556</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="1451" to="1454" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<analytic>
+		<title level="a" type="main">Holding it all together? Candidate proteins for the plant Golgi matrix</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Latijnhouwers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hawes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Carvalho</surname></persName>
+		</author>
+		<idno type="PMID">22591132</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="68" to="77" />
+			<date type="published" when="2005">2005. 2012</date>
+		</imprint>
+	</monogr>
+	<note>Osterrieder A. Tales of tethers and tentacles: golgins in plants J Microsc</note>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<analytic>
+		<title level="a" type="main">GM130 and GRASP65-dependent lateral cisternal fusion allows uniform Golgi-enzyme distribution</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Puthenveedu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bachert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Puri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lanni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Linstedt</surname></persName>
+		</author>
+		<idno type="PMID">16489344</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="238" to="248" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<analytic>
+		<title level="a" type="main">Plant transducers of the endoplasmic reticulum unfolded protein response</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Iwata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Koizumi</surname></persName>
+		</author>
+		<idno type="PMID">22796463</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="720" to="727" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<analytic>
+		<title level="a" type="main">Regulation of Sar1 NH 2 terminus by GTP binding and hydrolysis promotes membrane deformation to control COPII vesicle fission</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bielli</surname></persName>
+		</author>
+		<idno type="PMID">16344311</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">171</biblScope>
+			<biblScope unit="page" from="919" to="924" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+	<analytic>
+		<title level="a" type="main">Requirement for a GTPase-activating protein in vesicle budding from the endoplasmic reticulum</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yoshihisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Barlowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schekman</surname></persName>
+		</author>
+		<idno type="PMID">8451644</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">259</biblScope>
+			<biblScope unit="page" from="1466" to="1468" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+	<analytic>
+		<title level="a" type="main">Structure of the Sec23/24-Sar1 pre-budding complex of the COPII vesicle coat</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Corpina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goldberg</surname></persName>
+		</author>
+		<idno type="PMID">12239560</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">419</biblScope>
+			<biblScope unit="page" from="271" to="277" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+	<analytic>
+		<title level="a" type="main">Bulk flow revisited: transport of a soluble protein in the secretory pathway</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Thor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gautschi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Geiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Helenius</surname></persName>
+		</author>
+		<idno type="PMID">19843282</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Traffic</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1819" to="1830" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b114">
+	<analytic>
+		<title level="a" type="main">COPII-cargo interactions direct protein sorting into ERderived transport vesicles</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kuehn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Herrmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schekman</surname></persName>
+		</author>
+		<idno type="PMID">9428766</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">391</biblScope>
+			<biblScope unit="page" from="187" to="190" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b115">
+	<analytic>
+		<title level="a" type="main">Endoplasmic reticulum export of glycosyltransferases depends on interaction of a cytoplasmic dibasic motif with Sar1</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Giraudo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Maccioni</surname></persName>
+		</author>
+		<idno type="PMID">12972562</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Cell</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="3753" to="3766" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b116">
+	<analytic>
+		<title level="a" type="main">Role of Sec24 isoforms in selective export of membrane proteins from the endoplasmic reticulum</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Wendeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Paccaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Hauri</surname></persName>
+		</author>
+		<idno type="PMID">17255961</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="258" to="264" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b117">
+	<analytic>
+		<title level="a" type="main">Identifies multiple independent cargo-binding sites in the COPII coat subunit SEC24 and describes the plasticity of this adaptor complex in selecting multiple cargo molecules with distinct sorting signals</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Miller</surname></persName>
+		</author>
+		<idno type="PMID">12941277</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="497" to="509" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note>Multiple cargo binding sites on the COPII subunit Sec24p ensure capture of diverse membrane proteins into transport vesicles</note>
+</biblStruct>
+
+<biblStruct xml:id="b118">
+	<analytic>
+		<title level="a" type="main">Insights into COPII coat nucleation from the structure of Sec23. Sar1 complexed with the active fragment of Sec31</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Mancias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goldberg</surname></persName>
+		</author>
+		<idno type="PMID">17981133</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Cell</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="635" to="645" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b119">
+	<analytic>
+		<title level="a" type="main">ER cargo properties specify a requirement for COPII coat rigidity mediated by Sec13p</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Copic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Latham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Horlbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D'</forename><surname>Arcangelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename></persName>
+		</author>
+		<idno type="PMID">22300850</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">335</biblScope>
+			<biblScope unit="page" from="1359" to="1362" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b120">
+	<analytic>
+		<title level="a" type="main">COPII-coated vesicle formation reconstituted with purified coat proteins and chemically defined liposomes</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Matsuoka</surname></persName>
+		</author>
+		<idno type="PMID">9568718</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="263" to="275" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b121">
+	<analytic>
+		<title level="a" type="main">Emergent properties of proteostasis-COPII coupled systems in human health and disease</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goldberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Orci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R ;</forename><surname>Schekman</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Balch</surname></persName>
+		</author>
+		<idno type="PMID">21054154</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Cell Dev Biol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="385" to="397" />
+			<date type="published" when="2004">2004. 2010</date>
+		</imprint>
+	</monogr>
+	<note>Bi-directional protein transport between the ER and Golgi Mol Membr Biol</note>
+</biblStruct>
+
+<biblStruct xml:id="b122">
+	<analytic>
+		<title level="a" type="main">Proteins involved in vesicular transport and membrane fusion</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Waters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Griff</forename><forename type="middle">Ic</forename><surname>Rothman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename></persName>
+		</author>
+		<idno type="PMID">1772655</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="615" to="620" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b123">
+	<analytic>
+		<title level="a" type="main">COP I domains required for coatomer integrity, and novel interactions with ARF and ARF-GAP</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Eugster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Frigerio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Duden</surname></persName>
+		</author>
+		<idno type="PMID">10921873</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="3905" to="3917" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b124">
+	<analytic>
+		<title level="a" type="main">COPII and COPI traffic at the ER-Golgi interface</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Szul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sztul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol (Bethesda)</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">128</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b125">
+	<analytic>
+		<title level="a" type="main">ArfGAP1 function in COPI mediated membrane traffic: currently debated models and comparison to other coat-binding ArfGAPs</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shiba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Randazzo</surname></persName>
+		</author>
+		<idno type="PMID">22806901</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Histol Histopathol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1143" to="1153" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b126">
+	<analytic>
+		<title level="a" type="main">Evidence that luminal ER proteins are sorted from secreted proteins in a post-ER compartment</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">T</forename><surname>Wieland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Gleason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Serafini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Rothman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Pelham</surname></persName>
+		</author>
+		<idno type="PMID">3402439</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="913" to="918" />
+			<date type="published" when="1987">1987. 1988</date>
+		</imprint>
+	</monogr>
+	<note>The rate of bulk flow from the endoplasmic reticulum to the cell surface Cell</note>
+</biblStruct>
+
+<biblStruct xml:id="b127">
+	<analytic>
+		<title level="a" type="main">Brefeldin A redistributes resident and itinerant Golgi proteins to the endoplasmic reticulum</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Doms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Russ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yewdell</surname></persName>
+		</author>
+		<idno type="PMID">2745557</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="61" to="72" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b128">
+	<analytic>
+		<title level="a" type="main">Rapid redistribution of Golgi proteins into the ER in cells treated with brefeldin A: evidence for membrane cycling from Golgi to ER</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lippincott-Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Bonifacino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Klausner</surname></persName>
+		</author>
+		<idno type="PMID">2647301</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="801" to="813" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note>The first demonstration that the Golgi is not a stable entity but that its integrity depends on constant membrane cycling with the ER.</note>
+</biblStruct>
+
+<biblStruct xml:id="b129">
+	<analytic>
+		<title level="a" type="main">Golgi tubule traffic and the effects of brefeldin A visualized in living cells</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sciaky</surname></persName>
+		</author>
+		<idno type="PMID">9382862</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="1137" to="1155" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b130">
+	<analytic>
+		<title level="a" type="main">Dynamics of GBF1, a brefeldin Asensitive Arf1 exchange factor at the Golgi</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Pfeifer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lippincott-Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Jackson</surname></persName>
+		</author>
+		<idno type="PMID">15616190</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Cell</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1213" to="1222" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b131">
+	<analytic>
+		<title level="a" type="main">Functional diversification of closely related ARF-GEFs in protein secretion and recycling</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Richter</surname></persName>
+		</author>
+		<idno type="PMID">17653190</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">448</biblScope>
+			<biblScope unit="page" from="488" to="492" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b132">
+	<analytic>
+		<title level="a" type="main">Brefeldin A acts to stabilize an abortive ARF-GDP-Sec7 domain protein complex: involvement of specific residues of the Sec7 domain</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Peyroche</surname></persName>
+		</author>
+		<idno type="PMID">10198630</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="275" to="285" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b133">
+	<analytic>
+		<title level="a" type="main">Rab1 interaction with a GM130 effector complex regulates COPII vesicle cis-Golgi tethering</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Moyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Allan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Balch</surname></persName>
+		</author>
+		<idno type="PMID">11285137</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Traffic</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="268" to="276" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b134">
+	<analytic>
+		<title level="a" type="main">Sequential tethering of Golgins and catalysis of SNAREpin assembly by the vesicle-tethering protein p115</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shorter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Beard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Seemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Dirac-Svejstrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Warren</surname></persName>
+		</author>
+		<idno type="PMID">11927603</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page" from="45" to="62" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b135">
+	<analytic>
+		<title level="a" type="main">TRAPP I implicated in the specificity of tethering in ER-to-Golgi transport</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sacher</surname></persName>
+		</author>
+		<idno type="PMID">11239471</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="433" to="442" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b136">
+	<analytic>
+		<title level="a" type="main">The structural basis for activation of the Rab Ypt1p by the TRAPP membranetethering complexes</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cai</surname></persName>
+		</author>
+		<idno type="PMID">18585354</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="page" from="1202" to="1213" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b137">
+	<analytic>
+		<title level="a" type="main">Protein interactions regulating vesicle transport between the endoplasmic reticulum and Golgi apparatus in mammalian cells</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Hay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Chao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Scheller</surname></persName>
+		</author>
+		<idno type="PMID">9094723</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="149" to="158" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b138">
+	<analytic>
+		<title level="a" type="main">Role of vesicle-associated syntaxin 5 in the assembly of pre-Golgi intermediates</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dascher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bannykh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Plutner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Balch</surname></persName>
+		</author>
+		<idno type="PMID">9445473</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="696" to="700" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b139">
+	<analytic>
+		<title level="a" type="main">Subunit structure of a mammalian ER/Golgi SNARE complex</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Joglekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Hay</surname></persName>
+		</author>
+		<idno type="PMID">11035026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="39631" to="39639" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b140">
+	<analytic>
+		<title level="a" type="main">SNAREpins: minimal machinery for membrane fusion</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Weber</surname></persName>
+		</author>
+		<idno type="PMID">9529252</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="759" to="772" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b141">
+	<analytic>
+		<title level="a" type="main">Topological restriction of SNAREdependent membrane fusion</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Parlati</surname></persName>
+		</author>
+		<idno type="PMID">11001058</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">407</biblScope>
+			<biblScope unit="page" from="194" to="198" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b142">
+	<analytic>
+		<title level="a" type="main">Sly1 binds to Golgi and ER syntaxins via a conserved N-terminal peptide motif</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamaguchi</surname></persName>
+		</author>
+		<idno type="PMID">11879635</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Cell</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="295" to="305" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b143">
+	<analytic>
+		<title level="a" type="main">The structure of the Sec13/31 COPII cage bound to Sec23</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bhattacharya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Donnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stagg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="PMID">22543240</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">420</biblScope>
+			<biblScope unit="page" from="324" to="334" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

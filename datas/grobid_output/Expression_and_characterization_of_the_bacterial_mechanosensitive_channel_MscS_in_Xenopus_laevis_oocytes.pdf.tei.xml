@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">MscS-Like10 is a stretch-activated ion channel from&lt;i&gt;Arabidopsis thaliana&lt;/i&gt;with a preference for anions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Proceedings of the National Academy of Sciences</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2012-10-29">2012-10-29</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Grigory</forename><surname>Maksaev</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Elizabeth</forename><forename type="middle">S</forename><surname>Haswell</surname></persName>
+							<email>ehaswell@wustl.edu</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">Washington University in St. Louis</orgName>
+								<address>
+									<postCode>63130</postCode>
+									<settlement>St. Louis</settlement>
+									<region>MO</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Pennsylvania State University</orgName>
+								<address>
+									<settlement>University Park</settlement>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">MscS-Like10 is a stretch-activated ion channel from&lt;i&gt;Arabidopsis thaliana&lt;/i&gt;with a preference for anions</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Proceedings of the National Academy of Sciences</title>
+						<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+						<idno type="ISSN">0027-8424</idno>
+						<idno type="eISSN">1091-6490</idno>
+						<imprint>
+							<publisher>Proceedings of the National Academy of Sciences</publisher>
+							<biblScope unit="volume">109</biblScope>
+							<biblScope unit="issue">46</biblScope>
+							<biblScope unit="page" from="19015" to="19020"/>
+							<date type="published" when="2012-10-29" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">ED9AA8BE0DB91ADDBC2D167D4A38213C</idno>
+					<idno type="DOI">10.1073/pnas.1213931109</idno>
+					<note type="submission">approved October 4, 2012 (received for review August 15, 2012</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:32+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Like many other organisms, plants are capable of sensing and responding to mechanical stimuli such as touch, osmotic pressure, and gravity. One mechanism for the perception of force is the activation of mechanosensitive (or stretch-activated) ion channels, and a number of mechanosensitive channel activities have been described in plant membranes. Based on their homology to the bacterial mechanosensitive channel MscS, the 10 MscS-Like (MSL) proteins of Arabidopsis thaliana have been hypothesized to form mechanosensitive channels in plant cell and organelle membranes. However, definitive proof that MSLs form mechanosensitive channels has been lacking. Here we used single-channel patch clamp electrophysiology to show that MSL10 is capable of providing a MS channel activity when heterologously expressed in Xenopus laevis oocytes. This channel had a conductance of ∼100 pS, consistent with the hypothesis that it underlies an activity previously observed in the plasma membrane of plant root cells. We found that MSL10 formed a channel with a moderate preference for anions, which was modulated by strongly positive and negative membrane potentials, and was reversibly inhibited by gadolinium, a known inhibitor of mechanosensitive channels. MSL10 demonstrated asymmetric activation/ inactivation kinetics, with the channel closing at substantially lower tensions than channel opening. The electrophysiological characterization of MSL10 reported here provides insight into the evolution of structure and function of this important family of proteins.</p><p>T he perception of mechanical stimuli like gravity, touch, or os- motic pressure is essential to normal plant growth and development and is further implicated in biotic and abiotic stress responses <ref type="bibr" target="#b0">(1)</ref>. One of the best-studied strategies for perceiving force involves membrane-embedded channels that are gated by tension, known as mechanosensitive (MS) channels <ref type="bibr" target="#b1">(2)</ref>. Numerous MS channel activities (&gt;17 to date) have been described in the membranes of diverse tissues from a variety of plant species (summarized in ref. <ref type="bibr">3, also refs. 4 and 5)</ref>. Many of these observed MS channel activities differ in their conductance, ion selectivity, and/or sensitivity to the direction of activation pressure, suggesting that multiple classes of mechanosensitive channels are present in plant cells.</p><p>No mechanosensitive ion channel activity discovered in plant membranes has yet been definitively identified at the molecular level, but two families of proteins serve as strong candidates. The first is the Mid1-Complementing Activity (MCA) family, members of which are required for root response to touch in the model plant Arabidopsis thaliana, induce Ca 2+ uptake in rice and Arabidopsis cells <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b6">7)</ref>, and are associated with increased current in response to hypotonic stimulation of Xenopus oocytes <ref type="bibr" target="#b7">(8)</ref>. The second family of candidates for plant MS channels is the MscS-Like (MSL) family, first identified based on modest homology to the wellcharacterized bacterial MS channel MscS from Escherichia coli <ref type="bibr" target="#b2">(3,</ref><ref type="bibr" target="#b8">9)</ref>. MscS is a largely nonselective stretch-activated channel that is gated directly by membrane tension, generating a 1-nanoSiemen (nS) conductance (reviewed in refs. <ref type="bibr">10 and 11)</ref>. The primary function of MscS is to provide a conduit for the release of osmolytes from the bacterium in response to extreme hypoosmotic stress <ref type="bibr" target="#b11">(12,</ref><ref type="bibr" target="#b12">13)</ref>.</p><p>There are 10 MscS homologs in Arabidopsis, three with predicted or observed localization to organellar membranes and seven with predicted or observed localization to the plasma and vacuolar membranes <ref type="bibr" target="#b2">(3,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b13">14)</ref>. Reverse genetic analyses have demonstrated that two plastid-localized homologs, MSL2 and MSL3, are required for the proper size, shape, division, and hypoosmotic volume control of plastids <ref type="bibr" target="#b13">(14)</ref><ref type="bibr" target="#b14">(15)</ref><ref type="bibr" target="#b15">(16)</ref>. In addition, two plasma membranelocalized homologs, MSL9 and MSL10, are genetically required for the predominant MS channel activity in the plasma membrane of Arabidopsis root cell protoplasts, providing support for the hypothesis that MSL proteins form MS channels <ref type="bibr" target="#b4">(5)</ref>. A MscS homolog from the unicellular green alga Chlamydomonas reinhardtii, MSC1, has MS channel activity when expressed in giant E. coli spheroplasts <ref type="bibr" target="#b16">(17)</ref>.</p><p>However, it has been proposed that the contribution of MSL9 and MSL10 to MS channel activity in root protoplasts may be indirect <ref type="bibr" target="#b0">(1)</ref>, and a more rigorous test by expression and electrophysiological characterization in a heterologous system is needed. Indeed, it seems likely that MSLs do not form MS channels, because the plasma membrane-localized MscS homologs from plants are highly divergent from MscS with respect to topology and show limited sequence similarity, even within the conserved domain (Fig. <ref type="figure" target="#fig_0">S1</ref>). Some bacterial MscS homologs do not appear to provide MS channel activities, further suggesting that a subset of the family has evolved to perform diverse functions (reviewed in ref. <ref type="bibr" target="#b17">18)</ref>. We were thus motivated to develop a system for the electrophysiological investigation of MSL proteins to determine whether eukaryotic plasma membrane-localized MscS homologs indeed form MS channels and, if so, to compare their electrophysiological behavior with that of other MscS homologs. Here, we describe the heterologous expression and characterization of Arabidopsis MSL10 in Xenopus laevis oocytes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>MSL10 Forms a ∼100-pS Mechanosensitive Channel in the Plasma Membrane of Xenopus Oocytes. We chose to characterize MSL10 in X. laevis oocytes, an established system for the expression and electrophysiological characterization of heterologous ion channels, including those from plants <ref type="bibr" target="#b18">(19)</ref>. The endogenous MS channels of Xenopus (20) were effectively inactivated upon excision of the membrane patch, as reported <ref type="bibr" target="#b20">(21)</ref>. Xenopus oocytes produced strong GFP signal at their periphery by 48 h after injection with MSL10-GFP cRNA, indicating that the MSL10 protein is efficiently translated and localized in or near the plasma membrane (Fig. <ref type="figure" target="#fig_0">1A</ref>).</p><p>Inside-out patches excised from oocytes injected with cRNA encoding either MSL10-GFP or untagged MSL10 reproducibly exhibited channel activity in response to membrane stretch in symmetric ND96 buffer (Fig. <ref type="figure" target="#fig_0">1B</ref>), although we consistently observed higher activity when untagged MSL10 was used. MSL10 channel activity depended on an increase in membrane tension, but we observed that the same tension resulted in different current amplitudes at opposite membrane potentials in the same patch (representative traces are shown in Fig. <ref type="figure" target="#fig_0">1B</ref>). Under negative membrane potentials, MSL10 single-channel events were easy to observe because of low noise and their stable behavior, whereas under positive membrane potentials, noise and flickery behavior were dominant. The ratio of peak current amplitude at negative to positive membrane potentials was 1.24 ± 0.15 (n = 7 oocytes). The results at negative membrane potentials are most likely to represent the behavior of the MSL10 in planta, because the transmembrane potential of Arabidopsis root cells has been measured at approximately -180 mV (for example, see ref. <ref type="bibr" target="#b21">22</ref>). MSL10 singlechannel openings were readily detected in response to membrane stretch generated by both negative (Fig. <ref type="figure" target="#fig_0">1C</ref>) and positive (Fig. <ref type="figure" target="#fig_0">1D</ref>) pipette pressures.</p><p>The current-voltage (I/V) curves for MSL10 and MSL10-GFP indicated that the single-channel conductances of both MSL10 and MSL10-GFP were 103 ± 3 pS in excised patches, measured as the slope of the I/V curve within the range of 0 to -60 mV (Fig. <ref type="figure" target="#fig_1">2A</ref>). We did not use data from potentials lower than -60 mV in our calculation of conductance because of the presence of conducting substates (an example of which is shown in Fig. <ref type="figure" target="#fig_1">2B</ref>). A conductance of 103 ± 3 pS is in good agreement with an MSL10dependent activity present in Arabidopsis root protoplasts, which was measured at 137 pS under slightly different ionic conditions <ref type="bibr" target="#b4">(5)</ref>. Although the I/V curve for MSL10 was linear at positive and negative membrane potentials, the slopes were slightly different under the two conditions, with a single-channel conductance of 80 ± 2 pS at positive membrane potentials (0 to +60 mV), or 1.3fold lower than at negative potentials. This slight current rectification may explain the 1.24-fold difference in current under positive and negative potentials described above and shown in Fig. <ref type="figure" target="#fig_0">1B</ref>.</p><p>MSL10 Exhibits a Moderate Preference for Anions. The reversal potential of MSL10 under asymmetric 100/300 mM salt was +19 mV (Fig. <ref type="figure" target="#fig_3">3A</ref>), and the theoretical reversal potential of Cl -ion, derived from the Nernst equation under a threefold gradient of ion concentration, is +28 mV. The Goldman-Hodgkin-Katz equation gives a ratio of Cl -to Na + permeability (P Cl :P Na ) of 5.9 for MSL10. We also measured the conductance of MSL10 when Na + was replaced with TEA + , a large ion with an estimated diameter of 8 Å ( <ref type="formula">23</ref>) often used as a pore blocker of potassium  channels <ref type="bibr" target="#b23">(24,</ref><ref type="bibr" target="#b24">25)</ref>. Because Hille's equation ( <ref type="formula">26</ref>) also predicts an approximate pore diameter of 8 Å for MSL10 (assuming the pore to be a uniform cylinder 5 nm in length), TEA + is not likely to permeate the MSL10 channel pore, nor does TEA + serve to block MSL10 (Fig. <ref type="figure" target="#fig_1">2A</ref>). The single-channel conductance of MSL10 in 100 mM symmetric TEA-Cl was ∼84% of that measured in symmetric ND96 (96 mM NaCl). This result is consistent with the P Cl :P Na ratio of 5.9 for MSL10 calculated from Fig. <ref type="figure" target="#fig_3">3A</ref>, which predicts that 83% of the MSL10 current in ND96 is provided by Cl -. The MSL10-dependent ion channel activity previously characterized in root protoplasts showed no change in conductance when CaCl 2 in the bath solution was replaced with TEA-Cl, whereas current was abolished when Cl -was replaced with MES --indicating that neither Ca 2+ nor TEA + can permeate the channel (5). MSL10 single-channel conductance showed saturation at relatively low ionic strength at both positive and negative membrane potentials (Fig. <ref type="figure" target="#fig_3">3B</ref>). In summary, MSL10 forms a channel with a moderate preference for anions, passing ∼6 chloride ions for every sodium ion. Gadolinium ions are commonly used to inhibit K + , Ca 2+ , and metazoan MS channels <ref type="bibr" target="#b26">(27)</ref> and have also been demonstrated to inhibit the activity of MS channels in plants <ref type="bibr" target="#b27">(28)</ref><ref type="bibr" target="#b28">(29)</ref><ref type="bibr" target="#b29">(30)</ref> and bacteria <ref type="bibr" target="#b30">(31)</ref>. Inhibition of MSL10 activity was observed after excised inside-out patches were perfused in a bath containing 100 μM GdCl 3 (Fig. <ref type="figure" target="#fig_3">3D</ref>). This inhibition was reversible, and MSL10 activity was recovered upon Gd 3+ washout. Less effective inhibition was observed in patches perfused with 50 or 20 μM GdCl 3 (Fig. <ref type="figure" target="#fig_3">3 E</ref> and <ref type="figure">F</ref>), and an identical regime on outside-out patches did not significantly inhibit MSL10 activity (Fig. <ref type="figure" target="#fig_3">3C</ref>).</p><p>MSL10 Gating Kinetics and Inactivation. As shown in Fig. <ref type="figure" target="#fig_0">1 B-D</ref>, all MSL10 traces-regardless of pipette size, transmembrane potential, or amount of applied pressure-exhibited a peak tension-induced current that was delayed compared with the peak of applied pressure. We used relatively fast ramp speeds (∼1 s) in our initial characterization of MSL10, in accordance with previous studies of MscS (e.g., ref. <ref type="bibr" target="#b31">32)</ref> and to reduce artifacts associated with changes in patch structure during recordings <ref type="bibr" target="#b32">(33)</ref>. Substantially slower ramp speeds (∼25 s) still produced the observed asymmetric pressuredependence of channel opening and closing and did not depend on the number of activated channels (Fig. <ref type="figure" target="#fig_4">4 A</ref> and <ref type="figure">B</ref>). Increasing the Mg 2+ concentration of bath and pipette solutions, which has been shown to improve membrane-glass adhesion and facilitate gigaseal formation <ref type="bibr" target="#b33">(34)</ref>, did not alter the slow closing behavior of MSL10 (Fig. <ref type="figure" target="#fig_1">S2 A</ref> and <ref type="figure">B</ref>). Finally, we sequentially applied pressure ramps of different lengths (1 s, 5 s, and 25 s) to the same patch and compared the pressure at which the first channels opened or the last channels closed at each ramp speed (Fig. <ref type="figure" target="#fig_3">S3</ref>). The threshold pressure required to open MSL10 channels was reduced with slower ramp speeds, dropping 1.42 ± 0.17-fold between 1-s and 5-s ramps and 2.19 ± 0.34-fold between 1-s and 25-s ramps (n = 7 patches). In contrast, the ramp pressure at which all MSL10 channels had closed was always below the opening threshold pressure, regardless of the pressure ramp speed. In more than half of these experiments, the last MSL10 channel closed under zero applied pressure. We were not able to use the midpoint gating tension in our characterization of MSL10, because the oocyte membrane routinely ruptured before current saturation regardless of pressure ramp length, although this was not observed with MscS under the same conditions (Fig. <ref type="figure" target="#fig_4">S4 A</ref> and <ref type="figure">B</ref>).</p><p>To gain further insight into MSL10 gating kinetics and adaptive behavior, we applied tension to the membrane in multiple sharp steps, as reported for MscS <ref type="bibr" target="#b34">(35)</ref>. Under these conditions, MSL10 displayed very slow opening and closing kinetics compared with MscS, even after multiple cycles (Fig. <ref type="figure" target="#fig_4">4C</ref>). Occasionally a fraction of the channels stayed in the open state and did not close after pressure release at higher potentials (Fig. <ref type="figure" target="#fig_1">S2B</ref>). These data indicate that, under a variety of experimental conditions, the MSL10 channel closes at a much lower tension than is required for it to open, and in some conditions can remain open even in the absence of applied pressure. Unlike MscS, which enters a tension-unresponsive state after sustained stimulus (12, 32), we did not detect inactivation of MSL10 even after 10-20 s of sustained tension (Fig. <ref type="figure" target="#fig_4">4C</ref> and Fig. <ref type="figure" target="#fig_1">S2B</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The presence of multiple diverse MS ion channel activities in the plasma and vacuolar membranes of land plants has been well documented over the past 20 y (summarized in ref. <ref type="bibr" target="#b2">3)</ref>, and two candidate gene families have been identified in the model plant A. thaliana (reviewed in ref. <ref type="figure" target="#fig_0">1</ref>). Here, we used single-channel patch clamp electrophysiology to provide direct evidence that a member of one of these families, MSL10, provides a stretchactivated channel activity when heterologously expressed in X. laevis oocytes. MSL10 is likely to represent the activity described in the root protoplasts of a msl9-1;msl10-1 double mutant transiently expressing MSL10, an anion-preferring activity with a conductance of ∼137 pS at -182 mV (5). Although we were unable to measure MSL10 channel conductance in oocytes at such high potentials, this value is close to the conductance of oocyteexpressed MSL10 under our conditions (103 pS at 0 to -60 mV). In addition to the activity in roots that we can now assign to MSL10, a nonselective channel activity described in Arabidopsis, leaf mesophyll cells (36) also shows a preference for anions (P Cl :P K ratio of 1.9), and may represent the activity of MSL10 or another MscS homolog.</p><p>Our characterization of MSL10 channel behavior provides insight into the evolutionary conservation of structure and function between MscS homologs. Fig. <ref type="figure" target="#fig_0">S1</ref> shows the known or predicted topology of MscS, MSL10, MSC1, and YbdG, a MscS homolog from E. coli to which we refer here as MscM <ref type="bibr" target="#b36">(37,</ref><ref type="bibr" target="#b37">38)</ref>. MSL10 has an extended N terminus and a total of six TM helices, whereas MSC1 and MscM have five and MscS has three TM helices. The conserved "MscS domain" as defined here comprises the most C-terminal TM helix (TM3 in MscS) and the upper portion of the hollow cytoplasmic domain, called the β-domain (Fig. <ref type="figure" target="#fig_0">S1 A</ref> and <ref type="figure">B</ref>; ref. <ref type="bibr" target="#b38">39</ref>.</p><p>Numerous studies on MscS have indicated the functional importance of the residues within the conserved region, primarily in the pore-lining TM3 helix (summarized in ref. <ref type="bibr" target="#b39">40)</ref>. For example, the characteristic alteration between small and large hydrophobic residues appear to be responsible for proper TM3 packing in the MscS heptamer <ref type="bibr" target="#b40">(41)</ref>, and the hydrophobic seal residues L105 and L109 are essential for complete channel closure <ref type="bibr" target="#b38">(39,</ref><ref type="bibr" target="#b40">(41)</ref><ref type="bibr" target="#b41">(42)</ref><ref type="bibr" target="#b42">(43)</ref><ref type="bibr" target="#b43">(44)</ref>. Although these structural motifs are for the most part preserved in MscM and MSC1, MSL10 shares very little homology in the predicted pore-lining region (Fig. <ref type="figure" target="#fig_0">S1C</ref>), instead exhibiting many bulky hydrophobic residues-including six phenylalanines-in the TM3 region. It is therefore surprising that MSL10 has MS channel activity at all, and perhaps even more surprising how closely MSL10 behavior resembles MscS, MscM, and/or MSC1.</p><p>Unitary Conductance. MSL10 had a unitary conductance of 103 ± 3 pS in symmetric 100 mM NaCl, whereas MscS has a conductance of 330 pS under the same conditions ( <ref type="formula">21</ref>) (approximately 1 nS when measured in 200 mM KCl, 90 mM MgCl 2 , and 10 mM CaCl 2 ; refs. <ref type="bibr">32, 41, and 45)</ref>. Although MscM and MSC1 are highly similar to MscS with respect to the sequence of the pore-lining TM3 helix, they have conductances similar to that of MSL10: 100-150 pS in 100 mM KCl for MscM <ref type="bibr" target="#b36">(37,</ref><ref type="bibr" target="#b37">38)</ref> and 400 pS for MSC1 measured in 200 mM KCl with 40 mM MgCl 2 and 10 mM CaCl 2 <ref type="bibr" target="#b16">(17)</ref> (120-130 pS if measured in 100 mM salt). Although it is tempting to speculate that the many bulky hydrophobic residues in the pore-lining helix of MSL10 may be responsible for a smaller pore size-and therefore a smaller conductance than MscS-the smaller conductances of MscM and MSC1 require a different explanation.</p><p>Ion Selectivity. Although formally nonselective, the MSL10 channel showed a preference for anions, with a P Cl :P Na ratio of 5.9 based on reversal potential and on its conductance when Na + was replaced with TEA + (Figs. <ref type="figure" target="#fig_1">2A</ref> and <ref type="figure" target="#fig_3">3A</ref>). Other MscS family members display diverse ion selectivity: MscS demonstrates a weak preference for anions with P Cl :P K = 1.2-3.0 <ref type="bibr" target="#b44">(45)</ref><ref type="bibr" target="#b45">(46)</ref><ref type="bibr" target="#b46">(47)</ref><ref type="bibr" target="#b47">(48)</ref>, MscM a weak preference for cations, with P Cl :P K = 0.4 <ref type="bibr" target="#b36">(37)</ref>, and MSC1 is as anion-selective as MSL10, with P Cl :P K = 7 <ref type="bibr" target="#b16">(17)</ref>. MSL10 also showed saturation with increased solution conductivity at both positive and negative membrane potentials (Fig. <ref type="figure" target="#fig_3">3B</ref>). A conductance ratio of approximately 1.3 (negative membrane potential to positive membrane potential) was observed in these experiments, similar to that measured in symmetric ND96 (Fig. <ref type="figure" target="#fig_1">2B</ref>). Although MscS does not show saturation up to 1.5 M KCl <ref type="bibr" target="#b45">(46)</ref>, a MscS homolog from the soil bacterium Corynebacterium glutamicum saturated at negative, but not at positive, membrane voltages <ref type="bibr" target="#b48">(49)</ref>.</p><p>Gadolinium is a potent inhibitor of mechanosensitive channels of various types <ref type="bibr" target="#b26">(27,</ref><ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b49">50,</ref><ref type="bibr" target="#b50">51)</ref>, but different mechanisms are likely to be involved in each case. Gd 3+ ions inhibit Ca 2+ -selective stretch-activated channels at concentrations as low as 1 μM (30), but concentrations above 100 μM are required to inhibit the essentially nonselective bacterial channels MscS and MscL <ref type="bibr" target="#b30">(31,</ref><ref type="bibr" target="#b50">51)</ref>. In the later case, gadolinium ions have been shown to inhibit MS channels through interactions with negatively charged lipids in the membrane <ref type="bibr" target="#b50">(51)</ref>. Efficient inhibition of MSL10 in inside-out patches was produced only at the highest concentration of gadolinium tested, 100 μM (Fig. <ref type="figure" target="#fig_3">3 D-F</ref>). Even in this case, increased tension evoked partial restoration of channel activity. Because the inside but not the outside of the oocyte membranes contain the negatively charged lipids proposed to interact with Gd 3+ (PS, PG, and PI) <ref type="bibr" target="#b50">(51,</ref><ref type="bibr" target="#b51">52)</ref>, only Gd 3+ treatment of inside-out patches would be expected to show lipid-mediated inhibition. Indeed, we did not observe consistent Gd 3+ inhibition in outside-out patches (Fig. <ref type="figure" target="#fig_3">3C</ref>), and conclude that, like MscL, MSL10 is likely to be inhibited by gadolinium ions indirectly through changes in lipid packing or increased membrane stiffness.</p><p>Gating Dynamics. The hallmark of MSL10 activation is a dramatic asymmetry of current (hysteresis) with respect to the pressure ramp, suggesting that the membrane tension at which MSL10 opens is higher than the tension at which it subsequently closes. We reproducibly observed this behavior in experiments with pipettes of various diameters (BN 4-7), at opposite membrane potentials, under both positive and negative pipette pressures, with different ramp speeds, buffer compositions, and number of channels activated, making it unlikely to be an artifact (Figs. <ref type="figure" target="#fig_0">1</ref> and <ref type="figure" target="#fig_4">4</ref> and Figs. <ref type="figure" target="#fig_1">S2</ref> and <ref type="figure" target="#fig_3">S3</ref>). The threshold tension for MSL10 opening depended on ramp speed (in the 1-25s range), decreasing on longer ramps; almost no effect on midpoint tension was seen with MscS opening <ref type="bibr" target="#b32">(33)</ref>, and no dependence on ramp speed was reported for MSC1 opening <ref type="bibr" target="#b16">(17)</ref>. Unlike MscS, the unusually slow closing kinetics of both MSL10 and MSC1 were not substantially affected by pressure ramp speed. These observations could be explained by different tension dependencies of opening and closing. The relaxation of the outer leaflet of the membrane in an excised patch described in ref. <ref type="bibr" target="#b52">53</ref> has little effect on the tension at which MSL10 closes, because it stayed very close to zero in the majority of our experiments regardless of the ramp speed.</p><p>A related feature of MSL10 activity is its behavior in response to application of sharp pressure steps (Fig. <ref type="figure" target="#fig_4">4C</ref> and Fig. <ref type="figure" target="#fig_1">S2B</ref>). Under these conditions, residual MSL10 channel activity in the absence of applied pressure (corresponding to no or very weak membrane tension; ref. <ref type="bibr" target="#b53">54)</ref> was frequently observed after application of the threshold tension, although never before it. MscS demonstrates similar behavior upon closing when the G113A or G121A mutations are introduced <ref type="bibr" target="#b34">(35)</ref>, indicating that only a small change in identity at a key position (G113 forms a sharp kink in the TM3 of MscS; ref. <ref type="bibr" target="#b38">39)</ref> can produce this phenomenon. Only G121 is conserved in MSC1; neither G113 nor G121 is conserved in MSL10 (Fig. <ref type="figure" target="#fig_0">S1C</ref>). Bulky residues at these positions may make the porelining helix of MSL10 stiffer and allow the channel to maintain the open state for a longer period, even when little or no membrane tension is applied.</p><p>In summary, MSL10 resembles MSC1 and MscM with respect to unitary channel conductance, MSC1 with respect to ion selectivity, and MSC1 and MscS G113A/MscS 121A with respect to gating kinetics. The similarities and differences between these four channels cannot be easily attributed to sequences previously identified as conserved among MscS family members or important for MscS channel function (summarized in ref. <ref type="bibr" target="#b39">40)</ref>. Instead, these comparisons of sequence and electrophysiological characteristics show that there are still discoveries to be made regarding the relationship between structure and function in the MscS family of MS channels.</p><p>Our characterization of MSL10 channel behavior also provides insight into its possible in planta function. Increased tension in the plasma membrane of a plant cell could result from hypoosmotic swelling, invasion of the cell by a pathogen, or bending of a plant organ. As demonstrated for MscS and MscM <ref type="bibr" target="#b11">(12,</ref><ref type="bibr" target="#b37">38)</ref>, the immediate consequences of MSL10 opening could include the release of osmolytes, thereby preventing cell lysis under hypoosmotic shock or mechanical strain. However, its preference for anions leads us to speculate that MSL10 opening would also result in the depolarization of the cellular membrane via Cl -efflux. Once open, MSL10 would allow chloride ions to exit the plant cell until membrane tension was completely relieved. A negative feedback mechanism not present in oocyte membranes, such as interaction with signaling molecules, could promote MSL10 channel closing (as proposed for MSC1; ref. 17). In planta, MSL10 gating could lead to the activation of depolarization-activated Shaker-type potassium channels and depolarization-activated Ca 2+ channels, leading to K + efflux from the cell, Ca 2+ influx, and possibly the propagation of a systemic signal <ref type="bibr" target="#b54">(55,</ref><ref type="bibr" target="#b55">56)</ref>. Thus, the electrophysiological characterization of a MscS homolog from a multicellular system opens up the exciting possibility that some members of this family of MS channels may not only release osmolytes from swelling cells and organelles, but also alter cell physiology and potentially participate in intercellular signaling.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Molecular Biology. To obtain pOO2-MSL10-GFP, the ORF of MSL10 was introduced into the pOO2-GFP vector <ref type="bibr" target="#b20">(21)</ref> between the XmaI and BamHI cites. Site-directed mutagenesis was used to introduce two stop codons between MSL10 and GFP sequences in pOO2-MSL10-GFP, creating pOO2-MSL10. Capped cRNA was transcribed in vitro by SP6 polymerase using the mMessenger mMachine kit (Ambion) and stored at -80 °C until use.</p><p>Oocyte Preparation. X. laevis oocytes (Dumont stage V or VI) were collected and handled as described <ref type="bibr" target="#b20">(21)</ref>. GFP signal was visible by confocal microscopy within 48 h of injection, but we observed increased channel activity after longer incubation times, oocytes were patched 1-3 wk after injection.</p><p>Confocal Microscopy. Two to 10 days after injection with pOO2-MSL10-GFP cRNA, devitellinized oocytes (57) were placed on cavity slides and covered with thin coverslips. An Olympus Fluoview-1000 confocal with BX-61 microscope and FV10-ASW Olympus application software suite were used for image acquisition.</p><p>Electrophysiology. The buffers used were as follows: complete ND96 (96 mM NaCl, 2 mM KCl, 2 mM CaCl 2 , 1 mM MgCl 2 , and 5 mM Hepes at pH 7.38; specific conductivity 13 mS/cm), TEA-Cl (98 mM TEA-Cl, 5 mM Hepes, 2 mM MgCl 2 at pH 7.38 adjusted with TEA-OH), and 60 mM MgCl 2 (with 2 mM Hepes). All traces were obtained from inside-out (excised) patches except for that shown in Fig. <ref type="figure" target="#fig_3">3C</ref>, which came from an outside-out excised patch. Experiments in asymmetric buffers, symmetric high salt buffers, and gadolinium-containing buffer used Rainin Minipulse3 peristaltic pumps. In all measurements with asymmetric buffers, liquid junction potentials were corrected after the patch was broken. Electrode potential drift was tested before the experiments and was less than 0.1 mV per 10 min. The rest of materials and methods are as in ref. <ref type="bibr" target="#b20">21</ref>. ACKNOWLEDGMENTS. This project was supported in part by American Recovery and Reinvestment Act funds through National Institutes of Health Grant R01GM084211-01 (to Doug Rees, Rob Phillips, and E.S.H.).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. MSL10 expressed in X. laevis oocytes produces a channel activity upon membrane stretch. (A) Confocal image of a portion of an oocyte 5 d after injection with MSL10-GFP cRNA. (B) A representative trace illustrating the activation of MSL10 channels at both negative and positive membrane potentials in the same patch. Pipette bubble number (BN) 6, -70 mmHg. (C) Single-channel opening events induced by negative pipette pressure. Membrane potential -50 mV, pipette BN 4. (D) Single-channel opening events induced by positive pipette pressure. Membrane potential -40 mV, pipette BN 5. Symmetric ND96 buffer was used in B-D.</figDesc><graphic coords="2,133.00,52.78,323.56,208.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. MSL10 and MSL10-GFP single-channel conductance. (A) The current-voltage curves for untagged MSL10 (open circles) and MSL10-GFP (filled squares) in symmetric ND96 buffer, and for untagged MSL10 in symmetric 98 mM TEA-Cl (filled triangles) (n = 5 oocytes for each protein). Solid and dashed lines represent linear fits for the channels in ND96 and TEA-Cl buffers, respectively. (B) A typical trace illustrating the appearance of conductive substates at more negative membrane potentials, in this case -60 mV. Pipette BN 5, symmetric ND96 buffer.</figDesc><graphic coords="2,133.00,569.20,323.56,116.33" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>MSL10</head><figDesc>Is Reversibly Inhibited by Gd 3+ Ions in Inside-Out Patches.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Ion selectivity and Gd 3+ inhibition of MSL10. (A) Current-voltage curves for MSL10 in symmetric ND96 (96 mM NaCl, filled squares) and in asymmetric 100 mM/300 mM NaCl buffer (open circles). E Cl-, reversal potential for Cl -ions. (B) Single-channel conductance under increasing [NaCl] at negative (filled squares) and positive (open circles) membrane potentials. Buffers containing 4 mM MgCl 2 and 5 mM Hepes supplemented with 100, 300, or 500 mM NaCl were used, membrane potential -30 mV. (C) Representative traces showing MSL10 channel activity in the same outside-out patch (pipette BN 5, membrane potential 40 mV) before and after bath perfusion with 100 μM GdCl 3 . (D-F) Representative traces showing MSL10 channel activity in the same patch before and after perfusion with 100 μM GdCl 3 (D), 50 μM GdCl 3 (E), or 20 μM GdCl 3 (F). In D, a trace from the same patch after washout is shown at right. Membrane potential -40 mV, BN 5, in symmetric ND96 supplemented with the indicated amounts of GdCl 3 from the bath side. Pressure applied to the pipette was -60 mmHg in all cases except for the third trace in D, where the pressure was -90 mmHg.</figDesc><graphic coords="3,38.72,52.78,502.87,246.39" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Gating kinetics and inactivation of MSL10. (A and B) Asymmetric opening and closing kinetics under slow ramp speeds in patches with many (A) and few (B) channels. Dashed lines in A indicate the first channel opening and last channel closing events. Both traces are 50 s long, membrane potential -20 mV, pipette BN 4.5, symmetric ND96 buffer. (C) Slow gating and absence of inactivation under sustained tension. The length of the whole trace is 45 s. Pipette BN 5, symmetric ND96 buffer, and membrane potential -40 mV.</figDesc><graphic coords="4,133.06,52.78,323.21,202.00" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="19016" xml:id="foot_0"><p>| www.pnas.org/cgi/doi/10.1073/pnas.1213931109   Maksaev and Haswell</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="19018" xml:id="foot_1"><p>| www.pnas.org/cgi/doi/10.1073/pnas.1213931109   Maksaev and Haswell</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Feeling green: Mechanosensing in plants</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Monshausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gilroy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="228" to="235" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Eukaryotic mechanosensitive channels</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Arnadóttir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chalfie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Biophys</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="111" to="137" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">MscS-Like Proteins in Plants</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Haswell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mechanosensitive Ion Channels</title>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Part</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Ed</forename><surname>Hamill</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">O</forename><forename type="middle">P</forename></persName>
+		</editor>
+		<meeting><address><addrLine>San Diego, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier Academic Press</publisher>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">58</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Actin dynamics regulates voltage-dependent calcium-permeable channels of the Vicia faba guard cell plasma membrane</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Fan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Integr Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="912" to="921" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Two MscS homologs provide mechanosensitive channel activities in the Arabidopsis root</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Haswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Peyronnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Barbier-Brygoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Meyerowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Frachisse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="730" to="734" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Arabidopsis plasma membrane protein crucial for Ca2+ influx and touch sensing in roots</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nakagawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="3639" to="3644" />
+			<date type="published" when="2007">2007</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Plasma membrane protein OsMCA1 is involved in regulation of hypo-osmotic shock-induced Ca2+ influx and modulates generation of reactive oxygen species in cultured rice cells</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kurusu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Expression of Arabidopsis MCA1 enhanced mechanosensitive channel activity in the Xenopus laevis oocyte plasma membrane</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Furuichi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Iida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sokabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tatsumi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Signal Behav</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Two families of mechanosensitive channel proteins</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Pivetti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol Mol Biol Rev</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="66" to="85" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Sensing bilayer tension: Bacterial mechanosensitive channels and their gating mechanisms</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Booth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem Soc Trans</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="733" to="740" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Mechanosensitive channels in microbes</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Martinac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sukharev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="313" to="329" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Protection of Escherichia coli cells against extreme turgor by activation of MscS and MscL mechanosensitive channels: Identification of genes required for MscS activity</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Levina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1730" to="1737" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Adaptive MscS gating in the osmotic permeability response in E. coli: The question of time</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Boer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anishkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sukharev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="4087" to="4096" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">MscS-like proteins control plastid size and shape in Arabidopsis thaliana</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Haswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Meyerowitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Biol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Two mechanosensitive channel homologs influence division ring placement in Arabidopsis chloroplasts</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Haswell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2939" to="2949" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Mechanosensitive channels protect plastids from hypoosmotic stress during normal plant growth</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Veley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marshburn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Clure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Haswell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Biol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="408" to="413" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Molecular and electrophysiological characterization of a mechanosensitive channel expressed in the chloroplasts of Chlamydomonas</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nakayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fujiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sokabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yoshimura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="5883" to="5888" />
+			<date type="published" when="2007">2007</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Mechanosensitive channels: What can they do and how do they do it?</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Haswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Rees</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Structure</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1356" to="1369" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Xenopus oocytes as an expression system for plant transporters</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1465</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="343" to="358" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Characterization of stretch-activated ion channels in Xenopus oocytes</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sachs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">431</biblScope>
+			<biblScope unit="page" from="103" to="122" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Expression and characterization of the bacterial mechanosensitive channel MscS in Xenopus laevis oocytes</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Maksaev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Haswell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Physiol</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="641" to="649" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Pressure regulation of the electrical properties of growing Arabidopsis thaliana L. root hairs</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Lew</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1089" to="1100" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Negative conductance caused by entry of sodium and cesium ions into the potassium channels of squid axons</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bezanilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Armstrong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Physiol</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="588" to="608" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Interaction of tetraethylammonium ion derivatives with the potassium channels of giant axons</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Armstrong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Physiol</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="413" to="437" />
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Tetraethylammonium ions and the potassium permeability of excitable cells</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Stanfield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rev Physiol Biochem Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="1" to="67" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Charges and potentials at the nerve surface. Divalent ions and pH</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hille</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Physiol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="221" to="236" />
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The pharmacology of mechanogated membrane ion channels</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">P</forename><surname>Hamill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Mcbride</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacol Rev</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="231" to="252" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Identification and characterization of stretch-activated ion channels in pollen protoplasts</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dutta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Robinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Physiol</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1398" to="1406" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Hydrostatic and osmotic pressure activated channel in plant vacuole</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alexandre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lassalles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1326" to="1336" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Mechanosensory calcium-selective cation channels in epidermal cells</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Pickard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant J</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="83" to="110" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Gadolinium ion inhibits loss of metabolites induced by osmotic shock and large stretch-activated channels in bacteria</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Berrier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Coulombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Szabo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zoratti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ghazi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Biochem</title>
+		<imprint>
+			<biblScope unit="volume">206</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="559" to="565" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The &quot;dashpot&quot; mechanism of stretch-dependent gating in MscS</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Akitake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anishkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sukharev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Physiol</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="143" to="154" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Adaptive behavior of bacterial mechanosensitive channels is coupled to membrane mechanics</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Belyy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kamaraju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Akitake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anishkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sukharev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Physiol</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="641" to="652" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Ionic requirements for membrane-glass adhesion and giga seal formation in patch-clamp recording</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Priel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Gil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">T</forename><surname>Moy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Magleby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Silberberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="3893" to="3900" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Straightening and sequential buckling of the pore-lining helices define the gating cycle of MscS</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Akitake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anishkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sukharev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Struct Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1141" to="1149" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Activation of K+ channels in the plasma membrane of Arabidopsis by ATP produced photosynthetically</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Spalding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goldsmith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="477" to="484" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Multiple mechanosensitive ion channels from Escherichia coli, activated at different thresholds of applied pressure</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Berrier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Besnard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ajouz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Coulombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ghazi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Membr Biol</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="175" to="187" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">YbdG in Escherichia coli is a threshold-setting mechanosensitive channel with MscM activity</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schumann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">28</biblScope>
+			<biblScope unit="page" from="12664" to="12669" />
+			<date type="published" when="2010">2010</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Crystal structure of Escherichia coli MscS, a voltage-modulated and mechanosensitive channel</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Bass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Strop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barclay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Rees</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="issue">5598</biblScope>
+			<biblScope unit="page" from="1582" to="1587" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Conserved motifs in mechanosensitive channels MscL and MscS</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Balleza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gómez-Lagunas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1013" to="1027" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Pivotal role of the glycine-rich TM3 helix in gating the MscS mechanosensitive channel</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Edwards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Struct Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="113" to="119" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Domain organization of the MscS mechanosensitive channel of Escherichia coli</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="36" to="46" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A structural mechanism for MscS gating in lipid bilayers</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vásquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sotomayor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cordero-Morales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schulten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Perozo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">321</biblScope>
+			<biblScope unit="issue">5893</biblScope>
+			<biblScope unit="page" from="1210" to="1214" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Water dynamics and dewetting transitions in the small mechanosensitive channel MscS</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anishkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sukharev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2883" to="2895" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Ion conduction through MscS as determined by electrophysiology and simulation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sotomayor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vásquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Perozo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schulten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="886" to="902" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Purification of the small mechanosensitive channel of Escherichia coli (MscS): The subunit structure, conduction, and gating characteristics in liposomes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sukharev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="290" to="298" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Pore mutations of the Escherichia coli MscS channel affect desensitization but not ionic preference</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Bartlett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Booth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="3003" to="3013" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Ionic regulation of MscK, a mechanosensitive channel from Escherichia coli</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Moe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chandrasekaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Booth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Blount</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="5323" to="5330" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The properties and contribution of the Corynebacterium glutamicum MscS variant to fine-tuning of osmotic adaptation</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Börngen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1798</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2141" to="2149" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Block of stretch-activated ion channels in Xenopus oocytes by gadolinium and calcium ions</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sachs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">243</biblScope>
+			<biblScope unit="issue">4894 Pt 1</biblScope>
+			<biblScope unit="page" from="1068" to="1071" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Gadolinium ions block mechanosensitive channels by altering the packing and lateral pressure of anionic lipids</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Ermakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kamaraju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sengupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sukharev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1018" to="1027" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Lipid levels in sperm, eggs, and during fertilization in Xenopus laevis</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Petcoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Holland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Stith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Lipid Res</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2365" to="2378" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">The tension-transmitting &apos;clutch&apos; in the mechanosensitive channel MscS</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Belyy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anishkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kamaraju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sukharev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Struct Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="451" to="458" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Biophysics and structure of the patch and the gigaseal</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Suchyna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>Markin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sachs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biophys J</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="738" to="747" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Plant ion channels: Gene families, physiology, and functional genomics analyses</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mäser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Schroeder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Physiol</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="59" to="82" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Anion channels: Master switches of stress responses</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Roelfsema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hedrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Geiger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="221" to="229" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Electrophysiological recording from Xenopus oocytes</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Stühmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Enzymol</title>
+		<imprint>
+			<biblScope unit="volume">207</biblScope>
+			<biblScope unit="page" from="319" to="339" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

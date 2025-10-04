@@ -1,0 +1,2880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Genomic Characterization of the Titan-like Cell Producing Naganishia tulchinskyi, the First Novel Eukaryote Isolated from the International Space Station</title>
+				<funder>
+					<orgName type="full">Caltech Beckman Institute</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">California Institute of Technology</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Arnold and Mabel Beckman Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>MDPI AG</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-02-08">8 February 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Swati</forename><surname>Bijlani</surname></persName>
+							<email>bijlani.swati@gmail.com</email>
+							<idno type="ORCID">0000-0002-1846-7878</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology and Pharmaceutical Sciences</orgName>
+								<orgName type="department" key="dep2">School of Pharmacy</orgName>
+								<orgName type="institution">University of Southern California</orgName>
+								<address>
+									<postCode>90089</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ceth</forename><surname>Parker</surname></persName>
+							<idno type="ORCID">0000-0002-4328-490X</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Nitin</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+							<email>nitin.k.singh@jpl.nasa.gov</email>
+							<idno type="ORCID">0000-0001-5344-1190</idno>
+							<affiliation key="aff1">
+								<orgName type="laboratory" key="lab1">Biotechnology and Planetary Protection Group</orgName>
+								<orgName type="laboratory" key="lab2">Jet Propulsion Laboratory</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<postCode>91109</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Maria</forename><forename type="middle">A</forename><surname>Sierra</surname></persName>
+							<idno type="ORCID">0000-0003-4115-034X</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Jonathan</forename><surname>Foox</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Tri-Institutional Computational Biology &amp; Medicine Program</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<postCode>10021</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">The WorldQuant Initiative for Quantitative Prediction</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<postCode>10021</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Clay</forename><forename type="middle">C C</forename><surname>Wang</surname></persName>
+							<email>clayw@usc.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Pharmacology and Pharmaceutical Sciences</orgName>
+								<orgName type="department" key="dep2">School of Pharmacy</orgName>
+								<orgName type="institution">University of Southern California</orgName>
+								<address>
+									<postCode>90089</postCode>
+									<settlement>Los Angeles</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christopher</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+							<idno type="ORCID">0000-0002-1850-1642</idno>
+							<affiliation key="aff3">
+								<orgName type="department">Tri-Institutional Computational Biology &amp; Medicine Program</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<postCode>10021</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">The WorldQuant Initiative for Quantitative Prediction</orgName>
+								<orgName type="institution">Weill Cornell Medicine</orgName>
+								<address>
+									<postCode>10021</postCode>
+									<settlement>New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kasthuri</forename><surname>Venkateswaran</surname></persName>
+							<idno type="ORCID">0000-0002-6742-0873</idno>
+							<affiliation key="aff1">
+								<orgName type="laboratory" key="lab1">Biotechnology and Planetary Protection Group</orgName>
+								<orgName type="laboratory" key="lab2">Jet Propulsion Laboratory</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<postCode>91109</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">City of Hope National Medical Center</orgName>
+								<address>
+									<postCode>91010</postCode>
+									<settlement>Duarte</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Genomic Characterization of the Titan-like Cell Producing Naganishia tulchinskyi, the First Novel Eukaryote Isolated from the International Space Station</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of Fungi</title>
+						<title level="j" type="abbrev">JoF</title>
+						<idno type="eISSN">2309-608X</idno>
+						<imprint>
+							<publisher>MDPI AG</publisher>
+							<biblScope unit="volume">8</biblScope>
+							<biblScope unit="issue">2</biblScope>
+							<biblScope unit="page">165</biblScope>
+							<date type="published" when="2022-02-08">8 February 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A405B11C9EE01F3426D3272E4A482EE7</idno>
+					<idno type="DOI">10.3390/jof8020165</idno>
+					<note type="submission">Received: 24 December 2021 Accepted: 4 February 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:33+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Naganisha tulchinskyi</term>
+					<term>yeast</term>
+					<term>International Space Station</term>
+					<term>phylogenetic analyses</term>
+					<term>Titan-like cells</term>
+					<term>simulated microgravity ACI43098 Cytochrome P450 reductase Farnesyl pyrophosphate synthase BAA33979 Isopentenyl-diphosphate delta isomerase</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Multiple strains of a novel yeast belonging to genus Naganishia were isolated from environmental surfaces aboard the International Space Station (ISS). These strains exhibited a phenotype similar to Titan cell (~10 µm diameter) morphology when grown under a combination of simulated microgravity and 5% CO 2 conditions. Confocal, scanning, and transmission electron microscopy revealed distinct morphological differences between the microgravity-grown cells and the standard Earth gravity-grown cells, including larger cells and thicker cell walls, altered intracellular morphology, modifications to extracellular fimbriae, budding, and the shedding of bud scars. Phylogenetic analyses via multi-locus sequence typing indicated that these ISS strains represented a single species in the genus Naganishia and were clustered with Naganishia diffluens. The name Naganishia tulchinskyi is proposed to accommodate these strains, with IF6SW-B1 T as the holotype. The gene ontologies were assigned to the cell morphogenesis, microtubule-based response, and response to UV light, suggesting a variety of phenotypes that are well suited to respond to microgravity and radiation. Genomic analyses also indicated that the extracellular region, outer membrane, and cell wall were among the highest cellular component results, thus implying a set of genes associated with Titan-like cell plasticity. Finally, the highest molecular function matches included cytoskeletal motor activity, microtubule motor activity, and nuclear export signal receptor activity.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The genus Naganishia <ref type="bibr" target="#b0">[1]</ref> was resurrected from Cryptococcus and emended to accommodate the albidus clade of Filobasidiales, Tremellomycetes, and Basidiomycota <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref>. The genus Naganishia contains the following species as legitimate in MycoBank: N. adeliensis, N. albida, N. albidosimilis, N. antarctica, N. bhutanensis, N. brisbanensis, N. cerealis, N. diffluens, N. friedmannii, N. globosa, N. indica, N. liquefaciens, N. nivalis, N. onofrii, N. qatarensis, N. randhawae, N. uzbekistanensis, N. vaughanmartiniae, and N. vishniacii <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref>. However, the addition of N. floricola made the list a total of 20 Naganishia species, but several of these members were yet to be validly described. In an ongoing Microbial Tracking experiment on the International Space Station (ISS), six yeast strains belonging to the family Tremellomycetes were isolated <ref type="bibr" target="#b4">[5]</ref>, and whole-genome sequences (WGS) were generated <ref type="bibr" target="#b5">[6]</ref>. Some of the Naganishia species that were phylogenetically related to these ISS strains, which were reported to be psychrophilic or psychrotolerant species, isolated from Antarctica <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref>, also reported that the ISS Naganishia species might also display properties related to cold adaptation and an increase in radiation resistance. In addition, Naganishia species were also isolated from a variety of ecosystems, such as water <ref type="bibr" target="#b11">[12]</ref>, soil <ref type="bibr" target="#b12">[13]</ref>, tree trunk <ref type="bibr" target="#b14">[14]</ref>, air <ref type="bibr" target="#b11">[12]</ref>, Alpine glaciers <ref type="bibr" target="#b15">[15]</ref>, cheese, cereals <ref type="bibr" target="#b16">[16]</ref>, and human specimens <ref type="bibr" target="#b11">[12]</ref>.</p><p>Members of the Cryptococcus species, from which Naganishia species have recently been separated, were reported to possess unique virulence factors associated with the pathogenesis <ref type="bibr" target="#b17">[17,</ref><ref type="bibr" target="#b18">18]</ref>. The morphological transformation of normal Cryptococcus cells into giant (Titan) cells was one of the factors contributing to cryptococcosis (an inhalation acquired infection) <ref type="bibr" target="#b19">[19]</ref><ref type="bibr" target="#b20">[20]</ref><ref type="bibr" target="#b21">[21]</ref>. It was also reported that titanization was unique to the Cryptococcus neoformans/C. gattii species complex, and not found in other budding basidiomycetous yeasts or in the ascomycetous yeast Saccharomyces cerevisiae, when grown under similar growth conditions <ref type="bibr" target="#b21">[21]</ref>. However, occasional enlarged cells have been reported in Cryptococcus terreus. The ISS Naganishia strains exhibited Titan-like cells, a phenotype similar to the C. neoformans/C. gattii species complex, when the ISS isolates were grown under simulated microgravity conditions.</p><p>One of the objectives of this study was to characterize the Titan-like cells of the novel Naganishia species isolated from the ISS environment. The microscopy analyses revealed the presence of Titan-like giant cells with abnormal morphology when Naganishia species were subjected to several stressors, including a combination of hypoxic 5% CO 2 and simulated ISS microgravity conditions. The second objective of this study was to utilize WGS for annotation in order to aid in the identification of genetic determinants related to cold adaptation and radiation resistance in N. tulchinskyi. The third objective was to determine the phylogenetic novelty of the ISS Naganishia strains (n = 4) using microscopy and taxonomic affiliation based on multi-locus sequence typing (MLST) analyses, which included a seven gene concatenated (ITS, LSU, SSU, CYTB, RPB1, RPB2, TEF1) phylogeny <ref type="bibr" target="#b1">[2]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Sample Collection and Isolation of Microorganisms</head><p>During the flight experiments of Microbial Tracking-1, several surface samples (1 m 2 ) were collected from various ISS environmental locations. Previous publications had detailed sample collection, processing, and isolation of cultivable microorganisms from the ISS <ref type="bibr" target="#b4">[5]</ref>. Briefly, internal ISS surface samples were collected using polyester wipes and then transported to Earth for processing. Samples were collected just prior to departure (within 5 days) and stored at 4 • C in the ISS, transported in cold packs (~4 • C) from ISS to the Earth, hand delivered at Long Beach, California after splash down, which were then carried in ice packs (~4 • C) during ground transportation, before storing at JPL at 4 • C for further processing. Total number of days for sample storage time from sample collection to processing was ~7 days. Unless otherwise stated, all reagents were purchased from Sigma Aldrich (St. Louis, MO, USA). The materials associated with the sampling wipes were placed in 200 mL of sterile phosphate-buffered saline (PBS; pH 7.4) solution and plated onto potato dextrose agar (PDA), supplemented with chloramphenicol (100 µg/mL; v/v), to isolate fungi <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b22">22]</ref>. Microbial colonies grown at 25 • C for 7 days were picked from the media plates, purified, and stored for further analyses. Based on internal transcribed spacer (ITS) sequencing, six yeast strains were tentatively assigned to the genus Cryptococcus, and subsequent WGS characterization revealed that two strains were identified as Papiliotrema laurentii, while four strains belonged to a yet to be described Naganishia species <ref type="bibr" target="#b5">[6]</ref>, making this species the first known novel eukaryote to be isolated from the ISS <ref type="bibr" target="#b5">[6]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Whole Genome Sequencing Analyses</head><p>The WGS used for the analyses were previously generated and published <ref type="bibr" target="#b5">[6]</ref>. The WGS raw data was filtered with NGS QC Toolkit v2.3 <ref type="bibr" target="#b23">[23]</ref> for high-quality (HQ) vector and adaptor-free reads for genome assembly (cutoff read length for HQ, 80%; cutoff quality score, 20). The number of filtered reads obtained were used for assembly with SPAdes 3.14.0 <ref type="bibr" target="#b24">[24]</ref> genome assembler (k-mer size-32 to 72 bases) using default parameters. Genomic DNA sequences and predicted proteomes (where available) of all other strains used in this study were downloaded from NCBI, followed by comparative analyses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Phylogenetic Analyses</head><p>Among the 20 known Naganishia species, NCBI had ITS sequences available for all the species except N. indica. The gene sequences of all available strains were retrieved from NCBI, except for the four ISS strains, which were derived from their WGS during this study. Phylogenetic analyses based on individual genes (ITS, LSU, SSU, CYTB, RPB1, RPB2, TEF1) and MLST analyses (with the seven genes) were carried out with all available Naganishia species (n = 10). The individual gene sequences for all strains were first aligned separately using ClustalW, and for MLST, seven gene sequences for each strain were concatenated manually, aligned using ClusatalW, and used to generate a Maximum Likelihood Tree using MEGA 7.0.26 <ref type="bibr" target="#b25">[25]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Morphological Characterization under Simulated Microgravity Conditions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.1.">Growth Conditions for Phenotypic Analyses under Different Conditions</head><p>Naganishia sp. IF6SW-B1 T was streaked on a Yeast extract-Peptone-Dextrose agar (1% yeast extract, 2% peptone, 2% glucose, and 1.5% agar) plate and incubated at 30 • C for 48 h. After 48 h of growth, colonies were resuspended in PBS, and the cells were enumerated using a hemocytometer. The cells were then inoculated at an initial density of 2 × 10 5 cells/mL in synthetic dextrose (SD) broth. Replicates (n = 3) of each yeast strain were grown under each condition tested. The cells were inoculated in three conditions; (a) the first set was inoculated in 5 mL of liquid media in a tube, incubated at 30 • C, and shaken at 150 rpm; (b) the second set was inoculated in 5 mL liquid media and incubated on a rotating platform in a CO 2 incubator (5% CO 2 ) at 30 • C; (c) the final set was grown in 10 mL of liquid media in a high aspect ratio vessels (HARV, Synthecon Inc., Houston, TX, USA) and mounted onto a vertical rotating device (at 30 rpm) to simulate microgravity conditions, these were placed in a CO 2 incubator (5% CO 2 ) at 30 • C. The CO 2 level of ISS habitat is ~10× more (~4000 ppm) than at Earth conditions <ref type="bibr" target="#b4">[5]</ref>. Additionally, Titan cells were observed under 5% CO 2 level in C. neoformans <ref type="bibr" target="#b26">[26]</ref>. Hence, morphological changes were characterized at this 5% CO 2 level. The autoclavable HARVs provided oxygenation via a flat, silicone rubber gas transfer membrane (Synthecon Inc.). The cultures were all incubated as described for 4 days, followed by cell pelleting for further analyses.</p><p>The biochemical and physiological characterizations were characterized by employing BioLog Yeast plates, as described elsewhere <ref type="bibr" target="#b27">[27]</ref>. Briefly, 4-days grown colonies in PDA plates were collected in sterile distilled water aseptically, and ~10 6 cells were transferred into the BioLog Yeast plates (BioLog Inc., Hayward, CA, USA) and incubated at 25 • C for 7 days. The change in coloration and oxidation/assimilation profiles of 94 different carbon sources were documented by visual examination. The clear positive and negatives were scored in 7 days incubation, and delayed reaction (weak) was documented by examining the tetrazolium violet color change after 14 days incubation. Further incubation and observation after 30 days period of time did not yield any difference in results compared to those that were observed at day 7.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.2.">Confocal Microscopy</head><p>Yeast cell samples grown under the three conditions described above were fixed in 4% paraformaldehyde (PFA) in PBS for 15 min at 4 • C. These cells were gently pelleted by centrifugation for 5 min at 3500 rpm, and cells were rinsed 3× with sterile PBS. Subsequent processing steps were carried out in the dark, where samples were covered with aluminum foil and protected from the light. Cell pellets were resuspended in 15 µM Calcofluor White and incubated for 1 h at 37 • C. Samples were then rinsed and pelleted as previously mentioned but with distilled H 2 O. After the third rinse, samples were pelleted again, and the pellet was resuspended with 1 µM TO-PRO ® -3 (Fisher Scientific, Los Angeles, CA, USA) and incubated for 30 min at room temperature. Samples were further rinsed and pelleted, as previously mentioned, using distilled H 2 O. The resuspended samples were filtered through a 0.2 µM 25 mm Isopore Membrane Filter (GTBP) using a filter manifold. This membrane was removed, placed on a microscope slide, and a drop of antifade was added to the top. A coverslip was placed, and then, the edges were sealed. The samples were viewed using a Zeiss LSM 880 upright laser scanning confocal microscope and an Alpha Plan-APOCHROMAT 63× lens (Zeiss, Oberkochen, Germany). Yeast cell size and cell wall thickness were analyzed using ImageJ <ref type="bibr" target="#b28">[28]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.3.">Scanning Electron Microscopy</head><p>Yeast cells grown under various conditions were preserved using 4% paraformaldehyde (PFA) in PBS for scanning electron microscopy (SEM) and transmission electron microscopy (TEM). Following the concentration, cells were immersed in a chilled 4% PFA and incubated at 4 • C for 10 min before the PFA was removed and washed in PBS buffer. Fixed cells were transferred into a 24-well plate, dehydrated in an isopropyl alcohol (IPA) series (50% to 100%), and stored at 4 • C. Samples were critically point dried in an Automegasamdri 915B critical point dryer (Tousimis, Rockville, MD, USA). Samples were attached to SEM stubs with carbon tape (Ted Pella Inc., Redding, CA, USA), followed by carbon coating with a Leica EM ACE600 Carbon Evaporator (Leica, Wetzlar, Germany) to a thickness of ~12 nm. SEM analysis was performed with an FEI Quanta 200F (Thermo Fisher, Waltham, MA, USA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.4.">Transmission Electron Microscopy</head><p>TEM was performed to examine cell wall thickness variations and analyze organelles' differences between the different environmental stressors (CO 2 and simulated microgravity) induced Titan-like cells and standard cells, grown under Earth gravity, with 5% CO 2 and without CO 2 . For TEM, yeast cells were fixed in 2% glutaraldehyde for at least one hour at 4 • C. Samples were rinsed in 0.1 M sodium cacodylate buffer, pH 7.2, and immersed in 1% osmium tetroxide with 1.6% potassium ferricyanide in 0.1 M sodium cacodylate buffer for 1 h. After rinsing, samples were polymerized at 60 • C for 24-48 h in silicon molds. Thick sections (200 nm) were cut, stained with toluidine blue, and used. Thin sections (70 nm) were collected onto formvar-coated 50 mesh copper grids. The grids were post-stained with 2% uranyl acetate, followed by Reynold's lead citrate. The sections were imaged using a Tecnai 12 120 kV TEM (FEI, Hillsboro, OR, USA) and data were recorded using an UltraScan 1000 with Digital Micrograph 3 software (Gatan Inc., Pleasanton, CA, USA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.5.">Statistical Analyses</head><p>All statistical analyses were performed using GraphPad Prism version 9.1.0 (GraphPad Software, San Diego, CA, USA). Specifically, data was tested for normal distribution with the D'Agostino and Pearson normality test, followed by non-parametric ANOVA using a post-hoc Kruskal-Wallis analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Survey of Genes and Proteins Involved in Resistance</head><p>Genes and proteins involved in cold resistance from the closely related species N. vishniacii <ref type="bibr" target="#b29">[29]</ref> were screened using tBLASTn and BLASTp (Table <ref type="table" target="#tab_0">1</ref>). Cold tolerance included genes involved in carotenoid synthesis: isopentenyl diphosphate isomerase, farnesyltransferase, farnesyl pyrophosphatase synthetase, phytoene-beta carotene synthase, NADPcytochrome P450 reductase; genes involved in mycosporine synthesis: 2-epi-5-epi-valiolone synthase, catechol o-methyltransferase, and carbamoylphosphate synthase reported in Phaffia rhodozyma <ref type="bibr" target="#b30">[30]</ref>; enzymes involved in the formation and degradation of trehalose: trehalose-6-phosphate synthase component TPS1 and TPS2, alpha, alpha-trehalase NTH2, NTH1, and ATH1. Additionally, resistance related proteins for fungi were screened using sequences obtained from NCBI by using 'microgravity' and 'radioresistance' keywords. Microgravity-related proteins included: Daughter-specific expression protein 1 and 2, GPIanchored protein 24, Chain A Flocculation protein FLO1, Chain A and B Flocculin, and Chain A proteinase K. Radioresistance proteins including sequences from the DNA repair protein rad9.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">De Novo Genome Annotation</head><p>Gene annotation on each of the six assemblies (four Naganishia tuchinskyi strains and two closely related species) was performed using MAKER <ref type="bibr" target="#b31">[31]</ref>. MAKER identified repeats, aligned expressed sequence tags (ESTs) and proteins to a genome, and produced ab initio gene predictions. A total of 74,830 available ESTs from closely related Naganishia species were downloaded from NCBI (Table <ref type="table" target="#tab_1">2</ref>) and protein sequences from six strains were downloaded from UniProt <ref type="bibr" target="#b32">[32]</ref>.</p><p>Firstly, de novo repeat identification and masking were performed using RepeatModeler <ref type="bibr" target="#b33">[33]</ref>. Then, MAKER control files were generated (maker-CTL), and a first-round was run using the maker_opts.ctl control file. Data for the transcriptome assembly (EST), protein sequences (protein), and repeat annotations (rm_gff) was provided. Additionally, the model_org was set to 'simple' to annotate simple repeats, and inference predictions of genes directly from ESTs and protein homology were set (est2genome = 1, protein2genome = 1). Lastly, GFF and FASTA outputs were assembled together with GFF3toolkit <ref type="bibr" target="#b34">[34]</ref>.</p><p>Next, we predicted genes using the gene models generated with MAKER by training SNAP <ref type="bibr" target="#b35">[35]</ref> and Augustus <ref type="bibr" target="#b36">[36]</ref> using BUSCO <ref type="bibr" target="#b37">[37]</ref>. For SNAP, we used models with an AED of 0.25 or better and a length of 50 or more amino acids. To train Augustus, we excised regions that contain mRNA annotations based on our initial MAKER run, with 1000 bp on each side, as described <ref type="bibr" target="#b38">[38]</ref>.</p><p>To run BUSCO, the Eukaryota set of conserved genes was used. The -m genome option was specified to provide regions that included more than just transcripts. The initial HMM model selected was Cryptococcus, which corresponded to the closest genus of Naganishia (augustus_species = cryptococcus). The long option was set to optimize self-training Augustus.</p><p>Following the BUSCO run, the second round of MAKER was performed using the SNAP and Augustus models. For this purpose, FASTA sequence files were replaced with GFF files (est_gff, protein_gff, and rm_gff), and est2genome and protein2genome were switched to 0. The third run of MAKER was performed, and the gene models were evaluated by counting the number of gene models and the gene lengths after each round and running BUSCO using the transcript sequences (-m transcriptome). ** Match &gt; 75% of the protein sequence and e-value &lt; 1 × 10 -25 ; * Match &lt; 75% of the protein sequence or e-value &gt; 1 × 10 -25 . </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7.">Functional Annotation</head><p>Predicted protein sequences generated by MAKER were analyzed using InterProScan v5.51-85.0 <ref type="bibr" target="#b56">[56]</ref> with default parameters. Functional annotations assigned by InterProScan per protein sequence were converted into collections of Gene Ontology (GO) terms using BLAST2GO <ref type="bibr" target="#b57">[57]</ref> with default parameters. All assigned GO terms per protein were aggregated and visualized using the REVIGO web tool <ref type="bibr" target="#b58">[58]</ref> with the "tiny" similarity cutoff (0.4) searched against the Saccharomyces cerevisiae S288C database and using the SimRel measurement of similarity. Visualizations were generated using the code provided by REVIGO and using R3.6.3.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.8.">Data Availability</head><p>The WGS and raw data have been deposited in GenBank under the BioProject accession number PRJNA623412 <ref type="bibr" target="#b5">[6]</ref>. The genome sequences have also been deposited in the National Aeronautics and Space Administration (NASA) GeneLab system (GLDS-290; <ref type="url" target="https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-290">https://  genelab-data.ndc.nasa.gov/genelab/accession/GLDS-290</ref>; accessed on 5 December 2021). In addition to the WGS, we performed amplicon sequencing the ITS region from each strain <ref type="bibr" target="#b4">[5]</ref>, and their accession numbers are given below. Naganishia IF6SW-B1 (KY218715.1); Naganishia IF1SW-F1 (KY218664.1); Naganishia IF7SW-B1 (KY218717.1); Naganishia IIF5SW-F1 (KY218695.1).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and Discussion</head><p>Several yeast strains belonging to the Naganishia (Cryptococcus) diffluens clade of Filobasidiales were isolated from two different flight collection experiments conducted aboard the ISS <ref type="bibr" target="#b4">[5]</ref>. These strains, referred to as IF6SW-B1 T , IF7SW-B1, IF1SW-F1, and IIF5SW-F1, were isolated from four different ISS locations and identified to be novel species belonging to the genus Naganishia, based on genomic characterization via polyphasic taxonomic approaches. The sampling of ISS surfaces, performed for this study, took place within the US on-orbit segments. Sampling campaign (denoted as I) was carried out on 4 March 2015, and the second one (denoted as II) was conducted on 15 May 2015. Samples collected during this study were: Node 3 (Locations #1, #2, and #3), Node 1 (Locations #4 and #5), Permanent Multipurpose Module (Location #6), U.S. Laboratory (Location #7), and Node 2 (Locations #8 and control). A detailed description of the various locations sampled was published elsewhere <ref type="bibr" target="#b59">[59]</ref>. Strains IF6SW-B1, IF7SW-B1, and IF1SW-F1, were isolated during first sampling from Locations 6, 7, and 1, respectively. Strain IIF5SW-F1 was isolated from second sampling at Location 5.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Phylogenetic Analyses of Novel ISS Strains</head><p>To confirm that these four ISS strains form a novel species, their phylogenetic affiliations were analyzed with other species belonging to the genus Naganishia. The MycoBank database documented 19 Naganishia species, and the CBS database showed only 11 Naganishia species. The gene sequences available on NCBI for Naganishia species (n = 10) were used to generate phylogenetic maximum likelihood trees with C. neoformans CBS 132 strain as an outgroup.</p><p>Phylogenetic analyses were carried out using seven genes: internal transcribed spacer (ITS) region rRNA gene, D1/D2 domain of large subunit (LSU or 26S) rRNA gene, small subunit (SSU or 18S) rRNA gene, and housekeeping genes, including two subunits of RNA polymerase II (RPB1 and RPB2), translation elongation factor 1-α (TEF1), and cytochrome b (CYTB), which were used for differentiating Tremellomycetes species <ref type="bibr" target="#b1">[2]</ref>. The respective gene sequences that were available on NCBI for different Naganishia species were included in the phylogenetic analyses. In addition, genomes of closely related members from Tremellomycetes (Goffeauzyma gastricus CBS 2288 (AF145323.1), Heterocephalacria arrabidensis CBS 8678 (AF444362.2), Piskurozyma cylindrica CBS 8680 (AF444360.1), Solicoccozyma aerius CBS155 (AF145324.1), and Tremella mesenterica CBS 6973 (AF444433.1)) were included with Cryptococcus neoformans CBS 132 (AF444326.1) as the outgroup.</p><p>Initially, seven individual phylogenetic trees using ITS, LSU, SSU, CTYB, RPB1, RPB2, and TEF1 genes were generated and are presented in Supplemental Figures <ref type="figure" target="#fig_1">S1-S7</ref>. When tested individually, the phylogenetic analyses generated based on individual gene, formed a single group for all four ISS strains. There were no significant variations in ITS, LSU, and SSU gene sequences (Figure <ref type="figure" target="#fig_4">S3</ref>), whereas the other four genes (CYTB, RPB1, RPB2, and TEF1) invariably exhibited higher resolution in differentiating all the Naganishia species. The ITS tree (Supplemental Figure <ref type="figure" target="#fig_1">S1</ref>) showed that the ISS strains were placed at the same position of the three recognized species, N. diffluens, N. liquefaciens and N. albidosimilis. ITS sequences of the four ISS isolates showed 100% similarity to the sequence of N. albidosimilis CBS 7711 T (AF145325), N. liquefaciens CBS 968 T (AF444345), and N. diffluens CBS 160 T (AF145330). However, ITS sequences of N. vishniacii CBS 7110 T shared 97.84% similarity (13 bp difference to GenBank accession no. AF145320.), N. uzbekistanensis CBS 8683 T had 97.55% similarity (14 bp difference to GenBank accession no. AF444339), and N. adeliensis CBS 8351 T exhibited 97.34% similarity (14 bp difference to GenBank accession no. AF145328) with ISS isolates (Supplemental Figure <ref type="figure" target="#fig_1">S1</ref>). In the LSU tree (Supplemental Figure <ref type="figure" target="#fig_3">S2</ref>), the four ISS strains were placed at the same position that phylogenetically distinguished from N. albida, N. adeliensis, N. vishniacii, and N. albidosimilis with low bootstrap support. Comparing the LSU sequences of these ISS strains with closely related species showed a 97.71% similarity to N. albida (type strain, CBS 142; 14 different base pairs; GenBank accession no. AF075474), 96.41% similarity to N. albidosimilis (type strain, CBS 1926; 22 different base pairs; GenBank accession no. AF137601), 96.25% similarly to N. liquefaciens (type strain, CBS 968; 23 different base pairs; GenBank accession no. AF181515), and 95.92% similarity to N. diffluens (type strain, CBS 160; 25 different base pairs; GenBank accession no. AF075502) (Supplemental Figure <ref type="figure" target="#fig_3">S2</ref>). The taxonomic threshold predicted to discriminate basidiomycetous yeast species is 99.51% in the LSU region and 99.21% in the ITS region <ref type="bibr" target="#b0">[1]</ref>. Hence, the sequence data and phylogenetic analysis of the LSU regions of the ISS isolates confirm they belong to a new species in the genus Naganishia (order Filobasidiales). The SSU tree (Supplemental Figure <ref type="figure" target="#fig_4">S3</ref>) demonstrated that these four strains were not separated from any of the recognized species.</p><p>The other phylogenetic trees based on CYTB, RPB1, RPB2, and TEF1 grouped the ISS strains together, and the closest neighbor was identified as N. diffluens. Subsequently, MLST was carried out by manually concatenating the seven genes (Figure <ref type="figure" target="#fig_0">1</ref>). The MLST phylogenetic tree constructed showed the four ISS strains clustered together in the same clade with N. diffluens CBS 160 T (Figure <ref type="figure" target="#fig_0">1</ref>). The individual gene-based and MLST tree-based analyses both further supported the finding that the four ISS strains belong to the same species which is closely related to, but separate from, N. diffluens. This suggested that the four ISS strains were novel species of the genus Naganishia. All four strains were isolated during different flights and sampling sessions at various locations, suggesting that these isolates are not clonal but persisting in the ISS environment. The ecological significance of this finding, in the closed system aboard the ISS warrants, further study. The genomes of four ISS strains were sequenced, draft genome was assembled, annotated, and the results were published elsewhere <ref type="bibr" target="#b5">[6]</ref>. The genome size was ~19.4 Mbp with GC content between 53-56%, similar to other members of the genus Naganishia. phylogenetic tree constructed showed the four ISS strains clustered together in the same clade with N. diffluens CBS 160 T (Figure <ref type="figure" target="#fig_0">1</ref>). The individual gene-based and MLST treebased analyses both further supported the finding that the four ISS strains belong to the same species which is closely related to, but separate from, N. diffluens. This suggested that the four ISS strains were novel species of the genus Naganishia. All four strains were isolated during different flights and sampling sessions at various locations, suggesting that these isolates are not clonal but persisting in the ISS environment. The ecological significance of this finding, in the closed system aboard the ISS warrants, further study. The genomes of four ISS strains were sequenced, draft genome was assembled, annotated, and the results were published elsewhere <ref type="bibr" target="#b5">[6]</ref>. The genome size was ~19.4 Mbp with GC content between 53-56%, similar to other members of the genus Naganishia. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Titan-Like Cell Characterization of Novel ISS Strains</head><p>IF6SW-B1 T strain was grown under culture conditions similar to those used for titanization of C. neoformans, and analyzed using a variety of microscopy techniques. Cell size and cell wall thickness were determined using Calcofluor White stain (Figure <ref type="figure" target="#fig_2">2</ref>), Titanlike cell morphology using SEM (Figure <ref type="figure" target="#fig_4">3</ref>), and cell wall structure using TEM (Figure <ref type="figure" target="#fig_5">4</ref>). The Calcofluor White Stain (Figure <ref type="figure" target="#fig_3">2A</ref>) binds with chitin contained within cell walls, and once triggered by its excitation wavelength (380 nm), the stain fluoresces and emits blue light at 475 nm. Bright-field images were captured alongside Calcofluor White images to show cell distribution and confirm successful Calcofluor White staining, while Calcofluor White micrographs were used to measure the size of the cells and their thickness (Figure <ref type="figure" target="#fig_3">2A</ref>). Figure <ref type="figure" target="#fig_3">2B</ref> shows the cell size in diameter (µm) under various growth conditions, </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Titan-like Cell Characterization of Novel ISS Strains</head><p>IF6SW-B1 T strain was grown under culture conditions similar to those used for titanization of C. neoformans, and analyzed using a variety of microscopy techniques. Cell size and cell wall thickness were determined using Calcofluor White stain (Figure <ref type="figure" target="#fig_2">2</ref>), Titan-like cell morphology using SEM (Figure <ref type="figure" target="#fig_4">3</ref>), and cell wall structure using TEM (Figure <ref type="figure" target="#fig_5">4</ref>). The Calcofluor White Stain (Figure <ref type="figure" target="#fig_3">2A</ref>) binds with chitin contained within cell walls, and once triggered by its excitation wavelength (380 nm), the stain fluoresces and emits blue light at 475 nm. Bright-field images were captured alongside Calcofluor White images to show cell distribution and confirm successful Calcofluor White staining, while Calcofluor White micrographs were used to measure the size of the cells and their thickness (Figure <ref type="figure" target="#fig_3">2A</ref>). Figure <ref type="figure" target="#fig_3">2B</ref> shows the cell size in diameter (µm) under various growth conditions, whereas Figure <ref type="figure" target="#fig_3">2C</ref> depicts the cell wall thickness. The size of the cells grown under standard Earth gravity conditions and in the presence of 5% CO 2 with standard Earth gravity ranged from 2.5 µm to 6 µm; however, the cells grown under 5% CO 2 were statistically significantly larger (p ≤ 0.05). When the strain was grown under 5% CO 2 and simulated micrograv-ity (µG) conditions, the cell size increased at least two to three times in size (4 µm to 13 µm; mean increased size of ~10 µm) and was statistically significantly larger than both the standard gravity control (p ≤ 0.0001) and the 5% CO 2 treatment (p ≤ 0.0001) (Figure <ref type="figure" target="#fig_3">2B</ref>). There was no statistical difference for cell wall thickness between the standard gravity control and the 5% CO 2 grow cells (ns). However, the cell wall thickness was two to three-times larger when cells were grown under simulated microgravity conditions compared with the other two culture conditions (0.55 µm and 0.40-0.39 µm, respectively), these findings were statistically significant (p ≤ 0.0001) (Figure <ref type="figure" target="#fig_3">2C</ref>).</p><p>whereas Figure <ref type="figure" target="#fig_3">2C</ref> depicts the cell wall thickness. The size of the cells grown under standard Earth gravity conditions and in the presence of 5% CO2 with standard Earth gravity ranged from 2.5 µm to 6 µm; however, the cells grown under 5% CO2 were statistically significantly larger (p ≤ 0.05). When the strain was grown under 5% CO2 and simulated microgravity (µG) conditions, the cell size increased at least two to three times in size (4 µm to 13 µm; mean increased size of ~10 µm) and was statistically significantly larger than both the standard gravity control (p ≤ 0.0001) and the 5% CO2 treatment (p ≤ 0.0001) (Figure <ref type="figure" target="#fig_3">2B</ref>). There was no statistical difference for cell wall thickness between the standard gravity control and the 5% CO2 grow cells (ns). However, the cell wall thickness was two to threetimes larger when cells were grown under simulated microgravity conditions compared with the other two culture conditions (0.55 µm and 0.40-0.39 µm, respectively), these findings were statistically significant (p ≤ 0.0001) (Figure <ref type="figure" target="#fig_3">2C</ref>). The budding scars in IF6SW-B1 T strain seemed to exhibit normal bipolar budding pattern when grown under standard gravity (Figure <ref type="figure" target="#fig_4">3A</ref>) and when grown and exposed to 5% CO2 with standard Earth gravity (Figure <ref type="figure" target="#fig_4">3B</ref>). However, when the strain is grown under simulated microgravity and 5% CO2 conditions, multilateral budding is seen (Figure <ref type="figure" target="#fig_4">3C</ref>,<ref type="figure">D</ref>). In addition, the budding cells were not as predominant under microgravity as those grown under normal gravity conditions (Figure <ref type="figure" target="#fig_4">3A</ref>). Finally, when the IF6SW-B1 T strain was grown under 5% CO2, as well as simulated microgravity (Figure <ref type="figure" target="#fig_4">3C</ref>,D) conditions, observations of budding cells were much less commonly observed, whereas the budding scars were evident and appeared to take up a larger proportional area on the The budding scars in IF6SW-B1 T strain seemed to exhibit normal bipolar budding pattern when grown under standard gravity (Figure <ref type="figure" target="#fig_4">3A</ref>) and when grown and exposed to 5% CO 2 with standard Earth gravity (Figure <ref type="figure" target="#fig_4">3B</ref>). However, when the strain is grown under simulated microgravity and 5% CO 2 conditions, multilateral budding is seen (Figure <ref type="figure" target="#fig_4">3C</ref>,<ref type="figure">D</ref>). In addition, the budding cells were not as predominant under microgravity as those grown under normal gravity conditions (Figure <ref type="figure" target="#fig_4">3A</ref>). Finally, when the IF6SW-B1 T strain was grown under 5% CO 2 , as well as simulated microgravity (Figure <ref type="figure" target="#fig_4">3C</ref>,<ref type="figure">D</ref>) conditions, observations of budding cells were much less commonly observed, whereas the budding scars were evident and appeared to take up a larger proportional area on the yeast cell surface. The budding scars under simulated microgravity conditions range in morphology and size from 2-3 µm raised prominences extending 1-2 µm from the cell surface to large flat raised rings up to 5 µm in diameter (Figure <ref type="figure" target="#fig_4">3C</ref>,<ref type="figure">D</ref>). Despite these morphological differences, microgravity grown yeast cells were viable when re-streaked onto a PDA plate. Comparatively, the number of viable cells was less when grown under 5% CO 2 and simulated microgravity compared to the other standard atmosphere and gravity conditions (data not shown). These results suggested that the cells were defective in cytoskeleton formation, which might limit the formation of viable daughter cells. Cell wall structure analysis was then performed for the IF6SW-B1 T strain using TEM data. A simple comparison of the cell wall thickness of the cells grown under standard Earth gravity (Figure <ref type="figure" target="#fig_6">4A</ref>,<ref type="figure">B</ref>) with simulated microgravity (Figure <ref type="figure" target="#fig_6">4E</ref>, F) conditions exhibited enormous size (~5×) differences and substantiated the confocal microscopy-based measurements.</p><p>yeast cell surface. The budding scars under simulated microgravity conditions range in morphology and size from 2-3 µm raised prominences extending 1-2 µm from the cell surface to large flat raised rings up to 5 µm in diameter (Figure <ref type="figure" target="#fig_4">3C</ref>,<ref type="figure">D</ref>). Despite these morphological differences, microgravity grown yeast cells were viable when re-streaked onto a PDA plate. Comparatively, the number of viable cells was less when grown under 5% CO2 and simulated microgravity compared to the other standard atmosphere and gravity conditions (data not shown). These results suggested that the cells were defective in cytoskeleton formation, which might limit the formation of viable daughter cells. Cell wall structure analysis was then performed for the IF6SW-B1 T strain using TEM data. A simple comparison of the cell wall thickness of the cells grown under standard Earth gravity (Figure <ref type="figure" target="#fig_6">4A</ref>,<ref type="figure">B</ref>) with simulated microgravity (Figure <ref type="figure" target="#fig_6">4E</ref>, F) conditions exhibited enormous size (~5×) differences and substantiated the confocal microscopy-based measurements.</p><p>Figure <ref type="figure" target="#fig_4">3</ref>. Analyses of scanning electron microscope (SEM) micrographs of SD, CO, and µG grown N. tulchinskyi cells demonstrated differences in conidia size, morphology, and daughter cell budding. SD (A) and CO (B) grown cells demonstrated similar standard yeast morphotypes, while µG (C,D) grown cells are larger, nonuniform in appearance, and exhibit random budding scars. In some instances, the µG budding scars have raised centers, while others appear to be concave. Additionally, some budding scars appear to be shedding or peeling from the surface of the cells. This phenomenon is highlighted with the white arrow (D). Representative SEM micrographs are given, and scale bar for all micrographs is 10 µm. tulchinskyi cells demonstrated differences in conidia size, morphology, and daughter cell budding. SD (A) and CO (B) grown cells demonstrated similar standard yeast morphotypes, while µG (C,D) grown cells are larger, nonuniform in appearance, and exhibit random budding scars. In some instances, the µG budding scars have raised centers, while others appear to be concave. Additionally, some budding scars appear to be shedding or peeling from the surface of the cells. This phenomenon is highlighted with the white arrow (D). Representative SEM micrographs are given, and scale bar for all micrographs is 10 µm.</p><p>Comparison of confocal, SEM, and TEM (Figures <ref type="figure" target="#fig_2">2</ref><ref type="figure" target="#fig_4">3</ref><ref type="figure" target="#fig_5">4</ref>) between the three different conditions indicated that the µG grown Titan-like cells were much larger and exhibited irregular morphologies, including the novel discovery of peeling and shedding bud scars (Figures <ref type="figure" target="#fig_4">3D</ref>, <ref type="figure" target="#fig_6">4E</ref> and <ref type="figure">S8A-G</ref>). Indeed, a large majority of the disfigurement and abnormal cell morphology appeared to be associated with the surface location where daughter cell replication occurred (Figures <ref type="figure" target="#fig_4">3C</ref>,<ref type="figure">D</ref> and <ref type="figure">S8A-C</ref>). Further analyses of TEM images emphasized the differences between the growth conditions, with µG grown cells showing large structural alterations within the intracellular space, having thicker cell walls, and a decrease in the amount of surface-associated fimbria (Figure <ref type="figure" target="#fig_6">4E</ref>,<ref type="figure">F</ref>). Fimbria have been shown to play roles in both biofilm formation <ref type="bibr" target="#b60">[60]</ref> and pathogenesis <ref type="bibr" target="#b61">[61]</ref>; thus, the modifications seen in µG grown cell fimbria could alter both biofilm formation and pathogenesis. The increased cell wall thickness of the µG grown cells could impart resistance to osmotic shock or add protection against radiation exposure. These structural alterations seen in TEM are a direct stress response to the microgravity and elevated CO 2 conditions, and they could possibly serve to benefit (or hinder) the yeast cell's survivability in the spaceflight environment.  <ref type="figure">C</ref>,<ref type="figure">D</ref>), and µG (E,F) grown N. tulchinskyi cells demonstrated differences in cell size, cell wall thickness, and internal organelle structures. SD and CO demonstrate similar size cells and similar intracellular morphology, while µG grown cells appear to have a different internal organizational structure of organelles. At higher magnifications (lower panels), the cell wall thickness can be seen to be thicker for µG grown cells than for SD or CO grown cells. The cells also appear to be having lower abundance of fine scale fimbriae on the surface of µG cells, as compared to SD and CO grown cells. Along with their large size, the µG grown cells are distinguished by the shedding and peeling bud scars from their surfaces, denoted by white arrows (C). Additionally, µG grown cells have the presence of large unknown organelles/structures, as denoted by the black arrow. Representative TEM micrographs are given. The scale bar for (A,C,E) is 1 µm, and the scale bare for (B,D,F) is 0.2 µm.</p><p>Comparison of confocal, SEM, and TEM (Figures <ref type="figure" target="#fig_2">2</ref><ref type="figure" target="#fig_4">3</ref><ref type="figure" target="#fig_5">4</ref>) between the three different conditions indicated that the µG grown Titan-like cells were much larger and exhibited irregular morphologies, including the novel discovery of peeling and shedding bud scars (Figures <ref type="figure" target="#fig_4">3D</ref>, <ref type="figure" target="#fig_6">4E</ref>, and S8A-G). Indeed, a large majority of the disfigurement and abnormal cell morphology appeared to be associated with the surface location where daughter cell replication occurred (Figures <ref type="figure" target="#fig_4">3C</ref>,<ref type="figure">D</ref> and <ref type="figure">S8A-C</ref>). Further analyses of TEM images emphasized the differences between the growth conditions, with µG grown cells showing large structural alterations within the intracellular space, having thicker cell walls, and a decrease in the amount of surface-associated fimbria (Figure <ref type="figure" target="#fig_6">4E</ref>,<ref type="figure">F</ref>). Fimbria have been shown to play roles in both biofilm formation <ref type="bibr" target="#b60">[60]</ref> and pathogenesis <ref type="bibr" target="#b61">[61]</ref>; thus, the modifications seen in µG grown cell fimbria could alter both biofilm formation and pathogenesis. The increased cell wall thickness of the µG grown cells could impart resistance to osmotic shock or add protection against radiation exposure. These structural alterations seen in TEM are a direct stress response to the microgravity and elevated CO2 conditions, and they could possibly serve to benefit (or hinder) the yeast cell's survivability in the spaceflight environment.  <ref type="figure">C</ref>,<ref type="figure">D</ref>), and µG (E,F) grown N. tulchinskyi cells demonstrated differences in cell size, cell wall thickness, and internal organelle structures. SD and CO demonstrate similar size cells and similar intracellular morphology, while µG grown cells appear to have a different internal organizational structure of organelles. At higher magnifications (lower panels), the cell wall thickness can be seen to be thicker for µG grown cells than for SD or CO grown cells. The cells also appear to be having lower abundance of fine scale fimbriae on the surface of µG cells, as compared to SD and CO grown cells. Along with their large size, the µG grown cells are distinguished by the shedding and peeling bud scars from their surfaces, denoted by white arrows (C). Additionally, µG grown cells have the presence of large unknown organelles/structures, as denoted by the black arrow. Representative TEM micrographs are given. The scale bar for (A,C,E) is 1 µm, and the scale bare for (B,D,F) is 0.2 µm.</p><p>Additionally, the µG grown cells showed irregular intracellular organization with what appears to be large unknown membrane bound compartments/structures (Figure <ref type="figure" target="#fig_6">4E</ref>). The function and content of these structures is still unclear, and it is currently unknown if these are vacuole or lysome-like vacuoles (Figure <ref type="figure" target="#fig_6">4E</ref>) <ref type="bibr" target="#b62">[62]</ref>. Previous reports have shown that some yeast can produce large numbers of compounds that are subsequently stored in vacuoles, while other yeast can utilize these large storage vesicles to degrade a large variety of substances <ref type="bibr" target="#b62">[62,</ref><ref type="bibr" target="#b63">63]</ref>. Increased vacuole size could suggest a larger assortment and or quantity of nutrients being degraded by the Titan-like cells than by the standard gravity grown cells. Additionally, research has shown that portions of vacuoles can be passed to daughter cells <ref type="bibr" target="#b64">[64]</ref>. Thus, it is possible that simulated microgravity induced compounds contained in the vacuoles may be passed to their progeny. Much further work is needed to better identify novel structures within the Titan-like cells, categorize the specific modifications that are occurring to organelles within the cells, determine how each of the cellular modifications alters the cells' survivability in extreme environments (pH ranges, temperature ranges, osmotic shock, radiation exposure, etc.), and determine if these traits are passed on to their progeny.</p><p>Cryptococcus species have been shown to produce enlarged Titan-like cells to adapt to stress and contribute to Cryptococcus pathogenesis <ref type="bibr" target="#b20">[20,</ref><ref type="bibr" target="#b65">65]</ref>. Both functions may also be of relevance for these ISS strains. The polyploidy nature of the yeast cells should be investigated as this might shed insights into the adaptation of these cells to microgravity conditions. Even though confocal microscopy measurements and increased fluorescence content in the microgravity-grown cells were documented, analysis of the nucleic acid reads of heterozygous regions of the genomes and a comparison of the ratios for the various alleles is needed to confirm the polyploidy nature of these cells. It is documented in C. neoformans that the enlarged polyploid Titan-like cells were able to generate progeny with aneuploidy. It was additionally found that the progeny of these Titan-like cells have both growth and survival advantages over typical cell progeny under stressful conditions <ref type="bibr" target="#b20">[20]</ref>. Further gene characterizations are required to understand the molecular mechanisms associated with adaptation of novel IF6SW-B1 T yeast to space conditions <ref type="bibr" target="#b20">[20]</ref>.</p><p>While recent studies suggest that titanization is a rare phenomenon that occurs mostly in members of the C. neoformans/C. gattii species complex, the observation of Titan-like cells in ISS Naganishia species is novel. Understanding how microgravity influences this process is important to predict the emergence of virulence in Naganishia species and develop novel antifungal drugs. These antifungal drugs can be developed to inhibit the phenotypic transitions associated with fungal pathogenicity, especially since these strains were isolated across longitudinal sampling sessions of the ISS and appear persistent. Titanization and the increasing of cell size has been shown to aide Cryptococcus cells evade the immune system <ref type="bibr" target="#b21">[21,</ref><ref type="bibr" target="#b26">26,</ref><ref type="bibr" target="#b65">[65]</ref><ref type="bibr" target="#b66">[66]</ref><ref type="bibr" target="#b67">[67]</ref>. By growing from the normal range of ~1 to 3 µm in diameter to &gt;10 µm, Titan cells cannot be readily ingested by phagocytic cells and, thus, persist in host tissue. Moreover, our data show that Titan-like cells are more likely to survive and produce offspring, when confronted by multiple environmental stress conditions, than typical cells. Additionally, their normally sized offspring maintained an advantage over regular cells in continued exposure to stress. Titan-like cell progeny's increased survival and genomic diversity might promote rapid adaptation to new or high-stress space conditions; however, more research is needed to confirm this aspect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Genomic Analyses of the Novel ISS Strain</head><p>Using BLAST, genes in ISS Naganishia species were compared to known genes that conferred resistance to cold, microgravity, and radiation (Table <ref type="table" target="#tab_0">1</ref>), as well as pigment biosynthesis. The reference genes were a compilation of NCBI queries and previously reported genes related to the spaceflight-related characteristics (Table <ref type="table" target="#tab_0">1</ref>). In addition to our four N. tulchinskyi strains, N. vishniacii (Antarctica strain), Papiliotrema laurentii (ISS isolates), and Saccharomyces cerevisiae (space flown strain) were included for comparison. A total of 24 genes aligned to one or more of the assemblies. Genes related to pigment synthesis and radioresistance were among the most prevalent, while genes associated with microgravity were mostly exclusive of S. cerevisiae.</p><p>Proteome prediction was performed with MAKER to determine biotechnologically important genetic elements in the four novel Naganishia strains <ref type="bibr" target="#b31">[31]</ref>. Protein-coding genes were then assigned gene ontologies (GO) using InterProScan <ref type="bibr" target="#b68">[68]</ref> (Figure <ref type="figure" target="#fig_7">5</ref>) and passed through REVIGO <ref type="bibr" target="#b58">[58]</ref> to summarize GO assignments and remove redundant terms (Figure <ref type="figure" target="#fig_1">S1</ref>). In total, 4894 protein-coding genes were predicted from the assembled draft genomes, which comprised 128 scaffolds (Supplemental Table <ref type="table" target="#tab_0">S1</ref>). A total of 86, 47, and 89 top ontological hits were assigned, respectively, for Biological Process, Cellular Component, and Molecular Function (Table <ref type="table" target="#tab_0">S1</ref>), ranked by ontological uniqueness of term with respect to all other terms cataloged in UniProt. Top Biological Processes include cell morphogenesis, microtubule-based response, and response to UV light, reflecting a repertoire that was suited to respond to microgravity and radiation (Figures <ref type="figure" target="#fig_7">5</ref> and <ref type="figure" target="#fig_3">S2</ref>). The extracellular region, outer membrane, and cell wall were top cellular component results, implying a set of genes associated with Titan-like cell plasticity. Finally, the top molecular function hits included cytoskeletal motor activity, microtubule motor activity, and nuclear export signal receptor activity. Changing these molecular mechanisms can alter the shape of cells, and in fungi, morphological changes in response to environmental stimuli have been reported and mostly attributed to pathogenesis <ref type="bibr" target="#b20">[20,</ref><ref type="bibr" target="#b69">69]</ref>. The highest ontological hits revealed the presence of protein coding genes that might provide insights into the underlying origins of Titan-like cells in N. tulchinskyi. However, more studies are necessary to depict the mechanisms and role of titanization in microgravity.</p><p>The ability of Naganishia species to grow at low temperatures <ref type="bibr" target="#b29">[29]</ref> and withstand high doses of UV radiation in extreme environments <ref type="bibr" target="#b0">[1]</ref> has led to the ongoing microbial characterization of this genus; however, there are currently only a few genomes publicly available <ref type="bibr" target="#b70">[70,</ref><ref type="bibr" target="#b71">71]</ref>. Unlike the S. cerevisiae genome, which has been extensively studied <ref type="bibr" target="#b72">[72]</ref>, the genomic characterization of the Naganishia clade is still in its infancy. The presence of reported genes related to cold resistance <ref type="bibr" target="#b39">[39]</ref>, radiation tolerance <ref type="bibr" target="#b47">[47]</ref>, and microgravity (Table <ref type="table" target="#tab_0">1</ref>) in ISS strains might indicate the potential of the novel N. tulchinskyi to better withstand the ISS or spaceflight-related conditions. However, only a few genes associated with microgravity have been identified <ref type="bibr" target="#b73">[73,</ref><ref type="bibr" target="#b74">74]</ref>. It has been reported that the RAD51, RAD54, and RDH54 genes seen in ISS strains also play critical roles in C. neoformans to repair gamma-radiation induced DNA damage <ref type="bibr" target="#b47">[47]</ref>.</p><p>Additionally, high carotenoid concentration has been correlated with an increased resistance of the cells against freeze damage, environmental stress, and radiation protection <ref type="bibr" target="#b75">[75,</ref><ref type="bibr" target="#b76">76]</ref>, all of which are notable features of the extremophile Deinococcus radiodurans <ref type="bibr" target="#b77">[77,</ref><ref type="bibr" target="#b78">78]</ref>. Biomolecules responsible for the pigment biosynthesis, such as geranylgeranyl diphosphate synthase, cytochrome P450 reductase, farnesyl pyrophosphate synthase, isopentenyl-diphosphate delta isomerase, alpha, alpha-trehalase NTH2, and NTH1, putative trehalose-phosphate synthase Tps2 were present in all strains of Naganishia and S. cerevisiae (Table <ref type="table" target="#tab_0">1</ref>). It has been well documented that carotenoids can efficiently protect the skin from UV-light induced damages, scavenging singlet oxygen and peroxyl radicals <ref type="bibr" target="#b79">[79]</ref>. The microbiological synthesis of carotenoids, significance, and biotechnological relevance were extensively reviewed <ref type="bibr" target="#b80">[80]</ref>. The phytoene-beta carotene synthase (pbs) was present only in ISS strains but not found in S. cerevisiae. More research is needed here since biosynthesis of tetraterpenoids and pbs involvement in microorganisms is still poorly understood <ref type="bibr" target="#b81">[81]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Taxonomy</head><p>Novel species: Naganishia tulchinskyi, N. K. Singh and K. Venkateswaran, sp. nov. MycoBank number: MB838832. Etymology: Naganishia tulchinskyi (tul.chin. s'ky.i. N.L. gen. n. tulchinskyi named after Igor Tulchinsky, an American Philanthropist supporting biomedical, computational, and space research).</p><p>Diagnosis: Based on the morphological characteristics, strains IF6SW-B1 T , IF7SW-B1, IF1SW-F1, and IIF5SW-F1 are similar to N. albida group, but phylogenetically distant from all known Naganishia species. Hyphae and pseudohyphae were not present, sexual reproduction was not observed, budding cells were present and ballistoconidia were absent.</p><p>Type strain: IF6SW-B1 T. Holotype: USA: International Space Station surfaces, March 15, 2015. Nitin K. Singh and Kasthuri Venkateswaran, ex-type living culture (IF6SW-B1 T ) was preserved in a metabolically inactive state at the Northern Regional Research Laboratory (NRRL 64202) and at the Deutsche Sammlung von Mikroorganismen und Zellkulturen (DSM 113487).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 5.</head><p>Enriched GOSlim terms for biological process, cellular components, and molecular function in N. tulchinskyi genome. The Gene Ontology terms were summarized by purging redundant GO terms that were deduced by orthologous searches coupled with semantic similarity-based scatterplots using the REVIGO platform <ref type="bibr" target="#b58">[58]</ref>. Enriched GOSlim terms for biological process, cellular components, and molecular function in N. tulchinskyi genome. The Gene Ontology terms were summarized by purging redundant GO terms that were deduced by orthologous searches coupled with semantic similarity-based scatterplots using the REVIGO platform <ref type="bibr" target="#b58">[58]</ref>.</p><p>Description: In PDA medium after 5 days at 25 • C, the cells are round, ovoid to ellipsoidal, 4.1 ± 0.97 µm and occur singly with polar budding. When grown under simulated microgravity at 30 • C, cells are ~3 times larger and formed Titan-like cells (Figure <ref type="figure" target="#fig_2">2</ref>). After incubation at 25 • C, the streak culture on PDA agar is butyrous and cream colored, with a smooth surface and an entire margin. Growth occurs at 4, 25, and 30 • C and not at 35 • C on nutrient medium.</p><p>Biochemical characteristics: Differential biochemical characteristics of N. tulchinskyi with other closely related Naganishia species are shown in Table <ref type="table" target="#tab_2">3</ref>. N. tulchinskyi strains are able to assimilate D-Arabinose, D-Ribose, L-Sorbose, D-Mannitol, α-D-Glucose, L-Arabinose, Salicin, D-Trehalose, Maltose, D-Xylose, Sucrose, D-Cellobiose, Succinic Acid Mono-Methyl Ester, D-Xylose, and Palatinose as sole carbon source. N. tulchinskyi cells did not utilize Cellobiose, Arbutin, D-Galactose, Glycerol, Hexadecane, L-Malic acid, L-Rhamnose, Lactose, Mannitol, Melezitose, Methyl a-glucoside, Myo-inositol, Raffinose, Xylitol, Citrate, Melibiose, Meso erythritol, Glucono D-lactone, Inulin, and N-acetyl Dglucosamine as sole carbon source. N. tulchinskyi cells assimilate D-arabinose and can be differentiated from N. friedmannii, N. saitoi, N. globosa. Similarly, several carbon substrates are differentially utilized by N. tulchinskyi and are detailed in Table <ref type="table" target="#tab_2">3</ref>.</p><p>Ecology/Substrate/Host: Distinct Naganishia yeast colonies (n = 4) were isolated over two separate sample collection flights from three different locations. The type strain IF6SW-B1 T and two other strains (IF7SW-B1 and IF1SW-F1) were isolated during Flight 1 (March 2015), while the fourth strain (IIF5SW-F1) was isolated during Flight 2 (May 2015). Strain IF6SW-B1 T was isolated from a rack that contained crew clothes, crew preference items, office supplies, and ISS medical accessory kits (Location #6, Permanent Multipurpose Module Port 1). The second strain IF7SW-B1 was isolated from a rack being used for basic materials research in the microgravity environment of the ISS (Location #7, Overhead-3 panel surface of the Materials Science Research Rack 1). The third strain IF1SW-F1 was isolated from a viewing port in a small module devoted to the observation of operations outside the ISS, such as robotic activities, spacecraft approaches, and extravehicular activities (Location #1, Port panel of the Cupola). The fourth strain IIF5SW-F1 was the only strain in this study isolated during Flight 2, and it was cultivated from a storage rack made up of Nomex fabrics and used as a pantry to store batteries, printer cartridges, office supplies, etc. (Location #5, Overhead-4, Node 1, US module).</p><p>Distribution: This novel species has yet to be found in any samples from other Earth environments.</p><p>Material examined: The particulate matter associated with 1 m 2 surface area of the ISS environmental surfaces was examined.  <ref type="bibr" target="#b14">(14)</ref>. Abbreviation: "+" positive; "-" negative; "NT" not tested; "w" weak reaction; "v" variable reaction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p>In summary, a novel yeast, N. tulchinskyi, was isolated from the ISS environmental surfaces that produced giant Titan-like cells under simulated microgravity conditions. Morphological characterization of N. tulchinskyi cells revealed that the cell wall is thicker under simulated microgravity and might help them withstand such unfavorable conditions, and these simulated microgravity-grown cells demonstrate a novel bud scar shedding trait. The phylogenetic analyses using the MLST approach showed that these are novel yeast. Further genomic characterization revealed genes responsible for cell morphogenesis and UVC resistance, reflecting a range of molecular mechanisms suited to respond to microgravity and radiation.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Maximum Likelihood phylogenetic tree, based on seven gene sequences (ITS, LSU, SSU, CYTB, RPB1, RPB2, TEF1), extracted from WGS of the respective type strains (superscript T) or from the available genomes, concatenated manually, showing the phylogenetic relationship of N. tulchinskyi sp. nov. with closely related members of Tremellomycetes. The gene fragment lengths in base pairs (bp) are given in parenthesis: ITS (620 bp); LSU (612 bp); SSU (517 bp); CYTB (339 bp); RPB1 (317 bp); RPB2 (1282 bp); TEF1 (1084 bp). Bootstrap values from 1000 replications are shown at branch points. Bar = 0.05 substitution per site.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Maximum Likelihood phylogenetic tree, based on seven gene sequences (ITS, LSU, SSU, CYTB, RPB1, RPB2, TEF1), extracted from WGS of the respective type strains (superscript T) or from the available genomes, concatenated manually, showing the phylogenetic relationship of N. tulchinskyi sp. nov. with closely related members of Tremellomycetes. The gene fragment lengths in base pairs (bp) are given in parenthesis: ITS (620 bp); LSU (612 bp); SSU (517 bp); CYTB (339 bp); RPB1 (317 bp); RPB2 (1282 bp); TEF1 (1084 bp). Bootstrap values from 1000 replications are shown at branch points. Bar = 0.05 substitution per site.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Confocal microscope-based analyses of N. tulchinskyi cells when grown under standard Earth gravity (SD), normal gravity with 5% CO2 (CO), and simulated microgravity with 5% CO2 (µG). Representative images of Calcofluor White cell wall-stained cells adjacent to bright field images are shown in (A). The µG cells appear to be larger and misshapen when compared to the typical yeast morphology demonstrated by SD and CO. Measurements for cell diameter were taken using the of Calcofluor White confocal images (B). Though smaller than µG cells, SD cells were statically smaller in cell size than CO cells (p value = 0.0440), while µG cells were statistically significantly larger than both SD and CO cells (p value ≤ 0.0001). Cell wall thickness was also measured using confocal microscopy (C). Cell wall thickness of SD and CO were not statistically different in size (p value ≥ 0.9999); however, µG cells had statistically significantly larger cell walls than both SD and CO cells (p value ≤ 0.0001). The scale bars for both confocal and bright field microscopic images is 40 µm. Statistical significance is reported as p value &gt; 0.05 (ns), ≤0.05 (*), ≤0.01 (**), ≤0.001 (***), ≤0.0001 (****). p values of ≤0.01 (**) and ≤0.001 (***) were not noticed.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Confocal microscope-based analyses of N. tulchinskyi cells when grown under standard Earth gravity (SD), normal gravity with 5% CO 2 (CO), and simulated microgravity with 5% CO 2 (µG). Representative images of Calcofluor White cell wall-stained cells adjacent to bright field images are shown in (A). The µG cells appear to be larger and misshapen when compared to the typical yeast morphology demonstrated by SD and CO. Measurements for cell diameter were taken using the of Calcofluor White confocal images (B). Though smaller than µG cells, SD cells were statically smaller in cell size than CO cells (p value = 0.0440), while µG cells were statistically significantly larger than both SD and CO cells (p value ≤ 0.0001). Cell wall thickness was also measured using confocal microscopy (C). Cell wall thickness of SD and CO were not statistically different in size (p value ≥ 0.9999); however, µG cells had statistically significantly larger cell walls than both SD and CO cells (p value ≤ 0.0001). The scale bars for both confocal and bright field microscopic images is 40 µm. Statistical significance is reported as p value &gt; 0.05 (ns), ≤0.05 (*), ≤0.01 (**), ≤0.001 (***), ≤0.0001 (****). p values of ≤0.01 (**) and ≤0.001 (***) were not noticed.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Analyses of scanning electron microscope (SEM) micrographs of SD, CO, and µG grown N.tulchinskyi cells demonstrated differences in conidia size, morphology, and daughter cell budding. SD (A) and CO (B) grown cells demonstrated similar standard yeast morphotypes, while µG (C,D) grown cells are larger, nonuniform in appearance, and exhibit random budding scars. In some instances, the µG budding scars have raised centers, while others appear to be concave. Additionally, some budding scars appear to be shedding or peeling from the surface of the cells. This phenomenon is highlighted with the white arrow (D). Representative SEM micrographs are given, and scale bar for all micrographs is 10 µm.</figDesc><graphic coords="11,164.58,206.07,378.00,313.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Analyses of transmission electron microscope (TEM) micrographs of SD (A,B), CO (C,D),and µG (E,F) grown N. tulchinskyi cells demonstrated differences in cell size, cell wall thickness, and internal organelle structures. SD and CO demonstrate similar size cells and similar intracellular morphology, while µG grown cells appear to have a different internal organizational structure of organelles. At higher magnifications (lower panels), the cell wall thickness can be seen to be thicker for µG grown cells than for SD or CO grown cells. The cells also appear to be having lower abundance of fine scale fimbriae on the surface of µG cells, as compared to SD and CO grown cells. Along with their large size, the µG grown cells are distinguished by the shedding and peeling bud scars from their surfaces, denoted by white arrows (C). Additionally, µG grown cells have the presence of large unknown organelles/structures, as denoted by the black arrow. Representative TEM micrographs are given. The scale bar for (A,C,E) is 1 µm, and the scale bare for (B,D,F) is 0.2 µm.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Analyses of transmission electron microscope (TEM) micrographs of SD (A,B), CO (C,D),and µG (E,F) grown N. tulchinskyi cells demonstrated differences in cell size, cell wall thickness, and internal organelle structures. SD and CO demonstrate similar size cells and similar intracellular morphology, while µG grown cells appear to have a different internal organizational structure of organelles. At higher magnifications (lower panels), the cell wall thickness can be seen to be thicker for µG grown cells than for SD or CO grown cells. The cells also appear to be having lower abundance of fine scale fimbriae on the surface of µG cells, as compared to SD and CO grown cells. Along with their large size, the µG grown cells are distinguished by the shedding and peeling bud scars from their surfaces, denoted by white arrows (C). Additionally, µG grown cells have the presence of large unknown organelles/structures, as denoted by the black arrow. Representative TEM micrographs are given. The scale bar for (A,C,E) is 1 µm, and the scale bare for (B,D,F) is 0.2 µm.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5.Enriched GOSlim terms for biological process, cellular components, and molecular function in N. tulchinskyi genome. The Gene Ontology terms were summarized by purging redundant GO terms that were deduced by orthologous searches coupled with semantic similarity-based scatterplots using the REVIGO platform<ref type="bibr" target="#b58">[58]</ref>.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Presence of various biomolecules responsible for pigment biosynthesis, radio-resistance, and microgravity tolerance in Naganishia species and S. cerevisiae.</figDesc><table><row><cell>Functions</cell><cell>GenBank#</cell><cell>Enzyme, Protein, Other Biomolecules</cell><cell></cell><cell cols="2">Naganishia tulchinskyi</cell><cell></cell><cell>Naganishia vishniacii</cell><cell cols="2">Papiliotrema laurentii</cell><cell>S. cerevisiae</cell><cell>Reference</cell></row><row><cell></cell><cell></cell><cell></cell><cell>IF6SW-B1 T</cell><cell>1F7SW-B1</cell><cell>1F1SW-F1</cell><cell>IIF5SW-F1</cell><cell>CBS 10616</cell><cell>IF7SW-B5</cell><cell>IF7SW-F4</cell><cell>S288C</cell></row><row><cell>Pigment Biosynthesis</cell><cell>AAY33922</cell><cell cols="10">Geranylgeranyl diphosphate synthase [47]</cell></row><row><cell></cell><cell>CAA54491</cell><cell>RAD9</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>*</cell><cell>*</cell><cell></cell><cell>[48]</cell></row><row><cell></cell><cell>CAA54492</cell><cell>RAD9</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>*</cell><cell></cell><cell>[48]</cell></row><row><cell></cell><cell>1HT3_A</cell><cell>Chain A, Proteinase K</cell><cell>**</cell><cell>**</cell><cell>**</cell><cell>**</cell><cell>**</cell><cell>**</cell><cell>**</cell><cell>**</cell><cell>[49]</cell></row><row><cell></cell><cell>1IC6_A</cell><cell>Chain A, Proteinase K</cell><cell>**</cell><cell>**</cell><cell>**</cell><cell>**</cell><cell>**</cell><cell>**</cell><cell>**</cell><cell>**</cell><cell>[50]</cell></row><row><cell></cell><cell>4LHK_A</cell><cell>Chain A, Flocculin</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>**</cell><cell>[51]</cell></row><row><cell></cell><cell>4LHK_B</cell><cell>Chain B, Flocculin</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>**</cell><cell>[51]</cell></row><row><cell>Microgravity</cell><cell>4LHN_A</cell><cell>Chain A, Flocculation protein FLO1</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>**</cell><cell>[51]</cell></row><row><cell>tolerance</cell><cell>P26306</cell><cell>DNA repair protein rad9</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>*</cell><cell>*</cell><cell></cell><cell>[52]</cell></row><row><cell></cell><cell>P38844</cell><cell>Daughter-specific expression protein 2</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>**</cell><cell>[53]</cell></row><row><cell></cell><cell>P40077</cell><cell>Daughter-specific expression protein 1</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>**</cell><cell>[54]</cell></row><row><cell></cell><cell>P48013</cell><cell>DNA repair protein rad9</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>*</cell><cell></cell><cell>[48]</cell></row><row><cell></cell><cell>Q59Y31</cell><cell>Flocculation protein 1</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>**</cell><cell>[55]</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Datasets used for De Novo gene annotation using MAKER.</figDesc><table><row><cell>Name</cell><cell>Origin *</cell><cell># of Sequences</cell><cell>Date of Access</cell><cell>Data Set</cell></row><row><cell>Naganishia tulchinskyi (n = 4)</cell><cell>This study</cell><cell></cell><cell></cell><cell>Assembly</cell></row><row><cell>Naganishia cerealis</cell><cell>UniProt</cell><cell>3</cell><cell>4/5/21</cell><cell>Protein sequences</cell></row><row><cell>Naganishia diffluens</cell><cell>UniProt</cell><cell>7</cell><cell>4/5/21</cell><cell>Protein sequences</cell></row><row><cell>Naganishia liquefaciens</cell><cell>UniProt</cell><cell>4</cell><cell>4/5/21</cell><cell>Protein sequences</cell></row><row><cell>Naganishia sp.</cell><cell>UniProt</cell><cell>3</cell><cell>4/5/21</cell><cell>Protein sequences</cell></row><row><cell>Cryptococcus neoformans var grubii</cell><cell>UniProt</cell><cell>65</cell><cell>4/5/21</cell><cell>Protein sequences</cell></row><row><cell>Cryptococcus neoformans var neoformans</cell><cell>UniProt</cell><cell>370</cell><cell>4/5/21</cell><cell>Protein sequences</cell></row><row><cell>Cryptococcus neoformans var grubii</cell><cell>ESTdb</cell><cell>69</cell><cell>3/31/21</cell><cell>Transcriptome</cell></row><row><cell>Cryptococcus neoformans var neoformans</cell><cell>ESTdb</cell><cell>74,724</cell><cell>3/31/21</cell><cell>Transcriptome</cell></row><row><cell>Cryptococcus vishniacci (Naganishia vishniacii)</cell><cell>ESTdb</cell><cell>37</cell><cell>3/31/21</cell><cell>Transcriptome</cell></row><row><cell>Papiliotrema laurentii (n = 2)</cell><cell>This study</cell><cell></cell><cell></cell><cell>Assembly</cell></row></table><note><p>* Expressed Sequence Tags database (ESTdb; Nature Genetics 4:332-3;1993) is a division of GenBank that contains sequence data and other information on "single-pass" cDNA sequences from a number of organisms. UniProt (2021)<ref type="bibr" target="#b32">[32]</ref></p><p>. UniProt: the universal protein knowledgebase in 2021. Nucleic Acids Res 49, D480-d489.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Cont.</figDesc><table><row><cell>Carbon Source</cell><cell cols="4">Naganishia tulchinskyi (This Study) IF6SW-B1 IF7SW-B1 IF1SW-F1 IIF5SW-F1</cell><cell>N. vaughanmartiniae a</cell><cell>N. onofrii a</cell><cell>N. saitoi b</cell><cell>N. friedmannii b</cell><cell>N. qatarensis c</cell><cell>N. cerealis d</cell><cell>N. randhawae e</cell><cell>N. globosa b</cell></row><row><cell cols="3">Differential characteristics among N. tulchinskyi strains</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Gentiobiose</cell><cell>+</cell><cell>+</cell><cell>+</cell><cell>-</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>D-Mannitol</cell><cell>+</cell><cell>+</cell><cell>+</cell><cell>-</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Maltose</cell><cell>+</cell><cell>+</cell><cell>+</cell><cell>-</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Acetic Acid</cell><cell>+</cell><cell>+</cell><cell>-</cell><cell>+</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Maltotriose</cell><cell>+</cell><cell>+</cell><cell>-</cell><cell>+</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Turanose</cell><cell>+</cell><cell>+</cell><cell>-</cell><cell>+</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>D-</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Glucuronic Acid plus</cell><cell>+</cell><cell>+</cell><cell>-</cell><cell>+</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>D-Xylose</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>1,2-</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Propanediol plus</cell><cell>+</cell><cell>+</cell><cell>-</cell><cell>+</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>D-Xylose</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>D-Trehalose</cell><cell>+</cell><cell>+</cell><cell>-</cell><cell>+</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>D-Xylose</cell><cell>+</cell><cell>+</cell><cell>-</cell><cell>+</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Sucrose</cell><cell>+</cell><cell>+</cell><cell>-</cell><cell>+</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>D-Melezitose</cell><cell>-</cell><cell>+</cell><cell>+</cell><cell>+</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Dextrin</cell><cell>-</cell><cell>+</cell><cell>+</cell><cell>+</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Propionic Acid</cell><cell>+</cell><cell>+</cell><cell>-</cell><cell>-</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>D-Raffinose</cell><cell>-</cell><cell>-</cell><cell>+</cell><cell>-</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>D-Sorbitol</cell><cell>-</cell><cell>-</cell><cell>+</cell><cell>-</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p>a Data from Turchetti et al. 2015 (11). b Data obtained from Fonseca et al. 2011 (13). c Data obtained from Fotedar et al. 2018 (1). d Data obtained from Passoth et al. 2009 (16</p><p>). e Data obtained from<ref type="bibr" target="#b14">Khan et al. 2010</ref> </p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>J. Fungi 2022, 8, 165. https://doi.org/10.3390/jof8020165 https://www.mdpi.com/journal/jof</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>The research described in this manuscript was performed at the <rs type="institution">Jet Propulsion Laboratory, California Institute of Technology</rs> under a contract with <rs type="institution">NASA</rs> and the <rs type="institution">University of Southern California</rs>. We would like to thank the <rs type="person">Aleksandra Checinska-Sielaff</rs> for isolating the strain. We thank astronauts <rs type="person">Captain Terry Virts</rs> for collecting samples aboard the <rs type="institution">ISS</rs> and the Implementation Team at <rs type="institution">NASA Ames Research Center (Fathi Karouia)</rs> for coordinating this effort. Confocal imaging was performed in the <rs type="institution" subtype="infrastructure">Biological Imagining Facility</rs>, with the support of the <rs type="funder">Caltech Beckman Institute</rs> and the <rs type="funder">Arnold and Mabel Beckman Foundation</rs> at the <rs type="funder">California Institute of Technology</rs>. The authors would like to thank <rs type="person">Giada Spigolon</rs> for her expertise with confocal microscopy. Additionally, we thank <rs type="person">Danielle Jorgens</rs> at the <rs type="affiliation">University of California Berkeley Electron Microscope Laboratory</rs> for advice and assistance in electron microscopy sample preparation and data collection. Scanning Electron Microscopy was performed at the <rs type="institution">California Institute of Technology's Kavli Nanoscience Institute</rs>. We thank <rs type="person">Ryan Kemp</rs> (<rs type="affiliation">Zymo Corp.</rs>) for extracting DNA and <rs type="person">Dan Butler</rs> (<rs type="affiliation">Cornell Medicine</rs>) for performing shotgun sequencing using the NovaSeq platform. We also acknowledge the <rs type="institution" subtype="infrastructure">Jet Propulsion Laboratory supercomputing facility</rs> staff, notably <rs type="person">Narendra J.</rs> (<rs type="person">Jimmy) Patel</rs> and <rs type="person">Edward Villanueva</rs>, for their continuous support in providing the best possible infrastructure for BIG-DATA analyses. We would like to thank the <rs type="institution">Genomics and Epigenomics Core Facilities at Weill Cornell Medicine</rs>, the <rs type="institution">Scientific Computing Unit (SCU)</rs>, <rs type="institution" subtype="infrastructure">XSEDE Supercomputing Resources</rs>, and also <rs type="person">Olivier Elemento</rs> for logistics and support. ©2021 <rs type="funder">California Institute of Technology</rs>. Government sponsorship acknowledged. The author(s) declare that there are no conflict of interest. This manuscript was prepared as an account of work sponsored by <rs type="institution">NASA</rs>, an agency of the <rs type="institution">US Government</rs>. The <rs type="institution">US Government</rs>, <rs type="institution">NASA</rs>, <rs type="institution">California Institute of Technology, Jet Propulsion Laboratory</rs>, and recommendation, or favoring by the <rs type="institution">US Government</rs>, <rs type="institution">NASA</rs>, <rs type="institution">California Institute</rs> of the <rs type="institution">US Government</rs>, <rs type="institution">NASA</rs>, <rs type="institution">California Institute of Technology</rs>, or <rs type="institution">Jet Propulsion Laboratory</rs>,</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">Biological Imagining Facility</orgName>
+				</org>
+				<org type="infrastructure">					<orgName type="extracted">Jet Propulsion Laboratory supercomputing facility</orgName>
+				</org>
+				<org type="infrastructure">					<orgName type="extracted">XSEDE Supercomputing Resources</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability Statement:</head><p>The WGS and raw data have been deposited in GenBank under the</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The letter "N" distinguishes the nucleus (B, C, and E). Table <ref type="table">S1</ref>. Reducing all protein-coding gene products from the predicted proteome of the novel type strain IF6SW-B1T to their most distinct Gene Ontology (GO) terms for Biological Process, Cellular Component, and Molecular Function. Frequency indicates the number of genes in UniProt associated with this term. Uniqueness is a measurement of average similarity of a term to all other GO terms, while dispensability measures the semantic distance between a term and all other GO terms.</p><p>Author Contributions: K.V. and N.K.S. conceived and designed the experiments. K.V. and C.E.M. designed and supervised the analyses and genome profiling experiments. S.B. and N.K.S. carried out phylogenetic analyses and alignment for positional description of organism in the tree, S.B. conducted HARV culturing, S.B. independently verified the genome assembly, generated alignments for all gene trees in the manuscript, and manually curated the tree images, and C.P. generated microscopy and analyzed cell wall structure. M.A.S. and J.F. analyzed the genomic data inclusive of de novo assemblies and verification, scaffold quality assessment, and annotation and generated the draft assembly of the genomes. K.V. isolated the type strain and compiled the contribution of write-ups from all authors associated with microscopy (C.P.), genotype and </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Naganishia qatarensis sp. nov., a novel basidiomycetous yeast species from a hypersaline marine environment in Qatar</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fotedar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kolecka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Boekhout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Fell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Al Malaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zeyara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Al Marri</surname></persName>
+		</author>
+		<idno type="DOI">10.1099/ijsem.0.002920</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Syst. Evol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="2924" to="2929" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Phylogeny of tremellomycetous yeasts and related dimorphic and filamentous basidiomycetes reconstructed from multiple gene sequence analyses</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Theelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Groenewald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Boekhout</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.simyco.2015.08.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Stud. Mycol</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="1" to="26" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Biodiversity and systematics of basidiomycetous yeasts as determined by large-subunit rDNA D1/D2 domain sequence analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Fell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Boekhout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fonseca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Scorzetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Statzell-Tallman</surname></persName>
+		</author>
+		<idno type="DOI">10.1099/00207713-50-3-1351</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Syst. Evol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="1351" to="1371" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Systematics of basidiomycetous yeasts: A comparison of large subunit D1/D2 and internal transcribed spacer rDNA regions</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Scorzetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Fell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fonseca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Statzell-Tallman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1567-1356(02)00128-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Yeast Res</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="495" to="517" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Sielaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urbaniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B M</forename><surname>Mohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Minich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Knight</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40168-019-0666-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">50</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Draft Genome Sequences of Tremellomycetes Strains Isolated from the International Space Station</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bijlani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/MRA.00504-20</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol. Resour. Announc</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="504" to="520" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A Taxonomic Study of Antarctic Yeasts</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sugiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Iizuka</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/3757466</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mycologia</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="748" to="774" />
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Cryptococcus antarcticus sp. nov. and Cryptococcus albidosimilis sp. nov., Basidioblastomycetes from Antarctic Soils</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Vishniac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Kurtzman</surname></persName>
+		</author>
+		<idno type="DOI">10.1099/00207713-42-4-547</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Syst. Evol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="547" to="553" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Cryptococcus friedmannii, a New Species of Yeast from the Antarctic</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Vishniac</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/3793260</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mycologia</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="149" to="153" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Cryptococcus vishniacii sp. nov., an Antarctic Yeast</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Vishniac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Hempeling</surname></persName>
+		</author>
+		<idno type="DOI">10.1099/00207713-29-2-153</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Syst. Evol. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="153" to="158" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Cryptococcus vaughanmartiniae sp. nov. and Cryptococcus onofrii sp. nov.: Two new species isolated from worldwide cold environments</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Turchetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Selbmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Blanchette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Di Mauro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Marchegiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zucconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Arenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Buzzini</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00792-014-0692-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Extremophiles</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="149" to="159" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Chapter 74-Discussion of teleomorphic and anamorphic genera of heterobasidiomycetous yeasts</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Boekhout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Bandoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Fell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Kwon-Chung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Yeasts</title>
+		<imprint/>
+	</monogr>
+	<note>4th ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Chapter 138-Cryptococcus Vuillemin</title>
+		<author>
+			<persName><forename type="first">Á</forename><surname>Fonseca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Boekhout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Fell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Yeasts</title>
+		<imprint>
+			<date type="published" when="1901">1901</date>
+		</imprint>
+	</monogr>
+	<note>4th ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Kurtzman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Fell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Boekhout</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<publisher>Elsevier</publisher>
+			<biblScope unit="page" from="1661" to="1737" />
+			<pubPlace>London, UK</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Cryptococcus randhawai sp. nov., a novel anamorphic basidiomycetous yeast isolated from tree trunk hollow of Ficus religiosa (peepal tree) from New Delhi, India</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">U</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ahmad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Fell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kowshik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chandy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Boekhout</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10482-009-9406-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Antonie Leeuwenhoek</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="253" to="259" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Psychrophilic yeasts in glacial environments of Alpine glaciers</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Turchetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Buzzini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goretti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Branda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Diolaiuti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>D'agata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Smiraglia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vaughan-Martini</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1574-6941.2007.00409.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="73" to="83" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Cryptococcus cerealis sp. nov. a psychrophilic yeast species isolated from fermented cereals</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Passoth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Andersson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Olstorpe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Theelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Boekhout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schnürer</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10482-009-9379-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Antonie Leeuwenhoek</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="635" to="643" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Fungaemia due to Cryptococcus laurentii as a complication of immunosuppressive therapy-A case report</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Furman-Kuklinska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Naumnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mysliwiec</surname></persName>
+		</author>
+		<idno type="DOI">10.2478/v10039-009-0014-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Med. Sci</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="116" to="119" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">First Report of a Case of Meningitis Caused by Cryptococcus adeliensis in a Patient with Acute Myeloid Leukemia</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rimek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Haase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lück</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Casper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Podbielski</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/JCM.42.1.481-483.2004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Clin. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="481" to="483" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Polyploid titan cells produce haploid and aneuploid progeny to promote stress adaptation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Gerstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mukaremera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Ormerod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Berman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nielsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/mBio.01340-15</idno>
+	</analytic>
+	<monogr>
+		<title level="j">mBio</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1340" to="1355" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The Cryptococcus neoformans Titan cell is an inducible and regulated morphotype underlying pathogenesis</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Dambuza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Drake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chapuis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Correia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Taylor-Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Legrave</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rasmussen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bicanic</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.ppat.1006978</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">1006978</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Titan cell formation is unique to Cryptococcus species complex</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dyl Ąg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Colon-Reyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kozubowski</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/21505594.2020.1772657</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Virulence</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="719" to="729" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Microbiomes of the dust particles collected from the International Space Station and Spacecraft Assembly Facilities</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Checinska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Probst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vaishampayan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Nilsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Perry</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40168-015-0116-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">50</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">NGS QC Toolkit: A toolkit for quality control of next generation sequencing data</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jain</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0030619</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">30619</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">SPAdes: A new genome assembly algorithm and its applications to single-cell sequencing</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bankevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nurk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Antipov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Gurevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dvorkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Kulikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Lesin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Nikolenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Prjibelski</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/cmb.2012.0021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="455" to="477" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">MEGA7: Molecular Evolutionary Genetics Analysis Version 7.0 for Bigger Datasets</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stecher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tamura</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/molbev/msw054</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Biol. Evol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1870" to="1874" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Titan cells formation in Cryptococcus neoformans is finely tuned by environmental conditions and modulated by positive and negative genetic regulators</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hommel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mukaremera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J B</forename><surname>Cordero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Coelho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Desjardins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sturny-Leclère</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Janbon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Perfect</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Casadevall</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.ppat.1006982</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">1006982</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Development of a phenotypic assay for characterisation of ethanologenic yeast strain sensitivity to inhibitors released from lignocellulosic feedstocks</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Greetham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wimalasena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Kerruish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brindley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Ibbett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Linforth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Phister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Smart</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10295-014-1431-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Ind. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="931" to="945" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">NIH Image to ImageJ: 25 years of image analysis</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Rasband</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Eliceiri</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.2089</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="671" to="675" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Unique genomic traits for cold adaptation in Naganishia vishniacii, a polyextremophile yeast isolated from Antarctica</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nizovoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bellora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Haridas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Daum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Barry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Grigoriev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Libkind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Connell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moline</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/femsyr/foaa056</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Yeast Res</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">56</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Comparative genomics provides new insights into the diversity, physiology, and sexuality of the only industrially exploited tremellomycete: Phaffia rhodozyma</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bellora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moliné</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>David-Palma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Coelho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Hittinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Sampaio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gonçalves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Libkind</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12864-016-3244-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genom</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">901</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">An easy-to-use annotation pipeline designed for emerging model organism genomes</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Cantarel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Korf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Robb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Parra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Holt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Alvarado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yandell</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Maker</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gr.6743907</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="188" to="196" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">UniProt: The universal protein knowledgebase in 2021</title>
+		<author>
+			<persName><surname>Uniprot</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkaa1100</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="480" to="D489" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H A</forename><surname>Smit</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Repeatmodeler</surname></persName>
+		</author>
+		<ptr target="http://www.repeatmasker.org/RepeatModeler/" />
+		<imprint>
+			<date type="published" when="2021-12-05">5 December 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The GFF3toolkit: QC and Merge Pipeline for Genome Annotation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Chiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Childers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Poelchau</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4939-8775-7_7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">1858</biblScope>
+			<biblScope unit="page" from="75" to="87" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Gene finding in novel genomes</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Korf</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2105-5-59</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinform</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">59</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">AUGUSTUS: Ab initio prediction of alternative transcripts</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stanke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gunduz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Waack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Morgenstern</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkl200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="435" to="W439" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Assessing Genome Assembly and Annotation Completeness</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Seppey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Manni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Zdobnov</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Busco</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4939-9173-0_14</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol. Biol</title>
+		<imprint>
+			<biblScope unit="page" from="227" to="245" />
+			<date type="published" when="1962">2019. 1962</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Card</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Maker_Genome_Annotation</surname></persName>
+		</author>
+		<ptr target="https://gist.github.com/darencard/bb1001ac1532dd4225b030cf0cd61ce2" />
+		<imprint>
+			<date type="published" when="2021-12-05">on 5 December 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Expression of the carotenoid biosynthesis genes in Xanthophyllomyces dendrorhous</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lodato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alcaíno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barahona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Niklitschek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Carmona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wozniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baeza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jiménez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Cifuentes</surname></persName>
+		</author>
+		<idno type="DOI">10.4067/S0716-97602007000100008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="73" to="84" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Cloning of the cytochrome p450 reductase (crtR) gene and its involvement in the astaxanthin biosynthesis of Xanthophyllomyces dendrorhous</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alcaino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barahona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Carmona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lozano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marcoleta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Niklitschek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sepulveda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baeza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Cifuentes</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2180-8-169</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">169</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Functional characterization of the Xanthophyllomyces dendrorhous farnesyl pyrophosphate synthase and geranylgeranyl pyrophosphate synthase encoding genes that are involved in the synthesis of isoprenoid precursors</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alcaíno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Niklitschek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sepúlveda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Rojas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baeza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Cifuentes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">e96626</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Expression of an exogenous isopentenyl diphosphate isomerase gene enhances isoprenoid biosynthesis in Escherichia coli</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kajiwara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kondo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Misawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1042/bj3240421</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem. J</title>
+		<imprint>
+			<biblScope unit="volume">324</biblScope>
+			<biblScope unit="page" from="421" to="426" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Life with 6000 genes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Goffeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Barrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bussey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dujon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Feldmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Galibert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Hoheisel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jacq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Johnston</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.274.5287.546</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="page" from="546" to="567" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The nucleotide sequence of Saccharomyces cerevisiae chromosome IV</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jacq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alt-Mörbe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Andre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bahr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Ballesta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bargues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Baron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Biteau</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/387s075</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">387</biblScope>
+			<biblScope unit="page" from="75" to="78" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The genome sequence of Schizosaccharomyces pombe</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gwilliam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Rajandream</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lyne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lyne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sgouros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Peat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hayles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature724</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">415</biblScope>
+			<biblScope unit="page" from="871" to="880" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Alternative splicing of transcripts from crtI and crtYB genes of Xanthophyllomyces dendrorhous</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lodato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alcaino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barahona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Retamales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Cifuentes</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.69.8.4676-4682.2003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="4676" to="4682" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Unraveling Fungal Radiation Resistance Regulatory Networks through the Genome-Wide Transcriptome and Genetic Analyses of Cryptococcus neoformans</title>
+		<author>
+			<persName><forename type="first">K.-W</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D.-H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-S</forename><surname>Bahn</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/mBio.01483-16</idno>
+	</analytic>
+	<monogr>
+		<title level="j">mBio</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1483" to="1499" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Schizosaccharomyces malidevorans and Sz. octosporus homologues of Sz. pombe rad9, a gene that mediates radioresistance and cell-cycle progression</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Lieberman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Hopkins</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0378-1119(94)90438-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Gene</title>
+		<imprint>
+			<biblScope unit="volume">150</biblScope>
+			<biblScope unit="page" from="281" to="286" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Mercury induced modifications in the stereochemistry of the active site through Cys-73 in a serine protease-Crystal structure of the complex of a partially modified proteinase K with mercury at 1.8 A resolution</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gourinath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Degenhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Eschenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Delucas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Betzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Singh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Indian J. Biochem. Biophys</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="298" to="302" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Structure of a serine protease proteinase K from Tritirachium album limber at 0.98 A resolution</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Betzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gourinath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kaur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Perbandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Eschenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Singh</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/bi002538n</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="3080" to="3088" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">The mannose-specific lectin domains of Flo1p from Saccharomyces cerevisiae and Lg-Flo1p from S. pastorianus: Crystallization and preliminary X-ray diffraction analysis of the adhesin-carbohydrate complexes</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Ielasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Goyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sleutel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wohlkonig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Willaert</surname></persName>
+		</author>
+		<idno type="DOI">10.1107/S1744309113015030</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. Sect. F Struct. Biol. Cryst. Commun</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="779" to="782" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Cloning and characterisation of the rad9 DNA repair gene from Schizosaccharomyces pombe</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Lehmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Z</forename><surname>Watts</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/19.13.3525</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="3525" to="3531" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Complete nucleotide sequence of Saccharomyces cerevisiae chromosome VIII</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brinkman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Favello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fulton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gattung</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.8091229</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">265</biblScope>
+			<biblScope unit="page" from="2077" to="2082" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Role of interactions between SpoIIAA and SpoIIAB in regulating cell-specific transcription factor s F of B. subtilis</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Diederich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Magnin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M A</forename><surname>Najafi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Errington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yudkin</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gad.8.21.2653</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Dev</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="2653" to="2663" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">The diploid genome sequence of Candida albicans</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Federspiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chibana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dungan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kalman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Magee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Newport</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">R</forename><surname>Thorstenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Agabian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Magee</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0401648101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="7329" to="7334" />
+			<date type="published" when="2004">2004</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">InterProScan 5: Genome-scale protein function classification</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Binns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mcanulla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mcwilliam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Maslen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nuka</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btu031</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1236" to="1240" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Blast2GO: A universal tool for annotation, visualization and analysis in functional genomics research</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Conesa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Götz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>García-Gómez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Terol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Talón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Robles</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/bti610</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="3674" to="3676" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">REVIGO Summarizes and Visualizes Long Lists of Gene Ontology Terms</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Supek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bošnjak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Škunca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Šmuc</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0021800</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">21800</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Karouia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40168-018-0609-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">214</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">A Serratia marcescens OxyR homolog mediates surface attachment and biofilm formation</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Shanks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Stella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Kalivoda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Doe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>O'dee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Lathrop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Nau</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/JB.00859-07</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">189</biblScope>
+			<biblScope unit="page" from="7262" to="7272" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Capsule and fimbria interaction in Klebsiella pneumoniae</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Schembri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Blom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Krogfelt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Klemm</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/IAI.73.8.4626-4633.2005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Immun</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="4626" to="4633" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The yeast lysosome-like vacuole: Endpoint and crossroads</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Kane</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbamcr.2008.08.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim. Biophys. Acta</title>
+		<imprint>
+			<biblScope unit="volume">1793</biblScope>
+			<biblScope unit="page" from="650" to="663" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Structure and function of the yeast vacuole and its role in autophagy</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Thumm</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/1097-0029(20001215)51:6&lt;563::AID-JEMT6&gt;3.0.CO;2-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microsc. Res. Tech</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="563" to="572" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Yeast vacuole inheritance and dynamics</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Weisman</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.genet.37.050203.103207</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Genet</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="435" to="460" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Cryptococcal cell morphology affects host cell interactions and pathogenicity</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Okagaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Strain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Charlier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Baltes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chrétien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Heitman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dromer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nielsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/annotation/1b59fd9e-9ac9-4ea8-a083-14c413c80b03</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1000953</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Titan cells in Cryptococcus neoformans: Cells with a giant impact</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Zaragoza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nielsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mib.2013.03.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="409" to="413" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Titan cell production enhances the virulence of Cryptococcus neoformans</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Crabtree</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Okagaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Wiesner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Strain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nielsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/IAI.00507-12</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Immun</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="3776" to="3785" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">InterProScan: Protein domains identifier</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Quevillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Silventoinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pillai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Harte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mulder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Apweiler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lopez</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gki442</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="116" to="W120" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Fungal Cell Gigantism during Mammalian Infection</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Zaragoza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>García-Rodas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Nosanchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cuenca-Estrella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Rodríguez-Tudela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Casadevall</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/annotation/0675044c-d80f-456f-bb63-4f85fb1d0c33</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLOS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1000945</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Draft Genome Sequence of Naganishia liquefaciens Strain N6, Isolated from the Japan Trench</title>
+		<author>
+			<persName><forename type="first">Y.-W</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kajitani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Morimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Palihati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kurokawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ryusui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Argunhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tsubouchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Abe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kajiwara</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/MRA.00827-20</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol. Resour. Announc</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="827" to="847" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Draft Genome Sequence of the Oleaginous Yeast Cryptococcus albidus var. albidus</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vajpeyi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chandran</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/genomeA.00390-16</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Announc</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="390" to="406" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Functional profiling of the Saccharomyces cerevisiae genome</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Giaever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Connelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Riles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Véronneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lucau-Danila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>André</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature00935</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">418</biblScope>
+			<biblScope unit="page" from="387" to="391" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Proteomics and genomics of microgravity</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Nichols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wen</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/physiolgenomics.00323.2005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol. Genom</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="163" to="171" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Yeast genomic expression patterns in response to low-shear modeled microgravity</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Sheehan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mcinnerney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Purevdorj-Gage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Altenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Hyman</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2164-8-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genom</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">3</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Carotenoids are used as regulators for membrane fluidity by Staphylococcus xylosus</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Seel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baust</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Albers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Etzbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fuss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lipski</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-019-57006-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">330</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Carotenoid Pigmentation in Antarctic Heterotrophic Bacteria as a Strategy to Withstand Environmental Stresses</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dieser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Greenwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Foreman</surname></persName>
+		</author>
+		<idno type="DOI">10.1657/1938-4246-42.4.396</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Arct. Antarct. Alp. Res</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="396" to="405" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Oxidative Stress Resistance in Deinococcus radiodurans</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Slade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Radman</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/MMBR.00015-10</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol. Mol. Biol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="133" to="191" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Survival of Deinococcus radiodurans against laboratory-simulated solar wind charged particles</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Paulino-Lima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Janot-Pacheco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Galante</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cockell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Olsson-Francis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Brucato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Baratta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Strazzulla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Merrigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mccullough</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/ast.2011.0649</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="875" to="882" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Carotenoids and UV protection</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Stahl</surname></persName>
+		</author>
+		<idno type="DOI">10.1039/b316082c</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Photochem. Photobiol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="749" to="752" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Carotenoids and Some Other Pigments from Fungi and Yeasts</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rapoport</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guzhova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bernetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Buzzini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kieliszek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Kot</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/metabo11020092</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Metabolites</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">92</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Deregulation of phytoene-β-carotene synthase results in derepression of astaxanthin synthesis at high glucose concentration in Phaffia rhodozyma astaxanthin-overproducing strain MK19</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Miao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12866-019-1507-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">133</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

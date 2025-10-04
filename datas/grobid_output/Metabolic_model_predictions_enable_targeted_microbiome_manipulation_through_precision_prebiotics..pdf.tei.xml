@@ -1,0 +1,3208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Metabolic model predictions enable targeted microbiome manipulation through precision prebiotics</title>
+				<funder ref="#_cXZqfuk">
+					<orgName type="full">DFG</orgName>
+				</funder>
+				<funder ref="#_59cd48h">
+					<orgName type="full">Andre Franke Hinrich Schulenburg Christoph Kaleta Deutsche Forschungsgemeinschaft (DFG)</orgName>
+				</funder>
+				<funder ref="#_pWGmKdx">
+					<orgName type="full">Deutscher Akademischer Austauschdienst (German Academic Exchange Service)</orgName>
+				</funder>
+				<funder ref="#_CAVKWA3 #_7nHHqQY #_bSadvew">
+					<orgName type="full">German Research Foundation</orgName>
+				</funder>
+				<funder ref="#_YZYahTW">
+					<orgName type="full">NASA</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Andre Franke Christoph Kaleta Deutsche Forschungsgemeinschaft</orgName>
+				</funder>
+				<funder ref="#_YhCvKut">
+					<orgName type="full">Deutsche Forschungsgemeinschaft (DFG)</orgName>
+				</funder>
+				<funder ref="#_w9TESqk">
+					<orgName type="full">Hinrich Schulenburg Christoph Kaleta Bundesministerium für Bildung und Forschung (BMBF)</orgName>
+				</funder>
+				<funder ref="#_WFS6Ef8">
+					<orgName type="full">JGI/DOE</orgName>
+				</funder>
+				<funder ref="#_5TdhAbd">
+					<orgName type="full">NIH Office of Research Infrastructure Programs</orgName>
+				</funder>
+				<funder ref="#_uYqV3Sw">
+					<orgName type="full">Med iTREAT</orgName>
+				</funder>
+				<funder ref="#_Schvx2Y">
+					<orgName type="full">National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">German Ministry for Education and Research</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>American Society for Microbiology</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-01-17">17 January 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Georgios</forename><surname>Marinos</surname></persName>
+							<idno type="ORCID">0000-0002-6443-7696</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Research Group Medical Systems Biology</orgName>
+								<orgName type="institution" key="instit1">University Hospital Schleswig-Holstein Campus Kiel</orgName>
+								<orgName type="institution" key="instit2">Kiel University</orgName>
+								<address>
+									<settlement>Kiel Schleswig-Holstein</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Inga</forename><forename type="middle">K</forename><surname>Hamerich</surname></persName>
+							<idno type="ORCID">0000-0002-3451-4574</idno>
+							<affiliation key="aff3">
+								<orgName type="department">Research Group Evolutionary Ecology and Genetics</orgName>
+								<orgName type="institution" key="instit1">Zoological Institute</orgName>
+								<orgName type="institution" key="instit2">Kiel University</orgName>
+								<address>
+									<settlement>Kiel Schleswig-Holstein</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Reena</forename><surname>Debray</surname></persName>
+							<idno type="ORCID">0000-0001-8130-4871</idno>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Integrative Biology</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nancy</forename><surname>Obeng</surname></persName>
+							<idno type="ORCID">0000-0001-9639-2130</idno>
+							<affiliation key="aff3">
+								<orgName type="department">Research Group Evolutionary Ecology and Genetics</orgName>
+								<orgName type="institution" key="instit1">Zoological Institute</orgName>
+								<orgName type="institution" key="instit2">Kiel University</orgName>
+								<address>
+									<settlement>Kiel Schleswig-Holstein</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Carola</forename><surname>Petersen</surname></persName>
+							<idno type="ORCID">0000-0002-2164-6789</idno>
+							<affiliation key="aff3">
+								<orgName type="department">Research Group Evolutionary Ecology and Genetics</orgName>
+								<orgName type="institution" key="instit1">Zoological Institute</orgName>
+								<orgName type="institution" key="instit2">Kiel University</orgName>
+								<address>
+									<settlement>Kiel Schleswig-Holstein</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jan</forename><surname>Taubenheim</surname></persName>
+							<idno type="ORCID">0000-0001-7283-1768</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Research Group Medical Systems Biology</orgName>
+								<orgName type="institution" key="instit1">University Hospital Schleswig-Holstein Campus Kiel</orgName>
+								<orgName type="institution" key="instit2">Kiel University</orgName>
+								<address>
+									<settlement>Kiel Schleswig-Holstein</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Johannes</forename><surname>Zimmermann</surname></persName>
+							<idno type="ORCID">0000-0002-5041-1954</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Research Group Medical Systems Biology</orgName>
+								<orgName type="institution" key="instit1">University Hospital Schleswig-Holstein Campus Kiel</orgName>
+								<orgName type="institution" key="instit2">Kiel University</orgName>
+								<address>
+									<settlement>Kiel Schleswig-Holstein</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Max-Planck Institute for Evolutionary Biology</orgName>
+								<address>
+									<settlement>Ploen Schleswig-Holstein</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dana</forename><surname>Blackburn</surname></persName>
+							<idno type="ORCID">0000-0001-5153-3366</idno>
+							<affiliation key="aff6">
+								<orgName type="department">Alkek Center for Metagenomics and Microbiome Research</orgName>
+								<orgName type="institution">Baylor College of Medicine</orgName>
+								<address>
+									<settlement>Houston</settlement>
+									<region>Texas</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Buck</forename><forename type="middle">S</forename><surname>Samuel</surname></persName>
+							<idno type="ORCID">0000-0002-4347-3997</idno>
+							<affiliation key="aff6">
+								<orgName type="department">Alkek Center for Metagenomics and Microbiome Research</orgName>
+								<orgName type="institution">Baylor College of Medicine</orgName>
+								<address>
+									<settlement>Houston</settlement>
+									<region>Texas</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Katja</forename><surname>Dierking</surname></persName>
+							<idno type="ORCID">0000-0002-5129-346X</idno>
+							<affiliation key="aff3">
+								<orgName type="department">Research Group Evolutionary Ecology and Genetics</orgName>
+								<orgName type="institution" key="instit1">Zoological Institute</orgName>
+								<orgName type="institution" key="instit2">Kiel University</orgName>
+								<address>
+									<settlement>Kiel Schleswig-Holstein</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andre</forename><surname>Franke</surname></persName>
+							<idno type="ORCID">0000-0003-1530-5811</idno>
+							<affiliation key="aff7">
+								<orgName type="department">Institute of Clinical Molecular Biology</orgName>
+								<orgName type="institution">Kiel University</orgName>
+								<address>
+									<settlement>Kiel Schleswig-Holstein</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matthias</forename><surname>Laudes</surname></persName>
+							<idno type="ORCID">0000-0002-7846-955X</idno>
+							<affiliation key="aff8">
+								<orgName type="department">Institute of Diabetes and Clinical Metabolic Research</orgName>
+								<orgName type="institution">University Hospital Schleswig-Hol stein Campus Kiel</orgName>
+								<address>
+									<settlement>Kiel Schleswig-Holstein</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Silvio</forename><surname>Waschina</surname></persName>
+							<idno type="ORCID">0000-0002-6290-3593</idno>
+							<affiliation key="aff9">
+								<orgName type="department" key="dep1">Nutriinformatics</orgName>
+								<orgName type="department" key="dep2">Institute for Human Nutrition and Food Science</orgName>
+								<orgName type="institution">Kiel University</orgName>
+								<address>
+									<settlement>Kiel Schleswig-Holstein</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hinrich</forename><surname>Schulenburg</surname></persName>
+							<email>hschulenburg@zoologie.uni-kiel.de.</email>
+							<idno type="ORCID">0000-0002-1413-913X</idno>
+							<affiliation key="aff3">
+								<orgName type="department">Research Group Evolutionary Ecology and Genetics</orgName>
+								<orgName type="institution" key="instit1">Zoological Institute</orgName>
+								<orgName type="institution" key="instit2">Kiel University</orgName>
+								<address>
+									<settlement>Kiel Schleswig-Holstein</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Max-Planck Institute for Evolutionary Biology</orgName>
+								<address>
+									<settlement>Ploen Schleswig-Holstein</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christoph</forename><surname>Kaleta</surname></persName>
+							<email>c.kaleta@iem.uni-kiel.de</email>
+							<idno type="ORCID">0000-0001-8004-9514</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Research Group Medical Systems Biology</orgName>
+								<orgName type="institution" key="instit1">University Hospital Schleswig-Holstein Campus Kiel</orgName>
+								<orgName type="institution" key="instit2">Kiel University</orgName>
+								<address>
+									<settlement>Kiel Schleswig-Holstein</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Ad Hoc Peer Reviewer</orgName>
+								<orgName type="institution">University of Michigan-Ann Arbor</orgName>
+								<address>
+									<settlement>Ann Arbor</settlement>
+									<region>Michigan</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Nebraska-Lincoln</orgName>
+								<address>
+									<settlement>Lincoln</settlement>
+									<region>Nebraska</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Metabolic model predictions enable targeted microbiome manipulation through precision prebiotics</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Microbiology Spectrum</title>
+						<title level="j" type="abbrev">Microbiol Spectr</title>
+						<idno type="eISSN">2165-0497</idno>
+						<imprint>
+							<publisher>American Society for Microbiology</publisher>
+							<biblScope unit="volume">12</biblScope>
+							<biblScope unit="issue">2</biblScope>
+							<date type="published" when="2024-01-17">17 January 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">33A8CB817E8DA94F914FA09D62160235</idno>
+					<idno type="DOI">10.1128/spectrum.01144-23</idno>
+					<note type="submission">funding table on p. 18. Received 17 March 2023 Accepted 13 December 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>nutritional supplements</term>
+					<term>flux balance analysis</term>
+					<term>genome-scale metabolic models</term>
+					<term>Caenorhabditis elegans</term>
+					<term>Pseudomonas lurida</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>While numerous health-beneficial interactions between host and micro biota have been identified, there is still a lack of targeted approaches for modulating these interactions. Thus, we here identify precision prebiotics that specifically modulate the abundance of a microbiome member species of interest. In the first step, we show that defining precision prebiotics by compounds that are only taken up by the target species but no other species in a community is usually not possible due to overlap ping metabolic niches. Subsequently, we use metabolic modeling to identify precision prebiotics for a two-member Caenorhabditis elegans microbiome community comprising the immune-protective target species Pseudomonas lurida MYb11 and the persistent colonizer Ochrobactrum vermis MYb71. We experimentally confirm four of the predic ted precision prebiotics, L-serine, L-threonine, D-mannitol, and γ-aminobutyric acid, to specifically increase the abundance of MYb11. L-serine was further assessed in vivo, leading to an increase in MYb11 abundance also in the worm host. Overall, our findings demonstrate that metabolic modeling is an effective tool for the design of precision prebiotics as an important cornerstone for future microbiome-targeted therapies. IMPORTANCE While various mechanisms through which the microbiome influences disease processes in the host have been identified, there are still only few approaches that allow for targeted manipulation of microbiome composition as a first step toward microbiome-based therapies. Here, we propose the concept of precision prebiotics that allow to boost the abundance of already resident health-beneficial microbial species in a microbiome. We present a constraint-based modeling pipeline to predict precision prebiotics for a minimal microbial community in the worm Caenorhabditis elegans comprising the host-beneficial Pseudomonas lurida MYb11 and the persistent colonizer Ochrobactrum vermis MYb71 with the aim to boost the growth of MYb11. Experimentally testing four of the predicted precision prebiotics, we confirm that they are specifically able to increase the abundance of MYb11 in vitro and in vivo. These results demonstrate that constraint-based modeling could be an important tool for the development of targeted microbiome-based therapies against human diseases.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>respond to evolutionary challenges <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b6">7)</ref>. Thus, the composition of the microbiota plays an important role in the well-being of hosts and its ability to respond to environ mental challenges <ref type="bibr" target="#b7">(8,</ref><ref type="bibr" target="#b8">9)</ref>, as indicated by the frequent shift of microbiota composition observed in the context of diseases <ref type="bibr" target="#b9">(10)</ref> and exposure to environmental stressors <ref type="bibr" target="#b10">(11)</ref>. These observations and work in animal models have led to the development of the notion that the composition of the microbiome itself might be an important modulator of host health <ref type="bibr" target="#b11">(12)</ref> as well as fitness and that a targeted modulation of microbiome composition might offer a completely new avenue for modulating the host.</p><p>It has been shown that dietary patterns (e.g., western diet) can affect the struc ture of the microbiome, however their effect is transient <ref type="bibr" target="#b12">(13)</ref>. Besides an influence of dietary uptake on microbiome composition, various approaches to modify the micro bial communities of organisms have been used <ref type="bibr" target="#b13">(14)</ref>: the transfer of entire microbial communities from a donor to a recipient host (fecal transfer), the provision of com pounds used by particular microbial species (prebiotics), the provision of microbial strains of natural or synthetic origin (probiotics), the provision of compounds of microbial origin (postbiotics), and combinations thereof (synbiotics). While fecal transfer is the most commonly used approach to modulate microbial community composition in animal models, it involves the transfer of entire microbial communities and therefore not only desirable traits. In consequence, there is only a single medical indication in which fecal transfers are routinely used thus far <ref type="bibr" target="#b14">(15)</ref> and there are potential concerns about the safety and stability of the engraftment of transplants <ref type="bibr" target="#b15">(16)</ref>.</p><p>Although the concept of supplementation with pre-, pro-, or synbiotics has been commonly proposed as a method of microbial manipulation, these approaches are still severely limited. In humans, oligosaccharides are proposed as prebiotics to alter the microbial community on both the structural and functional level, since they can be fermented by microbial species, which in turn can proliferate and produce bioactive compounds such as short-chain fatty acids <ref type="bibr" target="#b16">(17)</ref>. However, there is only little knowledge about other classes of compounds that might alter the microbial composition. Another important aspect to consider is the specificity with which individual target microorgan isms can be manipulated using prebiotics. Thus, while oligosaccharides are considered beneficial, there is often uncertainty about which species can degrade them, as multiple, unrelated species can degrade similar types of oligosaccharides (e.g., Bacteroidetes, Lactobacilli, and Bifidobacterium species can degrade fructans) <ref type="bibr" target="#b16">(17,</ref><ref type="bibr" target="#b17">18)</ref>. In case of supplementation with probiotics and synbiotics, other concerns have been raised. For instance, the ability of specific Bifidobacteria to stably colonize the human gut was only reported for ⅓ of the participants in a clinical trial <ref type="bibr" target="#b18">(19)</ref>. Moreover, introducing exogenous bacteria can have unwanted side effects. For example, some of the Bacillus species that were used as probiotics in aquacultures were found to carry virulence and antibioticresistance genes <ref type="bibr" target="#b19">(20)</ref>. Hence, to overcome these limitations in current microbiome manipulation approaches, we need to focus on prebiotics with well-controlled modes of action (e.g., based on known microbial pathways that can degrade prebiotics) that preferentially modulate the abundance of resident microbial species. Since mechanisms of pathogenicity are often complex and context-specific <ref type="bibr" target="#b20">(21)</ref>, it is preferred if these species are native to the microbiome of the host, as unwanted side-effects due to the introduction of foreign bacterial species might be avoided. Within this work, we will refer to prebiotics that specifically modulate the abundance of selected bacterial strains within the microbiome of a specific host as "precision prebiotics. "</p><p>To design and evaluate such precision prebiotics, it is essential to start with a tractable model system such as the well-established model organism Caenorhabditis elegans. The native microbial community of the invertebrate C. elegans was first described in 2016 <ref type="bibr" target="#b21">(22)</ref>, yet the nematode has already been used for over 20 years as a model for studying host-microbial interactions <ref type="bibr" target="#b22">(23)</ref>. To similarly promote C. elegans-microbiome research, a synthetic 12-member C. elegans-specific microbiome resource, CeMbio, was recently established <ref type="bibr" target="#b23">(24)</ref>. Part of this consortium is the Gram-negative Pseudomonas lurida MYb11 that is known to possess antifungal <ref type="bibr" target="#b21">(22)</ref> and antimicrobial properties, thereby providing protection against the pathogen Bacillus thuringiensis (Bt) <ref type="bibr" target="#b20">(21,</ref><ref type="bibr" target="#b24">25)</ref>. Besides its protective effects, MYb11 is known to colonize and persist in the C. elegans intestine <ref type="bibr" target="#b21">(22)</ref> and thus increase the nematode's fitness during infection <ref type="bibr" target="#b24">(25)</ref>. Ochrobactrum vermis MYb71 is another member of the CeMbio community <ref type="bibr" target="#b23">(24)</ref> and affects different host life-history traits <ref type="bibr" target="#b23">(24,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b26">27)</ref>, persistently colonizes the nematode <ref type="bibr" target="#b21">(22)</ref>, and has been described as competitive against other bacteria in terms of space and nutrients <ref type="bibr" target="#b26">(27)</ref>. Furthermore, the bacterial strain MYb11 was only able to grow on sucrose when co-cultured with MYb71 but not when cultured alone, suggesting that the two bacterial strains interact metabolically <ref type="bibr" target="#b26">(27)</ref>. Hence, a microbial community consisting of one beneficial bacterium and another one that is competitive offers an excellent opportunity for developing targeted approaches for microbiome manipulation.</p><p>A key prerequisite for the development of precision prebiotics is a detailed under standing of the metabolic functions present within a microbial community and how specific metabolic interventions affect microbiome metabolism. One important approach to investigate metabolic functions in microbial communities is constraintbased metabolic modeling <ref type="bibr" target="#b27">(28)</ref><ref type="bibr" target="#b28">(29)</ref><ref type="bibr" target="#b29">(30)</ref>. Based on the genetic information either on the level of each bacterium or from the overall community and biochemical databases, these methods allow one to simulate the network of chemical reactions that represent the metabolic reactions of the microorganism(s) or the community <ref type="bibr" target="#b30">(31)</ref>. To this end, genome-scale metabolic models of the bacterial species within a microbiome have to be reconstructed from genomic data. These models summarize the metabolic functions present within an organism and can be reconstructed using automated reconstruction approaches <ref type="bibr" target="#b31">(32,</ref><ref type="bibr" target="#b32">33)</ref> or obtained from existing model repositories <ref type="bibr" target="#b33">(34)</ref>. Furthermore, accounting for the growth environment of a species <ref type="bibr" target="#b34">(35)</ref>, optimization approaches such as flux balance analysis (FBA) for individual species <ref type="bibr" target="#b27">(28)</ref> or constraint-based commun ity modeling approaches <ref type="bibr" target="#b35">(36,</ref><ref type="bibr" target="#b36">37)</ref> can be used to predict metabolic activities within individual species as well as interactions between species. These methods have already been used to identify metabolic alterations in the microbiome of Parkinson's disease patients <ref type="bibr" target="#b37">(38)</ref> as well as patients with inflammatory bowel disease <ref type="bibr" target="#b38">(39)</ref> and to study the interaction of C. elegans as well as its microbiota in the context of drug-microbiome-host interactions <ref type="bibr" target="#b29">(30)</ref>. For C. elegans, metabolic models of the CeMbio community including MYb11 and MYb71 <ref type="bibr" target="#b23">(24)</ref> and other members of the microbiota are available <ref type="bibr" target="#b26">(27)</ref>.</p><p>In this work, we used metabolic networks of MYb11 and MYb71 also incorporat ing phenotypic information from Biolog growth assays in a computational screen for precision prebiotics that are able to specifically boost the abundance of the host-protec tive strain MYb11 over MYb71. We tested four of the predicted compounds, L-serine, L-threonine, D-mannitol, and γ-aminobutyric acid (GABA) in vitro and confirmed that they selectively boost the abundance of MYb11. Moving to the C. elegans host system, we moreover showed that L-serine is able to selectively boost the abundance of MYb11 when the C. elegans host was colonized with both bacterial species. Thus, we demon strate that constraint-based microbial community modeling approaches could represent a key tool for the design of targeted microbiome intervention approaches.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Computational methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Identification of unique uptake compounds</head><p>We explored to what extent individual metabolites, which are only taken up by a single bacterial species and no other, could serve as potential supplements to target individual species. To this end, we considered gut microbiome data from a Kiel-based human cohort comprising 1,280 participants for which 16S rRNA gene sequencing data is available, which we had utilized previously <ref type="bibr" target="#b29">(30)</ref>. As reported previously, the reads were mapped to the 16S sequences of the genomes of bacterial species present in the AGORA bacterial collection <ref type="bibr" target="#b33">(34)</ref>, the read counts of each sample were normalized to a sum of 1 and removal of species below 0.1% abundance in each sample. We used gapseq version 1.1 <ref type="bibr" target="#b31">(32)</ref> on the genomes of the identified species assuming the averaged dietary uptake of the human cohort <ref type="bibr" target="#b29">(30)</ref> as input to the models to reconstruct genomescale metabolic models. Subsequently, we identified for each bacterial species which metabolites can be taken up. To this end, for each exchange reaction of a metabolite, we set the respective reaction as an objective reaction. By convention, bacterial uptake of metabolites is modeled by exchange reactions where the forward direction corresponds to an excretion of a compound and the backward direction (i.e., negative flux) to its uptake. Therefore, we minimized the flux through each exchange reaction using FBA <ref type="bibr" target="#b39">(40)</ref> implemented in the R-package sybil <ref type="bibr" target="#b40">(41)</ref> which corresponds to maximizing the uptake of that metabolite. If the minimal flux through the exchange reaction was non-zero this metabolite could be taken up. Having repeated this procedure for each exchange reaction, we identified those compounds that can be taken up for each species. Then, we determined for each individual bacterial species in the gut microbiome of each participant whether it could take up a compound that could not be taken up by any other species in the bacterial community of this participant. Finally, we determined for each participant which fraction of the bacterial species contained in the gut microbiome had at least one unique uptake compound. Similarly, we reconstructed 78 bacterial models belonging to the C. elegans microbiota based on their published genomes <ref type="bibr" target="#b26">(27)</ref> using gapseq version 1.2 <ref type="bibr" target="#b31">(32)</ref>. We then created random subsets of the models with increasing sizes (from 2 to 78, 50 iterations for each size) and determined the portion of strains with unique uptake compounds for each community. For the CeMbio community we used metabolic models reconstructed with gapseq 1.2 (32) from Zimmermann et al. <ref type="bibr" target="#b41">(42)</ref>. In general, the software gapseq (32) has an extensive published documentation regarding the reconstruction of genome-scale metabolic models, also available online (<ref type="url" target="https://gapseq.readthedocs.io/en/latest/">https://gapseq.readthedocs.io/en/latest/</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Computational supplementation experiments</head><p>In our simulations, we utilized metabolic networks of P. lurida MYb11 and O. vermis MYb71 that were created from their genome sequences <ref type="bibr" target="#b26">(27)</ref> using gapseq (32) version 1.1. Information from phenotypic microarrays about the organisms' metabolic capacities was integrated into the models using the "adapt" module of gapseq. Specifically, we incorporated data from the Biolog EcoPlate (assuming growth if OD590-OD750 &gt;0.1) <ref type="bibr" target="#b23">(24)</ref>. During growth simulations, exchange fluxes of the models were constrained by assuming a computational nematode growth medium (NGM) <ref type="bibr" target="#b29">(30)</ref> and aerobic condi tions. These constraints can be found in Table <ref type="table">S1</ref>. Additionally, the inflow of copper and iron cations was increased, so that they did not restrict the growth of the models. Following published practices <ref type="bibr" target="#b35">(36)</ref> and due to the lack of the required kinetic informa tion, we used the concentration values of the NGM medium input for the lower bounds of the models.</p><p>We used three distinct approaches for modeling individual microbes and microbial communities. To model the growth of each bacterium independently, we used FBA <ref type="bibr" target="#b39">(40)</ref>. We also utilized individual-based modeling based on BacArena (36) R-package and a community-FBA as described previously <ref type="bibr" target="#b38">(39,</ref><ref type="bibr" target="#b42">43,</ref><ref type="bibr" target="#b43">44)</ref>. The community-FBA approach is implemented in the R-package MicrobiomeGS2 (<ref type="url" target="www.github.com/Waschina/Microbio">www.github.com/Waschina/Microbio</ref> meGS2) and an overview has been described in detail in the publication by Pryor et al. <ref type="bibr" target="#b29">(30)</ref>. To measure the effects of supplements on growth of the individual species, we modified the published approach, so that we did not fix species composition but let it be determined as part of the optimization of individual species biomasses. In all types of simulations, we focused on the identification of nutritional supplements that boosted the growth of the target species MYb11.</p><p>For the individual supplementation experiments, the metabolic models of both organisms were constrained with the NGM computational diet, assuming that the molecular values of the dietary compounds (molecular quantities) can be directly incorporated into the models (as fluxes in the lower bounds of the models) without any transformation. This is based on the assumption that the uptake rate of compounds is depicted by its maximum available amount <ref type="bibr" target="#b35">(36)</ref>. Supplementations for each metabolite were conducted by increasing the possible influx of the supplemented metabolite by 10 mmol/L. For testing the effects of supplements on single growth, the relative increase in growth rate compared to growth without supplements for each model was recorded. To prevent any numerical instabilities, all raw values were rounded to the sixth digit and relative changes bigger than 0.01 were taken into account.</p><p>For simulations using community FBA, the metabolic models of both organisms were merged into one microbial community, compartmentalized, model. Please note that we did not use a fixed community biomass composition as previously <ref type="bibr" target="#b29">(30)</ref>, since we employed community FBA to predict the resulting growth rates of individual species after maximizing the growth of the community. Thus, the community model was constrained with the NGM diet-extended with the individual supplements, as described in the previous paragraph. The growth rates of individual species were predicted by maximizing the sum of the growth rates of individual species with concomitant minimization of the sum of total fluxes as implemented in the R-package sybil (41) (with a coefficient of -10 -6 for the sum of fluxes in the objective function). Since the supplementations usually also increased the growth of the entire community, the predicted growth rates of each species were normalized with the respective growth rate of the community. Predicted growth rates following supplementation were contrasted against growth rates without supplementation to identify compounds whose effect was larger for the growth of MYb11 in comparison to MYb71. To exclude any numerical artifacts, rounding to the sixth digit and a cutoff of 0.01 in compound selection were also applied in this section.</p><p>For individual-based modeling of microbial communities, the metabolic models of both species were simulated in a virtual environment in BacArena, where they could randomly move and reproduce (36) on a 30 × 30 grid. As a growth medium, we used the NGM diet (in mM) which we diluted 1,000-fold, because otherwise bacterial models overgrew the entire simulation environment before nutrients were exhausted. For the simulations, we inoculated the growth environment with 20 individuals of each species and simulated bacterial growth for 12 iterations with 15 replicates for each supplemen tation using FBA. Replicates are needed since, in contrast to FBA, BacArena includes a stochastic component such as a random initial placement of individuals, random movement of individuals and random cellular replication events. A secondary objective to minimize the total flux while maximizing the growth rates of individuals was applied. To simulate the supplementation experiments, 0.01 mM of each compound of interest was added once in the beginning of the simulation. To identify significant changes in the growth profiles of individual species following each supplementation, we extracted the cell biomass information from the simulations using the command plotGrowthCurve and we calculated the relative change of the total biomass values (time step 13; rounding to the sixth digit) due the supplementations for each model. Then, the relative changes between the bacterial models were compared using Wilcoxon rank-sum tests <ref type="bibr" target="#b44">(45)</ref>. The resulting P values were corrected for multiple testing using false discovery rate control implemented in R. We selected those compounds whose effect on MYb11 was larger than on MYb71 based on the median of the respective relative changes for each model.</p><p>Based on these simulation techniques, we identified those compounds that specifically boosted MYb11 across the simulations. Subsequently, we subsetted this list to compounds for which we had positive confirmation of their uptake by MYb11 from Biolog experiments <ref type="bibr" target="#b23">(24,</ref><ref type="bibr" target="#b26">27)</ref>. For the enrichment analysis of growth-supporting compounds of MYb11, we used the human metabolome database (HMDB) annotation for the available metabolite classes <ref type="bibr" target="#b45">(46)</ref>. Briefly, we tested whether the sets of candidate compounds were enriched in the metabolite classes defined in HMDB using Fisher's exact test. As the underlying set of metabolites, we used the metabolites contained in the metabolic model of MYb11 in the different metabolite classes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>System information and software</head><p>Simulations and analyses were performed in the R environment (versions 4.0.0, 4.0.3, and 4.2.1). Model reconstructions were performed with the gapseq software (versions 1.1 and 1.2) (32) Optimizations were generally conducted using the software sybil (versions 2.1.5 and 2.2.0) <ref type="bibr" target="#b40">(41)</ref>. Specifically, multi-model supplementation was conducted using the software MicrobiomeGS2 (version 0.1.5, <ref type="url" target="www.github.com/Waschina/MicrobiomeGS2">www.github.com/Waschina/MicrobiomeGS2</ref>) and the in-silico co-culturing was simulated on BacArena (version 1.8.2, commit fdb02bf7) <ref type="bibr" target="#b35">(36)</ref>. Both incorporate sybil in their pipelines. The linear programming solver was CPLEX (versions 12.10.0 and 22.1.0), based on the R package cplexAPI (version 1.4.0). For data management, the software dplyr (versions 1.0.2, 1.0.4, and 1.0.9), tidyr <ref type="bibr">(</ref>version 1.1.3), tidyverse (version 1.3.2) (47), and data.table (version 1.14.2) were used. For parallel computing, the software foreach (version 1.5.0 and 1.5.1) and doMC (version 12.10.0) were used. For plotting, the software ggplot2 (versions 3.3.3 and 3.3.6) (48), egg (version 0.4.5), and ggVennDiagram (version 1.2.2.) were utilized.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bacterial strains</head><p>To determine bacterial growth in mono-and co-culture either in the presence or absence of supplementation, similarly to the computational section, the two naturally associated C. elegans microbiota isolates P. lurida MYb11 and O. vermis MYb71 were used. Fluores cently labeled MYb11::dTomato (21) and MYb71::GFP were used to distinguish the two bacterial species in a mixed community. For comparison, reverse labels were also tested, using MYb71::dTomato and MYb11::sfGFP, to ensure no impact of the fluorescent label (Fig. <ref type="figure" target="#fig_1">S2</ref>). Integrated fluorescent strains of MYb71 and the MYb11::sfGFP strain were constructed by transposon insertion at the attTn7 site following published work <ref type="bibr" target="#b48">(49)</ref>. Briefly, two populations of Escherichia coli SM10 strains were prepared: (i) a donor strain containing either pTn7xKS-sfGFP (pTW415) or pTn7xKS-dTomato (pTW416) plasmids, and (ii) a helper strain containing the pTNS2 (pTW10) plasmid. Liquid cultures (5 mL LB) of donor, helper (both 37°C) and target strains (26°C) were grown with agitation overnight, subcultured, and collected at an OD 0.4-0.6. Tripartite mating mixtures consisted of equal parts (1:1:1), incubated overnight at 26°C, followed by selection on LB agar plates containing gentamicin (10 µg/mL) and IPTG (1 mM). Fluorescent colonies of MYb71 were verified by PCR and sequencing using two pairs of MYb71-specific primers to the glmS gene region: (i) oDB097 (5′-CGCTCTGATCGATGAGACC-3′) and oDB098 (5′-TTGCGCGGCTG RTCGAC-3′), and (ii) oDB097 and a transposon WP11 primer (5′-CACGCCCCTCTTTAATACG A-3′) <ref type="bibr" target="#b48">(49)</ref>. MYb11::sfGFP was similarly confirmed by PCR and sequencing, following our previous protocol <ref type="bibr" target="#b20">(21)</ref>.</p><p>Bacteria were thawed from frozen stocks for each experiment, streaked to tryptic soy agar (TSA) plates and grown for 16-42 h at 25°C. Bacterial cultures of MYb11 and MYb71 were grown in liquid NGM overnight at 28°C in a shaking incubator. Cultures were adjusted to OD 600 = 0.5 with phosphate-buffered saline (PBS). We combined equal volumes of the adjusted cultures and used these as starting co-cultures for all experiments with the two strains, thus ensuring identical starting conditions across experimental treatments, as required for inference of an influence of the experimental manipulation on relative bacterial abundances.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementation in vitro</head><p>L-serine (1714.1), D-mannitol (8883.1), and L-threonine (T206.1) were purchased from Carl Roth (Karlsruhe, Germany), and GABA (A2129) from Merck (Darmstadt, Germany) and dissolved to 1 M or 0.5 M stocks in water, depending on the maximum soluble concentration. Liquid NGM was supplemented with a final concentration of 10 mM of the respective supplement. For supplementation assays in vitro, 5 µL of either mono-or co-culture of the bacteria was added to 95 µL of liquid NGM in a 96-well plate, in the presence or absence of supplement. Treatments were randomized with respect to plate layout. Plates were incubated at 28°C for 24 h in an Epoch2 BioTek plate reader with double orbital shaking at 807 CPM. We assessed changes in bacterial abundances by quantifying the number of colony-forming units (CFUs) of a sample of the cultures plated out on agar, because this allows us to distinguish between the two strains, which is not possible using standard OD measurements. For this approach, 7 µL of different dilutions of each treatment bacterial suspension of respective mono-or co-cultures was plated onto TSA plates. The plates were stored at 25°C and CFUs scored after 24-48 h. Statistical calculations and plots were performed with R software (version 4.1.3). For all CFU assays in vitro, statistical comparisons were performed with Wilcoxon signed-rank tests <ref type="bibr" target="#b44">(45)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementation in vivo</head><p>The C. elegans strain N2 was used for all in vivo experiments and was originally obtained from the Caenorhabditis Genetics Center (CGC). Worms were maintained on NGM plates inoculated with E. coli OP50 at 20°C following standard procedures <ref type="bibr" target="#b49">(50)</ref>. Assay plates were prepared by adding L-serine at a concentration of 0, 10, or 100 mM to NGM. Please note that serine can affect C. elegans foraging behavior (51). However and importantly for our proof-of-concept study, none of the numerous C. elegans foraging studies [including our own long-term experience (52-54)] indicated that this nematode is capable of a differential uptake of distinct bacterial strains from a mixed bacterial lawn. Therefore, any possible change in serine-induced nematode behavior is unlikely to cause any changes in the relative abundance of bacterial strains in the C. elegans gut-as long as identical starting cultures are used across experimental treatments, which we ensured with our experimental protocol. Overnight cultures of MYb11 and MYb71 were adjusted to OD 600 = 2.0 in PBS. Thirty to forty synchronized first instar larvae (L1) were grown on supplemented NGM plates inoculated with 125 µL of respective mono-or co-culture of MYb11 and MYb71. After 72 h, bacterial lawns were sampled by pressing the circular end of a 200-µL pipette tip into the lawn, avoiding the edges and any worms. The resulting disc was homogenized in PBS with zirconia beads in a Bead Ruptor 96 (Omni International) for 3 min at 30 Hz.</p><p>To assess the number of CFU, worms were washed off plates using M9-buffer + 0.025% Triton X-100, washed five times and paralyzed with 5 mM tetramisole to stop pumping of the worms as described in <ref type="bibr" target="#b23">(24)</ref>. Worms were surface-sterilized following <ref type="bibr" target="#b23">(24)</ref>, then washed two times in PBS to remove residual bleach. Worms were transferred to a new tube to determine the exact worm number (~20) and PBS was added to a final volume of 400 µL. Worms were allowed to settle and 100 µL supernatant was collected (supernatant control). Worms were homogenized in the remaining PBS using 1 mm zirconia beads in a Bead Ruptor 96 for 3 min at 30 Hz. Homogenized worms, lawns, and supernatants were serially diluted in PBS and plated on TSA plates. After up to 48 h at 25°C, the colonies were scored at the appropriate dilutions and the CFUs per worm were calculated. Each colonization experiment was conducted in three independ ent runs and equal biological replicates. Data were pooled across runs, and a mixed model controlling for runs was used to assess the effect of L-serine supplementation on bacterial colonization in C. elegans. For all L-serine in vitro and in vivo experiments, statistical comparisons were performed with generalized linear models, if not otherwise mentioned. We calculated the expected proportion of MYb11 in worms as the product of MYb11 proportions available on the lawns and the observed shift in bacterial propor tions due to host filtering:</p><formula xml:id="formula_0">E(Prop .</formula><p>MYb11 in supplemented worms) = Prop . MYb11 on supplemented lawns × Prop . MYb11 in worms Prop . MYb11 on lawns Plots and statistical analysis were produced with R (version 4.1.3) and edited with Inkscape (version 1.1.2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Overlapping metabolic niches between microbiome member species prevent the use of unique uptake compounds as precision prebiotics</head><p>The simplest approach to specifically boost the abundance of a particular bacterial species in a microbial community is to supply the community with a compound that is only taken up by the target species but no other species. Hence, these compounds correspond to unique metabolic niches for the respective bacterial species. We initially tested computationally whether such unique uptake compounds typically exist in bacterial communities, using bacterial communities from a human cohort as well as C. elegans <ref type="bibr" target="#b29">(30)</ref>. We evaluated for each bacterial species of a particular community whether it was able to take up a metabolite that no other species of the community could take up and determined the fraction of bacterial species in the community that had such unique uptake compounds (see Materials and Methods). For the human cohort, the bacterial communities comprised on average 26-34 bacterial species (25-75% quantiles). Within this community size, on average, 5-20% of bacterial species were inferred to possess unique uptake compounds that could potentially be used to target those species. For smaller communities, up to 50% of bacterial species and for larger communities, only 5-10% had unique uptake compounds (Fig. <ref type="figure">1A</ref>). For C. elegans, we do not have matching data like for the human cohort with species abundance information for a large number of samples and genome sequences of the corresponding bacterial species for metabolic FIG <ref type="bibr" target="#b0">1</ref> Frequency of species with unique uptake compounds in microbiomes. Fraction of species with unique uptake compounds in (A) human gut bacterial communities and in (B and C) C. elegans bacterial communities that are subsets of previously reported C. elegans microbiome member species.</p><p>modeling. However, we can use strains that have been isolated from C. elegans and its environment as well as artificial minimal C. elegans communities to approximate the frequency of unique uptake compounds in the C. elegans microbiota. Thus, within a sample of 78 bacterial species isolated from C. elegans and its environment, we usually only identified 3-5% of species with unique uptake compounds in communities comprising 30 or more bacterial species, which is the typical size of bacterial communi ties observed in C. elegans-derived microbiome samples (55) (Fig. <ref type="figure">1B</ref>). Similarly, in the artificial CeMbio C. elegans model microbiome community unique uptake compounds could usually only be detected for subsets of bacterial species up to a size of six member species (Fig. <ref type="figure">1C</ref>).</p><p>Thus, in a typical microbiome like those analyzed above, we would expect to be able to identify unique uptake compounds only for a minority of bacterial species and compounds to target specific bacterial species are typically expected to be consumed by several species. Thus, for our identification of precision prebiotics for MYb11, we first excluded 20 compounds from our search that could specifically be taken up only by MYb11 in the search for a MYb-targeted prebiotic (20 compounds, see Table <ref type="table">S2</ref>). Of note, MYb11 and MYb71 share the vast majority of all uptake compounds (85%), while only 10% and 5% of all uptake compounds are unique to MYb11 and MYb71, respectively (Fig. <ref type="figure" target="#fig_1">2A</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Computational identification of precision prebiotics targeting P. lurida MYb11</head><p>In order to derive precision prebiotics for P. lurida MYb11, we used its metabolic network as input for flux balance analysis and two distinct community modeling approaches apart from the basic approach of FBA. The first one is based on BacArena that incorpo rates an individual-based modeling approach and the other one is so-called community FBA implemented in MicrobiomeGS2. These two modeling approaches differ in their underlying assumptions. In BacArena the two bacteria are modeled by their individual metabolic networks and fluxes are predicted by maximizing the biomass fluxes of individual bacteria. In community FBA, in turn, the metabolic networks of the individual bacterial species are merged into a community model for which the sum of biomass fluxes of both bacterial species is maximized. Thus, when using BacArena, metabolic interactions between species typically arise from one species secreting an end-product that another species can metabolize. In community FBA, in turn, the optimization of total growth assumes that bacterial species coordinate their metabolic fluxes so that overall growth is maximized. Thus, since we do not know to which extent MYb11 and MYb71 mutually interact with each other, we cover both ends of the spectrum of potential interactions between species from completely individually optimized behavior in BacArena to an absolute coordination of fluxes to maximize overall community growth.</p><p>Using FBA, we identified 29 compounds that could increase the growth of MYb11 in single growth. Employing the community modeling approaches, we identified 81 compounds that increased the growth of MYb11 over MYb71 in community FBA and 17 compounds using BacArena (Fig. <ref type="figure" target="#fig_1">2D</ref>). In order to determine whether specific compound classes were enriched among the MYb11-supporting compounds, we performed an enrichment based on HMDB annotation <ref type="bibr" target="#b45">(46)</ref> across the three different simulation types. We found that growth-supporting compounds for MYb11 were enriched for fatty acids (Fisher's exact test P value = 3.16 × 10 -5 ).</p><p>Interestingly, the growth dynamics of the models when they were part of a commun ity model (Fig. <ref type="figure" target="#fig_1">2B</ref>) differ from the growth dynamics of the models when they were treated as individual organisms (Fig. <ref type="figure" target="#fig_1">2C</ref>). For instance, MYb71's biomass flux was much higher in the community model, i.e., when coupled to the model MYb11. This is a typical observation when using community FBA when the biomass of the entire community is maximized. Especially for small communities, this often leads to one community member that most efficiently turns the growth medium into biomass to grow strongest with only little growth for other community members. On the other hand, in the BacArena simulations, we observed that most of those compounds boosted the growth of both species in single growth, however, the effect was larger for MYb11 than MYb71 (Fig. <ref type="figure" target="#fig_1">2C</ref>). While BacArena also uses FBA to simulate bacterial growth, only a subset of FBApredicted compounds that increase the growth of MYb11 over MYb71 was actually also identified by the BacArena approach (17 out of 29). The likely reason is that the FBA approach does not take into account potential interactions between species and that BacArena incorporates a stochastic component, for instance, for determining positioning as well as movement of bacteria and cellular replication events, such that small differences in growth rate between bacterial species might be filtered out by these stochastic events. Of the identified compounds, 17 compounds were shared across the three simulations. For eight of these, also information on uptake by MYb11 was available from Biolog plates which confirmed that MYb11 was able to consume them (24, 27) (Fig. <ref type="figure" target="#fig_1">2D</ref>). Thus, combining modeling approaches and cross-referencing data from Biolog plates allowed us to considerably reduce our list of candidates to test experimentally to those giving the most consistent results. Based on the available literature information on the role of these compounds in longevity of the host <ref type="bibr" target="#b55">(56,</ref><ref type="bibr" target="#b56">57)</ref> or physiology <ref type="bibr" target="#b57">(58)</ref>, as nutri tional compounds <ref type="bibr" target="#b23">(24,</ref><ref type="bibr" target="#b58">59)</ref>, or compounds that are involved in host-microbial interactions <ref type="bibr" target="#b57">(58,</ref><ref type="bibr" target="#b59">60)</ref>, we selected four candidates for further experimental testing as precision prebiotics to specifically increase the abundance of MYb11.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>In vitro validation of predicted precision prebiotics</head><p>As a proof-of-concept, we experimentally tested the ability of four of the predic ted precision prebiotics compounds, L-serine, L-threonine, GABA, and D-mannitol, to specifically increase the growth of MYb11 in co-culture with MYb71. L-serine is a dietary amino acid that has been involved in nutrition-drug-host-microbial interactions <ref type="bibr" target="#b59">(60)</ref> and can support the lifespan of the host (57), L-threonine, an essential amino acid <ref type="bibr" target="#b58">(59)</ref>, through its catabolite methylglyoxal (in low amounts) can also have a positive effect on host's lifespan <ref type="bibr" target="#b55">(56)</ref>. GABA, apart from being a bacterial product, is protective for the host's neurons <ref type="bibr" target="#b57">(58)</ref>. Finally, D-mannitol is a commonly used sugar alcohol <ref type="bibr" target="#b23">(24)</ref>, therefore its usage as a nutritional compound would make its usage as a supplement a safe option for the host.</p><p>We supplemented MYb11 and MYb71 in mono-as well as co-culture and measured bacterial growth in vitro in liquid NGM after 5 h (Fig. <ref type="figure">S1</ref>) and 24 h. Independently of the added supplement or the mono-or co-culturing, MYb11 and MYb71 showed increased growth in mono-and co-cultures when supplemented with 10 mM L-serine, L-threonine, GABA, as well as D-mannitol after 24 h (Fig. <ref type="figure" target="#fig_2">3A</ref>; Tables <ref type="table">S6 to S9</ref>). Additionally, to quantify bacterial growth, we used fluorescently labeled strains. CFU of mono-and co-culture were plated and counted after 24 h growth in liquid culture in the presence (10 mM) or absence (0 mM) of the four compounds L-serine (Fig. <ref type="figure" target="#fig_2">3B</ref>; Table <ref type="table">S10</ref>), L-threonine (Fig. <ref type="figure" target="#fig_2">3C</ref>; Table <ref type="table">S12</ref>), GABA (Fig. <ref type="figure" target="#fig_2">3D</ref>; Table <ref type="table">S13</ref>), and D-mannitol (Fig. <ref type="figure" target="#fig_2">3E</ref>; Table <ref type="table">S14</ref>). MYb11 and MYb71 showed increased colony numbers in mono-culture when supplemented with L-serine and L-threonine compared to no supplementation (Fig. <ref type="figure" target="#fig_2">3B</ref> and <ref type="figure">C</ref>, Wilcoxon signed-rank test, P = 0.001, P = 0.006, P = 0.007, P = 0.032, respectively). GABA supple mentation led to an increase in the growth of MYb11 in mono-culture, but not MYb71 (Fig. <ref type="figure" target="#fig_2">3D</ref>, Wilcoxon signed-rank test, P &lt; 0.001, P = 0.922, respectively), while D-mannitol had no effect on the growth of MYb11 nor MYb71 in mono-culture (Fig. <ref type="figure" target="#fig_2">3E</ref>, Wilcoxon  signed-rank test, P = 0.259, P = 0.661, respectively). Thus, while serine as well as threonine boosted growth of MYb11 in co-culture versus unsupplemented single growth, and mannitol as well as GABA did not change growth in co-culture versus unsupplemented single growth, all four compounds specifically promoted MYb11 growth in co-culture over MYb71 in vitro and thus confirmed the computational predictions (Fig. <ref type="figure" target="#fig_2">3B</ref> through E, Wilcoxon signed-rank test, P = 6.87E-06, P &lt; 0.001, P = 7.15E-06, P = 7.07E-06, respec tively) (see also: Table <ref type="table">S11</ref>)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Concentration-dependent effect of L-serine supplementation in vitro</head><p>The statistical analyses suggested that L-serine is the most promising precision prebiotic for further analysis among the compounds validated in vitro. We repeated the in vitro supplementation experiment across a concentration gradient to determine the optimal dose for enrichment of MYb11. Overall, the MYb11 growth as well as MYb71 growth in monoculture at 10 and 100 mM over time were increased following the increase in L-serine concentrations (Fig. <ref type="figure" target="#fig_3">4A</ref>; Table <ref type="table">S15</ref>). When quantifying the growth with supplementation at the same concentration gradient (Fig. <ref type="figure" target="#fig_3">4B</ref>; Table <ref type="table">S16</ref>), then starting with 1 mM did not significantly impact the abundance of MYb11 proportions (GLM, P = 0.778), nor MYb71 (GLM, P = 0.69). However, supplementation with 10 mM led to an enrichment of MYb11 (GLM, P &lt; 0.001), thereby indicating a significant difference in proportions in co-culture between MYb11 and MYb71 (GLM, P = 5.77E-07). Essentially identical results were obtained at 100 mM, including an MYb11 enrichment (GLM, P = 0.004), and a significant difference between MYb11 and MYb71 proportions (GLM, P = 7.93E-05). (See also: Table <ref type="table">S17</ref>)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Serine supplementation alters bacterial colonization of C. elegans</head><p>Finally, we tested whether L-serine supplementation to solid growth medium would alter bacterial proportions in the host C. elegans. Synchronized populations of L1 larvae were pipetted onto bacterial lawns of MYb11 and MYb71 on solid NGM plates supplemented with either 0, 10, or 100 mM L-serine. After 72 h, adult worms were collected to quantify bacterial proportions. Supplementation at 10 mM L-serine did not change the proportion of MYb11 in co-culture in worms compared to non-supplemented media (GLM, P = 0.459, Fig. <ref type="figure" target="#fig_4">5A</ref> left panel). However, L-serine supplementation at 100 mM increased the proportion of MYb11 in the bacterial community in worms compared to non-supple mented media (GLM, P &lt; 0.001, Fig. <ref type="figure" target="#fig_4">5A</ref>, right panel). We next asked whether the effect of supplementation on bacterial proportions in the host simply reflected changes in the proportion of bacteria that were available to them on the lawn (i.e., their diet). The relative abundance of MYb11 on lawns did not change by 10 mM supplementation (GLM, P = 0.61, Fig. <ref type="figure" target="#fig_4">5A</ref>, left panel) compared to non-supplementation. However, the relative abundance of MYb11 was approximately 60% in non-supplemented media and increased to approximately 75% with 100 mM L-serine supplementation (GLM, P &lt; 0.002, Fig. <ref type="figure" target="#fig_4">5B</ref>, right panel). The observed proportions of MYb11 in worms at 100 mM serine were significantly higher than expected based on proportions in the lawn and thus colonization probability compared to MYb71 (chi-squared test, Χ 2 = 10.244, df = 1, P = 0.0013; see Materials and Methods). This suggests that the provision of serine enriches MYb11 in the host independently from the enrichment observed on the lawn and that serine allows MYb11 to overcome its growth disadvantages in competition with MYb71 in the host (see also: Table <ref type="table">S18</ref> and <ref type="table">S19</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Although many factors are known to influence microbiome composition [e.g., dietary patterns, lifestyle, or medication <ref type="bibr" target="#b60">(61)</ref>], the mechanisms causing these changes are often not fully understood and often a large number of bacterial species are affected. We propose that the most effective way to modulate the composition of the microbiome is by modulating or enriching the abundance of an already existing bacterial species with health-beneficial effects using precision prebiotics. A direct approach to identify such precision prebiotics would be to provide compounds that are uniquely taken up by the bacterial target species. However, through an analysis of C. elegans and human microbiome data, we were able to show that such unique uptake compounds typically only exist for few species in a microbial community and especially for larger communities there are no such compounds at all. Thus, in a typical microbiome, precision prebiotics have to be identified from compounds that are potentially taken up by several species. To identify such compounds, we used genome-scale metabolic networks of two bacterial members from the C. elegans microbiome, O. vermis MYb71, and the host-protective P. lurida MYb11, in conjunction with constraint-based model ing to identify compounds that specifically increased the growth of MYb11. Using HMDB annotation <ref type="bibr" target="#b45">(46)</ref>, we found that fatty acids were enriched as predicted growthsupporting compounds for MYb11 which is in agreement with previous observations of the preference of bacteria of the genus Pseudomonas for these compounds (62). Considering compounds that were identified across all three simulation approaches and cross-referencing with Biolog data revealed that 4-hydroxybenzoate, D-mannitol, γ-aminobutyric acid (GABA), glycerol-3-phosphate, L-serine, trehalose, L-threonine, and putrescine are potential precision prebiotics for MYb11. We experimentally tested four of these predicted compounds, L-serine, L-threonine, D-mannitol, and GABA in vitro and confirmed their positive effect specifically on the growth of MYb11. Moving into the C. elegans host system, we were able to show that L-serine is also able to selectively boost the abundance of MYb11 in vivo, when the host was colonized with both bacterial species. Interestingly, while 10 mM of L-serine was sufficient for an enrichment of MYb11 in batch culture, 100 mM was necessary in the growth experiments with the host. This suggests differences in either bacterial uptake kinetics for L-serine or bacterial growth in general between batch growth and growth on agar plates. Moreover, while MYb11 was strongly enriched in worms to similar levels like MYb71 even though it had a very low abundance in the lawn, this enrichment was even stronger when supplying L-serine. Thus, our proof-of-principle work demonstrates that constraint-based microbial community modeling approaches are an effective tool for the future development of targeted microbiome therapies using precision prebiotics.</p><p>The effect of serine and threonine on the host and/or on its microbiome has been also documented in the literature. For instance, threonine is an essential amino acid for the host <ref type="bibr" target="#b58">(59)</ref>. Longevity effects on the host have been shown also after supplemen tation with threonine <ref type="bibr" target="#b62">(63)</ref> and serine <ref type="bibr" target="#b56">(57)</ref>, while dietary serine reduced host fitness through acting on bacterial metabolism, when it was supplemented along with the chemotherapeutic 5-fluoro 2′deoxyuridine <ref type="bibr" target="#b59">(60)</ref>. Moreover, serine promotes the growth of E. coli LF82 in the mouse gut <ref type="bibr" target="#b63">(64)</ref>, which shows the potential of this compound to alter the abundance of multiple species. In accordance, we also observed the effects of serine on MYb71 growth, which was, however, stronger for MYb11 if they were grown in community.</p><p>One important challenge to specifically target the microbiome with nutritional supplements is to prevent host uptake or metabolization of the supplements <ref type="bibr" target="#b64">(65)</ref>. Different approaches to achieve restricted bioavailability, such as the supplementation of non-digestible carbohydrates <ref type="bibr" target="#b65">(66)</ref> or coating of supplements with compounds that dissolve during passage through the digestive tract have been developed <ref type="bibr" target="#b66">(67)</ref><ref type="bibr" target="#b67">(68)</ref><ref type="bibr" target="#b68">(69)</ref>. Moreover, as indicated by our analysis of concentration-dependent effects of supple mentation in the case of serine, it might be necessary to control the specific concentra tions of a compound that are being released and their stability over time in the gut. From the bacterial side, Biolog assays have shown that MYb11 has the capacity to catabolize serine (Fig. <ref type="figure" target="#fig_1">2D</ref>). However, the specific concentrations used on the Biolog plates and the mechanisms of transport that are possibly dependent on those concentrations are not known. From the host side, to maintain relatively constant concentrations in the host environment or to deviate from its normal concentrations, advanced formulations such as nanotechnology <ref type="bibr" target="#b69">(70)</ref>, delayed release, and other drug delivery technologies (71, 72) could be employed.</p><p>Although our combined computational-experimental approach can serve as a blueprint for future studies aimed at the identification of precision prebiotics, several factors should still be taken into consideration. As we showed, it is nearly impossible to identify a compound that is uniquely taken up by only one species within a community. This point becomes apparent, if we consider the numerous different species that reside in various hosts. For instance, the synthetic bacterial community of C. elegans, CeMbio (24) has 12 members, while the human-related bacterial community AGORA has more than 800 species <ref type="bibr" target="#b33">(34)</ref>. Thus, an important next step is to scale up our approach to more complex communities. Also along these lines, we did use automatically reconstructed bacterial metabolic networks from our gapseq approach rather than manually curated networks which resembles the typical situation in the human gut microbiota where a detailed manual reconstruction of the hundreds to thousands of already detected and sequenced bacterial species is practically impossible. Furthermore, since the physiology of worms cannot be directly compared to the physiology of humans, the efficacy and effectiveness of the approach [see more on the topic (73)] need to be studied in more detail. At this point, the complexity of the regulatory affairs in various jurisdictions (e.g., the definition of nutritional supplementation vs medication, safety concerns) should also not be underestimated <ref type="bibr" target="#b73">(74)</ref>. Additionally, while the modeling approach we used has quite a number of underlying assumptions, it allowed us to considerably narrow down the list of potential candidate metabolites for experimental testing. Finally, we did not consider potential side effects of the supplemented metabolites on the worm host and did not optimize the mode of delivery, for instance, to release the supplement specifically in the worm gut, which are important considerations for future studies. Taking everything into consideration, we showed that the in silico design of targeted supplementation strategies to modulate the microbiome is not only feasible but also promising for the development of future microbiome-based treatment.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG 2</head><label>2</label><figDesc>FIG 2 Metabolic-modeling guided identification of precision prebiotics. (A) Overlap of all exchange reactions across the models MYb11 and MYb71. (B) Community FBA supplementation of Pseudomonas lurida MYb11 (pink) and Ochrobactrum vermis MYb71 (green) in MicrobiomeGS2. Predicted relative abundance of MYb11 and MYb71 under the supplementation with 4-hydroxybenzoate, D-mannitol, GABA, glycerol-3-phosphate, L-serine, L-threonine, (Continued on next page)</figDesc><graphic coords="10,63.29,72.00,458.41,610.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIG 2 (</head><label>2</label><figDesc>FIG 2 (Continued) putrescine, and threhalose shown in dots, lines represent predicted relative abundance without any supplementation. (C) In-silico supplementation of Pseudomonas lurida MYb11 (pink) and Ochrobactrum vermis MYb71 (green) in BacArena. Predicted growth curves of MYb11 and MYb71 either with 10 mM of 4-hydroxybenzoate, D-mannitol, GABA, glycerol-3-phosphate, L-serine, L-threonine, putrescine, or trehalose(solid line) or without supplementation (dashed line). (D) Comparison of predicted precision prebiotics for MYb11 in community with MYb71 with different computational approaches (first three columns) and growth data on Biolog EcoPlates and Biolog GN2 plates (24, 27) (last two columns). Full squares represent cases in which a metabolite was predicted as precision prebiotic for MYb11, empty squares if modeling predicted no increased growth of MYb11 over MYb71. For the Biolog data, filled triangles represent cases of catabolization of the respective compound and empty ones if no catabolization was observed. Missing circles indicate compounds not tested by Biolog plates.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIG 3</head><label>3</label><figDesc>FIG 3 In vitro growth of Pseudomonas lurida MYb11 and Ochrobactrum vermis MYb71 in mono-and co-culture with four different supplements for 24 h. (A) Growth curves of co-cultures (gray) or mono-cultures of MYb11 (pink) and MYb71 (green) in liquid NGM for 24 h either with 10 mM of L-serine, L-threonine, GABA, or D-mannitol (solid line) or without supplementation (dashed line). (B, C, D, E) Colony-forming units (CFUs/µL) in mono-cultures of MYb11 (left) and MYb71 (right) or in co-culture (middle) after 24 h of 10 mM of the respective supplement. Shown are boxplots with the median as a thick horizontal line, the interquartile range as box, the outer quartiles as whiskers, and each replicate depicted by a dot. The CFU count data of every replicate was normalized by subtracting the median of the CFU count data from the corresponding non-supplemented control treatments (control and experimental data provided in the Tables S10, S12 to S14). Black asterisks indicate statistical comparisons between supplemented and non-supplemented median, gray asterisks indicate statistical comparisons between supplemented medians of MYb11 and MYb71. n = 5-14.</figDesc><graphic coords="12,60.06,72.00,356.88,533.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FIG 4</head><label>4</label><figDesc>FIG 4 Concentration-dependent effect of L-serine supplementation on bacterial growth in vitro. (A) Bacterial growth was measured based on optical density (OD 600 ) of each species in mono-culture in liquid nematode growth medium (NGM) with the respective L-serine supplementation of 0, 1, 10, or 100 mM. Points represent individual replicates, while lines indicate the mean, n = 12. (B) Relative abundance of MYb11 (pink) and MYb71 (green) in co-cultures grown for 24 h with the respective supplement concentration in liquid NGM, based on colony counts of fluorescently labeled bacteria. Shown are boxplots with the median as a thick horizontal line, the interquartile range as box, the outer quartiles as whiskers, and each replicate depicted by a dot. Bacterial abundances of every replicate were normalized by subtracting the median of the corresponding non-supplemented control (0 mM) for each bacterial strain; the respective median values are indicated by the dashed lines. Statistical differences were determined by GLM and are indicated by asterisks (*** P &lt; 0.001). Black asterisks indicate statistical comparisons between supplemented and non-supplemented median, gray asterisks indicate statistical comparisons between supplemented medians of MYb11 and MYb71. n = 9-12.</figDesc><graphic coords="13,72.94,272.92,331.13,325.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FIG 5 L</head><label>5</label><figDesc>FIG 5 L-serine supplementation alters bacterial abundance in C. elegans. (A) Adult worms were collected from solid NGM plates, which had been inoculated with co-culture and supplemented with 10 mM L-serine (left panel) or 100 mM (right panel) L-serine. Worms were washed and surface-sterilized to remove residual bacteria, then homogenized in a buffer. Bacterial proportions were quantified based on colony counts. (B) Bacterial lawns were sampled by cutting an agar disc of standardized size from NGM plates supplemented with 10 mM (left panel) or 100 mM L-serine (right panel). Discs were homogenized in buffer, and CFUs were quantified. (A and B) Shown are boxplots with the median as a thick horizontal line, the interquartile range as box, the outer quartiles as whiskers, and each biological replicate depicted by a symbol. For each replicate and each bacterium, bacterial abundance from experimental treatments was normalized by subtracting the median of the corresponding non-supplemented controls (0 mM), as indicated by the dashed lines. Statistical differences were determined by GLM and are indicated by asterisks (*** P &lt; 0.001, **P &lt; 0.01) and show comparisons between supplemented and non-supplemen ted median.</figDesc><graphic coords="15,64.01,72.00,284.47,365.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="8,92.10,342.54,400.80,363.46" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-23 2</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-23 3</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-23 4</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-23 5</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-23 6</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-23 7</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_6"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-23 8</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_7"><p>February 2024 Volume 12 Issue 2</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_8"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-2310</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_9"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-2311</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_10"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-2312</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_11"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-2313</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_12"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-2314</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_13"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-2315</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_14"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-2316</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_15"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-2317</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_16"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-2318</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_17"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-2319</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_18"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-2320</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_19"><p>February 2024 Volume 12 Issue 2 10.1128/spectrum.01144-2321</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>The authors acknowledge support by the <rs type="funder">German Research Foundation</rs> within the collaborative research center "<rs type="projectName">Origin and Function of Metaorganisms</rs>, " <rs type="grantNumber">CRC1182</rs>, sub-project A1 to C.K., K.D., and H.S.; the research unit miTarget (<rs type="grantNumber">FOR5042</rs>) to C.K. and the excellence cluster "<rs type="projectName">Precision medicine in chronic inflammation</rs>" (<rs type="grantNumber">EXC2167</rs>) to C.K. and H.S. C.K. moreover acknowledges support by the <rs type="funder">German Ministry for Education and Research</rs> (E:<rs type="funder">Med iTREAT</rs>, support code <rs type="grantNumber">01ZX1902A</rs>). G.M. received support through a <rs type="grantName">Young Investigator Award</rs> by the <rs type="grantNumber">CRC1182</rs>. R.D. received support through a <rs type="grantName">Short-Term Research Grant</rs> from the <rs type="funder">Deutscher Akademischer Austauschdienst (German Academic Exchange Service)</rs>. The authors also acknowledge funding via <rs type="funder">NIH</rs> grant <rs type="grantNumber">DP2DK116645</rs>, <rs type="funder">NASA</rs> grant <rs type="grantNumber">80NSSC22K0250</rs>, and <rs type="funder">JGI/DOE</rs> grant <rs type="grantNumber">CSP-503338</rs> (all to B.S.S.).</p><p>This research was supported in part through high-performance computing resources available at the <rs type="institution" subtype="infrastructure">Kiel University</rs> computing center. C. elegans N2 was originally provided by the <rs type="institution">Caenorhabditis Genetics Center</rs> (CGC; <ref type="url" target="https://cgc.umn.edu/">https://cgc.umn.edu/</ref>), which is funded by the <rs type="funder">NIH Office of Research Infrastructure Programs</rs> (<rs type="grantNumber">P40 OD010440</rs>).</p></div>
+			</div>
+			<div type="funding">
+<div><p><rs type="grantName">FUNDING Funder Grant</rs>(s) Author(s) <rs type="funder">Deutsche Forschungsgemeinschaft (DFG)</rs> <rs type="grantNumber">CRC1182</rs> <rs type="funder">Andre Franke Hinrich Schulenburg Christoph Kaleta Deutsche Forschungsgemeinschaft (DFG)</rs> <rs type="grantNumber">FOR5042</rs> <rs type="funder">Andre Franke Christoph Kaleta Deutsche Forschungsgemeinschaft</rs> (<rs type="funder">DFG</rs>) <rs type="grantNumber">EXC2167</rs> <rs type="person">Andre Franke Matthias Laudes</rs> <rs type="funder">Hinrich Schulenburg Christoph Kaleta Bundesministerium für Bildung und Forschung (BMBF)</rs> <rs type="grantNumber">01ZX2202A</rs> Christoph Kaleta Funding acquisition, Methodology | <rs type="person">Katja Dierking</rs>, Resources, Writing -review and editing, Funding acquisition, Methodology | <rs type="person">Andre Franke</rs>, Resources, Writing -review and editing | <rs type="person">Matthias Laudes</rs>, Resources, Writing -review and editing | Silvio Was china, Software, Writing -review and editing | Hinrich Schulenburg, Conceptualization, Funding acquisition, Supervision, Writing -review and editing, Methodology, Resour ces | <rs type="person">Christoph Kaleta</rs>, Conceptualization, Funding acquisition, Project administration, Supervision, Writing -original draft, Writing -review and editing, Formal analysis, Investigation, Methodology, Resources, Software</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_CAVKWA3">
+					<idno type="grant-number">CRC1182</idno>
+					<orgName type="project" subtype="full">Origin and Function of Metaorganisms</orgName>
+				</org>
+				<org type="funded-project" xml:id="_7nHHqQY">
+					<idno type="grant-number">FOR5042</idno>
+					<orgName type="project" subtype="full">Precision medicine in chronic inflammation</orgName>
+				</org>
+				<org type="funding" xml:id="_bSadvew">
+					<idno type="grant-number">EXC2167</idno>
+				</org>
+				<org type="funding" xml:id="_uYqV3Sw">
+					<idno type="grant-number">01ZX1902A</idno>
+					<orgName type="grant-name">Young Investigator Award</orgName>
+				</org>
+				<org type="funding" xml:id="_pWGmKdx">
+					<idno type="grant-number">CRC1182</idno>
+					<orgName type="grant-name">Short-Term Research Grant</orgName>
+				</org>
+				<org type="funding" xml:id="_Schvx2Y">
+					<idno type="grant-number">DP2DK116645</idno>
+				</org>
+				<org type="funding" xml:id="_YZYahTW">
+					<idno type="grant-number">80NSSC22K0250</idno>
+				</org>
+				<org type="funding" xml:id="_WFS6Ef8">
+					<idno type="grant-number">CSP-503338</idno>
+				</org>
+				<org type="funding" xml:id="_5TdhAbd">
+					<idno type="grant-number">P40 OD010440</idno>
+				</org>
+				<org type="funding" xml:id="_YhCvKut">
+					<idno type="grant-number">CRC1182</idno>
+					<orgName type="grant-name">FUNDING Funder Grant</orgName>
+				</org>
+				<org type="funding" xml:id="_59cd48h">
+					<idno type="grant-number">FOR5042</idno>
+				</org>
+				<org type="funding" xml:id="_cXZqfuk">
+					<idno type="grant-number">EXC2167</idno>
+				</org>
+				<org type="funding" xml:id="_w9TESqk">
+					<idno type="grant-number">01ZX2202A</idno>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">Kiel University</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY</head><p>The R scripts and the raw data to conduct the simulations are deposited in Github (version/commit: e15eb1e). Metabolic models used in the prediction of unique uptake compounds have been deposited in FigShare. The growth rate changes of the supple mentation experiments with FBA sybil and MicrobiomeGS2 can be found in Supplemen tary Tables <ref type="table">S3</ref> and <ref type="table">S4</ref>. The bacterial biomass data of the BacArena simulations can be found in Supplementary Table <ref type="table">S5</ref>.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR AFFILIATIONS AUTHOR CONTRIBUTIONS</head><note type="other">Georgios</note></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ETHICS APPROVAL</head><p>The human cohort data used in this study originate from the publication of Pryor et al. <ref type="bibr" target="#b29">(30)</ref>, whose access was provided by the PopGen biobank (Schleswig-Holstein, Germany) <ref type="bibr" target="#b74">(75)</ref>. The raw data are available from the biobank through a structured application procedure (<ref type="url" target="https://www.uksh.de/p2n/Information+for+Researchers.html">https://www.uksh.de/p2n/Information+for+Researchers.html</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ADDITIONAL FILES</head><p>The following material is available online.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplemental Material</head><p>Supplementary figures (Spectrum01144-23-s0001.docx). Figures <ref type="figure">S1</ref> and <ref type="figure">S2</ref>. Supplementary tables (Spectrum01144-23-s0002.xlsx). Tables <ref type="table">S1-S20</ref>.</p><p>Open Peer Review PEER REVIEW HISTORY (review-history.pdf). An accounting of the reviewer comments and feedback.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Control of pathogens and pathobionts by the gut microbiota</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Inohara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Núñez</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ni.2608</idno>
+		<ptr target="https://doi.org/10.1038/ni.2608" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Immunol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="685" to="690" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Interaction between microbiota and immunity in health and disease</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Liwinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Elinav</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41422-020-0332-7</idno>
+		<ptr target="https://doi.org/10.1038/s41422-020-0332-7" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="492" to="506" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Gut microbiota functions: metabolism of nutrients and other food components</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Rowland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heinken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Swann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Thiele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tuohy</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00394-017-1445-8</idno>
+		<ptr target="https://doi.org/10.1007/s00394-017-1445-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Nutr</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="1" to="24" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Gut reactions: breaking down Xenobiotic-microbiome interactions</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">V</forename><surname>Sandhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Dinan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Cryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Hyland</surname></persName>
+		</author>
+		<idno type="DOI">10.1124/pr.118.015768</idno>
+		<ptr target="https://doi.org/10.1124/pr.118.015768" />
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacol Rev</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="198" to="224" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Interaction between drugs and the gut microbiome</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Weersma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zhernakova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fu</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/gutjnl-2019-320204</idno>
+		<ptr target="https://doi.org/10.1136/gutjnl-2019-320204" />
+	</analytic>
+	<monogr>
+		<title level="j">Gut</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1510" to="1519" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Microbiome-mediated plasticity directs host evolution along several distinct time scales</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kolodny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schulenburg</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rstb.2019.0589</idno>
+		<ptr target="https://doi.org/10.1098/rstb.2019.0589" />
+	</analytic>
+	<monogr>
+		<title level="j">Philos Trans R Soc Lond B Biol Sci</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="page">20190589</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The microbiome extends host evolutionary potential</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bruijning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Skg</forename><surname>Forsberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Ayroles</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-021-25315-x</idno>
+		<ptr target="https://doi.org/10.1038/s41467-021-25315-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">5141</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Microbiome-mediated stress resistance in plants</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Brettell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tplants.2020.03.014</idno>
+		<ptr target="https://doi.org/10.1016/j.tplants.2020.03.014" />
+	</analytic>
+	<monogr>
+		<title level="j">Trends Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="733" to="743" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Microbiota in health and diseases</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z-X</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X-Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Koya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z-S</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41392-022-00974-4</idno>
+		<ptr target="https://doi.org/10.1038/s41392-022-00974-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Signal Transduct Target Ther</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">135</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The gut microbiome: relationships with disease and opportunities for therapy</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Durack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Lynch</surname></persName>
+		</author>
+		<idno type="DOI">10.1084/jem.20180448</idno>
+		<ptr target="https://doi.org/10.1084/jem.20180448" />
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Med</title>
+		<imprint>
+			<biblScope unit="volume">216</biblScope>
+			<biblScope unit="page" from="20" to="40" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Effects of psychological effects of psychological, environmental and physical stressors on the gut microbiota</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Karl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Hatch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Arcidiacono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Pearce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Pantoja-Feliciano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Doherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Soares</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2018.02013</idno>
+		<ptr target="https://doi.org/10.3389/fmicb.2018.02013" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2013">2018. 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A comparative review on microbiota manipulation: lessons from fish, plants, livestock, and human research</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brugman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ikeda-Ohtsubo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Braber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Folkerts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cmj</forename><surname>Pieterse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pahm</forename><surname>Bakker</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fnut.2018.00080</idno>
+		<ptr target="https://doi.org/10.3389/fnut.2018.00080" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Nutr</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">80</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The impact of diet on microbiota evolution and human health. Is diet an adequate tool for microbiota modulation?</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Moles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Otaegui</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/nu12061654</idno>
+		<ptr target="https://doi.org/10.3390/nu12061654" />
+	</analytic>
+	<monogr>
+		<title level="j">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">1654</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Microbiome-based therapeutics</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Sorbara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Pamer</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41579-021-00667-9</idno>
+		<ptr target="https://doi.org/10.1038/s41579-021-00667-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="365" to="380" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Regulation, risk and safety of faecal microbiota transplant</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Merrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Masirah M Zain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Forbes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Shawcross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Golden</forename><surname>Berg Sd</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.infpip.2020.100069</idno>
+		<ptr target="https://doi.org/10.1016/j.infpip.2020.100069" />
+	</analytic>
+	<monogr>
+		<title level="j">Infect Prev Pract</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">100069</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Fecal microbiota transplantation: is it safe?</title>
+		<author>
+			<persName><forename type="first">S-Y</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Seo</surname></persName>
+		</author>
+		<idno type="DOI">10.5946/ce.2021.072</idno>
+		<ptr target="https://doi.org/10.5946/ce.2021.072" />
+	</analytic>
+	<monogr>
+		<title level="j">Clin Endosc</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="157" to="160" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Mechanisms of action of prebiotics and their effects on gastro-intestinal disorders in adults</title>
+		<author>
+			<persName><forename type="first">Mpl</forename><surname>Guarino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Altomare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Emerenziani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Di</forename><surname>Rosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ribolsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Balestrieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Iovino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rocchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cicala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.3390/nu12041037</idno>
+		<ptr target="https://doi.org/10.3390/nu12041037" />
+	</analytic>
+	<monogr>
+		<title level="j">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">1037</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Prebiotics: definition, types, sources, mechanisms, and clinical applications</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Davani-Davari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Negahdaripour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Karimzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Seifan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mohkam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Masoumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Berenjian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ghasemi</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/foods8030092</idno>
+		<ptr target="https://doi.org/10.3390/foods8030092" />
+	</analytic>
+	<monogr>
+		<title level="j">Foods</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">92</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Stable engraftment of Bifidobacterium longum AH1206 in the human gut depends on individualized features of the resident microbiome</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">X</forename><surname>Maldonado-Gómez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bottacini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>'callaghan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ventura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Sinderen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hillmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vangay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Knights</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hutkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Walter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chom.2016.09.001</idno>
+		<ptr target="https://doi.org/10.1016/j.chom.2016.09.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Host Microbe</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="515" to="526" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Prevalence of virulence genes and antibiotic susceptibility of Bacillus used in commercial aquaculture probiotics in China</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Anokyewaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Amoah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fka</forename><surname>Kuebutornye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Asiedu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Seidu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.aqrep.2021.100784</idno>
+		<ptr target="https://doi.org/10.1016/j.aqrep.2021.100784" />
+	</analytic>
+	<monogr>
+		<title level="j">Aquac Rep</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">100784</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Exploring effects of protective natural microbiota on host physiology</title>
+		<author>
+			<persName><forename type="first">Kab</forename><surname>Kissoyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Giez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Michels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">K</forename><surname>Hamerich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schulenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dierking</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fcimb.2022.775728</idno>
+		<ptr target="https://doi.org/10.3389/fcimb.2022.775728" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Cell Infect Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">775728</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The native microbiome of the nematode Caenorhabditis elegans: gateway to a new host-microbiome model</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dirksen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Marsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Braker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Heitland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nakad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mader</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kowallik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rosenstiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M-A</forename><surname>Félix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schulenburg</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12915-016-0258-1</idno>
+		<ptr target="https://doi.org/10.1186/s12915-016-0258-1" />
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">38</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Host-microbe interactions in Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hou</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2013/356451</idno>
+		<ptr target="https://doi.org/10.1155/2013/356451" />
+	</analytic>
+	<monogr>
+		<title level="j">ISRN Microbiol</title>
+		<imprint>
+			<biblScope unit="page">356451</biblScope>
+			<date type="published" when="2013">2013. 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">CeMbio -the Caenorhabditis elegans microbiome resource</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dirksen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Assié</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zimmermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A-M</forename><surname>Tietje</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Marsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M-A</forename><surname>Félix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shapira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kaleta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schulenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Samuel</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/g3.120.401309</idno>
+		<ptr target="https://doi.org/10.1534/g3.120.401309" />
+	</analytic>
+	<monogr>
+		<title level="j">G</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="3025" to="3039" />
+			<date type="published" when="2020">2020</date>
+			<pubPlace>Bethesda</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Natural C. elegans microbiota protects against infection via production of a cyclic lipopeptide of the viscosin group</title>
+		<author>
+			<persName><forename type="first">Kab</forename><surname>Kissoyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Drechsler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E-L</forename><surname>Stange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zimmermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kaleta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Bode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dierking</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cub.2019.01.050</idno>
+		<ptr target="https://doi.org/10.1016/j.cub.2019.01.050" />
+	</analytic>
+	<monogr>
+		<title level="j">Curr Biol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1030" to="1037" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Natural genetic variation drives microbiome selection in the Caenorhabditis elegans gut</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Weckhorst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Assié</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hosea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Ayoub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Khodakova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Cabrera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vidal</forename><surname>Vilchis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Félix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M-A</forename><surname>Samuel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cub.2021.04.046</idno>
+		<ptr target="https://doi.org/10.1016/j.cub.2021.04.046" />
+	</analytic>
+	<monogr>
+		<title level="j">Curr Biol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="2603" to="2618" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The functional repertoire contained within the native microbiota of the model nematode Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zimmermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Obeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Waschina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Kissoyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aidley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Hoeppner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bunk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Spröer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leippe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dierking</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kaleta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schulenburg</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41396-019-0504-y</idno>
+		<ptr target="https://doi.org/10.1038/s41396-019-0504-y" />
+	</analytic>
+	<monogr>
+		<title level="j">ISME J</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="26" to="38" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Constraint-based models predict metabolic and associated cellular functions</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bordbar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Monk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">A</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Palsson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrg3643</idno>
+		<ptr target="https://doi.org/10.1038/nrg3643" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Genet</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="107" to="120" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Constraint-based stoichiometric modelling from single organisms to microbial communities</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gottstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Olivier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Bruggeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Teusink</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1062</idno>
+		<ptr target="https://doi.org/10.1098/rsif.2016.0627" />
+	</analytic>
+	<monogr>
+		<title level="j">J R Soc Interface</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">20160627</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Host-microbe-drug-nutrient screen identifies bacterial effectors of metformin therapy</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pryor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Norvaisas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Marinos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Best</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Thingholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Quintaneiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Haes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Esser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Waschina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lujan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Martinez-Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Bryson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Laudes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lieb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Houtkooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Franke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Temmerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bjedov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Cochemé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Kaleta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cabreiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1062</idno>
+		<ptr target="https://doi.org/10.1016/j.cell.2019.08.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="page" from="1299" to="1312" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Constraint-based reconstruction and analyses of metabolic models: open-source python tools and applications to cancer</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Baloni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Diener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Heath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Su</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1062</idno>
+		<ptr target="https://doi.org/10.3389/fonc.2022.914594" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Oncol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">914594</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">gapseq: informed prediction of bacterial metabolic pathways and reconstruction of accurate metabolic models</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zimmermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kaleta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Waschina</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1062</idno>
+		<ptr target="https://doi.org/10.1186/s13059-021-02295-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Genome Biol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">81</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Fast automated reconstruction of genome-scale metabolic models for microbial species and communities</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Machado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Andrejev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tramontano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Patil</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1062</idno>
+		<ptr target="https://doi.org/10.1093/nar/gky537" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="7542" to="7553" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Generation of genome-scale metabolic reconstructions for 773 members of the human gut microbiota</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Magnúsdóttir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heinken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kutt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Ravcheev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Noronha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Greenhalgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jäger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baginska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wilmes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rmt</forename><surname>Fleming</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Thiele</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1062</idno>
+		<ptr target="https://doi.org/10.1038/nbt.3703" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="81" to="89" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Defining the nutritional input for genome-scale metabolic models: a roadmap</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Marinos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kaleta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Waschina</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1062</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0236890" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">236890</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">BacArena: individual-based metabolic modeling of heterogeneous microbes in complex communities</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zimmermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Baldini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Thiele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kaleta</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1062</idno>
+		<ptr target="https://doi.org/10.1371/journal.pcbi.1005544" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Comput Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">1005544</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Microbiome modelling toolbox 2.0: efficient, tractable modelling of microbiome communities</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heinken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Thiele</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1062</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/btac082" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="2367" to="2368" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Parkinson&apos;s disease-associated alterations of the gut microbiome predict diseaserelevant changes in metabolic functions</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Baldini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Thinnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Neuberger-Castillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pavelka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Betsou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Krüger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Thiele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ncer-Pd</forename><surname>Consortium</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1062</idno>
+		<ptr target="https://doi.org/10.1186/s12915-020-00775-7" />
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">62</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Metabolic functions of gut microbes associate with efficacy of tumor necrosis factor antagonists in patients with inflammatory bowel diseases</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Aden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rehman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Waschina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W-H</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lucio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Nunez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bharti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zimmerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bethge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schulte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schulte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Franke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nikolaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Schroeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vandeputte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Raes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Szymczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Waetzig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zeuner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schmitt-Kopplin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kaleta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schreiber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rosenstiel</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1062</idno>
+		<ptr target="https://doi.org/10.1053/j.gastro.2019.07.025" />
+	</analytic>
+	<monogr>
+		<title level="j">Gastroenterology</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page" from="1279" to="1292" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">What is flux balance analysis?</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Orth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Thiele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">Ø</forename><surname>Palsson</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1062</idno>
+		<ptr target="https://doi.org/10.1038/nbt.1614" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="245" to="248" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">sybil -Efficient constraint-based modelling in R</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gelius-Dietrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Desouki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Fritzemeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Lercher</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1062</idno>
+		<ptr target="https://doi.org/10.1186/1752-0509-7-125" />
+	</analytic>
+	<monogr>
+		<title level="j">BMC Syst Biol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">125</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Gutassociated functions are favored during microbiome assembly across C. elegans life</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zimmermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Piecyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sieber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Johnke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Moitinho-Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Künzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bluhm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Traulsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kaleta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schulenburg</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1062</idno>
+		<ptr target="https://doi.org/10.1101/2023.03.25.534195" />
+	</analytic>
+	<monogr>
+		<title level="j">bioRxiv</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Microbial butyrate synthesis indicates therapeutic efficacy of azathioprine in IBD patients</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Effenberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Reider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Waschina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bronowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Enrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Adolph</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Moschen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rosenstiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Aden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tilg</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1062</idno>
+		<ptr target="https://doi.org/10.1093/ecco-jcc/jjaa152" />
+	</analytic>
+	<monogr>
+		<title level="j">J Crohns Colitis</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="88" to="98" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Systems-level characterization of a host-microbe metabolic symbiosis in the mammalian gut</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heinken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sahoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rmt</forename><surname>Fleming</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Thiele</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1062</idno>
+		<ptr target="https://doi.org/10.4161/gmic.22370" />
+	</analytic>
+	<monogr>
+		<title level="j">Gut Microbes</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="28" to="40" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Individual comparisons by ranking methods</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wilcoxon</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/3001968</idno>
+		<ptr target="https://doi.org/10.2307/3001968" />
+	</analytic>
+	<monogr>
+		<title level="j">Biometrics Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">80</biblScope>
+			<date type="published" when="1945">1945</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">HMDB 5.0: the human metabolome database for 2022</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Wishart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Oler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anjum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dizon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Sayeeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab1062</idno>
+		<ptr target="https://doi.org/10.1093/nar/gkab1062" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="622" to="D631" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Welcome to the tidyverse</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wickham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Averick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mcgowan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>François</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grolemund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Henry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kuhn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bache</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ooms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Seidel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Spinu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vaughan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wilke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Woo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yutani</surname></persName>
+		</author>
+		<idno type="DOI">10.21105/joss.01686</idno>
+		<ptr target="https://doi.org/10.21105/joss.01686" />
+	</analytic>
+	<monogr>
+		<title level="j">J Open Source Softw</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">1686</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">ggplot2: elegant graphics for data analysis</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wickham</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-24277-4</idno>
+		<ptr target="http://link.springer.com/10.1007/978-3-319-24277-4" />
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Modernized tools for streamlined genetic manipulation and comparative study of wild and diverse proteobacterial lineages</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Wiles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Wall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Schlomann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Hay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Parthasarathy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Guillemin</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/mBio.01877-18</idno>
+		<ptr target="https://doi.org/10.1128/mBio.01877-18" />
+	</analytic>
+	<monogr>
+		<title level="j">mBio</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1877" to="1895" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Maintenance of C. elegans</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Stiernagle</surname></persName>
+		</author>
+		<idno type="DOI">10.1895/wormbook.1.101.1</idno>
+		<ptr target="https://doi.org/10.1895/wormbook.1.101" />
+	</analytic>
+	<monogr>
+		<title level="j">WormBook</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">d-serine and d-alanine regulate adaptive foraging behavior in via the NMDA receptor</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Saitoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Katane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miyamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sekine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sakai-Kato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Homma</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12864-016-2603-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="7531" to="7544" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">The role of Caenorhabditis elegans insulin-like signaling in the behavioral avoidance of pathogenic Bacillus thuringiensis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hasshoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Böhnisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tonn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hasert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schulenburg</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12864-016-2603-8</idno>
+		<ptr target="https://doi.org/10.1096/fj.06-6551com" />
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1801" to="1812" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Contrasting invertebrate immune defense behaviors caused by a single gene, the Caenorhabditis elegans neuropeptide receptor gene npr-1</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nakad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Snoek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ellendt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Mohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rösingh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Masche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Rosenstiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dierking</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Kammenga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schulenburg</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12864-016-2603-8</idno>
+		<ptr target="https://doi.org/10.1186/s12864-016-2603-8" />
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genomics</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">280</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Natural variation in the response of Caenorhabditis elegans towards Bacillus thuringiensis</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schulenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Müller</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1462-2920.14932</idno>
+		<ptr target="https://doi.org/10.1017/s003118200300461x" />
+	</analytic>
+	<monogr>
+		<title level="j">Parasitology</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="433" to="443" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Community assembly of the native C. elegans microbiome is influenced by time, substrate and individual bacterial taxa</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Johnke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dirksen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schulenburg</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1462-2920.14932</idno>
+		<ptr target="https://doi.org/10.1111/1462-2920.14932" />
+	</analytic>
+	<monogr>
+		<title level="j">Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="1265" to="1279" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Impairing L-threonine catabolism promotes healthspan through methylglyoxal-mediated proteohormesis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ravichandran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Priebe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grigolon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rozanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Groth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Laube</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Guthke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Platzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zarse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ristow</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cmet.2018.02.004</idno>
+		<ptr target="https://doi.org/10.1016/j.cmet.2018.02.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="914" to="925" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Glycine promotes longevity in Caenorhabditis elegans in a methionine cycle-dependent fashion</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Janssens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Mcintyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Molenaars</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kamble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jongejan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Weeghel M Van, Macinnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Houtkooper</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pgen.1007633</idno>
+		<ptr target="https://doi.org/10.1371/journal.pgen.1007633" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">1007633</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Bacterially produced metabolites protect C. elegans neurons from degeneration</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Urrutia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>García-Angulo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fuentes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Caneo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Legüe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Urquiza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Delgado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ugalde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Burdisso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Calixto</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pbio.3000638</idno>
+		<ptr target="https://doi.org/10.1371/journal.pbio.3000638" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">3000638</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">The nutritional requirements of Caenorhabditis elegans</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zečić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dhondt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Braeckman</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12263-019-0637-7</idno>
+		<ptr target="https://doi.org/10.1186/s12263-019-0637-7" />
+	</analytic>
+	<monogr>
+		<title level="j">Genes Nutr</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">15</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Dietary serine-microbiota interaction enhances chemothera peutic toxicity without altering drug conversion</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Saba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C-H</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hilzendeger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Drangowska-Way</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Joshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Mony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Benjamin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Locasale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Patti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Rourke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-020-16220-w</idno>
+		<ptr target="https://doi.org/10.1038/s41467-020-16220-w" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">2587</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Recent advances in modulating the microbiome</title>
+		<author>
+			<persName><forename type="first">Emm</forename><surname>Quigley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gajula</surname></persName>
+		</author>
+		<idno type="DOI">10.12688/f1000research.20204.1</idno>
+		<ptr target="https://doi.org/10.12688/f1000research.20204" />
+	</analytic>
+	<monogr>
+		<title level="j">F1000Res</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">F1000</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Faculty Rev-46</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">The aerobic pseudomonads: a taxonomic study</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Y</forename><surname>Stanier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Palleroni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Doudoroff</surname></persName>
+		</author>
+		<idno type="DOI">10.1099/00221287-43-2-159</idno>
+		<ptr target="https://doi.org/10.1099/00221287-43-2-159" />
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="159" to="271" />
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">L-threonine promotes healthspan by expediting ferritin-dependent ferroptosis inhibition in C. elegans</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ryu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41564-019-0591-6</idno>
+		<ptr target="https://doi.org/10.1038/s41467-022-34265-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">6554</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Dietary L-serine confers a competitive fitness advantage to Enterobacteriaceae in the inflamed gut</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kitamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Alteri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nagao-Kitamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sugihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Himpsl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bazzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Miyoshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nishioka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hayashi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41564-019-0591-6</idno>
+		<ptr target="https://doi.org/10.1038/s41564-019-0591-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="116" to="125" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Enhancing nutritional niche and host defenses by modifying the gut microbiome</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Vega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cervantes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Mancuso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Khalil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.15252/msb.20209933</idno>
+		<ptr target="https://doi.org/10.15252/msb.20209933" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol Syst Biol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<date type="published" when="2022">2022. 9933</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Targeted approaches for in situ gut microbiome manipulation</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">Y</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Yew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/genes9070351</idno>
+		<ptr target="https://doi.org/10.3390/genes9070351" />
+	</analytic>
+	<monogr>
+		<title level="j">Genes (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">351</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Colon targeted drug delivery systems: a review on primary and novel approaches</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Philip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Philip</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addr.2020.06.018</idno>
+		<ptr target="https://doi.org/10.5001/omj.2010.24" />
+	</analytic>
+	<monogr>
+		<title level="j">Oman Med J</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="79" to="87" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Advances in colon-targeted nano-drug delivery systems: challenges and solutions</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Naeem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">A</forename><surname>Awan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Subhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Hlaing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Im</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-W</forename><surname>Yoo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addr.2020.06.018</idno>
+		<ptr target="https://doi.org/10.1007/s12272-020-01219-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Arch Pharm Res</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="153" to="169" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Targeted microbiome intervention by microencapsulated delayed-release niacin beneficially affects insulin sensitivity in humans</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fangmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E-M</forename><surname>Theismann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Türk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Schulte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Relling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hartmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Keppler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-R</forename><surname>Knipp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rehman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F-A</forename><surname>Heinsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Franke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lenk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Freitag-Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Appel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gorb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brenner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Seegert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Waetzig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rosenstiel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schreiber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schwarz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laudes</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addr.2020.06.018</idno>
+		<ptr target="https://doi.org/10.2337/dc17-1967" />
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="398" to="405" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Nanoparticles: oral delivery for protein and peptide drugs</title>
+		<author>
+			<persName><forename type="first">S-J</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R-D</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X-H</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1208/s12249-019-1325-z</idno>
+		<ptr target="https://doi.org/10.1208/s12249-019-1325-z" />
+	</analytic>
+	<monogr>
+		<title level="j">AAPS PharmSciTech</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">190</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">The evolution of commercial drug delivery technologies</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Vargason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Anselmo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mitragotri</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41551-021-00698-w</idno>
+		<ptr target="https://doi.org/10.1038/s41551-021-00698-w" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biomed Eng</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="951" to="967" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Advanced drug delivery 2020 and beyond: perspectives on the future</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Bae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addr.2020.06.018</idno>
+		<ptr target="https://doi.org/10.1016/j.addr.2020.06.018" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv Drug Deliv Rev</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="page" from="4" to="16" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">A primer on effectiveness and efficacy trials</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Singal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pdr</forename><surname>Higgins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Waljee</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ctg.2013.13</idno>
+		<ptr target="https://doi.org/10.1038/ctg.2013.13" />
+	</analytic>
+	<monogr>
+		<title level="j">Clin Transl Gastroenterol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">45</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Dietary supplements: regulatory challenges and research resources</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Dwyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Coates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/nu10010041</idno>
+		<ptr target="https://doi.org/10.3390/nu10010041" />
+	</analytic>
+	<monogr>
+		<title level="j">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">41</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">PopGen: population-based recruitment of patients and controls for the analysis of complex genotype-phenotype relationships</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krawczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nikolaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Von Eberstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pjp</forename><surname>Croucher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">El</forename><surname>Mokhtari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Schreiber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<idno type="DOI">10.1159/000090694</idno>
+		<ptr target="https://doi.org/10.1159/000090694" />
+	</analytic>
+	<monogr>
+		<title level="j">Community Genet</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="55" to="61" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

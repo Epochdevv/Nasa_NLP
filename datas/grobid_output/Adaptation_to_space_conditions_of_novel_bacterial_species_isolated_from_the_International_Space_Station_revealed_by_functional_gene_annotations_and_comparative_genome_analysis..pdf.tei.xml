@@ -1,0 +1,2703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Adaptation to space conditions of novel bacterial species isolated from the International Space Station revealed by functional gene annotations and comparative genome analysis</title>
+				<funder>
+					<orgName type="full">Institute of Technology, Government</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-10-04">2024-10-04</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Lukasz</forename><forename type="middle">M</forename><surname>Szydlowski</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Malopolska Centre of Biotechnology</orgName>
+								<orgName type="institution">Jagiellonian University</orgName>
+								<address>
+									<addrLine>Gronostajowa 7A</addrLine>
+									<postCode>30-387</postCode>
+									<settlement>Krakow Malopolska</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Sano Centre for Computational Personalized Medicine</orgName>
+								<address>
+									<addrLine>Czarnowiejska 36</addrLine>
+									<postCode>30-054</postCode>
+									<settlement>Krakow Malopolskie</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alper</forename><forename type="middle">A</forename><surname>Bulbul</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Biostatistics and Medical Informatics Department</orgName>
+								<orgName type="institution">M. A. A. Acibadem University</orgName>
+								<address>
+									<addrLine>İçerenköy Kayıcdağı Cd.32 bul</addrLine>
+									<postCode>Istan- 34752</postCode>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anna</forename><forename type="middle">C</forename><surname>Simpson</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Jet Propul- sion Laboratory</orgName>
+								<orgName type="laboratory">Biotechnology and Planetary Protection Group</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<addrLine>4800 Oak Grove Drive</addrLine>
+									<postCode>91109</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Deniz</forename><forename type="middle">E</forename><surname>Kaya</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Biostatistics and Medical Informatics Department</orgName>
+								<orgName type="institution">M. A. A. Acibadem University</orgName>
+								<address>
+									<addrLine>İçerenköy Kayıcdağı Cd.32 bul</addrLine>
+									<postCode>Istan- 34752</postCode>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nitin</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Jet Propul- sion Laboratory</orgName>
+								<orgName type="laboratory">Biotechnology and Planetary Protection Group</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<addrLine>4800 Oak Grove Drive</addrLine>
+									<postCode>91109</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ugur</forename><forename type="middle">O</forename><surname>Sezerman</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Biostatistics and Medical Informatics Department</orgName>
+								<orgName type="institution">M. A. A. Acibadem University</orgName>
+								<address>
+									<addrLine>İçerenköy Kayıcdağı Cd.32 bul</addrLine>
+									<postCode>Istan- 34752</postCode>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paweł</forename><forename type="middle">P</forename><surname>Łabaj</surname></persName>
+							<idno type="ORCID">0000-0002-4994-0234</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Malopolska Centre of Biotechnology</orgName>
+								<orgName type="institution">Jagiellonian University</orgName>
+								<address>
+									<addrLine>Gronostajowa 7A</addrLine>
+									<postCode>30-387</postCode>
+									<settlement>Krakow Malopolska</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Tomasz</forename><surname>Kosciolek</surname></persName>
+							<email>tomaszkosciolekt.kosciolek@sanoscience.org</email>
+							<affiliation key="aff0">
+								<orgName type="department">Malopolska Centre of Biotechnology</orgName>
+								<orgName type="institution">Jagiellonian University</orgName>
+								<address>
+									<addrLine>Gronostajowa 7A</addrLine>
+									<postCode>30-387</postCode>
+									<settlement>Krakow Malopolska</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Data Science and Engineering</orgName>
+								<orgName type="institution">Silesian University of Technology</orgName>
+								<address>
+									<addrLine>Akademicka 2A</addrLine>
+									<postCode>44-100</postCode>
+									<settlement>Gliwice Slaskie</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Sano Centre for Computational Personalized Medicine</orgName>
+								<address>
+									<addrLine>Czarnowiejska 36</addrLine>
+									<postCode>30-054</postCode>
+									<settlement>Krakow Malopolskie</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kasthuri</forename><surname>Venkateswaran</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Jet Propul- sion Laboratory</orgName>
+								<orgName type="laboratory">Biotechnology and Planetary Protection Group</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<addrLine>4800 Oak Grove Drive</addrLine>
+									<postCode>91109</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Adaptation to space conditions of novel bacterial species isolated from the International Space Station revealed by functional gene annotations and comparative genome analysis</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Microbiome</title>
+						<title level="j" type="abbrev">Microbiome</title>
+						<idno type="eISSN">2049-2618</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">12</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2024-10-04" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">304A22671A5F30891C7E3E2B458ECF4B</idno>
+					<idno type="DOI">10.1186/s40168-024-01916-8</idno>
+					<note type="submission">Received: 5 October 2023 Accepted: 21 August 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T10:07+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Functional annotation</term>
+					<term>International space station</term>
+					<term>Extremophiles</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background</head><p>The extreme environment of the International Space Station (ISS) puts selective pressure on microorganisms unintentionally introduced during its 20+ years of service as a low-orbit science platform and human habitat. Such pressure leads to the development of new features not found in the Earth-bound relatives, which enable them to adapt to unfavorable conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>In this study, we generated the functional annotation of the genomes of five newly identified species of Gram-positive bacteria, four of which are non-spore-forming and one spore-forming, all isolated from the ISS. Using a deep-learning based tool-deepFRI-we were able to functionally annotate close to 100% of protein-coding genes in all studied species, overcoming other annotation tools. Our comparative genomic analysis highlights common characteristics across all five species and specific genetic traits that appear unique to these ISS microorganisms. Proteome analysis mirrored these genomic patterns, revealing similar traits. The collective annotations suggest adaptations to life in space, including the management of hypoosmotic stress related to microgravity via mechanosensitive channel proteins, increased DNA repair activity to counteract heightened radiation exposure, and the presence of mobile genetic elements enhancing metabolism. In addition, our findings suggest the evolution of certain genetic traits indicative of potential pathogenic capabilities, such as small molecule and peptide synthesis and ATP-dependent transporters. These traits, exclusive to the ISS microorganisms, further substantiate previous reports explaining why microbes exposed to space conditions demonstrate enhanced antibiotic resistance and pathogenicity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>Our findings indicate that the microorganisms isolated from ISS we studied have adapted to life in space. Evidence such as mechanosensitive channel proteins, increased DNA repair activity, as well as metallopeptidases and novel S-layer oxidoreductases suggest a convergent adaptation among these diverse microorganisms, potentially complementing one another within the context of the microbiome. The common genes that facilitate adaptation to the ISS environment may enable bioproduction of essential biomolecules need during future space missions, or serve as potential drug targets, if these microorganisms pose health risks.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The environment of outer space, characterized by intense radiation and high vacuum, presents harsh conditions for any form of life. Despite this, microorganisms have demonstrated a remarkable adaptability to these extreme space environments. Organisms known as extremophiles, such as bacteria (e.g., Bacillus, Deinococcus species) <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>, fungi <ref type="bibr" target="#b2">[3]</ref>, tardigrades <ref type="bibr" target="#b3">[4]</ref>, bdelloid rotifers <ref type="bibr" target="#b4">[5]</ref>, and many others, are well-documented for their ability to survive in space conditions. As such, it is virtually impossible to prevent the transfer of microbial life to exploratory space vessels or planets <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b6">7]</ref>. In addition to microorganisms potentially hitching a ride with robotic components, the microbiomes of humans also travel to space. This not only includes the microbiomes of space crew members, but also free-living microorganisms associated with cargo, science instruments, and test animals, including potential pathogens which should be considered for their potential to adapt to space conditions <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref>.</p><p>The exposure of microbes to outer space, or simulated versions of these conditions, has been extensively studied to test survival capabilities and assess the panspermia hypothesis. Over several decades, various microbial samples have been exposed to space conditions via balloons, rockets, and spacecraft as part of the pioneering experiments in astrobiology (reviewed in <ref type="bibr" target="#b13">[14]</ref>). For example, after 18 months of exposure, Bacillus pumilus SAFR-032, a bacterium isolated from the Jet Propulsion Laboratory's Spacecraft Assembly Facility (JPL-SAF), exhibited 10-40% survivability when UV was masked <ref type="bibr" target="#b0">[1]</ref>. However, when these SAFR-032 spores were exposed to UV light (above 110 nm) and vacuum in space for 18 months, except for a few spores, there was a roughly 7-log reduction in viability. Similarly, dried Deinococcus cell pellets, particularly those 500 μm in thickness, remained viable after three years of space exposure due to a shadowing effect. Moreover, D. radiodurans after being subjected to 1-year exposure to outer space during Tanpopo mission <ref type="bibr" target="#b14">[15]</ref>, showed a collection of molecular alterations, e.g., DNA damage and oxidative stress response and accumulation of metal transporters. In a recent study, a survival of D. radiodurans exposed to near space conditions was correlated with a growth condition prior to the exposure <ref type="bibr" target="#b15">[16]</ref>. A comparative proteomics analysis of B. pumilus SAFR-032 revealed that proteins conferring resistance traits, such as superoxide dismutase, were present in higher concentrations in the vegetative cells derived from spores exposed to space compared to ground controls. Furthermore, the first-generation spores of B. pumilus SAFR-032 resulting from space-exposed samples demonstrated increased UVC resistance (around 4000 J/m 2 ) compared to their ground control counterparts <ref type="bibr" target="#b0">[1]</ref>.</p><p>The International Space Station (ISS) is a closed environment that houses a diverse range of microorganisms, including potential pathogens <ref type="bibr" target="#b16">[17]</ref>. As we prepare for long-term space explorations, understanding the molecular mechanisms that allow microorganisms to survive and adapt during spaceflight is becoming increasingly important <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b14">15]</ref>. Monitoring the microbial population onboard the ISS is crucial for safeguarding astronaut health and preventing contamination of both the spacecraft and its equipment <ref type="bibr" target="#b6">[7]</ref>. Whole-genome sequencing (WGS) and phenotypic characterization of any novel microbial species discovered on the ISS can help identify potential pathogens and comprehend their impact on the closed habitat and crew health <ref type="bibr" target="#b6">[7]</ref>. However, to accurately identify potential microbial threats, it is essential to maintain a current and comprehensive database of microbial genomes, detailing both their species identities and phenotypic traits. This database, continuously updated through WGS of pure cultures, is crucial for gathering genetic data and assisting in the identification of microbial threats via shotgun metagenomic sequencing. Moreover, the active initiatives to characterize the cultivable microbiome of previously not sequenced space habitats contribute to decreasing the unidentified microbial 'dark matter' in metagenomic sequencing outcomes.</p><p>Research conducted in space or using ground-based simulators has shown that microgravity conditions can alter various biological processes, including growth, morphology, gene expression, virulence, drug resistance, biofilm formation, and secondary metabolism <ref type="bibr">[8-10, 12, 18]</ref>. Studies focusing on the microbiome have reported an increase in antibiotic resistance markers in astronauts' saliva <ref type="bibr" target="#b18">[19]</ref>, although these changes were temporary and reversed upon returning to Earth. Other research has indicated that microbial isolates from space environments are differentiating themselves from their Earthbound counterparts, showing signs of adaptation to their new environment <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref>. Interestingly, under spaceflight conditions, one species, Bacillus safensis JPL-MERTA-8-2, exhibited a 60% improvement in growth compared to its Earth-based growth <ref type="bibr" target="#b23">[24]</ref>.</p><p>This study focused on the genomic peculiarities of novel species isolated from the ISS and compared WGS of the closest relatives found in Earth environments. A thorough analysis was conducted on genes associated with DNA repair, radiation resistance, microgravity adaptation, stress responses, and metabolic changes (Fig. <ref type="figure" target="#fig_0">1</ref>). These genes were compared to their terrestrial counterparts, and potential variations induced by space conditions were observed. The protein-coding sequences from each species pair were compared using a set of similarity metrics, unearthing potentially novel genes and clusters that might have been evolved in space. Furthermore, mutations within these sequences were rigorously analyzed, and their protein structures were predicted using in silico models. This approach illuminates the genetic adaptations undertaken in stringent conditions of the space environment. In essence, by comparing space and Earth genomes and identifying mutation patterns, a clearer insight into genetic evolution influenced by space conditions has been obtained.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparison of different annotations and between the isolates and within pangenome context</head><p>Five novel species of Gram-positive bacteria that were isolated from the ISS were analyzed. Their generic features and the results of other molecular analyses are presented in Table <ref type="table" target="#tab_0">1</ref> and Supplementary Fig. <ref type="figure" target="#fig_0">S1</ref>. These bacteria were obtained from various flights, locations, and time periods, and are associated with different phylogenetic groups. The strain F6_3S_P_1C, which belongs to the Paenibacillus genus, has been identified as a spore-former, while the other four species were identified as non-spore-forming Actinobacteria. Through ANI and AAI analysis, we established closest Earth relatives (Table <ref type="table" target="#tab_0">1</ref> and Supplementary Table <ref type="table" target="#tab_0">S1</ref>). Additionally, we performed synteny analysis <ref type="bibr" target="#b24">[25]</ref> using all top ANI hits for each of the five organisms (Supplementary Table <ref type="table" target="#tab_0">S1</ref>), but yielded no results (data not shown), thus indicating all ISS isolates are distinct species.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Annotations common for space and Earth species (closest relative, see Supplementary Fig. S1 for more comparisons)</head><p>When the annotated genomes were compared with several methods (PGAP, eggNOG), DeepFRI analysis showed highest annotation coverage and provided a confidence scale (based on the score value), to filter medium quality (MQ) and high-quality (HQ) annotations and the results are shown in Fig. <ref type="figure" target="#fig_1">2</ref> (see the "Methods" for details). In total, the genomes of the novel species encompassed 1290 and 1184 shared MQ and HQ annotations (1778 all annotations, Fig. <ref type="figure" target="#fig_1">2a</ref>, <ref type="figure">b</ref>). The majority of shared annotations were related to metabolism, followed by cellular processing and signaling and information storage and processing (Fig. <ref type="figure" target="#fig_1">2c</ref>; all common annotations (GO terms) are detailed in Supplementary Table <ref type="table" target="#tab_0">S12</ref> in the Supplementary material).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Annotations unique to ISS bacterial species</head><p>All curated National Center for Biotechnology Information (NCBI) genomes were used to find the closest terrestrial relatives for the novel ISS bacterial species and the genome that exhibited the highest average nucleotide identity (ANI) value was further compared with genomes of ISS strains to characterize unique annotation. When compared with their closest terrestrial relatives all ISS species have different numbers of unique annotations (Fig. <ref type="figure">3a</ref>), which corresponds to their ANI (the higher the ANI, the fewer unique annotations). Additionally, two-dimensional Conserved Domain (CD)-hit clustering was performed between each isolate and its closest relative, using a 40% sequence similarity threshold. Thus, for each isolate a subgroup of unique genes (with no counterparts in their closest relative) was found (Supplementary Tables <ref type="table" target="#tab_0">S2-S11</ref>). A comparison between these genes revealed the presence of 74 and 49 MQ and HQ common annotations, respectively (309 total annotations, Fig. <ref type="figure">3b</ref>, Supplementary Table <ref type="table" target="#tab_0">S13</ref>).</p><p>When aligning the novel genes in the genome context, we found the presence of potential novel biosynthetic gene clusters (BGCs) in all species. These BGCs encode secondary metabolites such as terpenes, carotenes, betalactones, lanthipeptides, lassopeptides, non-ribosomal metallophores, furans, non-alpha poly-amino acids (NAPAA), type 3 polyketide synthase (T3PKS), ribosomally synthesized and post-translationally modified peptides (RiPP), proteusins (Supplementary Fig. <ref type="figure" target="#fig_0">S1</ref>), Our findings of BGCs are complimentary to the previously reported BGCs in A. burdickii, L. williamsii, and P. vandeheii <ref type="bibr" target="#b27">[28]</ref>. We also expand the BGCs classification of the studied ISS species into the "novel" category, which are not found in the genomes of their closest terrestrial relatives. In this study, we report small molecule biosynthetic pathways, metal ion transporters and other transmembrane transporters. Furthermore, transcription factors associated with environmental stress have been found (Supplementary Table <ref type="table" target="#tab_0">S14</ref>).</p><p>Given the difference in ANI for each ISSspecies:closest-relative pair, a different number of novel gens was obtained in each case, proportional to the phylogenetic distance (the lower the ANI, the more novel genes were found). We therefore focused on the two Microbacteria species, as their ANI to the closest relative was higher than 98%. Using Muscle, we aligned sequences of novel genes from each species together. We found an example of novel genes (Mma_002827 and Mme_000934) being present in both species with high (52.8%) sequence similarity. Given that initial annotation ("heavy metal associated domain, " "response to copper ion, " see Supplementary Tables <ref type="table">S2</ref> and <ref type="table">S6</ref>), was sequence-based (see the "Methods" for details), another approach was assayed, with structure prediction, followed by a functional annotation. Superpositions of predicted structures (both with pTM &gt; 0.7 and pLDDT &gt; 80) are almost identical (Fig. <ref type="figure">3c</ref>). The structure-based deep-FRI annotations reveal that these proteins have oxidoreductase activity (acting on CH-NH2 group of donors) and that are located in the extracellular layer of the cell (Supplementary Table <ref type="table" target="#tab_0">S15</ref>). When compared to the proteome of D. radiodurans, weak structural homology was found to extracellular protein WP_027479552.1 (TM-score 0.34, see Supplementary Fig. <ref type="figure" target="#fig_1">S2</ref>).</p><p>Mobile genetic elements (MGEs) such as transposases were also found in all species except L. williamsii. There is also evidence of plasmid in some of the species (M. mcarthurae, M. meiriae), due to the presence of relaxosome encoding genes, such as MobC/L family relaxase (Fig. <ref type="figure" target="#fig_3">5</ref>, Supplementary Table <ref type="table" target="#tab_0">S16</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparison of proteome-level mutations in the ISS species and within pangenome context</head><p>Several groups of proteins, important for adaptation to space environmental conditions were analyzed between ISS species and their closest Earth relatives. In metallopeptidases, the mutation rate of hydrophobic amino acids and glycine are higher than 1 in this protein group, suggesting an enrichment of these amino acids in the Fig. <ref type="figure">3</ref> Overview of the annotations unique to ISS bacteria species. A Venn diagrams showing differences in genes (CD-hit clustering with 40% sequence similarity threshold) found in space isolates compared to their closest terrestrial relatives (ANI provided below each diagram) and the comparison between unique annotations of those genes found in all space isolates. B Overview of grouped annotations, in the form of COG categories, of unique, common-in-all genes derived from CD-Hit two-dimensional clustering. C Structure alignment of novel genes with 52.8% similarity found in both Microbacteria species. Mma, Microbacterium mcarthurae (magenta); Mme, Microbacterium meiriae (orange); pLDDT, predicted local-distance difference test; pTM, predicted template modeling; TM, template modeling, see <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b26">27]</ref> metallopeptidase proteins of ISS bacteria. These mutations might enhance the stability of these proteins under space environmental conditions (Fig. <ref type="figure" target="#fig_2">4A</ref>). Glycine enrichment is a measure of how often the amino acid glycine appears in a protein sequence compared to what would be expected by chance (see the "Methods" for more details). Significant glycine enrichment in a protein can suggest evolutionary pressures and adaptive responses to make proteins more flexible via mutation to glycine <ref type="bibr" target="#b28">[29]</ref>. The metallopeptidase activity stands out as it exhibits consistent glycine enrichment across all strains, suggesting it may play a critical role in universal adaptive mechanisms (Fig. <ref type="figure" target="#fig_2">4B</ref>). Other molecular functions, such as "ATP-dependent peptidase activity" and "2-C-methyl-D-erythritol-4-phosphate cytidylyltransferase activity, " show high glycine enrichment, but only in both Microbaterium species, indicating potential taxonomy-based adaptations (Fig. <ref type="figure" target="#fig_2">4B</ref>).</p><p>Certain molecular functions, such as "5 formyltetrahydrofolate cyclo ligase activity, " "ATP dependent peptidase activity, " and "ATP phosphoribosyltransferase activity, " display a high degree of hydrophobic amino acid enrichment, but only in M. meiriae and L. williamsii. This could suggest convergent adaptations involving changes in hydrophobicity of aforementioned proteins. Interestingly, "metallopeptidase activity" shows hydrophobic amino acid enrichment across all ISS species, albeit at a lower level than glycine enrichment. This could suggest a universal, but less dominant, adaptive strategy involving changes in protein hydrophobicity. These patterns underscore the complexity of potential adaptive strategies, highlighting the interplay between different types of amino acid changes in response to ISS environments (Fig. <ref type="figure" target="#fig_2">4B</ref>). Metallopeptidases play role in celluar stress response <ref type="bibr" target="#b14">[15]</ref>, biofilm formation <ref type="bibr" target="#b29">[30]</ref>, as well as virulence <ref type="bibr" target="#b30">[31]</ref> and hence are important factors in microbial adaptations to space conditions. Therefore, comparative analysis of sequences and structures of selected metallopeptidases from M. meiriae and its closest relative will be further discussed in the section below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Case studies of adaptations</head><p>The functional annotations were further investigated to search for genes that would allow adaptation to life in space. The genes of interest were summarized in Fig. <ref type="figure" target="#fig_3">5</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Energy metabolism</head><p>As previously reported <ref type="bibr">[8-10, 12, 13, 18]</ref> metabolic rearrangements are essential part of adaptations to life in space (see overview in Fig. <ref type="figure" target="#fig_0">1</ref>). Common annotations show the presence of genes encoding proteins related to carbohydrate, cofactors and coenzymes metabolism (Figs. <ref type="figure" target="#fig_1">2c</ref> and <ref type="figure">3b</ref>). Apart from genomic annotation (Supplementary Table <ref type="table" target="#tab_0">S12</ref>), metabolic tests conducted on the ISS bacterial species reveal their ability to grow on a broad range of carbon sources, including cyclic compounds, oligo-and polysaccharides (Supplementary Fig. <ref type="figure">S3a-b</ref>). All species are capable of growing on 27 substrates being the sole carbon source, including carbohydrates (pectin, dextrin, mannose, fucose, gentibiose, lactose, melibiose, glucose, galactose, fructose as well as their branched and glycosylated derivatives), fatty acids (acetic acid, L-malic acid, sodium lactate and butyrate), amino acids (L-glutamic acid), alcohols (glycerol) and antibiotics (vancomycin and aztreonam). They can also grow at 1% NaCl concentration and pH6. Apart from the spore-forming P. vandeheii, the other bacteria can also utilize tween 40, gelatin, D-malic acid, L-lactic acid, propionic acid, D/L-serine, L-alanine, sorbitol, lincomycin, minocycline, nalidixic acid, rifamycin, as well as grow in the presence of lithium chloride. On the other hand, only P. vandeheii is able to grow in the presence of sodium bromate. Additionally to the species described by Simpson and colleagues <ref type="bibr" target="#b27">[28]</ref>, two species of Microbacterium were characterized for the first time. These species are able to utilize 72 carbon sources altogether (80 and 73 substrates for M. mcarthurae and M. meiriae, respectively), grow at 8% NaCl concentration, as well as in the presence of lithium chloride and potassium tellurite. Unlike other species, either M. mcarthurae or M. meiriae can utilize α-keto-glutaric acid and citric acid. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mechanosensitive ion channels (Msc) and osmoprotectants</head><p>Except for A. burdickii, each of the studied organisms has at least one copy of mscS gene annotated. Msc proteins are known to play a crucial role in adapting cells to the osmotic pressure <ref type="bibr" target="#b31">[32]</ref>. Overall, two variants of Msc proteins exist: large conductance (3.6 nS) MscL and small conductance (1 nS) MscS. Large conductance channels are generally conserved and present in most bacteria as well as eukaryotes, although they are not found in deep sea species, where no pressure changes occur. Conversely, MscS are diverse structurally and functionally and occur in those organisms, which exhibit hypoosmotic stress periodically (e.g., desiccation). MscS proteins have a common core architecture but show different gating mechanisms and conductive properties. Because low gravity conditions can be viewed as decrease in osmotic pressure, leading to the hypo-osmotic stress, their presence is therefore crucial for survival in ISS. All terrestrial relatives have a copy of mscS gene with over 90% sequence similarity to their homologous gene from the ISS species (Supplementary Fig. <ref type="figure" target="#fig_2">S4</ref>), except for L. williamsii, where there is an additional copy of the mscS with no homology in the genome of Leifsonia sp. ku-ls. Nevertheless, the presence of an additional copy of mscS gene could be due to the larger phylogenetic distance, as indicated by ANI (Fig. <ref type="figure">3A</ref>). As for the osmoprotectants, there is no commonly shared metabolite, as genes related to betaine, choline, ectoine and trehalose synthesis are not present in all five species.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Redox stress</head><p>Changes in osmotic pressure, as well as exposure to ionizing radiation may lead to the formation of reactive oxygen species (ROS) that have detrimental effects on cells. From the studies on Deinococcus it was found that it has elevated intracellular concentrations of Mn as well as Fe <ref type="bibr" target="#b32">[33]</ref>. All studied ISS strains show an elevated number of metalloproteins compared to their closest terrestrial counterparts (Supplementary Table <ref type="table" target="#tab_0">S12</ref>). In the case of M. mcarthurae and M. meiriae, there are 27 and 25 unique metalloproteins, respectively (Supplementary Table <ref type="table" target="#tab_0">S14</ref>), which include metallopeptidases, thioredoxins, metalloregulated transcription factors and heavy metal associated P-type ATPases. Metallopeptidases were of our special interest, as they showed certain adaptive mutations in all studied species (as described in previous section). Therefore, we decided to further analyze the metallopeptidase pair from M. meiriae and its terrestrial relative Microbacterium sp. LTR1. We found aminopeptidases in two of these species (Mme_001931 and WP_268776344.1 from M. meiriae and its terrestrial relative Microbacterium sp. LTR1, respectively), which share only 44% protein sequence similarity (58.4% nucleotide similarity, Supplementary Fig. <ref type="figure" target="#fig_3">S5</ref>). When structural models were calculated for these proteins (both with pTM-score ≫ 0.9), their superposition is almost identical (Fig. <ref type="figure">6A</ref>), despite the low sequence similarity. When analyzing enrichment of the amino acids in Mme_001931 with WP_268776344.1 as a baseline, we observed enrichment of arginine and methionine, which were over 1.5 times more abundant compared to terrestrial protein. Opposite case was observed for lysine, which was over 2 times less abundant in ISS organism (Fig. <ref type="figure">6B</ref>). When superimposed to deinococcal aminopeptidase (WP_0516188611), Mme_001931 exhibited similarly high TM-score (0.83), although the latter's size is 1.81 times bigger than WP_0516188611 (Supplementary Fig. <ref type="figure">S6</ref>). In terms of amino acid enrichment, WP_051618861 also showed an elevated amount of arginines (8.3% wrt 5.5%) with subsequent decrease of lysines (1.1% wrt 2.6%) and increase in methionine with decrease of negatively charged amino acids, but also increase in glycines, histidines and prolines. Nonetheless, there is almost two times the size difference and further phylogenetic distance than in the case of M. meiriae (Supplementary Figure <ref type="figure">S6</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA protection, repair and recombination</head><p>Another feature associated with ISS is the elevated rate of DNA-damaging due to radiation. Deinococcus radiodurans was extensively tested for its ability to protect and repair damaged DNA, which was due to its homologous recombination (HR) kit. All ISS species encode 10-14 genes related to HR, compared to 10 genes identified in D. radiodurans (Fig. <ref type="figure" target="#fig_3">5</ref>). Similarly, all of the genomes share the set of rec, ruv, rad and uvr genes. In terms of non-homologous end-joining (NHEJ), all ISS strains share at least one gene. When compared with the Rec protein family from D. radiodurans and B. pumilus (Supplementary Fig. <ref type="figure">S7</ref>), clusters reflect phylogenetic distances. Moreover, all ISS strains share the LexA repressor (EC 3.4.21.88), which is part of the SOS response.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phage elements</head><p>Phage elements were found in all genomes of ISS strains, with at least two phage-related genes found in each strain. Holin is a short protein containing few transmembrane regions. Although holin is usually accompanied by endolysin, there is no evidence of phage-related endolysin in any of the genome of ISS strains, suggesting that the phage elements could have been domesticated or removed. When tested with PHASTER software, prophage elements were detected only in the genome of P. vandeheii, as well as in its closest Earth relative (Supplementary Table <ref type="table" target="#tab_0">S16</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Potential pathogenicity and antibiotic resistance</head><p>Common annotations (Supplementary Table <ref type="table">S2</ref>) indicate the presence of genes with virulence potential, such as metallophores and hemolysins (including the group III family, which forms oligomeric complexes), which are present in all ISS strains. However, ISS strains often exhibit enhanced expression of these virulence genes due to the unique selective pressures of the space environment, such as microgravity and increased radiation. In contrast, Earth analogous strains show a greater diversity in these genes, driven by varied environmental challenges and human influences like antibiotic use and pollution ( <ref type="bibr" target="#b33">[34]</ref>. Genomes of all ISS bacterial species contain genes involved in biofilm formation, potentially posing a pathogenic risk to humans under specific conditions, even though these genera and their closest terrestrial relatives are not typically known to be infectious agents. Comparatively, Earth counterparts also form biofilms, but the selective pressures driving this ability differ. On Earth, biofilm formation is often a response to environmental challenges such as antibiotic exposure and surface colonization in diverse habitats. In contrast, ISS bacteria have shown adaptations favoring biofilm formation and surface interactions due to the unique conditions of the space environment, such as microgravity and limited nutrient availability <ref type="bibr" target="#b34">[35]</ref>. Additionally, as Mora et al. highlighted in their work <ref type="bibr" target="#b35">[36]</ref>, the genomic and physiological features selected by ISS conditions, though not directly pertinent to human health, exhibit considerable adaptations for biofilm formation and surface Fig. <ref type="figure">6</ref> Structure alignment of selected metallopeptidases from Microbacterium species, with amino acid enrichment in space isolate. amino acids were grouped by their side chains properties. pLDDT, predicted local-distance difference test; pTM, predicted template modeling; TM, template modeling, see <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b26">27]</ref> interactions. Their research underscores the importance of minimizing local moisture to prevent the formation of potentially harmful biofilms. Metabolic assays indicate that all ISS bacterial species have the ability to degrade at least two antimicrobial compounds (Supplementary Fig. <ref type="figure">S3ab</ref>), showcasing their resilience in a controlled, high-stress environment. These bacteria also harbor various P-type translocating transportases and metallopeptidases within their pool of novel genes (Supplementary Table <ref type="table" target="#tab_0">S12</ref>), suggesting advanced mechanisms for survival and resistance. Similarly, Earth analogs have evolved to degrade antimicrobial compounds, especially in environments heavily influenced by human activity, such as hospitals and agricultural sites <ref type="bibr" target="#b30">[31]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The thorough examination of genomes of five novel ISS bacterial species, when compared with their closest terrestrial counterparts, unveiled clear adaptations to the rigors of ISS space environment. Notably, significant shifts in cell physiology and metabolism were seen. The extent to which genes lacked homologs in their terrestrial relatives was found to be associated with their phylogenetic distance. A specific set of genes was discovered to be present in all isolates but absent in their closest terrestrial relatives. This observation is consistent with earlier findings on the ISS-specific evolutionary patterns <ref type="bibr" target="#b36">[37,</ref><ref type="bibr" target="#b37">38]</ref>. Mannose is a known substrate of glycosylation in prokaryotes <ref type="bibr" target="#b38">[39]</ref> and thus may play a role in cell wall modifications, cell adhesion and biofilm formation. Moreover, genes related to beta-mannosidase and mannose activities were up-regulated in high salinity media in the brine shrimp Artemia salina <ref type="bibr" target="#b39">[40]</ref>, suggesting that mannose and its derivatives may be accumulated as organic osmolytes. Clusters associated with small molecule and peptide biosynthesis in fungi were found in abundance, reaffirming earlier studies into molecular responses to microgravity <ref type="bibr" target="#b10">[11]</ref>. The pool of novel genes unique to the ISS species (Supplementary Table <ref type="table" target="#tab_0">S13</ref>) showed an abundance of genes related to peptide and small molecule synthesis, transmembrane secretion/transport, and mechanosensitive ion channels. This suggests they might have a defense mechanism against hypoosmotic shocks. Furthermore, novel surface oxidoreductases have been identified in M. mcarthurae and M. meiriae which are not present in their terrestrial analogs. In light of these findings, a deeper investigation using comparative transcriptomics, proteomics, and metabolomics is recommended. To perform meta-omic analysis while cultivating these microorganisms on ISS would be very challenging. Nevertheless, such studies were conducted before, e.g., Tanpopo mission <ref type="bibr" target="#b14">[15]</ref>, although this study focused on meta-omic analyses post-exposure. Conducting in vivo experiments on microogranisms could be performed via simulating some of the conditions experienced in ISS, e.g., increased radiation, vacuum or microgravity. Ground facilities to recreate these conditions exist and has been utilized in such experiments before ( <ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref>, also reviewed in <ref type="bibr" target="#b9">[10]</ref>). It would therefore be possible to compare gene expression profile under these conditions, protein activity (e.g., extracellular metallopeptidases) or even assay secretion of certain metabolites (e.g., chelators, antibiotics) on indicative media.</p><p>Efficient DNA repair and its impact on survival in the extreme conditions has long been studied in many organisms <ref type="bibr" target="#b40">[41,</ref><ref type="bibr" target="#b43">44,</ref><ref type="bibr" target="#b44">45]</ref>. LexA repressor-mediated response is known to be crucial to DNA protection and repair process <ref type="bibr" target="#b45">[46]</ref>. Studies on extremophilic bdelloid rotifers highlighted the linkage of efficient DNA repair mechanisms with the presence of high rates of HGT <ref type="bibr" target="#b46">[47,</ref><ref type="bibr" target="#b47">48]</ref>. The detection of MGEs underscores a significant genetic factor hinting at the selective pressures faced by species isolated from the ISS. Interestingly, the quantity of annotated transposases seems to be in proportion to genome size, with P. vandeheii genome showcasing the most substantial presence of MGEs. On the other hand, transposable elements were not detected in all ISS species, thus suggesting that TE-mediated genome rearrangements are not a common route for genomic adaptations to space environment. Given that microgravity and hypoosmotic shock may induce dessication stress, the adaptation mechanisms may be similar to dessication-tolerant organisms, e.g., bdelloid rotifers, where TEs are highly diverged <ref type="bibr" target="#b48">[49]</ref> and containing unique ORFs, thus indicating a domestication. Hence, it is possible that in the species described in this study the TEs are significantly diverged. Extremophilic lifestyle provides selective pressure on maintaining genome integrity. Therefore, TEs disruptive activity is expected to be quenched, at least in the non-spore forming species. On the other hand, P. vandeheii may have a different adaptation system, being a spore-former (such as D. radiodurans, which is known to contain TEs that are a part of stress-response <ref type="bibr" target="#b49">[50]</ref>). Notably, sequences tied to plasmid-specific genes, such as mobC and relaxase, were discerned in both Microbacterium species, a feature absent in their terrestrial analogs. This emphasizes the potential unique genetic adaptations of these space-borne bacteria.</p><p>Building upon established research <ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b46">47]</ref>, our analysis of proteomic alterations points to a significant enrichment across various protein classes. A particularly noteworthy observation is the global glycine enrichment, a phenomenon that aligns with findings from earlier studies on Acinetobacter sp., a desiccation-tolerant organism <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b36">37,</ref><ref type="bibr" target="#b50">51]</ref>. Historically, these organisms have not only displayed enhanced hydrophilicity but have also shown a fortified resistance to ionizing radiation, a stress factor intrinsically tied to redox reactions. The emphasis on these genetic mechanisms holds paramount importance, especially in the context of space-related stress factors. As organisms venture into space, they confront an array of unique and potent stressors, including elevated radiation, microgravity, and vacuum conditions. The genetic adaptability and resilience exhibited by certain organisms, as demonstrated by their proteomic profiles and specific enrichments, provide invaluable insights. These genetic mechanisms might well be the key to understanding how life can persist, and perhaps thrive, in the harsh environs of space. Such knowledge not only expands our understanding of extremophile biology but also informs potential biotechnological applications and space colonization strategies in the future.</p><p>When looking at the singular case of metallopeptidase (aminopeptidase N) from M. meiriae and its closelyrelated Earth counterpart Microbacterium sp. LTR1, we observed almost perfect structure alignment, despite 43% sequence similarity. The changes in amino acid composition reflect the adaptations to the lifestyle of M. meiriae, with enrichment of arginine(s) and methionine(s), with the subsequent reduction of lysine and asparagine. Arginine is known to provide more stability to the structure than lysine <ref type="bibr" target="#b51">[52]</ref><ref type="bibr" target="#b52">[53]</ref><ref type="bibr" target="#b53">[54]</ref>. Methionine in proteins plays an important role in cellular antioxidant activity, protein structure stabilization, and sequence-independent recognition of protein surfaces. It can also act as a regulatory switch through reversible oxidation and reduction (reviewed in <ref type="bibr" target="#b54">[55]</ref>). This could hence explain its presence in the catalytic site (HEXXH motif ) of aminopeptidase N.</p><p>Drawing from foundational work such as that by Daly et al. <ref type="bibr" target="#b32">[33]</ref>, metalloproteins stand out as a consistently enriched protein class in strains adapted to space conditions. This enrichment pattern mirrors the remarkable adaptations seen in organisms like D. radiodurans, which has gained attention for its extraordinary radiation resistance <ref type="bibr" target="#b40">[41]</ref>. The prominence of these metaldependent enzymes in space-adapted strains is not merely a coincidence. These enzymes play a pivotal role in efficiently managing the redox stress that such microorganisms face in space. Their enrichment suggests an enhanced capability for early stress detection, with these enzymes acting as both environmental sensors and transcription factors. This is a vital adaptation, as space presents a plethora of unique stressors, with redox imbalances being a major concern. The ability of certain strains to bolster their defense mechanisms, as evidenced by the enrichment of specific proteins, reveals the intricate genetic adaptations that enable survival in such hostile settings. These findings not only deepen our grasp of astrobiology but also have profound implications for potential biotechnological applications, hinting at ways to engineer organisms or systems for better resilience in space or other extreme conditions. The extreme ISS environment explains the need for metals scavenging to balance the redox stress, e.g., in the form of metalloproteins. The study of metallopeptidases is essential in the context of microbial adaptation to space conditions due to their significant roles in protein degradation, regulation of biological functions, and contribution to microbial virulence and biofilm formation <ref type="bibr" target="#b29">[30]</ref>. This research is vital for ensuring the health and safety of astronauts, maintaining the integrity of space missions, and exploring new biotechnological applications. On the other hand, the prevalence of genes such as hemolysins, ferrochelatases, as well as protein glycosylation (mannose), antibiotic resistance and biofilm pathways indicates the risk of potential pathogenicity of the ISSinhabiting microorganisms. These genes also appear in the genomes of their closest terrestrial relatives, but more studies needed to validate whether microgravity enhance the antibiotic resistance and biofilm production <ref type="bibr" target="#b55">[56]</ref>. Conversely, these observations highlight the importance of metal uptake systems, which could lead to the development of antimicrobial agents utilized in the space habitat. Hemolysins are known to be repressed upon high Fe concentrations, as they are tools to scavenge it from the environment. On the other hand, LexAmediated stress response is known to initiate bacteriocin synthesis <ref type="bibr" target="#b56">[57]</ref>. Thiopeptide antibiotic called TP-1161 has been detected in the ISS organism A. burdickii <ref type="bibr" target="#b27">[28]</ref> and the presence of BGCs encoding potentially novel antimicrobial molecules in the genomes of remaining four ISS species has been confirmed. Therefore, these organisms may serve as a source of potential new antimicrobial agents available upon spaceflight.</p><p>In summary, the present study underscored the benefits of deep learning-based annotations, here using DeepFRI <ref type="bibr" target="#b57">[58]</ref>, which are able to go beyond the limitations of homology-based tools like PGAP and eggNOG <ref type="bibr" target="#b58">[59]</ref>. In fact, DeepFRI enabled the construction of a comprehensive and cohesive picture of adaptations to space conditions. Nevertheless, combined use of annotations derived from all tools was applied to, e.g., mechanosensitive ion channel proteins (see Section 2.3.2). While traditional tools often relegated these genes to the ambiguous "hypothetical" category, DeepFRI was adept at providing precise annotations. This allowed for the discernment of novel BGCs, a finding that was further corroborated using specialized tools such as ant-iSMASH <ref type="bibr" target="#b27">[28,</ref><ref type="bibr" target="#b59">60]</ref>. In addition, a significant portion of these novel annotations pertained to membrane-associated proteins. This resonates with prior observations highlighting membrane-related adjustments. The challenge of studying the membrane proteome cannot be understated. Yet, with the recent augmentation of databases like AlphaFold <ref type="bibr" target="#b26">[27]</ref> and ESM atlas <ref type="bibr" target="#b60">[61]</ref>, the scientific community has been endowed with a richer repository of membrane-bound protein structures. This surge in data availability paves the way for more refined structure-based annotations of novel genomes.</p><p>This deep dive into the genetic underpinnings bears profound significance, especially when contextualized within space-related stress factors. As organisms confront the multifaceted challenges of space, their genetic machinery undergoes intricate recalibrations. By harnessing sophisticated annotation tools, we gain unparalleled insights into these genetic adaptations, potentially unlocking the secrets of space resilience. Such revelations not only propel our understanding of astrobiology forward but also spotlight the potential of genetic mechanisms in tailoring organisms for optimal performance in extraterrestrial environments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bacteria isolation, genome assembly and annotation</head><p>Sample collection and bacterial isolation from ISS were performed as previously described <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b61">62]</ref>. Biochemical tests were performed using a Gram-positive identification card (Vitek 2 GP ID, bioMérieux) and phenotypic fingerprint was generated through GNIII MicroPlate according to BioLog's protocol as described elsewhere <ref type="bibr" target="#b27">[28]</ref>. We assembled the genomes of five novel bacterial species isolated from various surfaces of the ISS (specifically strains IF8SW-P5, IIF3SC_B10, F6_8S_P_1B, F6_8S_P_2B, F6_3S_P_1C), using the SPAdes workflow <ref type="bibr" target="#b62">[63]</ref>. Phylogenetic affiliations are as outlined in <ref type="bibr" target="#b27">[28]</ref> and presented in Table <ref type="table" target="#tab_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DNA extraction</head><p>The ISS isolates (n = 5) were grown on R2A medium and incubated at 30 °C, for 2 to 7 days. For WGS, DNA was isolated with the ZymoBIOMICS DNA MagBead kit, and WGS libraries prepared using the Illumina Nextera DNA Flex kit. Sequencing on the NovaSeq 6000 platform involved paired-end, 2 × 150 bp reads. FastQC (<ref type="url" target="https://github.com/s-andrews/FastQC">https://  github</ref>. com/s-andre ws/ FastQC) and fastp <ref type="bibr" target="#b63">[64]</ref> ensured data quality. WGS reads were assembled using SPAdes <ref type="bibr" target="#b62">[63]</ref>, with genome statistics from QUAST <ref type="bibr" target="#b64">[65]</ref> and quality checks from CheckM <ref type="bibr" target="#b65">[66]</ref>. Species verification through fastANI <ref type="bibr" target="#b66">[67]</ref> and fastAAI (<ref type="url" target="https://github.com/cruizperez/FastAAI">https:// github. com/  cruiz perez/ FastA AI</ref>) confirmed identities with over 95% identity, and digital DNA-DNA hybridization (dDDH) was estimated with GGDC using Formula 2 <ref type="bibr" target="#b67">[68]</ref>. For genome synteny analysis, we used SynTracker <ref type="bibr" target="#b24">[25]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genome annotation</head><p>Following assembly, the contigs were subjected to the NCBI Prokaryotic Genome Annotation Pipeline (PGAP) <ref type="bibr" target="#b68">[69]</ref>, available at <ref type="url" target="https://github.com/ncbi/pgap/wiki">https:// github. com/ ncbi/ pgap/ wiki</ref>, in order to obtain draft genomes and proteomes. Genomes were further investigated for their functions, where all identified genes (bearing PGAP descriptions in their names) underwent homology-based annotation using eggNOG v5.0, accessible at <ref type="url" target="https://github.com/eggnogdb/eggnog-mapper">https:// github. com/ eggno  gdb/ eggnog-mapper</ref>. Genomes of closest relatives of the ISS species (highest ANI) were also subjected to PGAP and eggNOG annotation.</p><p>Proteomes with the PGAP identifiers were used as input for DeepFRI analysis <ref type="bibr" target="#b57">[58]</ref>, available on github: (<ref type="url" target="https://github.com/bioinf-mcb/Metagenomic-DeepFRI/">https:// github. com/ bioinf-mcb/ Metag enomic-DeepF  RI/</ref>), which generated query contact map using results from mmseqs2 target database <ref type="bibr" target="#b69">[70]</ref> search for similar protein sequences with known structures and with v 1.0 model weights. For reference database, we combined structures from Swissprot (<ref type="url" target="https://alphafold.ebi.ac.uk/download">https:// alpha fold. ebi. ac. uk/  downl oad</ref>), microbiome immunity project (MIP) <ref type="bibr" target="#b70">[71]</ref> and protein databank (PDB, <ref type="url" target="https://www.rcsb.org">https:// www. rcsb. org</ref>). Next, the contact map alignment was performed to use it as input to DeepFRI's Graph Convolutional Network (GCN) and annotations without the alignment to known structures were processed with Convolutional Neural Network (CNN). For MQ and HQ annotation, scores higher than or equal to 0.3 (50% of prediction confidence; MQ) and 0.5 (90% of prediction confidence; HQ) were used respectively (Figs. <ref type="figure" target="#fig_1">2</ref><ref type="figure">3</ref>). All annotations for ISS strains and their terrestrial relatives are provided in Supplementary Tables S2-S11. Phylogenetically close relatives from Earth for each tested species were identified using ANI (Table <ref type="table" target="#tab_0">1</ref>). Their genomes were annotated using DeepFRI as described above. Protein sequences from the aforementioned five species were aligned and conducted twodimensional clustering using CD-HIT <ref type="bibr" target="#b71">[72]</ref>, available at <ref type="url" target="https://github.com/weizhongli/cdhit">https:// github. com/ weizh ongli/ cdhit</ref>, employing a 40% similarity threshold. Genes below that threshold were considered "novel" and subjected to analysis shown in Fig. <ref type="figure">3A-B</ref>.</p><p>Annotations (GO terms) were then compared between ISS strains (Supplementary Table <ref type="table" target="#tab_0">S12</ref>) and their terrestrial counterparts (Supplementary Table <ref type="table" target="#tab_0">S13</ref>). Common annotations were aggregated according to clusters of orthologous genes (COG) categories <ref type="bibr" target="#b72">[73]</ref> using go2cog mapper (<ref type="url" target="https://github.com/Tomasz-Lab/go2cog">https:// github. com/ Tomasz-Lab/ go2cog</ref>). GO terms that could be assigned to more than 3 COG categories were grouped as category R-"general function prediction" (Figs. <ref type="figure" target="#fig_1">2</ref> and <ref type="figure">3</ref>). Heatmaps were generated using seaborn (<ref type="url" target="https://github.com/mwaskom/seaborn">https:// github. com/ mwask om/ seabo rn</ref>). Venn diagrams and Upsetplot were generated using matplotlib (<ref type="url" target="https://github.com/matplotlib/matplotlib">https:// github. com/ matpl otlib/ matpl otlib</ref>). Using a knowledge-based approach, a set of genes was selected for further analysis. Protein structures were modeled using in silico structure prediction tool-AlphaFold Colab <ref type="bibr" target="#b26">[27]</ref>-and hence obtained protein databank (PDB) format structures were aligned using Geneious Prime 2023.1.1 (Biomatters). Structures were aligned using TMalign tool <ref type="bibr" target="#b25">[26]</ref>. Based on the predicted structure, novel functional annotation was performed using DeepFRI. All the annotation data and scripts are placed in the repository on github (<ref type="url" target="https://github.com/lmszydlowski/Adaptation-of-novel-bacterial-species-isolated-from-the-International-Space-Station">https:// github. com/ lmszy dlows ki/ Adapt  ation-of-novel-bacte rial-speci es-isola ted-from-the-Inter  natio nal-Space-Stati on</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sequence alignments, functional annotations for plasmids, phage elements and biosynthetic gene clusters in the genome</head><p>Sequences of selected proteins were aligned using Muscle 5.1 <ref type="bibr" target="#b73">[74]</ref>. Clustering dendrograms were built using PhyML 3.3, <ref type="bibr" target="#b74">[75]</ref> using LG amino acid substitution model and approximate likelihood ratio test (aLRT) for branch support. All contigs generated for each genome were scanned for potential plasmids using PLASme software (<ref type="url" target="https://github.com/HubertTang/PLASMe">https:// github. com/ Huber tTang/ PLASMe</ref>), phage-related elements using PHASTER software <ref type="bibr" target="#b75">[76,</ref><ref type="bibr" target="#b76">77]</ref> and results provided in the Supplementary Tables S15-S16. Genome sequences were also processed through the AntiSMASH 7.0 software <ref type="bibr" target="#b59">[60]</ref> to look for biosynthetic gene clusters (BGCs) (Supplementary Table <ref type="table" target="#tab_0">S14</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Protein mutation and enrichment analysis</head><p>To investigate the roles and processes of proteins highly enriched in bacteria from the ISS, we specifically focused on the enrichment of certain amino acids, especially proline and glycine, which belong to unique amino acid change groups. The amino acid compositions of proteins from the ISS strains were compared with those proteins found in the closest terrestrial species through global alignment methods <ref type="bibr" target="#b77">[78]</ref>. This facilitates the identification and quantification of any shifts in the amino acid composition. These shifts were evaluated by calculating the mutation rate, which is achieved by dividing the number of amino acid substitutions in the ISS bacteria by the number of amino acid substitutions in their closest terrestrial relatives. Proteins with normalized amino acid mutation rate and Z-score above 1.96 or below -1.96 were classified as enriched. To investigate the functions and pathways of these proteins, we utilize the g:Profiler enrichment tool (<ref type="url" target="https://biit.cs.ut.ee/gprofiler/gost">https:// biit. cs. ut. ee/ gprofi ler/ gost</ref>  <ref type="bibr" target="#b78">[79]</ref>). Custom gene sets for bacteria were created using UniProt's <ref type="bibr" target="#b79">[80]</ref> predicted GO term associations <ref type="bibr" target="#b80">[81]</ref> for bacterial proteins. The tool was configured to include a minimum gene set size of 5 and a maximum of 10,000, focusing on molecular function GO terms. Shared gene sets between samples were filtered using a false discovery rate (FDR) cutoff of 0.05 in 1424 molecular function GO terms. Data visualization was enhanced through ete3 (<ref type="url" target="https://doi.org/10.1093/molbev/msw046">https:// doi. org/ 10. 1093/ molbev/ msw046</ref>) for constructing phylogenetic trees and seaborn (<ref type="url" target="https://github.com/mwaskom/seaborn">https:// github. com/  mwask om/ seabo rn</ref>) for generating heatmaps. The phylogenetic distance between bacterial species was calculated using NCBI's distance calculations, with the closest terrestrial bacteria as a reference.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Overview of the project. Scheme created with BioRe nder. com</figDesc><graphic coords="3,127.54,88.58,340.20,367.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 Overview of the annotations common in all ISS species. A Number of unique, common annotations found in all species (BP, biological process; CC, cell component; EC, enzyme commission; MF, molecular function; MQ, medium quality; HQ, high quality). B Upset plot showing common annotations (derived from DeepFRI) with different groups of interests. C Clustering all isolates' common annotations in the form of clusters of orthologous genes (COG) categories. See the "Methods" for more details</figDesc><graphic coords="5,155.91,88.57,283.46,417.02" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4</head><label>4</label><figDesc>Fig. 4 Comparison of mutation enrichment in ISS species across different protein families. A Clustering dendrogram representing enrichment in protein mutations (wrt closest relative) related to the protein group and type of mutation. B Mutation enrichment of selected proteins (wrt Uniprot database) with their significance scores</figDesc><graphic coords="7,127.53,88.57,340.22,432.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 5</head><label>5</label><figDesc>Fig. 5 Heatmap representing abundance of annotations of interest in the studied species</figDesc><graphic coords="8,64.18,88.58,466.92,221.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="6,155.91,88.57,283.46,512.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="10,127.53,88.57,340.22,385.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>General features of the isolates used in this study. ANI, average nucleotide identity AAI , average aminoacid identity.</figDesc><table><row><cell>Strain</cell><cell>Location</cell><cell>Scientific name</cell><cell>Genome ID</cell></row><row><cell>IF8SW-P5</cell><cell>ISS-Crew quarters</cell><cell>Microbacterium mcarthurae</cell><cell>JAROCE000000000</cell></row><row><cell>F6_8S_P_2B</cell><cell>ISS-Crew quarters</cell><cell>Microbacterium meiriae</cell><cell>CP133984</cell></row><row><cell>F6_3S_P_1C</cell><cell>ISS-ARED A</cell><cell>Paenibacillus vandeheii</cell><cell>JAROCD000000000</cell></row><row><cell>IIF3SC_B10</cell><cell>ISS-ARED</cell><cell>Arthrobacter burdickii</cell><cell>JAROCG000000000</cell></row><row><cell>F6_8S_P_1B</cell><cell>ISS-Crew quarters</cell><cell>Leifsonia williamsii</cell><cell>JAROCF000000000</cell></row><row><cell>Spore-forming?</cell><cell>Number of genes</cell><cell>PGAP coverage</cell><cell>eggNOG coverage</cell></row><row><cell>No</cell><cell>2977</cell><cell>81.9%</cell><cell>81.9%</cell></row><row><cell>No</cell><cell>3310</cell><cell>80.9%</cell><cell>81.2%</cell></row><row><cell>Yes</cell><cell>6223</cell><cell>81.3%</cell><cell>82.4%</cell></row><row><cell>No</cell><cell>3557</cell><cell>80.3%</cell><cell>82.3%</cell></row><row><cell>No</cell><cell>3649</cell><cell>79.5%</cell><cell>78.6%</cell></row><row><cell>DeepFRI coverage</cell><cell>Closest Earth strain</cell><cell>Assembly ID</cell><cell>ANI (AAI)</cell></row><row><cell>100%</cell><cell>Microbacterium sp. ACCRU</cell><cell>GCF_022346945.1</cell><cell>98.9% (&gt; 90%)</cell></row><row><cell>99.9%</cell><cell>Microbacterium sp. LTR1</cell><cell>GCF_026805445.1</cell><cell>98.3% (&gt; 90%)</cell></row><row><cell>100%</cell><cell>Paenibacillus sp. MAEPY</cell><cell>GCA_000499205.1</cell><cell>96.0% (&gt; 90%)</cell></row><row><cell>99.9%</cell><cell>Arthrobacter agilis 4041</cell><cell>GCF_002157505.1</cell><cell>93.8% (&gt; 90%)</cell></row><row><cell>100%</cell><cell>Leifsonia sp. ku-ls</cell><cell>GCA_003367665.1</cell><cell>84.5% (75.91%)</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We acknowledge the <rs type="institution" subtype="infrastructure">Jet Propulsion Laboratory supercomputing facility</rs> staff, notably <rs type="person">Narendra J. Patel</rs> (<rs type="person">Jimmy</rs>) and <rs type="person">Edward Villanueva</rs>, for their continuous support in providing the best possible infrastructure for BIGDATA analysis. © 2024 California <rs type="funder">Institute of Technology, Government</rs> sponsorship acknowledged.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">Jet Propulsion Laboratory supercomputing facility</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Code availability</head><p>All bioinformatic tools used in this study are available on GitHub: <ref type="url" target="https://github.com/lmszydlowski/Adaptation-of-novel-bacterial-species-isolated-from-the-International-Space-Station">https://  github</ref>. com/ lmszy dlows ki/ Adapt ation-of-novel-bacte rial-speci es-isola tedfrom-the-Inter natio nal-Space-Stati on.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary Information</head><p>The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1186/s40168-024-01916-8">https:// doi.  org/ 10. 1186/ s40168-024-01916-8</ref>.</p><p>Additional file 1: Supplementary Figure <ref type="figure">1</ref>. Assembled contigs with regions corresponding to biosynthetic gene clusters marked. Full description of BGC from each organism is provided in the Supplementary Table <ref type="table">S14</ref>. Supplementary Figure <ref type="figure">2</ref>. Alignment of novel S-layer osidoreductases with their closest sequenctial homolog from D. radiodurans (WP_027479552.1, red). Mma -M. mcarthurae (magenta), Mme -M. meiriae, orange. pLDDT -predicted local-distance difference test, pTM -predicted template modelling, TM -template modelling, see <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b26">27]</ref>. Supplementary Figure <ref type="figure">3</ref>. A) Phenotypic assays of studied organisms with GNIII MicroPlate (Biolog). B) Biochemical assays of studied organisms Gram-positive identification card Vitek 2 GP ID (bioMérieux). Blue -absent, red -present. Assays were performed according to manufacturers' protocol. Supplementary Figure <ref type="figure">4</ref>. Phylogenetic tree based on alignment of MscS protein sequences from ISS organisms and their closest terrestrial relatives. Branch labels indicate substitutions per site. Ab -A. burdickii (blue), Asp -A. agilis 4041 (blue), Mma -M. mcarthurae (burgundy), Msp -Microbacterium sp. ACCRU (burgundy), Lw -L. williamsii (yellow), Lsp -Leifsonia sp.ku-ls (yellow), Mme -M. meiriae (orange), Mp -Microbacterium sp. LTR1 (orange), Pv -P. vandeheii, (green), Psp -Paenibacillus sp. MAEPY (green). Supplementary Figure <ref type="figure">5</ref>. Alignment of DNA and amino acid sequence of aminopeptidases Mme_001931 and WP_268776344. Green boxes indicate sequence identity. Supplementary Figure <ref type="figure">6</ref>. Structure alignment of aminopeptidase Mme_001931 (cyan) and WP_0516188611 (red). pLDDT -predicted local-distance difference test, pTM -predicted template modelling, TM -template modelling, see <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b26">27]</ref>. Supplementary Figure <ref type="figure">7</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Availability of data and materials</head><p>The draft genome sequences of strains IIF3SC_B10, F6_3S_P_1C and F6_8S_P_1B were deposited in NCBI under BioProject PRJNA935338 (see <ref type="bibr" target="#b27">[28]</ref>. Strains F6_8S_P_2B and IF8SW-P5 were deposited in BioProjects PRJNA869446 and PRJNA224116, respectively. The WGS accession numbers are given in Table <ref type="table">1</ref> and the genome versions described in this paper are the first versions. Moreover, genomes of all ISS strains and their terrestrial relatives are available on Kbase (narrative 107942).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declarations</head><p>Ethics approval and consent to participate Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Consent for publication</head><p>All authors have agreed to be co-authors and have approved the final version of this manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Publisher's Note</head><p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Survival of Bacillus pumilus spores for a prolonged period of time in real space conditions</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Vaishampayan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rabbow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Horneck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Venkateswaran</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/ast.2011.0738</idno>
+		<ptr target="https://doi.org/10.1089/ast.2011.0738" />
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="487" to="497" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Deinococcus radiodurans -the consummate survivor</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Battista</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrmicro1264</idno>
+		<ptr target="https://doi.org/10.1038/nrmicro1264" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="882" to="892" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Survival of Antarctic Cryptoendolithic Fungi in Simulated Martian Conditions on Board the International Space Station</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Onofri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Vera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Zucconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Selbmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Scalzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Venkateswaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1089/ast.2015.1324</idno>
+		<ptr target="https://doi.org/10.1089/ast.2015.1324" />
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1052" to="1059" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Resistance of the anhydrobiotic eutardigrade Paramacrobiotus richtersi to space flight (LIFE-TARSE mission on FOTON-M3)</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rebecchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Altiero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cesari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bertolani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rizzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Corsetto</forename><surname>Pa</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1439-0469.2010.00606.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1439-0469.2010.00606.x" />
+	</analytic>
+	<monogr>
+		<title level="j">J Zool Syst Evol Res</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="98" to="103" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Macrotrachela quadricornifera featured in a space experiment</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ricci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Caprioli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boschetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Santo</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10750-004-1509-7</idno>
+		<ptr target="https://doi.org/10.1007/s10750-004-1509-7" />
+	</analytic>
+	<monogr>
+		<title level="j">Hydrobiologia</title>
+		<imprint>
+			<biblScope unit="volume">534</biblScope>
+			<biblScope unit="issue">1-3</biblScope>
+			<biblScope unit="page" from="239" to="244" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Planetary exploration in the time of astrobiology: protecting against biological contamination</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Rummel</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.061021398</idno>
+		<ptr target="https://doi.org/10.1073/pnas.061021398" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2128" to="2131" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Microbial applications for sustainable space exploration beyond low Earth orbit</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Koehle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Brumwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Seto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Lynch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urbaniak</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41526-023-00285-0</idno>
+		<ptr target="https://doi.org/10.1038/s41526-023-00285-0" />
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">How the space environment influences organisms: An astrobiological perspective and review</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Prasad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vadakedath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fwm</forename><surname>Haag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Strauch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mancinelli</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S1473550421000057</idno>
+		<ptr target="https://doi.org/10.1017/S1473550421000057" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Astrobiol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="159" to="177" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Pangenomic Approach To Understanding Microbial Adaptations within a Model Built Environment , the International Space Station , Relative to Human Hosts and Soil</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Blaustein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Mcfarland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Maamar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Castro-Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Hartmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/mSystems.00281-18</idno>
+		<ptr target="https://doi.org/10.1128/mSystems.00281-18" />
+	</analytic>
+	<monogr>
+		<title level="j">mSystems</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Molecular Mechanisms of Microbial Survivability in Outer Space: A Systems Biology Approach</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Milojevic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Weckwerth</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2020.00923</idno>
+		<ptr target="https://doi.org/10.3389/fmicb.2020.00923" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2020-05">2020. May</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The International Space Station Environment Triggers Molecular Responses in Aspergillus niger</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blachowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Romsdahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Chiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Masonjones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kalkum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Stajich</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2022.893071</idno>
+		<ptr target="https://doi.org/10.3389/fmicb.2022.893071" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="2022-06">2022. June</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Effect of microgravity and space radiation on microbes</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Senatore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mastroleo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Leys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mauriello</surname></persName>
+		</author>
+		<idno type="DOI">10.2217/fmb-2017-0251</idno>
+		<ptr target="https://doi.org/10.2217/fmb-2017-0251" />
+	</analytic>
+	<monogr>
+		<title level="j">Future Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="831" to="847" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Metabolic modeling of the International Space Station microbiome reveals key microbial interactions</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Balakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Raman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40168-022-01279-y</idno>
+		<ptr target="https://doi.org/10.1186/s40168-022-01279-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Microbial pathogenicity in space</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Simões</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Antunes</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/pathogens10040450</idno>
+		<ptr target="https://doi.org/10.3390/pathogens10040450" />
+	</analytic>
+	<monogr>
+		<title level="j">Pathogens</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1" to="23" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Molecular repertoire of Deinococcus radiodurans after 1 year of exposure outside the International Space Station within the Tanpopo mission</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kölbl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rabbow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rettberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mora</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40168-020-00927-5</idno>
+		<ptr target="https://doi.org/10.1186/s40168-020-00927-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Memory Effect on the Survival of Deinococcus radiodurans after Exposure in Near Space</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">G</forename><surname>Shu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shi</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/spectrum.03474-22</idno>
+		<ptr target="https://doi.org/10.1128/spectrum.03474-22" />
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol Spectr</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Multidrug-resistant Acinetobacter pittii is adapting to and exhibiting potential succession aboard the International Space Station</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Tierney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Hujer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Bonomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40168-022-01358-0</idno>
+		<ptr target="https://doi.org/10.1186/s40168-022-01358-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Molecular response of Deinococcus radiodurans to simulated microgravity explored by proteometabolomic approach</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Moeller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hemmersbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawaguchi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-019-54742-6</idno>
+		<ptr target="https://doi.org/10.1038/s41598-019-54742-6" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="1" to="13" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Study of the impact of long-duration space missions at the International Space Station on the astronaut microbiome</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Voorhies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Crucian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Feiveson</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-019-46303-8</idno>
+		<ptr target="https://doi.org/10.1038/s41598-019-46303-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+			<date type="published" when="2019">2019. 9911</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Comparative Genomics of Novel Agrobacterium G3 Strains Isolated From the International Space Station and Description of Agrobacterium tomkonis sp</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lavire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nesme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vial</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Nesme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2021.765943</idno>
+		<ptr target="https://doi.org/10.3389/fmicb.2021.765943" />
+	</analytic>
+	<monogr>
+		<title level="j">nov. Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2021-12">2021. December</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Methylobacterium ajmalii sp. nov., Isolated From the International Space Station</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bijlani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vvr</forename><surname>Eedara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Podile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ccc</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2021.639396</idno>
+		<ptr target="https://doi.org/10.3389/fmicb.2021.639396" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2021-03">2021. March</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Cultivation of Staphylococcus epidermidis in the human spaceflight environment leads to alterations in the frequency and spectrum of spontaneous rifampicin-resistance mutations in the rpoB gene</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fajardo-Cavazos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2016.00999</idno>
+		<ptr target="https://doi.org/10.3389/fmicb.2016.00999" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Microbial Tracking-2, a metagenomics analysis of bacteria and fungi onboard the International Space Station</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urbaniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Thissen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Karouia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mehta</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40168-022-01293-0</idno>
+		<ptr target="https://doi.org/10.1186/s40168-022-01293-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Growth of 48 built environment bacterial isolates on board the International Space Station (ISS)</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Coil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Y</forename><surname>Neches</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Severance</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cavalier</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.1842</idno>
+		<ptr target="https://doi.org/10.7717/peerj.1842" />
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2016">2016. 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Strain tracking in complex microbiomes using synteny analysis reveals per-species modes of evolution</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Enav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Paz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Ley</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41587-024-02276-2</idno>
+		<ptr target="https://doi.org/10.1038/s41587-024-02276-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">TM-align: A protein structure alignment algorithm based on the TM-score</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Skolnick</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gki524</idno>
+		<ptr target="https://doi.org/10.1093/nar/gki524" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2302" to="2309" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Highly accurate protein structure prediction with AlphaFold</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jumper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pritzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Figurnov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ronneberger</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-021-03819-2</idno>
+		<ptr target="https://doi.org/10.1038/s41586-021-03819-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">596</biblScope>
+			<biblScope unit="issue">7873</biblScope>
+			<biblScope unit="page" from="583" to="589" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Phylogenomics, phenotypic, and functional traits of five novel (Earthderived) bacterial species isolated from the International Space Station and their prevalence in metagenomes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sengupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hameed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-023-44172-w</idno>
+		<ptr target="https://doi.org/10.1038/s41598-023-44172-w" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Glycine Perturbs Local and Global Conformational Flexibility of a Transmembrane Helix</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Högel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Götz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kuhne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Stelzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Rand</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/acs.biochem.7b01197</idno>
+		<ptr target="https://doi.org/10.1021/acs.biochem.7b01197" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">57</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Phenotypical changes in Escherichia coli K12 after prolonged exposure to simulated microgravity</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chavez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Topolski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hicks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Villafania</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Baez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burke</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/frspt.2023.1282850</idno>
+		<ptr target="https://doi.org/10.3389/frspt.2023.1282850" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Space Technol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Antibiotic use in agriculture and its consequential resistance in environmental sources: Potential public health implications</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Manyi-Loh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mamphweli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Okoh</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/molecules23040795</idno>
+		<ptr target="https://doi.org/10.3390/molecules23040795" />
+	</analytic>
+	<monogr>
+		<title level="j">Molecules</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Mechanotransduction in prokaryotes: A possible mechanism of spaceflight adaptation</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fajardo-Cavazos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/life11010033</idno>
+		<ptr target="https://doi.org/10.3390/life11010033" />
+	</analytic>
+	<monogr>
+		<title level="j">Life</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Protein oxidation implicated as the primary determinant of bacterial radioresistance</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Daly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Gaidamakova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">Y</forename><surname>Matrosova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vasilenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Leapman</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pbio.0050092</idno>
+		<ptr target="https://doi.org/10.1371/journal.pbio.0050092" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Biol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="769" to="779" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Environmental factors influencing the development and spread of antibiotic resistance</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bengtsson-Palme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kristiansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dgj</forename><surname>Larsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="68" to="80" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The Impacts of Microgravity on Bacterial Metabolism</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Curtis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Life</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">774</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Space Station conditions are selective but do not alter microbial characteristics relevant to human health</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kögler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mahnert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rettberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schwendner</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-019-11682-z</idno>
+		<ptr target="https://doi.org/10.1038/s41467-019-11682-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Characterization of Metagenome Assembled Genomes from the International Space Station</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Patane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Maria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Moura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lombardino</surname></persName>
+		</author>
+		<idno type="DOI">10.21203/rs.3.rs-1934191/v1</idno>
+		<ptr target="https://doi.org/10.21203/rs.3.rs-1934191/v1" />
+	</analytic>
+	<monogr>
+		<title level="j">BMC Microbiome</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="20" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Modeling the Impact of Microgravity at the Cellular Level: Implications for Human Disease</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bradbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">U</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Rowan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Poole</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fcell.2020.00096</idno>
+		<ptr target="https://doi.org/10.3389/fcell.2020.00096" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Cell Dev Biol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2020-02">2020. February</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Protein glycosylation in bacteria: Sweeter than ever</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nothaft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Szymanski</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrmicro2383</idno>
+		<ptr target="https://doi.org/10.1038/nrmicro2383" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="765" to="778" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Tolerance at the genetic level of the brine shrimp Artemia salina to a wide range of salinity</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.21203/rs.3.rs-91049/v1</idno>
+		<ptr target="https://doi.org/10.21203/rs.3.rs-91049/v1" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Reassembly of shattered chromosomes in Deinococcus radiodurans</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zahradka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Slade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bailone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sommer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Averbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Petranovic</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature05160</idno>
+		<ptr target="https://doi.org/10.1038/nature05160" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">443</biblScope>
+			<biblScope unit="issue">7111</biblScope>
+			<biblScope unit="page" from="569" to="573" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Effects of Simulated Microgravity on the Physiology of Stenotrophomonas maltophilia and Multiomic Analysis</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2021.701265</idno>
+		<ptr target="https://doi.org/10.3389/fmicb.2021.701265" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Effects of short-term exposure to simulated microgravity on the physiology of Bacillus subtilis and multiomic analysis</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1139/cjm-2023-0061</idno>
+		<ptr target="https://doi.org/10.1139/cjm-2023-0061" />
+	</analytic>
+	<monogr>
+		<title level="j">Can J Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="464" to="478" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Radiation tolerance in the eutardigrade Richtersius coronifer</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">I</forename><surname>Jönsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Harms-Ringdahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Torudd</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/09553000500368453</idno>
+		<ptr target="https://doi.org/10.1080/09553000500368453" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Radiat Biol</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="649" to="656" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Extreme resistance of bdelloid rotifers to ionizing radiation</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gladyshev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Meselson</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0800966105</idno>
+		<ptr target="https://doi.org/10.1073/pnas.0800966105" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="5139" to="5144" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The bacterial LexA transcriptional repressor</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Butala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Žgur-Bertok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sjw</forename><surname>Busby</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00018-008-8378-6</idno>
+		<ptr target="https://doi.org/10.1007/s00018-008-8378-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Mol Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="82" to="93" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Foreign genes and novel hydrophilic protein genes participate in the desiccation response of the bdelloid rotifer Adineta ricciae</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boschetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pouchkina-Stantcheva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tunnacliffe</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jeb.050328</idno>
+		<ptr target="https://doi.org/10.1242/jeb.050328" />
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="page" from="59" to="68" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Horizontal gene transfer in bdelloid rotifers is ancient, ongoing and more frequent in species from desiccating habitats</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Eyres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Boschetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crisp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fontaneto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tunnacliffe</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12915-015-0202-9</idno>
+		<ptr target="https://doi.org/10.1186/s12915-015-0202-9" />
+	</analytic>
+	<monogr>
+		<title level="j">BMC Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">A deep-branching clade of retrovirus-like retrotransposons in bdelloid rotifers</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gladyshev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Meselson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Arkhipova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gene</title>
+		<imprint>
+			<biblScope unit="volume">390</biblScope>
+			<biblScope unit="page" from="136" to="145" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">ISDra2 transposition in Deinococcus radiodurans is downregulated by TnpB</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pasternak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dulermo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ton-Hoang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Debuchy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Siguier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Coste</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/mmi.12194</idno>
+		<ptr target="https://doi.org/10.1111/mmi.12194" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="443" to="455" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Draft genome sequences of Acinetobacter and Bacillus strains isolated from spacecraft-associated surfaces</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Seuylemezian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vaishampayan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/genomeA.01554-17</idno>
+		<ptr target="https://doi.org/10.1128/genomeA.01554-17" />
+	</analytic>
+	<monogr>
+		<title level="j">Genome Announc</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1" to="2" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">A structural role for arginine in proteins: Multiple hydrogen bonds to backbone carbonyl oxygens</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Borders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Broadwater</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Bekeny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Salmon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Eldridge</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pro.5560030402</idno>
+		<ptr target="https://doi.org/10.1002/pro.5560030402" />
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="541" to="548" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Salt Bridges: Geometrically Specific, Designable Interactions</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Donald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Kulp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Degrado</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/prot.22927.Salt</idno>
+		<ptr target="https://doi.org/10.1002/prot.22927.Salt" />
+	</analytic>
+	<monogr>
+		<title level="j">Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="898" to="915" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">A study on the effect of surface lysine to arginine mutagenesis on protein stability and structure using green fluorescent protein</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sokalingam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Raghunathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Soundrarajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0040410</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0040410" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Methionine in proteins: The Cinderella of the proteinogenic amino acids</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Aledo</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pro.3698</idno>
+		<ptr target="https://doi.org/10.1002/pro.3698" />
+	</analytic>
+	<monogr>
+		<title level="j">Protein Sci</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1785" to="1796" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Spaceflight Promotes Biofilm Formation by Pseudomonas aeruginosa</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">K</forename><surname>Tengra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Marchand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Chan</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0062437</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0062437" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">The role of SOS boxes in enteric bacteriocin regulation</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gillor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jac</forename><surname>Vriezen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Riley</surname></persName>
+		</author>
+		<idno type="DOI">10.1099/mic.0.2007/016139-0</idno>
+		<ptr target="https://doi.org/10.1099/mic.0.2007/016139-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Microbiology</title>
+		<imprint>
+			<biblScope unit="volume">154</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1783" to="1792" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Structure-based protein function prediction using graph convolutional networks</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gligorijević</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Renfrew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kosciolek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Leman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Berenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vatanen</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-021-23303-9</idno>
+		<ptr target="https://doi.org/10.1038/s41467-021-23303-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">EggNOG 5.0: A hierarchical, functionally and phylogenetically annotated orthology resource based on 5090 organisms and 2502 viruses</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huerta-Cepas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Szklarczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Heller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hernández-Plaza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Forslund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cook</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gky1085</idno>
+		<ptr target="https://doi.org/10.1093/nar/gky1085" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">D1</biblScope>
+			<biblScope unit="page" from="309" to="D314" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">antiSMASH 7.0: new and improved predictions for detection, regulation, chemical structures and visualisation</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Blin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Augustijn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">L</forename><surname>Reitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Biermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alanjary</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkad344</idno>
+		<ptr target="https://doi.org/10.1093/nar/gkad344" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="46" to="50" />
+			<date type="published" when="2023-05">2023. May</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Evolutionary-scale prediction of atomic-level protein structure with a language model</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Akin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.ade2574</idno>
+		<ptr target="https://doi.org/10.1126/science.ade2574" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">379</biblScope>
+			<biblScope unit="issue">6637</biblScope>
+			<biblScope unit="page" from="1123" to="1130" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Sielaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urbaniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Babu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Tran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">50</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">SPAdes: A new genome assembly algorithm and its applications to single-cell sequencing</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bankevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nurk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Antipov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Gurevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dvorkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Kulikov</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/cmb.2012.0021</idno>
+		<ptr target="https://doi.org/10.1089/cmb.2012.0021" />
+	</analytic>
+	<monogr>
+		<title level="j">J Comput Biol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="455" to="477" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<title level="m" type="main">Fastp: An ultra-fast all-in-one FASTQ preprocessor</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gu</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/bty560</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/bty560" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="884" to="890" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">QUAST: Quality assessment tool for genome assemblies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gurevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Saveliev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vyahhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tesler</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btt086</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/btt086" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1072" to="1075" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">CheckM: Assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Parks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Imelfort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Skennerton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hugenholtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Tyson</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gr.186072.114</idno>
+		<ptr target="https://doi.org/10.1101/gr.186072.114" />
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1043" to="1055" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">A large-scale evaluation of algorithms to calculate average nucleotide identity</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Min</forename><surname>Ha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kwon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1007/s10482-017-0844-4</idno>
+		<ptr target="https://doi.org/10.1007/s10482-017-0844-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Anton Leeuw Int J Gen Mol Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="1281" to="1286" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">TYGS and LPSN: A database tandem for fast and reliable genome-based classification and nomenclature of prokaryotes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Meier-Kolthoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Carbasse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Peinado-Olarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Göker</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkab902</idno>
+		<ptr target="https://doi.org/10.1093/nar/gkab902" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="801" to="807" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">NCBI prokaryotic genome annotation pipeline</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tatusova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dicuccio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Badretdin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Chetvernin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Nawrocki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zaslavsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkw569</idno>
+		<ptr target="https://doi.org/10.1093/nar/gkw569" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="6614" to="6624" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Steinegger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Söding</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nbt.3988</idno>
+		<ptr target="https://doi.org/10.1038/nbt.3988" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1026" to="1028" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Sequence-structure-function relationships in the microbial protein universe</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Koehler Leman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Szczerbiak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Renfrew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gligorijevic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Berenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vatanen</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-023-37896-w</idno>
+		<ptr target="https://doi.org/10.1038/s41467-023-37896-w" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">CD-HIT: Accelerated for clustering the nextgeneration sequencing data</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/bts565</idno>
+		<ptr target="https://doi.org/10.1093/bioinformatics/bts565" />
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="3150" to="3152" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">COG database update: Focus on microbial diversity, model organisms, and widespread pathogens</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Galperin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">I</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Makarova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Alvarez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Landsman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Koonin</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkaa1018</idno>
+		<ptr target="https://doi.org/10.1093/nar/gkaa1018" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="274" to="281" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Muscle5: High-accuracy alignment ensembles enable unbiased assessments of sequence homology and phylogeny</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Edgar</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-022-34630-w</idno>
+		<ptr target="https://doi.org/10.1038/s41467-022-34630-w" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">New algorithms and methods to estimate maximum-likelihood phylogenies: Assessing the performance of PhyML 3.0</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guindon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Dufayard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lefort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Anisimova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hordijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gascuel</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/sysbio/syq010</idno>
+		<ptr target="https://doi.org/10.1093/sysbio/syq010" />
+	</analytic>
+	<monogr>
+		<title level="j">Syst Biol</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="307" to="321" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">PHAST: a fast phage search tool</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Lynch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Dennis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Wishart</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkr485</idno>
+		<ptr target="https://doi.org/10.1093/nar/gkr485" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="347" to="352" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">PHASTER: a better, faster version of the PHAST phage search tool</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Arndt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Grant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marcu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sajed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkw387</idno>
+		<ptr target="https://doi.org/10.1093/nar/gkw387" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">W1</biblScope>
+			<biblScope unit="page" from="16" to="21" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Basic local alignment search tool</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Altschul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lipman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0022-2836(05)80360-2</idno>
+		<ptr target="https://doi.org/10.1016/S0022-2836(05)80360-2" />
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="403" to="410" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">G:Profiler-a web-based toolset for functional profiling of gene lists from large-scale experiments</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Reimand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vilo</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gkm226</idno>
+		<ptr target="https://doi.org/10.1093/nar/gkm226" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="193" to="200" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">UniProt: A worldwide hub of protein knowledge</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Consortium</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gky1049</idno>
+		<ptr target="https://doi.org/10.1093/nar/gky1049" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">D1</biblScope>
+			<biblScope unit="page" from="506" to="515" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Gene Ontology: tool for the unification of biology</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ashburner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Blake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Botstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Cherry</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/75556</idno>
+		<ptr target="https://doi.org/10.1038/75556" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Genet</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="25" to="29" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

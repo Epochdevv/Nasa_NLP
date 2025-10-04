@@ -1,0 +1,2164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Evaluating the effect of spaceflight on the host–pathogen interaction between human intestinal epithelial cells and Salmonella Typhimurium</title>
+				<funder ref="#_PvPJecH #_9aczXXZ">
+					<orgName type="full">NASA</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">PECASE</orgName>
+				</funder>
+				<funder ref="#_Afbeu5D">
+					<orgName type="full">NASA Space Biology</orgName>
+				</funder>
+				<funder ref="#_6WehPxE">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-03-09">2021-03-09</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jennifer</forename><surname>Barrila</surname></persName>
+							<idno type="ORCID">0000-0002-6597-3001</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Biodesign Center for Fundamental and Applied Microbiomics</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Biodesign Center for Infectious Diseases and Vaccinology</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shameema</forename><forename type="middle">F</forename><surname>Sarker</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Biodesign Center for Infectious Diseases and Vaccinology</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nicole</forename><surname>Hansmeier</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Swette Center for Environmental Biotechnology</orgName>
+								<orgName type="institution" key="instit1">The Biodesign Institute</orgName>
+								<orgName type="institution" key="instit2">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Biology</orgName>
+								<orgName type="institution">Luther College at University of Regina</orgName>
+								<address>
+									<settlement>Regina</settlement>
+									<region>Saskatchewan</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shanshan</forename><surname>Yang</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Bioinformatics Core Facility, Bioscience, Knowledge Enterprise</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kristina</forename><surname>Buss</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Bioinformatics Core Facility, Bioscience, Knowledge Enterprise</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Natalia</forename><surname>Briones</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Bioinformatics Core Facility, Bioscience, Knowledge Enterprise</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Integrated Cancer Genomics Division</orgName>
+								<orgName type="institution">The Translational Genomics Research Institute</orgName>
+								<address>
+									<settlement>Phoenix</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jin</forename><surname>Park</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Bioinformatics Core Facility, Bioscience, Knowledge Enterprise</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Richard</forename><forename type="middle">R</forename><surname>Davis</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Biodesign Center for Fundamental and Applied Microbiomics</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Biodesign Center for Infectious Diseases and Vaccinology</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rebecca</forename><forename type="middle">J</forename><surname>Forsyth</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Biodesign Center for Infectious Diseases and Vaccinology</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><forename type="middle">Mark</forename><surname>Ott</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Biomedical Research and Environmental Sciences Division</orgName>
+								<orgName type="institution">NASA Johnson Space Center</orgName>
+								<address>
+									<settlement>Houston</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kevin</forename><surname>Sato</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Cristine</forename><surname>Kosnik</surname></persName>
+							<affiliation key="aff8">
+								<orgName type="institution">Tissue Genesis, Inc</orgName>
+								<address>
+									<settlement>Honolulu</settlement>
+									<region>HI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anthony</forename><surname>Yang</surname></persName>
+							<affiliation key="aff8">
+								<orgName type="institution">Tissue Genesis, Inc</orgName>
+								<address>
+									<settlement>Honolulu</settlement>
+									<region>HI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Cheryl</forename><surname>Shimoda</surname></persName>
+							<affiliation key="aff8">
+								<orgName type="institution">Tissue Genesis, Inc</orgName>
+								<address>
+									<settlement>Honolulu</settlement>
+									<region>HI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nicole</forename><surname>Rayl</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="institution">NASA Headquarters</orgName>
+								<address>
+									<settlement>Washington</settlement>
+									<region>D.C</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Diana</forename><surname>Ly</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="institution">NASA Ames Research Center</orgName>
+								<address>
+									<settlement>Mountain View</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aaron</forename><surname>Landenberger</surname></persName>
+							<affiliation key="aff10">
+								<orgName type="department">DoD Space Test Program</orgName>
+								<address>
+									<settlement>Houston</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Stephanie</forename><forename type="middle">D</forename><surname>Wilson</surname></persName>
+							<affiliation key="aff11">
+								<orgName type="department">Astronaut Office</orgName>
+								<orgName type="institution">NASA Johnson Space Center</orgName>
+								<address>
+									<settlement>Houston</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Naoko</forename><surname>Yamazaki</surname></persName>
+							<affiliation key="aff12">
+								<orgName type="department" key="dep1">Space Biomedical Research Office</orgName>
+								<orgName type="department" key="dep2">Human Space Technology and Astronauts Department</orgName>
+								<orgName type="institution">Japan Aerospace Exploration Agency (JAXA)</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jason</forename><surname>Steel</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Bioinformatics Core Facility, Bioscience, Knowledge Enterprise</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Camila</forename><surname>Montano</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Bioinformatics Core Facility, Bioscience, Knowledge Enterprise</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rolf</forename><forename type="middle">U</forename><surname>Halden</surname></persName>
+							<affiliation key="aff13">
+								<orgName type="department" key="dep1">Biodesign Center for Environmental Health Engineering</orgName>
+								<orgName type="department" key="dep2">School of Sustainable Engineering and the Built Environment</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tom</forename><surname>Cannon</surname></persName>
+							<affiliation key="aff8">
+								<orgName type="institution">Tissue Genesis, Inc</orgName>
+								<address>
+									<settlement>Honolulu</settlement>
+									<region>HI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sarah</forename><forename type="middle">L</forename><surname>Castro-Wallace</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Biomedical Research and Environmental Sciences Division</orgName>
+								<orgName type="institution">NASA Johnson Space Center</orgName>
+								<address>
+									<settlement>Houston</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Cheryl</forename><forename type="middle">A</forename><surname>Nickerson</surname></persName>
+							<email>cheryl.nickerson@asu.edu</email>
+							<idno type="ORCID">0000-0002-9804-9739</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Biodesign Center for Fundamental and Applied Microbiomics</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Biodesign Center for Infectious Diseases and Vaccinology</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff14">
+								<orgName type="department">School of Life Sciences</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Evaluating the effect of spaceflight on the host–pathogen interaction between human intestinal epithelial cells and Salmonella Typhimurium</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">npj Microgravity</title>
+						<title level="j" type="abbrev">npj Microgravity</title>
+						<idno type="eISSN">2373-8065</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">7</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2021-03-09" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">825604C1BC425E9FC5FD3F1F4C5DCE03</idno>
+					<idno type="DOI">10.1038/s41526-021-00136-w</idno>
+					<note type="submission">Received: 27 August 2020; Accepted: 3 February 2021;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Spaceflight uniquely alters the physiology of both human cells and microbial pathogens, stimulating cellular and molecular changes directly relevant to infectious disease. However, the influence of this environment on host-pathogen interactions remains poorly understood. Here we report our results from the STL-IMMUNE study flown aboard Space Shuttle mission STS-131, which investigated multi-omic responses (transcriptomic, proteomic) of human intestinal epithelial cells to infection with Salmonella Typhimurium when both host and pathogen were simultaneously exposed to spaceflight. To our knowledge, this was the first in-flight infection and dual RNA-seq analysis using human cells.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In this study, we investigated how spaceflight culture alters the response of human intestinal epithelial cells (HT-29) to infection by Salmonella when both the host and pathogen were exposed to spaceflight. The experiment was flown as part of the Space Tissue Loss (STL) payload and operationally designated as STL-IMMUNE, since epithelial cells are excellent sentinels of innate immunity by providing the first physical and chemical barriers to infection and coordinating additional innate and mucosal defenses and subsequent adaptive responses <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b29">30</ref> . Since in-flight technical limitations precluded the use of gentamicin protection assays to quantify bacterial invasion into the epithelium, we focused our analysis on transcriptomic (dual RNA-seq of host and pathogen) and proteomic profiling (Isobaric tags for relative and absolute quantification/iTRAQ). These global analyses can yield valuable insight into the status of healthy and infected cells. Figure <ref type="figure">1</ref> shows the experimental design and timeline for STL-IMMUNE and schematic of hollow fiber bioreactors used for 3D cell culture. HT-29 cells were seeded into the extracapillary space (ECS) of Fig. <ref type="figure">1</ref> STL-IMMUNE experimental design and impact of spaceflight on uninfected HT-29 transcriptional profiles. a Hollow fiber bioreactor technology. Photo and cross-sectional schematic of the hollow fiber bioreactors used in this study. Hollow fibers had a pore size of 0.3 µm to retain bacteria within the extracapillary space (ECS) while still facilitating nutrient and gas exchange via diffusion as oxygenated media was perfused through the intracapillary space (ICS). b STL-IMMUNE experimental design. HT-29 cells and bacteria were prepared as shown (see "Methods" section for additional detail). Bioreactors, bacteria, and fixative bags were integrated into the CCM hardware and launched aboard Space Shuttle Discovery mission STS-131. Crew members activated the CCM once on orbit. At mission elapsed day 11, cultures were infected with S. Typhimurium for 6 h and fixed for postflight analysis. Launch and astronaut images: NASA [STS-131-S-036 (image is slightly cropped), S131E007206, and S131E007188]. c Spaceflight-induced transcriptional responses of HT-29 cells relative to ground controls. Left panel: volcano plot depicting differentially expressed genes (DEGs) between flight and ground control cultures (flight/ground). Red: significantly upregulated genes according to a log 2 fold change in expression of at least ± 1 and FDR &lt; 0.05. Blue: significantly downregulated genes. The top 5 significantly up and downregulated genes are labeled. Right panel: Analysis of upregulated (red) and downregulated (blue) transcripts revealed significantly enriched GO terms and KEGG pathways using DAVID. BP biological process, CC cellular component. The authors affirm that informed consent for publication of the images in Fig. <ref type="figure">1</ref> was provided.</p><p>hollow fiber bioreactors which contained collagen I-coated capillary fibers for intestinal cell attachment. Oxygenated and CO 2 -containing media was continually perfused through the intracapillary space (ICS) of the fibers (underneath the basal side of the cells, which also prevented exposure of cells to high fluid shear forces). During spaceflight, Salmonella was introduced to the apical side of HT-29 cultures through ECS ports and allowed to incubate for 6 h before fixative was perfused through the ICS.</p><p>Between uninfected flight and ground HT-29 cultures, RNA-seq profiling showed significant differences in 307 genes (≥2-fold change; false discovery rate (FDR) &lt; 0.05; Fig. <ref type="figure">1c</ref> and Supplementary Table <ref type="table">1</ref>). Evaluation of the top 5 significantly upregulated genes revealed the enhanced expression of several transcripts belonging to the small proline-rich (SPRR) family as well as DHRS9 (a retinol dehydrogenase) and tumor-associated calcium signal transducer 2 (Fig. <ref type="figure">1c</ref>). SPRR genes encode mechanosensitive proteins that play roles in barrier function, differentiation, reactive oxygen species (ROS) detoxification, wound healing and cancer <ref type="bibr" target="#b30">31</ref> . They are also likely involved in the stabilization of the actin cytoskeleton in response to biomechanical stress <ref type="bibr" target="#b31">32</ref> . Their expression is regulated by ECM/integrin interactions and by various stimuli, including UV radiation, inflammation, oxidative stress, DNA damage, and retinoids <ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b32">33</ref> . Gene ontology (GO) analysis of upregulated genes indicated enrichment in type I interferon (IFN-I) signaling/antiviral defense, DNA replication, and differentiation (including the SPRR genes) (Fig. <ref type="figure">1c</ref>, Supplementary Table <ref type="table">2</ref>). The upregulation of viral defense genes was also previously observed in the livers of mice following spaceflight <ref type="bibr" target="#b33">34</ref> .</p><p>IFN-I signaling is complex and context dependent, regulating a broad range of cellular processes <ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b35">36</ref> . In addition to modulating innate and adaptive immune defenses against pathogens, IFN-I regulates intestinal homeostasis, including epithelial cell proliferation, and barrier function <ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b36">37</ref> . IFN-I signaling is often associated with decreased proliferation to promote differentiation, cellular repair, or defense against infection <ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b36">37</ref> . We found that genes important for glycolysis (SLC2A3, HK2, PFKFB3, PFKFB4, PDK1) and fatty acid metabolism (FADS1, FADS2, ELOVL5, EHHADH, SIRT4) were downregulated in flight (Supplementary Table <ref type="table">1</ref>). Previous spaceflight studies using either cultured macrophages <ref type="bibr" target="#b37">38</ref> or murine liver tissue <ref type="bibr" target="#b33">34</ref> also saw the suppression of multiple glycolytic enzymes, with the latter study postulating a model linking spaceflight changes in cellular metabolism, ROS, and immune dysregulation <ref type="bibr" target="#b33">34</ref> . The downregulation of these bioenergetic pathways in our study could indicate the reduced proliferation of the flight cultures, which could result from a number of phenotypes, including decreased tumorigenicity/increased differentiation, increased DNA damage or apoptosis. During cancer metabolism, glycolysis and fatty acid synthesis is often elevated <ref type="bibr" target="#b38">39</ref> . Several genes highly expressed in tumors or undifferentiated cells were also downregulated in flight, including CA9, CA12, CEACAM6, ITGA5, CLDN2, COL5A2, VIM, PROM1, and LGR4 (Supplemental Table <ref type="table">1</ref>). Together, these trends may indicate decreased tumorigenicity of the flight cells. Salmonella is known to preferentially colonize cancer cells <ref type="bibr" target="#b39">40</ref> , thus differences in tumorigenicity between flight and ground cultures could impact infection. Of relevance, we previously showed that RWV culture of HT-29 cells induced a more normal, differentiated phenotype relative to controls <ref type="bibr" target="#b40">41</ref> . Although in our present study we saw indicators of increased differentiation of the flight cultures, there were also some potential indicators of increased tumorigenicity (e.g., downregulation of VIL, TP53I11, upregulation of CCAT1; Supplemental Table <ref type="table">1</ref>). In addition, LGR4 is also important for Paneth cell differentiation <ref type="bibr" target="#b41">42</ref> . A reduction in Paneth cells could diminish antimicrobial defenses. Host metabolism is also important in the context of an impending infection as the pathogen must scavenge for available nutrients <ref type="bibr" target="#b42">43,</ref><ref type="bibr" target="#b43">44</ref> . Decreases in intracellular glucose could dampen intracellular pathogen replication depending on the availability of other nutrients. However, Salmonella has evolved an impressive metabolic plasticity to exploit diverse nutrients in parallel, even at trace levels <ref type="bibr" target="#b43">44</ref> .</p><p>Engagement of IFN-I signaling and decreased expression of metabolic genes could also indicate increased apoptosis. However, pro-apoptotic genes BNIP3 and BNIP3L were downregulated in flight, suggesting reduced apoptosis. A previous spaceflight study <ref type="bibr" target="#b44">45</ref> showed reduced apoptosis and increased differentiation in MIP-101 colon cells, as well as increased expression of carcinoembryonic antigen proteins (often upregulated in colon cancer). In our study, we observed the downregulation of CEACAM6 (Supplementary Table <ref type="table">1</ref>). IFN-I signaling can also be activated by the DNA damage response following exposure to radiation, oxidative stress, or other harmful stimuli. DNA damage can occur during spaceflight due to radiation exposure and oxidative stress, including in the gastrointestinal tract <ref type="bibr" target="#b45">[46]</ref><ref type="bibr" target="#b46">[47]</ref><ref type="bibr" target="#b47">[48]</ref><ref type="bibr" target="#b48">[49]</ref> . Chromosomal damage has been observed in astronauts <ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b48">49</ref> and we previously saw the downregulation of select DNA repair genes in astronaut blood cells <ref type="bibr" target="#b49">50</ref> , which could potentially impede repair. In our present study, several genes involved in checkpointmediated responses to DNA damage and replication stress were upregulated (BRCA1, CLSPN, MCM10, RRM2, and KIAA0101). Thus, it is also possible that changes in IFN-I and metabolic genes could be due to DNA damage caused by oxidative stress and/or radiation exposure.</p><p>GO analysis of downregulated genes indicated enrichment in cellular components related to the cell surface/membrane and extracellular components as well as complement and coagulation pathways (Fig. <ref type="figure">1c</ref>, Supplementary Table <ref type="table">2</ref>). Decreased expression of genes encoding factors classically associated with blood or other tissues was observed, including complement and fibrinogen complex proteins (e.g., C3, FGG, FGA, and FGB) (Supplementary Table <ref type="table">2</ref>). Fibrinogen and complement proteins are also expressed by epithelial cells and play an important role in infection <ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref><ref type="bibr" target="#b52">[53]</ref><ref type="bibr" target="#b53">[54]</ref> . However, as there are cases where RNA from fetal bovine serum (FBS) in culture media has been detected in mRNA analyses <ref type="bibr" target="#b54">55</ref> , we cannot exclude the possibility of FBS interference. Importantly, the same batch of heat-inactivated FBS was used for identical and simultaneous preparation of all flight and ground cultures in this study.</p><p>We also performed iTRAQ analysis to obtain a snapshot of the cellular proteomic profile in the uninfected flight cultures compared to ground controls. The presence of FBS in the culture media resulted in strong interference from bovine proteins; a subset of which could not be distinguished from human proteins due to their identical sequence homologies and thus were excluded from our analysis. Despite this challenge, we observed flight-associated upregulation of the major cytoskeletal proteins G-actin and tubulin, which are known targets of Salmonella effectors to facilitate invasion <ref type="bibr" target="#b55">56</ref> (Supplementary Table <ref type="table">3</ref>). HSPA1A protein was also 2.4-fold upregulated in flight. None of these proteins were differentially regulated at the transcriptional level; however, it is fairly common to see divergence in mRNA and protein expression due to a variety of biological factors, such as alterations in posttranscriptional modifications, translation efficiency and RNA or protein stabilities (reviewed by Maier et al.) <ref type="bibr" target="#b56">57</ref> .</p><p>We then examined the data for the infections performed with Salmonella during spaceflight and in our ground controls. The experiment was designed to automatically inject 1 mL bacterial inoculum (~1 × 10 7 colony forming units (CFU)) into HT-29 cultures. Postlanding hardware inspection revealed that all flight samples received the intended volume of bacteria; however, ground controls received slightly different volumes (see "Methods" section). The 6-h incubation in the absence of gentamicin would have allowed sufficient time for the bacteria to replicate in the media during attachment and invasion, but it is unknown whether differences in initial inoculum eventually equalized. In addition, while we had sufficient material to perform iTRAQ analysis using triplicate cultures, only one infected flight sample had enough material remaining after proteomics for RNA-seq, thus we analyzed multiple technical replicates from a single flight bioreactor for that condition (see "Methods" section). Acknowledging these limitations, given the rare nature of these samples due to the inherent difficulty in performing spaceflight infections, we present a preliminary analysis of the host and pathogen response during spaceflight infection. Rather than focusing on the direct quantitative comparison between the infected flight and ground cultures, we instead focused on evaluating the gene expression patterns elicited during either a spaceflight or groundbased infection relative to their respective controls (infected vs. uninfected for flight and ground) (Fig. <ref type="figure" target="#fig_0">2</ref>; Supplementary Tables <ref type="table">4</ref><ref type="table">5</ref><ref type="table">6</ref><ref type="table">7</ref>). However, we also include the direct comparisons of the host response to infection between flight and ground for comparison in future studies (Supplementary Table <ref type="table">8</ref>), as well as the bacterial genes expressed above background during the flight and ground infections (Supplementary Tables <ref type="table">9</ref> and <ref type="table">10</ref>) and directly between flight and ground infected cultures (Supplementary Table <ref type="table">11</ref>).</p><p>Analysis of flight and ground cultures indicates both common and distinct host transcriptional profiles in response to Salmonella infection (Fig. <ref type="figure" target="#fig_0">2</ref>; Supplementary Tables <ref type="table">4</ref><ref type="table">5</ref><ref type="table">6</ref><ref type="table">7</ref>). Overall, 35 transcripts were altered in response to infection in both flight and ground conditions; 28 genes in the same direction and 7 oppositely regulated (Fig. <ref type="figure" target="#fig_0">2b</ref>, Supplementary Tables <ref type="table">4</ref><ref type="table">5</ref><ref type="table">6</ref><ref type="table">7</ref>). Relative to their respective uninfected controls, both flightand ground-infected cultures displayed enrichment in biological functions and pathways expected for Salmonella-infected cultures, including the upregulation of genes involved in inflammation (TNF, IL-1, NF-κB, and NOD signaling), response to lipopolysaccharide (LPS), and cell chemotaxis (Fig. <ref type="figure" target="#fig_0">2d</ref>; Supplementary Tables <ref type="table">5</ref> and <ref type="table">7</ref>). Interaction of Salmonella with the intestinal epithelium initiates a series of signaling cascades leading to intestinal inflammation <ref type="bibr" target="#b57">58</ref> . In vivo, this defensive response serves to recruit neutrophils and other immune cells to the site of infection but can also lead to the generation of ROS that confers a strategic advantage for Salmonella to outcompete resident microbiota <ref type="bibr" target="#b57">58</ref> . Both flight and ground infections induced upregulation of IRAK2, a protein that plays a central role in TLR signaling to NF-κB for the production of pro-inflammatory mediators <ref type="bibr" target="#b58">59</ref> . NF-κB-related genes commonly induced during both flight and ground infections included the Rel protein NFKB2 and the atypical IκB member, NFKBIZ (Supplementary Tables <ref type="table">4</ref> and <ref type="table">6</ref>). RELB and REL, which encode distinct Rel proteins which are induced in response to pathogen-associated molecular patterns/PAMPs (e.g., flagellin, LPS), were also upregulated in flight and ground infections, respectively (Supplementary Tables <ref type="table">4</ref> and <ref type="table">6</ref>). In line with these observations, both flight and ground infections led to the upregulation of transcripts encoding several chemokines important for recruiting neutrophils and other immune cells to the site of infection, including CXCL1, CXCL2, CXCL3, CXCL8, and CCL20. NFKBIZ encodes NF-κB inhibitor zeta (IκBζ), which both represses and activates select NF-κB genes <ref type="bibr" target="#b59">60</ref> . IκBζ is rapidly induced in response to infection or exposure to potent TLR stimuli and is an important inhibitor of nuclear NF-κB activity to prevent uncontrolled inflammation <ref type="bibr" target="#b60">61</ref> . These findings confirm that during spaceflight, Salmonella can induce a subset of the known biosignatures of infection in the host at the transcriptional level.</p><p>In addition to those commonly observed responses, both flight and ground cultures also displayed unique transcriptional responses to infection (Fig. <ref type="figure" target="#fig_0">2b</ref>, <ref type="figure">c</ref>; Supplementary Tables <ref type="table">4</ref><ref type="table">5</ref><ref type="table">6</ref><ref type="table">7</ref>). DAVID analysis of upregulated genes in the infected flight cultures indicated that they were enriched for negative regulation of NF-κB transcription factor activity as well as those involved in Epstein-Barr virus infection (Fig. <ref type="figure" target="#fig_0">2c</ref>). Genes belonging to these categories overlap with those known to be important for Salmonella infection. Two uniquely upregulated genes of interest belonging to these categories were anti-inflammatory mediator NFKBIA (IκBα) and NF-κB transcription factor, RELB. IκBα functions by sequestering NF-κB in the cytoplasm to prevent its translocation to the nucleus <ref type="bibr" target="#b61">62</ref> . RelB is induced in response to severe systemic inflammation, LPS, flagellin and/or TNF stimulation and is required for sustained expression of IκBα during LPS tolerance <ref type="bibr" target="#b61">62</ref> . Both proteins are known to be targeted by Salmonella to suppress host inflammation and/or apoptosis <ref type="bibr" target="#b62">63,</ref><ref type="bibr" target="#b63">64</ref> . Changes in the expression of these transcripts may reflect an attempt by the host and/or pathogen to initiate processes to suppress excessive inflammation or apoptosis during the flight infection.</p><p>Ground cultures uniquely displayed enrichment in select upregulated genes associated with cell chemotaxis and inflammation (the latter include genes classified by DAVID under the 'Rheumatoid arthritis' category but overlap in their role for Salmonella infection). Conversely, downregulated genes were enriched for diverse biological processes (e.g., cell adhesion, ECM organization, fibrinogen complex, glycolysis, hypoxia), cellular components (e.g., cell surface/membrane, exosome, and fibrinogen complex), molecular functions associated with binding and KEGG pathway involved in ECM-receptor interaction. Interestingly, although we observed the expected stimulation of TLR4 (Toll-like receptor 4) in the ground-based infection (Supplementary Table <ref type="table">6</ref>), this did not occur in the flight cultures at the time point evaluated. In alignment with the TLR4 trends, LPS-inducible PIGR was also upregulated only during the ground infection (Supplementary Table <ref type="table">6</ref>). A previous study using astronaut monocytes observed a significant decrease in TLR4 expression immediately following return from a space shuttle mission relative to measurements taken 10 days before launch and 15 days post landing <ref type="bibr" target="#b64">65</ref> . Similarly, TLR4 was also downregulated in blood cells inflight and post-flight relative to pre-flight levels during the Twins study <ref type="bibr" target="#b47">48</ref> . PIGR encodes polymeric immunoglobulin receptor which transports dimeric secretory IgA (sIgA) across the epithelium and into intestinal secretions as part of the first line of defense in mucosal immunity. Our findings could indicate the potential for an altered intestinal mucosal immune response to infection in spaceflight. Hindlimb unloading disrupted intestinal immune homeostasis in rats, leading to decreased sIgA levels in the ileum, although the activation of TLR4/MyD88/NF-kB was still observed <ref type="bibr" target="#b65">66</ref> . In astronauts, PIGR and/or sIgA expression in saliva or blood has increased following spaceflight <ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b66">67,</ref><ref type="bibr" target="#b67">68</ref> . However, sIgA levels in extraintestinal sites are not always predictive of intestinal responses <ref type="bibr" target="#b68">69,</ref><ref type="bibr" target="#b69">70</ref> . Thus, there is a need for further investigation into how spaceflight regulates these intestinal-specific responses.</p><p>iTRAQ analysis further revealed unique differences at the protein level in HT-29 cells for flight and ground infections. Keratins 8 and 18 (KRT 8, KRT18), both targets of the Salmonella effector SipC during invasion <ref type="bibr" target="#b55">56</ref> , were downregulated in the infected flight cultures relative to the uninfected flight cultures (Supplementary Table <ref type="table">3</ref>). In contrast, these proteins were upregulated in response to infection in ground cultures (Supplementary Table <ref type="table">3</ref>). Infected flight cultures also displayed the downregulation of two additional cytoskeletal proteins, ACTG1 and TUBA1C, as well as a retinal dehydrogenase, ALDH1A1. As mentioned above, spaceflight-induced alterations in the uninfected flight cultures in several of these structural proteins relative to the uninfected ground controls, which may indicate the presence of an altered or dysregulated cytoskeletal landscape at the starting point for the infection. Spaceflight is known to alter the organization and/or expression of structural proteins <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> . Infection in ground controls induced changes in the expression of proteins with various functions, including heat shock/protein folding, RNA-binding, calcium-sensing, and disulfide bond catalysis (Supplementary Table <ref type="table">3</ref>). Heat shock protein HSPA1A was upregulated during infection in ground cultures but not in response to infection in flight. This difference between the flight and ground infections could possibly be attributed to the fact that the protein was already 2.4-fold upregulated in flight even in the absence of infection (see uninfected flight vs. ground comparison in Supplementary Table <ref type="table">3</ref>). Thus, the flight-cultured cells may have had sufficient amounts of HSPA1A protein readily available for response to infection. HSPA1A is a major stress-inducible member of the HSP70 family and can be upregulated as part of a cytoprotective response to a variety of stressors, including infection <ref type="bibr" target="#b70">71</ref> . Heat shock proteins have previously shown altered expression (RNA and protein) in a variety of mammalian, plant, and prokaryotic cells during spaceflight or spaceflight analog culture, though not in a unified direction <ref type="bibr" target="#b71">72</ref> , which is not surprising given their diverse functions. For example, multiple HSP70 transcripts were upregulated during BRIC-16, an Arabidopsis thaliana tissue culture payload aboard STS-131 (the same Shuttle mission as the present study) <ref type="bibr" target="#b71">72</ref> .</p><p>We also performed a direct comparison between infected flight and ground cultures under the previously described limitations (Supplementary Table <ref type="table">8</ref>). Direct comparison indicated that infection during spaceflight-induced upregulation of host genes associated with inflammation, response to Salmonella challenge and/or wound healing relative to infected ground controls, including CXCL8 (IL-8), CXCL2, CSF2, IL36B, MAPK13, JUN, FOS, KLC2, NCF2, FLNA, RHOG, among others (Supplementary Table <ref type="table">8</ref>). IL-8 chemokine expression can be stimulated by both LPS and flagellin <ref type="bibr" target="#b72">73</ref> . Elevated IL-8 levels were previously observed in a postflight challenge using purified LPS from Escherichia coli (E. coli) and astronaut immune cells, the latter collected either in-flight or at landing (relative to pre-flight levels) <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b64">65</ref> . Interestingly, both increased and decreased IL-8 responses have been observed following postflight LPS challenge in crew immune cells <ref type="bibr" target="#b73">74</ref> . An overall blunted response to E. coli LPS was observed when endothelial cells were challenged during spaceflight, including only a modest increase in IL-8 expression by flight cultures relative to ground <ref type="bibr" target="#b74">75</ref> . As is the case in terrestrial studies, IL-8 responses to LPS challenge in the context of spaceflight will depend on the type of LPS and host cells evaluated, as well as LPS exposure in the context of a live pathogen. In this study, TLR4 was significantly downregulated in the infected flight samples relative to infected ground cultures (Supplementary Table <ref type="table">8</ref>), which suggests that the enhanced expression of pro-inflammatory mediators (e.g., CXCL8) in the infected flight cultures may rely more heavily on other interactions, such as flagellin-mediated interactions with TLR5. Alternatively, the kinetics of infection may have been altered between flight and ground cultures, where TLR4 expression in the infected flight cultures may have occurred outside of our analysis time point. Future studies following the in-flight kinetics of infection would provide insight in this regard. iTRAQ analysis indicated that infection during spaceflight induced downregulation of multiple cytoskeletal genes and retinal dehydrogenase 1 relative to infected ground cultures (Supplementary Table <ref type="table">3</ref>).</p><p>Direct comparison of the bacterial transcripts between infected flight and ground cultures indicated 328 upregulated genes and 1 downregulated gene (Supplementary Table <ref type="table">11</ref>). Transcripts associated with metabolism (glycolysis/gluconeogenesis, TCA cycle, purine and pyrimidine metabolism, amino sugar and nucleotide sugar metabolism), protein translation, antibiotic synthesis, amino acid biosynthesis, RNA degradation, and biosynthesis of siderophore group non-ribosomal peptides were upregulated in flight. We also observed the upregulation of the AcrAB-TolC multidrug efflux pump (Supplementary Table <ref type="table">11</ref>). Though we did not see changes in Salmonella pathogenicity island 1 or 2 (SPI-1 or SPI-2) virulence genes, transcripts encoding major global virulence and/or stress regulators rpoS, rpoE, and rpoH were upregulated in flight relative to ground controls.</p><p>Another global regular, hfq, was found to be expressed above background levels in the flight cultures, but not the ground cultures (Supplementary Tables <ref type="table">9</ref> and <ref type="table">10</ref>). However, in the direct comparison between infected flight and ground cultures, while we did observe an upward trend in hfq expression during spaceflight, it was not significant by FDR (7.8-fold; FDR = 0.24, p value = 0.006). In our previous studies, hfq was downregulated in Salmonella in response to both spaceflight and spaceflight analog culture <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b11">12</ref> . Deletion of the gene impacted RWV trends in acid stress resistance and macrophage survival <ref type="bibr" target="#b8">9</ref> . Hfq posttranscriptionally regulates gene expression by pairing mRNAs with cognate small non-coding RNAs to either inhibit or facilitate translation <ref type="bibr" target="#b75">76</ref> . Given the diverse functions of hfq and its ability to both positively and negatively regulate translation, its absolute expression level can change depending on environmental conditions <ref type="bibr" target="#b76">77</ref> . The conditions in our current study (GTSF-2 media, 37C, 5% CO 2 ) are very different from those in our STS-115 experiment which solely looked at pure cultures of Salmonella (Lennox Broth/LB, ambient temperature). In addition, our STS-115 study was performed in the absence of the host, as all infections with microgravity-grown bacteria were done immediately upon landing. In our present study, the bacteria were co-cultured with host cells that had either been exposed to spaceflight prior to infection or infected as ground controls. Thus, the host cells in our current study experienced different environmental conditions (microgravity vs. unit gravity), which could also potentially contribute to observed bacterial differences. In addition, the cellular mRNA and protein concentration of hfq is tightly controlled by autoregulation and mRNA expression is also under control of several promoters, including σ32 (encoded by rpoH, a global stress response regulator that was also upregulated in response to spaceflight, Supplementary Table <ref type="table">11</ref>) <ref type="bibr" target="#b76">77</ref> . It is unlikely that the Hfq protein was completely suppressed in ground cultures given its important role in diverse cellular functions; however, since bacterial proteins were not detected in our proteomics analysis these levels are unknown. If indeed elevated amounts of Hfq protein were present in the ground cultures relative to flight, it is possible that mRNA expression was inhibited in the ground cultures via autoregulation. Future studies will seek to confirm these gene expression trends and identify the associated regulatory mechanisms.</p><p>To our knowledge, this study was the first to examine how human cells respond to microbial infection when both the host and pathogen are simultaneously exposed to spaceflight. In addition, it is the first global transcriptomic and proteomic profiling of human intestinal epithelial cultures during spaceflight (either infected or uninfected). Although the sample size was small in this study due to technical limitations, the results from this investigation suggest that spaceflight altered the transcriptional and proteomic profiles of both uninfected and infected host cells. Spaceflight culture of the uninfected cells led to the upregulation of genes associated with IFN-I signaling and decreased expression of multiple bioenergetic pathways, suggesting the potential for decreased proliferation relative to ground cultures. Decreased proliferation could be due to the changes in tumorigenic potential, differentiation or DNA damage responses. Salmonella infection induced a core set of pro-inflammatory responses in both conditions, but spaceflight culture also induced unique transcriptional and proteomic responses not observed in the identical ground controls. Trends observed between infected flight and ground samples were consistent with a heightened response of host cells to infection with Salmonella during spaceflight, including amplified induction of genes encoding pro-inflammatory mediators and wound healing. These findings are important to consider in the context of previously observed changes in astronaut intestinal microbiota <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b77">78</ref> , where some alterations were linked with decreased abundance of antiinflammatory species and increases in select pro-inflammatory species <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b77">78</ref> . In addition, the use of nutritional countermeasures to prevent or mitigate infection including the modulation of nutritional supplements <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b9">10</ref> or probiotic microbes for intestinal health during spaceflight (including for protection against pathogens) <ref type="bibr" target="#b78">[79]</ref><ref type="bibr" target="#b79">[80]</ref><ref type="bibr" target="#b80">[81]</ref> are active areas of research and have shown promise in ground-based studies. Our investigation adds to the growing number of studies aimed at mitigating infectious disease risks to humans during spaceflight missions and for the general public on Earth.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mammalian cell lines, bacterial strains, and flight hardware</head><p>The human colonic epithelial cell line, HT-29 (ATCC, HTB-38), was cultured at 37 °C and 5% CO 2 in GTSF-2 media (Hyclone) supplemented with 10% heat-inactivated FBS (ThermoFisher Scientific), 2.25 g sodium bicarbonate (Fisher Scientific) and 5 mL insulin transferrin selenite (Sigma-Aldrich) per liter. Media used to expand cells as monolayers contained Penicillin-Streptomycin (10 units/mL and 10 µg/mL, respectively; Sigma-Aldrich) and fungizone (0.5 µg/mL). Flight culture media contained only streptomycin (Sm) and fungizone. Infection studies were performed with wild-type S. Typhimurium χ3339, a mouse-passaged derivative of SL1344 which is naturally Sm-resistant <ref type="bibr" target="#b23">24</ref> . Bacteria were cultured in Lennox Broth (LB) containing 0.3 M NaCl prior to loading in the hardware, as described below. HT-29 cells were cultured in 2.2 mL hollow fiber bioreactors (Spectrum Labs) that were housed in the Cell Culture Module (CCM; Tissue Genesis). The CCM hardware enabled automated media perfusion, addition of bacteria to perform infections and sample fixation. Flight comparisons were made to identical ground controls housed in the same hardware at NASA Kennedy Space Center (KSC). The flight hardware and experimental layout are shown in Fig. <ref type="figure">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preparation of S. Typhimurium</head><p>Ten days before launch, S. Typhimurium strain χ3339 was streaked from a glycerol stock onto LB agar plates containing 100 µg/mL Sm and incubated at 37 °C overnight. Bacterial colonies were then used to inoculate overnight cultures grown for 15-16 h. with aeration in LB media containing 0.3 M NaCl and 100 µg/mL Sm at 37 °C. Cultures were pelleted at 7000 r.p.m. and resuspended in Dulbecco's Phosphate Buffered Saline (DPBS; Invitrogen). Bacteria were quantified by plating for viable CFU per mL and diluted to 1 × 10 7 CFU/mL in DPBS to maintain the bacteria as viable but not actively growing. On L-7, flight bacteria bags were filled with 2 mL of cultures and maintained at room temperature until attachment to the flow paths 2 days prior to launch (L-2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preparation of hollow fiber bioreactors, media bags and fixatives</head><p>Sterile bioreactors were wetted with 70% ethanol (10 mL) and then rinsed in triplicate with 10 mL DPBS. A 1 mg/mL collagen I solution (bovine, Corning) in DPBS was then introduced through the ECS ports to coat the hollow fibers. After 1 h, bioreactors were rinsed in triplicate with DPBS through the ECS ports to remove unbound collagen. Bioreactors were rinsed in triplicate with 10 mL of warm flight medium and placed at 37 °C until ready for loading with HT-29 cells. Flight and ground control bags contained either 60 mL of flight culture media or 40 mL RNAlater II fixative (Ambion) for transcriptomic and proteomic analyses.</p><p>Preparation and loading of HT-29 cells into flight hardware HT-29 cells were expanded as monolayers in T-75 flasks. Four days prior to launch, confluent monolayers were washed in warm Hank's Balanced Salt Solution without calcium and magnesium (ThermoFisher Scientific), dissociated using 0.25% Trypsin-EDTA (Corning), and counted using trypan blue exclusion to determine cell viability. Approximately 1 × 10 6 HT-29 cells were loaded into twelve 2.2 mL hollow fiber bioreactors (Spectrum) through the ECS ports (Fig. <ref type="figure">1</ref>). Six bioreactors were designated for flight (three infected and three time-matched uninfected controls) and six for identical ground controls. Bioreactors were placed at 37 °C and rotated every 15 min until attachment to the CCM rails together with the flight media bags. CCM rails are organizational subunits within the CCM that facilitate gas and media delivery. Rails were placed into a 37 °C incubator and monitored for contamination. Media was circulated within the ICS of the fibers during the experiment at a flow rate of 6 mL/ min. The day prior to launch, the fully loaded rails containing the HT-29 cells, media, fixatives and bacteria (maintained in stasis in DPBS) were integrated into the CCM, which was then sealed, powered and the temperature set to 37 °C. The CCM was turned over to the KSC integration team at L-18 h. STL-IMMUNE launched aboard Space Shuttle Discovery (STS-131) on April 5, 2010 at 6:21 a.m.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>In-flight operations</head><p>At approximately L + 3 h, astronauts activated the on-orbit programming of the CCM. On mission elapsed day 11, the CCM was programmed to automatically inject 1 mL (~1 × 10 7 bacteria) into a subset of the hollow fiber bioreactors to enable infection at the apical surface of host cells. Six hours after the bacteria were injected, RNAlater II was injected into the designated bioreactors and the rails were turned off to maintain sample temperature at 29-30 °C until landing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Postlanding processing</head><p>STL-IMMUNE landed at KSC at 9:08 a.m. on April 20, 2010. All bioreactors and bags were removed from the rails and stored at 4 °C. Each reactor was carefully opened, cells and hollow fibers were maintained in RNAlater II at -80 °C until further processing. Inspection of the remaining volumes in the bacterial bags post flight indicated that all infected flight cultures received the intended 1 mL bacterial injection. Infected ground cultures received 0.8 and 0.4 mL injections for two replicates used for both the RNA-seq/iTRAQ analysis, and the third replicate received a 1.2 mL injection (this sample used for iTRAQ analysis only). For processing, RNAlater II-fixed samples were thawed at 4 °C. Samples were concentrated using a Vivaspin 20 (0.2 µm) concentrator. Cells were allowed to settle at 4 °C, the supernatant was removed and then processed for iTRAQ and/or RNA-seq analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Isobaric tags for relative and absolute quantitation (iTRAQ) analysis</head><p>Proteomic analysis using iTRAQ was performed on total cellular protein from HT-29 cells from triplicate flight and ground bioreactors (n = 3 for flight and ground infected and uninfected cultures). Cells were lysed with 1 cell bed volume of RLT buffer (Qiagen) supplemented with cOmplete EDTAfree protease inhibitor (Roche), vortexed and passed 5-7 times through a 25G needle to facilitate lysis. After a 10-min incubation on ice, lysates were centrifuged at 12,000 rpm for 10 min at 4 °C. Lysates were added to a desalting column (Pierce) and eluted by centrifugation at 1000 × g for 2 min. From each condition 25 μg protein sample was prepared according to the manufacturer's instruction (iTRAQ reagents-4plex Application kit, Applied Biosystems). Briefly, after protein reduction, alkylation, tryptic digestion (Promega), and labeling with iTRAQ 4plex, peptide samples were quenched before pooled and vacuum-dried. The combined iTRAQ-reagent labeled sample was resuspended in 2% acetonitrile and 0.1% trifluoroacetic acid before separated with a 145-min gradient elution (using a Tempo LC MALDI Spotting system (Applied Biosystems)) and analyzed with a 4800 MALDI-tandem time-of-flight (TOF/TOF) mass spectrometer (Applied Biosystems) as described <ref type="bibr" target="#b81">82</ref> . Protein identification and quantification was performed with ProteinPilot 4.0 software using Paragon algorithm. The search parameters were as follows: iTRAQ 4plex (peptide labeled), trypsin as the digestion agent, UniProt database Homo sapiens (created on March 2009), ID focus: biological modification. Proteins were considered as differentially expressed according to the following criteria: greater than a twofold expression change, p value ≤ 0.05 (two-tailed ANOVA). Differential proteins were identified with at least three unique peptides (&gt;95% confidence, 1% FDR). Identified and quantified proteins by LC MALDI-MS/ MS are shown in Supplementary Dataset 1.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RNA-Seq</head><p>RNA was extracted from flight and ground cultures using remaining samples following the proteomics processing. From the remaining samples, RNA-seq analyses were performed using duplicate flight and ground bioreactors for all conditions (n = 2 biological replicates) except for the infected flight samples, which only had sufficient sample remaining to evaluate duplicate technical aliquots from a single bioreactor (i.e., n = 1 biological; n = 2 technical replicates). RNAlater II-fixed samples were lysed with 700 µl Qiazol (Qiagen), vortexed extensively and passed several times through a 25G needle. After a 5-min static incubation at room temperature with intermittent vortexing, samples were added to MaXtract High-Density tubes (Qiagen) together with 100 µl RNase-free water (Qiagen) and 200 µl chloroform (Sigma-Aldrich). Samples were then processed using the miRNeasy kit (Qiagen) according to the manufacturer's instructions, including on-column DNase-treatment. RNA was quantified using a Nanodrop spectrophotometer and the integrity validated using an Agilent Bioanalyzer 2100 to confirm an RNA integrity number (RIN) of 7 or greater for all samples. All RIN were between 7 and 8 except for one of the uninfected ground control samples which had a RIN of 6.4.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 Transcriptional responses of HT-29 cells elicited in response to infection with S. Typhimurium during flight or ground culture. a Volcano plots. Differentially expressed genes between infected and uninfected host cells during spaceflight (left panel) or in matching ground controls (right panel). Red: significantly upregulated genes in response to infection. Blue: significantly downregulated genes. Significance determined according to a log 2 fold change in expression of at least ±1 and FDR &lt; 0.05. The top 5 significantly up and downregulated genes are labeled. b Venn diagram. Overlapping and distinct genes elicited in response to infection in flight and ground cultures. c, d Uniquely and commonly enriched GO terms and KEGG pathways in response to infection either in flight or ground cultures relative to their respective uninfected controls. Analysis was performed in DAVID 6.8 using upregulated (red) or downregulated (blue) transcripts using an EASE score of 0.05 and Benjamini-Hochberg correction to determine significantly enriched terms and pathways (adjusted P &lt; 0.05). BP biological process, CC cellular component, MF molecular function. Bars in d indicate the results for a flight infection (yellow; flight infected/uninfected) and ground infection (gray; ground infected/uninfected).</figDesc><graphic coords="5,76.88,59.30,432.00,548.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="2,86.34,163.62,432.00,448.44" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>npj Microgravity (2021) 9 Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA 1234567890():,;</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA npj Microgravity (2021) 9</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>npj Microgravity (2021) 9Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>This work was funded by <rs type="funder">NASA</rs> grants <rs type="grantNumber">NNX09AH40G</rs> (C.A.N., C.M.O., J.B.) and <rs type="grantNumber">80NSSC18K1478</rs> (C.A.N., C.M.O., and J.B.; includes <rs type="funder">NASA</rs> <rs type="funder">PECASE</rs> funding to J.B.).</p><p>We thank <rs type="person">Dr. Mitch Magee</rs> for his help with the bioanalyzer analysis. We apologize to all authors whose work we were unable to cite due to space limitations.</p></div>
+			</div>
+			<div type="funding">
+<div><head>FUNDING</head><p><rs type="funder">NASA Space Biology</rs> <rs type="grantNumber">NNX09AH40G</rs>, <rs type="grantNumber">80NSSC18K1478</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_PvPJecH">
+					<idno type="grant-number">NNX09AH40G</idno>
+				</org>
+				<org type="funding" xml:id="_9aczXXZ">
+					<idno type="grant-number">80NSSC18K1478</idno>
+				</org>
+				<org type="funding" xml:id="_Afbeu5D">
+					<idno type="grant-number">NNX09AH40G</idno>
+				</org>
+				<org type="funding" xml:id="_6WehPxE">
+					<idno type="grant-number">80NSSC18K1478</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY</head><p>All data generated during this study are either included in the manuscript and its Supplementary files (Supplementary Dataset 1) or are available from the corresponding authors upon reasonable request. RNA-Seq data are available at the Gene Expression Omnibus (GEO) database (GSE156066; BioProject PRJNA656571) and NASA GeneLab (<ref type="url" target="https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-323">https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-323</ref>).</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>RNA was fragmented with heat and magnesium to roughly 300 bp using the KAPA HyperPrep RNA-seq kit (Roche). The KAPA Hyper RNA-seq kit and Illumina-compatible adapters (IDT) were used for the remaining library construction. Adapter ligated molecules were cleaned using Kapa pure beads (Kapa Biosciences) and amplified with Kapa HIFI enzyme. Each library was then analyzed for fragment size on an Agilent Tapestation and quantified by qPCR (KAPA Library Quantification Kit) on Quantstudio 5 (ThermoFisher Scientific). Libraries were then multiplexed and sequenced on 2 × 150 flow cells on the NovaSeq platform (Illumina) at University of Colorado Anschutz Medical Campus Genomics and Microarray Core. RNAseq reads for each sample were quality checked using FastQC v0.10.1 and aligned to Human GRCh38.p7 primary assembly and S. Typhimurium LT2 genome using STAR v2.5.1b. A series of quality control metrics were generated on the STAR outputs. Cufflinks v2.2.1 was used to report FPKM values (Fragments Per Kilobase of transcript per Million mapped reads) and read counts. Transcripts per million was calculated by an in-house R script. Differential expression analysis was performed with EdgeR package from Bioconductor v3.2 in R 3.2.3. Multidimensional scaling plots were drawn by plotMDS, in which distances correspond to leading log-fold-changes between samples. For each pairwise comparison, genes with FDR &lt;0.05 were considered significant and log 2 -fold changes of expression between conditions (logFC) were reported.</p><p>GO biological process and KEGG pathway enrichment analysis DAVID 6.8 was used to perform the enrichment analysis of RNA-seq data. Data were corrected using the Benjamini-Hochberg procedure, had threshold count of 2 and EASE score of 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reporting summary</head><p>Further information on experimental design is available in the Nature Research Reporting Summary linked to this paper. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ADDITIONAL INFORMATION Supplementary information</head><p>The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1038/s41526-021-00136-w">https://doi.org/10.1038/s41526-021-00136-w</ref>.</p><p>Correspondence and requests for materials should be addressed to C.A.N.</p><p>Reprints and permission information is available at <ref type="url" target="http://www.nature.com/reprints">http://www.nature.com/reprints</ref> Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Human Health and Performance Risks of Space Exploration Missions</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Mcpee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Charles</surname></persName>
+		</author>
+		<idno>NASA SP-2009- 3405 edition</idno>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+		<respStmt>
+			<orgName>US National Aeronautics and Space Admin</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Immune system dysregulation during spaceflight: potential countermeasures for deep space exploration missions</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Crucian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Immunol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1437</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The challenge of maintaining a healthy microbiome during long-duration space missions</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Voorhies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Lorenzi</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fspas.2016.00023</idno>
+		<ptr target="https://doi.org/10.3389/fspas.2016.00023" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Astron. Space Sci</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Alterations in adaptive immunity persist during long-duration spaceflight</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Crucian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">15013</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Microbial characterization during the early habitation of the International Space Station</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Thrasher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Healy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Micro. Ecol</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="119" to="126" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Microbial monitoring of crewed habitats in space-current status and future perspectives</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yamaguchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbes Environ</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="250" to="260" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Biostability and Microbiological Analysis Of Shuttle Crew Refuse</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Kish</surname></persName>
+		</author>
+		<idno>#2002-01-2356</idno>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">SAE Technical Paper</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Succession and persistence of microbial communities and antimicrobial resistance genes associated with International Space Station environmental surfaces</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Karouia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Venkateswaran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiome</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">204</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Space flight alters bacterial gene expression and virulence and reveals a role for global regulator Hfq</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="16299" to="16304" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Media ion composition controls regulatory and virulence response of Salmonella in spaceflight</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">3923</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Low-Shear modeled microgravity alters the Salmonella enterica serovar typhimurium stress response in an RpoS-independent manner</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="5408" to="5416" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Microarray analysis identifies Salmonella genes belonging to the low-shear modeled microgravity regulon</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="13807" to="13812" />
+			<date type="published" when="2002">2002</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Spaceflight and simulated microgravity conditions increase virulence of Serratia marcescens in the Drosophila melanogaster infection model</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gilbert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">npj Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">4</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nickerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Pellis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<title level="m">Effect of Spaceflight and Spaceflight Analogue Culture on Human and Microbial Cells: Novel Insights into Disease Mechanisms</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Space microbiology</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Horneck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Klaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Mancinelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbiol. Mol. Biol. Rev</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="121" to="156" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Infection prevention and control during prolonged human space travel</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Mermel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Infect. Dis</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="123" to="130" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Modeling host-pathogen interactions in the context of the microenvironment: three-dimensional cell culture comes of age</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Barrila</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/IAI.00282-18</idno>
+		<ptr target="https://doi.org/10.1128/IAI.00282-18" />
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Immun</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Dynamic reciprocity: how do extracellular matrix and hormones direct gene expression?</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bissell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aggeler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Clin. Biol. Res</title>
+		<imprint>
+			<biblScope unit="volume">249</biblScope>
+			<biblScope unit="page" from="251" to="262" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">How cells (might) sense microgravity</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Ingber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="3" to="S15" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Function of the cytoskeleton in gravisensing during spaceflight</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hughes-Fulford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1585" to="1593" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The cytoskeleton, apoptosis, and gene expression in T lymphocytes and other mammalian cells exposed to altered gravity</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Lewis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Space Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="77" to="128" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Salmonella-the ultimate insider. Salmonella virulence factors that modulate intracellular survival</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Ibarra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Steele-Mortimer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1579" to="1586" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Microbial pathogenesis and cytoskeletal function</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gruenheid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Finlay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">422</biblScope>
+			<biblScope unit="page" from="775" to="781" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Microgravity as a novel environmental signal affecting Salmonella enterica Serovar typhimurium virulence</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nickerson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Immun</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="3147" to="3152" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Induction of attachment-independent biofilm formation and repression of Hfq expression by low-fluid-shear culture of Staphylococcus aureus</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nelman-Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Nickerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="6368" to="6378" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Response of Pseudomonas aeruginosa PAO1 to low shear modelled microgravity involves AlgU regulation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crabbé</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1545" to="1564" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Transcriptional and proteomic responses of Pseudomonas aeruginosa PAO1 to spaceflight conditions involve Hfq regulation and reveal a role for oxygen</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Crabbe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Environ. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="1221" to="1230" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Role of Hfq in an animal-microbe symbiosis under simulated microgravity conditions</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Grant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L M</forename><surname>Khodadad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Foster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Astrobiol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="53" to="61" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Epithelial cells: liaisons of immunity</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Larsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Cowley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fuchs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="45" to="53" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The intestinal epithelium: central coordinator of mucosal immunity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Allaire</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Immunol</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="677" to="696" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Study of small proline-rich proteins (SPRRs) in health and disease: a review of the literature</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Carregaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Stefanini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Henrique</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Tajara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Dermatol. Res</title>
+		<imprint>
+			<biblScope unit="volume">305</biblScope>
+			<biblScope unit="page" from="857" to="866" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Small proline-rich protein 1A is a gp130 pathway-and stressinducible cardioprotective protein</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pradervand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="4517" to="4525" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Regulation of the atheroma-enriched protein, SPRR3, in vascular smooth muscle cells through cyclic strain is dependent on integrin alpha1beta1/ collagen interaction</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Pyle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Pathol</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="page" from="1577" to="1588" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Is spaceflight-induced immune dysfunction linked to systemic changes in metabolism?</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Pecaut</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLOS ONE</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">174174</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Type I interferons in infectious disease</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mcnab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mayer-Barber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>O'garra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="87" to="103" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The protective role of type I interferons in the gastrointestinal tract</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Kotredes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Gamero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">410</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Type I interferons control proliferation and function of the intestinal epithelium</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">V</forename><surname>Katlinskaya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="1124" to="1135" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Spaceflight and simulated microgravity suppresses macrophage development via altered RAS/ERK/NFkappaB and metabolic pathways</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41423-019-0346-6</idno>
+		<ptr target="https://doi.org/10.1038/s41423-019-0346-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell. Mol. Immunol</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Metabolism and proliferation share common regulatory pathways in cancer cells</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fajas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oncogene</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="4369" to="4377" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Salmonella-allies in the fight against cancer</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Leschner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Weiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mol. Med</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="763" to="773" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Three-dimensional organotypic models of human colonic epithelium to study the early stages of enteric salmonellosis</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Honer Zu Bentrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microbes Infect</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1813" to="1825" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Lgr proteins in epithelial stem cell biology</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Barker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Clevers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Development</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="2484" to="2494" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Nutrients and their role in host resistance to infection</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Field</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Schley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Leukoc. Biol</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="16" to="32" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Parallel exploitation of diverse host nutrients enhances Salmonella virulence</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Steeb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1003301</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Microgravity culture reduces apoptosis and increases the differentiation of a human colorectal carcinoma cell line</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Jessup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vitr. Cell Dev. Biol. Anim</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="367" to="373" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Space radiation triggers persistent stress response, increases senescent signaling, and decreases cell migration in mouse intestine</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Suman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Fornace</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Datta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="E9832" to="E9841" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Interplay of space radiation and microgravity in DNA damage and DNA damage response</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moreno-Villanueva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">14</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The NASA Twins Study: a multidimensional analysis of a year-long human spaceflight</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Garrett-Bakelman</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aau8650</idno>
+		<ptr target="https://doi.org/10.1126/science.aau8650" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">364</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Cytogenetic damage in the blood lymphocytes of astronauts: effects of repeat long-duration space missions</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rhone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beitman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Cucinotta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mutat. Res</title>
+		<imprint>
+			<biblScope unit="volume">756</biblScope>
+			<biblScope unit="page" from="165" to="169" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Spaceflight modulates gene expression in the whole blood of astronauts</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Barrila</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">npj Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">16039</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Induction of fibrinogen expression in the lung epithelium during Pneumocystis carinii Pneumonia</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Simpson-Haidaris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Immun</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="4431" to="4439" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Evidence for an acute phase response in human intestinal epithelial cells</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Molmenti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ziambaras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Perlmutter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">268</biblScope>
+			<biblScope unit="page" from="14116" to="14124" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Detection of complement C3 and factor B gene expression in normal colorectal mucosa, adenomas and carcinomas</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Andoh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Exp. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="477" to="483" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">The complement system in the airway epithelium: an overlooked host defense mechanism and therapeutic target?</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kulkarni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Liszewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Brody</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Atkinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Allergy Clin. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="1582" to="1586" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Fetal bovine serum RNA interferes with the cell culture derived extracellular RNA</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Batagov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Krichevsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">31175</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">The current Salmonella-host interactome</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schleker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proteom. Clin. Appl</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="117" to="133" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Correlation of mRNA and protein in complex biological samples</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Maier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Guell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Serrano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FEBS Lett</title>
+		<imprint>
+			<biblScope unit="volume">583</biblScope>
+			<biblScope unit="page" from="3966" to="3973" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Innate immune response to Salmonella typhimurium, a model enteric pathogen</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Broz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Ohlson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Monack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gut Microbes</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="62" to="70" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">IRAK-2 participates in multiple toll-like receptor signaling pathways to NFkappaB via activation of TRAF6 ubiquitination</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Keating</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Maloney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Bowie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page" from="33435" to="33443" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">IkappaBzeta is a key transcriptional regulator of IL-36-driven psoriasis-related gene expression in keratinocytes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Muller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="10088" to="10093" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">A novel IkappaB protein, IkappaB-zeta, induced by proinflammatory stimuli, negatively regulates nuclear factor-kappaB in the nuclei</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yamazaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Muta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takeshige</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="27657" to="27662" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">RelB sustains IkappaBalpha expression during endotoxin tolerance</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Vaccin. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="104" to="110" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Salmonella secreted factor L deubiquitinase of Salmonella typhimurium inhibits NF-kappaB, suppresses IkappaBalpha ubiquitination and modulates innate immune responses</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Le Negrate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="page" from="5045" to="5056" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">A family of Salmonella type IIi secretion effector proteins selectively targets the NF-kappaB signaling pathway to preserve host homeostasis</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kamanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lara-Tejero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Galan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Pathog</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">1005484</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Effect of spaceflight on ability of monocytes to respond to endotoxins of gram-negative bacteria</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kaur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Simons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Kapadia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Pierson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Vaccin. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1523" to="1528" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Responses of intestinal mucosal barrier functions of rats to simulated weightlessness</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">729</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">In Oral Tissue Responses to Travel in Space</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H A</forename><surname>Mednieks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Beyond LEO -Human Health Issues for Deep Space Exploration</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Reynolds</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>IntechOpen</publisher>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">B cell homeostasis is maintained during long-duration spaceflight</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Spielmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="469" to="476" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Salivary IgA from the sublingual compartment as a novel noninvasive proxy for intestinal immune induction</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aase</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mucosal Immunol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="884" to="893" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Correlations between antibody immune responses at different mucosal effector sites are controlled by antigen type and dosage</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Externest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Meckelein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Frey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Infect. Immun</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="3830" to="3839" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">HSP-70 mitigates LPS/SKI-induced cell damage by increasing sphingosine kinase 1 (SK1)</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Ding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prostaglandins Other Lipid Mediat</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Spaceflight engages heat shock protein and other molecular chaperone genes in tissue culture cells of Arabidopsis thaliana</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Zupanska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Denison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ferl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Paul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Bot</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="235" to="248" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Transcriptomic response of immune signalling pathways in intestinal epithelial cells exposed to lipopolysaccharides, Gram-negative bacteria or potentially probiotic microbes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Audy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Mathieu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Belvis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Tompkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Benef. Microbes</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="273" to="286" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Monocyte phenotype and cytokine production profiles are dysregulated by short-duration spaceflight</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Crucian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Quiriarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pierson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aviat. Space Environ. Med</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="857" to="862" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">An integrated omics analysis: impact of microgravity on host response to lipopolysaccharide in vitro</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chakraborty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genom</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">659</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Hfq and its constellation of RNA</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Luisi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="578" to="589" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Mechanism and physiological significance of autoregulation of the Escherichia coli hfq gene</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Morita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Aiba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RNA</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="264" to="276" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Study of the impact of long-duration space missions at the International Space Station on the astronaut microbiome</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Voorhies</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">9911</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Response of Lactobacillus acidophilus ATCC 4356 to low-shear modeled microgravity</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Castro-Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Voorhies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lorenzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Douglas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Astronautica</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="463" to="468" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Simulated microgravity affects some biological characteristics of Lactobacillus acidophilus</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Microbiol. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="3439" to="3449" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Gut microbiome and space travelers&apos; health: state of the art and possible pro/prebiotic strategies for long-term space missions</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Turroni</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2020.553929</idno>
+		<ptr target="https://doi.org/10.3389/fphys.2020.553929" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Prioritization of biomarker targets in human umbilical cord blood: identification of proteins in infant blood serving as validated biomarkers in adults</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hansmeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Chao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Goldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Witter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">U</forename><surname>Halden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Health Perspect</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="764" to="769" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Microgravity enhances the phenotype of Arabidopsis zigzag-1 and reduces the Wortmannin-induced vacuole fusion in root cells</title>
+				<funder ref="#_YTm2fTc">
+					<orgName type="full">National Aeronautics and Space Administration</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2022-09-06">2022-09-06</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Mengying</forename><surname>Wang</surname></persName>
+							<idno type="ORCID">0000-0002-6955-6811</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Plant and Microbial Biology</orgName>
+								<orgName type="institution">North Carolina State University</orgName>
+								<address>
+									<settlement>Raleigh</settlement>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Katherine</forename><surname>Danz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Plant and Microbial Biology</orgName>
+								<orgName type="institution">North Carolina State University</orgName>
+								<address>
+									<settlement>Raleigh</settlement>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vanessa</forename><surname>Ly</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Plant and Microbial Biology</orgName>
+								<orgName type="institution">North Carolina State University</orgName>
+								<address>
+									<settlement>Raleigh</settlement>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marcela</forename><surname>Rojas-Pierce</surname></persName>
+							<idno type="ORCID">0000-0003-1051-1827</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Plant and Microbial Biology</orgName>
+								<orgName type="institution">North Carolina State University</orgName>
+								<address>
+									<settlement>Raleigh</settlement>
+									<region>NC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Microgravity enhances the phenotype of Arabidopsis zigzag-1 and reduces the Wortmannin-induced vacuole fusion in root cells</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">npj Microgravity</title>
+						<title level="j" type="abbrev">npj Microgravity</title>
+						<idno type="eISSN">2373-8065</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">8</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2022-09-06" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">04B686EC293E036C070B79828824D307</idno>
+					<idno type="DOI">10.1038/s41526-022-00226-3</idno>
+					<note type="submission">Received: 1 April 2022; Accepted: 23 August 2022;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:41+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The spaceflight environment of the International Space Station poses a multitude of stresses on plant growth including reduced gravity. Plants exposed to microgravity and other conditions on the ISS display root skewing, changes in gene expression and protein abundance that may result in changes in cell wall composition, antioxidant accumulation and modification of growth anisotropy. Systematic studies that address the effects of microgravity on cellular organelles are lacking but altered numbers and sizes of vacuoles have been detected in previous flights. The prominent size of plant vacuoles makes them ideal models to study organelle dynamics in space. Here, we used Arabidopsis zigzag-1 (zig-1) as a sensitized genotype to study the effect of microgravity on plant vacuole fusion. Wortmannin was used to induce vacuole fusion in seedlings and a formaldehyde-based fixation protocol was developed to visualize plant vacuole morphology after sample return, using confocal microscopy. Our results indicate that microgravity enhances the zig-1 phenotype by reducing hypocotyl growth and vacuole fusion in some cells. This study demonstrates the feasibility of chemical inhibitor treatments for plant cell biology experiments in space.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Growing healthy plants in space is a major goal towards the viability of long-term space missions as plants can provide food for astronauts and benefit mental health. The space environment includes multiple stresses for plant growth including different levels of gravity, radiation, decreased nutrient delivery and water recycling <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> . The International Space Station provides an ideal experimental setting for the study of plant growth and development under space conditions and many experiments have been conducted with plants on the ISS <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b2">3</ref> . Reduced gravity on the ISS results in disoriented plant growth unless light is provided to activate directional growth from phototropism. Effects of the spaceflight environment on the ISS include reduced cell elongation <ref type="bibr" target="#b3">4</ref> or altered cell division <ref type="bibr" target="#b4">5</ref> in roots. At the cellular level, the microtubule and actin cytoskeletons as well as the cell wall are altered under microgravity <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> . Other cellular organelles are altered under microgravity conditions include mitochondria, plastids and ER <ref type="bibr" target="#b5">6</ref> . Interestingly, vacuole numbers increased in root apical cells for Arabidopsis seedlings grown on the ISS <ref type="bibr" target="#b8">9</ref> , and vacuole volume increases in certain cells in microgravity <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11</ref> . Moreover, proteins involved in intracellular membrane trafficking were found to show altered abundance in microgravity <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> . Those results suggest vacuolar development as well as trafficking are disrupted in microgravity, but overall, there is a large gap in documenting the effect of spaceflight on the organization of cellular organelles <ref type="bibr" target="#b14">15</ref> .</p><p>The plant vacuole is a large essential organelle in plant cells and is important for cell elongation, recycling, and storage, among many other functions <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref> . Vacuole enlargement is concomitant with cell growth along the developmental gradient represented by the longitudinal axis of the root. Vacuole enlargement along this gradient requires homotypic membrane fusion, which is mediated by two conserved complexes, the homotypic vacuole protein sorting (HOPS) and soluble N-ethylmaleimide-sensitive factor attachment protein receptor (SNARE) <ref type="bibr" target="#b18">19</ref> . Both HOPS and the vacuolar SNARE complexes have vacuole or pre-vacuole-specific subunits that provide specificity to membrane fusion. The vacuolar SNARE complex is formed by SYP22, VTI11, SYP51, and either VAMP727 <ref type="bibr" target="#b19">20</ref> or VAMP713/VAMP711 <ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref> . A loss of function allele of VTI11, zigzag1(zig-1), has fragmented vacuoles and showed abnormal shoot gravitropism <ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref> . The zig-1 mutant also has short hypocotyls, small and wrinkled rosette leaves and a zigzag-shaped stem <ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b24">25</ref> . Wortmannin (WM), a chemical inhibitor of phosphoinositide 3-kinase (PI3K), can induce vacuole fusion in zig-1 and partially restore its agravitropic shoot phenotype <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b26">27</ref> . WMinduced vacuole fusion in zig-1 is fast and almost complete vacuole fusion can be observed in roots within two hours <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b26">27</ref> . Given the large size of the vacuole in plant cells and the efficiency of WM at inducing its fusion, this treatment represents a unique assay for the study of organelle fusion in plants in space.</p><p>Plant specimens have been sent to space for fundamental biology research since the 1960s <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b27">28</ref> and this resulted in the design of specific hardware for optimal growth <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b28">29</ref> . The Biological Research in Canister-Petri Dish Fixation Unit (BRIC-PDFU) is a fully contained hardware that has been used extensively with small plant seedlings <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref> and it is suitable for chemical treatments in space. Previous experiments involved storing liquid media or fixative solution inside the chamber of the PDFU for microbial culture or plant tissue fixation <ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref> . Cell biology research on the ISS requires sample fixation to preserve cell morphology. Chemical fixation in the ISS has been accomplished with non-coagulant agents such as formaldehyde and glutaraldehyde <ref type="bibr" target="#b8">9</ref> but the latter has high levels of autofluorescence <ref type="bibr" target="#b35">36</ref> . Direct fluorescence microscopy of fluorescent proteins from fixed tissues <ref type="bibr" target="#b36">37,</ref><ref type="bibr" target="#b37">38</ref> is an effective approach to extract quantitative information of cell structure at high samples size, but the viability of fluorescence microscopy of tissues fixed in space has not been demonstrated given the challenges imposed by the BRIC hardware.</p><p>Here, we took advantage of the WM-induced vacuole fusion in zig-1 to study the effect of microgravity on plant vacuole fusion. Formaldehyde-based tissue fixation in the BRIC-PDFU hardware was used and GFP-tagged vacuoles were imaged post-flight by confocal microscopy. We detected a mild but significant decrease in plant vacuole fusion in zig-1 that highlights possible effects of microgravity or other spaceflight stresses on vacuole biogenesis and membrane fusion. This experiment also demonstrates the feasibility of chemical treatment assays on the ISS which may contribute to future cell biology research in this microgravity environment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Optimization of BRIC-24 workflow</head><p>The goal of BRIC-24 was to test whether vacuole fusion is affected by the microgravity environment of the ISS. A previously characterized vacuole fusion assay <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b26">27</ref> was implemented with the BRIC-PDFU hardware. This assay takes advantage of the accumulation of vacuoles in the zig-1 mutant and the rapid induction of vacuole fusion in this mutant upon treatment with Wortmannin (WM) <ref type="bibr" target="#b26">27</ref> . Visualization of organelle morphology is accomplished by confocal microscopy of a GFP-tagged vacuolar marker (GFP-TIP2;1) <ref type="bibr" target="#b38">39</ref> and a mCherry-tagged ER marker (HDEL-mCherry) <ref type="bibr" target="#b39">40</ref> previously characterized. Figure <ref type="figure">1</ref> describes the BRIC-24 workflow as it was completed as part of the SpaceX-22 mission in July of 2021. Thirty sterile seeds from WT (Columbia-0) or zig-1 were plated directly on Arabidopsis Growth Media (AGM) plates before integration into the BRIC-PDFU hardware at Kennedy Space Center. From this point, plates were maintained cold and in the dark. Each PDFU was separately loaded with a treatment solution (WM or DMSO control in AGM) as well as fixative solution taking advantage of the dual chamber of the PDFU hardware. The fixative solution was infused with N2 gas to enhance its long term stability as described <ref type="bibr" target="#b40">41</ref> . Four BRICs containing a total of 22 PDFUs and 2 HOBO temperature recorders were delivered to NASA's cold stowage facility prior to launch (Supplementary Table <ref type="table">1</ref>). Two days after arriving at the ISS, BRICs were unpacked and allowed to come up to the temperature of the ISS environment to promote germination and growth. WM or DMSO control solutions were applied at day 4 of seedling growth followed by fixative solution 2 h later. BRICs were returned to a 4 °C storage compartment until the return flight 4 weeks later, de-integration and confocal analysis at North Carolina State University.</p><p>BRIC-24 protocols that fit the constraints of the flight schedule and hardware required considerations for storage of treatment solutions in the BRIC hardware before actuation and the preservation of treated and fixed seedlings for up to 6 weeks before imaging. First, we confirmed that 30 μM working dilutions of WM in liquid AGM buffer are still active after 2 weeks of storage at 4 °C (Supplementary Fig. <ref type="figure">1</ref>). Furthermore, we determined that the formaldehyde-based fixative solution was effective after 2 weeks storage (Supplementary Fig. <ref type="figure" target="#fig_0">2</ref>). These results demonstrated the feasibility of the BRIC-24 workflow.</p><p>Transfer of the treatment and fixative solutions from the liquid chambers of the PDFUs and into the plants is carried out by astronauts in space, but this device does not allow for the removal of the first solution. Therefore, the fixative solution would always mix with the previously applied treatment solution. We then tested the effectiveness of a variety of fixative buffers and PFA concentrations when mixed 1:1 with liquid AGM by visualization the GFP-labeled tonoplast and the mCherry-labeled ER of fixed samples (Supplementary Fig. <ref type="figure" target="#fig_1">3</ref>). A 4% working concentration of PFA was used as the fixative agent <ref type="bibr" target="#b36">37,</ref><ref type="bibr" target="#b41">42</ref> . When PFA was directly diluted in liquid AGM, the intensity of GFP fluorescence was weak, and the morphology of vacuole and ER were blurry compared to live-seedling controls (Supplementary Fig. <ref type="figure" target="#fig_1">3B</ref>, <ref type="figure">C</ref>). As most PFA fixation solutions are made in PBS and many variations exist, we tested different PBS concentrations and mixed them 1:1 with AGM. Fixative solutions in full (1x) PBS buffer as well as 0.5x PBS yielded plants with high intensity of GFP, however, only the PFA solution in 0.5x PBS showed the best preservation of vacuole Fig. <ref type="figure">1</ref> Overview of the BRIC-24 experimental workflow. Sterilized Arabidopsis seeds (WT and zig-1 with GFP-TIP2;1) were plated onto AGM media and stored at 4 °C before BRIC-PDFU integration. Each petri dish contained 30 seeds. Treatment solution (33 μm WM or DMSO buffer) and fixative were injected into the dual chamber of the PDFU. Plates were placed into each PDFUs and PDFUs were integrated into BRICs. Four BRICs were then stored in a cold bag for the flight. After 4 days of growth on the ISS, WM solution or DMSO control were applied to the seedlings. The treatment lasted for 2 hours. The second actuation was conducted by applying fixative solution to the seedlings. BRICs were then kept at 4 °C and returned to NASA after splash down. Confocal imaging and data analysis were conducted at NCSU. morphology (Supplementary Fig. <ref type="figure" target="#fig_1">3D</ref>, <ref type="figure">E</ref>). In the case of the KPBS buffer, a variation of PBS that contains K + as an alkali metal cation in addition to Na + ion, vacuole morphology was acceptable, but GFP intensity was diminished (Supplementary Fig. <ref type="figure" target="#fig_1">3G</ref>, <ref type="figure">H</ref>). Weak GFP signal was also detected for samples fixed with fixative in MTSB buffer, a buffer typically used to preserve cytoskeleton in plants <ref type="bibr" target="#b42">43</ref> , (Supplementary Fig. <ref type="figure" target="#fig_1">3I</ref>, <ref type="figure">J</ref>). PFA solutions in PPB and Sorensen's buffer were ineffective in preserving vacuole morphology (Supplementary Fig. <ref type="figure" target="#fig_1">3K</ref>, <ref type="figure">L</ref>). Preservation of ER morphology as reported by the mCherry-HDEL marker was even more challenging. Most fixative solutions resulted in the accumulation of ER aggregates and overall loss of ER structure, except for a PFA solution in 0.25x KPBS (Supplementary Fig. <ref type="figure" target="#fig_1">3H</ref>). This solution, however, was not optimal for visualization of vacuoles. As vacuole fusion was the primary target for this research, we selected the 4% PFA solution in 0.5x PBS (Supplementary Fig. <ref type="figure" target="#fig_1">3E</ref>) as the final fixative concentration for the flight experiment and did not analyze ER morphology as part of BRIC-24.</p><p>One major concern for doing plant cell biology experiments in space is that fixed samples must be stored on the ISS for several weeks before splash-down. We therefore tested whether 4 weeks of storage would affect the intensity of GFP or the overall preservation of vacuole morphology of fixed samples. Several experiments confirmed that long term storage of these samples would not significantly affect their quality of preservation (Supplementary Fig. <ref type="figure" target="#fig_2">4</ref>) further supporting the feasibility of BRIC-24.</p><p>Ground tests demonstrated feasibility of the vacuole fusion assay using the BRIC-PDFU Science (SVT) and Experiment (EVT) Verification Tests were completed at Kennedy Space Center on March and September 2020, respectively, to determine the feasibility of the experimental workflow using the BRIC-PDFU hardware. The PDFU is an enclosed environment where plants are exposed to dark conditions and where plant growth or the effectiveness of chemical treatments cannot be assessed in real time. It was important to test whether WM treatment of WT and zig-1 inside the PDFU was equivalent to treatments regularly done on plastic dishes. Both SVT and EVT were used to optimize growth conditions in the PDFU and to optimize the WM treatment and fixation. Plants were grown for 4 days during SVT, and they were treated with 33 μM WM for 1 h before fixation in 4% formaldehyde in 0.25x KPBS. The germination rate during SVT was not significantly different between genotypes (Supplementary Fig. <ref type="figure" target="#fig_3">5A</ref>), but the hypocotyl length of WT was longer than that of zig-1 (Supplementary Fig. <ref type="figure" target="#fig_3">5B</ref>) as previously reported <ref type="bibr" target="#b23">24</ref> . Fixed seedlings were imaged by confocal microscopy to visualize the vacuoles in the epidermis and cortex from the root transition and elongation zones (Supplementary Fig. <ref type="figure" target="#fig_3">5C</ref>). Visualization of vacuoles after PFA fixation in KPBS buffer results in weak GFP fluorescence. As expected, a single vacuole was observed in most cells of WT roots regardless of chemical treatment. Multiple vacuoles were detected in zig-1 roots in the control treatment and the WM treatment resulted in fewer vacuoles per cell when compared to the control. Most cells did not complete vacuole fusion after 1 h under these conditions and this was unexpected <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b26">27</ref> . This result could be due to hardware limitations or suboptimal fixation, and it prompted an increase in the incubation time of the WM in subsequent experiments.</p><p>A final EVT was conducted to demonstrate the feasibility of BRIC-24 before flight. Plants were grown for 3 days and treated with 33 μM WM for 2 h before fixation in 4% formaldehyde in 0.5x PBS to preserve GFP fluorescence (Fig. <ref type="figure" target="#fig_0">2</ref>; Supplementary Fig. <ref type="figure" target="#fig_3">5D</ref>, <ref type="figure">E</ref>). Again, no significant differences in seed germination were detected between genotypes but zig-1 hypocotyls were shorter than the WT (Fig. <ref type="figure" target="#fig_0">2a</ref>; Supplementary Fig. <ref type="figure" target="#fig_3">5D</ref>, <ref type="figure">E</ref>). Root cortical cells of the root transition zone were imaged for vacuole morphology (Fig. <ref type="figure" target="#fig_0">2b</ref>, <ref type="figure">c</ref>) and most WT cells contained only one vacuole regardless of treatment. Multiple vacuoles per cell were observed in the zig-1 control, and WM treatment resulted in a significant reduction in the number of vacuoles per cell in the mutant. These results suggest that chemical inhibitor treatments in the BRIC-PDFU are feasible, albeit adjustments must be made to accommodate changes due to the limitations of the hardware.</p><p>Even though the feasibility of BRIC-24 was demonstrated during EVT, the overall quality of GFP signal, seedling preservation and WM effectiveness was not on par with similar experiments outside the BRIC-PDFU hardware. This may result from the lack of precision when loading solutions into the dual chamber. We then tested whether deviations from the 1:1 ratio between the WM (or DMSO) solution in AGM and the fixative could affect the quality of cell fixation. Dark grown zig-1 seedlings were fixed in different mixtures of liquid AGM and fixative solution that mimic unequal loading of each solution into the dual chamber. The best cell morphology and GFP signal preservation were obtained when those solutions were mixed with 1:1 ratio. Higher concentrations of fixative induced cell damage while lower concentrations of fixative resulted in lower GFP intensity (Supplementary Fig. <ref type="figure">6</ref>). These results explain some suboptimal cell preservation and GFP fluorescence during SVT and EVT (Supplementary Fig. <ref type="figure">7</ref>) and must be considered for future flight experiments using the BRIC-PDFU. Nonetheless, sufficient seedlings with good preservation and bright GFP fluorescence were recovered from EVT to demonstrate flight readiness of BRIC-24.</p><p>zig-1 showed normal germination but altered hypocotyl growth on the ISS BRIC-24 was flown with the SpaceX-22 mission (Fig. <ref type="figure">1</ref>). Identical experiments with 4 BRICs containing 22 PDFUs were completed on the ISS (flight) and at Kennedy Space Center (ground control). Due to a power failure, the ground control experiment ran 5 weeks after the flight. We analyzed the germination rate, seedling hypocotyl length of WT and zig-1 from flight assay and compared the data to ground control. Seed germination was not affected by the microgravity environment of the ISS in either genotype (Fig. <ref type="figure" target="#fig_1">3a</ref>). Like SVT and EVT experiments, WT hypocotyls were 7.35% and 31.67% longer than those of zig-1 in ground control and flight respectively. However, the ISS environment resulted in 8.46% longer hypocotyls on the WT compared to ground control while the effect in zig-1 was the opposite, where zig-1 plants grown on the ISS were 11.57% shorter than the ground control (Fig. <ref type="figure" target="#fig_1">3b</ref>, <ref type="figure">d</ref>). WT roots were 13% longer than zig-1 in both treatments and no differences were detected between the flight and ground controls in either genotype (Fig. <ref type="figure" target="#fig_1">3c</ref>, <ref type="figure">d</ref>). These results suggest that seed germination and root growth of zig-1 are not affected by microgravity, but its hypocotyl growth may be inhibited by the stresses imposed by the ISS environment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>WM-induced vacuole fusion may be delayed in microgravity</head><p>The primary goal for this research was to test whether WM can induce vacuole fusion of zig-1 in the microgravity environment of the ISS. For this purpose, all seedlings collected from BRIC-PDFUs of flight assay and ground control were imaged by confocal microscopy for vacuole number analysis. Epidermal and cortical cells within the transition and elongation zones of the root tip were analyzed as changes in vacuole morphology are readily observed in these cell transitions <ref type="bibr" target="#b43">44,</ref><ref type="bibr" target="#b44">45</ref> . WT cells had only one vacuole with a few exceptions in the transition zone, regardless of chemical treatment or flight environment (Fig. <ref type="figure" target="#fig_2">4</ref>). This suggests that the microgravity environment on the ISS does not induce major delays on vacuole biogenesis in the WT. zig-1 seedlings showed the typical fragmented vacuole phenotype in both the flight assay and the ground control when the DMSO control treatment was applied (Fig. <ref type="figure" target="#fig_2">4</ref>). While no differences were observed between flight and ground control in the zig-1 transition zone of roots treated with DMSO (Fig. <ref type="figure" target="#fig_2">4b</ref>, <ref type="figure">f</ref>), a small but significant increase in vacuole number was detected in the elongation zone of flight samples in zig-1 (Fig. <ref type="figure" target="#fig_2">4d</ref>, <ref type="figure">h</ref>). For example, the average vacuole number per cell was 3.27 for ground control and 3.80 for flight assay in the epidermis of the elongation zone. Therefore, zig-1 may have an enhanced zig-1 phenotype in the microgravity environment of the ISS.</p><p>Vacuole numbers in WM-treated plants was used as a proxy for vacuole fusion events (Fig. <ref type="figure" target="#fig_2">4</ref>). As expected, the vacuole number per cell in zig-1 treated with WM was smaller than the DMSO control for both flight and ground control samples and in all cells analyzed. This suggests that the WM treatment was effective at inducing vacuole fusion inside the PDFU. Like the EVT experiment, WM did not induce complete vacuole fusion in either flight or ground control as zig-1 cells containing more than one vacuole were observed in all tissues. However, a higher number of vacuoles was observed in the epidermis of WM-treated zig-1 grown on the ISS when compared to the ground (Fig. <ref type="figure" target="#fig_2">4a-d</ref>, Supplementary Table <ref type="table">2</ref>). These results suggest a small delay in zig-1 vacuole fusion during flight. This hypothesis is supported by the smaller difference in the average vacuole number between DMSO and WM treatments in the epidermis transition zone for the flight samples (0.88) when compared to ground control (1.17). Similar results were found in the epidermis elongation zone, with these differences being 0.91 (flight) and 1.57 (ground), respectively. This sensitivity to the flight environment was not detected in the cortical cells where the difference between WM and DMSO vacuole numbers were similar in the two environments. These results overall suggest a cell-type specific response to the stress conditions of the flight environment that resulted in small decreases in vacuole fusion in the epidermis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Amyloplasts were associated with tonoplast in microgravity</head><p>Vacuoles are tightly associated with other organelles and vacuoleamyloplasts associations might be involved in gravity sensing <ref type="bibr" target="#b26">27</ref> . We took advantage of the strong GFP fluorescence of fixed BRIC-24 samples and the vacuole phenotype of zig-1 to test whether microgravity alters the association of vacuoles with amyloplasts. Statocytes from WT and zig-1 seedlings that were treated with the DMSO buffer were imaged by confocal microscopy (Fig. <ref type="figure" target="#fig_3">5</ref>; Supplementary Fig. <ref type="figure">10</ref>). Amyloplasts in hypocotyl endodermal cells were found closely associated with tonoplast both for flight sample and ground control and in both genotypes, and the tonoplast membrane surrounded all plastids (Fig. <ref type="figure" target="#fig_3">5</ref>). As expected, WT amyloplasts were found at the bottom of the cell in the ground control samples while they were distributed throughout the cell in the ISS samples. Like previous results <ref type="bibr" target="#b26">27</ref> , amyloplasts appeared trapped between fragmented vacuoles in zig-1 for both flight and ground control. Unfortunately, we could not analyze root statocytes in a similar manner due to low GFP fluorescence intensity in root columella cells (Supplementary Fig. <ref type="figure">10</ref>). These results overall suggest that the microgravity environment of the ISS does not appear to alter the association of vacuoles and amyloplasts at least in hypocotyls. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Here, we investigated the effect of microgravity on plant vacuole fusion and the association of vacuoles and plastids. The feasibility of chemical treatments in plants on the ISS was demonstrated using the BRIC-PDFU hardware and an optimized plant fixation protocol.</p><p>The microgravity environment of the ISS enhanced the phenotype of zig-1. WT seedlings had longer hypocotyls when grown on the ISS and this was consistent with previous experiments with seedlings grown in the dark <ref type="bibr" target="#b45">[46]</ref><ref type="bibr" target="#b46">[47]</ref><ref type="bibr" target="#b47">[48]</ref> . No differences in root growth were detected between ground controls and ISSgrown WT plants and similar results are reported elsewhere for Arabidopsis seedlings <ref type="bibr" target="#b48">49,</ref><ref type="bibr" target="#b49">50</ref> . The increased elongation of WT hypocotyls in microgravity may result from increased cell wall extensibility and reduced accumulation of xyloglucans <ref type="bibr" target="#b45">46</ref> . In addition, an increase in transverse microtubules may also be involved in changing the rate of cell elongation <ref type="bibr" target="#b47">48</ref> . On the other hand, zig-1 mutants showed shorter hypocotyls and more vacuoles per cell in some root cells when grown in microgravity. This suggests an enhanced zig-1 phenotype on the ISS. Given the role of VTI11 as a SNARE for protein trafficking <ref type="bibr" target="#b50">51</ref> , it is tempting to speculate that the microgravity environment may have a negative effect for endomembrane trafficking overall. Moreover, the enhanced phenotype of zig-1 suggests that microgravity results in a mild decrease in vacuole fusion even though this can only be detected in this sensitized genotype. Cell elongation is in part dependent on the establishment and morphology of the large central vacuole <ref type="bibr" target="#b16">17</ref> , and altered vacuole fusion could contribute to the reduction in hypocotyl elongation in flight-grown zig-1. Unfortunately, the low expression of the GFP-TIP2;1 marker in hypocotyl cells precluded a direct analysis of vacuole numbers in that tissue. Given the similar growth of zig-1 roots between ground control and flight, we can not rule out other cellular defects in the microgravity environment of the ISS for the shortened hypocotyls in zig-1.</p><p>The microgravity environment appears to delay WM-induced vacuole fusion in zig-1 root epidermis. The WM fusion assay is an ideal tool for visualization of cellular membrane fusion in fixed tissues in space. We selected the cortex and epidermis from the transition and early elongation zones of the root because while the fragmented vacuole phenotype of zig-1 is present in most cell types, the WM-induced fusion is best visualized in those root cells <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b26">27</ref> . Moreover, root cells undergoing the transition between meristem and elongation zones are well-defined stages of vacuole maturation <ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b51">[52]</ref><ref type="bibr" target="#b52">[53]</ref><ref type="bibr" target="#b53">[54]</ref> . Overall, we found cells from the transition and early elongation zone to be better preserved than the central elongation or the maturation zones. Given the large numbers of seedlings used, this allowed us to obtain quantitative information for this assay. The vacuole number analysis in epidermis and cortex indicated that WM was overall effective at inducing vacuole fusion of zig-1 in microgravity inside the This result underscores the feasibility of chemical inhibitor treatments in plants grown on the ISS. These experiments, however, also exposed limitations rendered by the PDFU hardware as vacuole fusion was incomplete even in the ground control, unlike similar experiments outside the hardware where almost all the zig-1 cells result in having a single vacuole. Given the sealed nature of the PDFU and the mode of actuation, contact of the chemical solution with all the seedlings on the plate may be incomplete and this would be exacerbated by the abnormal movement of liquids under microgravity. Nonetheless, a small but significant delay in WM-induced vacuole fusion was detected in the epidermis of flight-grown zig-1. This result, together with the increased vacuole number in this mutant under microgravity, suggests that microgravity may slow down membrane fusion events in plants but not sufficiently to inhibit growth or be detectable in the WT.</p><p>This work demonstrated that fixation of fluorescent proteinlabeled organelles on the ISS is feasible. Previous cell biology experiments on the ISS relied on tissue fixation followed by electron microscopy <ref type="bibr" target="#b8">9</ref> . Fluorescence microscopes have been available at the ISS <ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b54">55</ref> which allowed the visualization of GFP tagged proteins in plants <ref type="bibr" target="#b55">56</ref> , but these have been limited to tissue expression patterns due to the complexity of high-resolution imaging <ref type="bibr" target="#b56">57</ref> . Imaging of plant cells with high resolution requires high numerical aperture objectives with short working distances which require specimens be mounted on slides, something that would require a large amount of astronaut time. Therefore, tissue fixation and post-flight microscopy is still the best for cell biology when large sample numbers are needed. Electron microscopy of fixed samples provides the best cellular and subcellular resolution but is time consuming. We set out to develop effective protocols for the fixation of Arabidopsis seedlings carrying fluorescently tagged proteins such that we could take advantage of the capabilities and efficiency of confocal microscopy. We were able to obtain good quality fixations in both genotypes that allowed us to quantify vacuoles in sufficient seedlings, but it is important to emphasize that the fixation quality was still diminished compared to similar fixation protocols outside the BRIC-PDFU hardware even on earth.</p><p>The fixation protocol described here was optimized to follow a chemical treatment in AGM buffer. BRIC-PDFU actuations result in the mixture of fixative and chemical treatment solution as there is no mechanism to remove the first solution. Both the AGM and the fixative buffer contribute to the osmolarity of the final mixture and therefore affect fixation quality. Membrane vesiculation was observed in some fixed seedlings (Supplementary Figs. <ref type="figure" target="#fig_1">3</ref>, <ref type="figure">7</ref>), and further optimization of the fixation protocol may improve the post-flight imaging of stored fixed samples. Similar vesiculation phenomena has been reported in formaldehyde-fixed samples in other systems <ref type="bibr" target="#b57">58</ref> . A further challenge of the PDFU hardware that might impinge on fixation quality is the low precision of the volumes used to fill the dual chamber of PDFUs. Our study demonstrated that variations from the 1:1 ratio of AGM to fixative can dramatically alter the fixation quality of plant specimens. Future experiments using this hardware must ensure sufficient sample size to account for the loss of samples due to poor fixation. An improved dual chamber PDFU unit with more precise volume control would augment the use of this hardware in future flight experiments.</p><p>Tissue fixation protocols that are compatible with fluorescent proteins have been developed for plants <ref type="bibr" target="#b36">37,</ref><ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b41">42,</ref><ref type="bibr" target="#b58">59</ref> . These protocols were developed to improve imaging depth within plant tissues by clearing cellular structures. Maintaining subcellular structure and fluorescent protein structure and intensity allow for imaging experiments that are incompatible with live-cell imaging such as those conducted in space. We found that the intensity of GFP and mCherry is retained in fixed seedlings even after long storage in the cold. However, GFP intensity was more sensitive than mCherry to buffer composition. Lower concentration of KPBS buffer reduces the intensity of GFP, suggesting the GFP stability can be altered by the concentration of certain salt. Unfortunately, the morphology of the mCherry-tagged ER was poorly preserved with most fixative solutions. Many aggregates of ER membranes were detected while the fluorescence intensity of the mCherry marker was intact. A similar phenomenon was reported in Drosophila cells carrying a BiP-Superfolder GFP-HDEL fusion that labels the ER. In those cells, chemical fixation disrupted the ER morphology and ER tubules appeared to fragment into discrete puncta <ref type="bibr" target="#b59">60</ref> . Preservation of ER structures by chemical fixation may require specific chemical compositions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Arabidopsis materials and growth conditions</head><p>Arabidopsis ecotype Columbia (Col-0) expressing GFP-TIP2;1 was previously described <ref type="bibr" target="#b38">39</ref> and previously transformed <ref type="bibr" target="#b26">27</ref> with the HDEL-mCherry construct <ref type="bibr" target="#b39">40</ref> . The zig-1 mutant was previously described <ref type="bibr" target="#b23">24</ref> , and the GFP-TIP2;1 marker was introgressed into this genotype by crossing. The HDEL-mCherry marker <ref type="bibr" target="#b39">40</ref> was separately introduced into zig-1 by Agrobacterium-mediated transformation <ref type="bibr" target="#b26">27</ref> and the two markers were combined by crossing and selection of plants in the F 2 .</p><p>Seeds were surface sterilized and sown on 0.5 X Arabidopsis growth medium (AGM, 0.5X Murashige and Skoog medium, 10 g/L Gelrite, 1% (w/v) sucrose) in 6 cm diameter petri dishes. Each petri dish contained 30 seeds. Twenty-two Petri dishes were integrated into PDFUs and stored in 4 BRICs for SVT, EVT and flight. BRICs were incubated at 4 °C for 5 days in the dark and transferred to 22 °C growth chamber (SVT, EVT and ground control) or the ISS environment (flight assay) for 3-4 days (Fig. <ref type="figure">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Chemical treatments and fixation</head><p>Three to four-day-old dark-grown seedlings were used for chemical treatments and fixation. WM (SIGMA, cat# W3144) was diluted to 33 μM in AGM and an equal volume of DMSO (Thermo Scientific, D12345) diluted in AGM was used as the control. For lab testing, seedlings were incubated in WM working solution or DMSO buffer control for 1 or 2 h in the dark. If used in the BRIC-PDFU, WM or DMSO were stored in one of the chambers in the PDFU and an actuator tool was used to push each solution onto the petri dish.</p><p>Optimization of the seedling fixation protocol involved testing different buffers for the PFA fixative. To mimic the mixing process inside the BRIC-PDFU, one volume of 0.5X AGM was mixed with one volume of 8% Paraformaldehyde (PFA, Electron Microscopy Sciences cat# 15700) in the corresponding buffer for a final concentration 4% PFA. The final concentration for each buffer to test was 0.5X AGM, 0.5X or 0.25X KPBS 61 , 0.5X or 1X BupH TM PBS (ThermoFisher Scientific cat# 28372), 0.5X or 1X microtubule stabilizing buffer (MTSB) <ref type="bibr" target="#b42">43</ref> , 1X Potassium phosphate buffer (PPB) (6.5 mM KH 2 PO 4 , 93.5 mM K 2 HPO 4 ) and 0.25X Sorenson's buffer <ref type="bibr" target="#b61">62</ref> . Seedlings treated with each mixture were immediately stored at 4 °C until confocal microscopy.</p><p>For SVT, EVT and flight assay, 16% PFA aqueous solutions were diluted to 8% PFA in 0.5X KPBS (SVT) or 1X BupH TM PBS (EVT, flight assay). The final PFA concentration after actuation in the PDFU was around 4% with 0.25X KPBS buffer (SVT) and 0.5X BupH TM PBS buffer (EVT, flight assay). Seedlings were then stored at 4 °C until de-integration of BRIC-PDFU followed by confocal microscopy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microscopy</head><p>Fixed seedlings were washed 3 times for 1 min in sterilized water before imaging. A Zeiss LSM880 confocal microscope was used for all the imaging. The excitation/emission wavelengths for GFP and mCherry were 488 nm/490-561 nm and 561 nm/570-676 nm respectively. The C-Apochromat 40X/1.2 W Korr FCS M27 waterimmersion objective was used. All seedlings were imaged at the root tip transition and elongation zones and in both epidermis and/or cortical cells. The transition zone was defined as the region of the root apex where a doubling in cell length was observed in a specific cell layer, corresponding to the boundary between the meristematic and elongation zones <ref type="bibr" target="#b62">63</ref> and the cell where that doubling occurred was included in the analysis. Cells in the elongation zone were identified as those past the transition zone. Two to three z sections were captured per sample in each cell layer. Cells where the section was too close to the cell cortex were not included and vacuoles were counted by eye as defined by fluorescently-labelled membrane boundaries. Some seedlings were additionally imaged at the root tip columella and hypocotyl endodermis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Image analysis</head><p>For SVT, EVT and the flight assay, seeds germination rate was calculated from the number of recovered seedlings in each PDFU after de-integration. To measure hypocotyl length, fixed seedlings were arranged on glass slides and imaged using digital cameras. Hypocotyl and root length was measured with Fiji <ref type="bibr" target="#b63">64</ref> .</p><p>To count the number of vacuoles per cell, images from different tissue and cell type was analyzed separately. Only cells with good preservation and strong GFP fluorescence intensity were counted. Three-way ANOVA analysis was applied to compare the cellular vacuole amount among different treatments. Statistical analysis and figure generation were conducted with GraphPad Prism version 9.2.0 for macOS, GraphPad Software, San Diego, California USA, <ref type="url" target="http://www.graphpad.com">www.graphpad.com</ref>.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 The WM-induced vacuole fusion assay can be carried out in the BRIC-PDFU. a Germination rate of WT and zig-1 seeds inside BRIC-PDFU during EVT. No significant difference in germination rate between two genotypes was detected after removing the two WT outliners (30% and 50%). (Unpaired t-test, ns: p &gt; 0.05; n represents plate number, n &gt; = 8). b Fixed root tip cortex cell vacuole morphology of WT and zig-1 (GFP-TIP2;1). Three-day-old WT and zig-1 seedlings were treated with DMSO buffer control or WM solution for 2 h and then seedlings were fixed and kept at 4 °C before confocal imaging. Scale bar: 20 μm. c Quantification of vacuole number in WT and zig-1 after chemical treatment. Cells from the cortex transition zone of the root tip were analyzed. (Two-way ANOVA, Tukey's multiple comparison test, ****p &lt; 0.0001; n represents cell number under analysis for each genotype with each treatment, n &gt; 365). Raw datapoints are represented with filled circles. Error bars represent standard deviation.</figDesc><graphic coords="4,143.41,59.27,318.03,294.79" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 WT and zig-1 in BRIC-PDFU can germinate and grow in microgravity environment as on earth. a Germination rate of WT and zig-1 grown in the BRIC-PDFU from ground control or flight. No differences were detected in the germination rate between genotypes or treatments. (Two-way ANOVA, Tukey's multiple comparison test, ns: p &gt; 0.1234, n represents plate number per genotype per treatment, n &gt; 10). b Hypocotyl length of WT and zig-1 grown in the BRIC-PDFU from ground control and flight. WT showed longer hypocotyl than zig-1 both for ground control and flight. Flight assay promoted the hypocotyl length of WT while inhibited zig-1's hypocotyl length. (Two-way ANOVA, Tukey's multiple comparison test, ****p &lt; 0.0001, n represents seedling number per genotype per treatment, n &gt; 200). c Root length of WT and zig-1 grown in the BRIC-PDFU from ground control and flight. The zig-1 mutant showed shorter roots than WT in both ground control and flight (Two-way ANOVA, Tukey's multiple comparison test, ****p &lt; 0.0001, n represents seedling number per genotype per treatment, n &gt; 160). Raw datapoints are represented with filled circles. Error bars represent standard deviation. d Representative seedlings of the WT and zig-1 from either ground control or flight after de-integration of the BRIC-PDFU. Fixed seedlings were taken out of fixative solution and arranged on plate. Scale bar: 1 cm.</figDesc><graphic coords="5,130.90,59.30,324.00,303.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4</head><label>4</label><figDesc>Fig. 4 Quantification of WM-induced vacuole fusion. Vacuole morphology (a, c, e, g) and vacuole number (b, d, f, h) of WT and zig-1 plants expressing GFP-TIP2;1. Seedlings were grown in ground control or the ISS and treated with DMSO buffer (control) or WM solution. Cells were imaged at the root tip epidermis transition zone (a, b), epidermis elongation zone (c, d), cortex transition zone (e, f) or cortex elongation zone (g, h). Four-day-old seedlings were treated with DMSO buffer control or WM solution for 2 h and then seedlings were fixed and kept in 4 °C before confocal imaging. (Three-way ANOVA, Tukey's multiple comparison test, ****p &lt; 0.0001; **p &lt; 0.0021; n represents cell number under analysis per genotype per treatment, n &gt; 155). Raw datapoints are represented with filled circles. Error bars represent standard deviation. Scale bar: 40 μm.</figDesc><graphic coords="6,139.84,82.40,372.60,430.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 5</head><label>5</label><figDesc>Fig. 5 Visualization of the vacuole and amyloplast inside the hypocotyl endodermal cell. Amyloplasts (where arrows point at) were associated with tonoplast (labeled by GFP) in hypocotyl endodermis of WT and zig-1 in microgravity environment as on earth. Scale bar: 20 μm.</figDesc><graphic coords="7,162.85,77.90,289.96,171.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="2,140.92,110.99,313.24,187.12" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>npj Microgravity (2022) 38 Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA 1234567890():,;</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA npj Microgravity (2022) 38 1234567890():,;</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>npj Microgravity (2022)<ref type="bibr" target="#b37">38</ref> Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>Published in cooperation with the Biodesign Institute at Arizona State University, with the support of NASA npj Microgravity (2022) 38</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>Special thanks to <rs type="person">Dr. Ye Zhang</rs> from <rs type="affiliation">Kennedy Space Center</rs>, <rs type="person">Gerard Newsham</rs>, <rs type="person">Donald Houze</rs>, <rs type="person">Susan Manning-Roach</rs> and <rs type="person">Anne Marie Campbell</rs> form <rs type="affiliation">MEI Technologies</rs> for help with the SVT, EVT, and Flight assays. Special thanks to astronaut <rs type="person">Thomas Pesquet</rs> for conducting the BRIC-PDFU actuation during flight. This work was supported by a grant from the <rs type="funder">National Aeronautics and Space Administration</rs> (<rs type="grantNumber">80NSSC19K0145</rs> to M.R.P).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_YTm2fTc">
+					<idno type="grant-number">80NSSC19K0145</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY</head><p>The datasets generated during and/or analyzed during the current study are available from the corresponding author on reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reporting summary</head><p>Further information on research design is available in the Nature Research Reporting Summary linked to this article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>M.R.P. designed the experiment. M.W., K.D., V.L., and M.R.P. carried out experiments. M.W. developed the fixation protocol, prepared plant samples, imaged samples, and analyzed data. M.W. and M.R.P. wrote the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>COMPETING INTERESTS</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ADDITIONAL INFORMATION Supplementary information</head><p>The online version contains supplementary material available at <ref type="url" target="https://doi.org/10.1038/s41526-022-00226-3">https://doi.org/10.1038/s41526-022-00226-3</ref>.</p><p>Correspondence and requests for materials should be addressed to Marcela Rojas-Pierce.</p><p>Reprints and permission information is available at <ref type="url" target="http://www.nature.com/reprints">http://www.nature.com/  reprints</ref> Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Plants in space</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ferl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Levine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Paul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="258" to="263" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Seed-to-seed growth of Arabidopsis thaliana on the International Space Station</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Link</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Durst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stankovic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="2237" to="2243" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Conducting plant experiments in space and on the moon</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shymanovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Kiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">2368</biblScope>
+			<biblScope unit="page" from="165" to="198" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Plant growth strategies are remodeled by spaceflight</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Amalfitano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ferl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">232</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Germination of Arabidopsis seed in space and in simulated microgravity: Alterations in root cell growth and proliferation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Manzano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microgravity Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">293</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Plant cell gravisensitivity and adaptation to microgravity</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Kordyum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Biol. (Stuttg.)</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="79" to="90" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The utilization of plant facilities on the international space station-the composition, growth, and development of plant cell walls under microgravity conditions</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Jost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hoson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Iversen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plants (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="44" to="62" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">New aspects of gravity responses in plant cells</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hoson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Soga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Rev. Cytol</title>
+		<imprint>
+			<biblScope unit="volume">229</biblScope>
+			<biblScope unit="page" from="209" to="244" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The actin cytoskeleton is a suppressor of the endogenous skewing behaviour of Arabidopsis primary roots in microgravity</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nakashima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Sparks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Blancaflor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Biol. (Stuttg.)</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="142" to="150" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">In vitro plant cell growth in microgravity and on clinostat</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Laurinavicius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kenstaviciene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Rupainiene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Necitailo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="87" to="96" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Effects of altered gravity on plant cell processes: Results of recent space and clinostatic experiments</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Kordyum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="77" to="85" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Microgravity induces changes in microsome-associated proteins of Arabidopsis seedlings grown on board the international space station</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mazars</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">91814</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Microsome-associated proteome modifications of Arabidopsis seedlings grown on board the International Space Station reveal the possible effect on plants of space stresses other than microgravity</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mazars</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Signal. Behav</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">29637</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Differential protein expression profiling of Arabidopsis thaliana callus under microgravity on board the Chinese SZ-8 spacecraft</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Planta</title>
+		<imprint>
+			<biblScope unit="volume">241</biblScope>
+			<biblScope unit="page" from="475" to="488" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">NASA Space Biological Science Plan</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Tomko</surname></persName>
+		</author>
+		<ptr target="https://www.nasa.gov/sites/default/files/atoms/files/16-03-23_sb_plan.pdf" />
+		<imprint>
+			<date type="published" when="2016">2016-2025. 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Plant vacuoles</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="587" to="599" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">To lead or to follow: Contribution of the plant vacuole to cell growth</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kaiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Scheuring</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Plant Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">553</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The role of vacuole in plant cell death</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hara-Nishimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hatsugai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Death Differ</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1298" to="1304" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Molecular mechanisms of endomembrane trafficking in plants</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Aniento</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sánchez De Medina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dagdas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rojas-Pierce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Russinova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="146" to="173" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A SNARE complex unique to seed plants is required for protein storage vacuole biogenesis and seed development of Arabidopsis thaliana</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ebine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="3006" to="3021" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Interactomics of Qa-SNARE in Arabidopsis thaliana</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fujiwara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell Physiol</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="781" to="789" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A membrane trafficking pathway regulated by the plant-specific RAB GTPase ARA6</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ebine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="853" to="859" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Plant vacuolar trafficking driven by RAB and SNARE proteins</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Uemura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ueda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="116" to="121" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">SGR2, a phospholipase-like protein, and ZIG/SGR4, a SNARE, are involved in the shoot gravitropism of Arabidopsis</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="33" to="46" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A SNARE complex containing SGR3/AtVAM3 and ZIG/VTI11 in gravity-sensing cells is important for Arabidopsis shoot gravitropism</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. USA</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="8589" to="8594" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Homotypic vacuole fusion requires VTI11 and is regulated by phosphoinositides</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Rodriguez-Welsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rojas-Pierce</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol. Plant</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1026" to="1040" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Wortmannin-induced vacuole fusion enhances amyloplast dynamics in Arabidopsis zigzag1 hypocotyls</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Alvarez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Bot</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="6459" to="6472" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Experiments on plants grown in space. Status and prospects</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Halstead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dutcher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Bot</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="3" to="18" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">ESA hardware for plant research on the International Space Station</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brinckmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="1162" to="1166" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">A flight-rated Petri dish apparatus providing two stage fluid injection for aseptic biological investigations in space</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Mccray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Best</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Levine</surname></persName>
+		</author>
+		<idno>No. 0148-7191</idno>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<publisher>SAE Technical Paper</publisher>
+		</imprint>
+	</monogr>
+	<note type="report_type">Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Growth in spaceflight hardware results in alterations to the transcriptome proteome</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Basu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P S</forename><surname>Kruse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Luesse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Wyatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Life Sci. Space Res. (Amst.)</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="88" to="96" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Spaceflight transcriptomes: Unique responses to a novel environment</title>
+		<author>
+			<persName><forename type="first">A.-L</forename><surname>Paul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="40" to="56" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">An endogenous growth pattern of roots is revealed in seedlings grown in microgravity</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Millar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Edelmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Kiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="787" to="797" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Gravitropic moss cells default to spiral growth on the clinostat and in microgravity during spaceflight</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">D</forename><surname>Kern</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Planta</title>
+		<imprint>
+			<biblScope unit="volume">221</biblScope>
+			<biblScope unit="page" from="149" to="157" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Establishing Standard Protocols for Bacterial Culture in Biological Research in Canisters (BRIC) Hardware</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fajardo-Cavazos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gravitational Space Res</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="58" to="69" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Autofluorescence generation and elimination: a lesson from glutaraldehyde</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Commun. (Camb.)</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="3028" to="3030" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">ClearSee: a rapid optical clearing reagent for whole-plant fluorescence imaging</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kurihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mizuta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Higashiyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Development</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="4168" to="4179" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">ClearSeeAlpha: Advanced Optical Clearing for Whole-Plant Imaging</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kurihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mizuta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Higashiyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Cell Physiol</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="1302" to="1310" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Random GFP::cDNA fusions enable visualization of subcellular structures in cells of Arabidopsis at a high frequency</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Cutler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Ehrhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Griffitts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Somerville</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="3718" to="3723" />
+			<date type="published" when="2000">2000</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">A multicolored set of in vivo organelle markers for co-localization studies in Arabidopsis and other plants</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nebenfuhr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant J</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1126" to="1136" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Delaying seed germination and improving seedling fixation: lessons learned during science and payload verification tests for Advanced Plant EXperiments (APEX) 02-1 in space</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nakashima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gravitational Space Res</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="54" to="67" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">A protocol for combining fluorescent proteins with histological stains for diverse cell wall components</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ursache</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Marhavy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Geldner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant J</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="399" to="412" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Protocol: An improved and universal procedure for wholemount immunolocalization in plants</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pasternak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant Methods</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">50</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Plant vacuoles: where did they come from and where are they heading?</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zouhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rojo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Plant Biol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="677" to="684" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A whole-cell electron tomography model of vacuole biogenesis in Arabidopsis root cells</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Plants</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="95" to="105" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Stimulation of elongation growth and xyloglucan breakdown in Arabidopsis hypocotyls under microgravity conditions in space</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Soga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wakabayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kamisaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hoson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Planta</title>
+		<imprint>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="page" from="1040" to="1046" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Morphogenesis of rice and Arabidopsis seedlings in space</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hoson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Plant Res</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="477" to="486" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Modification of growth anisotropy and cortical microtubule dynamics in Arabidopsis hypocotyls grown under microgravity conditions in space</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Soga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiologia Plant</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page" from="135" to="144" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">RNA-seq analyses of Arabidopsis thaliana seedlings after exposure to blue-light phototropic stimuli in microgravity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Vandenbrink</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Bot</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="1466" to="1476" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The combined effects of real or simulated microgravity and red-light photoactivation on plant root meristematic cells</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Valbuena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Planta</title>
+		<imprint>
+			<biblScope unit="volume">248</biblScope>
+			<biblScope unit="page" from="691" to="704" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Systematic analysis of SNARE molecules in Arabidopsis: dissection of the post-Golgi network in plant cells</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Uemura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Struct. Funct</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="49" to="65" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Scheuring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schöller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kleine-Vehn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Löfke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plant cell expansion</title>
+		<imprint>
+			<biblScope unit="page" from="83" to="92" />
+			<date type="published" when="2015">2015</date>
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Auxin regulates SNAREdependent vacuolar morphology restricting cell size</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lofke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dunser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Scheuring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kleine-Vehn</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.05868</idno>
+		<ptr target="https://doi.org/10.7554/eLife.05868" />
+	</analytic>
+	<monogr>
+		<title level="j">Elife</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Extracellular matrix sensing by FERONIA and Leucine-Rich Repeat Extensins controls vacuolar expansion during cellular elongation in Arabidopsis thaliana</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dünser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMBO J</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page">100353</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Acute transcriptional up-regulation specific to osteoblasts/ osteoclasts in medaka fish immediately after exposure to microgravity</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chatani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">39545</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">The effect of spaceflight on the gravity-sensing auxin gradient of roots: GFP reporter gene microscopy on orbit</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ferl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-L</forename><surname>Paul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">npj Microgravity</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rottenfusser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods in Cell Biology</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="43" to="67" />
+			<date type="published" when="2013">2013</date>
+			<publisher>Elsevier</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Optimized fixation and immunofluorescence staining methods for Dictyostelium cells</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hagedorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Neuhaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Soldati</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">346</biblScope>
+			<biblScope unit="page" from="327" to="338" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">A ClearSee-Based Clearing Protocol for 3D Visualization of Arabidopsis thaliana Embryos</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Imoto</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/plants10020190</idno>
+		<ptr target="https://doi.org/10.3390/plants10020190" />
+	</analytic>
+	<monogr>
+		<title level="j">Plants</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2021">2021</date>
+			<pubPlace>Basel</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">The effects of ER morphology on synaptic structure and function in Drosophila melanogaster</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Summerville</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cell Sci</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="1635" to="1648" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Integrated light and scanning electron microscopy of GFP-expressing cells</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Peddie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Liv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Hoogenboom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Collinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page" from="363" to="389" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Backscattered electron SEM imaging of resin sections from plant specimens: observation of histological to subcellular structure and CLEM</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">W</forename><surname>Rizzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Duncan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Bourett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Howard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Microsc</title>
+		<imprint>
+			<biblScope unit="volume">263</biblScope>
+			<biblScope unit="page" from="142" to="147" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Dissecting mechanisms in root growth from the transition zone perspective</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Salvi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Di Mambro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sabatini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Bot</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="2390" to="2396" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Fiji: An open-source platform for biological-image analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schindelin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="676" to="682" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

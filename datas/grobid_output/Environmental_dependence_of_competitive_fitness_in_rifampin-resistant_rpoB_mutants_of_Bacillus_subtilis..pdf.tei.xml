@@ -1,0 +1,1890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Environmental Dependence of Competitive Fitness in Rifampin-Resistant rpoB Mutants of Bacillus subtilis</title>
+				<funder ref="#_ge38fhB #_22bCPgj">
+					<orgName type="full">USDA-Hatch</orgName>
+				</funder>
+				<funder ref="#_gAuJruT">
+					<orgName type="full">NASA Space Biology</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Joss</forename><forename type="middle">D</forename><surname>Leehan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Microbiology and Cell Science</orgName>
+								<orgName type="institution">University of Florida</orgName>
+								<address>
+									<settlement>Merritt Island</settlement>
+									<region>Florida</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wayne</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+							<idno type="ORCID">0000-0001-7958-1669</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Microbiology and Cell Science</orgName>
+								<orgName type="institution">University of Florida</orgName>
+								<address>
+									<settlement>Merritt Island</settlement>
+									<region>Florida</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Tartu</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Environmental Dependence of Competitive Fitness in Rifampin-Resistant rpoB Mutants of Bacillus subtilis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A58EEF51355EC53C48A26FC5253D6763</idno>
+					<note type="submission">Received 8 December 2021 Accepted 14 January 2022 Accepted manuscript posted online 19 January 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2025-10-04T11:30+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>RNA polymerase (RNAP) is a highly conserved macromolecular machine that contributes to the flow of genetic information from genotype to phenotype. In Bacillus subtilis, mutations in the rpoB gene encoding the b-subunit of RNAP have been shown to alter a number of global phenotypes, including growth, utilization of unusual nutrient sources, sporulation, germination, and production of secondary metabolites. In addition, the spectrum of mutations in rpoB leading to rifampin resistance (Rif r ) can change dramatically depending upon the environment to which B. subtilis cells or spores are exposed. Rif r rpoB mutations have historically been associated with slower growth and reduced fitness; however, these assessments of fitness were conducted on limited collections of mutants in rich laboratory media that poorly reflect natural environments typically inhabited by B. subtilis. Using a novel deep-sequencing approach in addition to traditional measurements of growth rate, lag time, and pairwise competitions, we demonstrated that the competitive advantages of specific rpoB alleles differ depending on the growth environment in which they are determined.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>IMPORTANCE Microbial resistance to antibiotics is a growing threat to public health across the world. Historically, resistance to antibiotics has been associated with reduced fitness. A growing body of evidence indicates that resistance to rifampin, a frontline antibiotic used to treat mycobacterial and biofilm-associated infections, may increase fitness given an appropriate environment even in the absence of the selective antibiotic. Here, we experimentally confirm this phenomenon by directly comparing the fitness of multiple rifampin-resistant mutants of Bacillus subtilis in rich LB medium and an asparagine minimal medium. Our research demonstrates that the fitness cost of rifampin resistance can vary greatly depending upon the environment. This has important implications for understanding how microbes develop antimicrobial resistance in the absence of antibiotic selection.</p><p>KEYWORDS Bacillus subtilis, evolution, RNA polymerase, fitness, rifampin, rifampin resistance, transcription T ranscription in bacteria depends on a complex of proteins collectively known as RNA polymerase (RNAP), and bacterial responses to their environment are in large part due to alterations in their global pattern of transcription, i.e., the transcriptome. Because RNAP physically contacts every promoter in the bacterial genome, mutations altering RNAP can exert wide-ranging pleiotropic effects on the transcriptome, and hence, the resulting phenotype and fitness of a cell growing in a particular environment. The antibiotic rifampin (Rif) is a potent inhibitor of prokaryotic transcription initiation <ref type="bibr" target="#b0">(1)</ref> and has a long history of use in the treatment of infectious diseases, particularly tuberculosis and leprosy caused by Mycobacterium spp., as well as biofilm-associated infections <ref type="bibr" target="#b1">(2)</ref>. In addition to its clinical importance, Rif has long been used to probe the structure and function of RNAP. Resistance to Rif (Rif r ) arises from mutations in the rpoB gene, encoding the b subunit of RNAP <ref type="bibr" target="#b2">(3)</ref>. Binding of Rif to RNAP occurs at a specific site on the b subunit, the Rif-binding pocket, which physically blocks the progression of nascent transcripts through the RNA exit channel <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b4">5)</ref>. Mutations conferring Rif r are localized on the primary sequence of rpoB in four regions designated the N cluster and clusters I, II, and III <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b5">6)</ref>. The majority of Rif r mutations occur in cluster I, and elucidation of the three-dimensional structure of RNAP bound to Rif has revealed that the Rif binding pocket consists of several key amino acids within cluster I that make direct contact with Rif (4). In the Gram-positive model organism Bacillus subtilis, Rif r mutations in rpoB have been shown to affect a number of global phenotypes, including deficiencies in sporulation, competence, growth rate, and yield <ref type="bibr" target="#b6">(7)</ref>, activation of cryptic genes involved in the utilization of rare carbon sources <ref type="bibr" target="#b7">(8)</ref>, altered resistance of spores to various sporicidal stresses <ref type="bibr" target="#b8">(9)</ref>, temperature-sensitive sporulation <ref type="bibr" target="#b9">(10)</ref>, and spore germination <ref type="bibr" target="#b6">(7)</ref>.</p><p>Not all sites in cluster I of rpoB are prone to mutation at equal frequency; some bases mutate at higher frequency ("hot spots") or lower frequency ("cold spots"). Such patterns of mutation in a gene are referred to as its mutational spectrum <ref type="bibr" target="#b10">(11)</ref>. In prior communications, we have reported several instances in which the Rif r mutational spectrum in the B. subtilis rpoB gene is changed when cells are cultivated in different physiological environments or when spores are exposed to different environmental extremes <ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref><ref type="bibr" target="#b14">(15)</ref><ref type="bibr" target="#b15">(16)</ref><ref type="bibr" target="#b16">(17)</ref>.</p><p>Most recently, we reported on differences in the spectrum of Rif r mutations between populations grown in complete Miller LB medium (LB) and populations grown in Spizizen minimal medium containing L-asparagine as the sole carbon source (SMM Asn ) <ref type="bibr" target="#b17">(18)</ref>. We observed that the major Rif r amino acid change in LB cultures was H482Y (a change of H to Y at position 482), while the major mutation in SMM Asn cultures was S487L <ref type="bibr" target="#b17">(18)</ref>. How does exposure of a cell or spore to a particular environment lead to an altered mutational spectrum? At least two explanations for this phenomenon can be posited, which are not mutually exclusive.</p><p>(i) One of the explanations is that under different physiological conditions, changes in the intracellular environment can cause alterations in nucleoid architecture, DNA supercoiling, and DNA conformation; such structural alterations can alter the probability of mutation at a particular base within a gene. This notion is supported by the observed differences both in DNA structure and in the spectrum of rpoB mutations between vegetative cells and spores in B. subtilis, where the mutagenic spectrum of spores more closely resembled the spectrum observed in clinical Mycobacterium tuberculosis isolates <ref type="bibr" target="#b11">(12)</ref>. Differences in the spectrum of rpoB mutations have also been observed in B. subtilis spores exposed to a number of extreme environmental conditions, including simulated Mars conditions <ref type="bibr" target="#b12">(13)</ref>, ultrahigh vacuum <ref type="bibr" target="#b18">(19)</ref>, and exposure to space in low-Earth orbit <ref type="bibr" target="#b14">(15)</ref>. It should be noted that in the examples listed above, dormant spores themselves were exposed to different environments and then allowed to germinate and grow under the same laboratory conditions; hence, differences in mutational spectrum cannot be attributed to different growth environments.</p><p>(ii) The second explanation is that growth under selective pressure produces a spectrum of mutations within a population and those mutants with the lowest fitness cost or those with a fitness advantage become more prevalent. Supporting this line of thought, Wrande et al. <ref type="bibr" target="#b19">(20)</ref> illustrated that the logarithmic accumulation of Rif r mutations in aging Salmonella enterica and Escherichia coli colonies is due to clonal growth of Rif r mutants in localized "jackpots" within the colony. These Rif r alleles were found to have a selective advantage over their respective ancestral strains within the context of these aging colonies. Similarly, study of Rif r Staphylococcus aureus mutants isolated from biofilms revealed that Rif r mutants exhibited greater fitness when cocultured with the wild-type strain in a biofilm liquid culture <ref type="bibr" target="#b20">(21)</ref>.</p><p>It is possible that these two mechanisms work together in determining the spectra of mutations in both vegetative cells and spores, due to the integral roles that DNA bending and supercoiling play in regulating bacterial transcription and, in turn, the role that transcription plays in determining DNA architecture (reviewed in references <ref type="bibr">22, 23, and 24)</ref>. This inextricable linkage between gene expression and DNA supercoiling makes these notions explaining variations in spectra of mutations difficult to disentangle.</p><p>To determine whether growth under differing selective pressures is a contributing factor in differences in the spectra of mutations, we report here the development of a competition assay utilizing next-generation-sequencing technology to quantify the fitness of multiple rpoB alleles in a mixed culture simultaneously. We compared the population frequencies of 18 rpoB alleles in mixed cultures grown in two distinct environments: LB and SMM Asn . We found significant differences in the fitness of the various Rif r mutant rpoB alleles in each medium. In LB, the wild-type allele dominated, whereas in SMM Asn , the H482N mutant became the dominant allele present in the population. These results were subsequently confirmed by pairwise competition experiments, as well as assessments of exponential growth rates and lag times.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS AND DISCUSSION</head><p>Levels of Rif resistance conferred by mutant rpoB alleles. The natural environment often contains inhibitory or subinhibitory levels of various antibiotics; thus, natural antibiotic resistance would confer a selective advantage in such environments (reviewed in reference 25). Through our studies of Rif r over the years, we have amassed a collection of congenic B. subtilis strains, each carrying 1 of 17 different Rif r mutations in rpoB (Table <ref type="table" target="#tab_0">1</ref>). We measured the levels of Rif r in these strains by measuring the 50% inhibitory concentration (IC 50 ) for Rif in LB medium by the broth dilution method (Fig. <ref type="figure" target="#fig_0">1</ref>). As expected, the wild-type laboratory strain was very sensitive to Rif (IC 50 of 0.06 6 0.01 mg/mL). All mutant rpoB alleles that had been selected on a high concentration of Rif (50 mg/mL) (12, 13) exhibited high IC 50 values of .100 mg/mL, whereas mutant rpoB alleles selected on a low concentration of Rif (5 mg/mL) (17) exhibited generally lower IC 50 values, ranging from 4 to 84 mg/mL, the lowest of which was still at least 67-fold higher than that of the wild-type strain (Fig. <ref type="figure" target="#fig_0">1</ref>). Thus, in the context of growth in a selective environment containing Rif, all the Rif r rpoB mutants would be expected to be more fit than the wild-type strain.</p><p>Growth rates of rpoB mutants in LB cultures. In the absence of Rif selection, it has been noted previously that mutations in rpoB leading to Rif r often exert a fitness cost, such as a lower growth rate as measured in standard laboratory media (26; reviewed in reference 27). To test this notion, we measured the growth rates of wild-type B. subtilis and 17 congenic rpoB mutants in individual liquid-LB shake flask cultures (Fig. <ref type="figure" target="#fig_1">2</ref>). It was observed that 10 of the 17 rpoB mutant strains grew significantly more slowly than the wild type (Fig. <ref type="figure" target="#fig_1">2</ref>), consistent with the notion that rpoB mutations can exert a fitness cost <ref type="bibr" target="#b25">(26)</ref>. However, 8 of the 17 rpoB mutants grew at a rate statistically indistinguishable from that of the wild-type strain (Fig. <ref type="figure" target="#fig_1">2</ref>). The results indicate that not all Rif r mutants exhibit lowered fitness in LB under standard laboratory conditions, as measured by growth rate.</p><p>Relative fitness of rpoB alleles in LB medium. The growth rate experiments described above were performed on individual strains in monoculture, which may not reflect their true fitness in a complex competitive environment such as would likely prevail in nature. Therefore, to directly compare the fitness of rpoB alleles, we performed, in triplicate cultures, a multigenerational and multistrain competition experiment in which the wild-type strain and all 17 Rif r rpoB mutant strains were competed simultaneously in LB (Fig. <ref type="figure" target="#fig_2">3</ref>). At daily (;7-generation) intervals, the proportion of each rpoB allele in the mixed population was determined by next-generation sequencing of two ;500-bp PCR amplicons spanning either the N cluster or clusters I, II, and III of the rpoB gene (Fig. <ref type="figure" target="#fig_2">3A</ref>). At generation zero of the experiment, each rpoB allele was present at ;5 to 6% of the total population. By generation 35, the wild-type strain came to dominate all three cultures, and the proportion of most Rif r mutant alleles had dropped below the level of detection (;0.1%) (Fig. <ref type="figure" target="#fig_2">3A</ref>). Two Rif r rpoB mutants persisted until the end of the experiment, the H482N and A478D variants. Although the growth rate of the H482N mutant was not significantly higher than that of the wildtype strain when grown separately in monoculture (Fig. <ref type="figure" target="#fig_1">2</ref>), the mutant appeared to be less fit in a competitive environment (Fig. <ref type="figure" target="#fig_2">3A</ref>). Interestingly, the A478D mutant appeared to almost disappear from the population by 14 generations, but beginning at ;35 generations, it increased again in frequency to an average of ;25% of the population by generation 49 (Fig. <ref type="figure" target="#fig_2">3A</ref>). This anomalous result prompted us to more closely examine the allelic frequencies of the wild-type, H482N, and A478D strains in each of the three replicate mixed cultures. We observed that in two of the three replicate cultures, the A478D allele behaved like the majority of the Rif r rpoB mutations, becoming reduced to a very low, barely detectable frequency (Fig. <ref type="figure" target="#fig_2">3B</ref> and <ref type="figure">C</ref>). In contrast, in the third culture, the A478D mutant initially dropped below the limit of detection (;0.1%), but then starting at ;generation 35, it increased dramatically in frequency to comprise over 80% of that population by generation 49 (Fig. <ref type="figure" target="#fig_2">3D</ref>). Closer examination of the PCR amplicon spanning clusters I, II, and III from the A478D mutant arising after generation 35 in the third culture revealed the appearance of a second mutation in rpoB, I528V. Furthermore, Sanger sequencing of the rpoB gene of a Rif r isolate from this culture, strain WN1663, confirmed the presence of the I528V mutation in addition to the original A478D mutation. These observations led us to suspect that during the competition experiment in the third culture, the original A478D strain had suffered a second-site mutation in rpoB, dramatically increasing its competitive fitness. To determine if this compensatory mutation was responsible for the observed increase in relative fitness, both the ancestral (A478D) and evolved (A478D1I528V) alleles were transferred into a clean wild-type background to create strains WN1658 and WN1662, respectively. To test their competitive fitness, the four congenic strains WN1621 (wild type), WN1658 (A478D), WN1663 (evolved A4781I528V, isolated from the generation 49 culture of the experiment whose results are shown in Fig. <ref type="figure" target="#fig_2">3D</ref>), and WN1662 (A478D1I528V, reconstructed in a wild-type background) were each competed separately against the same isogenic wild-type strain (strain WN624, carrying a spectinomycin resistance [Spc r ] marker) in LB medium (Fig. <ref type="figure" target="#fig_3">4</ref>). Pairwise competition experiments showed that strain WN1658, the A478D rpoB mutant, was dramatically less fit than the wild type (selection coefficient [S] = 21.26 6 0.35), whereas the evolved isolate strain WN1663 (A478D1I528V) was dramatically more fit than the wild type (S = 10.84 6 0.23) (Fig. <ref type="figure" target="#fig_3">4</ref>). However, simple reconstruction of the A478D1I528V rpoB double mutation in an otherwise wild-type background (strain WN1662) resulted in only a modest increase in fitness (S = 20.47 6 0.05) compared to that seen in the single A478D mutant and failed to replicate the dramatic increase in fitness seen in the evolved strain WN1663 (Fig. <ref type="figure" target="#fig_3">4</ref>). We therefore conclude that while the second-site mutation I528V in rpoB increased competitive fitness to a certain extent, it was not sufficient to account for the dramatic increase in fitness seen in strain 1663 arising in the third multiallelic competition culture in the experiment whose results are shown in Fig. <ref type="figure" target="#fig_2">3D</ref>. The results lead us to hypothesize that strain WN1663 had sustained genomic mutation(s) in addition to I528V that also contributed to its dramatically increased fitness. These putative additional mutations could be revealed by whole-genome sequencing, which is beyond the scope of the present study. Results from the experiment whose results are shown in Fig. <ref type="figure" target="#fig_2">3</ref> indicated that, when challenged in a more complex competitive environment (18 rpoB variants growing together for 49 generation in LB medium in the absence of Rif selection), all of the Rif r mutations in rpoB led to a generalized reduction in fitness. This result is somewhat at odds with the conclusions drawn from measurements of growth rates of the same strains in monoculture (Fig. <ref type="figure" target="#fig_1">2</ref>), indicating that fitness cannot be predicted by growth rate in monoculture alone.</p><p>Relative fitness of rpoB alleles in SMM Asn medium. The multiallele competition experiment whose results are shown in Fig. <ref type="figure" target="#fig_2">3</ref> was performed in nutrient-rich LB medium. However, in nature, B. subtilis is found in soils or associated with plants and their roots. Such natural environments are either subjected to "feast or famine" conditions or are chronically oligotrophic; therefore, cells would need to utilize limited quantities of rarer, more ephemeral nutrient sources. In previous work, we performed OmniLog global metabolic profiling on wild-type B. subtilis and 11 Rif r rpoB mutants to assess how mutations in rpoB could affect metabolic capabilities <ref type="bibr" target="#b7">(8)</ref>. Indeed, we found that several environmental nutrients, normally utilized poorly by the wild-type laboratory strain of B. subtilis, were used significantly better by certain Rif r rpoB mutants. In particular, we noted that a strain carrying the S487L rpoB substitution utilized the amino acids L-alanine, L-asparagine, L-glutamate, and L-serine significantly better than the wild type <ref type="bibr" target="#b7">(8)</ref>. L-Asparagine specifically has been found to be substantially present in root exudates and plays a significant role in determining the bacterial species composition of the rhizosphere <ref type="bibr" target="#b27">(28)</ref>. Based on these observations, we were interested in measuring the relative fitness of wild-type and 17 Rif r rpoB mutant strains of B. subtilis in a more stringent selective environment. We therefore modified Spizizen minimal medium by replacing glucose with L-asparagine as the sole carbon source (SMM Asn ; see Materials and Methods for details) and again performed a multiallele, multigenerational competition experiment (Fig. <ref type="figure" target="#fig_4">5</ref>). Based on its performance in OmniLog metabolic assays <ref type="bibr" target="#b7">(8)</ref>, we reasoned that the S487L mutant would fare better in this more stringent environment than the wild type or other Rif r mutant strains.</p><p>In the multiallele competition experiment conducted in SMM Asn , each of the 18 strains was initially present at 5 to 6% of the total population (Fig. <ref type="figure" target="#fig_4">5A</ref>). As seen earlier in the multiallele competition performed in LB medium (Fig. <ref type="figure" target="#fig_2">3</ref>), most of the strains carrying various rpoB mutations dropped out of the population during the course of propagation in SMM Asn (Fig. <ref type="figure" target="#fig_4">5A</ref>). Interestingly, in this experiment, we observed that the strain carrying the H482N rpoB mutation rose to dominate the population, gaining an average frequency of ;70% by generation 49, followed by the strain carrying the D472Y mutation (;20%) and then the wild-type strain (;10%) (Fig. <ref type="figure" target="#fig_4">5A</ref>). These results were in stark contrast to those obtained in LB medium, where the wild-type strain dominated the population, with the H482N mutant forming a minority (Fig. <ref type="figure" target="#fig_2">3</ref>). Interestingly, the strain carrying the S487L mutation, which we predicted would become the most frequent allele, did not succeed in this medium as we had expected but, rather, dropped below the threshold of detection in the population by generation 14 of the competition (Fig. <ref type="figure" target="#fig_4">5A</ref>). Comparison of the results presented in Fig. <ref type="figure" target="#fig_2">3</ref> with the results in Fig. <ref type="figure" target="#fig_4">5</ref> demonstrated a dramatic difference in the population dynamics and strain fitness of the same rpoB mutants depending upon whether they were competed in the rich LB or the minimal SMM Asn environment. In addition, the lack of increased competitive fitness displayed by the S487L rpoB mutant competed in SMM Asn (Fig. <ref type="figure" target="#fig_4">5A</ref>) brought into question whether an increased utilization of a nutrient, such as L-aspara- gine, as measured by Omnilog assay <ref type="bibr" target="#b7">(8)</ref>, is a relevant parameter to predict fitness. During multiallele competition in LB medium, we noted that the A478D rpoB mutant rose to prominence in one of the three replicate cultures (Fig. <ref type="figure" target="#fig_2">3D</ref>), presumably due to a second-site mutation(s). Accordingly, we also examined the frequencies of the wild-type, D472Y, and H482N strains in each individual SMM Asn culture (Fig. <ref type="figure" target="#fig_4">5B to D</ref>). In this case, all three cultures behaved similarly, with the H482N strain arising to dominate each of the three cultures. This observation suggested that no second-site mutation(s) improving fitness had arisen in the SMM Asn cultures during the course of the multiallele competition experiment.</p><p>Growth rates and lag times of rpoB mutations in SMM Asn cultures. We sought to further explore the role played by growth rate in the fitness of rpoB mutants by measuring the exponential growth rates during cultivation in SMM Asn of the wild-type B. subtilis strain and congenic mutant strains harboring the D472Y, H482N, or S487L rpoB allele (Fig. <ref type="figure" target="#fig_5">6</ref>). In individual SMM Asn monocultures, all three Rif r mutant strains exhibited a significantly increased exponential growth rate compared to the growth rate of the wild-type strain, but there were no statistical differences among the growth rates of the Rif r mutants themselves (Fig. <ref type="figure" target="#fig_5">6A</ref>). These results were distinctly different from the relative growth rates of the same strains in LB medium, in which the rpoB mutants either grew more slowly (S487L) or at essentially the same rate (D472Y and H482N) as the wild type (Fig. <ref type="figure" target="#fig_1">2</ref>). If the exponential growth rate were the sole determinant of fitness, it would be expected that the three Rif r mutants would have risen to dominate the multiallele competition experiment performed in SMM Asn , but this was clearly not the case (Fig. <ref type="figure" target="#fig_4">5</ref>).</p><p>In addition to the exponential growth rate, the ability of cells to adjust to a new environment is reflected in the lag time preceding exponential growth. In one of the few studies examining this phenomenon in rpoB mutants, it was observed that a Mycobacterium tuberculosis Rif r mutant strain carrying an H526D substitution (the equivalent of the H482D substitution in B. subtilis rpoB) suffered significantly delayed growth following resuscitation from nutrient starvation <ref type="bibr" target="#b28">(29)</ref>. We thus compared the lag time of the wild-type strain to the lag times of congenic strains carrying the D472Y, H482N, and S487L rpoB variants in SMM Asn . No significant difference was observed in the lag times between the wild type and the D472Y variant; however, both the H482N and S487L variants demonstrated significant increases in lag time relative to that of the wild type (Fig. <ref type="figure" target="#fig_5">6B</ref>). In fact, the H482N and S487L variants were statistically indistinguishable in their growth rates (increased over that of the wild type) and lag times (longer than that of the wild type). Taken together, the results shown in Fig. <ref type="figure" target="#fig_5">6</ref> indicated that in SMM Asn medium, the growth rate and/or lag time of individual monocultures corresponded poorly with increased or decreased relative fitness in competition experiments.</p><p>Pairwise competitions in LB versus SMM Asn . To further examine the discrepancies between the observed growth metrics and the results of our multiallele competition, we performed a pairwise competition for each Rif r mutant strain against the wild-type strain in both LB and SMM Asn media (Fig. <ref type="figure">7</ref>). The H482N Rif r mutant strain showed the most dramatic fitness difference compared to the fitness of the wild type; it was less fit in LB (S = 20.047 6 0.01) but more fit (S = 10.403 6 0.063) in SMM Asn medium (Fig. <ref type="figure">7</ref>). The S487L mutant was less fit than the wild type in both media, although its fitness in SMM Asn (S = 20.144 6 0.005) was significantly improved over that in LB (S = 20.337 6 0.01) (Fig. <ref type="figure">7</ref>). The D472Y mutant was also less fit than the wild type in both media, but the difference in its fitness between the two media was just above the cutoff for significance (P = 0.061). Measurements of the relative fitness for each mutant rpoB allele in pairwise competition agreed with the results of the multiallelic competitions in SMM Asn .</p><p>Previous work in our laboratory has shown differing spectra of mutations in the rpoB gene across several different environment <ref type="bibr" target="#b11">(12,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b15">(16)</ref><ref type="bibr" target="#b16">(17)</ref><ref type="bibr" target="#b17">(18)</ref>. The reproducibility of these changes in the spectra of mutations indicates that the environment somehow dictates these changes. Multiple studies have found that mutations in the rpoB gene that confer rifampin resistance can provide a fitness advantage or increased growth rate in the environment from which they were isolated. Several examples illustrate the repeated occurrence of rpoB mutations in adaptive laboratory evolution of Escherichia coli, wherein these mutations significantly increased the fitness of the organism in different environments, including optimized growth on various minimal media and increased fitness at elevated temperatures <ref type="bibr" target="#b29">(30)</ref><ref type="bibr" target="#b30">(31)</ref><ref type="bibr" target="#b31">(32)</ref>.</p><p>Our multiallele, multigenerational competition experiments (Fig. <ref type="figure" target="#fig_2">3</ref> and <ref type="figure" target="#fig_4">5</ref>) showed that the wild-type rpoB allele was most fit in nutrient-rich LB medium, while the H482N variant was most fit in populations cultivated in minimal SMM Asn medium. The different rpoB alleles and the corresponding changes in global gene expression associated with them likely explain the differences in relative fitness depending upon the growth <ref type="bibr">FIG 7</ref> Pairwise competition experiments. Rif r strains carrying the variant D472Y (strain WN1625), H482N (strain WN1637), or S487L (strain WN761) were each competed against congenic wild-type strain WN1651 in LB or SMM Asn medium for 21 generations, and fitness coefficients (S) were calculated as described previously <ref type="bibr" target="#b53">(54)</ref>. Data are average values 6 standard deviations (n = 3). ***, P , 0.001; ****, P , 0.0001; ns, not significantly different (two-way ANOVA with Tukey's HSD test for multiple comparisons).</p><p>environment. Numerous studies suggest changes in global gene expression to be the cause of changes in fitness observed with mutations in rpoB <ref type="bibr" target="#b6">(7,</ref><ref type="bibr" target="#b32">(33)</ref><ref type="bibr" target="#b33">(34)</ref><ref type="bibr" target="#b34">(35)</ref><ref type="bibr" target="#b35">(36)</ref><ref type="bibr" target="#b36">(37)</ref>, although one study examining the system-wide impacts of mutations in the Pseudomonas aeruginosa rpoB gene found few differences in global gene expression and attributed mutant phenotypes to increased expression of RNAP <ref type="bibr" target="#b37">(38)</ref>. Ultimately, a better understanding of the specific mechanisms behind these differences in fitness will require an examination of global gene expression of these different rpoB alleles in SMM Asn .</p><p>Which changes in gene expression are specifically responsible for the success of the H482N mutant can only be speculated upon at present, as this particular allele is new to our collection and not yet very well characterized. However, the lack of fitness of the S487L mutant in SMM Asn may be a bit easier to explain. Previous work studying the rpoB-S487L allele in B. subtilis revealed that this particular allele autoinduced the expression of genes responsible for the production of the antibiotic 3,39-neotrehalosadiamine (NTD), which is not produced by the wild-type strain under the same conditions <ref type="bibr" target="#b38">(39)</ref>. This autoinduction of NTD production might place a significant metabolic burden on the organism and may be responsible for the lack of relative fitness observed in the rpoB-S487L allele.</p><p>The discrepancies between fitness and exponential growth rate reveal that, while fairly simple to determine, growth rate is a poor proxy for relative fitness, as a similar study has found <ref type="bibr" target="#b39">(40)</ref>. Simply measuring the exponential growth rate fails to account for differences in fitness during stationary and lag phase, in addition to potential antagonistic or cooperative interactions between the strains when competing for the same resources, such as dramatic acidification of the medium <ref type="bibr" target="#b40">(41)</ref>. Our study highlights the danger of conflating exponential growth rates or results from simplified metabolic assays <ref type="bibr" target="#b7">(8)</ref> with relative fitness. Three Rif r rpoB variants exhibited an increased growth rate relative to the growth rate of the wild-type strain in SMM Asn (Fig. <ref type="figure" target="#fig_5">6</ref>); however, only one of those variants (H482N) proved to be more fit than the wild-type strain in the same medium (Fig. <ref type="figure">7</ref>). There are many potential explanations for this discrepancy that could be controlled at the transcriptional level, such as increased probability of differentiation in the stationary phase <ref type="bibr" target="#b41">(42)</ref> or shaping of the environment by an evolved variant in a manner that preferentially benefits itself <ref type="bibr" target="#b40">(41,</ref><ref type="bibr" target="#b42">43)</ref>.</p><p>Unlike other results from this study, the increased relative fitness of the evolved strain WN1663 cannot be explained solely by a compensatory mutation in rpoB (Fig. <ref type="figure" target="#fig_3">4</ref>). Our data indicate that other changes within the B. subtilis genome must account for the observed sweep of the population by WN1663. The increase in fitness of the A478D1I528V double mutant relative to the fitness of the A478D single mutant is consistent with other studies that have reported the ability of compensatory mutations in rpoB and rpoC to restore fitness defects <ref type="bibr" target="#b43">(44)</ref><ref type="bibr" target="#b44">(45)</ref><ref type="bibr" target="#b45">(46)</ref>. However, these studies did not find increases in fitness relative to that of the wild-type allele. In summary, this study illustrates the fitness impacts of rpoB alleles in different environments, highlights the deficiencies of growth or metabolic metrics of monocultures as a sole measure of relative fitness, and demonstrates the role of compensatory mutations in rpoB to recover fitness cost.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head><p>Bacterial strains, media, plasmids, and growth conditions. All B. subtilis strains and plasmids used in this study are listed in Table <ref type="table" target="#tab_0">1</ref>. The strains were constructed by DNA-mediated transformation of competent cells with purified genomic DNA as previously described <ref type="bibr" target="#b46">(47)</ref>. The complex media used were Miller LB medium <ref type="bibr" target="#b47">(48)</ref> and Trypticase-soy-yeast extract (TSY) medium <ref type="bibr" target="#b48">(49)</ref>. The minimal medium used was Spizizen minimal medium <ref type="bibr" target="#b49">(50)</ref> containing the auxotrophic requirements tryptophan and phenylalanine (50 mg/mL each) and asparagine (95 mM) in place of glucose as the carbon source (SMM Asn ). Media were solidified with agar (15 g/L) as needed. The antibiotics used (final concentration) were chloramphenicol (10 mg/mL), rifampin (5 mg/mL), kanamycin (5 mg/mL), neomycin (5 mg/mL), or spectinomycin (100 mg/mL). Plasmids for CRISPR-Cas9 introduction of point mutations were constructed and used as previously described <ref type="bibr" target="#b50">(51)</ref>. Site-directed mutagenesis was conducted via inverse PCR as previously described <ref type="bibr" target="#b51">(52)</ref> to introduce the point mutation A478V into an rpoB template. All mutations were confirmed by Sanger sequencing (Genewiz LLC) of PCR amplicons.</p><p>Rif IC 50 determination. For quantification of Rif r , an overnight culture of each strain was grown in liquid TSY without antibiotics. One microliter of overnight culture was inoculated into 100 ml of liquid TSY medium without Rif or containing Rif at a 2-fold range of concentrations from 4 to 256 mg/mL. Cells were grown in 96-well microtiter plates sealed with gas-permeable membranes (Breathe-Easy; Sigma-Aldrich). Growth at 37°C was measured by the optical density at 620 nm (OD 620 ) at 15-minute intervals in a temperature-controlled microplate absorbance spectrophotometer (model ELx808; BioTek). The resulting growth data from triplicate experiments were then used to determine the 50% inhibitory concentration (IC 50 ).</p><p>Growth rate and lag time determinations. Liquid cultures were propagated in 125-mL sidearm (Klett) flasks in 10 mL of LB at 37°C in a rotary shaking bath with vigorous aeration. Growth was measured at 15-minute intervals by the OD 660 using a Klett-Summerson colorimeter fitted with the no. 66 (red, 660-nm) filter. Growth rates were calculated from the exponential portion of each growth curve. Lag times were determined from the point of intersection of the lag and exponential portions of each growth curve. Growth rates and lag times were determined from triplicate cultures. Data sets were tested for normality using the Shapiro-Wilk test online calculator (<ref type="url" target="https://www.statskingdom.com/shapiro-wilk-test-calculator.html">https://www.statskingdom.com/  shapiro-wilk-test-calculator.html</ref>), and all data sets were found to be normally distributed. Statistical parameters and tests of significance (analysis of variance [ANOVA]) were computed using KaleidaGraph version 4.5.2 (Synergy Software, Reading, PA, USA).</p><p>Competition assays. Individual overnight cultures of the wild-type strain and all congenic Rif r strains were inoculated into fresh individual 2-mL LB cultures. Upon entering stationary phase, the OD 660 of each culture was measured and a volume corresponding to ;10 8 cells of each strain was combined into a single mixed culture, which was then diluted 1:100 into 10 mL of either LB or SMM Asn in 125-mL Erlenmeyer flasks. Cultures were grown at 37°C in a temperature-controlled rotary shaking bath at 200 rpm. Every 24 h, cultures were diluted 1:100 into fresh medium. Under these conditions, cultures progress through ;7 generations per day <ref type="bibr" target="#b52">(53)</ref>. For multiallelic competition experiments, every 24 h, from each culture, a 1-mL aliquot was pelleted for chromosomal DNA extraction; 0.8 mL was stored in 25% (vol/vol) glycerol at 270°C, and 0.1 mL was diluted serially 10-fold in phosphate-buffered saline (PBS), plated on LB with chloramphenicol (Cm), and incubated overnight at 37°C for total viable counts. For two-allele competition experiments, every 24 h, 0.1 mL of each culture was serially diluted and plated on two different LB plates, each supplemented with a different antibiotic. These LB plates were then incubated overnight at 37°C to determine the viable counts of each strain. Relative fitness was quantified with a previously described selection coefficient model <ref type="bibr" target="#b53">(54)</ref>.</p><p>Next-generation library preparation, sequencing, and data analysis. From purified chromosomal DNA, two ;500-bp amplicons of the rpoB gene, one spanning the N cluster and one spanning clusters I, II, and III, were amplified by PCR using Q5 high-fidelity DNA polymerase (New England Biolabs) and the corresponding primer pairs (Table <ref type="table" target="#tab_1">2</ref>). PCR products were purified (Qiagen PCR purification kit) and quantified by Qubit fluorometry, and equal amounts were combined for library preparation. Next-generation sequencing libraries were prepared using an Illumina Nextera XT DNA library preparation kit with some modifications. Due to the high levels of NaOH in the Nextera XT bead-based normalization process, the native normalization process is not compatible with the iSeq100. In place of the bead-based normalization process, normalization was performed manually by capillary electrophoresis using the Agilent Bioanalyzer 2100 expert software to calculate the molar amount of DNA fragments in each library. Equivalent amounts of DNA fragments from 24 individual libraries were pooled at a final DNA fragment concentration of 4 nM. Pooled libraries were diluted to 50 pM prior to loading into an Illumina i1 reagent box and sequenced on an Illumina iSeq100 next-generation-sequencing platform.</p><p>Raw data from the iSeq100 was demultiplexed and converted to fastq files using Illumina bcl2fastq software. Quality control of reads was performed with FastQC <ref type="bibr" target="#b54">(55)</ref>. Quality reads were mapped to the Bacillus subtilis strain 168 reference genome (GenBank accession number AL009126.3) using Bowtie 2 <ref type="bibr" target="#b55">(56)</ref>. From mapped reads, LoFreq (57) was used to call single-nucleotide polymorphisms and small deletions in the rpoB gene. Preliminary calibration experiments performed with known proportions of mutant rpoB alleles established that the lower limit of detection was ;0.1% (data not shown). Statistical analysis. All data sets were tested for normality using the Shapiro-Wilk method <ref type="bibr" target="#b57">(58)</ref>. Data sets passing the normality test were analyzed for differences by ANOVA with Tukey's honestly significant difference (HSD) test (59) or Dunnett's test for multiple comparison analysis <ref type="bibr" target="#b60">(60)</ref>. All statistical analyses were performed with the statistical graphing software Prism (GraphPad Software). Differences with a P value of ,0.05 were considered statistically significant.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG 1</head><label>1</label><figDesc>FIG 1 Determination of IC 50 values of Rif in B. subtilis strains used in this study. Results are presented as averages 6 standard deviations (n = 3). w.t., wild type.</figDesc><graphic coords="4,68.32,72.17,275.98,231.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIG 2</head><label>2</label><figDesc>FIG 2 Growth rates of B. subtilis strains cultivated in liquid LB in shake flasks with aeration. Strains carrying the indicated rpoB mutations were grown as described in Materials and Methods. Results are presented as averages 6 standard deviations (n = 3). *, P , 0.05; **, P , 0.01; ***, P , 0.001; ****, P , 0.0001 (ordinary one-way ANOVA with Dunnett's test for multiple comparison to the mean value for the wild-type strain).</figDesc><graphic coords="5,68.32,72.17,275.98,225.07" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIG 3 (</head><label>3</label><figDesc>FIG 3 (A) Population dynamics of wild-type (WT) and 17 rpoB mutant strains of B. subtilis in LB liquid medium grown with aeration at 37°C. Data shown are average values (n = 3). (B to D) Population dynamics of wild-type (WT), A478D, and H482N strains during the three replicate competition experiments from which the average values in panel A were derived.</figDesc><graphic coords="6,42.29,72.17,455.98,358.30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FIG 4</head><label>4</label><figDesc>FIG 4 Results from pairwise competition experiments in LB medium. The indicated Rif r rpoB strains were competed against the appropriate congenic wild-type strain. The strains used were WN1261 (w.t.), WN1658 (A478D), WN1663 [A478D1I528V, evolved from the culture used in the experiment whose results are shown in Fig. 3D; displayed in the figure as A478D,I528V(E)], and WN1662 [A478D1I528V, reconstructed in a wild-type strain by transformation; displayed in the figure as A478D,I528V(R)]. The selection coefficients (S) (54) shown are the average values 6 standard deviations from 3 independent experiments. **, P , 0.01; ***, P , 0.001 (ordinary one-way ANOVA with Tukey's HSD test for multiple comparisons).</figDesc><graphic coords="7,44.33,72.17,324.00,255.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FIG 5 (</head><label>5</label><figDesc>FIG 5 (A) Population dynamics of wild-type (WT) and 17 rpoB mutant strains of B. subtilis in SMM Asn liquid medium grown with aeration at 37°C. Data shown are average values (n = 3). (B to D) Population dynamics of wild-type (WT), D472Y, and H482N strains during the three replicate competition experiments from which the average values in panel A were derived.</figDesc><graphic coords="8,43.03,72.17,455.98,382.79" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>FIG 6</head><label>6</label><figDesc>FIG 6 Exponential growth rates (A) and lag times (B) in SMM Asn of the wild-type (w.t.) strain and congenic rpoB mutant strains carrying the D472Y, H482N, and S487L variants. Data are averages 6 standard deviations (n = 3). **, P , 0.01; ***, P , 0.001 (ordinary one-way ANOVA with Dunnett's test for multiple comparison to the mean value for the wild type).</figDesc><graphic coords="9,42.29,72.17,455.98,220.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1 B</head><label>1</label><figDesc>. subtilis strains and plasmids used in this study</figDesc><table><row><cell></cell><cell></cell><cell>Reference and/</cell></row><row><cell>Strain or plasmid</cell><cell>Genotype, phenotype, or description</cell><cell>or source a</cell></row><row><cell>Strain</cell><cell></cell><cell></cell></row><row><cell>WN547</cell><cell>trpC2 pheA1 cat 6His-rpoC; Cm r</cell><cell>61</cell></row><row><cell>WN624</cell><cell>trpC2 amyE::spc; Spc r</cell><cell>53</cell></row><row><cell>WN758</cell><cell>trpC2 pheA1 rpoB-Q469R cat 6His-rpoC; Rif r Cm r</cell><cell>7</cell></row><row><cell>WN759</cell><cell>trpC2 pheA1 rpoB-H482R cat 6His-rpoC; Rif r Cm r</cell><cell>7</cell></row><row><cell>WN760</cell><cell>trpC2 pheA1 rpoB-H482Y cat 6His-rpoC; Rif r Cm r</cell><cell>7</cell></row><row><cell>WN761</cell><cell>trpC2 pheA1 rpoB-S487L cat 6His-rpoC; Rif r Cm r</cell><cell>7</cell></row><row><cell>WN999</cell><cell>trpC2 pheA1 rpoB-S487F cat 6His-rpoC; Rif r Cm r</cell><cell>13</cell></row><row><cell>WN1000</cell><cell>trpC2 pheA1 rpoB-S487Y cat 6His-rpoC; Rif r Cm r</cell><cell>13</cell></row><row><cell>WN1002</cell><cell>trpC2 pheA1 rpoB-H482D cat 6His-rpoC; Rif r Cm r</cell><cell>13</cell></row><row><cell>WN1004</cell><cell>trpC2 pheA1 rpoB-V135F cat 6His-rpoC; Rif r Cm r</cell><cell>13</cell></row><row><cell>WN1007</cell><cell>trpC2 pheA1 rpoB-Q469K cat 6His-rpoC; Rif r Cm r</cell><cell>13</cell></row><row><cell>WN1009</cell><cell>trpC2 pheA1 rpoB-H482P cat 6His-rpoC; Rif r Cm r</cell><cell>13</cell></row><row><cell>WN1011</cell><cell>trpC2 pheA1 rpoB-Q469L cat 6His-rpoC; Rif r Cm r</cell><cell>13</cell></row><row><cell>WN1191</cell><cell>trpC2 pheA1 rpoB-A478D cat 6His-rpoC; Rif r Cm r</cell><cell>This study</cell></row><row><cell>WN1261</cell><cell>trpC2 amyE::neo; Neo r</cell><cell>62</cell></row><row><cell>WN1624</cell><cell>trpC2 pheA1 rpoB-D472V cat 6His-rpoC; Rif r Cm r</cell><cell>This study</cell></row><row><cell>WN1625</cell><cell>trpC2 pheA1 rpoB-D472Y cat 6His-rpoC; Rif r Cm r</cell><cell>This study</cell></row><row><cell>WN1626</cell><cell>trpC2 pheA1 rpoB-D(E479-H482) cat 6His-rpoC; Rif r Cm r</cell><cell>This study</cell></row><row><cell>WN1637</cell><cell>trpC2 pheA1 rpoB-H482N cat 6His-rpoC; Rif r Cm r</cell><cell>This study</cell></row><row><cell>WN1647</cell><cell>trpC2 pheA1 rpoB-A478V cat 6His-rpoC; Rif r Cm r</cell><cell>This study</cell></row><row><cell>WN1651</cell><cell>trpC2 pheA1 amyE::spc cat 6His-rpoC; Cm r Spc r</cell><cell>This study</cell></row><row><cell>WN1653</cell><cell>trpC2 pheA1 rpoB-A478D,I528V cat 6His-rpoC; Rif r Cm r ;</cell><cell>This study</cell></row><row><cell></cell><cell>reconstructed</cell><cell></cell></row><row><cell>WN1658</cell><cell>trpC2 rpoB-A478D amyE::neo; Neo r Rif r</cell><cell>This study</cell></row><row><cell>WN1662</cell><cell>trpC2 rpoB-A478D,I528V amyE::neo; Neo r Rif r</cell><cell>This study</cell></row><row><cell>WN1663</cell><cell>Isolate from LB culture no. 3 evolved from WN1191;</cell><cell>This study</cell></row><row><cell></cell><cell>rpoB-A478D,I528V; Rif r</cell><cell></cell></row><row><cell>Plasmids</cell><cell></cell><cell></cell></row><row><cell>pDG1730</cell><cell>amyE spectinomycin integration vector</cell><cell>BGSC; 63</cell></row><row><cell>pJOE8999</cell><cell>CRISPR-Cas9 system</cell><cell>BGSC; 51</cell></row><row><cell>pWN1630</cell><cell>pJOE8999 1 sgRpoB 1 1409 b</cell><cell>This study</cell></row><row><cell>pWN1633</cell><cell>pWN1630 1 rpoB-H482N homology template</cell><cell>This study</cell></row><row><cell>pWN1641</cell><cell>pWN1630 1 WT rpoB homology template</cell><cell>This study</cell></row><row><cell>pWN1645</cell><cell>pWN1630 1 rpoB-A478V homology template</cell><cell>This study</cell></row></table><note><p>a BGSC, Bacillus Genetic Stock Center. b sgRpoB, single guide RNA for RpoB.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 2</head><label>2</label><figDesc>Oligonucleotide primers used in this studyBold underlined letter represents mutation being introduced. b Uppercase letters represent bases complementary to BsaI cut site on pJOE8999<ref type="bibr" target="#b50">(51)</ref>; lowercase letters represent wild-type rpoB sequence. c Uppercase letters represent SfiI recognition and cut site complementary to pJOE8999 (51); lowercase letters represent wild-type genomic sequence.</figDesc><table><row><cell>Primer</cell><cell>Sequence (59-39)</cell><cell>Purpose d</cell></row><row><cell>I-cluster-F</cell><cell>CGGAGTAGGCGACACAGATG</cell><cell>Amplification of clusters I, II, and III for NGS</cell></row><row><cell>I-cluster-R</cell><cell>ATTCTGCCCGTTACCTTCCC</cell><cell>Amplification of clusters I, II, and III for NGS</cell></row><row><cell>N-cluster-F</cell><cell>TTCAGTATGGACGACACCGC</cell><cell>Amplification of N cluster for NGS</cell></row><row><cell>N-cluster-R</cell><cell>TTACGTGTGCGATCAATGCG</cell><cell>Amplification of N cluster for NGS</cell></row><row><cell>Q5SDM_A478V_F</cell><cell>AACCCGCTTGTTGAATTAACG a</cell><cell>Site-directed mutagenesis for rpoB-A478V</cell></row><row><cell>Q5SDM_A478V_R</cell><cell>CGTCTGATCCATGAATTG</cell><cell>Site-directed mutagenesis for rpoB-A478V</cell></row><row><cell>rpoB11409_sgRNA1</cell><cell>AAACcttgctgaattaacgcacaa b</cell><cell>sgRNA oligonucleotide</cell></row><row><cell>rpoB11409_sgRNA-</cell><cell>TACGttgtgcgttaattcagcaag b</cell><cell>sgRNA oligonucleotide</cell></row><row><cell>rpoB-903F_HT</cell><cell>AAGGCCAACGAGGCCggcgagctttttctttgcca c</cell><cell>rpoB homology template</cell></row><row><cell>rpoC1181R_HT</cell><cell>AAGGCCTTATTGGCCtcgcttgtacttcccgcaat c</cell><cell>rpoB homology template</cell></row><row><cell>rpoB-24F</cell><cell>CGCATGATTTGAGGGG</cell><cell>N-cluster amplification and sequencing</cell></row><row><cell>rpoB1737R</cell><cell>GGCGGCTCTCCAGG</cell><cell>N-cluster amplification</cell></row><row><cell>rpoB11319F</cell><cell>CGAATACAATTACGCCTCAGC</cell><cell>Cluster I, II, and III amplification and sequencing</cell></row><row><cell>rpoB12000R</cell><cell>CCTGATACGTATTCCATACC</cell><cell>Cluster I, II, and III amplification</cell></row></table><note><p>a d NGS, next-generation sequencing; sgRNA, single guide RNA.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>March 2022 Volume 88 Issue 5 e02422-21 aem.asm.org 2</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>March 2022 Volume 88 Issue 5 e02422-21 aem.asm.org 3</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>March 2022 Volume 88 Issue 5 e02422-21 aem.asm.org 4</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>March 2022 Volume 88 Issue 5 e02422-21 aem.asm.org 5</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>March 2022 Volume 88 Issue 5 e02422-21 aem.asm.org 6</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5"><p>March 2022 Volume 88 Issue 5 e02422-21 aem.asm.org 7</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_6"><p>March 2022 Volume 88 Issue 5 e02422-21 aem.asm.org 8</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_7"><p>March 2022 Volume 88 Issue 5 e02422-21 aem.asm.org 9</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_8"><p>March 2022 Volume 88 Issue 5 e02422-21 aem.asm.org 10</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_9"><p>March 2022 Volume 88 Issue 5 e02422-21 aem.asm.org 11</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_10"><p>March 2022 Volume 88 Issue 5 e02422-21 aem.asm.org 12</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_11"><p>March 2022 Volume 88 Issue 5 e02422-21 aem.asm.org 13</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_12"><p>March 2022 Volume 88 Issue 5 e02422-21 aem.asm.org 14</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We thank the <rs type="institution">Department of Microbiology and Cell Science at the University of Florida</rs> for use of the iSeq100 instrument.</p><p>This work was supported by grants from the <rs type="funder">NASA Space Biology</rs> (grant number <rs type="grantNumber">NNX14AT38G</rs>) and <rs type="funder">USDA-Hatch</rs> (grants number <rs type="grantNumber">FLA-MCS-005500</rs> and <rs type="grantNumber">FLA-MCS-006066</rs>) programs to W.L.N.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_gAuJruT">
+					<idno type="grant-number">NNX14AT38G</idno>
+				</org>
+				<org type="funding" xml:id="_ge38fhB">
+					<idno type="grant-number">FLA-MCS-005500</idno>
+				</org>
+				<org type="funding" xml:id="_22bCPgj">
+					<idno type="grant-number">FLA-MCS-006066</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Interaction of rifamycin with bacterial RNA polymerase</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wehrli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Knüsel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schmid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Staehelin</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.61.2.667</idno>
+		<ptr target="https://doi.org/10.1073/pnas.61.2.667" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="667" to="673" />
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Resistance to rifampicin: at the crossroads between ecological, genomic and medical concerns</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tupin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gualtieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Roquet-Banères</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Morichaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Brodolin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-P</forename><surname>Leonetti</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijantimicag.2009.12.017</idno>
+		<ptr target="https://doi.org/10.1016/j.ijantimicag.2009.12.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Antimicrob Agents</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="519" to="523" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Mapping and sequencing of mutations in the Escherichia coli rpoB gene that lead to rifampicin resistance</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Gross</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0022-2836(88)90517-7</idno>
+		<ptr target="https://doi.org/10.1016/0022-2836(88)90517-7" />
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">202</biblScope>
+			<biblScope unit="page" from="45" to="58" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Structural mechanism for rifampicin inhibition of bacterial RNA polymerase</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Korzheva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mustaev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Goldfarb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Darst</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0092-8674(01)00286-0</idno>
+		<ptr target="https://doi.org/10.1016/s0092-8674(01)00286-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="901" to="912" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The beta9 subunit of Escherichia coli RNA polymerase is not required for interaction with initiating nucleotide but is necessary for interaction with rifampicin</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Naryshkina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mustaev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Darst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Severinov</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M011041200</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M011041200" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="13308" to="13313" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Rifampicin region revisited. New rifampicin-resistant and streptolydigin-resistant mutants in the beta subunit of Escherichia coli RNA polymerase</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Severinov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Soushko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Goldfarb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Nikiforov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0021-9258(18)82407-3</idno>
+		<ptr target="https://doi.org/10.1016/S0021-9258(18)82407-3" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">268</biblScope>
+			<biblScope unit="page" from="14820" to="14825" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Novel rpoB mutations conferring rifampin resistance on Bacillus subtilis: global effects on growth, competence, sporulation, and germination</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Maughan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Galeano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/JB.186.8.2481-2486.2004</idno>
+		<ptr target="https://doi.org/10.1128/JB.186.8.2481-2486.2004" />
+	</analytic>
+	<monogr>
+		<title level="j">J Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page" from="2481" to="2486" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Uncovering new metabolic capabilities of Bacillus subtilis using phenotype profiling of rifampin-resistant rpoB mutants</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Perkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/JB.00901-07</idno>
+		<ptr target="https://doi.org/10.1128/JB.00901-07" />
+	</analytic>
+	<monogr>
+		<title level="j">J Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">190</biblScope>
+			<biblScope unit="page" from="807" to="814" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Role of altered rpoB alleles in Bacillus subtilis sporulation and spore resistance to heat, hydrogen peroxide, formaldehyde, and glutaraldehyde</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Moeller</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Vlaši C I</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Reitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00203-012-0811-4</idno>
+		<ptr target="https://doi.org/10.1007/s00203-012-0811-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Arch Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">194</biblScope>
+			<biblScope unit="page" from="759" to="767" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">An RNA polymerase mutation causing temperature-sensitive sporulation in Bacillus subtilis</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Leighton</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.70.4.1179</idno>
+		<ptr target="https://doi.org/10.1073/pnas.70.4.1179" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="1179" to="1183" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">DNA repair and mutagenesis</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Friedberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Siede</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<publisher>ASM Press</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The spectrum of spontaneous rifampin resistance mutations in the rpoB gene of Bacillus subtilis 168 spores differs from that of vegetative cells and resembles that of Mycobacterium tuberculosis</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Maughan</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/JB.184.17.4936-4940.2002</idno>
+		<ptr target="https://doi.org/10.1128/JB.184.17.4936-4940.2002" />
+	</analytic>
+	<monogr>
+		<title level="j">J Bacteriol</title>
+		<imprint>
+			<biblScope unit="volume">184</biblScope>
+			<biblScope unit="page" from="4936" to="4940" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Isolation of rpoB mutations causing rifampicin resistance in Bacillus subtilis spores exposed to simulated Martian surface conditions</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Perkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Schuerger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/ast.2007.0224</idno>
+		<ptr target="https://doi.org/10.1089/ast.2007.0224" />
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1159" to="1167" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Astrobiological aspects of the mutagenesis of cosmic radiation on bacterial spores</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Moeller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Reitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Berger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Okayasu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Horneck</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/ast.2009.0429</idno>
+		<ptr target="https://doi.org/10.1089/ast.2009.0429" />
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="509" to="521" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Mutagenesis in bacterial spores exposed to space and simulated Martian conditions: data from the EXPOSE-E spaceflight experiment PROTECT</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Moeller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Reitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Horneck</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Team</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/ast.2011.0739</idno>
+		<ptr target="https://doi.org/10.1089/ast.2011.0739" />
+	</analytic>
+	<monogr>
+		<title level="j">Astrobiology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="457" to="468" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Anaerobic growth of Bacillus subtilis alters the spectrum of spontaneous mutations in the rpoB gene leading to rifampicin resistance</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/femsle/fnv213</idno>
+		<ptr target="https://doi.org/10.1093/femsle/fnv213" />
+	</analytic>
+	<monogr>
+		<title level="j">FEMS Microbiol Lett</title>
+		<imprint>
+			<biblScope unit="volume">362</biblScope>
+			<biblScope unit="page">213</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Alterations in the spectrum of spontaneous rifampicin-resistance mutations in the Bacillus subtilis rpoB gene after cultivation in the human spaceflight environment</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fajardo-Cavazos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Leehan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2018.00192</idno>
+		<ptr target="https://doi.org/10.3389/fmicb.2018.00192" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">192</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The spectrum of spontaneous rifampin resistance mutations in the Bacillus subtilis rpoB gene depends on the growth environment</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Leehan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.01237-21</idno>
+		<ptr target="https://doi.org/10.1128/AEM.01237-21" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="1237" to="1258" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Mutagenesis of Bacillus subtilis spores exposed to simulated space environment</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Munakata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hieda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Panitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Horneck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Abstr 35th COSPAR Sci Assembly</title>
+		<meeting><address><addrLine>Paris, France</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>abstr 04-A-00898</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Accumulation of mutants in &quot;aging&quot; bacterial colonies is due to growth under selection, not stress-induced mutagenesis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wrande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hughes</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0804739105</idno>
+		<ptr target="https://doi.org/10.1073/pnas.0804739105" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="11863" to="11868" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Fitness of spontaneous rifampicin-resistant Staphylococcus aureus isolates in a biofilm environment</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Maudsdotter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ushijima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Morikawa</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2019.00988</idno>
+		<ptr target="https://doi.org/10.3389/fmicb.2019.00988" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">988</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Activating transcription in bacteria</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Minchin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sjw</forename><surname>Busby</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-micro-092611-150012</idno>
+		<ptr target="https://doi.org/10.1146/annurev-micro-092611-150012" />
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="125" to="152" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">DNA supercoiling and prokaryotic transcription</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Pruss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Drlica</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0092-8674(89)90574-6</idno>
+		<ptr target="https://doi.org/10.1016/0092-8674(89)90574-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="521" to="523" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">DNA supercoiling is a fundamental regulatory principle in the control of bacterial gene expression</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Dorman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Dorman</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12551-016-0205-y</idno>
+		<ptr target="https://doi.org/10.1007/s12551-016-0205-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Biophys Rev</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="209" to="220" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Antimicrobial resistance in bacteria: mechanisms, evolution, and persistence</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Christaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marcou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tofarides</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00239-019-09914-3</idno>
+		<ptr target="https://doi.org/10.1007/s00239-019-09914-3" />
+	</analytic>
+	<monogr>
+		<title level="j">J Mol Evol</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="26" to="40" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Amelioration of the deleterious pleiotropic effects of an adaptive mutation in Bacillus subtilis</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Cohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zawadzki</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1558-5646.1994.tb01296.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1558-5646.1994.tb01296.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Evolution</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="81" to="95" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Antibiotic resistance and its cost: is it possible to reverse resistance?</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Andersson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hughes</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrmicro2319</idno>
+		<ptr target="https://doi.org/10.1038/nrmicro2319" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="260" to="271" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Linking jasmonic acid signaling, root exudates, and rhizosphere microbiomes</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Carvalhais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Dennis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Badri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Kidd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Vivanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Schenk</surname></persName>
+		</author>
+		<idno type="DOI">10.1094/MPMI-01-15-0016-R</idno>
+		<ptr target="https://doi.org/10.1094/MPMI-01-15-0016-R" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol Plant Microbe Interact</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1049" to="1058" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">In vitro and in vivo fitness costs associated with Mycobacterium tuberculosis RpoB mutation H526D</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rifat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Campodónico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Karakousis</surname></persName>
+		</author>
+		<idno type="DOI">10.2217/fmb-2017-0022</idno>
+		<ptr target="https://doi.org/10.2217/fmb-2017-0022" />
+	</analytic>
+	<monogr>
+		<title level="j">Future Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="753" to="765" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Use of adaptive laboratory evolution to discover key mutations enabling rapid growth of Escherichia coli K-12 MG1655 on glucose minimal medium</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Lacroix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Sandberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Utrilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ebrahim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guzman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Szubin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Palsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Feist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.02246-14</idno>
+		<ptr target="https://doi.org/10.1128/AEM.02246-14" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="17" to="30" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Evolution of Escherichia coli to 42°C and subsequent genetic engineering reveals adaptive mechanisms and novel mutations</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Sandberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Lacroix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ebrahim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bonde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Herrgard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Palsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sommer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Feist</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/molbev/msu209</idno>
+		<ptr target="https://doi.org/10.1093/molbev/msu209" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Evol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="2647" to="2662" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">RNA polymerase mutants found through adaptive evolution reprogram Escherichia coli for optimal growth in minimal media</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Conrad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Frazier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Joyce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B-K</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Landick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">Ø</forename><surname>Palsson</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0911253107</idno>
+		<ptr target="https://doi.org/10.1073/pnas.0911253107" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="20500" to="20505" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Global rebalancing of cellular resources by pleiotropic point mutations illustrates a multi-scale mechanism of adaptive evolution</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Utrilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mccloskey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Armenta-Medina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Feist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Palsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cels.2016.04.003</idno>
+		<ptr target="https://doi.org/10.1016/j.cels.2016.04.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell Syst</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="260" to="271" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">First-step mutations during adaptation restore the expression of hundreds of genes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rodríguez-Verdugo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Tenaillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Gaut</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/molbev/msv228</idno>
+		<ptr target="https://doi.org/10.1093/molbev/msv228" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol Biol Evol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="25" to="39" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The RpoB H 481 Y rifampicin resistance mutation and an active stringent response reduce virulence and increase resistance to innate immune responses in Staphylococcus aureus</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Cameron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Kostoulias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stepnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Tuck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Yeaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Peleg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Stinear</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Howden</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/infdis/jis772</idno>
+		<ptr target="https://doi.org/10.1093/infdis/jis772" />
+	</analytic>
+	<monogr>
+		<title level="j">J Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">207</biblScope>
+			<biblScope unit="page" from="929" to="939" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Fitness cost of rifampin resistance in Neisseria meningitidis: in vitro study of mechanisms associated with rpoB H553Y mutation</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Colicchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pagliuca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pastore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Cicatiello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pagliarulo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Talà</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Scaglione</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Sammartino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Alifano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Salvatore</forename><forename type="middle">P</forename></persName>
+		</author>
+		<idno type="DOI">10.1128/AAC.01746-15</idno>
+		<ptr target="https://doi.org/10.1128/AAC.01746-15" />
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob Agents Chemother</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="7637" to="7649" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Global effect of an RNA polymerase b-subunit mutation on gene expression in the radiation-resistant bacterium Deinococcus radiodurans</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hua</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11427-011-4209-3</idno>
+		<ptr target="https://doi.org/10.1007/s11427-011-4209-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci China Life Sci</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="854" to="862" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Linking system-wide impacts of RNA polymerase mutations to the fitness cost of rifampin resistance in Pseudomonas aeruginosa</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Preston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Maclean</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/mBio.01562-14</idno>
+		<ptr target="https://doi.org/10.1128/mBio.01562-14" />
+	</analytic>
+	<monogr>
+		<title level="j">mBio</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1562" to="1576" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">RNA polymerase mutation activates the production of a dormant antibiotic 3,39-neotrehalosadiamine via an autoinduction mechanism in Bacillus subtilis</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Inaoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ochi</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M309925200</idno>
+		<ptr target="https://doi.org/10.1074/jbc.M309925200" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="3885" to="3892" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Malthusian parameters as estimators of the fitness of microbes: a cautionary tale about the low side of high throughput</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Concepción-Acevedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">N</forename><surname>Chaudhry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Levin</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0126915</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0126915" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">126915</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Increased fitness and alteration of metabolic pathways during Bacillus subtilis evolution in the laboratory</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Maughan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.00374-11</idno>
+		<ptr target="https://doi.org/10.1128/AEM.00374-11" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="4105" to="4118" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Fitness trade-offs in competence differentiation of Bacillus subtilis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yüksel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Power</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ribbe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Volkmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Maier</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2016.00888</idno>
+		<ptr target="https://doi.org/10.3389/fmicb.2016.00888" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">888</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Increased competitive fitness of Bacillus subtilis under nonsporulating conditions via inactivation of pleiotropic regulators AlsR, SigD, and SigW</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.07742-11</idno>
+		<ptr target="https://doi.org/10.1128/AEM.07742-11" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="3500" to="3503" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Source of the fitness defect in rifamycin-resistant Mycobacterium tuberculosis RNA polymerase and the mechanism of compensation by mutations in the b9 subunit</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Stefan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Ugur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Garcia</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AAC.00164-18</idno>
+		<ptr target="https://doi.org/10.1128/AAC.00164-18" />
+	</analytic>
+	<monogr>
+		<title level="j">Antimicrob Agents Chemother</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="164" to="182" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Transcriptional approach for decoding the mechanism of rpoC compensatory mutations for the fitness cost in rifampicin-resistant Mycobacterium tuberculosis</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Karakousis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y-F</forename><surname>Yao</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmicb.2018.02895</idno>
+		<ptr target="https://doi.org/10.3389/fmicb.2018.02895" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2018">2018. 2895</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Mechanisms of fitness cost reduction for rifampicin-resistant strains with deletion or duplication mutations in rpoB</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Brandis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hughes</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-018-36005-y</idno>
+		<ptr target="https://doi.org/10.1038/s41598-018-36005-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">17488</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Genetic analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Cutting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vander</forename><surname>Horn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Molecular biological methods for Bacillus</title>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Harwood</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Cutting</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Chichester, England</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Wiley &amp; Sons Ltd</publisher>
+			<date type="published" when="1990">1990</date>
+			<biblScope unit="page" from="27" to="74" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Miller</surname></persName>
+		</author>
+		<title level="m">Experiments in molecular genetics</title>
+		<meeting><address><addrLine>Cold Spring Harbor, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cold Spring Harbor Laboratory Press</publisher>
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Cultivation in space flight produces minimal alterations in the susceptibility of Bacillus subtilis cells to 72 different antibiotics and growth-inhibiting compounds</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fajardo-Cavazos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.01584-17</idno>
+		<ptr target="https://doi.org/10.1128/AEM.01584-17" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="1584" to="1601" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Transformation of biochemically deficient strains of Bacillus subtilis by deoxyribonucleate</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Spizizen</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.44.10.1072</idno>
+		<ptr target="https://doi.org/10.1073/pnas.44.10.1072" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="1072" to="1078" />
+			<date type="published" when="1958">1958</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Editing of the Bacillus subtilis genome by the CRISPR-Cas9 system</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Altenbuchner</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.01453-16</idno>
+		<ptr target="https://doi.org/10.1128/AEM.01453-16" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="5421" to="5427" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Inverse PCR for point mutation introduction</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barroca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Collins</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4939-7060-5_5</idno>
+		<ptr target="https://doi.org/10.1007/978-1-4939-7060-5_5" />
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol Biol</title>
+		<imprint>
+			<biblScope unit="volume">1620</biblScope>
+			<biblScope unit="page" from="87" to="100" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">The population genetics of phenotypic deterioration in experimental populations of Bacillus subtilis</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Maughan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Callicotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hancock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Birky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Masel</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.0014-3820.2006.tb01148.x</idno>
+		<ptr target="https://doi.org/10.1111/j.0014-3820.2006.tb01148.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Evolution</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="686" to="695" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Second-order selection for evolvability in a large Escherichia coli population</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Barrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Shrestha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Kauth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Lenski</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1198914</idno>
+		<ptr target="https://doi.org/10.1126/science.1198914" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">331</biblScope>
+			<biblScope unit="page" from="1433" to="1436" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title level="m" type="main">FastQC: a quality control tool for high throughput sequence data</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Andrews</surname></persName>
+		</author>
+		<ptr target="http://www.bioinformatics.babraham.ac.uk/projects/fastqc/" />
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>Babraham Bioinformatics</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Fast gapped-read alignment with Bowtie 2</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Langmead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Salzberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.1923</idno>
+		<ptr target="https://doi.org/10.1038/nmeth.1923" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="357" to="359" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">LoFreq: a sequence-quality aware, ultrasensitive variant caller for uncovering cell-population heterogeneity from high-throughput sequencing datasets</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ppk</forename><surname>Aw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bertrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ght</forename><surname>Yeo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Ong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Khor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Petric</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Hibberd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nagarajan</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/nar/gks918</idno>
+		<ptr target="https://doi.org/10.1093/nar/gks918" />
+	</analytic>
+	<monogr>
+		<title level="j">Nucleic Acids Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="11189" to="11201" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">An analysis of variance test for normality (complete samples)</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Shapiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Wilk</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/2333709</idno>
+		<ptr target="https://doi.org/10.2307/2333709" />
+	</analytic>
+	<monogr>
+		<title level="j">Biometrika</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="591" to="611" />
+			<date type="published" when="1965">1965</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title level="m" type="main">Tukey&apos;s test</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Haynes</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="page" from="2303" to="2304" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title level="m" type="main">Encyclopedia of systems biology</title>
+		<idno type="DOI">10.1007/978-1-4419-9863-7_1212</idno>
+		<ptr target="https://doi.org/10.1007/978-1-4419-9863-7_1212" />
+		<editor>Dubitzky W, Wolkenhauer O, Cho K-H, Yokota H</editor>
+		<imprint>
+			<publisher>Springer</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">A multiple comparison procedure for comparing several treatments with a control</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Dunnett</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01621459.1955.10501294</idno>
+		<ptr target="https://doi.org/10.1080/01621459.1955.10501294" />
+	</analytic>
+	<monogr>
+		<title level="j">J Am Stat Assoc</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="1096" to="1121" />
+			<date type="published" when="1955">1955</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">PhoP-P and RNA polymerase sigmaA holoenzyme are sufficient for transcription of Pho regulon promoters in Bacillus subtilis: PhoP-P activator sites within the coding region stimulate transcription in vitro</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Hulett</surname></persName>
+		</author>
+		<idno type="DOI">10.1046/j.1365-2958.1998.00882.x</idno>
+		<ptr target="https://doi.org/10.1046/j.1365-2958.1998.00882.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Mol Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1187" to="1197" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Experimental evolution of enhanced growth by Bacillus subtilis at low atmospheric pressure: genomic changes revealed by whole-genome sequencing</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Waters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Zeigler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Nicholson</surname></persName>
+		</author>
+		<idno type="DOI">10.1128/AEM.01690-15</idno>
+		<ptr target="https://doi.org/10.1128/AEM.01690-15" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Environ Microbiol</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="7525" to="7532" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Plasmids for ectopic integration in Bacillus subtilis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Guérout-Fleury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Frandsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Stragier</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0378-1119(96)00404-0</idno>
+		<ptr target="https://doi.org/10.1016/s0378-1119(96)00404-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Gene</title>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="page" from="57" to="61" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
