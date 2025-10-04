@@ -1,5 +1,6 @@
 import os
 import xml.etree.ElementTree as ET
+import csv  # CSV modülünü içe aktarıyoruz
 
 def count_keywords():
     """
@@ -59,9 +60,21 @@ if __name__ == "__main__":
     count_results = count_keywords()
 
     if count_results:
-        print("Keyword Count Results:")
-        # Sort the results alphabetically by keyword for better readability
-        for keyword, count in sorted(count_results.items()):
-            print(f"- {keyword}: found in {count} files")
+        # Print the results
+        csv_file_name = 'summarizating_files/keyword_counts.csv'
+        try:
+            with open(csv_file_name, mode='w', newline='', encoding='utf-8') as csv_file:
+                writer = csv.writer(csv_file)
+
+                writer.writerow(['keyword', 'count'])
+
+                # Write each keyword and its count to the CSV file
+                for keyword, count in sorted(count_results.items()):
+                    writer.writerow([keyword, count])
+            
+            print(f"Results successfully saved to '{csv_file_name}'")
+
+        except Exception as e:
+            print(f"An error occurred while writing to CSV file: {e}")
     else:
         print("No .xml files were found in the grobid_output directory, or no files contained the <keywords> tag.")
