@@ -1,77 +1,72 @@
 From the Publication Summary or Abstract below, extract the following Entities & Relationships in the strict format below.
-
 Rules:
 0. ALWAYS FINISH THE OUTPUT. Never send partial responses.
-1. Extract **as many relevant entities and relationships as possible**. Do not limit to one instance per label — if multiple Objectives, Challenges, Experiments, etc. are mentioned, include them all as distinct nodes with unique ids.
-2. Extract Entities with these labels and properties:
-   - label: 'Publication', id:string, title:string, summary:string  
-     id = lowercase full title (no spaces, symbols, or hyphens)
-   - label: 'Objective', id:string, description:string  
-     id = short alphanumeric key derived from text (no spaces or symbols)
-   - label: 'Challenge', id:string, description:string  
-   - label: 'Methodology', id:string, name:string, description:string  
-   - label: 'Experiment', id:string, name:string, description:string  
-   - label: 'BiologicalEntity', id:string, name:string, type:string  
-   - label: 'Measurement', id:string, name:string, description:string  
-   - label: 'Phenomenon', id:string, name:string, description:string  
-   - label: 'Result', id:string, description:string  
-   - label: 'Technology', id:string, name:string, description:string  
-   - label: 'FundingSource', id:string, name:string, grant:string  
-   - label: 'ResearchGroup', id:string, name:string, institution:string  
-   - label: 'Audience', id:string, name:string, type:string  
-
-   All ids must be unique, lowercase, and camelCase where applicable.
-
-3. Extract Relationships in format:
-   publicationId|HAS_OBJECTIVE|objectiveId  
-   publicationId|FACES_CHALLENGE|challengeId  
-   publicationId|USES_METHOD|methodologyId  
-   methodologyId|APPLIED_IN|experimentId  
-   experimentId|INVOLVES_ENTITY|biologicalEntityId  
-   experimentId|PERFORMS_MEASUREMENT|measurementId  
-   experimentId|OBSERVES_PHENOMENON|phenomenonId  
-   experimentId|YIELDS_RESULT|resultId  
-   publicationId|USES_TECH|technologyId  
-   publicationId|SUPPORTED_BY|fundingSourceId  
-   publicationId|CONDUCTED_BY|researchGroupId  
-   knowledgeGraph|TARGETS_AUDIENCE|audienceId
-
-4. Final output must be a **single JSON object** directly loadable into Neo4j (no text explanation, no markdown) with:
+	1.	Extract as many relevant entities and relationships as possible. Do not limit to one instance per label — if multiple Objectives, Challenges, Experiments, etc. are mentioned, include them all as distinct nodes with unique ids.
+	2.	Extract Entities with these labels and properties:
+	•	All nodes must include these attributes:
+	•	label = type of node
+	•	id = name (human readable and short) !!only exception is publication where id would be the title of the paper!!
+	•	description = description
+	•	Additionally, the LLM can add other attributes for the node as long as they are not repeated information, and the new added info is relevant.
+	•	label: ‘Publication’, id:string, summary:string, DOI: string (only include DOI if you are sure that is the specific one of the publication)
+	•	label: ‘Objective’, id:string, description:string
+	•	label: ‘Challenge’, id:string, description:string
+	•	label: ‘Methodology’, id:string, description:string
+	•	label: ‘Experiment’, id:string, description:string
+	•	label: ‘BiologicalEntity’, id:string, type:string
+	•	label: ‘Measurement’, id:string, description:string
+	•	label: ‘Phenomenon’, id:string, description:string
+	•	label: ‘Result’, id:string, description:string
+	•	label: ‘Technology’, id:string, description:string
+	•	label: ‘FundingSource’, id:string, grant:string
+	•	label: ‘ResearchGroup’, id:string, institution:string
+	•	label: ‘Audience’, id:string, type:string
+	2.	All ids must be unique, lowercase, and camelCase where applicable.
+	3.	Extract Relationships in format:
+publicationId|HAS_OBJECTIVE|objectiveId
+publicationId|FACES_CHALLENGE|challengeId
+publicationId|USES_METHOD|methodologyId
+methodologyId|APPLIED_IN|experimentId
+experimentId|INVOLVES_ENTITY|biologicalEntityId
+experimentId|PERFORMS_MEASUREMENT|measurementId
+experimentId|OBSERVES_PHENOMENON|phenomenonId
+experimentId|YIELDS_RESULT|resultId
+publicationId|USES_TECH|technologyId
+publicationId|SUPPORTED_BY|fundingSourceId
+publicationId|CONDUCTED_BY|researchGroupId
+knowledgeGraph|TARGETS_AUDIENCE|audienceId
+	4.	Final output must be a single JSON object directly loadable into Neo4j (no text explanation, no markdown) with:
 {
-  "nodes": [
-    {"label": "Publication", "id": "...", "title": "...", "summary": "..."},
-    {"label": "Objective", "id": "...", "description": "..."},
-    {"label": "Challenge", "id": "...", "description": "..."},
-    {"label": "Methodology", "id": "...", "name": "...", "description": "..."},
-    {"label": "Experiment", "id": "...", "name": "...", "description": "..."},
-    {"label": "BiologicalEntity", "id": "...", "name": "...", "type": "..."},
-    {"label": "Measurement", "id": "...", "name": "...", "description": "..."},
-    {"label": "Phenomenon", "id": "...", "name": "...", "description": "..."},
-    {"label": "Result", "id": "...", "description": "..."},
-    {"label": "Technology", "id": "...", "name": "...", "description": "..."},
-    {"label": "FundingSource", "id": "...", "name": "...", "grant": "..."},
-    {"label": "ResearchGroup", "id": "...", "name": "...", "institution": "..."},
-    {"label": "Audience", "id": "...", "name": "...", "type": "..."}
-  ],
-  "relationships": [
-    {"from": "publicationId", "type": "HAS_OBJECTIVE", "to": "objectiveId"},
-    {"from": "publicationId", "type": "FACES_CHALLENGE", "to": "challengeId"},
-    {"from": "publicationId", "type": "USES_METHOD", "to": "methodologyId"},
-    {"from": "methodologyId", "type": "APPLIED_IN", "to": "experimentId"},
-    {"from": "experimentId", "type": "INVOLVES_ENTITY", "to": "biologicalEntityId"},
-    {"from": "experimentId", "type": "PERFORMS_MEASUREMENT", "to": "measurementId"},
-    {"from": "experimentId", "type": "OBSERVES_PHENOMENON", "to": "phenomenonId"},
-    {"from": "experimentId", "type": "YIELDS_RESULT", "to": "resultId"},
-    {"from": "publicationId", "type": "USES_TECH", "to": "technologyId"},
-    {"from": "publicationId", "type": "SUPPORTED_BY", "to": "fundingSourceId"},
-    {"from": "publicationId", "type": "CONDUCTED_BY", "to": "researchGroupId"},
-    {"from": "knowledgeGraph", "type": "TARGETS_AUDIENCE", "to": "audienceId"}
-  ]
+“nodes”: 
+{“label”: “Publication”, “id”: “…” , “summary”: “…”},
+{“label”: “Objective”, “id”: “…”, “description”: “…”},
+{“label”: “Challenge”, “id”: “…”, “description”: “…”},
+{“label”: “Methodology”, “id”: “…”, “name”: “…”, “description”: “…”},
+{“label”: “Experiment”, “id”: “…”, “name”: “…”, “description”: “…”},
+{“label”: “BiologicalEntity”, “id”: “…”, “name”: “…”, “type”: “…”},
+{“label”: “Measurement”, “id”: “…”, “name”: “…”, “description”: “…”},
+{“label”: “Phenomenon”, “id”: “…”, “name”: “…”, “description”: “…”},
+{“label”: “Result”, “id”: “…”, “description”: “…”},
+{“label”: “Technology”, “id”: “…”, “name”: “…”, “description”: “…”},
+{“label”: “FundingSource”, “id”: “…”, “name”: “…”, “grant”: “…”},
+{“label”: “ResearchGroup”, “id”: “…”, “name”: “…”, “institution”: “…”},
+{“label”: “Audience”, “id”: “…”, “name”: “…”, “type”: “…”}
+,
+“relationships”: 
+{“from”: “publicationId”, “type”: “HAS_OBJECTIVE”, “to”: “objectiveId”},
+{“from”: “publicationId”, “type”: “FACES_CHALLENGE”, “to”: “challengeId”},
+{“from”: “publicationId”, “type”: “USES_METHOD”, “to”: “methodologyId”},
+{“from”: “methodologyId”, “type”: “APPLIED_IN”, “to”: “experimentId”},
+{“from”: “experimentId”, “type”: “INVOLVES_ENTITY”, “to”: “biologicalEntityId”},
+{“from”: “experimentId”, “type”: “PERFORMS_MEASUREMENT”, “to”: “measurementId”},
+{“from”: “experimentId”, “type”: “OBSERVES_PHENOMENON”, “to”: “phenomenonId”},
+{“from”: “experimentId”, “type”: “YIELDS_RESULT”, “to”: “resultId”},
+{“from”: “publicationId”, “type”: “USES_TECH”, “to”: “technologyId”},
+{“from”: “publicationId”, “type”: “SUPPORTED_BY”, “to”: “fundingSourceId”},
+{“from”: “publicationId”, “type”: “CONDUCTED_BY”, “to”: “researchGroupId”},
+{“from”: “knowledgeGraph”, “type”: “TARGETS_AUDIENCE”, “to”: “audienceId”}
+
 }
-
-5. Do not include any markdown, code block formatting, or commentary.
-6. Every entity and relationship must have unique ids.
-7. Prioritize completeness — extract every relevant node or relation that can be reasonably inferred from the text.
-
-Case Sheet:
-$ctext
+	5.	Do not include any markdown, code block formatting, or commentary.
+	6.	Every entity and relationship must have unique ids.
+	7.	Prioritize completeness — extract every relevant node or relation that can be reasonably inferred from the text.
