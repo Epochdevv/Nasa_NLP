@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* NASA Color Palette */
+    --background: 220 25% 8%;
+    --foreground: 210 40% 98%;
+
+    --card: 220 22% 12%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 25% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    /* NASA Deep Space Blue */
+    --primary: 214 89% 31%;
+    --primary-foreground: 210 40% 98%;
+
+    /* Mission Red Accent */
+    --secondary: 9 95% 56%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 20% 25%;
+    --muted-foreground: 215 20% 65%;
+
+    /* Bio-tech Cyan */
+    --accent: 187 80% 55%;
+    --accent-foreground: 220 25% 8%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 20% 20%;
+    --input: 217 20% 18%;
+    --ring: 214 89% 31%;
+
+    --radius: 0.75rem;
+
+    /* Custom NASA Theme Variables */
+    --nasa-blue: 214 89% 31%;
+    --nasa-red: 9 95% 56%;
+    --bio-cyan: 187 80% 55%;
+    --bio-green: 142 76% 45%;
+    --space-dark: 220 25% 8%;
+    --space-mid: 220 22% 12%;
+    
+    /* Gradients */
+    --gradient-space: linear-gradient(135deg, hsl(214 89% 31% / 0.2) 0%, hsl(220 25% 8%) 100%);
+    --gradient-mission: linear-gradient(90deg, hsl(214 89% 31%) 0%, hsl(187 80% 55%) 100%);
+    
+    /* Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 25% 8%;
+    --foreground: 210 40% 98%;
+
+    --card: 220 22% 12%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 25% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 214 89% 31%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 9 95% 56%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 20% 25%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 187 80% 55%;
+    --accent-foreground: 220 25% 8%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 20% 20%;
+    --input: 217 20% 18%;
+    --ring: 214 89% 31%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-card/40 backdrop-blur-xl border border-border/50;
+  }
+  
+  .glow-text {
+    text-shadow: 0 0 20px hsl(var(--accent) / 0.5);
+  }
+  
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .animate-pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+  
+  @keyframes pulse-glow {
+    0%, 100% {
+      box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
+    }
+    50% {
+      box-shadow: 0 0 40px hsl(var(--primary) / 0.6);
+    }
+  }
+}
